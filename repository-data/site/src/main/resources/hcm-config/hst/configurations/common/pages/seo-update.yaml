@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/seo-update:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.SEOUpdateComponent
+        hst:template: seo-update-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: seo/main

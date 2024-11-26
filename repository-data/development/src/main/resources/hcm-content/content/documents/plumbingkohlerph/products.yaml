@@ -1,0 +1,7 @@
+/content/documents/plumbingkohlerph/products:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 7d1ebf69-5e5c-46fd-8b36-f355581160d7
+  hippo:name: Products
+  hippotranslation:id: 177f4789-ecb0-4fab-9ad8-15b63afa745e
+  hippotranslation:locale: en_PH

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <name>project-settings</name>
+    <applicationSubModule>application</applicationSubModule>
+    <beansFolder>site/src/main/java</beansFolder>
+    <cmsDependenciesModule>cms-dependencies</cmsDependenciesModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>true</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <projectNamespace>kohler</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>com.kohler.beans</selectedBeansPackage>
+    <selectedComponentsPackage>com.kohler.components</selectedComponentsPackage>
+    <selectedProjectPackage>com.kohler</selectedProjectPackage>
+    <selectedRestPackage>com.kohler.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteContextPath>/site</siteContextPath>
+    <siteModule>site</siteModule>
+    <templateLanguage>freemarker</templateLanguage>
+    <useSamples>true</useSamples>
+    <webfileBundleName>site</webfileBundleName>
+    <webfilesSubModule>webfiles</webfilesSubModule>
+</project>

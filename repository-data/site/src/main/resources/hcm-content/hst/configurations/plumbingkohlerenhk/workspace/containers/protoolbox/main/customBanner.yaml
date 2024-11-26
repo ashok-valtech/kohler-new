@@ -1,0 +1,8 @@
+/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers/protoolbox/main/customBanner:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+  hst:label: custom Banner
+  hst:parameternames: [document]
+  hst:parametervalues: [custombanner/protoolboxbanner]
+  hst:template: customBanner
+  hst:xtype: hst.item

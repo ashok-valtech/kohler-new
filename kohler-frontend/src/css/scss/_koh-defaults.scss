@@ -1,0 +1,1392 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+/* _koh-defaults.scss
+
+   Partial SCSS containing some default settings for Kohler website; use sparingly
+*/
+
+[data-icon]:after {
+    font-family: KohlerIcons;
+    /* Using Kohler's custom icon font */
+    content: attr(data-icon);
+}
+
+.koh-mar-top-5 {
+    margin-top: 5px;
+}
+.koh-mar-bot-5 {
+    margin-bottom: 5px;
+}
+.koh-error {
+    margin-top: 1px;
+    color: #e50000;
+    font-size: 1.2rem;
+}
+.koh-sfmc-error {
+  margin-top: 15px;
+  color: #e50000;
+  font-size: 1.2rem;
+}
+.koh-file-upload-error {
+  margin-top: 1px;
+  color: #e50000;
+  font-size: 1.2rem;
+}
+
+.koh-file-upload-error {
+  margin-top: 15px;
+  color: #e50000;
+  font-size: 1.2rem;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.koh-pdf-link {
+    padding-left: 1.3em;
+    background-image: url(../images/Adobe_PDF_file_icon_32x32.png);
+    background-size: 1em 1em;
+    background-repeat: no-repeat;
+}
+
+.koh-file-link {
+    padding-left: 1.3em;
+    background-image: url(../images/Kohler_Download_icon_18x18.png);
+    background-size: 1em 1em;
+    background-repeat: no-repeat;
+}
+
+// Back to top
+.koh-back-top,
+.c-koh-product-faceted-search .koh-back-top {
+    position: fixed;
+    bottom: 120px;
+    right: 60px;
+    margin: 0;
+    width: 56px;
+    height: 56px;
+    z-index: 100;
+    @media #{$koh-media-screen-xs-max} {
+      bottom: 75px;
+    }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        right: 30px;
+    }
+    button {
+        display: none;
+        width: 56px;
+        height: 56px;
+        padding: 0;
+        font-size: 8px;
+        font-weight: 700;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        background: $koh-color-smd-grey;
+        transition: opacity 1s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            background: $koh-color-sdk-grey;
+        }
+        span {
+            display: block;
+            height: 18px;
+            margin: 7px 0 5px 0;
+            font-size: 18px;
+            font-weight: normal;
+        }
+    }
+}
+
+#back-to-top {
+    height: 55px;
+    text-align: center;
+    color: #000;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    filter: alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        margin-right: 30px;
+    }
+    button {
+        display: inline-block;
+        cursor: pointer;
+        font-family: HelveticaBold, Helvetica, sans-serif;
+        font-weight: 700;
+        font-style: normal!important;
+        color: #232323;
+        font-size: 13px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 40px;
+        height: 56px;
+        width: 56px;
+        position: relative;
+        background-color: #dbdbdb;
+        outline: none;
+    }
+    i:before {
+        content: "\e613"!important;
+        display: inline-block;
+        font-family: KohlerIcons;
+        speak: none;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased
+    }
+    span {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        font-size: 8px
+    }
+}
+
+// WhatsApp button
+.koh-whatsApp-btn {
+  padding: 0px 12px;
+  border-radius: 12px 12px 0 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  color: #fff!important;
+  fill: #fff!important;
+  position: fixed;
+  right: 12px;
+  bottom: 0px;
+  line-height: 41px;
+  z-index: 100;
+  max-width: 170px;
+  min-width: 100px;
+  text-align: start;
+  width: auto;
+  display: flex;
+  justify-content: center;
+
+  @media #{$koh-media-screen-xs-max} {
+    border-radius: 25px;
+    bottom: 12px;
+    max-width: 118px;
+    min-width: 80px;
+  }
+  .icon {
+    &.koh-icon-envelope {
+      background: url(../images/chat.png) no-repeat;
+      width: 12px;
+      height: 12px;
+      float: left;
+      line-height: 41px;
+      background-size: contain;
+      position: relative;
+      top: 14px;
+      margin-right: 5px;
+    }
+  }
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+
+  .chat-btn-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80%;
+  }
+}
+
+// chat with us
+.koh-chat-with-us {
+  font-family: HelveticaRoman, Helvetica, sans-serif;
+  .chat-open-dialog {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    padding: 0px 12px;
+    border-radius: 12px 12px 0 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    color: #fff!important;
+    fill: #fff!important;
+    position: fixed;
+    right: 12px;
+    bottom: 0px;
+    line-height: 41px;
+    z-index: 999;
+    max-width: 170px;
+    min-width: 100px;
+    text-align: start;
+    width: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    @media #{$koh-media-screen-xs-max} {
+      border-radius: 25px;
+      bottom: 12px;
+      max-width: 118px;
+      min-width: 80px;
+    }
+    .fa-chat {
+      background: url(../images/chat.png) no-repeat 0 0;
+      padding: 1px 0px;
+      position: relative;
+      top: 14px;
+      width: 12px;
+      height: 12px;
+      background-size: contain;
+      float: left;
+      margin-right: 5px;
+    }
+    &.active {
+      opacity: 0;
+    }
+  }
+  .chat-button-destroy {
+    opacity: 0;
+    z-index: -5;
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    @media #{$koh-media-screen-xs-max} {
+      bottom: 12px;
+    }
+    .fa-close {
+      background: url(../icons/icons8-cancel-50.png) no-repeat 0 0;
+      background-size: 100%;
+      padding: 15px;
+      position: relative;
+      top: 5px;
+      left: 0px;
+    }
+    &.active {
+      opacity: 1;
+      z-index: 999;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 18px rgba(0, 0, 0, 0.16);
+      background: #386195;
+      background-size: 14px;
+      display: block;
+      cursor: pointer;
+      transform: rotate(180deg);
+    }
+  }
+  .chat-popup {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    width: 200px;
+    max-height: 236px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    background: white;
+    overflow: hidden;
+    @media #{$koh-media-screen-xs-max} {
+      bottom: 70px;
+    }
+    &.active {
+      opacity: 1;
+      z-index: 2147483000;
+      height: calc(100% - 95px - 20px);
+      max-height: 236px;
+      -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16);
+      -moz-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16);
+      box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16);
+      border-radius: 6px;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+    }
+    .chat-windows {
+      line-height: normal;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 18px;
+        li {
+          border-bottom: 1px solid #e8e8e8;
+          padding: 18px 5px;
+          font-size: 15px;
+          color: #232323;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          &:last-child {
+            border-bottom: 0;
+          }
+          .li-icon {
+            padding: 18px;
+            position: relative;
+            top: 7px;
+            left: -2px;
+            margin-right: 5px;
+          }
+          .fa-call {
+            background: url(../icons/KSS_Thai_WEB_Call_Us_Icon.png) no-repeat 0
+              2px;
+          }
+          .fa-line {
+            background: url(../icons/KSS_Thai_WEB_Chat_with_Us_Line_Icon.png)
+              no-repeat 0 2px;
+          }
+          .fa-whatsapp {
+            background: url(../icons/KSS_Thai_WEB_Chat_with_Us_Whatsapp_Icon.png)
+              no-repeat 0 2px;
+          }
+          .fa-learnmore {
+            background: url(../icons/KSS_Thai_WEB_email-icon.png) no-repeat
+              0 2px;
+          }
+        }
+      }
+    }
+  }
+  .chat-btn-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80%;
+  }
+}
+
+// Appointly button
+.koh-appointly-btn {
+  padding: 0 20px;
+  border-radius: 999rem;
+  font-size: 1.6rem;
+  background-color: #3b659c;
+  color: #fff !important;
+  fill: #fff !important;
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  margin: 0 1px 60px 60px;
+  line-height: 41px;
+  z-index: 100;
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.koh-fixed-find-store-btn {
+  // padding: 14px 16px;
+  border-radius: 999rem;
+  font-size: 1.6rem;
+  background-color: #3B659C;
+  color: #FFF!important;
+  fill: #FFF!important;
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  line-height: 41px;
+  z-index: 100;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+  max-width: fit-content;
+  .icon {
+      &.koh-icon-envelope {
+          // margin: 12px 6px 0 0;
+          background: url(../images/branding-bar-icons.png) 0 -25px no-repeat;
+          width: 10px;
+          height: 15px;
+          float: left;
+          line-height: 41px;
+          position: fixed;
+      }
+  }
+  &:visited, &:hover, &:focus, &:active  {
+      text-decoration: none;
+  }
+
+  .find-store-text {
+    display: inline;
+    margin-right: 10px;  
+    position: relative;
+    // left: 120px;
+    // left: 30px;
+    height: 100%;
+    // transition: left 230ms ease-in-out;
+    animation: out 4s forwards;
+  }
+
+  &:hover {
+    width: 100%;
+    .find-store-text {
+      // left: 15px;
+      animation: in 0.4s forwards;
+    }
+  }
+  transition: all 300ms ease-in-out;
+}
+
+@keyframes in {
+0% {
+  left: 30px;
+}
+100% {
+  left: 15px;
+}
+}
+
+@keyframes out {
+0% {
+  left: 15px;
+}
+50% {
+  left: 120px;
+}
+100% {
+  left: 30px;
+}
+
+}
+
+
+// Help Us Improve This Site
+
+.koh-improve-site {
+    @include koh-page-gutters-padding();
+    padding-bottom: 25px;
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.2rem;
+        margin-right: 40px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.koh-appointy {
+  padding: 10px 8px;
+  background: $koh-color-white;
+  @media #{$koh-media-screen-md-max} {
+    padding-bottom: 0;
+  }
+
+  .koh-appointy-cta {
+    background: #000 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: $koh-color-white;
+    display: inline-block;
+    font-family: HelveticaBold, Helvetica, sans-serif;
+    font-size: 1.3em;
+    outline: 0 none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    &:hover {
+      background: #bebebe none repeat scroll 0 0;
+      color: $koh-color-pdk-grey;
+    }
+  }
+}
+
+.koh-moxie {
+  padding-bottom: 20px;
+  float: left;
+  background: $koh-color-white;
+  .koh-moxie-cta {
+    background: #000 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: $koh-color-white;
+    display: inline-block;
+    font-family: HelveticaBold, Helvetica, sans-serif;
+    font-size: 1.3em;
+    outline: 0 none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    &:hover {
+      background: #bebebe none repeat scroll 0 0;
+      color: $koh-color-pdk-grey;
+    }
+  }
+}
+
+//Kohler 150 anniversary CSS
+//150 banner component
+.c-koh-150-anniversary-top-banner {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  background: black;
+  padding-bottom: 40px;
+  .koh-150-anniversary-top-banner-container {
+    position: relative;
+    .koh-150-anniversary-banner {
+      .koh-150-anniversary-content {
+        @media screen and (min-width: 768px) {
+          position: absolute;
+          bottom: 20px;
+          padding: 0 15px;
+          color: white;
+        }
+        .koh-150-anniversary-title {
+          font-size: 3rem;
+          width: 70%;
+          position: absolute;
+          line-height: 1.2em;
+          top: 20px;
+          color: white;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          @media screen and (min-width: 768px) {
+            font-size: 6rem;
+            width: 50%;
+            line-height: 1.2em;
+            color: white;
+            position: revert;
+          }
+        }
+        .koh-150-anniversary-2nd-banner-title {
+          font-size: 5rem;
+          width: 100%;
+          line-height: 1.2em;
+          position: initial;
+          padding: 20px 15px;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          color: white;
+          @media screen and (min-width: 768px) {
+            font-size: 4.5rem;
+            width: 40%;
+            line-height: 1.2em;
+            position: initial;
+            padding: 15px 15px;
+          }
+        }
+        .koh-150-anniversary-desc {
+          font-size: 1.5rem;
+          width: 100%;
+          padding: 0 15px;
+          min-height: 50px;
+          margin: 0;
+          color: white;
+          display: inline-block;
+          line-height: 1.2em;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          @media screen and (min-width: 768px) {
+            color: white;
+            font-size: 2.5rem;
+            padding-bottom: 150px;
+            width: 70%;
+            line-height: 1.2em;
+          }
+        }
+        .koh-150-anniversary-2nd-banner-desc {
+          font-size: 15px;
+          width: 100%;
+          padding: 0 15px;
+          min-height: 50px;
+          margin: 0;
+          color: #000;
+          display: inline-block;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          color: white;
+          @media screen and (min-width: 768px) {
+            color: #fff;
+            font-size: 15px;
+            width: 35%;
+            line-height: 1.2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+//150 full width banner
+.c-koh-150-anniversary-full-width-banner {
+  width: 100%;
+  background: black;
+  .koh-150-anniversary-top-banner-container {
+    position: relative;
+    .koh-150-anniversary-banner {
+      .koh-150-anniversary-content {
+        @media screen and (min-width: 768px) {
+          position: absolute;
+          bottom: 20px;
+          padding: 0 15px;
+          color: white;
+        }
+        .koh-150-anniversary-title {
+          font-size: 3rem;
+          width: 70%;
+          position: absolute;
+          line-height: 1.2em;
+          top: 20px;
+          color: white;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          @media screen and (min-width: 768px) {
+            font-size: 6rem;
+            width: 50%;
+            line-height: 1.2em;
+            color: white;
+            position: revert;
+          }
+        }
+        .koh-150-anniversary-desc {
+          font-size: 1.5rem;
+          width: 100%;
+          padding: 0 15px;
+          min-height: 50px;
+          margin: 0;
+          color: white;
+          display: inline-block;
+          line-height: 1.2em;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          @media screen and (min-width: 768px) {
+            color: white;
+            font-size: 2.5rem;
+            padding-bottom: 150px;
+            width: 70%;
+            line-height: 1.2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+//150 video component
+.koh-150-anniversary-video {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  background: black;
+  padding-bottom: 40px;
+}
+
+//150 image CTA component
+.koh-150-anniversary-cta-image-section {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  background: #212121;
+  padding-bottom: 40px;
+  .koh-150-anniversary-cta-image-section-row {
+    padding-top: 20px;
+    .koh-150-anniversary-cta-image-section-title {
+      display: block;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      padding-left: 10px;
+      padding-right: 15px;
+      @media #{$koh-media-nav-breakpoint} {
+        sup {
+          line-height: 1.9;
+          font-family: $koh-font-sans-serif;
+        }
+        margin-top: 0;
+      }
+      .koh-150-anniversary-cta-image-section-inner-title {
+        padding-top: 50px;
+        .koh-150-anniversary-cta-image-section-first-title {
+          text-align: left;
+          color: #232323;
+          font-family: HelveticaRoman, Helvetica, sans-serif;
+          font-size: 2.5em;
+          padding-bottom: 10px;
+          color: white;
+          line-height: 1.2em;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          @media #{$koh-media-nav-breakpoint} {
+            font-size: 4em;
+            padding-bottom: 15px;
+          }
+        }
+        .koh-150-anniversary-cta-image-section-description {
+          font-size: 14px;
+          color: white;
+          line-height: 1.2em;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+        }
+        .koh-150-anniversary-cta {
+          padding: 0 20px;
+          border-radius: 4px;
+          font-size: 14px;
+          background-color: white;
+          color: black;
+          line-height: 41px;
+          display: block;
+          text-align: center;
+          max-width: 100%;
+          text-transform: uppercase;
+          margin: 30px auto;
+          width: 100%;
+          float: left;
+          font-family: HelveticaBold, Helvetica, sans-serif;
+          @media screen and (min-width: 768px) {
+            width: 50%;
+          }
+        }
+      }
+      &:focus {
+        outline: none;
+        text-decoration: none;
+      }
+    }
+    .koh-150-anniversary-cta-image-section-img {
+      display: block;
+      padding-bottom: 25px;
+      padding-left: 10px;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+    @media screen and (min-width: 760px) {
+      .koh-150-anniversary-cta-image-section-img {
+        display: block;
+        float: right;
+        padding-top: 25px;
+      }
+      .koh-150-anniversary-cta-image-section-title {
+        display: block;
+        clear: left;
+        font-family: HelveticaLight, Helvetica, sans-serif;
+      }
+    }
+  }
+}
+
+//3by3 150 tile component
+.c-koh-150-3by3-tile-image {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  margin: 0 auto;
+  background: #212121;
+  padding-bottom: 40px;
+  .koh-150-3by3-tile-promo-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    .koh-150-head-title {
+      padding: 20px 15px;
+      color: white;
+      h2 {
+        font-family: $koh-font-sans-serif-light;
+        margin: 0;
+      }
+    }
+    .koh-150-head-description {
+      color: white;
+      line-height: 1.2em;
+      font-size: 14px;
+      font-family: $koh-font-sans-serif-light;
+      padding: 0 15px;
+      padding-bottom: 10px;
+    }
+    .koh-150-3by3-tile-promo {
+      figure.koh-150-3by3-tile-promo-item {
+        margin: 0 15px;
+        img {
+          min-width: 100%;
+          height: auto;
+        }
+      }
+      .koh-150-image-title {
+        padding-left: 15px;
+        color: white;
+        font-family: $koh-font-sans-serif-light;
+      }
+      .koh-150-image-description {
+        padding-left: 15px;
+        font-size: 14px;
+        color: white;
+        font-family: $koh-font-sans-serif-light;
+        line-height: 1.2em;
+      }
+    }
+  }
+}
+
+//2by2 150 tile component
+.c-koh-150-2by2-tile-image {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  margin: 0 auto;
+  background: #494949;
+  padding-bottom: 40px;
+  .koh-150-2by2-tile-promo-container {
+    background-color: #494949;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    .koh-150-2by2-tile-promo {
+      figure.koh-150-2by2-tile-promo-item {
+        margin: 20px 20px;
+        margin-left: 10px;
+        img {
+          min-width: 100%;
+          height: auto;
+        }
+      }
+      .koh-2by2-150-image-title {
+        padding-left: 10px;
+        color: white;
+        font-family: $koh-font-sans-serif-light;
+      }
+      .koh-2by2-150-image-description {
+        padding-left: 10px;
+        font-size: 14px;
+        color: white;
+        font-family: $koh-font-sans-serif-light;
+        line-height: 1.2em;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+//2by2 150 tile CTA component
+.c-koh-150-2by2-tile-cta-image {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  padding-bottom: 40px;
+  .koh-150-2by2-tile-cta-promo-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    .koh-150-2by2-tile-cta-promo {
+      .koh-150-header-title{
+        padding: 20px 15px;
+        font-family: HelveticaLight,Helvetica,sans-serif;
+        margin: 0;
+      }
+      .koh-150-header-description{
+        line-height: 1.2em;
+        font-size: 14px;
+        font-family: HelveticaLight,Helvetica,sans-serif;
+        padding: 0 15px 10px;
+      }
+      .koh-2by2-150-image-btn {
+        border: 1px solid #494949;
+        padding: 0 20px;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #000;
+        line-height: 41px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        text-transform: uppercase;
+        margin: 30px 20px;
+        width: 50%;
+        float: right;
+        font-family: HelveticaBold,Helvetica,sans-serif;
+        @media screen and (max-width: 426px) {
+          margin: 30px 10px;
+          float: left;
+        }
+        @media screen and (min-width: 427px) and (max-width: 836px) {
+          margin: 32px 10px;
+        }
+        @media screen and (min-width: 427px) and (max-width: 768px) {
+          float: left;
+        }
+        @media screen and (max-width: 280px) {
+          margin: 10px;
+          padding: 0 19px;
+        }
+      }
+      figure.koh-150-2by2-tile-cta-promo-item {
+        margin: 20px 20px;
+        margin-left: 10px;
+        img {
+          min-width: 100%;
+          height: auto;
+        }
+      }
+      .koh-2by2-150-image-cta-title {
+        padding-left: 10px;
+        font-family: $koh-font-sans-serif-light;
+      }
+      .koh-2by2-150-image-cta-description {
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: $koh-font-sans-serif-light;
+        line-height: 1.2em;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+// CMF component CSS
+.koh-cmf-main-content {
+  background: #212121;
+  .koh-main-txt-container {
+    .koh-inner-txt-padding {
+        padding: 71px 0;
+        text-align: center;
+        color: #cdcdcd;
+        font-family: HelveticaRoman, Helvetica, sans-serif;;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: -.65px;
+        max-width: 72.25rem;
+        margin: 0 auto 2.5rem;
+        margin-bottom: 0;
+        @media screen and (max-width: 1023px) {
+          padding: 50px 2pc;
+        }
+    }
+  }
+  .koh-cmf-tabs {
+    ol.koh-cmf-tab-list::-webkit-scrollbar {
+      display: none;
+    }
+    ol.koh-cmf-tab-list {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin: 0;
+      align-items: center;
+      overflow: auto;
+      overflow-y: hidden;
+      padding-left: 0;
+      list-style: none;
+      @media (max-width: 639px) {
+        padding: 0 18px;
+      }
+      @media screen and (max-width: 800px) {
+        justify-content: flex-start;
+        padding: 0 2pc;
+      }
+      a{
+        text-decoration: none;
+      }
+      a > li {
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        font-size: 1.7rem;
+        letter-spacing: -.025rem;
+        line-height: 1.75rem;
+        text-transform: none;
+        font-family: HelveticaBold,Helvetica,sans-serif;
+        border-bottom: 4px solid transparent;
+        white-space: nowrap;
+        cursor: pointer;
+        margin: 0;
+        color: #999;
+        padding: 1.125rem 1.875rem 0.938rem;
+      }
+      li.active {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+}
+
+//four imgae carousel css for CMF page
+.koh-cmf-three-image-carousel {
+  padding-bottom: 60px;
+  background: black;
+  overflow: hidden;
+  .koh-carousel {
+      padding: 0 15px 0 15px;
+      margin: 0 10px;
+      @media #{$koh-media-screen-sm} {
+          padding: 15px 10px 0 10px;
+          margin: 0 50px;
+      }
+      @media #{$koh-media-screen-md-lg} {
+          padding: 0 15px 0 15px;
+          margin: 0 20px;
+      }
+      .koh-main-title {
+          color: white;
+          font-size: 3.5em;
+          text-align: left;
+          padding-top: 50px;
+          padding-bottom: 15px;
+          font-family: $koh-font-sans-serif;
+      }
+      .koh-text-description {
+          color: white;
+          font-size: 14px;
+          padding: 20px;
+          text-align: center;
+          font-family: $koh-font-sans-serif;
+      }
+      .koh-img-carousel {
+          .koh-images-caption {
+              position: relative;
+              .koh-outerLayer-Caption {
+                  color: $koh-color-black;
+                  bottom: 0;
+                  width: 100%;
+                  padding: 12px 20px;
+                  background-color: rgba(0, 0, 0, 0.5);
+                  position: absolute;
+                  .koh-carousel-imageCaption {
+                      color: $koh-color-white;
+                      font-size: 14px;
+                      line-height: 1.2em;
+                      font-family: $koh-font-sans-serif-med;
+                      text-shadow: 0 0 5px rgba(0, 0, 0, 0.24);
+                  }
+              }
+          }
+          /* Arrows */
+          .slick-prev,
+          .slick-next {
+              font-family: "$slick";
+              position: absolute;
+              display: block;
+              height: 20px;
+              width: 0;
+              line-height: 0;
+              cursor: pointer;
+              background: transparent;
+              color: transparent;
+              top: 50%;
+              -webkit-transform: translate(0, -50%);
+              -ms-transform: translate(0, -50%);
+              transform: translate(0, -50%);
+              padding: 0;
+              border: none;
+              outline: none;
+              background-position: top;
+              background-repeat: no-repeat;
+              &:before {
+                  font-family: $slick-font-family;
+                  font-size: 30px;
+                  opacity: $slick-opacity-default;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  @media #{$koh-media-screen-md-lg} {
+                      font-size: 40px;
+                  }
+              }
+          }
+          .slick-prev {
+  left: -34px;
+  @media screen and (min-width: 319px) and (max-width: 760px) {
+                  left: -26px;
+              }
+              &:before {
+                  content: $slick-prev-character;
+                  background: url("../images/arrow-left-bgw.png") no-repeat;
+                  background-size: contain;
+              }
+          }
+          .slick-next {
+              right: -10px;
+  @media screen and (min-width: 319px) and (max-width: 760px) {
+                  right: -8px;
+              }
+              &:before {
+                  content: $slick-next-character;
+                  background: url("../images/arrow-right-bgw.png") no-repeat;
+                  background-size: contain;
+              }
+          }
+          .slick-slide {
+              margin: 0 2px;
+              transition: all ease-in-out 0.3s;
+              opacity: 1;
+              img {
+                  max-height: 200px;
+                  width: 100%;
+                  @media #{$koh-media-screen-sm} {
+                      max-height: 400px;
+                  }
+                  @media #{$koh-media-screen-md-lg} {
+                      max-height: 600px;
+                  }
+                  @media #{$koh-media-screen-lg} {
+                      max-height: 200px;
+                  }
+                  @media screen and (min-width: 320px) and (max-width: 321px) {
+                      max-height: 150px;
+                  }
+              }
+          }
+      }
+  }
+}
+
+//cmf main carousel css
+section.c-koh-cmf-main-carousel {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  background-color: #000000;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  width: 100%;
+  padding-top: 50px;
+  .koh-cmf-main-carousel-container {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .koh-cmf-main-carousel-title {
+      text-align: left;
+      font-size: 1.5em !important;
+      font-family: HelveticaLight, Helvetica, sans-serif;
+      margin: 15px 15px 15px 0;
+      line-height: 1.2em;
+      @media #{$koh-media-nav-breakpoint} {
+        font-size: 2.5em !important;
+      }
+    }
+    .koh-cmf-main-carousel-banner {
+      overflow: hidden;
+      button[id="koh-cmf-main-carousel-broucher"] {
+        background: #000 none repeat scroll 0 0;
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        color: $koh-color-white;
+        text-decoration: none;
+        text-align: center;
+        font-family: HelveticaBold, Helvetica, sans-serif;
+        z-index: 3;
+        font-size: 1.3em;
+        margin-top: 40px !important;
+        text-transform: uppercase;
+        border: none;
+        line-height: 2;
+        position: relative;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        &:hover {
+          background: #bebebe none repeat scroll 0 0;
+          color: $koh-color-pdk-grey;
+        }
+      }
+    }
+  }
+}
+
+//3by3 HK Bathtub tile component
+.c-koh-bathtub-3by3-tile-image {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  padding-bottom: 40px;
+  .koh-bathtub-3by3-tile-promo-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    .koh-bathtub-head-title {
+      padding: 20px 15px;
+      h2 {
+        font-family: $koh-font-sans-serif-light;
+        margin: 0;
+      }
+    }
+    .koh-bathtub-head-description {
+      line-height: 1.2em;
+      font-size: 14px;
+      font-family: $koh-font-sans-serif-light;
+      padding: 0 15px;
+      padding-bottom: 10px;
+    }
+    .koh-bathtub-3by3-tile-promo {
+      figure.koh-bathtub-3by3-tile-promo-item {
+        margin: 0 15px;
+        img {
+          min-width: 100%;
+          height: auto;
+        }
+      }
+      .koh-bathtub-image-title {
+        padding-left: 15px;
+        font-family: $koh-font-sans-serif-light;
+      }
+      .koh-bathtub-image-description {
+        padding-left: 15px;
+        font-size: 14px;
+        font-family: $koh-font-sans-serif-light;
+        line-height: 1.2em;
+      }
+    }
+  }
+}
+
+//HK showroom engagement cta image component
+.koh-showroom-cta-image-section {
+  padding-left: calc((100% - 980px) / 2);
+  padding-right: calc((100% - 980px) / 2);
+  width: 100%;
+  background: #fff;
+  padding-bottom: 40px;
+  .koh-showroom-cta-image-section-row {
+    padding-top: 20px;
+    .koh-showroom-cta-image-section-title {
+      display: block;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      padding-left: 10px;
+      padding-right: 15px;
+      @media #{$koh-media-nav-breakpoint} {
+        sup {
+          line-height: 1.9;
+          font-family: $koh-font-sans-serif;
+        }
+        margin-top: 0;
+      }
+      .koh-showroom-cta-image-section-inner-title {
+        padding-top: 50px;
+        .koh-showroom-cta-image-section-first-title {
+          text-align: left;
+          font-family: HelveticaRoman, Helvetica, sans-serif;
+          font-size: 2.5em;
+          padding-bottom: 10px;
+          line-height: 1.2em;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          @media #{$koh-media-nav-breakpoint} {
+            font-size: 4em;
+            padding-bottom: 15px;
+          }
+        }
+        .koh-showroom-cta-image-section-description {
+          font-size: 14px;
+          line-height: 1.2em;
+          font-family: HelveticaLight, Helvetica, sans-serif;
+        }
+        .koh-showroom-cta {
+          padding: 0 20px;
+          border-radius: 4px;
+          font-size: 14px;
+          background-color: #000;
+          color: #fff;
+          line-height: 41px;
+          display: block;
+          text-align: center;
+          max-width: 100%;
+          text-transform: uppercase;
+          margin: 30px auto;
+          width: 100%;
+          float: left;
+          font-family: HelveticaBold, Helvetica, sans-serif;
+          @media screen and (min-width: 768px) {
+            width: 50%;
+          }
+        }
+      }
+      &:focus {
+        outline: none;
+        text-decoration: none;
+      }
+    }
+    .koh-showroom-cta-image-section-img {
+      display: block;
+      padding-bottom: 25px;
+      padding-left: 10px;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+    @media screen and (min-width: 760px) {
+      .koh-showroom-cta-image-section-img {
+        display: block;
+        float: right;
+        padding-top: 25px;
+      }
+      .koh-showroom-cta-image-section-title {
+        display: block;
+        clear: left;
+        font-family: HelveticaLight, Helvetica, sans-serif;
+      }
+    }
+  }
+}
+
+// @media #{$koh-media-nav-breakpoint} {
+//   .koh-cmf-three-image-carousel {
+//       padding-left: calc((100% - 980px) / 2);
+//       padding-right: calc((100% - 980px) / 2);
+//       width: 100%;
+//   }
+// }

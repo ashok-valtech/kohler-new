@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups/admin:
+      hipposys:members:
+        operation: override
+        type: string
+        value: [admin, workflowuser, kohleradmin]

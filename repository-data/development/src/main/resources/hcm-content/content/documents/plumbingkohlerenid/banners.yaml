@@ -1,0 +1,637 @@
+/content/documents/plumbingkohlerenid/banners:
+  .meta:order-before: collectons-promo
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1745a844-d474-44bb-a3d1-5f321acf89f3
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: b4992eef-7f15-4f78-bb89-9fbcaad2a4a7
+  hippotranslation:locale: en_ID
+  /kohlerhome:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 4a71861a-c753-4cfb-9a77-4106d6f70366
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 1f684106-510d-414d-82a8-48f3233082b4
+    hippotranslation:locale: en_ID
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: d862aaf9-8d90-48d1-9d29-99478a3c2db7
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 3f77ebe2-5f58-404e-a145-9a81301fda05
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:20.927+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 1088849b-fad3-4507-b513-f62506dd8316
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: The Finish is Just the Beginning (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Every room tells a story.<br />
+            Begin to imagine yours with the right faucet finish.&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4d4ef574-3199-4865-b710-6de5cb50370c
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:13.723+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 1088849b-fad3-4507-b513-f62506dd8316
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: The Finish is Just the Beginning (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Every room tells a story.<br />
+            Begin to imagine yours with the right faucet finish.&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c295ad0b-4008-4e97-87dd-0565b6e73731
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:20.927+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:31:22.435+05:30
+        hippotranslation:id: 1088849b-fad3-4507-b513-f62506dd8316
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: The Finish is Just the Beginning (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Every room tells a story.<br />
+            Begin to imagine yours with the right faucet finish.&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: e727bbda-dc56-4178-9728-56d44ddb0f27
+      hippo:name: Artist Editions
+      /artist-editions[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 329e79a6-1682-48e6-bfa9-9966bee1e2c4
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:29.576+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 40baaf31-daac-48e6-8e46-1c4193be5574
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every great work of art starts with inspiration.&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d2d0cb42-ff73-4cfd-9484-ffe0ef165d41
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:23.770+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 40baaf31-daac-48e6-8e46-1c4193be5574
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every great work of art starts with inspiration.&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e981202c-e400-45f3-8568-3f10518daa24
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:29.576+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:31:30.858+05:30
+        hippotranslation:id: 40baaf31-daac-48e6-8e46-1c4193be5574
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every great work of art starts with inspiration.&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /its-happening-again:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 33040dec-2c86-479c-8ac4-8de16b364be6
+      hippo:name: It's happening again
+      /its-happening-again[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 06869dd9-fdd7-4baf-ac84-3bce575de44d
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:38.413+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f59ee113-3afd-4a24-b964-b0c0dd80bc0b
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: It's happening again (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>See Kohler Intelligent Toilets and Cleansing Seats&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 91dd68b8-b538-4ae7-845a-c999259be095
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:32.056+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f59ee113-3afd-4a24-b964-b0c0dd80bc0b
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: It's happening again (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>See Kohler Intelligent Toilets and Cleansing Seats&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0a63bbd9-d656-41b3-920b-d1d1fc9a6dcc
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:38.413+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:31:39.643+05:30
+        hippotranslation:id: f59ee113-3afd-4a24-b964-b0c0dd80bc0b
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: It's happening again (Indonesia)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>See Kohler Intelligent Toilets and Cleansing Seats&nbsp;(Indonesia)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /carouseloverlay:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: b98a7224-e24b-4eed-8f87-0767865c99cc
+    hippostd:foldertype: [new-carouselOverlay, new-carouselOverlay-folder]
+    hippotranslation:id: e6ab7366-c0ca-4e59-842f-2c7160f7970a
+    hippotranslation:locale: en_ID
+    /poplin:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ec5186ab-b754-4b83-b840-83b8edd1ed48
+      hippo:name: Poplin
+      /poplin[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 29fd3108-9a04-492f-bbdf-bcc4539b0df0
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:49.074+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 53bfcce3-7e2f-44e0-9bd2-c0dbf81b2985
+        hippotranslation:locale: en
+        kohler:description: The Poplin vanities were influenced by the rustic beauty
+          and functionality of the Shaker style and design.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™ Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bb5ef123-f5f6-49c6-9f2a-3a9e10c669e6
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:43.359+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 53bfcce3-7e2f-44e0-9bd2-c0dbf81b2985
+        hippotranslation:locale: en
+        kohler:description: The Poplin vanities were influenced by the rustic beauty
+          and functionality of the Shaker style and design.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™ Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9778d237-ab5c-46af-a941-019cd58b8ed1
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:49.074+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:31:50.838+05:30
+        hippotranslation:id: 53bfcce3-7e2f-44e0-9bd2-c0dbf81b2985
+        hippotranslation:locale: en
+        kohler:description: The Poplin vanities were influenced by the rustic beauty
+          and functionality of the Shaker style and design.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™ Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /jute:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: f3801c47-c46b-4bd6-b924-164ac09cb9ff
+      hippo:name: Jute
+      /jute[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: babfd91a-58e9-4d19-9964-f6c4ebde94e1
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:57.414+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 918c0c7a-5796-445d-9bf4-6e3364761e95
+        hippotranslation:locale: en
+        kohler:description: The Jute vanities are a playful take on the mid-century
+          modern aesthetic that will make a stunning design statement in the bathroom.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute™ Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 31f8a5f4-dfa9-45b0-9cb6-71d567dee2b8
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:52.183+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 918c0c7a-5796-445d-9bf4-6e3364761e95
+        hippotranslation:locale: en
+        kohler:description: The Jute vanities are a playful take on the mid-century
+          modern aesthetic that will make a stunning design statement in the bathroom.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute™ Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b9f1f4ee-7df9-4258-b795-ee9e255590e7
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:31:57.414+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:31:58.830+05:30
+        hippotranslation:id: 918c0c7a-5796-445d-9bf4-6e3364761e95
+        hippotranslation:locale: en
+        kohler:description: The Jute vanities are a playful take on the mid-century
+          modern aesthetic that will make a stunning design statement in the bathroom.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute™ Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /artifacts:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: bbcf7e8f-64f8-49c4-811e-8d6a369d0468
+      hippo:name: Artifacts
+      /artifacts[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 4002aaa5-5ae2-4d02-9730-e570b9bf41a4
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:32:05.688+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 092a986d-afa4-43af-afa0-872281e562e6
+        hippotranslation:locale: en
+        kohler:description: The beauty of the Artifacts collection lies in its timeless
+          styling. From casual to formal, Artifacts is at home in any décor.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® in the bathroom Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2975b8ad-dfa9-4c44-9ee6-0e5cc2916676
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:32:00.238+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 092a986d-afa4-43af-afa0-872281e562e6
+        hippotranslation:locale: en
+        kohler:description: The beauty of the Artifacts collection lies in its timeless
+          styling. From casual to formal, Artifacts is at home in any décor.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® in the bathroom Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b7507500-4720-4d7a-a35c-6ec4f6ec93d0
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:32:05.688+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:32:07.578+05:30
+        hippotranslation:id: 092a986d-afa4-43af-afa0-872281e562e6
+        hippotranslation:locale: en
+        kohler:description: The beauty of the Artifacts collection lies in its timeless
+          styling. From casual to formal, Artifacts is at home in any décor.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® in the bathroom Indonesia
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+  /material-and-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: b7a2c4d7-c7ca-46c3-be68-bbaafe74797d
+    hippo:name: material and color palette
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 869cae6f-368e-4ef5-850b-cb0fcad8ce65
+    hippotranslation:locale: en_ID
+  /globalproject-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 53499164-0cf8-4d70-b4cc-6017fba0391b
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 42492c36-dc89-4789-a0e3-4a372399ac26
+    hippotranslation:locale: en_ID

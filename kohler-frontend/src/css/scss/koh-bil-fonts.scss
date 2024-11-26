@@ -1,0 +1,1379 @@
+body.koh-bil-vi,
+body.koh-bil-th {
+    font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    b, label, strong, sup {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-print-share-tools .koh-page-print button,
+    .koh-print-share-tools .koh-page-share button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-page-share-popover button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    #back-to-top button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-modal .koh-modal-inner .koh-modal-title,
+    .koh-modal .koh-modal-inner .koh-row .modal-details,
+    .koh-modal .koh-modal-inner .koh-row .modal-products-link a {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .remodal-close:before {
+        font-family: NotoSansRegular, NotoSansThaiRegular, Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+    }
+    .qtip-youtube .qtip-content {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .qtip-tipsy {
+        font-family: NotoSansRegular, NotoSansThaiRegular, 'Lucida Grande', sans-serif;
+    }
+    .qtip-tipped {
+        font-family: NotoSansRegular, NotoSansThaiRegular, serif;
+    }
+    .ui-widget {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .ui-widget button,
+    .ui-widget input,
+    .ui-widget select,
+    .ui-widget textarea {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    body {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    body b,
+    body label,
+    body strong,
+    body sup {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-branding-bar .koh-links>ul>li>a,
+    .c-koh-branding-bar .koh-links>ul>li>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-branding-bar .koh-brands .koh-worldwide-menu>ul .worldwide-menu-top a,
+    .c-koh-branding-bar .koh-brands .koh-worldwide-menu>ul .worldwide-menu-top a:hover,
+    .c-koh-branding-bar .koh-brands .koh-worldwide-menu>ul .worldwide-menu-top span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-branding-bar .koh-brands .koh-worldwide-menu>ul .worldwide-menu-sub a,
+    .c-koh-branding-bar .koh-brands .koh-worldwide-menu>ul .worldwide-menu-sub span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-branding-bar .koh-brands .koh-brands-header>a,
+    .c-koh-branding-bar .koh-brands .koh-brands-header>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents>li a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents>li>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents>li.nav-heading a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-subnav-header a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-subnav-header>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-subnav-header.nav-heading a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-nav-section li a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-nav-section li>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-nav-section li.nav-heading a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-links>ul>li a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-links>ul>li>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-links>ul>li.nav-heading a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-brands .koh-worldwide-menu ul .worldwide-menu-top a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-brands .koh-worldwide-menu ul .worldwide-menu-top span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-brands .koh-worldwide-menu ul .worldwide-menu-top.open li a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-branding-bar-mobile .koh-brands .koh-worldwide-menu ul .worldwide-menu-top.open li>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar #search-suggestions-container .search-suggestions-scroller ul li {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents>li>a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents>li>span {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-subnav-header a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-subnav-header>span {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-item a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-item>span {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+        @media screen and (max-width: 979px) {
+            font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+        }
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-heading a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-heading>span {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-document>a,
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-document>span {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-document .nav-document-content .nav-document-text {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-navigation .koh-primary-nav .koh-primary-nav-menu .koh-nav-parents .koh-nav-subnav .koh-subnav-content .koh-nav-section li.nav-document .nav-document-content .nav-document-cta a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-navigation-bar .c-koh-site-search #search-suggestions-container .search-suggestions-scroller ul li {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-summary {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-cta {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-text {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-link a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form .koh-caption {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form .koh-fieldset-folders {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form .koh-form-field {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form button.koh-button-add {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form button.koh-button-cancel {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-social .koh-overlay-share-button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-overlay .koh-overlay-controls .koh-overlay-social .koh-overlay-share-menu button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-overlay-bookmark-form .koh-caption {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-overlay-bookmark-form>form .koh-fieldset-folders {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-overlay-bookmark-form>form .koh-form-field {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-overlay-bookmark-form>form button.koh-button-add {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-overlay-bookmark-form>form button.koh-button-cancel {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-overlay-share-menu button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-link {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-store-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide.v-koh-hotspot .koh-banner-hotspots .koh-banner-hotspots-header {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide.v-koh-hotspot .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide.v-koh-hotspot .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-link {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide.v-koh-hotspot .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide.v-koh-hotspot .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide.v-koh-hotspot .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-store-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-promo-grid .koh-promo-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-promo-grid .koh-promo-tile a .koh-promo-content .koh-promo-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-grid .koh-promo-tile a .koh-promo-content .koh-promo-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-grid.v-koh-categories .koh-promo-tile a .koh-promo-content .koh-promo-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-grid.v-koh-howto .koh-promo-content .koh-promo-tile .koh-promo-tile-contents a:first-of-type .koh-promo-content .koh-promo-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-grid.v-koh-howto .koh-promo-content .koh-promo-tile .koh-promo-tile-contents a:first-of-type .koh-promo-content .koh-promo-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-grid.v-koh-howto .koh-promo-content .koh-promo-tile .koh-promo-tile-contents a.kon-promo-learn-more {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-collection-promo .koh-collection-promo-doc .koh-collection-row .koh-collection-content {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-image-sliders .product-images__primary .product-slide h2 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-name {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-short-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-sku {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-prices li {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-backorder .koh-product-backorder-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-backorder .koh-product-backorder-date {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-artist-editions .koh-product-artisan-editions-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-artist-editions .koh-product-artisan-editions-selected {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-colors .koh-product-colors-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-colors .koh-product-colors-selected {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-discontinued-colors .koh-product-discontinued-colors-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-discontinued-colors .koh-product-discontinued-colors-selected {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-options .koh-product-options-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-options .koh-product-options-button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-options .koh-product-options-list li a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-required .koh-product-required-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-required .koh-product-required-button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-country-available-in .koh-available-in-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-country-available-in .koh-available-sku {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-tools .koh-compare-add,
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-tools .koh-compare-removes {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-tools .koh-product-bookmark>button,
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-tools .koh-product-print>button,
+    .c-koh-product-details .koh-product-top-row .koh-product-details .koh-product-tools .koh-product-share>button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-breadcrumb ul li {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-breadcrumb ul li.koh-back-to-results a,
+    .c-koh-product-details .koh-product-breadcrumb ul li.koh-back-to-results-default a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-summary .koh-product-discontinued {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-summary .koh-product-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-specs .koh-product-col-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-specs .koh-product-col-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-specs .koh-product-col-description strong {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-specs .koh-product-pdf {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-features .koh-product-long-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-features .koh-product-features-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-features .koh-product-features-subtitle {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-features ul {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-features .koh-product-features-brand-experience {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-subtitle {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-parts li,
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-technical-info li {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-videos .koh-product-article.v-koh-video .koh-article-content .koh-article-project {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-videos .koh-product-article.v-koh-video .koh-article-content .koh-article-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-templates .koh-templates-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-templates .koh-templates-label {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-resources .koh-product-resources-templates .koh-templates-links li a {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-service .koh-product-service-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-service p,
+    .c-koh-product-details .koh-product-content .koh-product-service ul {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-service p strong,
+    .c-koh-product-details .koh-product-content .koh-product-service ul strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-story .koh-product-story-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-story .koh-product-story-subtitle {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-story p {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-product-collection-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-product-collection-banner .koh-banner-hotspots .koh-banner-hotspots-header {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-link {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-collection .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-store-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-details .koh-product-pairs-with .koh-product-pairs-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-product-pairs-with .koh-product-tiles .koh-product-tile .koh-product-tile-content a .koh-product-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-details .koh-product-pairs-with .koh-product-tiles .koh-product-tile .koh-product-tile-content a .koh-product-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-pairs-with .koh-product-tiles .koh-product-tile .koh-product-tile-content a .koh-product-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-pairs-with .koh-product-tiles .koh-product-tile .koh-product-tile-actions .koh-product-view-more {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-similar-products .koh-similar-products-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-similar-products .koh-product-tiles .koh-product-tile .koh-product-tile-content a .koh-product-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-details .koh-similar-products .koh-product-tiles .koh-product-tile .koh-product-tile-content a .koh-product-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-similar-products .koh-product-tiles .koh-product-tile .koh-product-tile-content a .koh-product-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-similar-products .koh-product-tiles .koh-product-tile .koh-product-tile-actions .koh-product-view-more {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-required-products-panel .koh-required-products-header {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-required-products-panel .koh-product-required-product .koh-product-summary {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-product-popover.v-koh-bookmark .koh-caption {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-popover.v-koh-bookmark>form .koh-fieldset-folders {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-popover.v-koh-bookmark>form .koh-form-field {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-product-popover.v-koh-bookmark>form button.koh-button-add,
+    .koh-product-popover.v-koh-bookmark>form button.koh-button-cancel {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-popover.v-koh-share button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-share-email-remodal.remodal .modal-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-share-email-remodal.remodal .koh-product-share-description {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-share-email-remodal.remodal .koh-product-share-description span,
+    .koh-share-email-remodal.remodal .koh-share-email-form .form-group label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-share-email-remodal.remodal .koh-share-email-form .form-group .koh-cancel-btn,
+    .koh-share-email-remodal.remodal .koh-share-email-form .form-group .koh-primary-btn {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search header .koh-search-title,
+    .c-koh-product-search header .koh-search-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search header .koh-search-results-count,
+    .c-koh-product-search header .koh-search-results-count {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-sorting .koh-sort-by,
+    .c-koh-product-search .koh-search-sorting .koh-sort-by {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-title,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter .koh-filter-name,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter .koh-filter-name {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter .koh-filter-name:after,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter .koh-filter-name:after {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter.koh-filter-type-range .koh-range-filter .koh-range-slider-labels,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter.koh-filter-type-range .koh-range-filter .koh-range-slider-labels {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter.koh-filter-type-checkbox .koh-checkbox-filter a .label,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter.koh-filter-type-checkbox .koh-checkbox-filter a .label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-filter-group-title,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-filter-group-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-filter-group-all-link,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-filter-group-all-link {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters .koh-selected-filter,
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters-videoart .koh-selected-filter,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters .koh-selected-filter,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters-videoart .koh-selected-filter {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters .koh-selected-filter:after,
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters-videoart .koh-selected-filter:after,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters .koh-selected-filter:after,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters-videoart .koh-selected-filter:after {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-available-filters li a,
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-available-filters-videoart li a,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-available-filters li a,
+    .c-koh-product-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-available-filters-videoart li a {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-description,
+    .c-koh-product-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-sku,
+    .c-koh-product-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-price,
+    .c-koh-product-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-actions .koh-product-view-more,
+    .c-koh-product-search .koh-search-results .koh-product-tile .koh-product-tile-actions .koh-product-view-more {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-promo-tile .koh-promo-content .koh-promo-title,
+    .c-koh-product-search .koh-search-results .koh-promo-tile .koh-promo-content .koh-promo-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-promo-tile .koh-promo-content .koh-promo-description,
+    .c-koh-product-search .koh-search-results .koh-promo-tile .koh-promo-content .koh-promo-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-uber-category .koh-result-set-title,
+    .c-koh-product-search .koh-search-results.v-koh-uber-category .koh-result-set-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-content .koh-spec-sku,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-content .koh-spec-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-content .koh-spec-description,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-content .koh-spec-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-toggle:after,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-toggle:after {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-info li,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-info li {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-templates .koh-templates-title,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-templates .koh-templates-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-templates .koh-templates-label,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-templates .koh-templates-label {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-templates .koh-templates-links li a,
+    .c-koh-product-search .koh-search-results.v-koh-specs .koh-spec-accordion li .koh-spec-templates .koh-templates-links li a {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-articles .koh-article-content .koh-article-type,
+    .c-koh-product-faceted-search .koh-search-results.v-koh-articles .koh-article-content .koh-product-resources-subtitle,
+    .c-koh-product-search .koh-search-results.v-koh-articles .koh-article-content .koh-article-type,
+    .c-koh-product-search .koh-search-results.v-koh-articles .koh-article-content .koh-product-resources-subtitle {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results.v-koh-articles .koh-article-content .koh-article-project,
+    .c-koh-product-search .koh-search-results.v-koh-articles .koh-article-content .koh-article-project {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-search-hero .koh-hero-container h1 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-search-hero .koh-hero-container p {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-search-hero .koh-hero-container .koh-search-controls .koh-search-select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-search-hero .koh-hero-container .koh-search-controls .koh-search-set li a {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .koh-search-hero .koh-hero-container .koh-search-controls .koh-search-set li a span {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-search-pagination ul li {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search header .koh-search-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search header .koh-search-results-count {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-sorting .koh-sort-by {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-market-availability .market-list h2 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-market-availability .koh-market-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-market-availability span input[type=radio]:checked+label {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-market-availability span input[type=radio]:not(:checked)+label {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter .koh-filter-name {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter .koh-filter-name:after {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter.koh-filter-type-range .koh-range-filter .koh-range-slider-labels {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter.koh-filter-type-checkbox .koh-checkbox-filter a .label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-filter-group-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-filter-group-all-link {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters .koh-selected-filter {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-selected-filters .koh-selected-filter:after {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-filters .koh-search-filters-content .koh-filter-group .koh-available-filters li a {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-content a .koh-product-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-actions .koh-compare-add,
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-actions .koh-compare-removes {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-product-tile .koh-product-tile-actions .koh-product-view-more {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-promo-tile .koh-promo-content .koh-promo-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results .koh-promo-tile .koh-promo-content .koh-promo-description {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search.v-koh-uber-category .koh-result-set-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-faceted-search .koh-search-results-help .has-edit-button .koh-article-type {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-description a,
+    .koh-product-quick-view-panel .koh-product-content .koh-product-description a:hover {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-description .koh-product-family {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-prices li {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-msrp,
+    .koh-product-quick-view-panel .koh-product-content .koh-product-price {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-msrp .label,
+    .koh-product-quick-view-panel .koh-product-content .koh-product-price .label {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-required {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-colors .koh-selected-color .label {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-colors .koh-selected-color .value {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-tools .koh-compare-add,
+    .koh-product-quick-view-panel .koh-product-content .koh-product-tools .koh-compare-removes {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-quick-view-panel .koh-product-content .koh-product-tools .koh-product-bookmark>button,
+    .koh-product-quick-view-panel .koh-product-content .koh-product-tools .koh-product-print>button,
+    .koh-product-quick-view-panel .koh-product-content .koh-product-tools .koh-product-share>button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-product-search-facet-tooltip .koh-filter-tooltips .koh-filter-tooltip-item .koh-tooltip-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-simple-content.v-koh-full-page .koh-simple-content-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-simple-content.v-koh-full-page .koh-simple-content-body {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-simple-content.v-koh-snippet .koh-simple-content-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-simple-content.v-koh-snippet .koh-simple-content-body {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-simple-content.v-koh-snippet .koh-simple-content-cta.v-koh-black,
+    .c-koh-simple-content.v-koh-snippet .koh-simple-content-cta.v-koh-white {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-tabbed-faqs .koh-tab-controls .koh-tab-select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-tabbed-faqs .koh-tab-content .koh-tab-contents .koh-faq-questions {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-tabbed-faqs .koh-tab-content .koh-tab-contents .koh-faq-questions li:before {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-tabbed-faqs .koh-tab-content .koh-tab-contents .koh-faq .koh-faq-question {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-press-list .koh-press-header .koh-tab-controls .koh-tab-select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-press-list .koh-press-contacts {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-press-list .koh-tab-content .koh-tab-contents ul li {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-press-list .koh-tab-content .load-more-wrap .koh-load-more {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-press-release .koh-release-header .koh-release-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-press-release .koh-release-header .koh-release-description {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-press-release .koh-release-header .koh-release-controls .koh-release-bookmark>button,
+    .c-koh-press-release .koh-release-header .koh-release-controls .koh-release-print>button,
+    .c-koh-press-release .koh-release-header .koh-release-controls .koh-release-share>button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-press-release .koh-release-content div {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .koh-release-popover.v-koh-bookmark .koh-caption,
+    .koh-release-popover.v-koh-bookmark>form .koh-fieldset-folders {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-release-popover.v-koh-bookmark>form .koh-form-field {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-release-popover.v-koh-bookmark>form button.koh-button-add,
+    .koh-release-popover.v-koh-bookmark>form button.koh-button-cancel {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-release-popover.v-koh-share button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-header .koh-compare-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-table .koh-compare-features-list li.strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-name {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-price {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-add,
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-print,
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-save {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-locate {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-bookmark,
+    .c-koh-compare-products .koh-compare-table .koh-compare-top .koh-compare-remove {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-compare-products .koh-history-page button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-compare-panel .koh-compare-header .koh-compare-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-compare-panel .koh-compare-header .koh-compare-link {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-compare-panel .koh-compare-items .koh-compare-item span {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-compare-panel .koh-compare-items .koh-compare-item .koh-compare-sku {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-compare-panel .koh-compare-items .koh-compare-item .koh-compare-add,
+    .c-koh-compare-panel .koh-compare-items .koh-compare-item .koh-compare-add-blank {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-store-locator .container .koh-map-form-inner-content .koh-map-main-header {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-store-locator .container .koh-map-form-inner-content #koh-map-check .form-group .form-options input[type=checkbox]+label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-store-locator .container .koh-map-outer-container #koh-store-locator-results ul li.koh-store-locator-result .koh-store-name {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-store-locator .container .koh-map-outer-container #koh-map-container #koh-map .customInfobox .infobox_title .koh-store-name {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-header .koh-dealer-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-form label {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-form .select select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-form [type="submit"] {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-filters-store .koh-dealer-filter [type="checkbox"]:checked + label, .c-koh-dealer-list .koh-dealer-filters-store .koh-dealer-filter [type="checkbox"]:not(:checked) + label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-results .koh-dealer-result-city {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-results .koh-featured-showroom-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-dealer-list .koh-dealer-results .koh-dealer-name {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-where-to-buy .koh-where-to-buy-container header .koh-where-to-buy-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-where-to-buy .koh-where-to-buy-container .koh-where-to-buy-section-map .koh-address-list-info strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    #koh-book-appointment-remodal .btn {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    #koh-book-appointment-remodal .koh-appoint-pop-header .koh-product-cat {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    #koh-book-appointment-remodal .koh-appoint-pop-header .koh-product-address {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    #koh-book-appointment-remodal .koh-pop-calendar-content #koh-pop-next-btn {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    #koh-book-appointment-remodal .koh-pop-form-content .koh-pop-pre-info .row .koh-pop-pre-info-left .koh-pop-row .col-sm-3 {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-header .koh-contact-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-toggle p {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-toggle p:first-of-type {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-toggle [type=radio]:checked+label,
+    .c-koh-contact-form .koh-contact-content .koh-contact-toggle [type=radio]:not(:checked)+label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields fieldset p {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields fieldset p strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field div label {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field div label span {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field div input[type=email],
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field div input[type=text] {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field div .checkbox [type=checkbox]:checked+label,
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field div .checkbox [type=checkbox]:not(:checked)+label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-field textarea {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-photos .koh-contact-photo span {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-photos .koh-contact-photo label {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-photos .koh-contact-photo .error-message span {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-captcha .error-message span {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-footer a,
+    .c-koh-contact-form .koh-contact-content .koh-contact-fields .koh-contact-footer input {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-sidebar .koh-contact-title strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-sidebar .koh-contact-resources li {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-sidebar p strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-container .koh-contact-form-wrapper form.form-horizontal .form-group .koh-upload-wrapper {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-container .koh-contact-form-wrapper form.form-horizontal .form-group button[type="submit"] {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-form .koh-contact-container .koh-contact-form-wrapper form.form-horizontal .form-group input[type="text"], .c-koh-contact-form .koh-contact-container .koh-contact-form-wrapper form.form-horizontal .form-group select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .nice-select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static h2.koh-banner-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-content .koh-banner-text .koh-banner-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-content .koh-banner-text .koh-banner-summary {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-content .koh-banner-text .koh-banner-cta a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-title {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-text {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-link a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form .koh-caption {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form .koh-fieldset-folders {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form .koh-form-field {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form button.koh-button-add,
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-bookmark .koh-overlay-bookmark-form>form button.koh-button-cancel,
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-social .koh-overlay-share-button {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-banner .koh-banner-overlay .koh-overlay-controls .koh-overlay-social .koh-overlay-share-menu button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-overlay-bookmark-form .koh-caption {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-overlay-bookmark-form>form .koh-fieldset-folders {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-overlay-bookmark-form>form .koh-form-field {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-overlay-bookmark-form>form button.koh-button-add,
+    .c-koh-banner-static .koh-carousel-popover .koh-overlay-bookmark-form>form button.koh-button-cancel {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-overlay-share-menu button {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-link {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static .koh-carousel-popover .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-store-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-banner-static.v-koh-hotspot .koh-banner .koh-banner-hotspots .koh-banner-hotspots-header {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static.v-koh-hotspot .koh-banner .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-description {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-banner-static.v-koh-hotspot .koh-banner .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-link {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static.v-koh-hotspot .koh-banner .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-sku {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static.v-koh-hotspot .koh-banner .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-price {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-banner-static.v-koh-hotspot .koh-banner .koh-banner-hotspots .koh-banner-hotspot .koh-banner-hotspot-tile .koh-hotspot-content .koh-hotspot-store-locator a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-tabbed-article .koh-article-header .koh-article-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-tabbed-article .koh-article-header .koh-article-summary {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-tabbed-article .koh-article-header .koh-article-controls .koh-article-select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-tabbed-article .koh-article-header .koh-article-controls .koh-article-set li a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-tabbed-article .koh-article-header .koh-article-controls.contained .koh-article-set li a {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-material-color-palette .koh-meterial-container header .koh-material-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-material-color-palette .koh-meterial-category .koh-meterial-container .koh-material-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-material-color-palette .koh-meterial-category .koh-meterial-category-items .koh-meterial-category-items-inner {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-material-color-palette .koh-meterial-category .koh-meterial-category-items .koh-meterial-category-items-inner h6 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-material-color-palette .koh-meterial-category .koh-meterial-category-items .koh-meterial-category-items-inner p {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-material-color-palette .koh-color-palette-product-panels-more {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-sitemap-content .koh-site-map .koh-sitemap-list .koh-subnav-header {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-where-to-buy .koh-where-to-buy-container header .koh-where-to-buy-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-where-to-buy .koh-where-to-buy-container .koh-where-to-buy-section-map .koh-address-list-info strong {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-where-to-buy .koh-where-to-buy-container .koh-where-to-buy-section-gallery .koh-section-gallery-image .koh-featured-box figcaption h3 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-pro-toolbox .koh-pro-toolbox-container header .koh-pro-toolbox-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-pro-toolbox .koh-pro-toolbox-container .koh-pro-toolbox-listing .koh-pro-toolbox-section .koh-pro-toolbox-text-link {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-contact-us .koh-contact-us-container .koh-contact-us-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-contact-us .koh-contact-us-container .koh-contact-us-address .koh-contact-us-address-list .koh-contact-us-address-items div.koh-company-address {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-article-pages .koh-article-pages-container header .koh-article-pages-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-article-pages .koh-article-pages-container .koh-article-description .koh-article-pages-text-link {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-article-pages .koh-article-pages-container .koh-article-pages-listing .koh-article-pages-section h6 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+	.c-koh-article-pages .koh-article-pages-container .koh-article-pages-listing .koh-article-pages-section .caption {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-article-pages .koh-article-pages-container .koh-article-pages-listing .koh-article-pages-section .koh-article-pages-text-link {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-article-pages .koh-article-pages-container .koh-three-image-carousel .koh-main-title, .koh-text-description{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.c-koh-article-pages .koh-article-pages-container .koh-three-image-carousel .koh-text-description {
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.c-koh-article-pages .koh-article-pages-container .koh-three-image-carousel .koh-img-carousel .koh-images-caption .koh-outerLayer-Caption .koh-carousel-imageCaption {
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+    .c-koh-projects-pages .koh-projects-pages-container .c-koh-simple-content.v-koh-full-page .koh-simple-content-container .koh-projects-pages-title,
+    .c-koh-projects-pages .koh-projects-pages-container .c-koh-simple-content.v-koh-full-page .koh-simple-content-container .koh-simple-content-body h2 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-projects-pages .koh-projects-listing .koh-projects-form .koh-country select {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-projects-pages .koh-projects-listing .koh-project-display a .koh-project-display-items-inner .koh-project-display-content p {
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-projects-pages .koh-projects-listing .koh-project-display a .koh-project-display-items-inner .koh-project-display-content span {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-demo-filter [type=checkbox]:checked+label,
+    .koh-demo-filter [type=checkbox]:not(:checked)+label {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-load-more-globalProject {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-upload-dealers-from .koh-form-item-dealer .koh-from-field input {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-upload-dealers-from .koh-dealers-submit-btn {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-promo-collections header .koh-promo-collections-title {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-collections header h3 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-collections .koh-collections-row .koh-top-row .koh-collection-item-title .koh-collection-item-title-inner h6 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-collections .koh-collections-row .koh-top-row .koh-collection-item-title .koh-collection-item-title-inner p {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-collections .koh-collections-row .koh-top-row .koh-collection-item-title .koh-collection-item-title-inner .koh-collection-item-title-link {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-collections .koh-collections-row .koh-bottom-row .koh-collection-item-description .koh-collection-item-description-inner p {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-collections .koh-collections-row .koh-middle-row h6 {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-promo-grid.koh-img-tit-desc-link-comp .koh-promo-content .koh-promo-tile .koh-promo-tile-box .koh-promo-content-txt a {
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-title-dec-map-comp.c-koh-simple-content.v-koh-full-page .koh-simple-content-container .koh-simple-content-body h2 {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-product-details .koh-product-content .koh-product-required-items-print .required-product-subtitle {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-product-details .koh-products-description-files-print {
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+	.koh-global-navigation .koh-md-ribbon .koh-md-ribbon-description{
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-walking-bath .koh-walking-bath-title-and-description{
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+    .c-koh-walking-bath section.koh-walking-bath-fb-section .koh-walking-bath-fb-row .koh-walking-bath-coloumn figure.koh-walking-bath-fb-figure{
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-walking-bath .koh-walkin-bath-detail .koh-walking-bath-detail-row .koh-walking-bath-detail-item-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;   
+    }
+    .c-koh-walking-bath .koh-walkin-bath-detail .koh-walking-bath-detail-row .koh-walking-bath-detail-img .koh-walking-bath-detail-image-caption {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif; 
+    }
+	section.c-koh-ramadan-promotion-carousel .koh-ramadan-promotion-container .koh-ramadan-promotion-carousel-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    section.c-koh-ramadan-store-list .koh-ramadan-store-list-container .koh-ramadan-store-header .koh-ramadan-store-list-title {
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    section.c-koh-shopping-list-3promo .koh-shopping-list-3promo .koh-shopping-guide-3promo figure.koh-shopping-item-3promo .koh-shopping-3promo-title-format{
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+	section.c-koh-shopping-list-3promo .koh-head-wrapper h2 {
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	section.c-koh-shopping-guide-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-title {
+		font-family:  NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	section.c-koh-shopping-guide-carousel .koh-carousel .koh-slide-collection .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-title+.koh-banner-summary {
+		font-family:  NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	section.c-koh-shopping-list-2promo .koh-shopping-list-2promo .koh-shopping-guide-2promo figure.koh-shopping-item-2promo .koh-shopping-2promo-title-format {
+		font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+	}
+	section.c-koh-shopping-list-2promo .koh-head-wrapper h2 {
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	section.c-koh-ramadan-promotion-carousel .koh-ramadan-promotion-container .koh-projects-pages-container-banner #koh-ramadan-promotion-broucher{
+        font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+	.c-koh-walking-bath .koh-walkin-bath-pages-container .koh-walking-bath-title-and-description .koh-walking-bath-text-title{
+        font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+    }
+	.c-koh-contact-form .koh-mu-contact-container .koh-contact-header .koh-mu-contact-title{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-contact-form .koh-mu-contact-container .koh-contact-form-wrapper form.form-horizontal .form-group button[type="submit"]{
+		font-family: NotoSansBold, NotoSansThaiBold, sans-serif;
+	}
+	.koh-fb-buy-parts-left-section .koh-fb-buy-parts-left-section-row .koh-fb-buy-parts-left-section-title .koh-fb-buy-parts-left-section-title-inner .koh-fb-buy-parts-left-section-description{
+        font-family: NotoSansRegular,NotoSansThaiRegular,sans-serif;
+    }
+	.koh-fb-buy-parts-left-section .koh-fb-buy-parts-left-section-row .koh-fb-buy-parts-left-section-title .koh-fb-buy-parts-left-section-title-inner .koh-fb-buy-parts-left-section-first-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .c-koh-150-anniversary-top-banner .koh-150-anniversary-top-banner-container .koh-150-anniversary-banner .koh-150-anniversary-content .koh-150-anniversary-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+	.c-koh-150-anniversary-top-banner .koh-150-anniversary-top-banner-container .koh-150-anniversary-banner .koh-150-anniversary-content .koh-150-anniversary-desc{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-anniversary-top-banner .koh-150-anniversary-top-banner-container .koh-150-anniversary-banner .koh-150-anniversary-content .koh-150-anniversary-2nd-banner-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.c-koh-150-anniversary-top-banner .koh-150-anniversary-top-banner-container .koh-150-anniversary-banner .koh-150-anniversary-content .koh-150-anniversary-2nd-banner-desc{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-2by2-tile-image .koh-150-2by2-tile-promo-container .koh-150-2by2-tile-promo .koh-2by2-150-image-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.c-koh-150-2by2-tile-image .koh-150-2by2-tile-promo-container .koh-150-2by2-tile-promo .koh-2by2-150-image-description{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.koh-150-anniversary-cta-image-section .koh-150-anniversary-cta-image-section-row .koh-150-anniversary-cta-image-section-title .koh-150-anniversary-cta-image-section-inner-title .koh-150-anniversary-cta-image-section-first-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.koh-150-anniversary-cta-image-section .koh-150-anniversary-cta-image-section-row .koh-150-anniversary-cta-image-section-title .koh-150-anniversary-cta-image-section-inner-title .koh-150-anniversary-cta-image-section-description{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-3by3-tile-image .koh-150-3by3-tile-promo-container .koh-150-head-description{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-3by3-tile-image .koh-150-3by3-tile-promo-container .koh-150-3by3-tile-promo .koh-150-image-description{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-2by2-tile-cta-image .koh-150-2by2-tile-cta-promo-container .koh-150-2by2-tile-cta-promo .koh-150-header-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.c-koh-150-2by2-tile-cta-image .koh-150-2by2-tile-cta-promo-container .koh-150-2by2-tile-cta-promo .koh-150-header-description{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-2by2-tile-cta-image .koh-150-2by2-tile-cta-promo-container .koh-150-2by2-tile-cta-promo .koh-2by2-150-image-cta-title{
+		font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+	}
+	.c-koh-150-2by2-tile-cta-image .koh-150-2by2-tile-cta-promo-container .koh-150-2by2-tile-cta-promo .koh-2by2-150-image-cta-description{
+		font-family: NotoSansLight, NotoSansThaiLight, sans-serif;
+	}
+	.c-koh-150-2by2-tile-cta-image .koh-150-2by2-tile-cta-promo-container .koh-150-2by2-tile-cta-promo .koh-2by2-150-image-btn{
+        font-family:  NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .koh-150-anniversary-cta-image-section .koh-150-anniversary-cta-image-section-row .koh-150-anniversary-cta-image-section-title .koh-150-anniversary-cta-image-section-inner-title .koh-150-anniversary-cta{
+        font-family:  NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+	.koh-promotion-titledesc-comp .koh-promotion-title{
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+    .koh-promotion-titledesc-comp .koh-promotion-description{
+        font-family: NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+	section.c-koh-showroom-tile-section .koh-showroom-tile-list .koh-showroom-tile-guide figure.koh-showroom-tile-image .koh-showroom-tile-content .koh-showroom-tile-title{
+        font-family:  NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+	.c-koh-showroom-locations .container .koh-map-outer-container .koh-showroom-lists ul .koh-showroom-list .koh-showroom-name{
+        font-family:  NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+    .c-koh-showroom-locations .container .koh-map-outer-container .koh-showroom-lists ul .koh-showroom-list .koh-showroom-address{
+        font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+    }
+	.c-koh-showroom-locations .container .koh-map-outer-container .koh-location-title h2{
+        font-family:  NotoSansMedium, NotoSansThaiMedium, sans-serif;
+    }
+    .c-koh-banner-carousel:first-child .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-cta{
+        font-family:  NotoSansBold, NotoSansThaiBold, sans-serif;
+    }
+}

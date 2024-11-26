@@ -1,0 +1,314 @@
+/content/gallery/kohler/menu:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 6c69a31d-0da4-414e-81d0-be747c165f9a
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /branding-logo:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 75e36489-602f-42d7-93c1-6a74de5b1a96
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /ann_sacks_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 43ae86a0-e1ae-4b7d-aaed-1bd2545e1c98
+      /ann_sacks_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: ann_sacks_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: ann_sacks_sized.png
+          hippogallery:height: 14
+          hippogallery:width: 53
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/ann_sacks_sized.png/ann_sacks_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:18:50.565+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 14
+          hippogallery:width: 53
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/ann_sacks_sized.png/ann_sacks_sized_original.png
+          jcr:lastModified: 2017-05-02T16:18:50.565+05:30
+          jcr:mimeType: image/png
+    /robern_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6fc9f11c-6636-4552-a97a-864c1c5aba64
+      /robern_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: robern_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: robern_sized.png
+          hippogallery:height: 12
+          hippogallery:width: 44
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/robern_sized.png/robern_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:20:09.275+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 12
+          hippogallery:width: 44
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/robern_sized.png/robern_sized_original.png
+          jcr:lastModified: 2017-05-02T16:20:09.275+05:30
+          jcr:mimeType: image/png
+    /kallista_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 29376558-d18e-4cb1-9e1b-6b7535e5db7a
+      /kallista_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: kallista_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kallista_sized.png
+          hippogallery:height: 10
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/kallista_sized.png/kallista_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:21:14.797+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 10
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/kallista_sized.png/kallista_sized_original.png
+          jcr:lastModified: 2017-05-02T16:21:14.797+05:30
+          jcr:mimeType: image/png
+    /sterling_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a34df2f9-9da5-41c5-939a-26f21bee1957
+      /sterling_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: sterling_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: sterling_sized.png
+          hippogallery:height: 11
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/sterling_sized.png/sterling_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:22:20.918+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 11
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/sterling_sized.png/sterling_sized_original.png
+          jcr:lastModified: 2017-05-02T16:22:20.918+05:30
+          jcr:mimeType: image/png
+    /kohler-generators_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6af88c5b-f6c3-4be7-a1bc-a5fd15fc5e47
+      /kohler-generators_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: kohler-generators_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kohler-generators_sized.png
+          hippogallery:height: 5
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/kohler-generators_sized.png/kohler-generators_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:40:16.690+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 11
+          hippogallery:width: 112
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/kohler-generators_sized.png/kohler-generators_sized_original.png
+          jcr:lastModified: 2017-05-02T16:40:16.690+05:30
+          jcr:mimeType: image/png
+    /kohler-power_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f76b1967-ad02-4e0f-b867-82334169ebd2
+      /kohler-power_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: kohler-power_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kohler-power_sized.png
+          hippogallery:height: 4
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/kohler-power_sized.png/kohler-power_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:42:04.589+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 11
+          hippogallery:width: 133
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/kohler-power_sized.png/kohler-power_sized_original.png
+          jcr:lastModified: 2017-05-02T16:42:04.589+05:30
+          jcr:mimeType: image/png
+    /destination_kohler_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: feadf64a-98b3-4d88-a093-91a6bdd1cdf6
+      /destination_kohler_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: destination_kohler_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: destination_kohler_sized.png
+          hippogallery:height: 18
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/destination_kohler_sized.png/destination_kohler_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:31:42.990+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 18
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/destination_kohler_sized.png/destination_kohler_sized_original.png
+          jcr:lastModified: 2017-05-02T16:31:42.990+05:30
+          jcr:mimeType: image/png
+    /jacobdelafon.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: d81115a6-8ec4-493e-91f8-f620d6202a63
+      hippo:name: jacobDelafon.png
+      /jacobdelafon.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: jacobDelafon.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: jacobDelafon.png
+          hippogallery:height: 18
+          hippogallery:width: 54
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/jacobdelafon.png/jacobDelafon_thumbnail.png
+          jcr:lastModified: 2017-06-30T15:58:42.120+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 18
+          hippogallery:width: 54
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/jacobdelafon.png/jacobDelafon_original.png
+          jcr:lastModified: 2017-06-30T15:58:42.120+05:30
+          jcr:mimeType: image/png
+    /englefield.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d61cae4a-76bc-4690-bf50-5b9bc3d41531
+      /englefield.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: englefield.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: englefield.png
+          hippogallery:height: 18
+          hippogallery:width: 39
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/englefield.png/englefield_thumbnail.png
+          jcr:lastModified: 2017-07-26T19:15:25.505+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 18
+          hippogallery:width: 39
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/englefield.png/englefield_original.png
+          jcr:lastModified: 2017-07-26T19:15:25.505+05:30
+          jcr:mimeType: image/png
+    /novita.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 303e61ea-e6ac-4ba0-b6a2-84a0b0aa0928
+      hippo:name: Novita.png
+      /novita.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Novita.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Novita.png
+          hippogallery:height: 14
+          hippogallery:width: 35
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/novita.png/Novita_thumbnail.png
+          jcr:lastModified: 2017-07-26T19:15:26.089+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 14
+          hippogallery:width: 35
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/novita.png/Novita_original.png
+          jcr:lastModified: 2017-07-26T19:15:26.089+05:30
+          jcr:mimeType: image/png
+    /karat.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 49e7c5dc-1cfe-4827-a0de-aedfc3db94a2
+      hippo:name: Karat.png
+      /karat.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Karat.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Karat.png
+          hippogallery:height: 12
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/karat.png/Karat_thumbnail.png
+          jcr:lastModified: 2017-07-26T19:15:58.383+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 14
+          hippogallery:width: 70
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/menu/branding-logo/karat.png/Karat_original.png
+          jcr:lastModified: 2017-07-26T19:15:58.383+05:30
+          jcr:mimeType: image/png

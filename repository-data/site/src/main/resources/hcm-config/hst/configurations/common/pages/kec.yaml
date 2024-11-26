@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/kec:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: kecpage-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: kec/main

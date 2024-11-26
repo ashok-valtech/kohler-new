@@ -1,0 +1,61 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/BizSchema:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 4ede027b-7238-41a8-9d58-05b9a070ad76
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f52b25e5-1f06-45aa-b8c1-9ff5cebda527
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 33fed2c1-a78e-4263-b76c-f60f0ab216da
+          hipposysedit:node: true
+          hipposysedit:supertype: ['kohler:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /script:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:script
+            hipposysedit:primary: false
+            hipposysedit:type: Text
+            hipposysedit:validators: [required]
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:BizSchema
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1701b1ee-881f-48fe-b57f-fd9d6a0bf6d1
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2019-10-09T16:12:07.698+05:30
+          hippostdpubwf:lastModificationDate: 2019-10-09T16:12:07.695+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          kohler:script: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /script:
+            jcr:primaryType: frontend:plugin
+            caption: Script
+            field: script
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

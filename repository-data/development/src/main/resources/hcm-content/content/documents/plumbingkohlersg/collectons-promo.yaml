@@ -1,0 +1,66 @@
+/content/documents/plumbingkohlersg/collectons-promo:
+  .meta:order-before: common-content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 640c4468-2c81-4574-aff8-c2673e9c94c2
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 7d9c4680-574f-4350-933b-2cefce4b0fe6
+  hippotranslation:locale: en_SG
+  /collecton-promo1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f6d24ab7-0a69-475a-9930-ed90dae87474
+    hippo:name: collecton-promo1
+    /collecton-promo1[1]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: d53dbb72-69f8-4cea-8519-03017e2998e5
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T20:04:57.237+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e4e2fe52-01c5-415c-b482-09f3255dc727
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: Shop Memoirs(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Gabrielle
+      kohler:shortDescription: Richly detailed architectural design in a classic style.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: Memoirs(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Inspired by traditional style, the Memoirs collection
+          echoes the stylized lines of historically renowned furniture and architectural
+          design. Each detail makes it classic and timeless – sophisticated yet utterly
+          approachable. Its crisp lines resemble crown molding.</p>
+    /collecton-promo1[2]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d36f5db8-3ddf-4bae-a120-c30e7e3eb639
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T20:04:57.237+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-16T12:52:30.688+05:30
+      hippotranslation:id: e4e2fe52-01c5-415c-b482-09f3255dc727
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: Shop Memoirs(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Gabrielle
+      kohler:shortDescription: Richly detailed architectural design in a classic style.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: Memoirs(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Inspired by traditional style, the Memoirs collection
+          echoes the stylized lines of historically renowned furniture and architectural
+          design. Each detail makes it classic and timeless – sophisticated yet utterly
+          approachable. Its crisp lines resemble crown molding.</p>

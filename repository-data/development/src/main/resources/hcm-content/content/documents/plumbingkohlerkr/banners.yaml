@@ -1,0 +1,535 @@
+/content/documents/plumbingkohlerkr/banners:
+  .meta:order-before: collectons-promo
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: e3b7e2ed-d70f-44ce-8c18-b5dcd32dea0e
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 833d8e77-da41-4fea-913b-615e61cacaa7
+  hippotranslation:locale: ko_KR
+  /kohlerhome:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 527a0856-08b4-44ba-b860-84021e3a0f14
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 21fb321b-78d3-4f17-a7a4-d79e1318a023
+    hippotranslation:locale: ko_KR
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: d982240c-ce97-4462-9e17-85464ff4a0eb
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 51fa9f8a-667e-4d57-875c-83e7a5101c10
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:07:12.693+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f2fff379-64bb-4166-9546-72c12a880078
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: 마무리는 바로 시작입니다 (싱가포르).
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>모든 방에서 이야기를 들려줍니다.<br />
+            올바른 수도꼭지를 마친 상태에서 상상해보십시오. (싱가포르)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1eba7388-25ec-4582-a98e-a24016eb71b7
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:06:44.473+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f2fff379-64bb-4166-9546-72c12a880078
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: 마무리는 바로 시작입니다 (싱가포르).
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>모든 방에서 이야기를 들려줍니다.<br />
+            올바른 수도꼭지를 마친 상태에서 상상해보십시오. (싱가포르)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e1c181d0-d5a4-42a3-94d1-bc61f21b28ed
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:07:12.693+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T15:07:14.277+05:30
+        hippotranslation:id: f2fff379-64bb-4166-9546-72c12a880078
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: 마무리는 바로 시작입니다 (싱가포르).
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>모든 방에서 이야기를 들려줍니다.<br />
+            올바른 수도꼭지를 마친 상태에서 상상해보십시오. (싱가포르)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 802bda1b-4549-43c3-bcca-e24a8283b840
+      hippo:name: Artist Editions
+      /artist-editions[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 74c9ad39-ef05-4a1c-bc32-387b1cba9744
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:07:45.068+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9fc178ca-3afd-42ac-aa6f-00b57dd0ed33
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 아티스트 에디션 ® (싱가포르)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>모든 위대한 예술 작품은 영감으로 시작됩니다. (싱가포르)<br />
+            &nbsp;</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5e7ff5bf-9e1c-43db-825d-9259208971e1
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:07:16.552+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9fc178ca-3afd-42ac-aa6f-00b57dd0ed33
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 아티스트 에디션 ® (싱가포르)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>모든 위대한 예술 작품은 영감으로 시작됩니다. (싱가포르)<br />
+            &nbsp;</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 65014ef3-8669-497a-a342-fef787f964f2
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:07:45.068+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T15:07:46.512+05:30
+        hippotranslation:id: 9fc178ca-3afd-42ac-aa6f-00b57dd0ed33
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 아티스트 에디션 ® (싱가포르)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>모든 위대한 예술 작품은 영감으로 시작됩니다. (싱가포르)<br />
+            &nbsp;</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /its-happening-again:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9cd0808d-fa36-4afc-9a5d-6c830aeb8c4b
+      hippo:name: It's happening again
+      /its-happening-again[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 982885de-aa2b-4649-bc92-31b75227f89b
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:06.421+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2edf0434-316a-4180-8ffe-f3cc7bace85f
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 다시 (싱가포르)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>쾰러 지능형 화장실 및 클렌징 시트보기 (싱가포르)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d87c13e4-09f9-4106-bfee-215de63128bf
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:07:47.808+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2edf0434-316a-4180-8ffe-f3cc7bace85f
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 다시 (싱가포르)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>쾰러 지능형 화장실 및 클렌징 시트보기 (싱가포르)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 544daccf-e485-4251-b496-6e807b651e90
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:06.421+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T15:08:07.749+05:30
+        hippotranslation:id: 2edf0434-316a-4180-8ffe-f3cc7bace85f
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 다시 (싱가포르)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>쾰러 지능형 화장실 및 클렌징 시트보기 (싱가포르)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /carouseloverlay:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: a964eaa9-350b-4e73-b352-3cb0b0bb2c2a
+    hippostd:foldertype: [new-carouselOverlay, new-carouselOverlay-folder]
+    hippotranslation:id: 26f1e7d8-7a28-478a-970b-c005298a3e31
+    hippotranslation:locale: ko_KR
+    /poplin:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 449658ed-4a4d-47ac-8159-d064436d6345
+      hippo:name: Poplin
+      /poplin[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 3ac9efbb-1038-4ac3-924a-58bf952409ee
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:32.599+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b41c228e-97fd-4d24-a296-8db8163310ae
+        hippotranslation:locale: en
+        kohler:description: Poplin 허영심은 소박한 아름다움과 Shaker 스타일과 디자인의 기능에 영향을 받았습니다.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: 포플린 싱가포르
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e5a8548f-1a60-40ed-9f27-928bee8b683d
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:13.284+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b41c228e-97fd-4d24-a296-8db8163310ae
+        hippotranslation:locale: en
+        kohler:description: Poplin 허영심은 소박한 아름다움과 Shaker 스타일과 디자인의 기능에 영향을 받았습니다.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: 포플린 싱가포르
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ad6575f6-fbdd-4345-991f-97a60a35f0c9
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:32.599+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T15:08:33.992+05:30
+        hippotranslation:id: b41c228e-97fd-4d24-a296-8db8163310ae
+        hippotranslation:locale: en
+        kohler:description: Poplin 허영심은 소박한 아름다움과 Shaker 스타일과 디자인의 기능에 영향을 받았습니다.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: 포플린 싱가포르
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /jute:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 1397ef79-fd0f-4e8d-a934-8ece75f6987c
+      hippo:name: Jute
+      /jute[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 000bc03d-95c9-4fcb-9e89-16d21b4852cd
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:53.566+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: e9b99cd1-01cb-4915-ac61-328e9cfb43ee
+        hippotranslation:locale: en
+        kohler:description: 황마 장식대는 욕실에서 놀라운 디자인 성명을 발표 할 세기 중반의 현대 미학을 재미있게 장식합니다.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute ™ 싱가포르
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7911a608-34f3-4d73-bad0-eb83587c3da3
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:35.173+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: e9b99cd1-01cb-4915-ac61-328e9cfb43ee
+        hippotranslation:locale: en
+        kohler:description: 황마 장식대는 욕실에서 놀라운 디자인 성명을 발표 할 세기 중반의 현대 미학을 재미있게 장식합니다.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute ™ 싱가포르
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9bd0971c-b02c-41ae-90e4-37e087185d61
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T15:08:53.566+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T15:08:55.031+05:30
+        hippotranslation:id: e9b99cd1-01cb-4915-ac61-328e9cfb43ee
+        hippotranslation:locale: en
+        kohler:description: 황마 장식대는 욕실에서 놀라운 디자인 성명을 발표 할 세기 중반의 현대 미학을 재미있게 장식합니다.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute ™ 싱가포르
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+  /material-and-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+    jcr:uuid: 67961b75-f536-4cba-99ae-7d030780b792
+    hippo:name: material and color palette
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: b76c2da8-1d67-46f9-94c8-6e669aff12a1
+    hippotranslation:locale: ko_KR
+  /globalproject-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 81db8285-f6e6-4210-84dd-b2177e287d1c
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 079f5158-7f84-4da2-b2c1-6f8f2798db47
+    hippotranslation:locale: ko_KR

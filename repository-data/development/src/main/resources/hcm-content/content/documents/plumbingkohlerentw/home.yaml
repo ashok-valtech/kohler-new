@@ -1,0 +1,497 @@
+/content/documents/plumbingkohlerentw/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 47954016-2e65-4fed-a8b8-04d4744a5143
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: dd7fc06c-6ad0-4d74-99c1-f8dd590b509b
+  hippotranslation:locale: en_TW
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5916d384-7158-4fe0-ab00-7c4d8875f7fb
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 90331a16-718d-45a5-a889-fcee5e5d1a11
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:28:36.603+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: cf42fb27-13ad-41ac-a26b-25c151c0317d
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean Singapore
+      kohler:title: Cleansing seats Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c58bdf16-b275-419f-a5a9-7a0a8d6ab230
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:28:23.800+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: cf42fb27-13ad-41ac-a26b-25c151c0317d
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean Singapore
+      kohler:title: Cleansing seats Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4df30dda-b15d-4941-95c3-789b0310ef5b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:28:36.603+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-14T15:28:38.308+05:30
+      hippotranslation:id: cf42fb27-13ad-41ac-a26b-25c151c0317d
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean Singapore
+      kohler:title: Cleansing seats Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8d9b41e1-0f15-408d-914d-b131ce186ace
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: c8c6bbdd-e8ee-4fa1-93df-c9e59863f4b5
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:29:02.931+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e12bb85a-a59a-4637-bb5b-5291bdb98388
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 80935aba-d2aa-402f-aac8-c111e814018b
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:28:54.393+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e12bb85a-a59a-4637-bb5b-5291bdb98388
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 959899c7-8ab6-47df-a734-a6c52f71e4e8
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:29:02.931+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-14T15:29:05.128+05:30
+      hippotranslation:id: e12bb85a-a59a-4637-bb5b-5291bdb98388
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 183bec0c-94e7-46d1-8e44-17b66daf699a
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 993c7d99-699f-4465-8569-073295160d55
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:29:35.503+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3feaafef-5940-4a99-8c45-57132420c2a1
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Singapore
+      kohler:title: Composed Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 00c804dd-4ca9-4ed1-bd1c-0bb51888cd69
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:29:28.990+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3feaafef-5940-4a99-8c45-57132420c2a1
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Singapore
+      kohler:title: Composed Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 39b662a0-a1d1-445d-be22-299ff6f5ad7e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:29:35.503+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-14T15:29:37.459+05:30
+      hippotranslation:id: 3feaafef-5940-4a99-8c45-57132420c2a1
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Singapore
+      kohler:title: Composed Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 918fc040-ea5d-4abb-a61c-5a8da8a880c9
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 27e3a7dd-9e87-4fcc-aeb5-28c5f5cd2c29
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:30:03.688+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b2273fa3-e9a2-44df-82f0-c97fe8681906
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  Singapore
+      kohler:title: Bathroom Vanities Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 817b053f-f051-418d-afd4-c17b1d13af11
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:29:59.658+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b2273fa3-e9a2-44df-82f0-c97fe8681906
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  Singapore
+      kohler:title: Bathroom Vanities Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9a3e0c21-dd39-495b-9b3a-14240b3f3709
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:30:03.688+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-14T15:30:06.168+05:30
+      hippotranslation:id: b2273fa3-e9a2-44df-82f0-c97fe8681906
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  Singapore
+      kohler:title: Bathroom Vanities Singapore
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: e9660a52-40b7-40ae-bc52-37af0f91ceb9
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a929595d-1130-4e0c-839e-42bc1e2e1054
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:30:42.156+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7da0d403-d51c-48e6-8851-e180ddcc8a80
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. Singapore
+      kohler:title: DTV+™ Singapore
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4d7889ea-fb76-4d3e-ba9b-868d1c0d5923
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:30:38.391+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7da0d403-d51c-48e6-8851-e180ddcc8a80
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. Singapore
+      kohler:title: DTV+™ Singapore
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3001317b-d13f-48bf-96b4-563e6b33ef71
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:30:42.156+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-14T15:30:43.798+05:30
+      hippotranslation:id: 7da0d403-d51c-48e6-8851-e180ddcc8a80
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. Singapore
+      kohler:title: DTV+™ Singapore
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5ea11009-6fbc-45bc-8cfa-4a89f4a7d650
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 64bcd740-2fba-4285-a173-b3f3562a25b4
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:31:14.232+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 473a217f-5cc8-44dd-a0fe-47ef8df13fa2
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        Singapore
+      kohler:title: Go Touchless Singapore
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d6175997-4d91-44d6-9de7-6e678b437071
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:31:10.404+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 473a217f-5cc8-44dd-a0fe-47ef8df13fa2
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        Singapore
+      kohler:title: Go Touchless Singapore
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a3be4352-0044-44bf-9230-80e9318368a4
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-14T15:31:14.232+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-14T15:31:15.776+05:30
+      hippotranslation:id: 473a217f-5cc8-44dd-a0fe-47ef8df13fa2
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        Singapore
+      kohler:title: Go Touchless Singapore

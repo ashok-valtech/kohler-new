@@ -1,0 +1,496 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ /* _koh-utils.scss
+   Partial SCSS containing utility mixins to be used in other parts of the site
+*/
+
+
+/* Screen Reader Mixin */
+
+@mixin sr-only() {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+/* Utility Mixins
+   Can be used to keep things consistent throughout the site */
+
+// Used to control the width of primary page components
+// Would rather do this with percentage widths for a truly fluid layout
+// but this is the way the current site does it
+$koh-max-page-width: $koh-media-md;
+@mixin koh-page-gutters() {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: #{$koh-max-page-width}) {
+        width: $koh-max-page-width;
+    }
+}
+
+@mixin koh-page-gutters-padding() {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: #{$koh-max-page-width}) {
+        width: 100%;
+        padding-left: calc( (100% - #{$koh-max-page-width}) / 2);
+        padding-right: calc( (100% - #{$koh-max-page-width}) / 2);
+    }
+}
+
+@mixin koh-footer-gutter-padding() {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: #{$koh-max-page-width}) {
+        padding-left: calc( (85% - #{$koh-max-page-width}) / 2);
+        padding-right: calc( (75% - #{$koh-max-page-width}) / 2);
+    }
+
+    @media screen and (min-width: #{$koh-max-page-width}) and (max-width: #{$koh-media-lg}) {
+        padding-left: calc( (100% - #{$koh-max-page-width}) / 2);
+        padding-right: calc( (100% - #{$koh-max-page-width}) / 2);
+    }
+}
+
+
+/* Overlay Centering Helper - assumes parent element is position: relative */
+
+@mixin koh-centered-overlay( $width: 50px, $height: 50px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: ($height / -2);
+    margin-left: ($width / -2);
+}
+
+
+/* Font Helper - Converts from pixel font sizes to ems */
+
+@mixin koh-font($font-size, $base-size: $koh-base-font-size, $line-height: $font-size, $font-family: $koh-font-family-default, $font-weight: normal) {
+    font-family: $font-family;
+    font-size: ($font-size * (1em / $base-size));
+    line-height: ($line-height * (1em / $font-size));
+    font-weight: $font-weight;
+}
+
+@mixin koh-font-light($font-size, $base-size: $koh-base-font-size, $line-height: $font-size, $font-weight: normal) {
+    @include koh-font($font-size: $font-size, $base-size: $base-size, $line-height: $line-height, $font-family: $koh-font-sans-serif-light, $font-weight: $font-weight)
+}
+
+@mixin koh-font-bold($font-size, $base-size: $koh-base-font-size, $line-height: $font-size, $font-weight: normal) {
+    @include koh-font($font-size: $font-size, $base-size: $base-size, $line-height: $line-height, $font-family: $koh-font-sans-serif-bold, $font-weight: $font-weight)
+}
+
+@mixin koh-font-medium($font-size, $base-size: $koh-base-font-size, $line-height: $font-size, $font-weight: normal) {
+    @include koh-font($font-size: $font-size, $base-size: $base-size, $line-height: $line-height, $font-family: $koh-font-sans-serif-med, $font-weight: $font-weight)
+}
+
+/*
+For Roman
+*/
+@mixin koh-font-roman($font-size, $base-size: $koh-base-font-size, $line-height: $font-size, $font-weight: normal) {
+    @include koh-font($font-size: $font-size, $base-size: $base-size, $line-height: $line-height, $font-family: $koh-font-sans-serif, $font-weight: $font-weight)
+}
+
+/* Button Definitions */
+
+$koh-button-padding: 13.5px 20px;
+@mixin koh-button( $button-bg: $koh-color-slt-grey, $button-fg: $koh-color-pdk-grey, $hover-bg: $koh-color-sdk-grey, $hover-fg: $koh-color-pdk-grey, $padding: $koh-button-padding) {
+    @include koh-unbutton();
+    background: $button-bg;
+    color: $button-fg;
+    &:hover,
+    &:active {
+        background: $hover-bg;
+        color: $hover-fg;
+    }
+    display: inline-block;
+    padding: $padding;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+@mixin koh-button-white( $padding: $koh-button-padding) {
+    @include koh-button( $button-bg: $koh-color-white, $button-fg: $koh-color-pdk-grey, $hover-bg: $koh-color-white, $hover-fg: $koh-color-black, $padding: $padding);
+}
+
+@mixin koh-button-black( $padding: $koh-button-padding) {
+    @include koh-button( $button-bg: $koh-color-pdk-grey, $button-fg: $koh-color-white, $hover-bg: $koh-color-black, $hover-fg: $koh-color-white, $padding: $padding);
+}
+
+@mixin koh-button-blue( $padding: $koh-button-padding) {
+    @include koh-button( $button-bg: $koh-color-md-blue, $button-fg: $koh-color-white, $hover-bg: $koh-color-dk-blue, $hover-fg: $koh-color-white, $padding: $padding);
+}
+
+@mixin koh-button-green( $padding: $koh-button-padding) {
+    @include koh-button( $button-bg: $koh-color-md-green, $button-fg: $koh-color-white, $hover-bg: $koh-color-dk-green, $hover-fg: $koh-color-white, $padding: $padding);
+}
+
+@mixin koh-button-grey( $padding: $koh-button-padding) {
+    @include koh-button( $button-bg: $koh-color-pmd-grey, $button-fg: $koh-color-white, $hover-bg: $koh-color-pdk-grey, $hover-fg: $koh-color-white, $padding: $padding);
+}
+
+@mixin koh-flat-button( $button-bg: $koh-color-slt-grey, $button-fg: $koh-color-pdk-grey, $hover-bg: $koh-color-sdk-grey, $hover-fg: $koh-color-pdk-grey, $padding: $koh-button-padding) {
+    @include koh-unbutton();
+    background: $button-bg;
+    color: $button-fg;
+    &:hover,
+    &:active {
+        background: $hover-bg;
+        color: $hover-fg;
+    }
+    display: inline-block;
+    padding: $padding;
+    border: 1px solid $koh-color-smd-grey;
+    border-radius: 4px;
+    @include koh-font( $font-size: 16px);
+    text-decoration: none;
+    text-align: center;
+}
+
+@mixin koh-flat-button-white( $padding: $koh-button-padding) {
+    @include koh-flat-button( $button-bg: $koh-color-white, $button-fg: $koh-color-pdk-grey, $hover-bg: $koh-color-white, $hover-fg: $koh-color-black, $padding: $padding);
+}
+
+@mixin koh-unbutton() {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: none;
+    text-align: left;
+    background: transparent;
+    color: inherit;
+}
+
+
+/* List Definitions */
+
+@mixin koh-unlist() {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: none;
+    text-align: left;
+    list-style: none;
+}
+
+
+/* Custom Select Menu */
+
+@mixin koh-select-menu-button() {
+    @include koh-flat-button-white( $padding: 13.5px 15px);
+    text-align: left;
+    position: relative;
+    &:after {
+        content: "\e600";
+        font-family: $koh-font-icons;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 15px;
+    }
+}
+
+@mixin koh-select-menu-list() {
+    display: none;
+    &.open {
+        display: block;
+        position: absolute;
+    }
+}
+
+
+/* Carousel Controls and Indicators */
+
+
+/* Appearance Only - Positioning varies per use */
+
+@mixin koh-carousel-arrow() {
+    width: 70px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    @include koh-unbutton();
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+    &:hover {
+        opacity: 1;
+    }
+    .icon {
+        font-family: KohlerIcons;
+        /* Using Kohler's custom icon font */
+        font-size: 40px;
+        color: $koh-color-white;
+        line-height: 1em;
+        text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
+    }
+    .label {
+        @include sr-only();
+    }
+    &.previous {
+        .icon:after {
+            content: "\e611"
+        }
+        left: 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+    &.next {
+        .icon:after {
+            content: "\e612"
+        }
+        right: 0;
+        text-align: right;
+        padding-right: 20px;
+    }
+}
+
+@mixin koh-carousel-indicators() {
+    background: transparent;
+    color: white;
+    @include koh-unbutton();
+    list-style: none;
+    text-align: center;
+    li {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        button {
+            @include koh-unbutton();
+            @include koh-circle-icon( $size: 10px, $border-color: $koh-color-white, $fill-color: transparent);
+        }
+        &.slick-active {
+            button {
+                @include koh-circle-icon( $size: 16px, $border-color: $koh-color-white, $fill-color: $koh-color-white);
+            }
+        }
+    }
+}
+@mixin koh-article-carousel-indicators() {
+  background: transparent;
+  color: white;
+  @include koh-unbutton();
+  list-style: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: -3px;
+    @media #{$koh-media-screen-sm} {
+      margin-left: 0;
+    }
+    button {
+      @include koh-unbutton();
+      @include koh-circle-icon($size: 10px, $border-color: $koh-color-white, $fill-color: transparent);
+    }
+    &.slick-active {
+      button {
+        @include koh-circle-icon($size: 16px, $border-color: $koh-color-white, $fill-color: $koh-color-white);
+      }
+    }
+  }
+}
+
+
+/* Icon Mixins */
+
+@mixin koh-circle-icon ( $size: 20px, $border-color: black, $fill-color: white) {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    line-height: 0px;
+    width: $size;
+    height: $size;
+    background: $fill-color;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+}
+
+
+/* Grid Layout Mixins
+   Based on Bootstrap, but using our own custom breakpoints */
+
+
+/* Bootstrap grid mixins */
+
+@mixin koh-make-container-row($gutter: $grid-gutter-width) {
+    @extend .container-fluid;
+    @include make-row($gutter);
+}
+
+@mixin koh-make-row($gutter: $grid-gutter-width) {
+    @include make-row($gutter);
+}
+
+@mixin koh-make-column( $xs, $sm: -1, $md: -1, $lg: -1, $gutter: $grid-gutter-width) {
+    // Note: The default breakpoints that come with Bootstrap don't fit with where
+    // the layout needs them. So we're redefining them and using the xs-column
+    // instead.
+    @include make-xs-column($xs, $gutter);
+    @if $sm > 0 {
+        @media #{$koh-media-screen-sm} {
+            @include make-xs-column($sm, $gutter);
+        }
+    }
+    @if $md > 0 {
+        @media #{$koh-media-screen-md} {
+            @include make-xs-column($md, $gutter);
+        }
+    }
+    @if $lg > 0 {
+        @media #{$koh-media-screen-lg} {
+            @include make-xs-column($lg, $gutter);
+        }
+    }
+}
+
+@mixin koh-make-column-push( $xs, $sm: -1, $md: -1, $lg: -1) {
+    // Note: The default breakpoints that come with Bootstrap don't fit with where
+    // the SPE layout needs them. So we're redefining them and using the xs-column
+    // instead.
+    @include make-xs-column-push($xs);
+    @if $sm > 0 {
+        @media #{$koh-media-screen-sm} {
+            @include make-xs-column-push($sm);
+        }
+    }
+    @if $md > 0 {
+        @media #{$koh-media-screen-md} {
+            @include make-xs-column-push($md);
+        }
+    }
+    @if $lg > 0 {
+        @media #{$koh-media-screen-lg} {
+            @include make-xs-column-push($lg);
+        }
+    }
+}
+
+@mixin koh-make-column-pull( $xs, $sm: -1, $md: -1, $lg: -1) {
+    // Note: The default breakpoints that come with Bootstrap don't fit with where
+    // the SPE layout needs them. So we're redefining them and using the xs-column
+    // instead.
+    @include make-xs-column-pull($xs);
+    @if $sm > 0 {
+        @media #{$koh-media-screen-sm} {
+            @include make-xs-column-pull($sm);
+        }
+    }
+    @if $md > 0 {
+        @media #{$koh-media-screen-md} {
+            @include make-xs-column-pull($md);
+        }
+    }
+    @if $lg > 0 {
+        @media #{$koh-media-screen-lg} {
+            @include make-xs-column-pull($lg);
+        }
+    }
+}
+
+@mixin koh-column-unpush() {
+    left: auto;
+    right: auto;
+}
+
+
+/* Print and share buttons */
+
+.koh-print-share-tools {
+    margin: 15px 0 0;
+    min-height: 44px;
+    overflow: hidden;
+    .koh-page-share,
+    .koh-page-print {
+        display: block;
+        float: left;
+        padding-left: 2px;
+        button {
+            background: #e5e5e5 none repeat scroll 0 0;
+            border: 0 none;
+            border-radius: 4px;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+            color: #232323;
+            display: inline-block;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            height: 40px;
+            line-height: 1em;
+            margin: 0 5px 0 0;
+            outline: 0 none;
+            padding: 0;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 40px;
+            .label {
+                display: none;
+            }
+        }
+    }
+}
+
+.koh-page-share-popover {
+    background: #fff none repeat scroll 0 0;
+    color: #232323;
+    display: none;
+    list-style: outside none none;
+    margin-bottom: 0;
+    min-width: 238px;
+    padding: 15px;
+    button {
+        background: #fff none repeat scroll 0 0;
+        border: 0 none;
+        color: #232323;
+        display: block;
+        font-family: HelveticaRoman, Helvetica, sans-serif;
+        font-size: 1.4em;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0;
+        outline: 0 none;
+        padding: 5px;
+        text-align: left;
+        width: 100%;
+        .icon {
+            font-size: 20px;
+            height: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+            width: 20px;
+        }
+        &.koh-share-facebook {
+            .icon {
+                color: #325a90;
+            }
+        }
+        &.koh-share-twitter {
+            .icon {
+                color: #55acee;
+            }
+        }
+        &:hover {
+            background: #eee none repeat scroll 0 0;
+        }
+    }
+}
+

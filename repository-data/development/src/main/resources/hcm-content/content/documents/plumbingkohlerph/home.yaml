@@ -1,0 +1,497 @@
+/content/documents/plumbingkohlerph/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 20926b8b-eb3f-4d16-82a4-b26034e6fe90
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: 2569917e-8bd0-4989-918b-8beffe8bd13d
+  hippotranslation:locale: en_PH
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 08c033fc-fef6-4f3f-8f49-8d1e591872e4
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 09c7f243-96a6-4410-b714-78e158aec720
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:19.262+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e9c5c68e-cfd3-4682-a052-d30ac9843d57
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean (The Philippines)
+      kohler:title: Cleansing seats (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5bb56cb3-3282-4451-9322-be11842b9a48
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:01.426+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e9c5c68e-cfd3-4682-a052-d30ac9843d57
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean (The Philippines)
+      kohler:title: Cleansing seats (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 74762614-9628-41b3-8f2f-0716916b48bb
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:19.262+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T15:51:21.007+05:30
+      hippotranslation:id: e9c5c68e-cfd3-4682-a052-d30ac9843d57
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean (The Philippines)
+      kohler:title: Cleansing seats (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4402d92d-a750-4bd7-8c36-82f6d1a40e1a
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 59468342-be3a-43ba-a4a4-e1ec05b3f97a
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:27.657+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f24c10b2-11f2-4b33-8364-072c98b390df
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration (The Philippines)
+      kohler:title: Artist Editions (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 250df4e0-d418-4e7c-b447-ceb3c46a1b64
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:22.665+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f24c10b2-11f2-4b33-8364-072c98b390df
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration (The Philippines)
+      kohler:title: Artist Editions (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f2f80db5-f7da-47da-b345-8066237dad3b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:27.657+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T15:51:29.425+05:30
+      hippotranslation:id: f24c10b2-11f2-4b33-8364-072c98b390df
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration (The Philippines)
+      kohler:title: Artist Editions (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 46bd18ca-a9d7-4c8d-a11c-9ea138cd9aa4
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: fcadf529-b141-45c1-bf4a-9ffe5a051fa7
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:36.273+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 33f6f35b-a78a-4114-ad2f-cd689eb40f20
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Singapore (The Philippines)
+      kohler:title: Composed Singapore (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fcbad02c-9c9f-4112-be1e-abfbf0eea526
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:31.220+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 33f6f35b-a78a-4114-ad2f-cd689eb40f20
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Singapore (The Philippines)
+      kohler:title: Composed Singapore (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4af97a3b-73b8-4d09-8cef-28d00e753ab0
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:36.273+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T15:51:38.115+05:30
+      hippotranslation:id: 33f6f35b-a78a-4114-ad2f-cd689eb40f20
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Singapore (The Philippines)
+      kohler:title: Composed Singapore (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 02ef54e1-23cd-4d77-86de-4f11567452ca
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 6daa1595-d091-4676-818b-420b89ca5982
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:49.760+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 848e05de-b968-4084-a3cb-d44a7ab2a32c
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  (The Philippines)
+      kohler:title: Bathroom Vanities  (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6a1975fe-764d-416d-8b53-52af2c3d47f3
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:39.994+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 848e05de-b968-4084-a3cb-d44a7ab2a32c
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  (The Philippines)
+      kohler:title: Bathroom Vanities  (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3536b0ca-2b51-4695-b95a-45f8c613a2c7
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:49.760+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T15:51:51.664+05:30
+      hippotranslation:id: 848e05de-b968-4084-a3cb-d44a7ab2a32c
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  (The Philippines)
+      kohler:title: Bathroom Vanities  (The Philippines)
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 553109fb-b2bc-4ad5-af66-f8c0ee93a413
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 3df60259-d3d8-4370-bfb3-8429c1efae6e
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:57.738+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0c88ab0d-459d-43c4-8ff8-768162e4127d
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. (The Philippines)
+      kohler:title: DTV+™ (The Philippines)
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: aea16e3f-3bcb-4c9d-b0a5-8160601a6490
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:53.528+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0c88ab0d-459d-43c4-8ff8-768162e4127d
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. (The Philippines)
+      kohler:title: DTV+™ (The Philippines)
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 327f146c-e942-4eae-b6cc-3f3c8de664ec
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:51:57.738+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T15:52:00.400+05:30
+      hippotranslation:id: 0c88ab0d-459d-43c4-8ff8-768162e4127d
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. (The Philippines)
+      kohler:title: DTV+™ (The Philippines)
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 02156a8c-5169-47f4-804a-8275eddfba5f
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: e23bbf8d-73ed-43c1-ba90-8b2bf18479ca
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:52:08.417+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 950db1a1-eced-44ed-9986-227942e80acb
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        (The Philippines)
+      kohler:title: Go Touchless (The Philippines)
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6dd4ebce-164c-4262-8a56-131fb9eeb1c8
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:52:02.047+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 950db1a1-eced-44ed-9986-227942e80acb
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        (The Philippines)
+      kohler:title: Go Touchless (The Philippines)
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1e8e2ad4-ab0f-4a30-9bbf-36692c84c96d
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T15:52:08.417+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T15:52:09.758+05:30
+      hippotranslation:id: 950db1a1-eced-44ed-9986-227942e80acb
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        (The Philippines)
+      kohler:title: Go Touchless (The Philippines)

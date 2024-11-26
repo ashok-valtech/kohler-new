@@ -1,0 +1,375 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ .c-koh-contact-form {
+	padding: 20px 8px;
+	background: $koh-color-white;
+	@media #{$koh-media-screen-md-max} {
+		padding-bottom: 0;
+	}
+	
+	.koh-contact-container {
+		@include koh-page-gutters();
+		overflow: hidden;
+		padding-bottom: 40px;
+		@media #{$koh-media-screen-md-max} {
+			padding-bottom: 0;
+		}
+		.ramadan-promo-underline{
+			margin-top: 0 !important;
+			opacity: .2;
+			box-sizing: content-box;
+			height: 0;
+			background-color: #e6e6e6;
+			border-color: #e6e6e6;
+			border-top: 1px solid;
+			margin-bottom: 20px;
+		}
+		.koh-contact-header {
+			margin: 0 12px 10px 12px;
+			margin-bottom: 10px;
+			border-bottom: 1px solid $koh-color-pmd-grey;
+			@media #{$koh-media-screen-md} {
+				margin: 0 0 10px 0;
+			}
+			.koh-contact-title {
+				display: block;
+				padding: 0 0 20px 0;
+				font-size: 36px;
+				font-family: $koh-font-sans-serif-light;
+				text-align: center;
+				@media #{$koh-media-screen-md} {
+					padding: 40px 0 20px;
+					font-size: 60px;
+				}
+			}
+		}
+		
+		#successMessage, #failureMessage {
+			font-size: 1.6em;
+			color: #84A648;
+			background-color: #f5f5f5;
+			text-align: center;
+			padding: 20px;
+			margin-top: 10px;
+		}
+		#failureMessage {
+			color: #e50000;
+		}
+		.koh-contact-form-wrapper {
+			padding-top: 20px;
+			@media #{$koh-media-screen-md-max} {
+				padding: 5px 15px 0px;
+			}
+			form.form-horizontal {
+				.form-group {
+					input[type=text], select {
+						width: 100%;
+						padding: 10px 18px;
+						margin: 0;
+						border: 1px solid #dbdbdb;
+						font-family: HelveticaRoman, Helvetica, sans-serif;
+						font-size: 1.4em;
+						line-height: 20px;
+						border-radius: 3px;
+						overflow: hidden;
+						outline: 0;
+						height: 40px;
+						box-shadow: none;
+					}
+					textarea, textarea:focus {
+						box-shadow: none;
+					}
+					textarea {
+						resize: vertical;
+					}
+					input:hover
+					input:focus
+					input:active {
+						box-shadow: 0 0 0 30px white inset;
+					}
+					input:-webkit-autofill,
+					input:-webkit-autofill:hover, 
+					input:-webkit-autofill:focus, 
+					input:-webkit-autofill:active  {
+						-webkit-box-shadow: 0 0 0 30px white inset;
+					}
+					label.control-label {
+						padding-right: 30px;
+						font-size: 1.4em;
+						padding-top: 10px;
+						&.koh-upload-label {
+                            padding-top: 0;
+                        }
+                        span {
+                            display: block;
+                            font-size: .85em;
+                        }
+					}
+					.koh-upload-wrapper {
+						position: relative;
+						overflow: hidden;
+						background-color: #dbdbdb;
+						font-family: HelveticaBold, Helvetica, sans-serif;
+						text-transform: uppercase;
+						input {
+							position: absolute;
+							font-size: 50px;
+							opacity: 0;
+							right: 0;
+							top: 0;
+							cursor: pointer;
+						}
+					}
+					.koh-contact-upload-note {
+						clear: both;
+						display: block;
+						font-size: 1.3em;
+    					color: #9e9e9e;
+					}
+					.koh-privacy-policy-link-cf {
+						font-size: 1.4em; 
+						display: inline-block; 
+						line-height: 1.5em; 
+						margin-bottom: 15px; 
+						cursor:pointer;
+						&:active, 
+						&:focus,
+						&:visited {
+							text-decoration: none;
+						}
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+					#koh-contact-upload-file-name {
+						width: 100%;
+						padding: 12px 18px;
+						margin: 0;
+						border: 1px solid #dbdbdb;
+						font-family: HelveticaBold, Helvetica, sans-serif;
+						font-size: 1.4em;
+						line-height: 20px;
+						border-radius: 3px;
+						overflow: hidden;
+						outline: 0;
+						min-height: 40px;
+						height: auto;
+						box-shadow: none;
+						display: none;
+					}
+					button[type=submit] {
+						width: 100%;
+						background: #364573;
+						padding: 14px 20px 13px;
+						border-radius: 4px;
+						text-decoration: none;
+						text-align: center;
+						font-family: HelveticaBold, Helvetica, sans-serif;
+						font-size: 1.3em;
+						line-height: 1em;
+						font-weight: 400;
+						color: #fff;
+						text-transform: uppercase;
+						border: none;
+						&:focus {
+							outline:0;
+						}
+						&.koh-form-btn-loader {
+							font-size: 0px;
+							height: 40px;
+							  background: url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat #e5e5e5;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.koh-mu-contact-container {
+		@include koh-page-gutters();
+		overflow: hidden;
+		padding-bottom: 20px;
+		@media #{$koh-media-screen-md-max} {
+			padding-bottom: 0;
+		}
+		.ramadan-promo-underline{
+			margin-top: 0 !important;
+			opacity: .2;
+			box-sizing: content-box;
+			height: 0;
+			background-color: #e6e6e6;
+			border-color: #e6e6e6;
+			border-top: 1px solid;
+			margin-bottom: 20px;
+		}
+		.koh-contact-header {
+			margin: 0 12px 10px 12px;
+			margin-bottom: 10px;
+			@media #{$koh-media-screen-md} {
+				margin: 0 0 10px 0;
+			}
+			.koh-contact-title {
+				display: block;
+				padding: 0 0 20px 0;
+				font-size: 36px;
+				font-family: $koh-font-sans-serif-light;
+				text-align: center;
+				@media #{$koh-media-screen-md} {
+					padding: 40px 0 20px;
+					font-size: 60px;
+				}
+			}
+			.koh-mu-contact-title {
+                display: block;
+                font-size: 36px;
+                font-family: $koh-font-sans-serif-light;
+                text-align: center;
+                @media #{$koh-media-screen-md} {
+                    font-size: 60px;
+                }
+            }
+		}
+		
+		#successMessage, #failureMessage {
+			font-size: 1.6em;
+			color: #84A648;
+			background-color: #f5f5f5;
+			text-align: center;
+			padding: 20px;
+			margin-top: 10px;
+		}
+		#failureMessage {
+			color: #e50000;
+		}
+		.koh-contact-form-wrapper {
+			padding-top: 20px;
+			@media #{$koh-media-screen-md-max} {
+				padding: 5px 15px 0px;
+			}
+			form.form-horizontal {
+				.form-group {
+					input[type=text], select {
+						width: 100%;
+						padding: 10px 18px;
+						margin: 0;
+						border: 1px solid #dbdbdb;
+						font-family: HelveticaRoman, Helvetica, sans-serif;
+						font-size: 1.4em;
+						line-height: 20px;
+						border-radius: 3px;
+						overflow: hidden;
+						outline: 0;
+						height: 40px;
+						box-shadow: none;
+					}
+					textarea, textarea:focus {
+						box-shadow: none;
+					}
+					textarea {
+						resize: vertical;
+					}
+					input:hover
+					input:focus
+					input:active {
+						box-shadow: 0 0 0 30px white inset;
+					}
+					input:-webkit-autofill,
+					input:-webkit-autofill:hover, 
+					input:-webkit-autofill:focus, 
+					input:-webkit-autofill:active  {
+						-webkit-box-shadow: 0 0 0 30px white inset;
+					}
+					label.control-label {
+						padding-right: 30px;
+						font-size: 1.4em;
+						padding-top: 10px;
+						&.koh-upload-label {
+                            padding-top: 0;
+                        }
+                        span {
+                            display: block;
+                            font-size: .85em;
+                        }
+					}
+					.koh-upload-wrapper {
+						position: relative;
+						overflow: hidden;
+						background-color: #dbdbdb;
+						font-family: HelveticaBold, Helvetica, sans-serif;
+						text-transform: uppercase;
+						input {
+							position: absolute;
+							font-size: 50px;
+							opacity: 0;
+							right: 0;
+							top: 0;
+							cursor: pointer;
+						}
+					}
+					.koh-contact-upload-note {
+						clear: both;
+						display: block;
+						font-size: 1.3em;
+    					color: #9e9e9e;
+					}
+					.koh-privacy-policy-link-cf {
+						font-size: 1.4em; 
+						display: inline-block; 
+						line-height: 1.5em; 
+						margin-bottom: 15px; 
+						cursor:pointer;
+						&:active, 
+						&:focus,
+						&:visited {
+							text-decoration: none;
+						}
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+					#koh-contact-upload-file-name {
+						width: 100%;
+						padding: 12px 18px;
+						margin: 0;
+						border: 1px solid #dbdbdb;
+						font-family: HelveticaBold, Helvetica, sans-serif;
+						font-size: 1.4em;
+						line-height: 20px;
+						border-radius: 3px;
+						overflow: hidden;
+						outline: 0;
+						min-height: 40px;
+						height: auto;
+						box-shadow: none;
+						display: none;
+					}
+					button[type=submit] {
+						width: 100%;
+						background: #364573;
+						padding: 14px 20px 13px;
+						border-radius: 4px;
+						text-decoration: none;
+						text-align: center;
+						font-family: HelveticaBold, Helvetica, sans-serif;
+						font-size: 1.3em;
+						line-height: 1em;
+						font-weight: 400;
+						color: #fff;
+						text-transform: uppercase;
+						border: none;
+						&:focus {
+							outline:0;
+						}
+						&.koh-form-btn-loader {
+							font-size: 0px;
+							height: 40px;
+							  background: url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat #e5e5e5;
+						}
+					}
+				}
+			}
+		}
+	}
+ }

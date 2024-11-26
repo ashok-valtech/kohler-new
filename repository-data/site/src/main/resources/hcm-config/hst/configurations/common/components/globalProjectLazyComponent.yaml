@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/globalProjectLazyComponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.GlobalProjectAjaxComponent
+      hst:parameternames: [sortOrder, sortField, pageSize, path, facetPath, maxCountryProjects]
+      hst:parametervalues: [desc, '', '3', /global-projects, /global-projects/global-project-facets,
+        '3']

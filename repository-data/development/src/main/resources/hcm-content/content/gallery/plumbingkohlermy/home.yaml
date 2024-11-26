@@ -1,0 +1,285 @@
+/content/gallery/plumbingkohlermy/home:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: c9eb7221-466e-4ea7-b550-a708abaac98f
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /documents:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 1368c5a5-684d-422c-a096-cdec42b73e8f
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /download1.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bb2c538b-7581-43f2-980b-dcce1f44bd3f
+      /download1.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download1.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download1.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download1.jpg/download1_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.245+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download1.jpg/download1_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.245+05:30
+          jcr:mimeType: image/jpeg
+    /download6.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2251dd91-987b-4586-a540-1d0c3f2927a0
+      /download6.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download6.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download6.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download6.jpg/download6_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.349+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download6.jpg/download6_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.349+05:30
+          jcr:mimeType: image/jpeg
+    /download2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7ae5e745-6ccc-4413-b995-c2ed753004b6
+      /download2.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download2.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download2.jpg/download2_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.581+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download2.jpg/download2_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.581+05:30
+          jcr:mimeType: image/jpeg
+    /download3.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3bb9cffb-3931-4f16-93ad-22b5839459be
+      /download3.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download3.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download3.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download3.jpg/download3_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.741+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download3.jpg/download3_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.741+05:30
+          jcr:mimeType: image/jpeg
+    /download5.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: aac689fe-a562-48cc-82ac-6c91b45307d1
+      /download5.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download5.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download5.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download5.jpg/download5_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.887+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download5.jpg/download5_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.887+05:30
+          jcr:mimeType: image/jpeg
+    /download7.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b29106ba-5b0b-43a9-a26e-97eaa89fbdb8
+      /download7.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download7.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download7.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download7.jpg/download7_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:33.049+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/download7.jpg/download7_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:33.049+05:30
+          jcr:mimeType: image/jpeg
+    /kbda2017.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 23275c2e-328d-4a1a-a8e8-f589523bd4eb
+      hippo:name: KBDA2017.jpg
+      /kbda2017.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: KBDA2017.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: KBDA2017.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/kbda2017.jpg/KBDA2017_thumbnail.jpg
+          jcr:lastModified: 2017-09-26T15:50:22.846Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 353
+          hippogallery:width: 460
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/kbda2017.jpg/KBDA2017_original.jpg
+          jcr:lastModified: 2017-09-26T15:50:22.846Z
+          jcr:mimeType: image/jpeg
+    /boldart2017.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 31c8a067-42ed-44f4-9423-0bc3db6b2054
+      hippo:name: BoldArt2017.jpg
+      /boldart2017.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: BoldArt2017.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: BoldArt2017.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/boldart2017.jpg/BoldArt2017_thumbnail.jpg
+          jcr:lastModified: 2017-09-26T15:50:23.520Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 353
+          hippogallery:width: 460
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/home/documents/boldart2017.jpg/BoldArt2017_original.jpg
+          jcr:lastModified: 2017-09-26T15:50:23.520Z
+          jcr:mimeType: image/jpeg
+  /boldlookblk.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 08dc3cba-07c5-4d5d-a8a1-067f48b3f085
+    hippo:name: BoldLookBlk.jpg
+    /boldlookblk.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: BoldLookBlk.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: BoldLookBlk.jpg
+        hippogallery:height: 34
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/home/boldlookblk.jpg/BoldLookBlk_thumbnail.jpg
+        jcr:lastModified: 2017-07-12T13:32:51.828+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 141
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/home/boldlookblk.jpg/BoldLookBlk_original.jpg
+        jcr:lastModified: 2017-07-12T13:32:51.828+05:30
+        jcr:mimeType: image/jpeg
+  /kohler-logo-261x146.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4fde0765-7404-415d-9b06-42490e982439
+    /kohler-logo-261x146.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: kohler-logo-261x146.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: kohler-logo-261x146.png
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/home/kohler-logo-261x146.png/kohler-logo-261x146_thumbnail.png
+        jcr:lastModified: 2017-08-21T17:18:04.062+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 261
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/home/kohler-logo-261x146.png/kohler-logo-261x146_original.png
+        jcr:lastModified: 2017-08-21T17:18:04.062+05:30
+        jcr:mimeType: image/png

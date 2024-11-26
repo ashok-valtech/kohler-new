@@ -1,0 +1,157 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ .c-koh-compare-panel {
+    background: $koh-color-white;
+    border-top: 1px solid $koh-color-slt-grey;
+    .koh-compare-header {
+        @include koh-page-gutters-padding();
+        padding: 0 10px;
+        height: 51px;
+        .koh-compare-title {
+            display: block;
+            float: left;
+            margin-left: 10px;
+            font-family: $koh-font-sans-serif-light;
+            font-size: 18px;
+            line-height: 51px;
+            text-transform: uppercase;
+        }
+        .koh-compare-clear {
+            float: right;
+            height: 51px;
+            font-size: 14px;
+            line-height: 47px;
+            text-decoration: underline;
+            background: none;
+            border: none;
+            outline: none;
+        }
+        .koh-compare-link {
+            @include koh-button();
+            float: right;
+            margin: 4px 10px 0 15px;
+        }
+        .koh-compare-toggle {
+            float: right;
+            position: relative;
+            width: 51px;
+            height: 51px;
+            text-align: center;
+            text-indent: -999em;
+            background: none;
+            border: none;
+            outline: none;
+            &:before {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 51px;
+                height: 51px;
+                content: "\e600";
+                font-family: $koh-font-icons;
+                font-size: 18px;
+                line-height: 51px;
+                text-indent: 0;
+            }
+            &.open:before {
+                content: "\e613";
+            }
+        }
+    }
+    .koh-compare-items {
+        display: none;
+        border-top: 1px solid $koh-color-slt-grey;
+        @include koh-page-gutters();
+        padding: 0;
+        height: 180px;
+        padding: 25px 0;
+        &.open {
+            display: table;
+        }
+        .koh-compare-item {
+            display: table-cell;
+            position: relative;
+            vertical-align: top;
+            width: 33.333%;
+            padding: 0 10px;
+            border-right: 1px solid $koh-color-slt-grey;
+            &:nth-of-type(3) {
+                border-right: none;
+            }
+            span {
+                display: block;
+                font-family: $koh-font-sans-serif-med;
+                font-size: 16px;
+                line-height: 22px;
+                color: $koh-color-plt-grey;
+            }
+            a {
+                text-decoration: none;
+                outline: none;
+                &:visited,
+                &:hover,
+                &:active {
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+            .koh-compare-image {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .koh-compare-name {
+                color: $koh-color-pdk-grey;
+                line-height: 19px;
+            }
+            .koh-compare-sku {
+                font-family: $koh-font-sans-serif-light;
+            }
+            .koh-compare-price {
+                color: $koh-color-pdk-grey;
+                font-family: $koh-font-sans-serif-med;
+                margin-top: 10px;
+            }
+            .koh-compare-add,
+            .koh-compare-add-blank {
+                position: absolute;
+                line-height: 150px;
+                /*top: 50%;
+                transform: translateY(-50%);*/
+                width: 100%;
+                font-family: $koh-font-sans-serif-light;
+                font-size: 80px;
+                text-align: center;
+                color: #bebebe
+            }
+            .koh-compare-remove {
+                position: absolute;
+                top: 0;
+                right: 10px;
+                width: 16px;
+                height: 16px;
+                text-align: center;
+                text-indent: -999em;
+                background: none;
+                border: none;
+                outline: none;
+                &:before {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 16px;
+                    height: 16px;
+                    content: "\e602";
+                    font-family: $koh-font-icons;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-indent: 0;
+                    color: $koh-color-plt-grey;
+                }
+            }
+        }
+    }
+}

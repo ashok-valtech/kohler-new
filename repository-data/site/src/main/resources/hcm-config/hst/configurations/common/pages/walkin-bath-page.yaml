@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/walkin-bath-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: walkIn-bath-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: walkin-bath/main

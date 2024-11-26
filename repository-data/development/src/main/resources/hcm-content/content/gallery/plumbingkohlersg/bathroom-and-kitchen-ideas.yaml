@@ -1,0 +1,61 @@
+/content/gallery/plumbingkohlersg/bathroom-and-kitchen-ideas:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 97fa9846-163a-4333-bec0-2292b6981d22
+  hippo:name: bathroom and kitchen ideas
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /placeholder-_1.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 2ee31bb2-1185-400d-bc08-fffe86358685
+    /placeholder-_1.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: placeholder-_1.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: placeholder-_1.png
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-and-kitchen-ideas/placeholder-_1.png/placeholder-_1_thumbnail.png
+        jcr:lastModified: 2017-06-01T12:33:49.153+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-and-kitchen-ideas/placeholder-_1.png/placeholder-_1_original.png
+        jcr:lastModified: 2017-06-01T12:33:49.153+05:30
+        jcr:mimeType: image/png
+  /placeholder-_2.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f32d3ad7-81b4-42c9-95cb-2e1456733462
+    /placeholder-_2.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: placeholder-_2.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: placeholder-_2.png
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-and-kitchen-ideas/placeholder-_2.png/placeholder-_2_thumbnail.png
+        jcr:lastModified: 2017-06-01T12:33:49.752+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-and-kitchen-ideas/placeholder-_2.png/placeholder-_2_original.png
+        jcr:lastModified: 2017-06-01T12:33:49.752+05:30
+        jcr:mimeType: image/png

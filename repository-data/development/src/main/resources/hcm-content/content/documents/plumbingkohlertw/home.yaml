@@ -1,0 +1,482 @@
+/content/documents/plumbingkohlertw/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: fdc25cab-7652-46f8-ab53-bd88f3f4d4e1
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: 157c5b03-e16b-424d-8ce9-a3f476350fff
+  hippotranslation:locale: zh_TW
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a08f285f-62ad-44ae-b984-3962cbbb3d23
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 892f34f4-edb5-494b-8aed-d62a6e6d86a8
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:13.914+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 19fd015c-e211-4bad-bb02-6661dbc7dc81
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: 讓你感覺到干淨的新加坡乾淨
+      kohler:title: 清潔座椅新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4a7c89f8-34a4-4d8b-b03b-943270d18aec
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:01:57.507+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 19fd015c-e211-4bad-bb02-6661dbc7dc81
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: 讓你感覺到干淨的新加坡乾淨
+      kohler:title: 清潔座椅新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0a49ffde-66a2-4f67-9c22-7bbb86707ab2
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:13.914+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T18:02:15.061+05:30
+      hippotranslation:id: 19fd015c-e211-4bad-bb02-6661dbc7dc81
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: 讓你感覺到干淨的新加坡乾淨
+      kohler:title: 清潔座椅新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 84bb1300-fe5b-4cce-984a-0c180f1725d5
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: d8fe12c5-4f70-4222-99c2-5e85aa4965a5
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:32.786+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 47c4558a-9354-4674-bdde-697b120e0e44
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: 每一件偉大的藝術作品都以靈感開始
+      kohler:title: 藝術家版本新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: de40631d-7622-4c68-bfb4-376bd9b314a8
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:16.661+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 47c4558a-9354-4674-bdde-697b120e0e44
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: 每一件偉大的藝術作品都以靈感開始
+      kohler:title: 藝術家版本新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d2696926-7109-47ee-b0d7-182fb777a33d
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:32.786+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T18:02:34.122+05:30
+      hippotranslation:id: 47c4558a-9354-4674-bdde-697b120e0e44
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: 每一件偉大的藝術作品都以靈感開始
+      kohler:title: 藝術家版本新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f4560f9b-4e9c-4154-bed2-5b25ec60f908
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 584a3d86-3a69-4f63-8b8f-02e39aa142cc
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:53.474+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: eaabde10-5d4a-475d-afa6-1a29c8cc74b1
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Kohler組合的水龍頭系列是一個非常重要的蓬勃發展的設計。 新加坡
+      kohler:title: 組成新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5efdad3c-7c9a-4b87-982f-c4d8e1cdb8a2
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:35.610+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: eaabde10-5d4a-475d-afa6-1a29c8cc74b1
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Kohler組合的水龍頭系列是一個非常重要的蓬勃發展的設計。 新加坡
+      kohler:title: 組成新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e1213c12-1bb1-4d71-9e87-8497418a775e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:53.474+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T18:02:54.635+05:30
+      hippotranslation:id: eaabde10-5d4a-475d-afa6-1a29c8cc74b1
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Kohler組合的水龍頭系列是一個非常重要的蓬勃發展的設計。 新加坡
+      kohler:title: 組成新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5452c13a-b592-4593-820c-dbcb0020c119
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: fb39af38-0436-4252-b043-3571e5b3365c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:03:15.253+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 87544e9f-217a-401a-9a47-9668e41dc6ea
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: KOHLER定制的Vanity系列為浴室帶來了新的尺寸。 每種風格讓您可以完全以科勒的質量提供您的房間。 新加坡
+      kohler:title: 浴室櫃新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d54f2499-c4ad-4457-917f-1a0a72b24f63
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:02:56.059+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 87544e9f-217a-401a-9a47-9668e41dc6ea
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: KOHLER定制的Vanity系列為浴室帶來了新的尺寸。 每種風格讓您可以完全以科勒的質量提供您的房間。 新加坡
+      kohler:title: 浴室櫃新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5902d5b0-8f52-4217-b7c8-5676c4df8314
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:03:15.253+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T18:03:16.386+05:30
+      hippotranslation:id: 87544e9f-217a-401a-9a47-9668e41dc6ea
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: KOHLER定制的Vanity系列為浴室帶來了新的尺寸。 每種風格讓您可以完全以科勒的質量提供您的房間。 新加坡
+      kohler:title: 浴室櫃新加坡
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: cc402f40-2325-4a73-80fa-3977c09629a7
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: e9d3d904-a019-41bb-a4eb-07540f217f14
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:03:40.491+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: fb4778c8-1386-48b6-9025-3ff7729593fa
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: 科勒將水，聲音，蒸氣和光線連在一起，就像DTV +中沒有人一樣。 這是我們最先進的淋浴系統。 新加坡
+      kohler:title: DTV +™新加坡
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f938c545-a854-49e3-b445-9c546e025a1f
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:03:17.776+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: fb4778c8-1386-48b6-9025-3ff7729593fa
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: 科勒將水，聲音，蒸氣和光線連在一起，就像DTV +中沒有人一樣。 這是我們最先進的淋浴系統。 新加坡
+      kohler:title: DTV +™新加坡
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1d5cc475-7543-4e26-90bc-f9b4241e73ad
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:03:40.491+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T18:03:41.948+05:30
+      hippotranslation:id: fb4778c8-1386-48b6-9025-3ff7729593fa
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: 科勒將水，聲音，蒸氣和光線連在一起，就像DTV +中沒有人一樣。 這是我們最先進的淋浴系統。 新加坡
+      kohler:title: DTV +™新加坡
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 66d53824-58c0-4135-863d-af47b9e6acae
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 5ac80e02-af49-4321-807a-3ee840673d7f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:04:00.337+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ee5cc41d-7a3e-457b-8cda-20a875353e39
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: 沒有任何接觸意味著更少的細菌可以吸收或留下。 新加坡
+      kohler:title: 去無錫新加坡
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9825662f-1477-4c9d-bf47-21acb2099251
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:03:43.790+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ee5cc41d-7a3e-457b-8cda-20a875353e39
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: 沒有任何接觸意味著更少的細菌可以吸收或留下。 新加坡
+      kohler:title: 去無錫新加坡
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 119f2bd9-c64a-44c6-9f96-f5a67ad7cfbc
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T18:04:00.337+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T18:04:02.664+05:30
+      hippotranslation:id: ee5cc41d-7a3e-457b-8cda-20a875353e39
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: 沒有任何接觸意味著更少的細菌可以吸收或留下。 新加坡
+      kohler:title: 去無錫新加坡

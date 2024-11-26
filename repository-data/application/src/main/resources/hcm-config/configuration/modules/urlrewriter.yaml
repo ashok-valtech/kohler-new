@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/urlrewriter/hippo:moduleconfig:
+      urlrewriter:skippedprefixes: [/_cmsrest, /_cmsinternal, /_rp, '/_hn:', /ping/,
+        /_cmssessioncontext]

@@ -1,0 +1,1181 @@
+/content/documents/kohler/article-master:
+  .meta:order-before: banners
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 6cac857e-3239-4b49-8203-28ae16e89e65
+  hippo:name: article-master
+  hippostd:foldertype: [new-Article-folder]
+  hippotranslation:id: d986e136-8175-4370-8ea5-434c12d041f1
+  hippotranslation:locale: en
+  /article-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 44a8216e-1cfb-4580-8a87-1e94ebce60bd
+    hippostd:foldertype: [new-articleBannerDocument]
+    hippotranslation:id: 46d07b87-72d4-487a-b55a-1e168e08127c
+    hippotranslation:locale: en
+    /composed-bathroom-faucet-collection:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 2ce96576-540a-464b-9237-e36ef6082335
+      hippo:name: Composed Bathroom Faucet Collection
+      /composed-bathroom-faucet-collection[1]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 33f8d8a8-923a-4a47-9a93-33b4260a3c31
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-10T15:37:50.059+05:30
+        hippostdpubwf:lastModificationDate: 2019-04-04T19:05:56.044+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2a22d90a-747a-4365-8cd9-259ba8028a1a
+        hippotranslation:locale: en
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab99599_rgb?crop=(0,1526,8149,4580)
+        kohler:keywords: ''
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:metaDescription: ''
+        kohler:seoTitle: ''
+        kohler:thumbnailUrl: ''
+        kohler:title: Composed Bathroom Faucet Collection
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Composed faucet collection by Kohler is a design
+            stripped of non-essential flourishes. Composed embodies simplicity. Clean.
+            Classic. Quietly confident. It exemplifies refinement among KOHLER products
+            as it forms an original composition that is at once unique yet comfortably
+            familiar.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 91e340c3-e2ef-4ef9-add2-9c6e06655730
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 3834e420-2cbc-44e9-8e97-53f5467f2402
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ffdfadc2-c748-49c4-9c85-f124882770e1
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 781f1afd-2635-4cec-9b95-dc062b4bb948
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ad1d8dfe-6529-46c0-834e-944986940965
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: e0b61680-a68a-46c6-a93d-f17891feaa30
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 462dc966-fe25-42c9-878a-163e55f1b782
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 325b92ae-6f3d-4fd1-82a2-429fd9269123
+      /composed-bathroom-faucet-collection[2]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: cc6149b4-d398-4329-8aa8-057815dc2e2e
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-10T15:37:50.059+05:30
+        hippostdpubwf:lastModificationDate: 2019-04-04T19:06:01.632+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2a22d90a-747a-4365-8cd9-259ba8028a1a
+        hippotranslation:locale: en
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab99599_rgb?crop=(0,1526,8149,4580)
+        kohler:keywords: ''
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:metaDescription: ''
+        kohler:seoTitle: ''
+        kohler:thumbnailUrl: ''
+        kohler:title: Composed Bathroom Faucet Collection
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Composed faucet collection by Kohler is a design
+            stripped of non-essential flourishes. Composed embodies simplicity. Clean.
+            Classic. Quietly confident. It exemplifies refinement among KOHLER products
+            as it forms an original composition that is at once unique yet comfortably
+            familiar.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 91e340c3-e2ef-4ef9-add2-9c6e06655730
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 3834e420-2cbc-44e9-8e97-53f5467f2402
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ffdfadc2-c748-49c4-9c85-f124882770e1
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 781f1afd-2635-4cec-9b95-dc062b4bb948
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ad1d8dfe-6529-46c0-834e-944986940965
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: e0b61680-a68a-46c6-a93d-f17891feaa30
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 462dc966-fe25-42c9-878a-163e55f1b782
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 325b92ae-6f3d-4fd1-82a2-429fd9269123
+      /composed-bathroom-faucet-collection[3]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2373ddee-26de-483c-8c83-8adf082658c1
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-10T15:37:50.059+05:30
+        hippostdpubwf:lastModificationDate: 2019-04-04T19:06:01.632+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-04T19:06:03.461+05:30
+        hippotranslation:id: 2a22d90a-747a-4365-8cd9-259ba8028a1a
+        hippotranslation:locale: en
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab99599_rgb?crop=(0,1526,8149,4580)
+        kohler:keywords: ''
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:metaDescription: ''
+        kohler:seoTitle: ''
+        kohler:thumbnailUrl: ''
+        kohler:title: Composed Bathroom Faucet Collection
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Composed faucet collection by Kohler is a design
+            stripped of non-essential flourishes. Composed embodies simplicity. Clean.
+            Classic. Quietly confident. It exemplifies refinement among KOHLER products
+            as it forms an original composition that is at once unique yet comfortably
+            familiar.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 91e340c3-e2ef-4ef9-add2-9c6e06655730
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 3834e420-2cbc-44e9-8e97-53f5467f2402
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ffdfadc2-c748-49c4-9c85-f124882770e1
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 781f1afd-2635-4cec-9b95-dc062b4bb948
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ad1d8dfe-6529-46c0-834e-944986940965
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: e0b61680-a68a-46c6-a93d-f17891feaa30
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 462dc966-fe25-42c9-878a-163e55f1b782
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 325b92ae-6f3d-4fd1-82a2-429fd9269123
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 3cd1c4db-3763-48cf-bbdd-801aaa7cafb1
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 329bdf27-305d-411e-b475-5d8ad1e0f65c
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: kohler_editor
+        hippostdpubwf:creationDate: 2017-08-21T11:05:36.016Z
+        hippostdpubwf:lastModificationDate: 2017-08-26T13:16:58.769Z
+        hippostdpubwf:lastModifiedBy: justin
+        hippotranslation:id: e50e9e8d-e3c8-4fc6-bc49-c7dee5e2b45c
+        hippotranslation:locale: en
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac18643_rgb?extend=-1800,-1350,-1510,-1550&$960Carousel$
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:title: The Finish is Just the Beginning
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every room tells a story. Begin to imagine yours with
+            the right faucet finish.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 1e481fb0-7d84-46ed-acef-d0b9db03cf55
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 829e46b7-1cd8-4851-8943-ee3851d1100a
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a27f10b9-aa04-4e31-b1ba-a500385fa4b5
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d5875341-fa39-4fe0-b812-b802a44beff1
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a848521e-f8d1-4ad1-83aa-5c405ddc813c
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d0ad8140-d63f-4681-aba6-8005d2f7439b
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 25a93c08-3d87-4ab3-8412-a50739afff35
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4bf54a17-4083-499c-b879-908535fda819
+        /kohler:relatedDocument[9]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 412f3e5d-cdfd-4935-a74e-68f807e37587
+        /kohler:relatedDocument[10]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 079de7a8-5835-4a66-beba-bd88063722f9
+        /kohler:relatedDocument[11]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4fec9b07-4b8c-4029-b003-85bc9d6d38f3
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 83d20602-8ec1-489e-bac9-68ac45741b9d
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: kohler_editor
+        hippostdpubwf:creationDate: 2017-08-21T11:05:36.016Z
+        hippostdpubwf:lastModificationDate: 2017-08-26T13:17:03.017Z
+        hippostdpubwf:lastModifiedBy: justin
+        hippotranslation:id: e50e9e8d-e3c8-4fc6-bc49-c7dee5e2b45c
+        hippotranslation:locale: en
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac18643_rgb?extend=-1800,-1350,-1510,-1550&$960Carousel$
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:title: The Finish is Just the Beginning
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every room tells a story. Begin to imagine yours with
+            the right faucet finish.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 1e481fb0-7d84-46ed-acef-d0b9db03cf55
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 829e46b7-1cd8-4851-8943-ee3851d1100a
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a27f10b9-aa04-4e31-b1ba-a500385fa4b5
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d5875341-fa39-4fe0-b812-b802a44beff1
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a848521e-f8d1-4ad1-83aa-5c405ddc813c
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d0ad8140-d63f-4681-aba6-8005d2f7439b
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 25a93c08-3d87-4ab3-8412-a50739afff35
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4bf54a17-4083-499c-b879-908535fda819
+        /kohler:relatedDocument[9]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 412f3e5d-cdfd-4935-a74e-68f807e37587
+        /kohler:relatedDocument[10]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 079de7a8-5835-4a66-beba-bd88063722f9
+        /kohler:relatedDocument[11]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4fec9b07-4b8c-4029-b003-85bc9d6d38f3
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bba01d91-0198-401f-9886-574f11f0cc1b
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: kohler_editor
+        hippostdpubwf:creationDate: 2017-08-21T11:05:36.016Z
+        hippostdpubwf:lastModificationDate: 2017-08-26T13:17:03.017Z
+        hippostdpubwf:lastModifiedBy: justin
+        hippostdpubwf:publicationDate: 2017-08-26T13:17:05.899Z
+        hippotranslation:id: e50e9e8d-e3c8-4fc6-bc49-c7dee5e2b45c
+        hippotranslation:locale: en
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac18643_rgb?extend=-1800,-1350,-1510,-1550&$960Carousel$
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:title: The Finish is Just the Beginning
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every room tells a story. Begin to imagine yours with
+            the right faucet finish.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 1e481fb0-7d84-46ed-acef-d0b9db03cf55
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 829e46b7-1cd8-4851-8943-ee3851d1100a
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a27f10b9-aa04-4e31-b1ba-a500385fa4b5
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d5875341-fa39-4fe0-b812-b802a44beff1
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a848521e-f8d1-4ad1-83aa-5c405ddc813c
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d0ad8140-d63f-4681-aba6-8005d2f7439b
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 25a93c08-3d87-4ab3-8412-a50739afff35
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4bf54a17-4083-499c-b879-908535fda819
+        /kohler:relatedDocument[9]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 412f3e5d-cdfd-4935-a74e-68f807e37587
+        /kohler:relatedDocument[10]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 079de7a8-5835-4a66-beba-bd88063722f9
+        /kohler:relatedDocument[11]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4fec9b07-4b8c-4029-b003-85bc9d6d38f3
+  /articles-documents:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: ff7e60f6-2735-48c3-bcdd-9ce7c323e559
+    hippostd:foldertype: [new-Article-folder]
+    hippotranslation:id: 8335822a-869b-4e7a-a9d9-01d5b0eca0fa
+    hippotranslation:locale: en
+    /toilet-seats:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: eba921a3-8f41-4e9d-845e-5ebf5c8b9435
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 730b0e43-acd0-49bd-bf3f-0deb5ea9dc7d
+      hippotranslation:locale: en
+    /flushing-technologies:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 07432121-2ba4-4a58-88df-17877f4be138
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 4f216b6a-aafe-4a34-b1b7-563e6a39a579
+      hippotranslation:locale: en
+    /waterless-urinals:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: a8d3d416-3e6c-4575-94da-34e90ac295f0
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 2d657e07-f0b1-44b1-848b-5b03ca06698f
+      hippotranslation:locale: en
+      /rockstar:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 072c8987-3174-4c7f-a9e7-45401f887b56
+        hippo:name: rockstar
+        /rockstar[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 797693ce-60d4-4ec8-bafc-443ab7ff9839
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-06-01T20:21:13.109+05:30
+          hippostdpubwf:lastModificationDate: 2017-06-05T14:28:52.580+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0fafeabe-7b0d-463e-a7e9-ebc38e2e6ae6
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: ''
+          kohler:linkLable: know more
+          kohler:title: ROCK STAR PERFORMANCE
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Not to be upstaged, the sprayface features 60 angled nozzles that deliver the full, enveloping spray you've come to expect from a KOHLER<sup>®</sup>&nbsp;showerhead.<br />
+              <br />
+              Available with a water-saving 2.0 gpm or a 2.5 gpm spray, Moxie lets you save water without sacrificing performance. And the silicone sprayface of the showerhead makes it easy to wipe away mineral buildup.</p>
+        /rockstar[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 606f1525-d00d-4d5a-ba22-206e662a79c9
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-06-01T20:21:13.109+05:30
+          hippostdpubwf:lastModificationDate: 2017-06-16T12:21:42.864+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0fafeabe-7b0d-463e-a7e9-ebc38e2e6ae6
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: ''
+          kohler:linkLable: know more
+          kohler:title: ROCK STAR PERFORMANCE
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Not to be upstaged, the sprayface features 60 angled nozzles that deliver the full, enveloping spray you've come to expect from a KOHLER<sup>®</sup>&nbsp;showerhead.<br />
+              <br />
+              Available with a water-saving 2.0 gpm or a 2.5 gpm spray, Moxie lets you save water without sacrificing performance. And the silicone sprayface of the showerhead makes it easy to wipe away mineral buildup.</p>
+        /rockstar[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: abf81f54-86b3-421d-95c2-d92b92731747
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-06-01T20:21:13.109+05:30
+          hippostdpubwf:lastModificationDate: 2017-06-05T14:28:52.580+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-06-16T12:21:54.914+05:30
+          hippotranslation:id: 0fafeabe-7b0d-463e-a7e9-ebc38e2e6ae6
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: ''
+          kohler:linkLable: know more
+          kohler:title: ROCK STAR PERFORMANCE
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Not to be upstaged, the sprayface features 60 angled nozzles that deliver the full, enveloping spray you've come to expect from a KOHLER<sup>®</sup>&nbsp;showerhead.<br />
+              <br />
+              Available with a water-saving 2.0 gpm or a 2.5 gpm spray, Moxie lets you save water without sacrificing performance. And the silicone sprayface of the showerhead makes it easy to wipe away mineral buildup.</p>
+      /same-speaker:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: a6785a31-dd18-426e-8b20-b8de453cac13
+        hippo:name: same speaker
+        /same-speaker[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 3825cbbc-8e7f-4e29-a875-79b31eec567e
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-06-01T20:24:36.812+05:30
+          hippostdpubwf:lastModificationDate: 2017-06-05T19:26:28.327+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 2a912388-0113-4e26-92a7-1a2e719c2607
+          hippotranslation:locale: en
+          kohler:imageLink: http://kohler.scene7.com/is/image/PAWEB/zab47529_rgb?crop=(0,60,3520,2650)&$SectionHero$
+          kohler:link: https://www.google.co.in/
+          kohler:linkLable: know more
+          kohler:title: SAME SPEAKER. NEW EXPERIENCE.
+          kohler:videoLink: https://www.youtube.com/embed/D-2Eamvcua8
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>The Moxie rainhead + wireless speaker lets you drench yourself in your favorite music and a warm rain-like spray. The rainhead's silicone 8-inch sprayface is easy to wipe clean and features 80 angled nozzles that deliver an all-encompassing spa-like spray. Thanks to air induction technology, each drop feels bigger and more luxurious.</p>
+
+              <p>Moxie rainhead is available in a water-saving 2.0 gpm or a 2.5 gpm spray and pairs well with the&nbsp;<a href="http://ecom.dev.us.kohler.com/dat/_USKOHLER-NEXT/html/samples/article-page-hero-video.shtml#">HydroRail<sup>®</sup>-R shower column</a>.</p>
+        /same-speaker[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f50d0f26-0504-41d6-b026-46664d80ab94
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-06-01T20:24:36.812+05:30
+          hippostdpubwf:lastModificationDate: 2017-06-05T19:26:28.327+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-06-16T12:22:05.107+05:30
+          hippotranslation:id: 2a912388-0113-4e26-92a7-1a2e719c2607
+          hippotranslation:locale: en
+          kohler:imageLink: http://kohler.scene7.com/is/image/PAWEB/zab47529_rgb?crop=(0,60,3520,2650)&$SectionHero$
+          kohler:link: https://www.google.co.in/
+          kohler:linkLable: know more
+          kohler:title: SAME SPEAKER. NEW EXPERIENCE.
+          kohler:videoLink: https://www.youtube.com/embed/D-2Eamvcua8
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>The Moxie rainhead + wireless speaker lets you drench yourself in your favorite music and a warm rain-like spray. The rainhead's silicone 8-inch sprayface is easy to wipe clean and features 80 angled nozzles that deliver an all-encompassing spa-like spray. Thanks to air induction technology, each drop feels bigger and more luxurious.</p>
+
+              <p>Moxie rainhead is available in a water-saving 2.0 gpm or a 2.5 gpm spray and pairs well with the&nbsp;<a href="http://ecom.dev.us.kohler.com/dat/_USKOHLER-NEXT/html/samples/article-page-hero-video.shtml#">HydroRail<sup>®</sup>-R shower column</a>.</p>
+    /bubble-massage-baths:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: e645c867-a921-4e6c-b061-6dcdef76c9d4
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 34c0ef82-4657-40d1-b049-ed06b841ba4d
+      hippotranslation:locale: en
+    /vibra-coustic-baths:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: cfaabc0f-470c-4687-a7db-4a24c9bd9d0e
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: ea717dd4-f64c-4ecc-a30b-09f9ae304120
+      hippotranslation:locale: en
+    /kohler-cast-iron:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 01cfd167-7204-4eb7-8cce-796828a2326f
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 16c6cedd-8ab0-460c-bada-1c1382558a1c
+      hippotranslation:locale: en
+    /composed-bathroom-faucet-collection:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+      jcr:uuid: f7ecfbaa-9aab-4b28-8f84-caa5742bec5a
+      hippo:name: Composed Bathroom Faucet Collection
+      hippostd:foldertype: [new-Article-folder, new-Article]
+      hippotranslation:id: a2ecbe55-9408-40f7-9de8-b3fb8d2deac4
+      hippotranslation:locale: en
+      /timeless-beauty:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 91e340c3-e2ef-4ef9-add2-9c6e06655730
+        hippo:name: Timeless Beauty
+        /timeless-beauty[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bdf7498b-7b30-4e48-9c6d-4e1530a953bf
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:00:27.825+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c4a57b87-062f-431a-8dae-8b9d19b976fe
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: http://www.kohler.co.in/
+          kohler:linkLable: Explore the Composed Collection
+          kohler:title: Timeless Beauty
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Timeless and deliberate, the Composed faucet exhibits
+              the beautifully understated elements of minimalist design. By eliminating
+              unnecessary details, the Composed faucet elicits an emotional response
+              with its stark beauty.</p>
+        /timeless-beauty[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 602adb73-c668-44cb-b654-0ecb337f3dca
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:00:31.303+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c4a57b87-062f-431a-8dae-8b9d19b976fe
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: http://www.kohler.co.in/
+          kohler:linkLable: Explore the Composed Collection
+          kohler:title: Timeless Beauty
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Timeless and deliberate, the Composed faucet exhibits
+              the beautifully understated elements of minimalist design. By eliminating
+              unnecessary details, the Composed faucet elicits an emotional response
+              with its stark beauty.</p>
+        /timeless-beauty[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c6888f18-d22a-4625-a1c3-412e133347c7
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:00:31.303+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:00:32.944+05:30
+          hippotranslation:id: c4a57b87-062f-431a-8dae-8b9d19b976fe
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: http://www.kohler.co.in/
+          kohler:linkLable: Explore the Composed Collection
+          kohler:title: Timeless Beauty
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Timeless and deliberate, the Composed faucet exhibits
+              the beautifully understated elements of minimalist design. By eliminating
+              unnecessary details, the Composed faucet elicits an emotional response
+              with its stark beauty.</p>
+      /subtle-variations:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 3834e420-2cbc-44e9-8e97-53f5467f2402
+        hippo:name: Subtle Variations
+        /subtle-variations[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: e0a7f2af-e7d7-463f-a95e-5fcda34464aa
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:24:22.535+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 4ea2e7fb-2dbf-46d7-bbff-3e97874f48c1
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Subtle Variations
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Composed faucets were designed with two&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/browse/bathroom/Categories/plumbing-apac-bathroom-bathroom-sink-faucets/NumberOfHandles/1">single-handle</a>&nbsp;
+              options – both of which embrace the minimalist aesthetic. The pure handle
+              offers design simplicity with a surprisingly delicate touch, while the
+              lever handle provides elegance for a distinctive visual statement.</p>
+        /subtle-variations[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0a0d4cea-4e4d-457f-bfa0-6f6bec13dd76
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:24:06.661+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 4ea2e7fb-2dbf-46d7-bbff-3e97874f48c1
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Subtle Variations
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Composed faucets were designed with two&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/browse/bathroom/Categories/plumbing-apac-bathroom-bathroom-sink-faucets/NumberOfHandles/1">single-handle</a>&nbsp;
+              options – both of which embrace the minimalist aesthetic. The pure handle
+              offers design simplicity with a surprisingly delicate touch, while the
+              lever handle provides elegance for a distinctive visual statement.</p>
+        /subtle-variations[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 383b1990-efe1-4338-8faf-15be6860e192
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:24:22.535+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:24:24.194+05:30
+          hippotranslation:id: 4ea2e7fb-2dbf-46d7-bbff-3e97874f48c1
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab21389_rgb?crop=(0,508,5416,4078)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Subtle Variations
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Composed faucets were designed with two&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/browse/bathroom/Categories/plumbing-apac-bathroom-bathroom-sink-faucets/NumberOfHandles/1">single-handle</a>&nbsp;
+              options – both of which embrace the minimalist aesthetic. The pure handle
+              offers design simplicity with a surprisingly delicate touch, while the
+              lever handle provides elegance for a distinctive visual statement.</p>
+      /simplicity:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ffdfadc2-c748-49c4-9c85-f124882770e1
+        hippo:name: Simplicity
+        /simplicity[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 44f44316-bfe2-4cc5-b7c8-97b088430451
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:17:49.224+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 75dcb870-ed7c-4487-a56e-7b8c0b63d59c
+          hippotranslation:locale: en
+          kohler:imageLink: ''
+          kohler:link: http://www.us.kohler.com/us/
+          kohler:linkLable: Explore the Composed Collection
+          kohler:title: ''
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p><strong>Simplicity. Clean. Classic. Quietly confident.
+              That’s what characterizes Composed Series.</strong></p>
+        /simplicity[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 437b02c7-fb9e-40c3-886d-55e22722c610
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:17:29.851+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 75dcb870-ed7c-4487-a56e-7b8c0b63d59c
+          hippotranslation:locale: en
+          kohler:imageLink: ''
+          kohler:link: http://www.us.kohler.com/us/
+          kohler:linkLable: Explore the Composed Collection
+          kohler:title: ''
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p><strong>Simplicity. Clean. Classic. Quietly confident.
+              That’s what characterizes Composed Series.</strong></p>
+        /simplicity[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a7f612a4-5f78-4738-8b38-c4c1fbd18094
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:17:49.224+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:17:51.033+05:30
+          hippotranslation:id: 75dcb870-ed7c-4487-a56e-7b8c0b63d59c
+          hippotranslation:locale: en
+          kohler:imageLink: ''
+          kohler:link: http://www.us.kohler.com/us/
+          kohler:linkLable: Explore the Composed Collection
+          kohler:title: ''
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p><strong>Simplicity. Clean. Classic. Quietly confident.
+              That’s what characterizes Composed Series.</strong></p>
+      /widespread-faucets:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 781f1afd-2635-4cec-9b95-dc062b4bb948
+        hippo:name: Widespread Faucets
+        /widespread-faucets[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: b71a137c-6748-48ae-a179-cd59eb6d12ba
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:32:39.290+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a57d5f6e-34c3-412e-8a82-8de0610d0f3b
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac19924_rgb?crop=(816,1128,6216,4807)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Widespread Faucets
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Where a more substantial design statement is needed,
+              or there is a preference for a broader function, Composed faucets offer
+              a&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/search?query=widespread%C2%A0&amp;currentpage=1&amp;orderBy=name&amp;sort=asc&amp;type=product">widespread&nbsp;</a>design
+              featuring classic lever and cross handle options</p>
+        /widespread-faucets[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 07e280b3-ebd7-4e89-850f-4c5eeaf41b5a
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:29:56.609+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a57d5f6e-34c3-412e-8a82-8de0610d0f3b
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac19924_rgb?crop=(816,1128,6216,4807)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Widespread Faucets
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Where a more substantial design statement is needed,
+              or there is a preference for a broader function, Composed faucets offer
+              a&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/search?query=widespread%C2%A0&amp;currentpage=1&amp;orderBy=name&amp;sort=asc&amp;type=product">widespread&nbsp;</a>design
+              featuring classic lever and cross handle options</p>
+        /widespread-faucets[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 532accdc-2e03-4c20-82f7-0cae44d57e2d
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:32:39.290+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:32:42.256+05:30
+          hippotranslation:id: a57d5f6e-34c3-412e-8a82-8de0610d0f3b
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac19924_rgb?crop=(816,1128,6216,4807)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Widespread Faucets
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Where a more substantial design statement is needed,
+              or there is a preference for a broader function, Composed faucets offer
+              a&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/search?query=widespread%C2%A0&amp;currentpage=1&amp;orderBy=name&amp;sort=asc&amp;type=product">widespread&nbsp;</a>design
+              featuring classic lever and cross handle options</p>
+      /bathing:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: e0b61680-a68a-46c6-a93d-f17891feaa30
+        hippo:name: Bathing
+        /bathing[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 242366f6-530e-486b-8dbf-d51afda234ad
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:36:21.522+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 9ef32da8-098b-40e0-87ef-2bcfca8dcd72
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab68290_rgb?crop=(817,400,4119,3185)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Bathing
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>By offering&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/browse/bathroom/Categories/plumbing-apac-bathroom-bath-faucets/InstallationType/Bath_x002f_deck-mount">deck-mount
+              and freestanding bath faucet options</a> , Composed allows you to retain
+              the simplicity of aesthetic that is at the core of this design throughout
+              the bathroom. Hand showers paired with deck-mount faucets share the
+              commitment to simple design.</p>
+        /bathing[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0392f917-912a-4407-81bc-5456f973f6a7
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:33:36.848+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 9ef32da8-098b-40e0-87ef-2bcfca8dcd72
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab68290_rgb?crop=(817,400,4119,3185)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Bathing
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>By offering&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/browse/bathroom/Categories/plumbing-apac-bathroom-bath-faucets/InstallationType/Bath_x002f_deck-mount">deck-mount
+              and freestanding bath faucet options</a> , Composed allows you to retain
+              the simplicity of aesthetic that is at the core of this design throughout
+              the bathroom. Hand showers paired with deck-mount faucets share the
+              commitment to simple design.</p>
+        /bathing[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9f18f929-fd26-439c-bbc2-ae01479ae4ff
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:36:21.522+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:36:28.583+05:30
+          hippotranslation:id: 9ef32da8-098b-40e0-87ef-2bcfca8dcd72
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zab68290_rgb?crop=(817,400,4119,3185)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Bathing
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>By offering&nbsp;<a href="http://www.kohlerapac.test.onehippo.com/browse/bathroom/Categories/plumbing-apac-bathroom-bath-faucets/InstallationType/Bath_x002f_deck-mount">deck-mount
+              and freestanding bath faucet options</a> , Composed allows you to retain
+              the simplicity of aesthetic that is at the core of this design throughout
+              the bathroom. Hand showers paired with deck-mount faucets share the
+              commitment to simple design.</p>
+      /showering:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 462dc966-fe25-42c9-878a-163e55f1b782
+        hippo:name: Showering
+        /showering[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 10187b35-f7e5-4157-bb33-28d73adc632a
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:46:18.093+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 01c80972-62c7-4ee0-94ee-20f27c73c406
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac02242_rgb?crop=(389,0,4868,3765)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Showering
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Have you ever felt the relaxing caress of a summer rain?</p>
+
+              <p>The KOHLER Composed shower transports you into the heart of rain where you luxuriate in the natural and perfect balance of air and water droplets. Each air-infused droplet unveils the mysteries of rain.</p>
+
+              <p>The&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Shower+Valve+Trim">Composed valve trim</a>&nbsp;strikes a balance between simplicity and function. It coordinates with a range of KOHLER&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Showerheads">showerheads&nbsp;</a>and&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Handshowers">handshowers&nbsp;</a>to complete the look of the bathroom.</p>
+        /showering[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7a16cc8c-d3be-403b-b56a-ac2672c557f9
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:37:02.732+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 01c80972-62c7-4ee0-94ee-20f27c73c406
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac02242_rgb?crop=(389,0,4868,3765)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Showering
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Have you ever felt the relaxing caress of a summer rain?</p>
+
+              <p>The KOHLER Composed shower transports you into the heart of rain where you luxuriate in the natural and perfect balance of air and water droplets. Each air-infused droplet unveils the mysteries of rain.</p>
+
+              <p>The&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Shower+Valve+Trim">Composed valve trim</a>&nbsp;strikes a balance between simplicity and function. It coordinates with a range of KOHLER&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Showerheads">showerheads&nbsp;</a>and&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Handshowers">handshowers&nbsp;</a>to complete the look of the bathroom.</p>
+        /showering[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c6d21d38-5c7c-4d11-96ed-155fb8d8354c
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:46:18.093+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:46:19.605+05:30
+          hippotranslation:id: 01c80972-62c7-4ee0-94ee-20f27c73c406
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac02242_rgb?crop=(389,0,4868,3765)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Showering
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Have you ever felt the relaxing caress of a summer rain?</p>
+
+              <p>The KOHLER Composed shower transports you into the heart of rain where you luxuriate in the natural and perfect balance of air and water droplets. Each air-infused droplet unveils the mysteries of rain.</p>
+
+              <p>The&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Shower+Valve+Trim">Composed valve trim</a>&nbsp;strikes a balance between simplicity and function. It coordinates with a range of KOHLER&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Showerheads">showerheads&nbsp;</a>and&nbsp;<a href="https://la.kohler.com/en/browse/Showering/Handshowers">handshowers&nbsp;</a>to complete the look of the bathroom.</p>
+      /versatility:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 325b92ae-6f3d-4fd1-82a2-429fd9269123
+        hippo:name: Versatility
+        /versatility[1]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 65a9219c-0553-41a4-a2b5-b55882492143
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:48:30.486+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c4e77682-8fe2-4145-b3d6-67dc62730e36
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac02242_rgb?crop=(389,0,4868,3765)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Versatility
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Even the simplest design benefits from flexibility.
+              Composed&nbsp;single-handle faucets&nbsp;offer three distinctive height
+              options to complement a range of sink and vanity designs.</p>
+        /versatility[2]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5257e8d9-96d5-4e37-b3af-5592593d3060
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:46:45.053+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c4e77682-8fe2-4145-b3d6-67dc62730e36
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac02242_rgb?crop=(389,0,4868,3765)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Versatility
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Even the simplest design benefits from flexibility.
+              Composed&nbsp;single-handle faucets&nbsp;offer three distinctive height
+              options to complement a range of sink and vanity designs.</p>
+        /versatility[3]:
+          jcr:primaryType: kohler:Article
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 22d1028e-433a-4109-ae99-ff23e6f8d86d
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-10T15:51:39.083+05:30
+          hippostdpubwf:lastModificationDate: 2017-07-10T16:48:30.486+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-07-10T16:48:31.929+05:30
+          hippotranslation:id: c4e77682-8fe2-4145-b3d6-67dc62730e36
+          hippotranslation:locale: en
+          kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac02242_rgb?crop=(389,0,4868,3765)
+          kohler:link: ''
+          kohler:linkLable: ''
+          kohler:title: Versatility
+          kohler:videoLink: ''
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Even the simplest design benefits from flexibility.
+              Composed&nbsp;single-handle faucets&nbsp;offer three distinctive height
+              options to complement a range of sink and vanity designs.</p>
+  /article-carousel-documents:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: ce8105d6-123b-4c92-ab86-1f9491ed4234
+    hippostd:foldertype: [new-document]
+    hippotranslation:id: 9c6351bd-4e5c-4ac7-a6a4-1c38cbcaca59
+    hippotranslation:locale: en
+    /composed:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ad1d8dfe-6529-46c0-834e-944986940965
+      /composed[1]:
+        jcr:primaryType: kohler:articleCarouselDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: eedfc4db-c099-46d9-bc47-c93d1b99ba16
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-04T17:09:08.302+05:30
+        hippostdpubwf:lastModificationDate: 2019-04-04T19:22:59.067+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9016de62-9c8b-4f49-b389-cadfea8a6cf8
+        hippotranslation:locale: en
+        /kohler:kohler_articlecarouselcompounddocument[1]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[2]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[3]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: /binaries/content/gallery/kohler/banners/tumblr_m2geqnngdo1qex15m.gif
+        /kohler:kohler_articlecarouselcompounddocument[4]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[5]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[6]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+      /composed[2]:
+        jcr:primaryType: kohler:articleCarouselDocument
+        jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+        jcr:uuid: 8c666efa-84c5-4f77-b6de-759f2ab0d1f8
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-04T17:09:08.302+05:30
+        hippostdpubwf:lastModificationDate: 2019-04-04T19:23:13.803+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9016de62-9c8b-4f49-b389-cadfea8a6cf8
+        hippotranslation:locale: en
+        /kohler:kohler_articlecarouselcompounddocument[1]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[2]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[3]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: /binaries/content/gallery/kohler/banners/tumblr_m2geqnngdo1qex15m.gif
+        /kohler:kohler_articlecarouselcompounddocument[4]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[5]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[6]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+      /composed[3]:
+        jcr:primaryType: kohler:articleCarouselDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a5445cf2-6f08-4dad-be8a-f783f875af84
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-04T17:09:08.302+05:30
+        hippostdpubwf:lastModificationDate: 2019-04-04T19:23:13.803+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-04T19:23:15.921+05:30
+        hippotranslation:id: 9016de62-9c8b-4f49-b389-cadfea8a6cf8
+        hippotranslation:locale: en
+        /kohler:kohler_articlecarouselcompounddocument[1]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[2]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[3]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: /binaries/content/gallery/kohler/banners/tumblr_m2geqnngdo1qex15m.gif
+        /kohler:kohler_articlecarouselcompounddocument[4]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[5]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
+        /kohler:kohler_articlecarouselcompounddocument[6]:
+          jcr:primaryType: kohler:articleCarouselCompoundDocument
+          kohler:imageAltTitle: cast iron
+          kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$

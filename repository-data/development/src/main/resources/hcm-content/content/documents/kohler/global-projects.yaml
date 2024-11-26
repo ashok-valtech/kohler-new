@@ -1,0 +1,2517 @@
+/content/documents/kohler/global-projects:
+  .meta:order-before: home
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b9f85ddb-7015-47e5-af2a-a5a747abdc8d
+  hippostd:foldertype: [new-globalProject]
+  hippotranslation:id: cf472e23-3141-4e6d-b833-19746c779ea0
+  hippotranslation:locale: en
+  /australia-perth-crown-towers:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 56c323e6-ca93-49c4-89bb-df1d65abb282
+    hippo:name: Australia Perth Crown Towers
+    /australia-perth-crown-towers[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 1eea5d3b-2965-4cae-914a-19dc065713d6
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T18:53:32.012+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:18.123+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 0e97d9f3-a8ee-4141-8cc0-695444f02757
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Crown_Towers_Perth_00?extend=-175,0,-175,0&$SectionHero$
+      kohler:place: Perth
+      kohler:title: Filter1 Australia title 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>In December 2016, the&nbsp;Crown Towers Perth&nbsp;6-star luxury hotel opened its doors to the public. With an investment from Crown for almost USD 500 million, it is a jewel on the&nbsp;Western Coast of Australia&nbsp;and to date the most expensive hotel development in&nbsp;Perth. The 500-room hotel with panoramic views of the city across the Swan River, the 9,800 square meters of resort lagoon-style pool – the largest in Western Australia – and a building full of design, art and entertainment is discreet and elegant.</p>
+
+          <p>Architect/Interior Design: <a href="http://michaelfiebrich.com/work/crown-mansions/" target="_blank">Michael Fiebrich Design</a></p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/crown-towers-perth-australia-hiding-from-drop-bears-in-style/" target="_blank">More about Crown Towers Perth at Kohler Designful</a></p>
+
+          <p><a href="http://www.crownhotels.com.au/crown-towers-perth/en" target="_blank">Visit the Crown Towers Perth</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2cc2d54b-4efe-436b-8a70-0a8038dac324
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f53478fd-002d-487c-919f-fdc54e25dd68
+    /australia-perth-crown-towers[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: c948f7af-2a22-4ed4-af1d-e05760820515
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T18:53:32.012+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:22.286+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 0e97d9f3-a8ee-4141-8cc0-695444f02757
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Crown_Towers_Perth_00?extend=-175,0,-175,0&$SectionHero$
+      kohler:place: Perth
+      kohler:title: Filter1 Australia title 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>In December 2016, the&nbsp;Crown Towers Perth&nbsp;6-star luxury hotel opened its doors to the public. With an investment from Crown for almost USD 500 million, it is a jewel on the&nbsp;Western Coast of Australia&nbsp;and to date the most expensive hotel development in&nbsp;Perth. The 500-room hotel with panoramic views of the city across the Swan River, the 9,800 square meters of resort lagoon-style pool – the largest in Western Australia – and a building full of design, art and entertainment is discreet and elegant.</p>
+
+          <p>Architect/Interior Design: <a href="http://michaelfiebrich.com/work/crown-mansions/" target="_blank">Michael Fiebrich Design</a></p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/crown-towers-perth-australia-hiding-from-drop-bears-in-style/" target="_blank">More about Crown Towers Perth at Kohler Designful</a></p>
+
+          <p><a href="http://www.crownhotels.com.au/crown-towers-perth/en" target="_blank">Visit the Crown Towers Perth</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2cc2d54b-4efe-436b-8a70-0a8038dac324
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f53478fd-002d-487c-919f-fdc54e25dd68
+    /australia-perth-crown-towers[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: e65702c0-8f80-435c-8bdc-81d9aa646a5f
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T18:53:32.012+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:22.286+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:40:24.338+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 0e97d9f3-a8ee-4141-8cc0-695444f02757
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Crown_Towers_Perth_00?extend=-175,0,-175,0&$SectionHero$
+      kohler:place: Perth
+      kohler:title: Filter1 Australia title 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>In December 2016, the&nbsp;Crown Towers Perth&nbsp;6-star luxury hotel opened its doors to the public. With an investment from Crown for almost USD 500 million, it is a jewel on the&nbsp;Western Coast of Australia&nbsp;and to date the most expensive hotel development in&nbsp;Perth. The 500-room hotel with panoramic views of the city across the Swan River, the 9,800 square meters of resort lagoon-style pool – the largest in Western Australia – and a building full of design, art and entertainment is discreet and elegant.</p>
+
+          <p>Architect/Interior Design: <a href="http://michaelfiebrich.com/work/crown-mansions/" target="_blank">Michael Fiebrich Design</a></p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/crown-towers-perth-australia-hiding-from-drop-bears-in-style/" target="_blank">More about Crown Towers Perth at Kohler Designful</a></p>
+
+          <p><a href="http://www.crownhotels.com.au/crown-towers-perth/en" target="_blank">Visit the Crown Towers Perth</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2cc2d54b-4efe-436b-8a70-0a8038dac324
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f53478fd-002d-487c-919f-fdc54e25dd68
+  /australia-brisbane-capri-by-fraser-hotel-residences:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3d749de8-5e91-4d60-bd6b-6dbce76cd360
+    hippo:name: Australia Brisbane Capri by Fraser Hotel Residences
+    /australia-brisbane-capri-by-fraser-hotel-residences[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: fbdca918-0a93-4454-9430-53d6e9279c7f
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T06:14:04.594Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:26.243+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 9ff25a5c-1646-4128-b74f-0652c8362892
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:filters: Residential
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Capri_By_Fraser_Brisbane_00?extend=0,0,-220,0&$SectionHero$
+      kohler:place: Brisbane
+      kohler:relatedProduct: ['']
+      kohler:title: Filter2 australia title-1
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">An effortlessly stylish and vibrant hotel residence designed by award-winning Ministry Of Design, Capri by Fraser, Brisbane brings a touch of the rainforest to an inner city development featuring living vertical gardens, trendy art installations.</p>
+
+          <p style="margin-left:0in; text-align:left">The hotel has 239 premium hotel suites ranging from Studio Deluxe rooms, spacious One Bedroom Executive rooms and Capri Club rooms. Awarded the Best Superior Apartment at the Queensland Hotels Association 2015 Awards for Excellence.</p>
+
+          <p style="margin-left:0in; text-align:left">Architect/Interior Design: <a href="http://modonline.com/projects/capri-brisbane" target="_blank">Ministry of Design Singapore</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/experience-kohler-at-capri-hotel-brisbane/" target="_blank">More about Capri Brisbane at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://brisbane.capribyfraser.com/en" target="_blank">Visit the Capri Brisbane</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2f927a72-8c3d-4d0a-b0bb-ed1090fcbc70
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 328fcc57-5511-4a9a-ab9c-3fb6c693890c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 50502d38-3bad-47ca-a468-5c08c86b6659
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 94370af6-cbf2-40ef-956c-9000c842d548
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e566d98c-ee61-463d-92d2-8fc8ce955954
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c53d27f5-676d-4597-847a-dda6e882825e
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 02eede1d-5b30-4291-a7b2-ba8133d66a46
+    /australia-brisbane-capri-by-fraser-hotel-residences[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 55724a91-2aff-4557-83a3-dfeb866bc048
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T06:14:04.594Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:31.063+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 9ff25a5c-1646-4128-b74f-0652c8362892
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:filters: Residential
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Capri_By_Fraser_Brisbane_00?extend=0,0,-220,0&$SectionHero$
+      kohler:place: Brisbane
+      kohler:relatedProduct: ['']
+      kohler:title: Filter2 australia title-1
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">An effortlessly stylish and vibrant hotel residence designed by award-winning Ministry Of Design, Capri by Fraser, Brisbane brings a touch of the rainforest to an inner city development featuring living vertical gardens, trendy art installations.</p>
+
+          <p style="margin-left:0in; text-align:left">The hotel has 239 premium hotel suites ranging from Studio Deluxe rooms, spacious One Bedroom Executive rooms and Capri Club rooms. Awarded the Best Superior Apartment at the Queensland Hotels Association 2015 Awards for Excellence.</p>
+
+          <p style="margin-left:0in; text-align:left">Architect/Interior Design: <a href="http://modonline.com/projects/capri-brisbane" target="_blank">Ministry of Design Singapore</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/experience-kohler-at-capri-hotel-brisbane/" target="_blank">More about Capri Brisbane at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://brisbane.capribyfraser.com/en" target="_blank">Visit the Capri Brisbane</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2f927a72-8c3d-4d0a-b0bb-ed1090fcbc70
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 328fcc57-5511-4a9a-ab9c-3fb6c693890c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 50502d38-3bad-47ca-a468-5c08c86b6659
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 94370af6-cbf2-40ef-956c-9000c842d548
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e566d98c-ee61-463d-92d2-8fc8ce955954
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c53d27f5-676d-4597-847a-dda6e882825e
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 02eede1d-5b30-4291-a7b2-ba8133d66a46
+    /australia-brisbane-capri-by-fraser-hotel-residences[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: e655aba0-881d-4b89-813d-4041333bffaf
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T06:14:04.594Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:31.063+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:40:33.229+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 9ff25a5c-1646-4128-b74f-0652c8362892
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:filters: Residential
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Capri_By_Fraser_Brisbane_00?extend=0,0,-220,0&$SectionHero$
+      kohler:place: Brisbane
+      kohler:relatedProduct: ['']
+      kohler:title: Filter2 australia title-1
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">An effortlessly stylish and vibrant hotel residence designed by award-winning Ministry Of Design, Capri by Fraser, Brisbane brings a touch of the rainforest to an inner city development featuring living vertical gardens, trendy art installations.</p>
+
+          <p style="margin-left:0in; text-align:left">The hotel has 239 premium hotel suites ranging from Studio Deluxe rooms, spacious One Bedroom Executive rooms and Capri Club rooms. Awarded the Best Superior Apartment at the Queensland Hotels Association 2015 Awards for Excellence.</p>
+
+          <p style="margin-left:0in; text-align:left">Architect/Interior Design: <a href="http://modonline.com/projects/capri-brisbane" target="_blank">Ministry of Design Singapore</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/experience-kohler-at-capri-hotel-brisbane/" target="_blank">More about Capri Brisbane at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://brisbane.capribyfraser.com/en" target="_blank">Visit the Capri Brisbane</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2f927a72-8c3d-4d0a-b0bb-ed1090fcbc70
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 328fcc57-5511-4a9a-ab9c-3fb6c693890c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 50502d38-3bad-47ca-a468-5c08c86b6659
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 94370af6-cbf2-40ef-956c-9000c842d548
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e566d98c-ee61-463d-92d2-8fc8ce955954
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c53d27f5-676d-4597-847a-dda6e882825e
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 02eede1d-5b30-4291-a7b2-ba8133d66a46
+  /china-kunshan-fairmont-yangcheng-lake:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 1cc0c045-3d92-4399-bd92-bfc4bd45da3b
+    hippo:name: China Kunshan Fairmont Yangcheng Lake
+    /china-kunshan-fairmont-yangcheng-lake[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 579dc1c2-fe8b-471b-a2c6-aad5e2307234
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:29:38.360+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:34.719+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [indonesia]
+      hippotranslation:id: 21cb95d4-ce98-4246-8db0-f3f87a56fe61
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Fairmont_Yangcheng_Lake_Kunshan_00?extend=0,0,-60,0&$SectionHero$
+      kohler:place: Kunshan
+      kohler:title: Indonesia filter 1
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Nestled along the shores of the legendary Yangcheng Lake, home to the sought-after hairy crab, Fairmont Yangcheng Lake is a luxury five-star Kunshan resort unlike any other.</p>
+
+          <p>Featuring breathtaking lake or park views, each guest room and suite boasts floor-to-ceiling windows, as well as high-speed internet access, flat-screen televisions, deluxe bath amenities and plush robes.&nbsp;The 199 deluxe guest rooms and suites range from the 45-square-meter Fairmont Park View Rooms to a 460-square-meter Presidential Suite.</p>
+
+          <p>Discerning executive and leisure travelers can benefit from the exclusive privileges of the Fairmont Gold Floor. Fairmont’s executive floor offers personalized service, a private reception, comfortable Fairmont Gold lounge, and complimentary deluxe continental buffet breakfast, afternoon tea and evening cocktails and canapés. ont Gold Lounge with private boardroom, complimentary breakfast and evening cocktails as well as hors d’oeurves.</p>
+
+          <p>Beyond the resort’s accommodations, guests will discover a city rich in history and culture.</p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://www.fairmont.com/yangcheng-lake-kunshan/" target="_blank">Visit the Fairmont Yangcheng Lake</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: da0f9288-df1d-439d-b616-1e7ded01fa16
+    /china-kunshan-fairmont-yangcheng-lake[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 637bc3d7-7324-445d-9adf-542e2e8f8a2b
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:29:38.360+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:44.712+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [indonesia]
+      hippotranslation:id: 21cb95d4-ce98-4246-8db0-f3f87a56fe61
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Fairmont_Yangcheng_Lake_Kunshan_00?extend=0,0,-60,0&$SectionHero$
+      kohler:place: Kunshan
+      kohler:title: Indonesia filter 1
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Nestled along the shores of the legendary Yangcheng Lake, home to the sought-after hairy crab, Fairmont Yangcheng Lake is a luxury five-star Kunshan resort unlike any other.</p>
+
+          <p>Featuring breathtaking lake or park views, each guest room and suite boasts floor-to-ceiling windows, as well as high-speed internet access, flat-screen televisions, deluxe bath amenities and plush robes.&nbsp;The 199 deluxe guest rooms and suites range from the 45-square-meter Fairmont Park View Rooms to a 460-square-meter Presidential Suite.</p>
+
+          <p>Discerning executive and leisure travelers can benefit from the exclusive privileges of the Fairmont Gold Floor. Fairmont’s executive floor offers personalized service, a private reception, comfortable Fairmont Gold lounge, and complimentary deluxe continental buffet breakfast, afternoon tea and evening cocktails and canapés. ont Gold Lounge with private boardroom, complimentary breakfast and evening cocktails as well as hors d’oeurves.</p>
+
+          <p>Beyond the resort’s accommodations, guests will discover a city rich in history and culture.</p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://www.fairmont.com/yangcheng-lake-kunshan/" target="_blank">Visit the Fairmont Yangcheng Lake</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: da0f9288-df1d-439d-b616-1e7ded01fa16
+    /china-kunshan-fairmont-yangcheng-lake[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 2d2a4ab2-1cee-4bdc-9db9-a7fd58055795
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:29:38.360+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:44.712+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:40:46.786+05:30
+      hippotaxonomy:keys: [indonesia]
+      hippotranslation:id: 21cb95d4-ce98-4246-8db0-f3f87a56fe61
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Fairmont_Yangcheng_Lake_Kunshan_00?extend=0,0,-60,0&$SectionHero$
+      kohler:place: Kunshan
+      kohler:title: Indonesia filter 1
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Nestled along the shores of the legendary Yangcheng Lake, home to the sought-after hairy crab, Fairmont Yangcheng Lake is a luxury five-star Kunshan resort unlike any other.</p>
+
+          <p>Featuring breathtaking lake or park views, each guest room and suite boasts floor-to-ceiling windows, as well as high-speed internet access, flat-screen televisions, deluxe bath amenities and plush robes.&nbsp;The 199 deluxe guest rooms and suites range from the 45-square-meter Fairmont Park View Rooms to a 460-square-meter Presidential Suite.</p>
+
+          <p>Discerning executive and leisure travelers can benefit from the exclusive privileges of the Fairmont Gold Floor. Fairmont’s executive floor offers personalized service, a private reception, comfortable Fairmont Gold lounge, and complimentary deluxe continental buffet breakfast, afternoon tea and evening cocktails and canapés. ont Gold Lounge with private boardroom, complimentary breakfast and evening cocktails as well as hors d’oeurves.</p>
+
+          <p>Beyond the resort’s accommodations, guests will discover a city rich in history and culture.</p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://www.fairmont.com/yangcheng-lake-kunshan/" target="_blank">Visit the Fairmont Yangcheng Lake</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: da0f9288-df1d-439d-b616-1e7ded01fa16
+  /hong-kong-the-ritz-carlton:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 2de85c07-933f-46b3-84a0-5fbafb96a743
+    hippo:name: Hong Kong The Ritz-Carlton
+    /hong-kong-the-ritz-carlton[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: cc84c3b8-abdb-4dca-86a7-4537f819f507
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T07:50:18.543Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:49.670+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [indonesia]
+      hippotranslation:id: f4445ee8-0eb4-4171-b917-a58fe611c933
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:filters: Residential
+      kohler:imageUrl: http://www.kohlerapac.acct.onehippo.com/binaries/content/gallery/kohler/global-projects/hong-kong/cover_the_ritz-carlton.jpg
+      kohler:place: West Kowloon
+      kohler:relatedProduct: ['']
+      kohler:title: Indonesia filter 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>The new&nbsp;Ritz-Carlton Hong Kong with its 312 rooms occupies the top 17 floors of the Sun Hung Kai Properties-owned International Commerce Centre&nbsp;(ICC), making it the world's highest hotel.</p>
+
+          <p>The hotel features the Ozone Bar, designed by Tokyo's Wonder-Wall bar and a pool located on the 118th floor, which are the highest barand swimming pool in the world, at 484 metres (1,588&nbsp;ft) above ground level. Its spa, designed by HBA, on the 116th floor recently redeveloped its treatments.</p>
+
+          <p>Architects: <a href="https://www.kpf.com/projects/international-commerce-centre" target="_blank">Kohn Pederson Fox (USA)</a></p>
+
+          <p>Public areas, Rooms &amp; Suites: <a href="http://ltwdesignworks.com/profile/overview" target="_blank">LTW Designworks (Singapore)</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/the-ritz-carlton-hong-kong-high-rise-stays-the-culture-of-the-worlds-highest-hotels/" target="_blank">More about the Ritz-Carlton, Hong Kong at Kohler Designful</a></p>
+
+          <p><a href="http://www.ritzcarlton.com/en/hotels/china/hong-kong" target="_blank">Visit the Ritz-Carlton, Hong Kong</a></p>
+    /hong-kong-the-ritz-carlton[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: d1aa4dba-7956-48b3-bbeb-e4b93a168fd0
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T07:50:18.543Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:52.916+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [indonesia]
+      hippotranslation:id: f4445ee8-0eb4-4171-b917-a58fe611c933
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:filters: Residential
+      kohler:imageUrl: http://www.kohlerapac.acct.onehippo.com/binaries/content/gallery/kohler/global-projects/hong-kong/cover_the_ritz-carlton.jpg
+      kohler:place: West Kowloon
+      kohler:relatedProduct: ['']
+      kohler:title: Indonesia filter 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>The new&nbsp;Ritz-Carlton Hong Kong with its 312 rooms occupies the top 17 floors of the Sun Hung Kai Properties-owned International Commerce Centre&nbsp;(ICC), making it the world's highest hotel.</p>
+
+          <p>The hotel features the Ozone Bar, designed by Tokyo's Wonder-Wall bar and a pool located on the 118th floor, which are the highest barand swimming pool in the world, at 484 metres (1,588&nbsp;ft) above ground level. Its spa, designed by HBA, on the 116th floor recently redeveloped its treatments.</p>
+
+          <p>Architects: <a href="https://www.kpf.com/projects/international-commerce-centre" target="_blank">Kohn Pederson Fox (USA)</a></p>
+
+          <p>Public areas, Rooms &amp; Suites: <a href="http://ltwdesignworks.com/profile/overview" target="_blank">LTW Designworks (Singapore)</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/the-ritz-carlton-hong-kong-high-rise-stays-the-culture-of-the-worlds-highest-hotels/" target="_blank">More about the Ritz-Carlton, Hong Kong at Kohler Designful</a></p>
+
+          <p><a href="http://www.ritzcarlton.com/en/hotels/china/hong-kong" target="_blank">Visit the Ritz-Carlton, Hong Kong</a></p>
+    /hong-kong-the-ritz-carlton[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: a748d840-e5d5-4e0b-8f7a-c8702fbe0a7c
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T07:50:18.543Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:52.916+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:40:54.834+05:30
+      hippotaxonomy:keys: [indonesia]
+      hippotranslation:id: f4445ee8-0eb4-4171-b917-a58fe611c933
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:filters: Residential
+      kohler:imageUrl: http://www.kohlerapac.acct.onehippo.com/binaries/content/gallery/kohler/global-projects/hong-kong/cover_the_ritz-carlton.jpg
+      kohler:place: West Kowloon
+      kohler:relatedProduct: ['']
+      kohler:title: Indonesia filter 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>The new&nbsp;Ritz-Carlton Hong Kong with its 312 rooms occupies the top 17 floors of the Sun Hung Kai Properties-owned International Commerce Centre&nbsp;(ICC), making it the world's highest hotel.</p>
+
+          <p>The hotel features the Ozone Bar, designed by Tokyo's Wonder-Wall bar and a pool located on the 118th floor, which are the highest barand swimming pool in the world, at 484 metres (1,588&nbsp;ft) above ground level. Its spa, designed by HBA, on the 116th floor recently redeveloped its treatments.</p>
+
+          <p>Architects: <a href="https://www.kpf.com/projects/international-commerce-centre" target="_blank">Kohn Pederson Fox (USA)</a></p>
+
+          <p>Public areas, Rooms &amp; Suites: <a href="http://ltwdesignworks.com/profile/overview" target="_blank">LTW Designworks (Singapore)</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/the-ritz-carlton-hong-kong-high-rise-stays-the-culture-of-the-worlds-highest-hotels/" target="_blank">More about the Ritz-Carlton, Hong Kong at Kohler Designful</a></p>
+
+          <p><a href="http://www.ritzcarlton.com/en/hotels/china/hong-kong" target="_blank">Visit the Ritz-Carlton, Hong Kong</a></p>
+  /singapore-the-club:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 0996e057-50ed-4814-9afd-17038eaf945b
+    hippo:name: Singapore The Club
+    /singapore-the-club[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 4718190e-e198-47f3-a8d3-7df35662a1ac
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T06:48:01.045Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:40:57.033+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 1566a4af-a5a0-4185-8b98-bcc14f5a68ee
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:filters: Commercial
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Club_Singapore_00?extend=-100,0,-334,0&$SectionHero$
+      kohler:place: Ann Siang Road, Chinatown
+      kohler:relatedProduct: ['']
+      kohler:title: Filter 1 Australia title 5
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The Club is a unique hospitality and lifestyle destination housed with 20 luxurious rooms in an iconic 1900s heritage building in one of Singapore’s busiest areas. The boutique hotel occupies three historic corner shophouses on Singapore’s Ann Siang Road.</p>
+
+          <p style="margin-left:0in; text-align:left">No two guestrooms are the same at The Club, but the feeling that guests have been invited into someone’s home is consistent across all the guestrooms. A layered design approach combines especially curated and unique artworks, understated luxury and warm materials to complement the building’s heritage.</p>
+
+          <p style="margin-left:0in; text-align:left">The Club is also a nominee of World Luxury Hotel Awards 2016.</p>
+
+          <p>Architect/Interior Design: <a href="http://www.hassellstudio.com/en/cms-projects/detail/the-club" target="_blank">HASSELL (formerly Distillery Studio)</a></p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/the-club-hotel-singapore-calm-oasis-in-a-sea-of-hectic-rush/" target="_blank">More about The Club at Kohler Designful </a></p>
+
+          <p><a href="http://theclub.com.sg" target="_blank">Visit The Club</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 8e49b707-3973-44e8-b6e8-11b3fb2fc0a0
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c40165f7-32a7-4158-8b07-279863717c66
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0a080568-6dde-4091-9125-73e16e3ce841
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 81a66319-98fa-400f-aa25-a73b4682c338
+    /singapore-the-club[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 22950c03-fa8a-45c8-a3f5-87da2cc1fa4b
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T06:48:01.045Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:03.526+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 1566a4af-a5a0-4185-8b98-bcc14f5a68ee
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:filters: Commercial
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Club_Singapore_00?extend=-100,0,-334,0&$SectionHero$
+      kohler:place: Ann Siang Road, Chinatown
+      kohler:relatedProduct: ['']
+      kohler:title: Filter 1 Australia title 5
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The Club is a unique hospitality and lifestyle destination housed with 20 luxurious rooms in an iconic 1900s heritage building in one of Singapore’s busiest areas. The boutique hotel occupies three historic corner shophouses on Singapore’s Ann Siang Road.</p>
+
+          <p style="margin-left:0in; text-align:left">No two guestrooms are the same at The Club, but the feeling that guests have been invited into someone’s home is consistent across all the guestrooms. A layered design approach combines especially curated and unique artworks, understated luxury and warm materials to complement the building’s heritage.</p>
+
+          <p style="margin-left:0in; text-align:left">The Club is also a nominee of World Luxury Hotel Awards 2016.</p>
+
+          <p>Architect/Interior Design: <a href="http://www.hassellstudio.com/en/cms-projects/detail/the-club" target="_blank">HASSELL (formerly Distillery Studio)</a></p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/the-club-hotel-singapore-calm-oasis-in-a-sea-of-hectic-rush/" target="_blank">More about The Club at Kohler Designful </a></p>
+
+          <p><a href="http://theclub.com.sg" target="_blank">Visit The Club</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 8e49b707-3973-44e8-b6e8-11b3fb2fc0a0
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c40165f7-32a7-4158-8b07-279863717c66
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0a080568-6dde-4091-9125-73e16e3ce841
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 81a66319-98fa-400f-aa25-a73b4682c338
+    /singapore-the-club[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 4de3d3d2-eed1-4666-8e58-ee0d6cd2ea0a
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T06:48:01.045Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:03.526+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:41:05.561+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 1566a4af-a5a0-4185-8b98-bcc14f5a68ee
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:filters: Commercial
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Club_Singapore_00?extend=-100,0,-334,0&$SectionHero$
+      kohler:place: Ann Siang Road, Chinatown
+      kohler:relatedProduct: ['']
+      kohler:title: Filter 1 Australia title 5
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The Club is a unique hospitality and lifestyle destination housed with 20 luxurious rooms in an iconic 1900s heritage building in one of Singapore’s busiest areas. The boutique hotel occupies three historic corner shophouses on Singapore’s Ann Siang Road.</p>
+
+          <p style="margin-left:0in; text-align:left">No two guestrooms are the same at The Club, but the feeling that guests have been invited into someone’s home is consistent across all the guestrooms. A layered design approach combines especially curated and unique artworks, understated luxury and warm materials to complement the building’s heritage.</p>
+
+          <p style="margin-left:0in; text-align:left">The Club is also a nominee of World Luxury Hotel Awards 2016.</p>
+
+          <p>Architect/Interior Design: <a href="http://www.hassellstudio.com/en/cms-projects/detail/the-club" target="_blank">HASSELL (formerly Distillery Studio)</a></p>
+
+          <p>&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p><a href="http://kohler.design/the-club-hotel-singapore-calm-oasis-in-a-sea-of-hectic-rush/" target="_blank">More about The Club at Kohler Designful </a></p>
+
+          <p><a href="http://theclub.com.sg" target="_blank">Visit The Club</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 8e49b707-3973-44e8-b6e8-11b3fb2fc0a0
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c40165f7-32a7-4158-8b07-279863717c66
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0a080568-6dde-4091-9125-73e16e3ce841
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 81a66319-98fa-400f-aa25-a73b4682c338
+  /thailand-bangkok-hotel-indigo:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 361454d2-2d16-4197-9872-d168f4273bc5
+    hippo:name: Thailand Bangkok Hotel Indigo
+    /thailand-bangkok-hotel-indigo[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 9dc2a660-cedc-4373-b7b1-ce4b339f7e5e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:04:04.288Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:10.136+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 78d93e8f-697a-4f62-abec-fb5b85804c4a
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Hotel_Indigo_Bangkok_00?extend=-430,0,0,0&$SectionHero$
+      kohler:place: Bangkok
+      kohler:relatedProduct: ['']
+      kohler:title: Filter 1 Australia title 3
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">At the Hotel Indigo<sup>®</sup> Bangkok Wireless Road hotel, KOHLER’s Vibrant<sup>®</sup> PVD Finishes faucets accentuate every bathroom and ensure the guests have a memorable experience. The stylish guest rooms offer stunning views of downtown Bangkok, and combine vintage details and modern materials to share our neighborhood’s contrasting story of technology and tradition.&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left">Hotel Indigo properties were first introduced in 2004 in Atlanta, USA, and have since inaugurated properties in New York, Paris, London, Shanghai, Hong Kong and Singapore and now Bangkok.</p>
+
+          <ul>
+           <li style="text-align:left">Client: IHG</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.hba.com/portfolio/view/266" target="_blank">HBA (Singapore)</a></li>
+           <li style="text-align:left">Date Completed: December 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/hotel-indigo-bangkok-thailand/" target="_blank">More about the Hotel Indigo Bangkok at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="https://www.ihg.com/hotelindigo/hotels/us/en/bangkok/bkkin/hoteldetail" target="_blank">Visit the Hotel Indigo Bangkok</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3d2ac076-e3f3-472b-a0e0-8b67980a115d
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2a91402b-e935-4b2f-aa49-d315b0de328c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9076a3be-1b82-4798-99a6-54643e2056a1
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 455121c8-cf3c-4cd1-bd7c-a9b52a6c76be
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a7d645a8-7fa8-419f-9f10-caa82754eb79
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3ac2f427-5772-444b-8e72-976483d994d2
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e1d1902a-92dc-4f2c-bc4e-7ca08eb477cc
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d0f49dda-80a2-4fa1-8127-67f3b50f25da
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 71eb1bb4-1f96-4fbd-b699-88c17c2f9a8a
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 1fae9cc9-e9ca-4333-817b-0bdccfe9c380
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a5ed58fb-9a3e-4c7c-b61b-efe7641b9ae8
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c7b54c95-0097-4086-a14a-3c1162923dcf
+      /kohler:bannerLink[15]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c1afe069-a24c-4922-9bbc-c5195c21bede
+      /kohler:bannerLink[16]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4933a9a4-acf4-497a-bc5b-34b67ef1be2d
+    /thailand-bangkok-hotel-indigo[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 04d343de-bd87-4363-96d4-c41678e5a4e1
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:04:04.288Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:15.710+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 78d93e8f-697a-4f62-abec-fb5b85804c4a
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Hotel_Indigo_Bangkok_00?extend=-430,0,0,0&$SectionHero$
+      kohler:place: Bangkok
+      kohler:relatedProduct: ['']
+      kohler:title: Filter 1 Australia title 3
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">At the Hotel Indigo<sup>®</sup> Bangkok Wireless Road hotel, KOHLER’s Vibrant<sup>®</sup> PVD Finishes faucets accentuate every bathroom and ensure the guests have a memorable experience. The stylish guest rooms offer stunning views of downtown Bangkok, and combine vintage details and modern materials to share our neighborhood’s contrasting story of technology and tradition.&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left">Hotel Indigo properties were first introduced in 2004 in Atlanta, USA, and have since inaugurated properties in New York, Paris, London, Shanghai, Hong Kong and Singapore and now Bangkok.</p>
+
+          <ul>
+           <li style="text-align:left">Client: IHG</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.hba.com/portfolio/view/266" target="_blank">HBA (Singapore)</a></li>
+           <li style="text-align:left">Date Completed: December 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/hotel-indigo-bangkok-thailand/" target="_blank">More about the Hotel Indigo Bangkok at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="https://www.ihg.com/hotelindigo/hotels/us/en/bangkok/bkkin/hoteldetail" target="_blank">Visit the Hotel Indigo Bangkok</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3d2ac076-e3f3-472b-a0e0-8b67980a115d
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2a91402b-e935-4b2f-aa49-d315b0de328c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9076a3be-1b82-4798-99a6-54643e2056a1
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 455121c8-cf3c-4cd1-bd7c-a9b52a6c76be
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a7d645a8-7fa8-419f-9f10-caa82754eb79
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3ac2f427-5772-444b-8e72-976483d994d2
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e1d1902a-92dc-4f2c-bc4e-7ca08eb477cc
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d0f49dda-80a2-4fa1-8127-67f3b50f25da
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 71eb1bb4-1f96-4fbd-b699-88c17c2f9a8a
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 1fae9cc9-e9ca-4333-817b-0bdccfe9c380
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a5ed58fb-9a3e-4c7c-b61b-efe7641b9ae8
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c7b54c95-0097-4086-a14a-3c1162923dcf
+      /kohler:bannerLink[15]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c1afe069-a24c-4922-9bbc-c5195c21bede
+      /kohler:bannerLink[16]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4933a9a4-acf4-497a-bc5b-34b67ef1be2d
+    /thailand-bangkok-hotel-indigo[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 41aef30f-9c07-405d-afc5-97a381bc784c
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:04:04.288Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:15.710+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:41:17.613+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 78d93e8f-697a-4f62-abec-fb5b85804c4a
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Hotel_Indigo_Bangkok_00?extend=-430,0,0,0&$SectionHero$
+      kohler:place: Bangkok
+      kohler:relatedProduct: ['']
+      kohler:title: Filter 1 Australia title 3
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">At the Hotel Indigo<sup>®</sup> Bangkok Wireless Road hotel, KOHLER’s Vibrant<sup>®</sup> PVD Finishes faucets accentuate every bathroom and ensure the guests have a memorable experience. The stylish guest rooms offer stunning views of downtown Bangkok, and combine vintage details and modern materials to share our neighborhood’s contrasting story of technology and tradition.&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left">Hotel Indigo properties were first introduced in 2004 in Atlanta, USA, and have since inaugurated properties in New York, Paris, London, Shanghai, Hong Kong and Singapore and now Bangkok.</p>
+
+          <ul>
+           <li style="text-align:left">Client: IHG</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.hba.com/portfolio/view/266" target="_blank">HBA (Singapore)</a></li>
+           <li style="text-align:left">Date Completed: December 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/hotel-indigo-bangkok-thailand/" target="_blank">More about the Hotel Indigo Bangkok at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="https://www.ihg.com/hotelindigo/hotels/us/en/bangkok/bkkin/hoteldetail" target="_blank">Visit the Hotel Indigo Bangkok</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3d2ac076-e3f3-472b-a0e0-8b67980a115d
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2a91402b-e935-4b2f-aa49-d315b0de328c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9076a3be-1b82-4798-99a6-54643e2056a1
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 455121c8-cf3c-4cd1-bd7c-a9b52a6c76be
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a7d645a8-7fa8-419f-9f10-caa82754eb79
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3ac2f427-5772-444b-8e72-976483d994d2
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e1d1902a-92dc-4f2c-bc4e-7ca08eb477cc
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d0f49dda-80a2-4fa1-8127-67f3b50f25da
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 71eb1bb4-1f96-4fbd-b699-88c17c2f9a8a
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 1fae9cc9-e9ca-4333-817b-0bdccfe9c380
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a5ed58fb-9a3e-4c7c-b61b-efe7641b9ae8
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c7b54c95-0097-4086-a14a-3c1162923dcf
+      /kohler:bannerLink[15]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c1afe069-a24c-4922-9bbc-c5195c21bede
+      /kohler:bannerLink[16]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4933a9a4-acf4-497a-bc5b-34b67ef1be2d
+  /vietnam-ba-ria-the-grand-ho-tram-strip:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8f060ce4-0b95-41d7-a654-0626b18109a2
+    hippo:name: Vietnam Bà Rịa The Grand Ho Tram Strip
+    /vietnam-ba-ria-the-grand-ho-tram-strip[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 23d6a612-add1-4344-bea6-dc9572519623
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:30:20.034+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:29.515+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 013c3893-fed3-440c-8b1e-afeb22acefb0
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Grand_Ho_Tram_Strip_BaRiaVungTau_00?extend=-140,0,0,0&$SectionHero$
+      kohler:place: Bà Rịa-Vũng Tàu
+      kohler:title: Filter 1 Australia title 4
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Ho Tram Strip’s first luxury integrated resort is drenched in tropical sunshine and bordered by the untouched beaches fringing the East Sea. Combining elegant and gracious service with entertainment that pushes the limits, The Grand Ho Tram Strip is the perfect mix of exciting day life and exhilarating nightlife. All rooms feature plush, comfortable beds, double marble vanities and floor to ceiling windows that open to Juliet balconies, allowing guests to open up their rooms to the natural outdoor surroundings.</p>
+
+          <p style="text-align:start">The Grand Ho Tram Strip is a development in association with Asian Coast Development Limited (ACDL). ACDL, through its wholly-owned subsidiary Ho Tram Project Company Limited, is the developer of the Ho Tram Strip, a group of integrated resorts to be located on more than 400 acres of land and more than two kilometers of pristine beach in Ho Tram. The Ho Tram Strip will ultimately comprise of a 1,100 room integrated resort.</p>
+
+          <p style="text-align:start">The resort and casino has won the 2015 Luxury Travel Guide Award for luxury hotel and spa of the year in Việt Nam and the Business Destinations Travel Award for best luxury hotel in Việt Nam.</p>
+
+          <p style="margin-left:0in; text-align:left">Architect/Interior Design: <a href="https://www.steelmanpartners.com/news/news.php?id=154" target="_blank">Steelman Partner Vietnam</a></p>
+
+          <p style="text-align:start">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="text-align:start"><a href="http://www.thegrandhotram.com/" target="_blank">Visit the Grand Ho Tram Strip</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 586addfa-96e8-4960-974d-3cd0cf3d1ded
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 89b8d6dd-bc89-4377-b779-e16cbaf8532b
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 8293551e-25dd-41c1-8107-8551cddf907f
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2af4c76a-e2cc-46b9-8040-8b1b2a986ffd
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e290f518-c3cd-48c6-b5e3-5d19177dfa12
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c71973a1-db21-4511-957b-649517067ab3
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 574bdd33-dc77-4485-be64-90688d5deccb
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3d037047-6dbe-486b-960a-42e84971460c
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d526c56a-0beb-424d-8024-ffdadc69a6fa
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 429c014f-1a0b-4630-8b85-76185c38b6c6
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d3f6abac-b212-40bf-8445-832d71ca7605
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 05341a22-ce7e-4f6d-ab3f-314f324e961d
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 242a096a-bf29-4589-b48c-6b96ec82c97a
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 614a4270-4e5d-459c-abe0-fb0a585c4d05
+    /vietnam-ba-ria-the-grand-ho-tram-strip[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 2eb018e9-ce8d-4c99-a87f-a2791b5a7377
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:30:20.034+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:35.223+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 013c3893-fed3-440c-8b1e-afeb22acefb0
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Grand_Ho_Tram_Strip_BaRiaVungTau_00?extend=-140,0,0,0&$SectionHero$
+      kohler:place: Bà Rịa-Vũng Tàu
+      kohler:title: Filter 1 Australia title 4
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Ho Tram Strip’s first luxury integrated resort is drenched in tropical sunshine and bordered by the untouched beaches fringing the East Sea. Combining elegant and gracious service with entertainment that pushes the limits, The Grand Ho Tram Strip is the perfect mix of exciting day life and exhilarating nightlife. All rooms feature plush, comfortable beds, double marble vanities and floor to ceiling windows that open to Juliet balconies, allowing guests to open up their rooms to the natural outdoor surroundings.</p>
+
+          <p style="text-align:start">The Grand Ho Tram Strip is a development in association with Asian Coast Development Limited (ACDL). ACDL, through its wholly-owned subsidiary Ho Tram Project Company Limited, is the developer of the Ho Tram Strip, a group of integrated resorts to be located on more than 400 acres of land and more than two kilometers of pristine beach in Ho Tram. The Ho Tram Strip will ultimately comprise of a 1,100 room integrated resort.</p>
+
+          <p style="text-align:start">The resort and casino has won the 2015 Luxury Travel Guide Award for luxury hotel and spa of the year in Việt Nam and the Business Destinations Travel Award for best luxury hotel in Việt Nam.</p>
+
+          <p style="margin-left:0in; text-align:left">Architect/Interior Design: <a href="https://www.steelmanpartners.com/news/news.php?id=154" target="_blank">Steelman Partner Vietnam</a></p>
+
+          <p style="text-align:start">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="text-align:start"><a href="http://www.thegrandhotram.com/" target="_blank">Visit the Grand Ho Tram Strip</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 586addfa-96e8-4960-974d-3cd0cf3d1ded
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 89b8d6dd-bc89-4377-b779-e16cbaf8532b
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 8293551e-25dd-41c1-8107-8551cddf907f
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2af4c76a-e2cc-46b9-8040-8b1b2a986ffd
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e290f518-c3cd-48c6-b5e3-5d19177dfa12
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c71973a1-db21-4511-957b-649517067ab3
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 574bdd33-dc77-4485-be64-90688d5deccb
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3d037047-6dbe-486b-960a-42e84971460c
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d526c56a-0beb-424d-8024-ffdadc69a6fa
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 429c014f-1a0b-4630-8b85-76185c38b6c6
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d3f6abac-b212-40bf-8445-832d71ca7605
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 05341a22-ce7e-4f6d-ab3f-314f324e961d
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 242a096a-bf29-4589-b48c-6b96ec82c97a
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 614a4270-4e5d-459c-abe0-fb0a585c4d05
+    /vietnam-ba-ria-the-grand-ho-tram-strip[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 19375109-a5f0-4d66-95dd-c3efb0cbb3a6
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:30:20.034+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:41:35.223+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:41:37.119+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 013c3893-fed3-440c-8b1e-afeb22acefb0
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Grand_Ho_Tram_Strip_BaRiaVungTau_00?extend=-140,0,0,0&$SectionHero$
+      kohler:place: Bà Rịa-Vũng Tàu
+      kohler:title: Filter 1 Australia title 4
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Ho Tram Strip’s first luxury integrated resort is drenched in tropical sunshine and bordered by the untouched beaches fringing the East Sea. Combining elegant and gracious service with entertainment that pushes the limits, The Grand Ho Tram Strip is the perfect mix of exciting day life and exhilarating nightlife. All rooms feature plush, comfortable beds, double marble vanities and floor to ceiling windows that open to Juliet balconies, allowing guests to open up their rooms to the natural outdoor surroundings.</p>
+
+          <p style="text-align:start">The Grand Ho Tram Strip is a development in association with Asian Coast Development Limited (ACDL). ACDL, through its wholly-owned subsidiary Ho Tram Project Company Limited, is the developer of the Ho Tram Strip, a group of integrated resorts to be located on more than 400 acres of land and more than two kilometers of pristine beach in Ho Tram. The Ho Tram Strip will ultimately comprise of a 1,100 room integrated resort.</p>
+
+          <p style="text-align:start">The resort and casino has won the 2015 Luxury Travel Guide Award for luxury hotel and spa of the year in Việt Nam and the Business Destinations Travel Award for best luxury hotel in Việt Nam.</p>
+
+          <p style="margin-left:0in; text-align:left">Architect/Interior Design: <a href="https://www.steelmanpartners.com/news/news.php?id=154" target="_blank">Steelman Partner Vietnam</a></p>
+
+          <p style="text-align:start">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="text-align:start"><a href="http://www.thegrandhotram.com/" target="_blank">Visit the Grand Ho Tram Strip</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 586addfa-96e8-4960-974d-3cd0cf3d1ded
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 89b8d6dd-bc89-4377-b779-e16cbaf8532b
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 8293551e-25dd-41c1-8107-8551cddf907f
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2af4c76a-e2cc-46b9-8040-8b1b2a986ffd
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e290f518-c3cd-48c6-b5e3-5d19177dfa12
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c71973a1-db21-4511-957b-649517067ab3
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 574bdd33-dc77-4485-be64-90688d5deccb
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3d037047-6dbe-486b-960a-42e84971460c
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d526c56a-0beb-424d-8024-ffdadc69a6fa
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 429c014f-1a0b-4630-8b85-76185c38b6c6
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: d3f6abac-b212-40bf-8445-832d71ca7605
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 05341a22-ce7e-4f6d-ab3f-314f324e961d
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 242a096a-bf29-4589-b48c-6b96ec82c97a
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 614a4270-4e5d-459c-abe0-fb0a585c4d05
+  /vietnam-ho-chi-minh-hotel-des-art-saigon:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 164292a3-c29a-4d89-8a3f-42a71cc970b1
+    hippo:name: Vietnam Hồ Chí Minh Hôtel Des Art Saigon
+    /vietnam-ho-chi-minh-hotel-des-art-saigon[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 996d2be6-9b6c-40c5-b1fa-2e01c6ebacc3
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:30:54.930+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:42:49.115+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: ce8b526a-83e7-45f0-9288-0232391e7e4a
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Hotel_Des_Arts_HoChiMinh_00?extend=-130,0,0,0&$SectionHero$
+      kohler:place: Hồ Chí Minh
+      kohler:relatedProduct: []
+      kohler:title: Hôtel Des Arts Saigon, MGallery Collection
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Hôtel des Arts Saigon in Hồ Chí Minh, Việt Nam, is a stone-throw away from the Notre Dame cathedral, the diplomatic district as well as the central post office (District 3).</p>
+
+          <p style="margin-left:0in; text-align:left">The 168 chic Indochina-styled rooms and suites give guests a heightened sense of style and design. Venturing into the hotel’s bathrooms might seem like a small moment in life. But moments like these — of feeling the cool tile floor, marveling in the crystal-clear reflection of the mirror or simply experiencing the tepid water caressing your hands — produce profound happiness. Kohler contributed to this comfort and luxury by furnishing the bathroom fixtures and faucets.</p>
+
+          <p style="margin-left:0in; text-align:left">Artchitect/Interior Design: <a href="http://dwp.com/lifestyle-project/hotel-des-artes-m-gallery/" target="_blank">DWP Vietnam</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/happiness-is-the-sum-of-small-moments-hotel-des-arts-saigon/" target="_blank">More about Hôtel des Arts Saigon at Kohler Designful</a></p>
+
+          <p><a href="http://www.hoteldesartssaigon.com" target="_blank">Visit the Hôtel des Arts Saigon</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6beb3e5b-f038-4368-9659-67039cfdac3d
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 1e3da5b0-573b-4fda-b074-f818a40af6ce
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2acf9c71-4eb3-46f9-bba7-903de5eced42
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4d124f60-6512-4007-bd53-3d2c7e27d07a
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0e31709a-2575-4d2c-8053-ea986dff0556
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b885465c-c80b-4bea-a28e-ca88e8741cde
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 419915ec-0f7d-4afa-a5b4-cd38a192d1fa
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 75ceffcf-aee5-4520-a288-01d912535fb0
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6a28de58-593e-4d9c-af43-9f5397742fe2
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 05552aa6-8a4f-49d0-a23c-2af6523fd974
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 45a75766-0e7a-440d-85da-c45b72f0c9c5
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 33762f3c-488b-402d-ae28-78d9e02246a3
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 245b56dc-ecea-4f67-8f2c-4ac312ec2e18
+      /kohler:bannerLink[15]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2a68d26f-5abd-4aa0-a543-564f5a5d1230
+      /kohler:bannerLink[16]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9c81afa2-224f-4623-9d2d-581a84e85b9e
+    /vietnam-ho-chi-minh-hotel-des-art-saigon[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: c842bf43-e38a-4d1c-a986-5ff98bf7218f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:30:54.930+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:43:00.116+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: ce8b526a-83e7-45f0-9288-0232391e7e4a
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Hotel_Des_Arts_HoChiMinh_00?extend=-130,0,0,0&$SectionHero$
+      kohler:place: Hồ Chí Minh
+      kohler:relatedProduct: []
+      kohler:title: Hôtel Des Arts Saigon, MGallery Collection
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Hôtel des Arts Saigon in Hồ Chí Minh, Việt Nam, is a stone-throw away from the Notre Dame cathedral, the diplomatic district as well as the central post office (District 3).</p>
+
+          <p style="margin-left:0in; text-align:left">The 168 chic Indochina-styled rooms and suites give guests a heightened sense of style and design. Venturing into the hotel’s bathrooms might seem like a small moment in life. But moments like these — of feeling the cool tile floor, marveling in the crystal-clear reflection of the mirror or simply experiencing the tepid water caressing your hands — produce profound happiness. Kohler contributed to this comfort and luxury by furnishing the bathroom fixtures and faucets.</p>
+
+          <p style="margin-left:0in; text-align:left">Artchitect/Interior Design: <a href="http://dwp.com/lifestyle-project/hotel-des-artes-m-gallery/" target="_blank">DWP Vietnam</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/happiness-is-the-sum-of-small-moments-hotel-des-arts-saigon/" target="_blank">More about Hôtel des Arts Saigon at Kohler Designful</a></p>
+
+          <p><a href="http://www.hoteldesartssaigon.com" target="_blank">Visit the Hôtel des Arts Saigon</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6beb3e5b-f038-4368-9659-67039cfdac3d
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 1e3da5b0-573b-4fda-b074-f818a40af6ce
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2acf9c71-4eb3-46f9-bba7-903de5eced42
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4d124f60-6512-4007-bd53-3d2c7e27d07a
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0e31709a-2575-4d2c-8053-ea986dff0556
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b885465c-c80b-4bea-a28e-ca88e8741cde
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 419915ec-0f7d-4afa-a5b4-cd38a192d1fa
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 75ceffcf-aee5-4520-a288-01d912535fb0
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6a28de58-593e-4d9c-af43-9f5397742fe2
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 05552aa6-8a4f-49d0-a23c-2af6523fd974
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 45a75766-0e7a-440d-85da-c45b72f0c9c5
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 33762f3c-488b-402d-ae28-78d9e02246a3
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 245b56dc-ecea-4f67-8f2c-4ac312ec2e18
+      /kohler:bannerLink[15]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2a68d26f-5abd-4aa0-a543-564f5a5d1230
+      /kohler:bannerLink[16]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9c81afa2-224f-4623-9d2d-581a84e85b9e
+    /vietnam-ho-chi-minh-hotel-des-art-saigon[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 53a30327-998c-4516-aa38-bd1538763256
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:30:54.930+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:43:00.116+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:43:02.217+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: ce8b526a-83e7-45f0-9288-0232391e7e4a
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Hotel_Des_Arts_HoChiMinh_00?extend=-130,0,0,0&$SectionHero$
+      kohler:place: Hồ Chí Minh
+      kohler:relatedProduct: []
+      kohler:title: Hôtel Des Arts Saigon, MGallery Collection
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Hôtel des Arts Saigon in Hồ Chí Minh, Việt Nam, is a stone-throw away from the Notre Dame cathedral, the diplomatic district as well as the central post office (District 3).</p>
+
+          <p style="margin-left:0in; text-align:left">The 168 chic Indochina-styled rooms and suites give guests a heightened sense of style and design. Venturing into the hotel’s bathrooms might seem like a small moment in life. But moments like these — of feeling the cool tile floor, marveling in the crystal-clear reflection of the mirror or simply experiencing the tepid water caressing your hands — produce profound happiness. Kohler contributed to this comfort and luxury by furnishing the bathroom fixtures and faucets.</p>
+
+          <p style="margin-left:0in; text-align:left">Artchitect/Interior Design: <a href="http://dwp.com/lifestyle-project/hotel-des-artes-m-gallery/" target="_blank">DWP Vietnam</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/happiness-is-the-sum-of-small-moments-hotel-des-arts-saigon/" target="_blank">More about Hôtel des Arts Saigon at Kohler Designful</a></p>
+
+          <p><a href="http://www.hoteldesartssaigon.com" target="_blank">Visit the Hôtel des Arts Saigon</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6beb3e5b-f038-4368-9659-67039cfdac3d
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 1e3da5b0-573b-4fda-b074-f818a40af6ce
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2acf9c71-4eb3-46f9-bba7-903de5eced42
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4d124f60-6512-4007-bd53-3d2c7e27d07a
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0e31709a-2575-4d2c-8053-ea986dff0556
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b885465c-c80b-4bea-a28e-ca88e8741cde
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 419915ec-0f7d-4afa-a5b4-cd38a192d1fa
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 75ceffcf-aee5-4520-a288-01d912535fb0
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6a28de58-593e-4d9c-af43-9f5397742fe2
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 05552aa6-8a4f-49d0-a23c-2af6523fd974
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 45a75766-0e7a-440d-85da-c45b72f0c9c5
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 33762f3c-488b-402d-ae28-78d9e02246a3
+      /kohler:bannerLink[14]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 245b56dc-ecea-4f67-8f2c-4ac312ec2e18
+      /kohler:bannerLink[15]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2a68d26f-5abd-4aa0-a543-564f5a5d1230
+      /kohler:bannerLink[16]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9c81afa2-224f-4623-9d2d-581a84e85b9e
+  /vietnam-qui-nhon-flc-luxury-resort:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 0ebd9926-0b18-4ad7-b2a3-64833ad0fcd4
+    hippo:name: Vietnam Qui Nhơn FLC Luxury Resort
+    /vietnam-qui-nhon-flc-luxury-resort[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 00bd0456-e66b-4fcd-b791-128b28a2edb9
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:31:28.478+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:43:06.185+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 6e503bd7-7d87-4ad3-bf1e-16495930debc
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/FLC_Luxury_Resort_QuiNhon_00?extend=-157,0,-157,0&$SectionHero$
+      kohler:place: Qui Nhơn, Bình Định Province
+      kohler:title: FLC Luxury Resort Qui Nhơn
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">FLC Qui Nhơn Beach &amp; Golf Resort embraces the exceptional beach recognized as the most stunning location to watch sunrise in Việt Nam. The resort sought to uphold the idea of merging travel with an exclusive lifestyle approach towards modern amenities. 90 villas are designed with open space bathed in the sea and surrounding landscapes. A beautiful and poetic view overlooking the sea makes the villas become a romantic resort together with luxurious and comfortable furnishings.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Client: FLC Gold &amp; Resort</li>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://serenity-holding.com" target="_blank">Serenity Holding</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2016</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://flcresortquynhon.com" target="_blank">Visit the FLC Qui Nhơn Beach &amp; Golf Resort</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6594d360-8e2e-42e8-a322-d5d873dd032c
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 99651394-dab3-41b6-ab63-3ac36e70b21c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9f8b84b5-6c1f-4282-9699-58d3c2317f6e
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a7a562dc-031e-4dc2-8080-7c8ac1d87803
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0ee0c5be-9733-42ae-8386-525fb56bcca1
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2360390f-fd2d-4db5-8491-b963ab21e509
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: fdf3ab46-88f8-425c-9933-97d4c0abdef3
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4f98e34e-4bb3-4acb-a225-a7a195fa5217
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b396eb42-9265-47c3-8966-6ec6d504a390
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0a3ad06a-daae-4e28-bb82-ed2be1595ff0
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 40ea63be-f894-4110-a44b-20fb70959133
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 90aa2ce6-622d-4b82-964d-4bb68d2fc9c7
+    /vietnam-qui-nhon-flc-luxury-resort[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: b28345e0-12d2-40d8-8d99-f88aea629886
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:31:28.478+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:43:14.205+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 6e503bd7-7d87-4ad3-bf1e-16495930debc
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/FLC_Luxury_Resort_QuiNhon_00?extend=-157,0,-157,0&$SectionHero$
+      kohler:place: Qui Nhơn, Bình Định Province
+      kohler:title: FLC Luxury Resort Qui Nhơn
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">FLC Qui Nhơn Beach &amp; Golf Resort embraces the exceptional beach recognized as the most stunning location to watch sunrise in Việt Nam. The resort sought to uphold the idea of merging travel with an exclusive lifestyle approach towards modern amenities. 90 villas are designed with open space bathed in the sea and surrounding landscapes. A beautiful and poetic view overlooking the sea makes the villas become a romantic resort together with luxurious and comfortable furnishings.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Client: FLC Gold &amp; Resort</li>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://serenity-holding.com" target="_blank">Serenity Holding</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2016</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://flcresortquynhon.com" target="_blank">Visit the FLC Qui Nhơn Beach &amp; Golf Resort</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6594d360-8e2e-42e8-a322-d5d873dd032c
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 99651394-dab3-41b6-ab63-3ac36e70b21c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9f8b84b5-6c1f-4282-9699-58d3c2317f6e
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a7a562dc-031e-4dc2-8080-7c8ac1d87803
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0ee0c5be-9733-42ae-8386-525fb56bcca1
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2360390f-fd2d-4db5-8491-b963ab21e509
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: fdf3ab46-88f8-425c-9933-97d4c0abdef3
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4f98e34e-4bb3-4acb-a225-a7a195fa5217
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b396eb42-9265-47c3-8966-6ec6d504a390
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0a3ad06a-daae-4e28-bb82-ed2be1595ff0
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 40ea63be-f894-4110-a44b-20fb70959133
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 90aa2ce6-622d-4b82-964d-4bb68d2fc9c7
+    /vietnam-qui-nhon-flc-luxury-resort[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: e3bfca46-8abd-4b4d-a38a-f501e7a0ffc1
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T16:31:28.478+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:43:14.205+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:43:16.272+05:30
+      hippotaxonomy:keys: [australia]
+      hippotranslation:id: 6e503bd7-7d87-4ad3-bf1e-16495930debc
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:filters: Hospitality
+      kohler:imageText: ''
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/FLC_Luxury_Resort_QuiNhon_00?extend=-157,0,-157,0&$SectionHero$
+      kohler:place: Qui Nhơn, Bình Định Province
+      kohler:title: FLC Luxury Resort Qui Nhơn
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">FLC Qui Nhơn Beach &amp; Golf Resort embraces the exceptional beach recognized as the most stunning location to watch sunrise in Việt Nam. The resort sought to uphold the idea of merging travel with an exclusive lifestyle approach towards modern amenities. 90 villas are designed with open space bathed in the sea and surrounding landscapes. A beautiful and poetic view overlooking the sea makes the villas become a romantic resort together with luxurious and comfortable furnishings.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Client: FLC Gold &amp; Resort</li>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://serenity-holding.com" target="_blank">Serenity Holding</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2016</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://flcresortquynhon.com" target="_blank">Visit the FLC Qui Nhơn Beach &amp; Golf Resort</a></p>
+      /kohler:relatedProducts[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 56306ff7-3364-46f6-a2d7-8a4d6b7bbccf
+      /kohler:relatedProducts[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 812647dd-a54a-4f53-9c21-8c4ceb9cda0f
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6594d360-8e2e-42e8-a322-d5d873dd032c
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 99651394-dab3-41b6-ab63-3ac36e70b21c
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9f8b84b5-6c1f-4282-9699-58d3c2317f6e
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a7a562dc-031e-4dc2-8080-7c8ac1d87803
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0ee0c5be-9733-42ae-8386-525fb56bcca1
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2360390f-fd2d-4db5-8491-b963ab21e509
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: fdf3ab46-88f8-425c-9933-97d4c0abdef3
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 4f98e34e-4bb3-4acb-a225-a7a195fa5217
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b396eb42-9265-47c3-8966-6ec6d504a390
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 0a3ad06a-daae-4e28-bb82-ed2be1595ff0
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 40ea63be-f894-4110-a44b-20fb70959133
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 90aa2ce6-622d-4b82-964d-4bb68d2fc9c7
+  /malaysia-mulu-marriott-resort-and-spa:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b02c2c39-8923-4362-a71c-12102a9d255f
+    hippo:name: Malaysia Mulu Marriott Resort & Spa
+    /malaysia-mulu-marriott-resort-and-spa[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: afcd9326-7b75-4f52-afbe-8763370e8ff6
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:44:17.274Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:45:21.743+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [malaysia]
+      hippotranslation:id: 9f8c4b6c-99bd-480d-935e-8bc74c23e3b7
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Mulu_Marriott_Resort_Spa_Sarawak_00?extend=0,0,-540,0&$SectionHero$
+      kohler:place: Mulu, Sarawak
+      kohler:relatedProduct: ['']
+      kohler:title: Mulu Marriott Resort and Spa
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The 5-star 92-rooms resort and spa nestles in the meandering arm of the Melinau river and is surrounded by tropical rainforest. 20 years ago it had been designed as the Royal Mulu Resort in the traditional Borneo and Sarawak longhouses style, but was recently completely renovated, refurbished, renamed, and reopened by Marriott in 2015.</p>
+
+          <p style="margin-left:0in; text-align:left">The resort is built on 3-meter high stilts and the rooms, sporting world-class, amazing bathrooms, are connected with wooden walkways. The architecture incorporates local culture, native elements and latest design trends. The bathrooms are equipped with our Purist, Symbol and Wave faucets, Santa Rosa&nbsp;toilets, Amaretto bidets, and Parliament and Ove sinks.</p>
+
+          <ul>
+           <li style="text-align:left">Client: Marriott</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.hba.com/about-hba/company/" target="_blank">HBA/Hirsch Bedner Associates (Singapore)</a></li>
+           <li style="text-align:left">Completed: 2015</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/marriott-mulu-and-natures-wellness-playground/" target="_blank">More about the Mulu Marriot Resort &amp; Spa at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.marriott.com/hotels/travel/myymu-mulu-marriott-resort-and-spa/" target="_blank">Visit the Mulu Marriott Resort &amp; Spa</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 95b361e3-f1eb-4a8d-bfe9-771097025a76
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a39ce5f5-e0af-4944-9db9-8c6ff89c52e5
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 47227b87-4381-4515-a438-cea285518f3d
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f555999e-d0ef-4206-8637-1042bd978e13
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ab1d4d59-da07-4bb2-94e6-7fb4b5723e77
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2844ff96-3bab-4051-bbda-36e4fc5524fb
+    /malaysia-mulu-marriott-resort-and-spa[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 925a9ee9-d9ec-4fe2-b8a8-5d6595f2f217
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:44:17.274Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:45:22.851+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [malaysia]
+      hippotranslation:id: 9f8c4b6c-99bd-480d-935e-8bc74c23e3b7
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Mulu_Marriott_Resort_Spa_Sarawak_00?extend=0,0,-540,0&$SectionHero$
+      kohler:place: Mulu, Sarawak
+      kohler:relatedProduct: ['']
+      kohler:title: Mulu Marriott Resort and Spa
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The 5-star 92-rooms resort and spa nestles in the meandering arm of the Melinau river and is surrounded by tropical rainforest. 20 years ago it had been designed as the Royal Mulu Resort in the traditional Borneo and Sarawak longhouses style, but was recently completely renovated, refurbished, renamed, and reopened by Marriott in 2015.</p>
+
+          <p style="margin-left:0in; text-align:left">The resort is built on 3-meter high stilts and the rooms, sporting world-class, amazing bathrooms, are connected with wooden walkways. The architecture incorporates local culture, native elements and latest design trends. The bathrooms are equipped with our Purist, Symbol and Wave faucets, Santa Rosa&nbsp;toilets, Amaretto bidets, and Parliament and Ove sinks.</p>
+
+          <ul>
+           <li style="text-align:left">Client: Marriott</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.hba.com/about-hba/company/" target="_blank">HBA/Hirsch Bedner Associates (Singapore)</a></li>
+           <li style="text-align:left">Completed: 2015</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/marriott-mulu-and-natures-wellness-playground/" target="_blank">More about the Mulu Marriot Resort &amp; Spa at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.marriott.com/hotels/travel/myymu-mulu-marriott-resort-and-spa/" target="_blank">Visit the Mulu Marriott Resort &amp; Spa</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 95b361e3-f1eb-4a8d-bfe9-771097025a76
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a39ce5f5-e0af-4944-9db9-8c6ff89c52e5
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 47227b87-4381-4515-a438-cea285518f3d
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f555999e-d0ef-4206-8637-1042bd978e13
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ab1d4d59-da07-4bb2-94e6-7fb4b5723e77
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2844ff96-3bab-4051-bbda-36e4fc5524fb
+    /malaysia-mulu-marriott-resort-and-spa[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 9687c9d6-44c2-4c8a-b726-47f3a757dace
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:44:17.274Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:45:22.851+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:45:24.457+05:30
+      hippotaxonomy:keys: [malaysia]
+      hippotranslation:id: 9f8c4b6c-99bd-480d-935e-8bc74c23e3b7
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Mulu_Marriott_Resort_Spa_Sarawak_00?extend=0,0,-540,0&$SectionHero$
+      kohler:place: Mulu, Sarawak
+      kohler:relatedProduct: ['']
+      kohler:title: Mulu Marriott Resort and Spa
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The 5-star 92-rooms resort and spa nestles in the meandering arm of the Melinau river and is surrounded by tropical rainforest. 20 years ago it had been designed as the Royal Mulu Resort in the traditional Borneo and Sarawak longhouses style, but was recently completely renovated, refurbished, renamed, and reopened by Marriott in 2015.</p>
+
+          <p style="margin-left:0in; text-align:left">The resort is built on 3-meter high stilts and the rooms, sporting world-class, amazing bathrooms, are connected with wooden walkways. The architecture incorporates local culture, native elements and latest design trends. The bathrooms are equipped with our Purist, Symbol and Wave faucets, Santa Rosa&nbsp;toilets, Amaretto bidets, and Parliament and Ove sinks.</p>
+
+          <ul>
+           <li style="text-align:left">Client: Marriott</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.hba.com/about-hba/company/" target="_blank">HBA/Hirsch Bedner Associates (Singapore)</a></li>
+           <li style="text-align:left">Completed: 2015</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/marriott-mulu-and-natures-wellness-playground/" target="_blank">More about the Mulu Marriot Resort &amp; Spa at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.marriott.com/hotels/travel/myymu-mulu-marriott-resort-and-spa/" target="_blank">Visit the Mulu Marriott Resort &amp; Spa</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 95b361e3-f1eb-4a8d-bfe9-771097025a76
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a39ce5f5-e0af-4944-9db9-8c6ff89c52e5
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 47227b87-4381-4515-a438-cea285518f3d
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f555999e-d0ef-4206-8637-1042bd978e13
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ab1d4d59-da07-4bb2-94e6-7fb4b5723e77
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2844ff96-3bab-4051-bbda-36e4fc5524fb
+  /taiwan-taichung-the-lin:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 76ab3103-4b4e-4213-9761-41b644a3a683
+    hippo:name: Taiwan Taichung The Lin
+    /taiwan-taichung-the-lin[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: aaf67520-41a3-48f8-82a5-43db8a945161
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:57:17.991Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:49:21.557+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [taiwan]
+      hippotranslation:id: f65f0eee-56e6-4f2b-bbdc-dc58bd779cc9
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Lin_Taichung_02?extend=0,0,-540,0&$SectionHero$
+      kohler:place: Taichung
+      kohler:relatedProduct: ['']
+      kohler:title: The Lin
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Fusing futurism with classicist elegance, The Lin Taichung stands as a new landmark deftly planted in the green city center of Taichung, at a stone’s throw from the Taichung Metropolitan Opera House and the scenic Maple Garden.</p>
+
+          <p style="margin-left:0in; text-align:left">Its façade of bronze-tinted glass and Syrian travertine express The Lin’s low-key approach to refined luxury which reveals itself as you enter. The golden-ratio-based design lends a sense of balance and comfort to the guest rooms.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://www.great-deep.com.tw/project_detail.php?wno=15" target="_blank">游道生/Great Deep United Architectural Firm</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2015</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/the-lin-taichung-taiwan-universe-of-space-and-curves/" target="_blank">More about The Lin Taichung at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.thelin.com.tw/index.php?lang=en" target="_blank">Visit The Lin Taichung</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3a8819ea-8d20-4216-8bf5-62e626492d5b
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 72e9ac9d-e285-41dd-be70-aba85ad897e2
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7216e0b6-92e7-4331-972c-f0ddcb4d3cb1
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 030bbd59-6f18-4f38-8b6d-3dc587f53246
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e3c10a61-48f3-4115-a70a-6ebb039479af
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e1133cbb-3ff6-4210-ab8c-3cf72d217884
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e198935f-2e2a-43d9-a600-db3c4b538791
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 52f8ccd8-8535-4d47-9343-170aa19b5184
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f2555eb0-296f-4709-950c-01e9b25afe62
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: eedba603-b34d-4b5f-8780-3a0b9e56f9ab
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9c7b3561-2d88-46a0-bc72-d032c828dcad
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b4fd4ea6-1add-4691-a7fc-eb78fcdd8ed9
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 49348ff0-3534-4cb2-a1f2-9b8bf7b273fd
+    /taiwan-taichung-the-lin[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: d705cc99-68b8-4dd9-ae4f-411a430da4cf
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:57:17.991Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:49:30.492+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [taiwan]
+      hippotranslation:id: f65f0eee-56e6-4f2b-bbdc-dc58bd779cc9
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Lin_Taichung_02?extend=0,0,-540,0&$SectionHero$
+      kohler:place: Taichung
+      kohler:relatedProduct: ['']
+      kohler:title: The Lin
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Fusing futurism with classicist elegance, The Lin Taichung stands as a new landmark deftly planted in the green city center of Taichung, at a stone’s throw from the Taichung Metropolitan Opera House and the scenic Maple Garden.</p>
+
+          <p style="margin-left:0in; text-align:left">Its façade of bronze-tinted glass and Syrian travertine express The Lin’s low-key approach to refined luxury which reveals itself as you enter. The golden-ratio-based design lends a sense of balance and comfort to the guest rooms.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://www.great-deep.com.tw/project_detail.php?wno=15" target="_blank">游道生/Great Deep United Architectural Firm</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2015</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/the-lin-taichung-taiwan-universe-of-space-and-curves/" target="_blank">More about The Lin Taichung at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.thelin.com.tw/index.php?lang=en" target="_blank">Visit The Lin Taichung</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3a8819ea-8d20-4216-8bf5-62e626492d5b
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 72e9ac9d-e285-41dd-be70-aba85ad897e2
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7216e0b6-92e7-4331-972c-f0ddcb4d3cb1
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 030bbd59-6f18-4f38-8b6d-3dc587f53246
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e3c10a61-48f3-4115-a70a-6ebb039479af
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e1133cbb-3ff6-4210-ab8c-3cf72d217884
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e198935f-2e2a-43d9-a600-db3c4b538791
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 52f8ccd8-8535-4d47-9343-170aa19b5184
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f2555eb0-296f-4709-950c-01e9b25afe62
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: eedba603-b34d-4b5f-8780-3a0b9e56f9ab
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9c7b3561-2d88-46a0-bc72-d032c828dcad
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b4fd4ea6-1add-4691-a7fc-eb78fcdd8ed9
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 49348ff0-3534-4cb2-a1f2-9b8bf7b273fd
+    /taiwan-taichung-the-lin[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 919a4330-92a6-42c9-8248-8f07d395271d
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T09:57:17.991Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:49:30.492+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:49:33.026+05:30
+      hippotaxonomy:keys: [taiwan]
+      hippotranslation:id: f65f0eee-56e6-4f2b-bbdc-dc58bd779cc9
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/The_Lin_Taichung_02?extend=0,0,-540,0&$SectionHero$
+      kohler:place: Taichung
+      kohler:relatedProduct: ['']
+      kohler:title: The Lin
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Fusing futurism with classicist elegance, The Lin Taichung stands as a new landmark deftly planted in the green city center of Taichung, at a stone’s throw from the Taichung Metropolitan Opera House and the scenic Maple Garden.</p>
+
+          <p style="margin-left:0in; text-align:left">Its façade of bronze-tinted glass and Syrian travertine express The Lin’s low-key approach to refined luxury which reveals itself as you enter. The golden-ratio-based design lends a sense of balance and comfort to the guest rooms.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://www.great-deep.com.tw/project_detail.php?wno=15" target="_blank">游道生/Great Deep United Architectural Firm</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2015</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://kohler.design/the-lin-taichung-taiwan-universe-of-space-and-curves/" target="_blank">More about The Lin Taichung at Kohler Designful</a></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.thelin.com.tw/index.php?lang=en" target="_blank">Visit The Lin Taichung</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 3a8819ea-8d20-4216-8bf5-62e626492d5b
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 72e9ac9d-e285-41dd-be70-aba85ad897e2
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7216e0b6-92e7-4331-972c-f0ddcb4d3cb1
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 030bbd59-6f18-4f38-8b6d-3dc587f53246
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e3c10a61-48f3-4115-a70a-6ebb039479af
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e1133cbb-3ff6-4210-ab8c-3cf72d217884
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: e198935f-2e2a-43d9-a600-db3c4b538791
+      /kohler:bannerLink[8]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 52f8ccd8-8535-4d47-9343-170aa19b5184
+      /kohler:bannerLink[9]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f2555eb0-296f-4709-950c-01e9b25afe62
+      /kohler:bannerLink[10]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: eedba603-b34d-4b5f-8780-3a0b9e56f9ab
+      /kohler:bannerLink[11]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9c7b3561-2d88-46a0-bc72-d032c828dcad
+      /kohler:bannerLink[12]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b4fd4ea6-1add-4691-a7fc-eb78fcdd8ed9
+      /kohler:bannerLink[13]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 49348ff0-3534-4cb2-a1f2-9b8bf7b273fd
+  /indonesia-bali-sofitel-bali-nusa-dua-beach-resort:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 6f2a2e35-3f85-4d7e-b1e7-47af05110a3f
+    hippo:name: Indonesia Bali Sofitel Bali Nusa Dua Beach Resort
+    /indonesia-bali-sofitel-bali-nusa-dua-beach-resort[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 2744ef15-cd3e-4d76-b974-f9c550d84280
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T10:10:50.208Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:49:08.200+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [taiwan]
+      hippotranslation:id: 040f8d4f-3529-4def-b9c2-1c4159d44f89
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Sofitel_Bali_Nusa_Dua_Beach_Resort_Bali_00?extend=-65,0,0,0&$SectionHero$
+      kohler:place: Bali
+      kohler:relatedProduct: ['']
+      kohler:title: Sofitel Bali Nusa Dua Beach Resort
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The 415-room Sofitel Bali Nusa Dua Beach Resort is one of Nusa Dua’s most lavish beachfront addresses. Wilson Associates’ design combines contemporary French luxury with the essence of local Balinese tradition. Careful juxtaposition of quintessential Balinese aesthetic with modern architectural elements propel this resort into a category all its own. Subtle colors, indigenous limestone and basalt stone, along with timber carvings create a harmonious echo of the indigenous Balinese hardscape.</p>
+
+          <ul>
+           <li style="text-align:left">Client: AccorHotels</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.wilsonassociates.com/project/sofitel-bali-nusa-dua-beach-resort/" target="_blank">Wilson Associates (Singapore)</a></li>
+           <li style="text-align:left">Completed: 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.sofitel.com/gb/hotel-9078-sofitel-bali-nusa-dua-beach-resort/index.shtml" target="_blank">Visit the Sofitel Bali Nusa Dua Beach Resort</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left">Photo credits: Wilson Associates</p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f74052af-f9b1-4dca-8086-063d88cc37d9
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 55866296-efc6-4d70-8158-9a1f059688e2
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 25094f69-ebed-4ce4-a370-80c109d3a01a
+    /indonesia-bali-sofitel-bali-nusa-dua-beach-resort[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: bd12a329-0ce8-47cb-bffe-fbeb5bac977d
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T10:10:50.208Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:50:21.336+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [taiwan]
+      hippotranslation:id: 040f8d4f-3529-4def-b9c2-1c4159d44f89
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Sofitel_Bali_Nusa_Dua_Beach_Resort_Bali_00?extend=-65,0,0,0&$SectionHero$
+      kohler:place: Bali
+      kohler:relatedProduct: ['']
+      kohler:title: Sofitel Bali Nusa Dua Beach Resort
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The 415-room Sofitel Bali Nusa Dua Beach Resort is one of Nusa Dua’s most lavish beachfront addresses. Wilson Associates’ design combines contemporary French luxury with the essence of local Balinese tradition. Careful juxtaposition of quintessential Balinese aesthetic with modern architectural elements propel this resort into a category all its own. Subtle colors, indigenous limestone and basalt stone, along with timber carvings create a harmonious echo of the indigenous Balinese hardscape.</p>
+
+          <ul>
+           <li style="text-align:left">Client: AccorHotels</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.wilsonassociates.com/project/sofitel-bali-nusa-dua-beach-resort/" target="_blank">Wilson Associates (Singapore)</a></li>
+           <li style="text-align:left">Completed: 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.sofitel.com/gb/hotel-9078-sofitel-bali-nusa-dua-beach-resort/index.shtml" target="_blank">Visit the Sofitel Bali Nusa Dua Beach Resort</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left">Photo credits: Wilson Associates</p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f74052af-f9b1-4dca-8086-063d88cc37d9
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 55866296-efc6-4d70-8158-9a1f059688e2
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 25094f69-ebed-4ce4-a370-80c109d3a01a
+    /indonesia-bali-sofitel-bali-nusa-dua-beach-resort[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 8ea0cac6-d48a-4a6f-9dfb-9dec5cad25bf
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T10:10:50.208Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:50:21.336+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:50:23.006+05:30
+      hippotaxonomy:keys: [taiwan]
+      hippotranslation:id: 040f8d4f-3529-4def-b9c2-1c4159d44f89
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Sofitel_Bali_Nusa_Dua_Beach_Resort_Bali_00?extend=-65,0,0,0&$SectionHero$
+      kohler:place: Bali
+      kohler:relatedProduct: ['']
+      kohler:title: Sofitel Bali Nusa Dua Beach Resort
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">The 415-room Sofitel Bali Nusa Dua Beach Resort is one of Nusa Dua’s most lavish beachfront addresses. Wilson Associates’ design combines contemporary French luxury with the essence of local Balinese tradition. Careful juxtaposition of quintessential Balinese aesthetic with modern architectural elements propel this resort into a category all its own. Subtle colors, indigenous limestone and basalt stone, along with timber carvings create a harmonious echo of the indigenous Balinese hardscape.</p>
+
+          <ul>
+           <li style="text-align:left">Client: AccorHotels</li>
+           <li style="text-align:left">Architect/Interior Design: <a href="http://www.wilsonassociates.com/project/sofitel-bali-nusa-dua-beach-resort/" target="_blank">Wilson Associates (Singapore)</a></li>
+           <li style="text-align:left">Completed: 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="http://www.sofitel.com/gb/hotel-9078-sofitel-bali-nusa-dua-beach-resort/index.shtml" target="_blank">Visit the Sofitel Bali Nusa Dua Beach Resort</a></p>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left">Photo credits: Wilson Associates</p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f74052af-f9b1-4dca-8086-063d88cc37d9
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 55866296-efc6-4d70-8158-9a1f059688e2
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 25094f69-ebed-4ce4-a370-80c109d3a01a
+  /philippines-manila-solaire-resort-and-casino:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f6986bb2-87eb-4c20-b988-924a9d655316
+    hippo:name: Philippines Manila Solaire Resort and Casino
+    /philippines-manila-solaire-resort-and-casino[1]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: e99523f2-d525-45ca-94f1-ede84089b09d
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T10:26:56.898Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:48:52.534+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [philippines]
+      hippotranslation:id: f6105e61-6d2e-4880-961e-4fc3488188d4
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Solaire_Resort_Casino_Manila_00?extend=0,0,-40,0&$SectionHero$
+      kohler:place: Manila
+      kohler:relatedProduct: ['']
+      kohler:title: Solaire Resort and Casino
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Solaire Resort &amp; Casino is the first resort casino in the highly anticipated Entertainment City project along the Philippine’s famed Manila Bay, featuring 500 luxuriously appointed rooms, suites and bayside villas.</p>
+
+          <p style="margin-left:0in; text-align:left">The 312 accommodations range from 700 square feet to an impressive 2,023 square feet. Most suites feature a stunning view of Manila Bay and its breathtaking golden sunset, while others offer enthralling views of the skyline, especially beautiful at night. All are fitted with environmentally conscious features, which appeal to all kinds of travelers looking to indulge for a night or two. The look: sleek and contemporary furnishings in eye-pleasing neutral color palettes that don’t compete with the floor-to-ceiling window views.</p>
+
+          <p style="margin-left:0in; text-align:left">Renowned hotel and casino architect Paul Steelman (famous for designing numerous high-end leisure properties in Las Vegas and Macau) headed up the sleek, dynamic design. The Solaire Resort and Casino is a Forbes Travel Guide 5-star rated hotel.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Client: Bloomberry Hotel and Resorts Inc.</li>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://www.steelmanpartners.com/about_us/what_we_do.php" target="_blank">Steelman Partners (US)</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="https://www.solaireresort.com" target="_blank">Visit the Solaire Resort and Casino</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6fa2e8e5-fa96-42df-938a-96cd6796c95a
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 204071be-e20e-4f59-9ffe-22ca70e1705e
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f46ee144-5e72-490a-abfa-d003f65f1046
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b8946ea9-cff7-4a29-aacc-6366928b1fb4
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 672ab31e-ee4e-49da-8392-80a73a67ca42
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b43afdd7-28ff-4e5b-9770-cac84f509d94
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cc59c8ad-1289-4579-95c4-f4b34eedd9c5
+    /philippines-manila-solaire-resort-and-casino[2]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: e216e3c3-410a-4660-beac-101e84849ce6
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T10:26:56.898Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:49:03.229+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [philippines]
+      hippotranslation:id: f6105e61-6d2e-4880-961e-4fc3488188d4
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Solaire_Resort_Casino_Manila_00?extend=0,0,-40,0&$SectionHero$
+      kohler:place: Manila
+      kohler:relatedProduct: ['']
+      kohler:title: Solaire Resort and Casino
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Solaire Resort &amp; Casino is the first resort casino in the highly anticipated Entertainment City project along the Philippine’s famed Manila Bay, featuring 500 luxuriously appointed rooms, suites and bayside villas.</p>
+
+          <p style="margin-left:0in; text-align:left">The 312 accommodations range from 700 square feet to an impressive 2,023 square feet. Most suites feature a stunning view of Manila Bay and its breathtaking golden sunset, while others offer enthralling views of the skyline, especially beautiful at night. All are fitted with environmentally conscious features, which appeal to all kinds of travelers looking to indulge for a night or two. The look: sleek and contemporary furnishings in eye-pleasing neutral color palettes that don’t compete with the floor-to-ceiling window views.</p>
+
+          <p style="margin-left:0in; text-align:left">Renowned hotel and casino architect Paul Steelman (famous for designing numerous high-end leisure properties in Las Vegas and Macau) headed up the sleek, dynamic design. The Solaire Resort and Casino is a Forbes Travel Guide 5-star rated hotel.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Client: Bloomberry Hotel and Resorts Inc.</li>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://www.steelmanpartners.com/about_us/what_we_do.php" target="_blank">Steelman Partners (US)</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="https://www.solaireresort.com" target="_blank">Visit the Solaire Resort and Casino</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6fa2e8e5-fa96-42df-938a-96cd6796c95a
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 204071be-e20e-4f59-9ffe-22ca70e1705e
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f46ee144-5e72-490a-abfa-d003f65f1046
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b8946ea9-cff7-4a29-aacc-6366928b1fb4
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 672ab31e-ee4e-49da-8392-80a73a67ca42
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b43afdd7-28ff-4e5b-9770-cac84f509d94
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cc59c8ad-1289-4579-95c4-f4b34eedd9c5
+    /philippines-manila-solaire-resort-and-casino[3]:
+      jcr:primaryType: kohler:globalProject
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 395e49ce-1ee2-4ee7-a78e-ebf3f244e404
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: kohler_editor
+      hippostdpubwf:creationDate: 2017-08-11T10:26:56.898Z
+      hippostdpubwf:lastModificationDate: 2018-11-06T14:49:03.229+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T14:49:05.090+05:30
+      hippotaxonomy:keys: [philippines]
+      hippotranslation:id: f6105e61-6d2e-4880-961e-4fc3488188d4
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:filters: Hospitality
+      kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/Solaire_Resort_Casino_Manila_00?extend=0,0,-40,0&$SectionHero$
+      kohler:place: Manila
+      kohler:relatedProduct: ['']
+      kohler:title: Solaire Resort and Casino
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p style="margin-left:0in; text-align:left">Solaire Resort &amp; Casino is the first resort casino in the highly anticipated Entertainment City project along the Philippine’s famed Manila Bay, featuring 500 luxuriously appointed rooms, suites and bayside villas.</p>
+
+          <p style="margin-left:0in; text-align:left">The 312 accommodations range from 700 square feet to an impressive 2,023 square feet. Most suites feature a stunning view of Manila Bay and its breathtaking golden sunset, while others offer enthralling views of the skyline, especially beautiful at night. All are fitted with environmentally conscious features, which appeal to all kinds of travelers looking to indulge for a night or two. The look: sleek and contemporary furnishings in eye-pleasing neutral color palettes that don’t compete with the floor-to-ceiling window views.</p>
+
+          <p style="margin-left:0in; text-align:left">Renowned hotel and casino architect Paul Steelman (famous for designing numerous high-end leisure properties in Las Vegas and Macau) headed up the sleek, dynamic design. The Solaire Resort and Casino is a Forbes Travel Guide 5-star rated hotel.</p>
+
+          <ul>
+           <li style="margin-left: 0in; text-align: left;">Client: Bloomberry Hotel and Resorts Inc.</li>
+           <li style="margin-left: 0in; text-align: left;">Architect/Interior Design: <a href="http://www.steelmanpartners.com/about_us/what_we_do.php" target="_blank">Steelman Partners (US)</a></li>
+           <li style="margin-left: 0in; text-align: left;">Completed: 2014</li>
+          </ul>
+
+          <p style="margin-left:0in; text-align:left">&nbsp;</p>
+
+          <p style="margin-left:0in; text-align:left"><strong>Further Reading:</strong></p>
+
+          <p style="margin-left:0in; text-align:left"><a href="https://www.solaireresort.com" target="_blank">Visit the Solaire Resort and Casino</a></p>
+      /kohler:bannerLink[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 6fa2e8e5-fa96-42df-938a-96cd6796c95a
+      /kohler:bannerLink[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 204071be-e20e-4f59-9ffe-22ca70e1705e
+      /kohler:bannerLink[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: f46ee144-5e72-490a-abfa-d003f65f1046
+      /kohler:bannerLink[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b8946ea9-cff7-4a29-aacc-6366928b1fb4
+      /kohler:bannerLink[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 672ab31e-ee4e-49da-8392-80a73a67ca42
+      /kohler:bannerLink[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b43afdd7-28ff-4e5b-9770-cac84f509d94
+      /kohler:bannerLink[7]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cc59c8ad-1289-4579-95c4-f4b34eedd9c5
+  /global-project-facets:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 40
+    hippo:docbase: b9f85ddb-7015-47e5-af2a-a5a747abdc8d
+    hippofacnav:facetnodenames: ['Country${sortby:''facetvalue'', sortorder:''ascending''}',
+      Filters]
+    hippofacnav:facets: ['hippotaxonomy:keys', 'kohler:filters']

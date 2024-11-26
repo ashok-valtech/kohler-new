@@ -1,0 +1,23 @@
+/content/documents/plumbingkohlervn/faq:
+  .meta:order-before: global-projects
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f0cee575-323d-424b-a905-8006a03f51d9
+  hippostd:foldertype: [new-faq-list, new-faq-item-folder]
+  hippotranslation:id: 425aec7e-b389-45b8-b52d-583612b9a8c6
+  hippotranslation:locale: vi_VN
+  /about-faq-items:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+    jcr:uuid: 4b6e2b2b-18c0-460d-8b7b-c12766d7c380
+    hippo:name: About FAQ items
+    hippostd:foldertype: [new-faq-item, new-faq-item-folder]
+    hippotranslation:id: 40e730be-b81c-4dd1-a664-1bc039482104
+    hippotranslation:locale: vi_VN
+  /bathroom-faq-items:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 47ff9f18-22a2-4922-bcca-60060bc5bad9
+    hippostd:foldertype: [new-faq-item, new-faq-item-folder]
+    hippotranslation:id: 6b4c766e-0dec-448d-b4bf-d3cf6e395bf7
+    hippotranslation:locale: vi_VN

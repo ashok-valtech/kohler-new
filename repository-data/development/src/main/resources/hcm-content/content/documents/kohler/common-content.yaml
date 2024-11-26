@@ -1,0 +1,150 @@
+/content/documents/kohler/common-content:
+  .meta:order-before: content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 8406a392-a224-48c4-947b-a19ac61565b2
+  hippostd:foldertype: [new-commoncontent]
+  hippotranslation:id: b7f1e09a-6ab6-4e50-a8a0-17285de5161c
+  hippotranslation:locale: en
+  /customer-supports-contact-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: af7e475b-6755-45bc-b37a-2550e11c3229
+    /customer-supports-contact-us[1]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 25f33f9b-0790-4255-96d9-cd40f4106941
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-02T17:27:35.181+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-08T08:27:13.100Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8f485e33-9e8f-4200-bbf6-7a6fc429def4
+      hippotranslation:locale: en
+      kohler:pageTitle: Contact Us
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>MORE RESOURCES</h3>
+
+          <ul>
+           <li><a href="/storelocator">Where to Buy</a></li>
+           <li><a href="/warranty">Warranty</a></li>
+           <li><a href="/careandclean">Care and Cleaning </a></li>
+           <li><a href="/literature">Literature </a></li>
+           <li><a href="https://www.us.kohler.com/us/static/helpTopics.jsp" target="_blank">FAQs</a></li>
+          </ul>
+    /customer-supports-contact-us[2]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 816c6f3e-99a2-4398-81b5-c0296ec55b63
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-02T17:27:35.181+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-08T08:27:27.109Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8f485e33-9e8f-4200-bbf6-7a6fc429def4
+      hippotranslation:locale: en
+      kohler:pageTitle: Contact Us
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>MORE RESOURCES</h3>
+
+          <ul>
+           <li><a href="/storelocator">Where to Buy</a></li>
+           <li><a href="/warranty">Warranty</a></li>
+           <li><a href="/careandclean">Care and Cleaning </a></li>
+           <li><a href="/literature">Literature </a></li>
+           <li><a href="https://www.us.kohler.com/us/static/helpTopics.jsp" target="_blank">FAQs</a></li>
+          </ul>
+    /customer-supports-contact-us[3]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 20917c3f-9025-4e28-ba92-30330d0eedf0
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-02T17:27:35.181+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-08T08:27:27.109Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-08T08:27:29.738Z
+      hippotranslation:id: 8f485e33-9e8f-4200-bbf6-7a6fc429def4
+      hippotranslation:locale: en
+      kohler:pageTitle: Contact Us
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>MORE RESOURCES</h3>
+
+          <ul>
+           <li><a href="/storelocator">Where to Buy</a></li>
+           <li><a href="/warranty">Warranty</a></li>
+           <li><a href="/careandclean">Care and Cleaning </a></li>
+           <li><a href="/literature">Literature </a></li>
+           <li><a href="https://www.us.kohler.com/us/static/helpTopics.jsp" target="_blank">FAQs</a></li>
+          </ul>
+  /kohler-global-projectlist:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a527dfb5-27e6-4110-baef-4b400bd64aa2
+    /kohler-global-projectlist[1]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6bcb94a0-b7e3-4f02-a1f7-4582fa9baa66
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-06T16:08:47.028+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-18T05:50:13.063Z
+      hippostdpubwf:lastModifiedBy: valeditor
+      hippotranslation:id: abcd88e5-9124-40fa-9aec-1060e2979a68
+      hippotranslation:locale: en
+      kohler:pageTitle: global project
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h2>Kohler Global Projects</h2>
+
+          <p>Asia Pacific offers a study in contrasts—from rugged mountains to lush rainforests to golden deserts; from pristine beaches to ancient cities. It’s a contrast reflected in the region’s diverse fashion, architecture and design aesthetics, an intriguing juxtaposition of geometric lines and organic forms. There, the finest properties feature KOHLER® and KALLISTA® plumbing products. Compelling design, leading-edge technology and meticulous craftsmanship offer a level of glamour and performance that’s noticed and remembered.</p>
+    /kohler-global-projectlist[2]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 8e98c2e0-2edb-4889-92d1-633685b53036
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-06T16:08:47.028+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-18T05:51:05.126Z
+      hippostdpubwf:lastModifiedBy: valeditor
+      hippotranslation:id: abcd88e5-9124-40fa-9aec-1060e2979a68
+      hippotranslation:locale: en
+      kohler:pageTitle: global project
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h2>Kohler Global Projects</h2>
+
+          <p>Asia Pacific offers a study in contrasts—from rugged mountains to lush rainforests to golden deserts; from pristine beaches to ancient cities. It’s a contrast reflected in the region’s diverse fashion, architecture and design aesthetics, an intriguing juxtaposition of geometric lines and organic forms. There, the finest properties feature KOHLER® and KALLISTA® plumbing products. Compelling design, leading-edge technology and meticulous craftsmanship offer a level of glamour and performance that’s noticed and remembered.</p>
+    /kohler-global-projectlist[3]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 08c35586-21c3-4cd8-a093-395b84f1be0f
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-06T16:08:47.028+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-18T05:51:05.126Z
+      hippostdpubwf:lastModifiedBy: valeditor
+      hippostdpubwf:publicationDate: 2017-09-18T05:51:08.239Z
+      hippotranslation:id: abcd88e5-9124-40fa-9aec-1060e2979a68
+      hippotranslation:locale: en
+      kohler:pageTitle: global project
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h2>Kohler Global Projects</h2>
+
+          <p>Asia Pacific offers a study in contrasts—from rugged mountains to lush rainforests to golden deserts; from pristine beaches to ancient cities. It’s a contrast reflected in the region’s diverse fashion, architecture and design aesthetics, an intriguing juxtaposition of geometric lines and organic forms. There, the finest properties feature KOHLER® and KALLISTA® plumbing products. Compelling design, leading-edge technology and meticulous craftsmanship offer a level of glamour and performance that’s noticed and remembered.</p>

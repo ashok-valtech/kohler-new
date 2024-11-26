@@ -1,0 +1,86 @@
+/content/documents/plumbingkohlerhk/collectons-promo:
+  .meta:order-before: common-content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: bc620485-df6c-45a4-bb53-c23e5b78f8d4
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 1ec51b2e-d0f4-45f7-923f-da3ba18ed48d
+  hippotranslation:locale: zh_HK
+  /collecton-promo1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: dda66df9-acc5-4b10-9378-e00c378baa65
+    hippo:name: collecton-promo1
+    /collecton-promo1[1]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 404a9464-a61b-4820-befc-02b4d0de6ec2
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-16T13:22:44.667+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 640683a0-920b-44da-8088-948ae3bc2fc1
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: 商店回憶錄(R)收藏
+      kohler:navigationURL: /browse/collections/ProductFamily/Gabrielle
+      kohler:shortDescription: 豐富的經典風格的詳細建築設計。
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: 紀要(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>受傳統風格的啟發，回憶錄集合迴響了歷史上著名的家具和建築設計的風格化線條。 每一個細節都使它成為經典和永恆的
+          - 複雜而完全平易近人。 其清脆的線條像皇冠成型。</p>
+    /collecton-promo1[2]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 380357f1-bf35-4c50-b378-2854b401f1f3
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-16T13:22:44.667+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-16T13:22:46.075+05:30
+      hippotranslation:id: 640683a0-920b-44da-8088-948ae3bc2fc1
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: 商店回憶錄(R)收藏
+      kohler:navigationURL: /browse/collections/ProductFamily/Gabrielle
+      kohler:shortDescription: 豐富的經典風格的詳細建築設計。
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: 紀要(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>受傳統風格的啟發，回憶錄集合迴響了歷史上著名的家具和建築設計的風格化線條。 每一個細節都使它成為經典和永恆的
+          - 複雜而完全平易近人。 其清脆的線條像皇冠成型。</p>
+    /collecton-promo1[3]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 69593365-abd9-49c0-9945-17313e41441a
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-16T13:22:17.936+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 640683a0-920b-44da-8088-948ae3bc2fc1
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: 商店回憶錄(R)收藏
+      kohler:navigationURL: /browse/collections/ProductFamily/Gabrielle
+      kohler:shortDescription: 豐富的經典風格的詳細建築設計。
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: 紀要(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>受傳統風格的啟發，回憶錄集合迴響了歷史上著名的家具和建築設計的風格化線條。 每一個細節都使它成為經典和永恆的
+          - 複雜而完全平易近人。 其清脆的線條像皇冠成型。</p>

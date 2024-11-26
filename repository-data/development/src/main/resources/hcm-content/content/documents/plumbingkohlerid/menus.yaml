@@ -1,0 +1,297 @@
+/content/documents/plumbingkohlerid/menus:
+  .meta:order-before: productfacets
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 01e796c4-7d27-4aaa-b6e1-ac9c15bb7f77
+  hippostd:foldertype: [new-menu, new-menu-folder]
+  hippotranslation:id: 480ccb6f-51b2-4d10-b347-99a513dba698
+  hippotranslation:locale: in_ID
+  /sitemenus:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 34193ceb-56db-41c6-ae6a-caee8b4f002f
+    hippostd:foldertype: [new-menu, new-menu-folder]
+    hippotranslation:id: cca2ffb1-1205-408d-8be8-1452e4300fa4
+    hippotranslation:locale: in_ID
+    /home:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: eeb93c39-c1fa-44f7-87ff-1a81b629da07
+      hippo:name: home
+      /home[1]:
+        jcr:primaryType: kohler:menu
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e7cbcaec-4495-4db5-97e7-7879c0c91477
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-12T13:31:47.796+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-24T14:23:05.102+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2b79ea04-7b15-490f-a16c-11128fcdbdfb
+        hippotranslation:locale: en
+        kohler:iconCode: ''
+        kohler:menuLink: ''
+        kohler:menuText: Home
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9952bada-8df4-4ee7-a2b2-53710d099024
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /home[2]:
+        jcr:primaryType: kohler:menu
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 701ed429-1c5e-4a14-9c5f-9022bd83b82c
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-12T13:31:47.796+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-24T14:23:05.102+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-24T14:23:07.134+05:30
+        hippotranslation:id: 2b79ea04-7b15-490f-a16c-11128fcdbdfb
+        hippotranslation:locale: en
+        kohler:iconCode: ''
+        kohler:menuLink: ''
+        kohler:menuText: Home
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9952bada-8df4-4ee7-a2b2-53710d099024
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /home[3]:
+        jcr:primaryType: kohler:menu
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6e57d1d6-9c2f-480d-b70d-8b05f349fc2e
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-12T13:31:47.796+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-24T14:22:51.616+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2b79ea04-7b15-490f-a16c-11128fcdbdfb
+        hippotranslation:locale: en
+        kohler:iconCode: ''
+        kohler:menuLink: ''
+        kohler:menuText: Home
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9952bada-8df4-4ee7-a2b2-53710d099024
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /bathroom:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 05f0dd42-a5b0-46c1-bcd7-481f9adb20e7
+      hippostd:foldertype: [new-menu, new-menu-folder]
+      hippotranslation:id: 4436a88b-be38-4766-807c-63837a3b6f2b
+      hippotranslation:locale: in_ID
+      /bathroom-lavatory-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: abb39314-23ac-4ea8-b589-f0dd995aa619
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: d5fd6a2c-3818-4c5d-9e1d-c7b71bad1174
+        hippotranslation:locale: in_ID
+      /bathroom-bathing-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 05288b71-2896-4352-81d0-67e634aa9947
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: 3f934468-a3ed-4d44-b439-0a2f1f4ba412
+        hippotranslation:locale: in_ID
+      /bathroom-toilet-seats-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 7c14822e-4b64-45ee-a3be-adefcbab6796
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: bd704575-a2d5-472c-abbe-5b0aa7280276
+        hippotranslation:locale: in_ID
+      /bathroom-toilets-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: d93077a7-8492-464e-aac6-14c73cf775f5
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: 1d5d0de8-1ab0-46c1-9fe0-950d00e2aba0
+        hippotranslation:locale: in_ID
+      /bathroom-showering-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 9be61c7e-9e0f-4446-a413-bfdbda7df4a6
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: 391a5567-6ed9-44c8-b975-54818e0a4acb
+        hippotranslation:locale: in_ID
+      /bathroom-commerical-bathroom-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 88082173-4789-499a-b9c0-35f32ea7f31a
+        hippo:name: bathroom-commercial-bathroom-menus
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: 17e89fbf-5dae-4d0f-a6b1-ba57f4b721c3
+        hippotranslation:locale: in_ID
+      /bathroom-facuets-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: b8d86a2e-3338-4b70-b41f-35e9043cf54c
+        hippo:name: bathroom-faucets-menus
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: e2cef967-7048-45af-aab3-a1b1638a530c
+        hippotranslation:locale: in_ID
+      /bathroom-accessories-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 2239b915-c174-41c3-9f25-8b496cda189d
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: eb6b1ce4-968f-493f-95be-bb8ae97c0891
+        hippotranslation:locale: in_ID
+      /koleksi:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 77a96da2-d193-425a-a1bb-4c2b88795a1b
+        hippo:name: koleksi
+        /koleksi[1]:
+          jcr:primaryType: kohler:menu
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: be185ade-370d-408e-b7c4-f9d1e9393bc7
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-11-15T15:06:51.398+05:30
+          hippostdpubwf:lastModificationDate: 2017-11-15T17:58:36.951+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: fac06ffd-5dd2-4216-8552-92d58f0a6fce
+          hippotranslation:locale: en
+          kohler:iconCode: ''
+          kohler:menuLink: /browse/koleksi
+          kohler:menuText: koleksi
+          /kohler:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /koleksi[2]:
+          jcr:primaryType: kohler:menu
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 554bb17a-f7dc-48ec-93a6-ca73666dc781
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-11-15T15:06:51.398+05:30
+          hippostdpubwf:lastModificationDate: 2017-11-15T17:58:29.451+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: fac06ffd-5dd2-4216-8552-92d58f0a6fce
+          hippotranslation:locale: en
+          kohler:iconCode: ''
+          kohler:menuLink: /browse/koleksi
+          kohler:menuText: koleksi
+          /kohler:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /koleksi[3]:
+          jcr:primaryType: kohler:menu
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ec5a42d7-1052-4e3c-9ecf-a3e5338d41d3
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-11-15T15:06:51.398+05:30
+          hippostdpubwf:lastModificationDate: 2017-11-15T17:58:36.951+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-11-15T17:58:38.762+05:30
+          hippotranslation:id: fac06ffd-5dd2-4216-8552-92d58f0a6fce
+          hippotranslation:locale: en
+          kohler:iconCode: ''
+          kohler:menuLink: /browse/koleksi
+          kohler:menuText: koleksi
+          /kohler:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /kitchen:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 3980400d-7315-4c3e-992c-3b122eb64acc
+      hippostd:foldertype: [new-menu, new-menu-folder]
+      hippotranslation:id: d0487834-290e-4943-9901-259ec243f731
+      hippotranslation:locale: in_ID
+      /kitchen-faucets-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: d84b4435-ce52-43be-8a57-2d4e99cf688e
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: 4566f147-d906-4c82-8f9f-9f09dddd7644
+        hippotranslation:locale: in_ID
+      /kitchen-sinks-menus:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 14cf3bac-ddf1-4b5e-acec-7dc7f9d36527
+        hippostd:foldertype: [new-menu, new-menu-folder]
+        hippotranslation:id: d6e4aa2c-daee-48dd-8d5b-471bd94fa7ce
+        hippotranslation:locale: in_ID
+  /footer:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 8820a019-4be7-49c2-a3a3-3ec8ec713acd
+    hippostd:foldertype: [new-menu, new-commoncontent, new-footer-simpledocument,
+      new-footer-folder]
+    hippotranslation:id: 527a0e7c-626a-4bc1-a922-8d3537f4d2e3
+    hippotranslation:locale: in_ID
+    /contact:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: e11f43c4-ef2d-4a1e-9b48-7498c89cd171
+      hippostd:foldertype: [new-contact]
+      hippotranslation:id: 8516a53f-a52d-46ae-b6a1-d882d2e32694
+      hippotranslation:locale: in_ID
+    /protoolbox:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 10f7c7a3-5a43-4418-aa99-089406383c7a
+      hippostd:foldertype: [new-protoolbox]
+      hippotranslation:id: 29a85523-9ae5-4524-a5b9-14ddc2067f1a
+      hippotranslation:locale: in_ID
+    /aboutus:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 76ed23f5-7d02-4594-93ab-3c763c4f4aa9
+      hippostd:foldertype: [new-protoolbox]
+      hippotranslation:id: 9076dd7e-8e61-485f-bbe3-0f6400e660f2
+      hippotranslation:locale: in_ID
+    /press-releases:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 439ebdaa-c4f8-479c-96f3-bbf312c29e93
+      hippostd:foldertype: [new-pressreleases]
+      hippotranslation:id: 0ae6691c-46ed-4c4e-b793-81fd1bfb82ac
+      hippotranslation:locale: in_ID
+    /media-contact:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 8c40de6b-d7d9-4cdf-bbf9-5f5a3877a7fa
+      hippo:name: media contact
+      hippostd:foldertype: [new-mediacontact]
+      hippotranslation:id: 46a826cf-2377-40f9-9560-4878021e4ec2
+      hippotranslation:locale: in_ID
+    /social:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 5a700d0e-0859-4faa-a572-e3f187e8a175
+      hippostd:foldertype: [new-menu]
+      hippotranslation:id: b3a2db72-1495-40bb-bb34-d9b6bf0455ff
+      hippotranslation:locale: in_ID
+  /header:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 6e2d2562-1f3c-44b4-b539-5fa2bd04e78e
+    hippostd:foldertype: [new-menu, new-menu-folder]
+    hippotranslation:id: d3189df6-52fc-47c7-800c-bc1a7025990a
+    hippotranslation:locale: in_ID

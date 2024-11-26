@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/colorItems:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+        hst:template: colorpalete-list
+        /colorbanner:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: colorpalette/main

@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerid/content:
+  .meta:order-before: faq
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 614c8558-66db-4ff0-a828-1d19af9b9461
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: e1ba49da-e723-4ea8-9350-9301c813548a
+  hippotranslation:locale: in_ID

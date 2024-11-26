@@ -1,0 +1,61 @@
+/content/gallery/kohler/bathroom-and-kitchen-ideas:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 54fc5a4f-a9ad-4807-a7d7-9839364f7c95
+  hippo:name: bathroom and kitchen ideas
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /placeholder-_1.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a41b9fd5-9ed0-4191-8d2a-8950e23e4f41
+    /placeholder-_1.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: placeholder-_1.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: placeholder-_1.png
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-and-kitchen-ideas/placeholder-_1.png/placeholder-_1_thumbnail.png
+        jcr:lastModified: 2017-06-01T12:33:49.153+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-and-kitchen-ideas/placeholder-_1.png/placeholder-_1_original.png
+        jcr:lastModified: 2017-06-01T12:33:49.153+05:30
+        jcr:mimeType: image/png
+  /placeholder-_2.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b94694b1-0ac3-45bc-8afb-eef693819656
+    /placeholder-_2.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: placeholder-_2.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: placeholder-_2.png
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-and-kitchen-ideas/placeholder-_2.png/placeholder-_2_thumbnail.png
+        jcr:lastModified: 2017-06-01T12:33:49.752+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-and-kitchen-ideas/placeholder-_2.png/placeholder-_2_original.png
+        jcr:lastModified: 2017-06-01T12:33:49.752+05:30
+        jcr:mimeType: image/png

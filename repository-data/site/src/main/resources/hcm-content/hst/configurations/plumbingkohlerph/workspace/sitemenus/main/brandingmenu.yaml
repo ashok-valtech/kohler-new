@@ -1,0 +1,52 @@
+/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:sitemenus/main/brandingmenu:
+  .meta:order-before: regionmenu
+  jcr:primaryType: hst:sitemenuitem
+  /kohlercompany:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /about kohler company:
+      jcr:primaryType: hst:sitemenuitem
+      /Ann Sacks:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/ann-sacks
+        hst:repobased: false
+      /Robern:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/robern
+        hst:repobased: false
+      /Kallista:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/kallista
+        hst:repobased: false
+      /Sterling:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/sterling
+        hst:repobased: false
+      /KOHLER.Generators:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/kohler-generators
+        hst:repobased: false
+      /Kohler Power Equipment:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/kholer-power-equipment
+        hst:repobased: false
+      /kohler:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/kohler
+        hst:repobased: false
+      /Jacob Delafon:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/jacob-delafon
+        hst:repobased: false
+      /Karat Sanitaryware:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/karat-sanitaryware
+        hst:repobased: false
+      /Englefield:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/englefield
+        hst:repobased: false
+      /Novita:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/header/novita
+        hst:repobased: false

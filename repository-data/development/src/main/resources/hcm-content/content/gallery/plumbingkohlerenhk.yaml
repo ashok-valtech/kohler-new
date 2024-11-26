@@ -1,0 +1,7 @@
+/content/gallery/plumbingkohlerenhk:
+  .meta:order-before: plumbingkohlerenid
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 555815e9-08d4-4094-87e4-b6172cddc592
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

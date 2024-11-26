@@ -1,0 +1,151 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/PromoBanner:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: a7d1c1ef-dbca-46fb-9f21-b5896c342cc7
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 860c952f-3485-4601-8f12-5af57d2f687e
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 8406d0e1-4ed9-488e-a2fe-b5465d67e192
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippotranslation:translated', 'hippotaxonomy:classifiable',
+            'kohler:basedocument', 'hippostd:relaxed']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:title
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /imageURL:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:imageURL
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /navigationURL:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:navigationURL
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /imageTitle:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:imageTitle
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /imageAlt:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:imageAlt
+            hipposysedit:primary: false
+            hipposysedit:type: String
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:PromoBanner
+          jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+          jcr:uuid: 86ec448b-6317-4aa4-af94-221d895feb3c
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2017-11-06T19:03:50.692+05:30
+          hippostdpubwf:lastModificationDate: 2017-11-06T19:03:50.692+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          kohler:imageAlt: ''
+          kohler:imageTitle: ''
+          kohler:imageURL: ''
+          kohler:navigationURL: ''
+          kohler:title: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /title:
+            jcr:primaryType: frontend:plugin
+            caption: Title
+            field: title
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /imageURL:
+            jcr:primaryType: frontend:plugin
+            caption: Image URL
+            field: imageURL
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /navigationURL:
+            jcr:primaryType: frontend:plugin
+            caption: Navigation URL
+            field: navigationURL
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /classifiable:
+            jcr:primaryType: frontend:plugin
+            essentials-taxonomy-name: apac
+            mixin: hippotaxonomy:classifiable
+            plugin.class: org.hippoecm.frontend.editor.plugins.mixin.MixinLoaderPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              taxonomy.name: apac
+          /imageTitle:
+            jcr:primaryType: frontend:plugin
+            caption: Image Title
+            field: imageTitle
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /imageAlt:
+            jcr:primaryType: frontend:plugin
+            caption: Image Alt
+            field: imageAlt
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

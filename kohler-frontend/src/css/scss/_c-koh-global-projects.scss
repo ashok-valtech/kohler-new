@@ -1,0 +1,307 @@
+/*
+* Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+*/
+
+.c-koh-projects-pages {
+    background: $koh-color-white none repeat scroll 0 0;
+    color: $koh-color-pdk-grey;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .koh-projects-pages-container {
+        padding: 0 10px;
+        .c-koh-simple-content.v-koh-full-page {
+            padding-bottom: 0;
+            .koh-simple-content-container {
+                padding: 0;
+                .koh-projects-pages-title {
+                    font-family: HelveticaLight, Helvetica, sans-serif;
+                    font-size: 2.5em;
+                    font-weight: 400;
+                    line-height: 1.2em;
+                    margin: 0 0 10px;
+                    text-transform: uppercase;
+                }
+                .koh-simple-content-body {
+                    h2 {
+                        font-family: HelveticaLight, Helvetica, sans-serif;
+                        font-size: 2.5em;
+                        font-weight: 400;
+                        line-height: 1.2em;
+                        margin: 0 0 10px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .koh-project-previous-link {
+            margin-top: 10px;
+        }
+        .koh-print-share-tools {}
+        .koh-projects-pages-container-banner {
+            margin: 30px 0 30px;
+            .c-koh-banner-carousel {
+                padding-left: 0;
+                padding-right: 0;
+                .koh-carousel {
+                    height: 100%;
+                    position: relative;
+                    .koh-carousel-controls {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .koh-projects-listing {
+        padding: 30px 0 0;
+        .koh-projects-form {
+            margin: 0 10px;
+            padding-bottom: 30px;
+            text-align: center;
+            .koh-country {
+                background: $koh-color-white none repeat scroll 0 0;
+                border: 1px solid #dbdbdb;
+                border-radius: 3px;
+                cursor: pointer;
+                display: block;
+                margin: 5px auto 0;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 280px;
+                &:after {
+                    content: "";
+                    font-family: KohlerIcons;
+                    font-size: 12px;
+                    position: absolute;
+                    right: 12px;
+                    top: 13px;
+                    z-index: 0;
+                }
+               select {
+                    -moz-appearance: none;
+                    background-color: transparent;
+                    background-image: none;
+                    border: medium none;
+                    box-shadow: none;
+                    cursor: pointer;
+                    font-family: HelveticaRoman, Helvetica, sans-serif;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 10px;
+                    position: relative;
+                    width: 100%;
+                    height: 40px;
+                    z-index: 1;
+                    text-transform: capitalize;
+                    -webkit-appearance: none;
+                    &:-ms-expand {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .koh-project-display {
+            margin-bottom: 30px;
+            clear: both;
+            .koh-project-country-title {
+                border-top: 1px solid #ccc;
+                margin: 0 10px;
+                overflow: hidden;
+                padding: 20px 0;
+                .koh-project-country-more-link {
+                    text-align: right;
+                    span {
+                        cursor: pointer;
+                    }
+                }
+                h3 {
+                    font-weight: normal;
+                    margin: 0;
+                }
+            }
+            a {
+                &:hover {
+                    text-decoration: none;
+                }
+                .koh-project-display-items-inner {
+                    margin: 0 10px;
+                    img {
+                        width: 100%;                        
+                    }
+                    .koh-project-display-content {
+                        background: #f9f9f9 none repeat scroll 0 0;
+                        min-height: 110px;
+                        padding: 10px;
+                        text-align: center;
+                        p {
+                            font-family: HelveticaMedium, Helvetica, sans-serif;
+                            font-size: 14px;
+                            line-height: 1.25;
+                        }
+                        span {
+                            color: #666;
+                            display: block;
+                            font-family: HelveticaRoman, Helvetica, sans-serif;
+                            font-weight: 400;
+                            line-height: 1em;
+                            margin-bottom: 3px;
+                        }
+                    }
+                }
+            }
+            &:after {
+                content:"";
+                display: table;
+                clear:both;
+            }
+        }
+        &:after {
+            content:"";
+            display: table;
+            clear:both;
+        }
+    }
+    .c-koh-product-details {
+        .koh-similar-products {
+            padding-left: 0;
+            padding-right: 0;
+            .koh-similar-products-title {
+                margin-top: 0;
+            }
+       }
+    }
+}
+.koh-demo-filters-store {
+    padding: 0 0 10px;
+}
+.koh-demo-filter {
+    margin: 30px 0 0;
+    @media #{$koh-media-screen-xs-max} {
+        margin: 10px 0 0;
+    }
+    [type=checkbox] {
+        &:checked, &:not(:checked) {
+          position: absolute;
+          left: -9999px;
+        }
+        &:checked + label:before, &:not(:checked) + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 28px;
+            height: 28px;
+            border: 1px solid #dbdbdb;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+        &:checked + label, &:not(:checked) + label {
+            float: none;
+            clear: none;
+            width: auto;
+            margin: 0 20px 10px 0;
+            position: relative;
+            padding-left: 35px;
+            cursor: pointer;
+            font-family: HelveticaRoman, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 30px;
+            @media #{$koh-media-screen-xs-max} {
+                display: block;
+                width: 280px;
+                margin: 10px auto;
+                text-align: left;
+            }
+        }
+        &:checked + label:after {
+            content: "✓";
+            position: absolute;
+            top: 0;
+           left: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            color: currentColor;
+            opacity: 1;
+        }
+        &:not(:checked) + label:after {
+            content: "✓";
+            position: absolute;
+            top: 0;
+            left: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            color: currentColor;
+            opacity: 1;
+            opacity: 0;
+        }
+        &:checked + label:after {
+            opacity: 1;
+        }
+        &:disabled+label {
+            opacity:0.3;
+            cursor:default;
+        }
+    }
+}  
+@media #{$koh-media-screen-xs-max} {
+    .koh-demo-filters-store {
+        text-align: left;
+    }
+}
+        
+@media #{$koh-media-nav-breakpoint} {
+    .c-koh-projects-pages {
+        width: 100%;
+        padding-left: calc((100% - 980px) / 2);
+        padding-right: calc((100% - 980px) / 2);
+        section {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .koh-project-display-items-inner img {
+        max-height: 204px;
+        overflow: hidden;
+    }   
+}
+/*
+Global project filter
+*/
+#globalProjectmainList {
+    display:inline;
+}
+.koh-load-more-globalProject {
+    background: #dbdbdb;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    font-family: HelveticaBold,Helvetica,sans-serif;
+    border: none;
+    width: 320px;
+    margin-bottom: 45px;
+}
+.koh-load-more-globalProject:hover {
+    background: #bebebe;
+}
+

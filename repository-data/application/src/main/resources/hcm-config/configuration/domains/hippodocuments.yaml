@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/hippodocuments/editor:
+      hipposys:groups: [admin, editor, sitewriters]

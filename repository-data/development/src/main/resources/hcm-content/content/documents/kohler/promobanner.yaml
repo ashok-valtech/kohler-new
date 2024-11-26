@@ -1,0 +1,244 @@
+/content/documents/kohler/promobanner:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: af040780-1014-4fec-9c66-0af135653e91
+  hippostd:foldertype: [new-promoBanner-folder, new-promoBanner-document]
+  hippotranslation:id: 426bd050-17dc-4deb-9b39-03ba002877ad
+  hippotranslation:locale: en
+  /promo_showering:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e53f86cc-9a83-4730-b896-ee9d13c1e0b1
+    /promo_showering[1]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 4727c766-88ba-4bf1-9da8-f75ccd52708b
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:55:33.723+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-16T09:47:08.432Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 8b773b1e-0399-444d-9ad2-72c02ddb88c7
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.google.co.in/
+      kohler:title: promobanner1
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promobanner1</p>
+    /promo_showering[2]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 2d76f4e6-5ae6-4301-ac6f-b574259658cd
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:55:33.723+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:14:28.839Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 8b773b1e-0399-444d-9ad2-72c02ddb88c7
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.google.co.in/
+      kohler:title: promobanner1
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promobanner1</p>
+    /promo_showering[3]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 197cc531-ebc1-417e-9663-6ef2f865906e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:55:33.723+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:14:28.839Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-15T05:14:30.194Z
+      hippotaxonomy:keys: []
+      hippotranslation:id: 8b773b1e-0399-444d-9ad2-72c02ddb88c7
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.google.co.in/
+      kohler:title: promobanner1
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promobanner1</p>
+  /promo_bathroom-faucets:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: cc8e5bc1-0667-41d5-b058-db0f667a3ae8
+    /promo_bathroom-faucets[1]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 96f759a6-647a-4cbb-ad0c-99b10050ed2e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:56:30.882+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:13:09.242Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 9bf189ac-82e0-4aa9-ba6f-3f976a160f3a
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: promodemo2
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promodemo2</p>
+    /promo_bathroom-faucets[2]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: bb2237b7-a662-4f09-9380-d12833c6c046
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:56:30.882+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:14:17.306Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 9bf189ac-82e0-4aa9-ba6f-3f976a160f3a
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: promodemo2
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promodemo2</p>
+    /promo_bathroom-faucets[3]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: c14342e2-7b63-4672-94f9-d259055594ee
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:56:30.882+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:14:17.306Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-15T05:14:18.811Z
+      hippotaxonomy:keys: []
+      hippotranslation:id: 9bf189ac-82e0-4aa9-ba6f-3f976a160f3a
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: promodemo2
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promodemo2</p>
+  /promo_toilet:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 10abf6ba-deea-4c23-bcae-bd8a6f6d1bc1
+    /promo_toilet[1]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: fcf1aff3-b097-42af-9691-6c6ed9c0d328
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-06T06:11:15.816Z
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:13:15.370Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 84e6e88d-a363-47a9-96f1-01670862c397
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac26605_rgb
+      kohler:navigationURL: ''
+      kohler:title: Toilet
+    /promo_toilet[2]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:versionable', 'mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: e8855ed4-dbc5-4e6a-99bb-28359c1451b3
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-06T06:11:15.816Z
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:14:32.364Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 84e6e88d-a363-47a9-96f1-01670862c397
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac26605_rgb
+      kohler:navigationURL: ''
+      kohler:title: Toilet
+    /promo_toilet[3]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 38c7f149-8561-4847-abf1-17eda2f88680
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-06T06:11:15.816Z
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:14:32.364Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-15T05:14:34.033Z
+      hippotaxonomy:keys: []
+      hippotranslation:id: 84e6e88d-a363-47a9-96f1-01670862c397
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac26605_rgb
+      kohler:navigationURL: ''
+      kohler:title: Toilet
+  /promo_commercial:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f51fc51b-3777-47b4-a5e0-b513298b6275
+    hippo:name: Promo_Commercial
+    /promo_commercial[1]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 9f1c1ae4-452d-43b4-b3b5-b791974bf569
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin_1
+      hippostdpubwf:creationDate: 2017-11-06T07:12:07.233Z
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:13:20.754Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 59741d27-49d2-4840-8741-80759c6c162d
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac26605_rgb
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: Commercial Bathroom
+    /promo_commercial[2]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:versionable', 'mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: e6255b1d-ad05-4815-b30f-337eb09927d2
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin_1
+      hippostdpubwf:creationDate: 2017-11-06T07:12:07.233Z
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:13:27.670Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: []
+      hippotranslation:id: 59741d27-49d2-4840-8741-80759c6c162d
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac26605_rgb
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: Commercial Bathroom
+    /promo_commercial[3]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 3f138e50-6313-44f8-9e86-b70729623372
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin_1
+      hippostdpubwf:creationDate: 2017-11-06T07:12:07.233Z
+      hippostdpubwf:lastModificationDate: 2017-11-15T05:13:27.670Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-15T05:13:29.232Z
+      hippotaxonomy:keys: []
+      hippotranslation:id: 59741d27-49d2-4840-8741-80759c6c162d
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac26605_rgb
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: Commercial Bathroom

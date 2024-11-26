@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    kohler:
+      uri: http://www.onehippo.org/kohler/nt/1.0
+      cnd: namespaces/kohler.cnd

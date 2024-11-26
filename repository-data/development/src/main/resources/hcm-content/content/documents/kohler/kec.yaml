@@ -1,0 +1,1729 @@
+/content/documents/kohler/kec:
+  .meta:order-before: menus
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 049a47e9-3000-4bdf-8857-60a212fa224d
+  hippostd:foldertype: [new-translated-folder]
+  hippotranslation:id: 942040af-5340-4c63-b697-09841c4016d3
+  hippotranslation:locale: en
+  /kecsite:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 374bc4ff-7fdc-4b08-b1b2-fae2bdf08ecb
+    hippostd:foldertype: [new-translated-folder]
+    hippotranslation:id: da2b114b-8058-4588-a0f6-ee53c2d344e7
+    hippotranslation:locale: en
+    /banners:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: d2b56014-1f96-4e7a-a1d8-6841a706313e
+      hippostd:foldertype: [new-translated-folder]
+      hippotranslation:id: 8a900a8f-e1d6-489d-a229-6889b01c6f75
+      hippotranslation:locale: en
+      /homebanners:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: d4ce03e6-410e-404b-9c8d-ae7eef267f37
+        hippostd:foldertype: [new-banner-document]
+        hippotranslation:id: a12b2b97-2708-4575-b291-8e0b822422d8
+        hippotranslation:locale: en
+        /kec_tpe:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: e0992170-f2e1-4895-b82d-87be711cd0d6
+          hippo:name: KEC_TPE
+          /kec_tpe[1]:
+            jcr:primaryType: kohler:bannerdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 389b97ee-899c-424b-b4f7-6df972b8e7f3
+            hippo:availability: []
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-08-02T15:14:17.503+05:30
+            hippostdpubwf:lastModificationDate: 2018-08-02T15:14:19.285+05:30
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: c9f24c43-6929-4b1c-8971-626e29c06708
+            hippotranslation:locale: en
+            kohler:buttonText: ''
+            kohler:imagePath: https://static1.squarespace.com/static/596c8807414fb513abfb8192/t/59b600f080bd5e49f834f475/1505100019265/KECTPE-EN-HeroBanner.jpg?format=1500w
+            kohler:navigationPath: ''
+            kohler:textColor: ''
+            kohler:title: ''
+            /kohler:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+          /kec_tpe[2]:
+            jcr:primaryType: kohler:bannerdocument
+            jcr:mixinTypes: ['mix:versionable']
+            jcr:uuid: ec8d0df0-4f89-4343-b7fe-eb2319bb120d
+            hippo:availability: [preview]
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-08-02T15:14:17.503+05:30
+            hippostdpubwf:lastModificationDate: 2018-08-02T15:15:03.417+05:30
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: c9f24c43-6929-4b1c-8971-626e29c06708
+            hippotranslation:locale: en
+            kohler:buttonText: ''
+            kohler:imagePath: https://static1.squarespace.com/static/596c8807414fb513abfb8192/t/59b600f080bd5e49f834f475/1505100019265/KECTPE-EN-HeroBanner.jpg?format=1500w
+            kohler:navigationPath: ''
+            kohler:textColor: ''
+            kohler:title: ''
+            /kohler:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+          /kec_tpe[3]:
+            jcr:primaryType: kohler:bannerdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 1b0aa996-44f7-45ca-a34b-f0505b68c61f
+            hippo:availability: [live]
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-08-02T15:14:17.503+05:30
+            hippostdpubwf:lastModificationDate: 2018-08-02T15:15:03.417+05:30
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2018-08-02T15:15:07.462+05:30
+            hippotranslation:id: c9f24c43-6929-4b1c-8971-626e29c06708
+            hippotranslation:locale: en
+            kohler:buttonText: ''
+            kohler:imagePath: https://static1.squarespace.com/static/596c8807414fb513abfb8192/t/59b600f080bd5e49f834f475/1505100019265/KECTPE-EN-HeroBanner.jpg?format=1500w
+            kohler:navigationPath: ''
+            kohler:textColor: ''
+            kohler:title: ''
+            /kohler:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+      /midbanners:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: fc87fede-daa1-4c69-a982-f2b9f3987e43
+        hippostd:foldertype: [new-banner-document]
+        hippotranslation:id: 12f2ab9d-f246-4cdd-93cc-d4ad4a227df5
+        hippotranslation:locale: en
+        /img-banner:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 411c569e-bc04-44dc-bb13-506ed4777e09
+          /img-banner[1]:
+            jcr:primaryType: kohler:bannerdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: fa5de73f-97a9-43b6-9292-a946c389bf30
+            hippo:availability: []
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-08-02T19:43:58.393+05:30
+            hippostdpubwf:lastModificationDate: 2018-08-30T06:56:27.341Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: 699b5889-1f85-4601-b103-c75c9f5460dd
+            hippotranslation:locale: en
+            kohler:buttonText: ''
+            kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac21079_rgb?extend=-5600%2c-3400%2c-100%2c-4100&%241000Hero%24
+            kohler:navigationPath: ''
+            kohler:textColor: ''
+            kohler:title: ''
+            /kohler:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+          /img-banner[2]:
+            jcr:primaryType: kohler:bannerdocument
+            jcr:mixinTypes: ['mix:versionable']
+            jcr:uuid: 476b1e62-da8f-4fd4-be23-6ad93c08b4d5
+            hippo:availability: [preview]
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-08-02T19:43:58.393+05:30
+            hippostdpubwf:lastModificationDate: 2018-08-30T06:57:10.020Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: 699b5889-1f85-4601-b103-c75c9f5460dd
+            hippotranslation:locale: en
+            kohler:buttonText: ''
+            kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac21079_rgb?extend=-5600%2c-3400%2c-100%2c-4100&%241000Hero%24
+            kohler:navigationPath: ''
+            kohler:textColor: ''
+            kohler:title: ''
+            /kohler:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+          /img-banner[3]:
+            jcr:primaryType: kohler:bannerdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: dab96842-009d-4254-9862-23d174b2ca0e
+            hippo:availability: [live]
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-08-02T19:43:58.393+05:30
+            hippostdpubwf:lastModificationDate: 2018-08-30T06:57:10.020Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2018-08-30T06:57:12.393Z
+            hippotranslation:id: 699b5889-1f85-4601-b103-c75c9f5460dd
+            hippotranslation:locale: en
+            kohler:buttonText: ''
+            kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac21079_rgb?extend=-5600%2c-3400%2c-100%2c-4100&%241000Hero%24
+            kohler:navigationPath: ''
+            kohler:textColor: ''
+            kohler:title: ''
+            /kohler:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+    /imgtitdesclinks:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: c1d10b67-635c-4274-a077-578875de21be
+      hippostd:foldertype: [new-imgTitDecLinkGrid-document]
+      hippotranslation:id: c1110d6a-536d-46f8-8fba-b9a15574c505
+      hippotranslation:locale: en
+      /sample:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3f79868b-3c0f-4f0d-82af-112f7e378282
+        /sample[1]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7bb32629-4b13-4ea6-bc1c-e90896378bea
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:20:44.656+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 04d2ebba-43df-42ba-a444-efe773f9dda4
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+        /sample[2]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 06909ffc-f287-4ba6-9b0e-ed6c713b9f90
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:23:10.065+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 04d2ebba-43df-42ba-a444-efe773f9dda4
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+        /sample[3]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 938bcf2a-3290-478b-a48e-c18c2314a012
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:23:10.065+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-08-02T19:23:17.978+05:30
+          hippotranslation:id: 04d2ebba-43df-42ba-a444-efe773f9dda4
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+      /sample2:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b0ec4b86-453e-4a6b-97ce-2c5bd92f2b8b
+        hippo:name: sample2
+        /sample2[1]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: cf123650-8444-4ee7-b7c9-e6e91cb091f5
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:23:10.065+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c45f54d0-98ab-4740-97da-b02f636d064a
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+        /sample2[2]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8cb73450-a33f-42b5-a4f3-dbb8c66854d1
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:23:10.065+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-08-03T12:56:15.101+05:30
+          hippotranslation:id: c45f54d0-98ab-4740-97da-b02f636d064a
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+      /sample3:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 6b6de60c-88d9-4252-bc4e-ff2982aaaa3a
+        hippo:name: sample3
+        /sample3[1]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 67e20a0c-c144-42de-8aa4-e773bf9b94b6
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:23:10.065+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c0e4fe54-9568-487b-b285-a6fc898668c1
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+        /sample3[2]:
+          jcr:primaryType: kohler:imgTitDecLinkGrid
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f7dfb07e-1c0c-4ded-8724-2a6d65c83640
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:20:42.921+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:23:10.065+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-08-03T12:56:26.755+05:30
+          hippotranslation:id: c0e4fe54-9568-487b-b285-a6fc898668c1
+          hippotranslation:locale: en
+          kohler:description: This Awards is a recognition of creative excellence
+            in the hospitality, residential and commercial property design industry.
+            Submission are now open.
+          kohler:displayOrder: 1
+          kohler:hstUrl: https://kbda-ap.com/
+          kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+          kohler:navigationTitle: Got Bold design
+          kohler:title: KOHLER Bold Design Awards
+    /simplecontent:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 37532231-1363-482c-bc31-ea80f48340af
+      hippostd:foldertype: [new-footer-simpledocument]
+      hippotranslation:id: 649d4e5b-6f93-4c5f-9afa-21dd1c5b7227
+      hippotranslation:locale: en
+      /first-portion:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 26c11bba-a4cf-4016-81af-189075bca623
+        hippo:name: first-portion
+        /first-portion[1]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 49deb996-eb1a-45a1-84cd-77f8843dede6
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T15:25:14.764+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T15:57:53.369+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 2437f5ea-db6a-4f5d-9b68-95af86c55935
+          hippotranslation:locale: en
+          kohler:introduction: "KOHLER Experience Center.\r\nKOHLER Experience Center.\r\
+            \nKOHLER Experience Center.\r\nKOHLER Experience Center"
+          kohler:publicationdate: 2018-08-02T15:27:00+05:30
+          kohler:title: KOHLER Experience Center
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p style="text-align:center">&nbsp;</p>
+
+              <p style="text-align:center">The KOHLER Experience Center offers a unique and comprehensive shopping experience that is distinguished by a modern, innovative store and a private area to test out key showering and bathing experiences.</p>
+
+              <p style="text-align:center">KOHLER project consultants with expertise in bath and kitchen planning offer design development and project assistance. Additionally, the KOHLER Experience Center Taipei features a wide array of functioning products from KOHLER brands, along with a global specification area to support design customers working on projects around the world.</p>
+        /first-portion[2]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6c140240-6a58-4044-bdee-529703159557
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T15:25:14.764+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T15:57:53.369+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-08-02T19:27:10.837+05:30
+          hippotranslation:id: 2437f5ea-db6a-4f5d-9b68-95af86c55935
+          hippotranslation:locale: en
+          kohler:introduction: "KOHLER Experience Center.\r\nKOHLER Experience Center.\r\
+            \nKOHLER Experience Center.\r\nKOHLER Experience Center"
+          kohler:publicationdate: 2018-08-02T15:27:00+05:30
+          kohler:title: KOHLER Experience Center
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p style="text-align:center">&nbsp;</p>
+
+              <p style="text-align:center">The KOHLER Experience Center offers a unique and comprehensive shopping experience that is distinguished by a modern, innovative store and a private area to test out key showering and bathing experiences.</p>
+
+              <p style="text-align:center">KOHLER project consultants with expertise in bath and kitchen planning offer design development and project assistance. Additionally, the KOHLER Experience Center Taipei features a wide array of functioning products from KOHLER brands, along with a global specification area to support design customers working on projects around the world.</p>
+      /more-about-kohler:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 87581490-66c4-48cd-adfd-a06036dbb654
+        hippo:name: more-about-kohler
+        /more-about-kohler[1]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 6803f5c7-7405-454f-bc93-b21520dcdb79
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T15:25:14.764+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:27:05.102+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e87ee7c7-0cf5-4445-ba83-3bc8e0ac8d5b
+          hippotranslation:locale: en
+          kohler:introduction: ''
+          kohler:publicationdate: 2018-08-02T15:27:00+05:30
+          kohler:title: More about KOHLER
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p style="text-align:center">KOHLER is a global brand
+              with a presence on six continents. Learn more about KOHLER and the products
+              offered in your country by visiting the <strong><a href="http://kohler.com.sg"
+              target="_blank">KOHLER Singapore</a></strong> website, or visit <a href="http://kohler.asia"
+              target="_blank"><strong>kohler.asia</strong></a> to choose your country.
+              Kohler Co. also has a long history with the arts and the design community,
+              which you can learn about by visiting our <a href="http://kohler.design"
+              target="_blank"><strong>Designful blog</strong></a>. Visit often and
+              learn more!</p>
+        /more-about-kohler[2]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d7b8259e-d3f1-4beb-a222-4bb1be391961
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T15:25:14.764+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:26:37.947+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e87ee7c7-0cf5-4445-ba83-3bc8e0ac8d5b
+          hippotranslation:locale: en
+          kohler:introduction: ''
+          kohler:publicationdate: 2018-08-02T15:27:00+05:30
+          kohler:title: More about KOHLER
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p style="text-align:center">KOHLER is a global brand
+              with a presence on six continents. Learn more about KOHLER and the products
+              offered in your country by visiting the <strong><a href="http://kohler.com.sg"
+              target="_blank">KOHLER Singapore</a></strong> website, or visit <a href="http://kohler.asia"
+              target="_blank"><strong>kohler.asia</strong></a> to choose your country.
+              Kohler Co. also has a long history with the arts and the design community,
+              which you can learn about by visiting our <a href="http://kohler.design"
+              target="_blank"><strong>Designful blog</strong></a>. Visit often and
+              learn more!</p>
+        /more-about-kohler[3]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a7f0758c-2d03-4e24-9c11-08bc5089ea56
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T15:25:14.764+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-02T19:27:05.102+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-08-02T19:27:07.171+05:30
+          hippotranslation:id: e87ee7c7-0cf5-4445-ba83-3bc8e0ac8d5b
+          hippotranslation:locale: en
+          kohler:introduction: ''
+          kohler:publicationdate: 2018-08-02T15:27:00+05:30
+          kohler:title: More about KOHLER
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p style="text-align:center">KOHLER is a global brand
+              with a presence on six continents. Learn more about KOHLER and the products
+              offered in your country by visiting the <strong><a href="http://kohler.com.sg"
+              target="_blank">KOHLER Singapore</a></strong> website, or visit <a href="http://kohler.asia"
+              target="_blank"><strong>kohler.asia</strong></a> to choose your country.
+              Kohler Co. also has a long history with the arts and the design community,
+              which you can learn about by visiting our <a href="http://kohler.design"
+              target="_blank"><strong>Designful blog</strong></a>. Visit often and
+              learn more!</p>
+      /more-kohler-experience-centers-worldwide:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 37efa3bd-4fe7-43e7-9910-cee303563c57
+        hippo:name: More KOHLER Experience Centers worldwide
+        /more-kohler-experience-centers-worldwide[1]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5039149b-cbc8-43cc-aa66-865eb03e31d0
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T20:34:01.442+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:34:01.513+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c871819d-d3e8-440a-8aa4-d184382f7596
+          hippotranslation:locale: en
+          kohler:introduction: ''
+          kohler:publicationdate: 0001-01-01T13:00:00+01:00
+          kohler:title: More KOHLER Experience Centers worldwide
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /more-kohler-experience-centers-worldwide[2]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 69dbd0f8-4bbe-4bd9-bf1a-cbbceb48af97
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T20:34:01.442+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:34:07.253+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c871819d-d3e8-440a-8aa4-d184382f7596
+          hippotranslation:locale: en
+          kohler:introduction: ''
+          kohler:publicationdate: 0001-01-01T13:00:00+01:00
+          kohler:title: More KOHLER Experience Centers worldwide
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /more-kohler-experience-centers-worldwide[3]:
+          jcr:primaryType: kohler:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8a1fcb42-7754-430d-aef4-d449c35e6c03
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T20:34:01.442+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:34:07.253+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:34:09.170+05:30
+          hippotranslation:id: c871819d-d3e8-440a-8aa4-d184382f7596
+          hippotranslation:locale: en
+          kohler:introduction: ''
+          kohler:publicationdate: 0001-01-01T13:00:00+01:00
+          kohler:title: More KOHLER Experience Centers worldwide
+          /kohler:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+    /map:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 7049c50c-557c-4880-a0f1-26b78aac03e1
+      hippostd:foldertype: [new-map-document]
+      hippotranslation:id: c86e88ad-4ec1-4ff4-8131-94ae0623f361
+      hippotranslation:locale: en
+      /kec-map:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ba6002f8-d50e-46e5-9707-98f28f67cd2e
+        /kec-map[1]:
+          jcr:primaryType: kohler:mapDocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f4e86b95-061f-4da1-908c-d45eadb182f1
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:32:27.284+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-30T06:51:09.073Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3c99c870-39bd-4bd8-9d1a-6261c8716ec9
+          hippotranslation:locale: en
+          kohler:latitude: '1.27784'
+          kohler:logoUrl: https://static1.squarespace.com/static/5965ed054f14bc88662db222/t/59782048725e25da0fc41753/1501047288335/KECSGP?format=300w
+          kohler:longitude: '103.84477'
+          kohler:mapUrl: url
+          kohler:title: KOHLER Experience Center Singapore
+          /kohler:address:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>52/56 Peck Seah Street, Tanjong Pagar,&nbsp;Singapore 079321<br />
+              (Close to Tanjong Pagar MRT Station)</p>
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p><strong>Call Us Today:&nbsp;</strong>+65-6224-0039</p>
+
+              <p><strong>Business Hours:</strong><br />
+              Monday to Friday: 10AM – 7PM<br />
+              Saturday: 10AM – 6PM<br />
+              Closed on Sundays and public holidays</p>
+        /kec-map[2]:
+          jcr:primaryType: kohler:mapDocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: bbcfcef0-f4c0-4d53-bef2-634bb5cf4572
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:32:27.284+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-30T06:52:13.735Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3c99c870-39bd-4bd8-9d1a-6261c8716ec9
+          hippotranslation:locale: en
+          kohler:latitude: '1.27784'
+          kohler:logoUrl: https://static1.squarespace.com/static/5965ed054f14bc88662db222/t/59782048725e25da0fc41753/1501047288335/KECSGP?format=300w
+          kohler:longitude: '103.84477'
+          kohler:mapUrl: url
+          kohler:title: KOHLER Experience Center Singapore
+          /kohler:address:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>52/56 Peck Seah Street, Tanjong Pagar,&nbsp;Singapore 079321<br />
+              (Close to Tanjong Pagar MRT Station)</p>
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p><strong>Call Us Today:&nbsp;</strong>+65-6224-0039</p>
+
+              <p><strong>Business Hours:</strong><br />
+              Monday to Friday: 10AM – 7PM<br />
+              Saturday: 10AM – 6PM<br />
+              Closed on Sundays and public holidays</p>
+        /kec-map[3]:
+          jcr:primaryType: kohler:mapDocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2119ed19-61f1-4088-b234-669ddbecc514
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-08-02T19:32:27.284+05:30
+          hippostdpubwf:lastModificationDate: 2018-08-30T06:52:13.735Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-08-30T06:52:17.407Z
+          hippotranslation:id: 3c99c870-39bd-4bd8-9d1a-6261c8716ec9
+          hippotranslation:locale: en
+          kohler:latitude: '1.27784'
+          kohler:logoUrl: https://static1.squarespace.com/static/5965ed054f14bc88662db222/t/59782048725e25da0fc41753/1501047288335/KECSGP?format=300w
+          kohler:longitude: '103.84477'
+          kohler:mapUrl: url
+          kohler:title: KOHLER Experience Center Singapore
+          /kohler:address:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>52/56 Peck Seah Street, Tanjong Pagar,&nbsp;Singapore 079321<br />
+              (Close to Tanjong Pagar MRT Station)</p>
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p><strong>Call Us Today:&nbsp;</strong>+65-6224-0039</p>
+
+              <p><strong>Business Hours:</strong><br />
+              Monday to Friday: 10AM – 7PM<br />
+              Saturday: 10AM – 6PM<br />
+              Closed on Sundays and public holidays</p>
+    /thumbnails:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 85b63703-1cd9-4998-8a9a-ef3caff58ad7
+      hippostd:foldertype: [new-thumbnailBanner-document]
+      hippotranslation:id: 8a4540f3-2df9-4c01-8e7f-abba8b24e96d
+      hippotranslation:locale: en
+      /thumb1:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b5dd3959-1d0b-4204-bacb-ce045f64ce06
+        /thumb1[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9d189675-d132-492e-877a-0bcbd8ba146e
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:04:00.246+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 322616e4-2dad-4577-8b98-ffc83d85cdc6
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 1
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205d1ae6cfe64e31b8c9/1526472803252/KEC_Image_Update_20180515_IMG1_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb1[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 6175536a-887a-47af-99b7-578571d9f405
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:04:13.856+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 322616e4-2dad-4577-8b98-ffc83d85cdc6
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 1
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205d1ae6cfe64e31b8c9/1526472803252/KEC_Image_Update_20180515_IMG1_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb1[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f0fb2a07-2623-494c-aef2-2e07fc843f73
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:04:13.856+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:04:15.413+05:30
+          hippotranslation:id: 322616e4-2dad-4577-8b98-ffc83d85cdc6
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 1
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205d1ae6cfe64e31b8c9/1526472803252/KEC_Image_Update_20180515_IMG1_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb2:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 861afa2b-c796-4e9e-bc7f-934d42c92405
+        hippo:name: thumb2
+        /thumb2[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 4a77ba30-5393-4dd7-8260-af0c348d1253
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:06.368+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 29ac26c5-6bf4-4405-994b-fcc849bc25d0
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 2
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205e1ae6cfe64e31b92b/1526472803163/KEC_Image_Update_20180515_IMG2_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb2[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3a3b474d-6f50-4ccf-b859-0b72ea225218
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:04:34.866+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 29ac26c5-6bf4-4405-994b-fcc849bc25d0
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 2
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205e1ae6cfe64e31b92b/1526472803163/KEC_Image_Update_20180515_IMG2_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb2[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9cbc9034-fbd2-4106-8844-953160d2d943
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:06.368+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:05:07.636+05:30
+          hippotranslation:id: 29ac26c5-6bf4-4405-994b-fcc849bc25d0
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 2
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205e1ae6cfe64e31b92b/1526472803163/KEC_Image_Update_20180515_IMG2_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb3:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b6b9f971-7fb2-449b-ace5-571a0485ced8
+        /thumb3[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ec63a2b5-2965-499f-bb94-6d3903a2c52a
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:18.056+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:18.116+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e9a1a13d-1a97-489c-8376-2d34c64cdc71
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 3
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1dd758d463ef1a55ada/1526452709321/KEC_Image_Update_20180515_IMG3.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb3[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 12b1e57b-9c24-48d5-a4b7-7a1f72bb27d3
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:18.056+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:33.181+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e9a1a13d-1a97-489c-8376-2d34c64cdc71
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 3
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1dd758d463ef1a55ada/1526452709321/KEC_Image_Update_20180515_IMG3.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb3[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1d0f93ec-7779-4b77-961a-a32b5f244a19
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:18.056+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:33.181+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:05:34.543+05:30
+          hippotranslation:id: e9a1a13d-1a97-489c-8376-2d34c64cdc71
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 3
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1dd758d463ef1a55ada/1526452709321/KEC_Image_Update_20180515_IMG3.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb4:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8f7323c7-5eca-4705-99c3-c76de4b70f98
+        /thumb4[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c8357e52-92af-4284-b378-f4f0fd85bde5
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:41.969+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:42.038+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 8d130d4d-dcbb-447a-90d5-fa8940a32683
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 4
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1de8a922d0d383fc8f1/1526452709367/KEC_Image_Update_20180515_IMG4.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb4[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 7ed0f503-dc86-44c2-b1d2-c450fbaeb686
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:41.969+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:53.357+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 8d130d4d-dcbb-447a-90d5-fa8940a32683
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 4
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1de8a922d0d383fc8f1/1526452709367/KEC_Image_Update_20180515_IMG4.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb4[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 86ec5342-3adf-47c2-a43a-8761a38509fa
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:41.969+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:05:53.357+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:05:54.879+05:30
+          hippotranslation:id: 8d130d4d-dcbb-447a-90d5-fa8940a32683
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 4
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1de8a922d0d383fc8f1/1526452709367/KEC_Image_Update_20180515_IMG4.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb5:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6a46ebce-3ebf-4317-be45-1693339994cf
+        /thumb5[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 460c9e3a-a8fb-410c-85b5-670f72c0da81
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:01.179+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:01.231+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c52078f3-8c53-4585-aecf-667b2816b347
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 5
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc2082f950b71b08e6bc98/1526472841255/KEC_Image_Update_20180515_IMG5_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb5[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 434c332a-6cf6-44cf-bb9c-b5474c304bfd
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:01.179+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:14.867+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c52078f3-8c53-4585-aecf-667b2816b347
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 5
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc2082f950b71b08e6bc98/1526472841255/KEC_Image_Update_20180515_IMG5_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb5[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c5552517-de5d-4f3a-a6ad-6b1179045400
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:01.179+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:14.867+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:06:16.059+05:30
+          hippotranslation:id: c52078f3-8c53-4585-aecf-667b2816b347
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 5
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc2082f950b71b08e6bc98/1526472841255/KEC_Image_Update_20180515_IMG5_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb6:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a9a6794b-f392-4fa9-a84b-274fc6157c67
+        /thumb6[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d8e5651b-f1bc-4042-bac7-1e1ddb8c33d1
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:23.410+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:23.435+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 930cd393-4135-49d1-a4f9-47ca3298cd27
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 6
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc20830e2e72d2d8a985dc/1526472841610/KEC_Image_Update_20180515_IMG6_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb6[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 6652858b-a5be-4005-b6e0-eb2341510cb9
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:23.410+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:38.322+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 930cd393-4135-49d1-a4f9-47ca3298cd27
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 6
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc20830e2e72d2d8a985dc/1526472841610/KEC_Image_Update_20180515_IMG6_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb6[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f510f58c-99c0-471e-9dff-eb68ee536347
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:23.410+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:38.322+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:06:39.699+05:30
+          hippotranslation:id: 930cd393-4135-49d1-a4f9-47ca3298cd27
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 6
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc20830e2e72d2d8a985dc/1526472841610/KEC_Image_Update_20180515_IMG6_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb7:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3249c601-3fe4-467b-9a64-b3833b22616c
+        /thumb7[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7a70748f-6231-46c7-973a-e4dfad68d0a1
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:56.541+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:06:56.617+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 1b5e28d0-569e-4807-aad7-652f3c5d87f7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 7
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e36d2a73db384d5348/1526452713069/KEC_Image_Update_20180515_IMG7.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb7[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: fe74f12c-fb7e-41a2-a96d-6c192132d980
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:56.541+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:01.904+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 1b5e28d0-569e-4807-aad7-652f3c5d87f7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 7
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e36d2a73db384d5348/1526452713069/KEC_Image_Update_20180515_IMG7.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb7[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b77dd79b-91fd-4b61-9174-5d4ec0b93d20
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:56.541+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:01.904+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:07:03.141+05:30
+          hippotranslation:id: 1b5e28d0-569e-4807-aad7-652f3c5d87f7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 7
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e36d2a73db384d5348/1526452713069/KEC_Image_Update_20180515_IMG7.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb8:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2364fce4-1455-4be5-8b99-6d416498cfd0
+        /thumb8[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8c4ab605-fea3-4c73-aa2c-c16a43ac1647
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:10.679+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:10.734+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3e1ba72b-c580-4a0e-a329-c2f3796bbca7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 8
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e70e2e72d2d8a25059/1526452716896/KEC_Image_Update_20180515_IMG8.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb8[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 50dd8dbf-7c5f-4efb-83f9-a280981ad802
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:10.679+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:21.491+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3e1ba72b-c580-4a0e-a329-c2f3796bbca7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 8
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e70e2e72d2d8a25059/1526452716896/KEC_Image_Update_20180515_IMG8.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb8[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2604c515-665b-4277-a1e8-760a0c617893
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:10.679+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:21.491+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:07:22.615+05:30
+          hippotranslation:id: 3e1ba72b-c580-4a0e-a329-c2f3796bbca7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 8
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e70e2e72d2d8a25059/1526452716896/KEC_Image_Update_20180515_IMG8.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb9:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 768d997d-0a23-47e6-9e69-1e3a87e9c59c
+        /thumb9[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8ee05973-6ddd-4dfb-b5c8-698d6afc5f80
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:30.760+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:30.829+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: dcad56af-c12f-4252-9669-9e69debe4af3
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 9
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e81ae6cfe64e2a98ed/1526452717185/KEC_Image_Update_20180515_IMG9.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb9[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 5ef5b9c0-50ec-44f3-b9e9-194587e193b0
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:30.760+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:41.968+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: dcad56af-c12f-4252-9669-9e69debe4af3
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 9
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e81ae6cfe64e2a98ed/1526452717185/KEC_Image_Update_20180515_IMG9.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb9[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a665c895-7734-4be2-94b0-d83488c61062
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:30.760+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:41.968+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:07:43.380+05:30
+          hippotranslation:id: dcad56af-c12f-4252-9669-9e69debe4af3
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 9
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e81ae6cfe64e2a98ed/1526452717185/KEC_Image_Update_20180515_IMG9.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+      /thumb10:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f9b7d4ae-34cb-4263-8d72-478a77031f09
+        /thumb10[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9d245ba9-74f7-440a-8c64-9ff332a6822b
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:50.821+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:07:50.880+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e5329e09-2c9c-44cc-8e77-de5fe968f335
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 10
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1ebaa4a994bbed528ec/1526452720231/KEC_Image_Update_20180515_IMG10.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb10[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: ce09a00e-dbf3-4c60-8b54-5e7d4c238813
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:50.821+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:08:04.267+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e5329e09-2c9c-44cc-8e77-de5fe968f335
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 10
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1ebaa4a994bbed528ec/1526452720231/KEC_Image_Update_20180515_IMG10.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+        /thumb10[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5787c9d3-c7c7-45c3-91a1-13f775c79809
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:50.821+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T17:08:04.267+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T17:08:05.352+05:30
+          hippotranslation:id: e5329e09-2c9c-44cc-8e77-de5fe968f335
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 10
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1ebaa4a994bbed528ec/1526452720231/KEC_Image_Update_20180515_IMG10.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: ''
+    /thumbnails-with-desc:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: d1f07bca-caf5-4ef3-87d3-9da981cdc4d7
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 0ef65303-60e5-4c5a-bff4-4f7c4efee6df
+      hippotranslation:locale: en
+      /thumb1:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 69b20841-78ad-43ef-88cf-55bfbf4e3736
+        hippo:name: thumb1
+        /thumb1[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: e67e4798-f4df-4f65-91ae-403cbefa3c83
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:39.732+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 36f52a28-4f77-489a-a87c-f33f972f3e5b
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 1
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205d1ae6cfe64e31b8c9/1526472803252/KEC_Image_Update_20180515_IMG1_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails1
+        /thumb1[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 74733c8e-087d-4e7a-917b-759d62cf7702
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:39.732+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:38:41.594+05:30
+          hippotranslation:id: 36f52a28-4f77-489a-a87c-f33f972f3e5b
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 1
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205d1ae6cfe64e31b8c9/1526472803252/KEC_Image_Update_20180515_IMG1_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails1
+        /thumb1[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 134fa4d9-2b43-490e-8a89-184545d3c437
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:09.016+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 36f52a28-4f77-489a-a87c-f33f972f3e5b
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 1
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205d1ae6cfe64e31b8c9/1526472803252/KEC_Image_Update_20180515_IMG1_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails1
+      /thumb2:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 304be6ac-b6fd-4cf5-8688-a8cf61d12ba4
+        hippo:name: thumb2
+        /thumb2[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: adb82207-e0cf-408a-831a-0a3c4633e51c
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:49.010+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: ed4a2dc6-5c67-4c8c-9b16-de39075c8334
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 2
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205e1ae6cfe64e31b92b/1526472803163/KEC_Image_Update_20180515_IMG2_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails2
+        /thumb2[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e4338d44-61fc-47d2-843a-e8b6a30c7674
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:49.010+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:38:50.413+05:30
+          hippotranslation:id: ed4a2dc6-5c67-4c8c-9b16-de39075c8334
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 2
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205e1ae6cfe64e31b92b/1526472803163/KEC_Image_Update_20180515_IMG2_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails2
+        /thumb2[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8625d513-5c95-4eaf-ac89-642ae10e6fd1
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:04:00.122+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:43.569+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: ed4a2dc6-5c67-4c8c-9b16-de39075c8334
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 2
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc205e1ae6cfe64e31b92b/1526472803163/KEC_Image_Update_20180515_IMG2_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails2
+      /thumb3:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 7b55b365-a05f-4acb-b789-6c15027b9345
+        hippo:name: thumb3
+        /thumb3[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 263b34a0-c44f-480c-bc1d-f2af2bc8bfbb
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:18.056+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:55.955+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0727ef16-712f-4ffd-b129-6d3d8551321d
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 3
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1dd758d463ef1a55ada/1526452709321/KEC_Image_Update_20180515_IMG3.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails3
+        /thumb3[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 68c835c7-5131-4bad-b1c4-ec3a37b834d7
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:18.056+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:55.955+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:38:57.470+05:30
+          hippotranslation:id: 0727ef16-712f-4ffd-b129-6d3d8551321d
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 3
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1dd758d463ef1a55ada/1526452709321/KEC_Image_Update_20180515_IMG3.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails3
+        /thumb3[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 81cc212a-06e5-45e3-b44a-07b94d771637
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:18.056+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:51.857+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0727ef16-712f-4ffd-b129-6d3d8551321d
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 3
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1dd758d463ef1a55ada/1526452709321/KEC_Image_Update_20180515_IMG3.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails3
+      /thumb4:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 52dd2f74-1f84-4a64-86a5-2420e2b570fc
+        hippo:name: thumb4
+        /thumb4[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 3c66b199-7fe2-4cdd-bce6-1f37a849420c
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:41.969+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:03.030+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 70f766b8-c1b1-458c-9abc-32fbae477ab7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 4
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1de8a922d0d383fc8f1/1526452709367/KEC_Image_Update_20180515_IMG4.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails4
+        /thumb4[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 04f97d38-5970-4f0d-a8e3-5e31d3b0d170
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:41.969+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:03.030+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:39:04.343+05:30
+          hippotranslation:id: 70f766b8-c1b1-458c-9abc-32fbae477ab7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 4
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1de8a922d0d383fc8f1/1526452709367/KEC_Image_Update_20180515_IMG4.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails4
+        /thumb4[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 724deae6-26fc-4c96-95fd-318f87b92b4a
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:05:41.969+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:38:58.853+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 70f766b8-c1b1-458c-9abc-32fbae477ab7
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 4
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1de8a922d0d383fc8f1/1526452709367/KEC_Image_Update_20180515_IMG4.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails4
+      /thumb5:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 39b30e04-a0b2-4000-a876-2a8e1437cd25
+        hippo:name: thumb5
+        /thumb5[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: a8fd7c57-7c84-4439-8da1-9e7e1dbd36bf
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:01.179+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:10.309+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 97e47284-a40e-419d-b13d-28852de5da29
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 5
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc2082f950b71b08e6bc98/1526472841255/KEC_Image_Update_20180515_IMG5_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails5
+        /thumb5[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d4d62ad1-295a-4982-bc83-252fc5469838
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:01.179+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:10.309+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:39:11.507+05:30
+          hippotranslation:id: 97e47284-a40e-419d-b13d-28852de5da29
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 5
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc2082f950b71b08e6bc98/1526472841255/KEC_Image_Update_20180515_IMG5_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails5
+        /thumb5[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2ad81b6d-2e21-480c-ae43-7df7e2d6febe
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:01.179+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:05.664+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 97e47284-a40e-419d-b13d-28852de5da29
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 5
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc2082f950b71b08e6bc98/1526472841255/KEC_Image_Update_20180515_IMG5_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails5
+      /thumb6:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 9b9fead4-807f-4a01-8bf7-e4a4733467fb
+        hippo:name: thumb6
+        /thumb6[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 422f792e-9726-4e6a-b401-cb5822cc1014
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:23.410+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:18.052+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: eff83224-2a26-4ac5-8460-1990735c28ec
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 6
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc20830e2e72d2d8a985dc/1526472841610/KEC_Image_Update_20180515_IMG6_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails6
+        /thumb6[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2a146e05-0809-467e-86a3-9b9d91b935eb
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:23.410+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:18.052+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:39:19.214+05:30
+          hippotranslation:id: eff83224-2a26-4ac5-8460-1990735c28ec
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 6
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc20830e2e72d2d8a985dc/1526472841610/KEC_Image_Update_20180515_IMG6_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails6
+        /thumb6[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f9ad4307-07db-430b-a4f2-9a67c4da7275
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:23.410+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:12.971+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: eff83224-2a26-4ac5-8460-1990735c28ec
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 6
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afc20830e2e72d2d8a985dc/1526472841610/KEC_Image_Update_20180515_IMG6_resize.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails6
+      /thumb7:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 459e65d3-e8f0-454e-9679-bc1de5b60672
+        hippo:name: thumb7
+        /thumb7[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: ab0fffb2-f376-4a56-bfc6-1197782c2a20
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:56.541+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:24.872+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a407ad4-5087-4a79-927c-194bf97cb531
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 7
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e36d2a73db384d5348/1526452713069/KEC_Image_Update_20180515_IMG7.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails7
+        /thumb7[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6970da60-dd3b-40e5-9387-df8c6f680d46
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:56.541+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:24.872+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:39:26.023+05:30
+          hippotranslation:id: 0a407ad4-5087-4a79-927c-194bf97cb531
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 7
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e36d2a73db384d5348/1526452713069/KEC_Image_Update_20180515_IMG7.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails7
+        /thumb7[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3f552de3-1ae1-439c-9bce-b606662b92d0
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:06:56.541+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:20.878+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a407ad4-5087-4a79-927c-194bf97cb531
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 7
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e36d2a73db384d5348/1526452713069/KEC_Image_Update_20180515_IMG7.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails7
+      /thumb8:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 4a56c910-4858-4c83-85ec-8ae1f48a0cb4
+        hippo:name: thumb8
+        /thumb8[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 7a774a86-1dc7-4d05-b151-df534a312669
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:10.679+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:31.557+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 7877fbf8-34b3-459e-8095-91596a94bd54
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 8
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e70e2e72d2d8a25059/1526452716896/KEC_Image_Update_20180515_IMG8.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails8
+        /thumb8[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4f0c49c5-c1f0-4e47-a7fb-6371f82e39bb
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:10.679+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:31.557+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:39:32.656+05:30
+          hippotranslation:id: 7877fbf8-34b3-459e-8095-91596a94bd54
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 8
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e70e2e72d2d8a25059/1526452716896/KEC_Image_Update_20180515_IMG8.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails8
+        /thumb8[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 45fac313-42e4-479c-836e-21f32dff5b12
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:10.679+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:27.428+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 7877fbf8-34b3-459e-8095-91596a94bd54
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 8
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e70e2e72d2d8a25059/1526452716896/KEC_Image_Update_20180515_IMG8.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails8
+      /thumb9:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: c7411552-a18c-4d3a-a401-ce5254a6c28e
+        hippo:name: thumb9
+        /thumb9[1]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 72947c44-9bfd-44f8-8caa-f71d814216bd
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:30.760+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:38.730+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: aa788390-1831-426c-9fc1-206d1bc1cb6c
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 9
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e81ae6cfe64e2a98ed/1526452717185/KEC_Image_Update_20180515_IMG9.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails9
+        /thumb9[2]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b03bca0c-ba87-4ab0-bd9c-843568fc4879
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:30.760+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:38.730+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-11-26T20:39:39.797+05:30
+          hippotranslation:id: aa788390-1831-426c-9fc1-206d1bc1cb6c
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 9
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e81ae6cfe64e2a98ed/1526452717185/KEC_Image_Update_20180515_IMG9.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails9
+        /thumb9[3]:
+          jcr:primaryType: kohler:thumbnailBanner
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5671c017-ad70-47c3-bae2-ed030ad618a6
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-11-26T17:07:30.760+05:30
+          hippostdpubwf:lastModificationDate: 2018-11-26T20:39:34.177+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: aa788390-1831-426c-9fc1-206d1bc1cb6c
+          hippotranslation:locale: en
+          kohler:description: ''
+          kohler:displayOrder: 9
+          kohler:imagePath: https://static1.squarespace.com/static/596c6b91db29d6afc4c00401/59d2fa9f51a584ef26b6f88e/5afbd1e81ae6cfe64e2a98ed/1526452717185/KEC_Image_Update_20180515_IMG9.jpg?format=1500w
+          kohler:navigationPath: ''
+          kohler:title: Thumb Nails9

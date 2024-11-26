@@ -1,0 +1,313 @@
+/content/gallery/plumbingkohlerkr/menu:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: a9b67876-7c75-4241-92f1-25345021abf9
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /branding-logo:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 294ab992-a54d-479b-9fd6-e507579cfb59
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /ann_sacks_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6df22ffd-3e44-4800-a08a-6ddc60c1e8a4
+      /ann_sacks_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: ann_sacks_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: ann_sacks_sized.png
+          hippogallery:height: 14
+          hippogallery:width: 53
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/ann_sacks_sized.png/ann_sacks_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:18:50.565+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 14
+          hippogallery:width: 53
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/ann_sacks_sized.png/ann_sacks_sized_original.png
+          jcr:lastModified: 2017-05-02T16:18:50.565+05:30
+          jcr:mimeType: image/png
+    /robern_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0496fc6d-b893-4d0a-950f-59a3e4c5c92f
+      /robern_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: robern_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: robern_sized.png
+          hippogallery:height: 12
+          hippogallery:width: 44
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/robern_sized.png/robern_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:20:09.275+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 12
+          hippogallery:width: 44
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/robern_sized.png/robern_sized_original.png
+          jcr:lastModified: 2017-05-02T16:20:09.275+05:30
+          jcr:mimeType: image/png
+    /kallista_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7d4353e4-86b0-4487-b5a3-e32e10ac133d
+      /kallista_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: kallista_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kallista_sized.png
+          hippogallery:height: 10
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/kallista_sized.png/kallista_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:21:14.797+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 10
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/kallista_sized.png/kallista_sized_original.png
+          jcr:lastModified: 2017-05-02T16:21:14.797+05:30
+          jcr:mimeType: image/png
+    /sterling_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b20daceb-80eb-4f90-90cc-d90a8908ae88
+      /sterling_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: sterling_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: sterling_sized.png
+          hippogallery:height: 11
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/sterling_sized.png/sterling_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:22:20.918+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 11
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/sterling_sized.png/sterling_sized_original.png
+          jcr:lastModified: 2017-05-02T16:22:20.918+05:30
+          jcr:mimeType: image/png
+    /kohler-generators_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1341ac62-b65e-48d0-858b-111c41b57396
+      /kohler-generators_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: kohler-generators_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kohler-generators_sized.png
+          hippogallery:height: 5
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/kohler-generators_sized.png/kohler-generators_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:40:16.690+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 11
+          hippogallery:width: 112
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/kohler-generators_sized.png/kohler-generators_sized_original.png
+          jcr:lastModified: 2017-05-02T16:40:16.690+05:30
+          jcr:mimeType: image/png
+    /kohler-power_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 881a1c48-db49-46b4-8a98-a664a3080409
+      /kohler-power_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: kohler-power_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kohler-power_sized.png
+          hippogallery:height: 4
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/kohler-power_sized.png/kohler-power_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:42:04.589+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 11
+          hippogallery:width: 133
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/kohler-power_sized.png/kohler-power_sized_original.png
+          jcr:lastModified: 2017-05-02T16:42:04.589+05:30
+          jcr:mimeType: image/png
+    /destination_kohler_sized.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 166e604f-e814-49a4-b867-4738417273fc
+      /destination_kohler_sized.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: destination_kohler_sized.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: destination_kohler_sized.png
+          hippogallery:height: 18
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/destination_kohler_sized.png/destination_kohler_sized_thumbnail.png
+          jcr:lastModified: 2017-05-02T16:31:42.990+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 18
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/destination_kohler_sized.png/destination_kohler_sized_original.png
+          jcr:lastModified: 2017-05-02T16:31:42.990+05:30
+          jcr:mimeType: image/png
+    /jacobdelafon.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: b832b031-4aeb-4f1f-98aa-e1b17f680e8a
+      hippo:name: jacobDelafon.png
+      /jacobdelafon.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: jacobDelafon.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: jacobDelafon.png
+          hippogallery:height: 18
+          hippogallery:width: 54
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/jacobdelafon.png/jacobDelafon_thumbnail.png
+          jcr:lastModified: 2017-06-30T15:58:42.120+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 18
+          hippogallery:width: 54
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/jacobdelafon.png/jacobDelafon_original.png
+          jcr:lastModified: 2017-06-30T15:58:42.120+05:30
+          jcr:mimeType: image/png
+    /englefield.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9adbe130-da64-4ef7-b936-d76c2db3c382
+      /englefield.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: englefield.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: englefield.png
+          hippogallery:height: 18
+          hippogallery:width: 39
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/englefield.png/englefield_thumbnail.png
+          jcr:lastModified: 2017-07-26T19:15:25.505+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 18
+          hippogallery:width: 39
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/englefield.png/englefield_original.png
+          jcr:lastModified: 2017-07-26T19:15:25.505+05:30
+          jcr:mimeType: image/png
+    /novita.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9f445a6b-a87d-43b6-a6e3-1b2eb812942a
+      hippo:name: Novita.png
+      /novita.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Novita.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Novita.png
+          hippogallery:height: 14
+          hippogallery:width: 35
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/novita.png/Novita_thumbnail.png
+          jcr:lastModified: 2017-07-26T19:15:26.089+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 14
+          hippogallery:width: 35
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/novita.png/Novita_original.png
+          jcr:lastModified: 2017-07-26T19:15:26.089+05:30
+          jcr:mimeType: image/png
+    /karat.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 61b1860e-e5bf-4a72-9404-97ea841d7d60
+      hippo:name: Karat.png
+      /karat.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Karat.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Karat.png
+          hippogallery:height: 12
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/karat.png/Karat_thumbnail.png
+          jcr:lastModified: 2017-07-26T19:15:58.383+05:30
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 14
+          hippogallery:width: 70
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlerkr/menu/branding-logo/karat.png/Karat_original.png
+          jcr:lastModified: 2017-07-26T19:15:58.383+05:30
+          jcr:mimeType: image/png

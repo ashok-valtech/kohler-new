@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kohler/hst:sitemenus:
+      jcr:primaryType: hst:sitemenus

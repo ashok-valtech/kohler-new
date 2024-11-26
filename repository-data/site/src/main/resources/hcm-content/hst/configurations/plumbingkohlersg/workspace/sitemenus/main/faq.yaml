@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:sitemenus/main/faq:
+  .meta:order-before: content
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: faq

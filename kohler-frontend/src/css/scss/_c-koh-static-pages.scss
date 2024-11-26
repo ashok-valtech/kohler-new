@@ -1,0 +1,115 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.koh-body-warranty-information {
+    .koh-simple-content-body {
+        p {
+            display: inline-block;
+            padding-right: 90px;
+            min-width: 310px;
+            min-height: 70px;
+            vertical-align: text-bottom;
+        }
+    }
+}
+
+// Upload Dealers
+
+.koh-upload-dealers-from {
+    overflow: hidden;
+	.koh-form-item-dealer {
+	    label {
+		    float: left;
+		    clear: left;
+		    width: 41.5%;
+		    margin: 30px 2% 0 0;
+		    line-height: 42px;
+		    text-align: right;
+		    @media #{$koh-media-screen-sm-max} {
+				float: none;
+				margin-top: 0;
+    			width: auto;
+            }
+		}
+		.koh-from-field {
+			float: left;
+		    margin: 30px 0 0;
+		    width: 28.5%;
+		    input {
+			    position: relative;
+			    padding: 10px;
+			    width: 100%;
+			    height: 40px;
+			    font-family: HelveticaRoman,Helvetica,sans-serif;
+			    font-size: 14px;
+			    line-height: 20px;
+			    border: none;
+			    box-shadow: none;
+			    background-color: transparent;
+			    background-image: none;
+			    -webkit-appearance: none;
+			    -moz-appearance: none;
+			    appearance: none;
+			    cursor: pointer;
+			    z-index: 1;
+			    border: 1px solid #dbdbdb;
+    			border-radius: 3px;
+    			&.fileuploadImage {
+    			    height: auto;
+    			}
+		    }
+		    p {
+		    	margin: 0;
+		    	&.koh-success-msg-file-up {
+		    		display:none;
+		    		color: green;
+		    	}
+		    	&.koh-error-msg-file-up {
+		    		display:none;
+		    		color: red;
+		    	}
+		    }
+		    @media #{$koh-media-screen-sm-max} {
+			    float: none;
+			    margin-top: 0;
+			    width: 100%;
+			    max-width: 278px;		    
+		    }
+		}
+	}	
+
+	.koh-dealers-submit-btn {
+	    outline: 0;
+		background: #364573;
+		color: #fff;
+	    padding: 13.5px 20px;
+	    border: 0;
+	    border-radius: 4px;
+	    font-family: HelveticaBold,Helvetica,sans-serif;
+	    font-size: 1em;
+	    line-height: 1em;
+	    font-weight: 400;
+	    text-transform: uppercase;
+	    text-decoration: none;
+	    text-align: center;
+	    display: block;
+	    float: left;
+	    clear: left;
+	    margin: 30px 0 0 43.5%;
+	    box-shadow: none;
+	    &:hover {
+	        background: #000;
+    		color: #ccc;
+	    }
+	    &:disabled {
+		    background: #232323 url(../images/prettyPhoto/dark_rounded/loader.gif) no-repeat center center;
+	        color: rgba(255,255,255,.05);
+	    }
+	    @media #{$koh-media-screen-sm-max} {
+	    	margin-left:0;
+	    }
+	}
+}
+
+

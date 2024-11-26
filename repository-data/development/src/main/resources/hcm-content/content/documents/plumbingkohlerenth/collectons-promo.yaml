@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerenth/collectons-promo:
+  .meta:order-before: common-content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 80b195ee-667a-43f5-bdf2-a084718ca1af
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 58382654-1a6c-4bc0-9cab-da1ce63d1e55
+  hippotranslation:locale: en_TH

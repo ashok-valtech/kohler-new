@@ -1,0 +1,89 @@
+/content/gallery/plumbingkohlerhk/logostodisplay:
+  .meta:order-before: menu
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 400d6946-5fb8-49bc-aa20-1f0d472831b7
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /ada.gif:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4ee844ce-2129-40de-b352-d17377d1ceb8
+    /ada.gif:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: ada.gif
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: ada.gif
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlerhk/logostodisplay/ada.gif/ada_thumbnail.gif
+        jcr:lastModified: 2017-10-13T17:56:11.118+05:30
+        jcr:mimeType: image/gif
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlerhk/logostodisplay/ada.gif/ada_original.gif
+        jcr:lastModified: 2017-10-13T17:56:11.118+05:30
+        jcr:mimeType: image/gif
+  /faucetwrty2.gif:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: acf843fb-8b7c-46d0-bf6b-e7f2e3c7d977
+    hippo:name: FaucetWrty2.gif
+    /faucetwrty2.gif:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: FaucetWrty2.gif
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: FaucetWrty2.gif
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlerhk/logostodisplay/faucetwrty2.gif/FaucetWrty2_thumbnail.gif
+        jcr:lastModified: 2017-10-13T17:56:11.664+05:30
+        jcr:mimeType: image/gif
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlerhk/logostodisplay/faucetwrty2.gif/FaucetWrty2_original.gif
+        jcr:lastModified: 2017-10-13T17:56:11.664+05:30
+        jcr:mimeType: image/gif
+  /watersense.gif:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 62b75576-664b-46af-a5a9-fb2220d53222
+    /watersense.gif:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: watersense.gif
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: watersense.gif
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlerhk/logostodisplay/watersense.gif/watersense_thumbnail.gif
+        jcr:lastModified: 2017-10-13T17:56:11.756+05:30
+        jcr:mimeType: image/gif
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlerhk/logostodisplay/watersense.gif/watersense_original.gif
+        jcr:lastModified: 2017-10-13T17:56:11.756+05:30
+        jcr:mimeType: image/gif

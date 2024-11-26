@@ -1,0 +1,857 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/Product:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 347c51fc-5853-4c99-8a34-67368466d51a
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 20b33de2-81e1-42d8-a442-c7ed30098997
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 59f04240-acd6-432d-9dc2-b9e2cc13db62
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippotranslation:translated', 'hippotaxonomy:classifiable',
+            'kohler:basedocument', 'hippostd:relaxed']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /attributes:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:attributes
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:cAttributes
+          /skus:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:skus
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:cSKU
+          /crossselling:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:crossselling
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:cCrossSelling
+          /adcopy:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:adcopy
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:cAttributes
+          /long:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:id
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+          /itemNo:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:itemNo
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /status:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:status
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /ItemType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:ItemType
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /isNew:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:isNew
+            hipposysedit:primary: false
+            hipposysedit:type: Boolean
+          /installationType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:installationType
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /country:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:country
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /color:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:color
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /handleType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:handleType
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /waterSaving:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:waterSaving
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /descriptionProduct:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:descriptionProduct
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /priceRange:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: kohler:priceRange
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /long_:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:producthash
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+            hipposysedit:validators: [required]
+          /productFamily:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:productFamily
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /toiletType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:toiletType
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /Liters_Per_Flush:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:Liters_Per_Flush
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /bowlShape:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:bowlShape
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /Trapway_Type:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:Trapway_Type
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /minimumRoughIn:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:minimumRoughIn
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /ProductType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:ProductType
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /listPrice:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:listPrice
+            hipposysedit:primary: false
+            hipposysedit:type: Double
+          /material:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:material
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /boolean:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:discontinued
+            hipposysedit:primary: false
+            hipposysedit:type: Boolean
+          /overallLength:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:overallLength
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+          /overallHeight:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:overallHeight
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+          /overallWidth:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:overallWidth
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+          /long__:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:ancestors
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+          /string:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:numberOfHandles
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /lightingType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:lightingType
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /mirrorDefogging:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:mirrorDefogger
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /flushingTechnology:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:flushingTechnology
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /bowlStyle:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:bowlStyle
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /style:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:style
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /lengthRange:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:lengthRange
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /glassThicknessmm:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:glassThicknessmm
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /starProduct:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:starProduct
+            hipposysedit:primary: false
+            hipposysedit:type: Boolean
+          /feature:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:feature
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /shape:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:shape
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /seo:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:seo
+            hipposysedit:primary: false
+            hipposysedit:type: seosupport:seo
+          /priceSegment:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: kohler:priceSegment
+            hipposysedit:primary: false
+            hipposysedit:type: String
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:Product
+          jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+          jcr:uuid: 8b51b681-c8cf-49ab-a13d-bac869cfd8c3
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2017-04-26T20:30:14.027+05:30
+          hippostdpubwf:lastModificationDate: 2017-04-26T20:30:14.027+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          kohler:ItemType: ''
+          kohler:Liters_Per_Flush: ''
+          kohler:ProductType: ['']
+          kohler:Trapway_Type: ''
+          kohler:ancestors: [0]
+          kohler:bowlShape: ''
+          kohler:bowlStyle: ''
+          kohler:color: ['']
+          kohler:country: ['']
+          kohler:descriptionProduct: ''
+          kohler:discontinued: false
+          kohler:feature: ['']
+          kohler:flushingTechnology: ''
+          kohler:glassThicknessmm: ''
+          kohler:handleType: ''
+          kohler:id: 0
+          kohler:installationType: ''
+          kohler:isNew: false
+          kohler:itemNo: ''
+          kohler:lengthRange: ''
+          kohler:lightingType: ''
+          kohler:listPrice: 0.0
+          kohler:material: ''
+          kohler:minimumRoughIn: ''
+          kohler:mirrorDefogger: ''
+          kohler:numberOfHandles: ['']
+          kohler:overallHeight: 0
+          kohler:overallLength: 0
+          kohler:overallWidth: 0
+          kohler:priceRange: ['']
+          kohler:productFamily: ''
+          kohler:producthash: 0
+          kohler:shape: ''
+          kohler:starProduct: false
+          kohler:status: ''
+          kohler:style: ['']
+          kohler:toiletType: ''
+          kohler:waterSaving: ''
+          kohler:priceSegment: ['']
+          /kohler:attributes:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['']
+            kohler:key: ''
+          /kohler:skus:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 0
+            kohler:sku: ''
+            /kohler:attributes:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['']
+              kohler:key: ''
+          /kohler:crossselling:
+            jcr:primaryType: kohler:cCrossSelling
+            kohler:key: ''
+            kohler:values: ['']
+          /kohler:adcopy:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['']
+            kohler:key: ''
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: ''
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: ''
+            seosupport:seotitle: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /descriptionProduct:
+            jcr:primaryType: frontend:plugin
+            caption: DESCRIPTION PRODUCT
+            field: descriptionProduct
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /attributes:
+            jcr:primaryType: frontend:plugin
+            caption: Attributes
+            field: attributes
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /skus:
+            jcr:primaryType: frontend:plugin
+            caption: SKUs
+            field: skus
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /crossselling:
+            jcr:primaryType: frontend:plugin
+            caption: Cross Selling
+            field: crossselling
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /adcopy:
+            jcr:primaryType: frontend:plugin
+            caption: Ad Copy
+            field: adcopy
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /id:
+            jcr:primaryType: frontend:plugin
+            caption: ID
+            field: long
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /itemNo:
+            jcr:primaryType: frontend:plugin
+            caption: Item Number
+            field: itemNo
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /status:
+            jcr:primaryType: frontend:plugin
+            caption: Status
+            field: status
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /ItemType:
+            jcr:primaryType: frontend:plugin
+            caption: Item Type
+            field: ItemType
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /classifiable:
+            jcr:primaryType: frontend:plugin
+            essentials-taxonomy-name: apac
+            mixin: hippotaxonomy:classifiable
+            plugin.class: org.hippoecm.frontend.editor.plugins.mixin.MixinLoaderPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              taxonomy.name: apac
+          /isNew:
+            jcr:primaryType: frontend:plugin
+            caption: New Product
+            field: isNew
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /priceRange:
+            jcr:primaryType: frontend:plugin
+            caption: Price Range
+            field: priceRange
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /listPrice:
+            jcr:primaryType: frontend:plugin
+            caption: MRP
+            field: listPrice
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /ancestors:
+            jcr:primaryType: frontend:plugin
+            caption: Ancestors
+            field: long__
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /installationType:
+            jcr:primaryType: frontend:plugin
+            caption: Installation Type
+            field: installationType
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /country:
+            jcr:primaryType: frontend:plugin
+            caption: Country
+            field: country
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /color:
+            jcr:primaryType: frontend:plugin
+            caption: Color
+            field: color
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /handleType:
+            jcr:primaryType: frontend:plugin
+            caption: Handle Type
+            field: handleType
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /numberOfHandles:
+            jcr:primaryType: frontend:plugin
+            caption: Number Of Handles
+            field: string
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /waterSaving:
+            jcr:primaryType: frontend:plugin
+            caption: Water Saving
+            field: waterSaving
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /producthash:
+            jcr:primaryType: frontend:plugin
+            caption: Product Hash
+            field: long_
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /productFamily:
+            jcr:primaryType: frontend:plugin
+            caption: Product Family
+            field: productFamily
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /toiletType:
+            jcr:primaryType: frontend:plugin
+            caption: Toilet Type
+            field: toiletType
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /Liters_Per_Flush:
+            jcr:primaryType: frontend:plugin
+            caption: Liters per Flush*
+            field: Liters_Per_Flush
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /bowlShape:
+            jcr:primaryType: frontend:plugin
+            caption: Bowl Shape
+            field: bowlShape
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /Trapway_Type:
+            jcr:primaryType: frontend:plugin
+            caption: Trapway Type
+            field: Trapway_Type
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /minimumRoughIn:
+            jcr:primaryType: frontend:plugin
+            caption: Rough-in
+            field: minimumRoughIn
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /ProductType:
+            jcr:primaryType: frontend:plugin
+            caption: Product Type
+            field: ProductType
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /material:
+            jcr:primaryType: frontend:plugin
+            caption: Material
+            field: material
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /discontinued:
+            jcr:primaryType: frontend:plugin
+            caption: Discontinued
+            field: boolean
+            hint: Discontinued Product
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /overallLength:
+            jcr:primaryType: frontend:plugin
+            caption: Length
+            field: overallLength
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /overallHeight:
+            jcr:primaryType: frontend:plugin
+            caption: Height
+            field: overallHeight
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /overallWidth:
+            jcr:primaryType: frontend:plugin
+            caption: Width
+            field: overallWidth
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /lightingType:
+            jcr:primaryType: frontend:plugin
+            caption: Lighting Type
+            field: lightingType
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /mirrorDefogger:
+            jcr:primaryType: frontend:plugin
+            caption: Mirror Defogger
+            field: mirrorDefogging
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /flushingTechnology:
+            jcr:primaryType: frontend:plugin
+            caption: Flushing Technology
+            field: flushingTechnology
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /bowlStyle:
+            jcr:primaryType: frontend:plugin
+            caption: Bowl Style
+            field: bowlStyle
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /style:
+            jcr:primaryType: frontend:plugin
+            caption: Style
+            field: style
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /lengthRange:
+            jcr:primaryType: frontend:plugin
+            caption: Length Range MM
+            field: lengthRange
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /glassThicknessmm:
+            jcr:primaryType: frontend:plugin
+            caption: Glass Thickness MM
+            field: glassThicknessmm
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /starProduct:
+            jcr:primaryType: frontend:plugin
+            caption: Star
+            field: starProduct
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /feature:
+            jcr:primaryType: frontend:plugin
+            caption: Feature
+            field: feature
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /shape:
+            jcr:primaryType: frontend:plugin
+            caption: Shape
+            field: shape
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /seo:
+            jcr:primaryType: frontend:plugin
+            caption: SEO
+            field: seo
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /priceSegment:
+            jcr:primaryType: frontend:plugin
+            caption: Price Segment
+            field: priceSegment
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

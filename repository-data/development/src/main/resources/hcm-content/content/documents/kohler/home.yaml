@@ -1,0 +1,794 @@
+/content/documents/kohler/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f7ced923-b786-4933-84e2-415116ecf208
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: b2cdc3bc-52d2-4895-bd8c-ba85ed1f3b4f
+  hippotranslation:locale: en
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a47367da-84d1-4087-88f1-ef6e38fd8764
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 04718801-e5a7-4f92-ba87-e9c06f6b8e4b
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:04:48.979Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6bfc879a-a5b4-4f53-af84-3494cff0169c
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: /articles/kohler-intelligent-toilets-and-cleansing-seats.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean
+      kohler:title: Cleansing seats
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 68d8ed63-9921-49b8-b35e-02c9761d6e26
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:04:54.163Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6bfc879a-a5b4-4f53-af84-3494cff0169c
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: /articles/kohler-intelligent-toilets-and-cleansing-seats.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean
+      kohler:title: Cleansing seats
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d11a848f-2ea0-46a5-8343-807dac24a1ab
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:04:54.163Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-08-23T09:04:55.758Z
+      hippotranslation:id: 6bfc879a-a5b4-4f53-af84-3494cff0169c
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: /articles/kohler-intelligent-toilets-and-cleansing-seats.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean
+      kohler:title: Cleansing seats
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f0d9dd47-0cda-43db-936f-3ec3ad855d4b
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1de5a87d-5116-45c4-b260-c95e89ff629a
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-17T02:55:56.479Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: 5a00f3a5-8dd4-4701-975d-ee91567a594e
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: ''
+      kohler:hstUrl: /articles/artist-editions.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab83805_rgb?extend=-1400,-1100,-1400,-500&$50_article$
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration.
+      kohler:title: Artist Editions
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 443fbb38-7283-4e4c-8c45-fdbcb09c8c72
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-17T02:55:59.588Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: 5a00f3a5-8dd4-4701-975d-ee91567a594e
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: ''
+      kohler:hstUrl: /articles/artist-editions.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab83805_rgb?extend=-1400,-1100,-1400,-500&$50_article$
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration.
+      kohler:title: Artist Editions
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5aa985a7-bbec-4431-bfd0-b55e24a55b34
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-17T02:55:59.588Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippostdpubwf:publicationDate: 2017-11-17T02:56:01.842Z
+      hippotranslation:id: 5a00f3a5-8dd4-4701-975d-ee91567a594e
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: ''
+      kohler:hstUrl: /articles/artist-editions.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab83805_rgb?extend=-1400,-1100,-1400,-500&$50_article$
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration.
+      kohler:title: Artist Editions
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 77054607-8f45-4233-95cc-c7521c039240
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 735c7397-9272-4dfc-8b80-7955f2d699a4
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-15T15:00:30.112Z
+      hippostdpubwf:lastModifiedBy: valeditor
+      hippotranslation:id: ea42639b-3271-4919-b95f-97bccc579dfb
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: /articles/composed-bathroom-faucet-collection.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb?extend=-400,0,-600,-800&$50_article$
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes.
+      kohler:title: Composed
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 8403bf3e-3c69-44be-b17d-5627ed03eedb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-15T15:00:43.677Z
+      hippostdpubwf:lastModifiedBy: valeditor
+      hippotranslation:id: ea42639b-3271-4919-b95f-97bccc579dfb
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: /articles/composed-bathroom-faucet-collection.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb?extend=-400,0,-600,-800&$50_article$
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes.
+      kohler:title: Composed
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a806ab6a-6732-4935-9ef8-9be1ce890d3a
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-15T15:00:43.677Z
+      hippostdpubwf:lastModifiedBy: valeditor
+      hippostdpubwf:publicationDate: 2017-09-15T15:00:46.673Z
+      hippotranslation:id: ea42639b-3271-4919-b95f-97bccc579dfb
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: /articles/composed-bathroom-faucet-collection.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb?extend=-400,0,-600,-800&$50_article$
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes.
+      kohler:title: Composed
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: dc7a9c83-bb8f-4742-8157-e563b49abc9f
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fedf205c-2b61-4e83-a8f2-4bbd91d7ac0f
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:07:43.869Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6e2292b3-8094-415d-91b7-3563394c320b
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: /articles/kohler-bathroom-vanity-collection.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality. 
+      kohler:title: Bathroom Vanities
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 002a091d-5a59-4ccc-aef3-9d48dc9b5cd3
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:07:46.761Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6e2292b3-8094-415d-91b7-3563394c320b
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: /articles/kohler-bathroom-vanity-collection.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality. 
+      kohler:title: Bathroom Vanities
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a1ce7044-061c-485c-9f55-537eaff1f347
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:07:46.761Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-08-23T09:07:48.191Z
+      hippotranslation:id: 6e2292b3-8094-415d-91b7-3563394c320b
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: /articles/kohler-bathroom-vanity-collection.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality. 
+      kohler:title: Bathroom Vanities
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a69c1d6f-3099-434a-8b16-b6b5f4a2d82e
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 29706c5e-46ac-4f8d-836f-864035724b18
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:07:59.534Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 559b127b-7966-464c-ab15-dbc7bc41267e
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: /articles/dtv-shower.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever.
+      kohler:title: DTV+™
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 9366ce35-0fef-4510-93f9-2cf6bff41095
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:08:03.051Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 559b127b-7966-464c-ab15-dbc7bc41267e
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: /articles/dtv-shower.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever.
+      kohler:title: DTV+™
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0df1f454-77f3-4147-ae48-fe0c7c5aebbf
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:08:03.051Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-08-23T09:08:04.230Z
+      hippotranslation:id: 559b127b-7966-464c-ab15-dbc7bc41267e
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: /articles/dtv-shower.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever.
+      kohler:title: DTV+™
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4544186e-305c-40fc-bf39-9626657e4ad6
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: beff7f41-ae70-44cf-a717-0fe8751e4c55
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:08:18.064Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2e6c21c0-d963-45a5-aad7-3d7a2627b21f
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: /articles/touchlesstoilets.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+      kohler:title: Go Touchless
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 58a566b3-769f-4f04-b2df-ffdf02314d5b
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:08:15.125Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2e6c21c0-d963-45a5-aad7-3d7a2627b21f
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: /articles/touchlesstoilets.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+      kohler:title: Go Touchless
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 73d0f470-029a-4165-892b-965c7c76876c
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-08-23T09:08:18.064Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-08-23T09:08:19.246Z
+      hippotranslation:id: 2e6c21c0-d963-45a5-aad7-3d7a2627b21f
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: /articles/touchlesstoilets.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+      kohler:title: Go Touchless
+  /find-your-finish:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a490ee1f-1eb2-464d-bae2-6e55a2b272a0
+    hippo:name: Find your finish
+    /find-your-finish[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 3aa9762e-0062-4645-8c2c-da362af26141
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-17T03:12:28.963Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: 1d7d1683-cf3c-451d-9680-ea3786ed8b86
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:hstUrl: /articles/the-finish-is-just-the-beginning.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?extend=-100,0,-100,0&$50_article$
+      kohler:introduction: Faucet finishes can fundamentally change the look and feel
+        of any kitchen and bathroom. Discover your favorite one.
+      kohler:title: Find your finish
+    /find-your-finish[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: da0a74e2-63c5-4562-9fa4-bd40a38ee8fc
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-17T03:12:18.031Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: 1d7d1683-cf3c-451d-9680-ea3786ed8b86
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:hstUrl: /articles/the-finish-is-just-the-beginning.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?extend=-100,0,-100,0&$50_article$
+      kohler:introduction: Faucet finishes can fundamentally change the look and feel
+        of any kitchen and bathroom. Discover your favorite one.
+      kohler:title: Find your finish
+    /find-your-finish[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 51ae9cba-e309-4a83-9666-8564a2c9bc5e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-17T03:12:28.963Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippostdpubwf:publicationDate: 2017-11-17T03:12:31.389Z
+      hippotranslation:id: 1d7d1683-cf3c-451d-9680-ea3786ed8b86
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:hstUrl: /articles/the-finish-is-just-the-beginning.html
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?extend=-100,0,-100,0&$50_article$
+      kohler:introduction: Faucet finishes can fundamentally change the look and feel
+        of any kitchen and bathroom. Discover your favorite one.
+      kohler:title: Find your finish
+  /when-technology-meets-art:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3e632e50-7a07-440c-80f5-366716dcab3c
+    hippo:name: When technology meets art
+    /when-technology-meets-art[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: b980c462-a1cf-46d4-8622-a1f25fd62634
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-21T12:16:28.833Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 97ed4f30-c677-4ebc-9aef-d6ed7e36e134
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:hstUrl: /browse/bathroom/Categories/toilets/ProductFamily/Veil
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09514_rgb?extend=-200,0,0,0&$50_article$
+      kohler:introduction: Kohler Co. continues to redefine innovation for the bathroom
+        with its latest toilet introduction.
+      kohler:title: When technology meets art
+    /when-technology-meets-art[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d153ae55-9857-4a69-ac12-33e33781c64d
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-21T12:16:13.804Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 97ed4f30-c677-4ebc-9aef-d6ed7e36e134
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:hstUrl: /browse/bathroom/Categories/toilets/ProductFamily/Veil
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09514_rgb?extend=-200,0,0,0&$50_article$
+      kohler:introduction: Kohler Co. continues to redefine innovation for the bathroom
+        with its latest toilet introduction.
+      kohler:title: When technology meets art
+    /when-technology-meets-art[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 97419662-f054-49ce-969b-afb55febbf53
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-21T12:16:28.833Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-21T12:16:30.381Z
+      hippotranslation:id: 97ed4f30-c677-4ebc-9aef-d6ed7e36e134
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:hstUrl: /browse/bathroom/Categories/toilets/ProductFamily/Veil
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09514_rgb?extend=-200,0,0,0&$50_article$
+      kohler:introduction: Kohler Co. continues to redefine innovation for the bathroom
+        with its latest toilet introduction.
+      kohler:title: When technology meets art
+  /verdera-series:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 477e81bf-26e5-4913-88ff-67998bd053c5
+    hippo:name: Verdera® series
+    /verdera-series[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: cfa49ce4-7b29-46f3-8e79-94bd84ab7198
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-21T12:17:03.176Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 17147954-42b3-40b8-8cf9-3eb368b2ef8f
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:hstUrl: /browse/bathroom/Categories/cabinets/ProductType/Mirrored+Cabinet/ProductFamily/VERDERA
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac10686_rgb?extend=-1730,-200,-1450,-2100&$50_article$
+      kohler:introduction: Make your daily routine more efficient, less cluttered.
+      kohler:title: Verdera® series
+    /verdera-series[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6253c303-a128-40f9-9a47-1abf7f8913ae
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-21T12:16:50.325Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 17147954-42b3-40b8-8cf9-3eb368b2ef8f
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:hstUrl: /browse/bathroom/Categories/cabinets/ProductType/Mirrored+Cabinet/ProductFamily/VERDERA
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac10686_rgb?extend=-1730,-200,-1450,-2100&$50_article$
+      kohler:introduction: Make your daily routine more efficient, less cluttered.
+      kohler:title: Verdera® series
+    /verdera-series[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2e19dcc9-1af3-464a-a324-d213e9026351
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-21T12:17:03.176Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-21T12:17:04.750Z
+      hippotranslation:id: 17147954-42b3-40b8-8cf9-3eb368b2ef8f
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:hstUrl: /browse/bathroom/Categories/cabinets/ProductType/Mirrored+Cabinet/ProductFamily/VERDERA
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac10686_rgb?extend=-1730,-200,-1450,-2100&$50_article$
+      kohler:introduction: Make your daily routine more efficient, less cluttered.
+      kohler:title: Verdera® series
+  /kohler-bold-design-awards:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b9bab9d8-2230-4653-9bd1-b6a2e2ee1fba
+    hippo:name: KOHLER Bold Design Awards
+    /kohler-bold-design-awards[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 4f8c8d12-4789-4334-a613-60e69952867d
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T15:53:02.031Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: 5ba8a38a-20b3-44e9-9134-09a92e915a9c
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: https://kbda-ap.com/
+      kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+      kohler:introduction: This Awards is a recognition of creative excellence in
+        the hospitality, residential and commercial property design industry. Submission
+        are now open.
+      kohler:title: KOHLER Bold Design Awards
+    /kohler-bold-design-awards[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3a98c3c6-e267-414c-9c8d-edb09b9fada1
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T15:52:55.030Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: 5ba8a38a-20b3-44e9-9134-09a92e915a9c
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: https://kbda-ap.com/
+      kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+      kohler:introduction: This Awards is a recognition of creative excellence in
+        the hospitality, residential and commercial property design industry. Submission
+        are now open.
+      kohler:title: KOHLER Bold Design Awards
+    /kohler-bold-design-awards[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d428cdcd-39e3-45ae-b55d-d88c9b6291f0
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T15:53:02.031Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippostdpubwf:publicationDate: 2017-09-26T15:53:04.772Z
+      hippotranslation:id: 5ba8a38a-20b3-44e9-9134-09a92e915a9c
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: https://kbda-ap.com/
+      kohler:imagePath: binaries/content/gallery/kohler/home/documents/kbda2017.jpg
+      kohler:introduction: This Awards is a recognition of creative excellence in
+        the hospitality, residential and commercial property design industry. Submission
+        are now open.
+      kohler:title: KOHLER Bold Design Awards
+  /kohler-bold.-art:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 951fd596-3437-4eb6-bbf9-6981b06a6f3d
+    hippo:name: KOHLER Bold. Art.
+    /kohler-bold.-art[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 4502ea63-8109-4b2e-ad23-fdf94c58a591
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T15:51:45.337Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: b2167734-e6af-48ac-8bb6-af8e752372a5
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: http://kohler.design/bold-art/
+      kohler:imagePath: binaries/content/gallery/kohler/home/documents/boldart2017.jpg
+      kohler:introduction: KOHLER Bold. Art. is a platform for showcasing the talent
+        of emerging artists. Discover the works and the artists at our Designful blog.
+      kohler:title: KOHLER Bold. Art.
+    /kohler-bold.-art[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dbc5eea4-3f19-4c8a-940d-d2d8a0b03847
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T15:51:26.019Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippotranslation:id: b2167734-e6af-48ac-8bb6-af8e752372a5
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: http://kohler.design/bold-art/
+      kohler:imagePath: binaries/content/gallery/kohler/home/documents/boldart2017.jpg
+      kohler:introduction: KOHLER Bold. Art. is a platform for showcasing the talent
+        of emerging artists. Discover the works and the artists at our Designful blog.
+      kohler:title: KOHLER Bold. Art.
+    /kohler-bold.-art[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 39a9f594-19c1-4454-9257-14fdfb9aaa87
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T15:51:45.337Z
+      hippostdpubwf:lastModifiedBy: justin
+      hippostdpubwf:publicationDate: 2017-09-26T15:51:48.318Z
+      hippotranslation:id: b2167734-e6af-48ac-8bb6-af8e752372a5
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: http://kohler.design/bold-art/
+      kohler:imagePath: binaries/content/gallery/kohler/home/documents/boldart2017.jpg
+      kohler:introduction: KOHLER Bold. Art. is a platform for showcasing the talent
+        of emerging artists. Discover the works and the artists at our Designful blog.
+      kohler:title: KOHLER Bold. Art.

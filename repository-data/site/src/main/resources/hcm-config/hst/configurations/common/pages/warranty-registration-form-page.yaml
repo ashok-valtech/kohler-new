@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/warranty-registration-form-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: warranty-registration-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: warranty-registration-form-container/main

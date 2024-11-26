@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/contactus:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:parameternames: [path, sortOrder, sortField, pageSize]
+        hst:parametervalues: [menus/footer/contact, asc, 'kohler:displayOrder', '-1']
+        hst:template: contactus-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: contactus/main

@@ -1,0 +1,497 @@
+/content/documents/plumbingkohlerenth/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b32e8e7f-d958-4264-90d4-b7fa2f04e308
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: a8d02545-e319-48d3-be83-95988d8e04a5
+  hippotranslation:locale: en_TH
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 78ed4f97-15de-44dc-8365-522fd64292c8
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 77f4bcee-3e2c-4509-b628-5eca51ddf57f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:33.822+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8b19f917-6caa-4b0a-9e00-69a77776acde
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean Thailand
+      kohler:title: Cleansing seats Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 64137853-40c3-479b-b375-25a0243ee543
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:28.286+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8b19f917-6caa-4b0a-9e00-69a77776acde
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean Thailand
+      kohler:title: Cleansing seats Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fdd1dbb6-74dc-46b0-9915-fe07f10069e9
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:33.822+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:41:35.260+05:30
+      hippotranslation:id: 8b19f917-6caa-4b0a-9e00-69a77776acde
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean Thailand
+      kohler:title: Cleansing seats Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d6d3c19f-0c12-47ab-a472-d46a3b7a21de
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 0909602c-6d50-4e77-8290-1b502da7628c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:42.888+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 14b1b8d1-3b49-4b3d-b53e-067b99f4722e
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 21cf7c08-c5b5-40ea-8b6e-f37e5c705a8b
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:36.463+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 14b1b8d1-3b49-4b3d-b53e-067b99f4722e
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dea55cf8-a360-4bd3-9b40-65456a7878f1
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:42.888+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:41:44.233+05:30
+      hippotranslation:id: 14b1b8d1-3b49-4b3d-b53e-067b99f4722e
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: e85a84e2-1032-4e19-a7cf-29fc07753659
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 3d5fa203-9680-4096-8b60-ecf6ca98ee6a
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:51.101+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c9cc2c01-b2ca-4341-bb1f-4ab21f213765
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Thailand
+      kohler:title: Composed Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 35aacf28-e829-4b23-97d4-01618b7640d8
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:45.844+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c9cc2c01-b2ca-4341-bb1f-4ab21f213765
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Thailand
+      kohler:title: Composed Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 82b8c28d-79b2-4fb7-b42c-fe5c4e4a23e7
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:51.101+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:41:52.464+05:30
+      hippotranslation:id: c9cc2c01-b2ca-4341-bb1f-4ab21f213765
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. Thailand
+      kohler:title: Composed Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b42268d8-4918-4943-9678-a04af2ced03c
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 4d96af16-2d0e-43a4-9f53-1820801a083c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:59.610+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: abe25422-9c11-471c-a970-c564267a488c
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  Thailand
+      kohler:title: Bathroom Vanities Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 784063d1-984e-4a32-b166-b7793b44bf1e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:54.092+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: abe25422-9c11-471c-a970-c564267a488c
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  Thailand
+      kohler:title: Bathroom Vanities Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0c5e8501-439e-4d99-a027-047ddaa018f3
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:41:59.610+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:42:00.889+05:30
+      hippotranslation:id: abe25422-9c11-471c-a970-c564267a488c
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  Thailand
+      kohler:title: Bathroom Vanities Thailand
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4f660a78-a35c-4f35-8cee-80aa82a869ec
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: d7488b81-29ac-4491-87a2-08e350e12b43
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:42:07.127+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b2433136-764a-469f-9b0e-c24cf2eb30b3
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. Thailand
+      kohler:title: DTV+™ Thailand
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b8da50ba-8912-4c2a-b0e3-69419b8dfeee
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:42:02.450+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b2433136-764a-469f-9b0e-c24cf2eb30b3
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. Thailand
+      kohler:title: DTV+™ Thailand
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 507de85c-a9ff-403b-9608-c5242bca56b9
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:42:07.127+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:42:08.319+05:30
+      hippotranslation:id: b2433136-764a-469f-9b0e-c24cf2eb30b3
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. Thailand
+      kohler:title: DTV+™ Thailand
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 0876a62f-0503-4e34-8f70-29b491785728
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 1515604f-33b7-4a1e-85dd-a1cd9899df99
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:42:14.340+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f1395df8-5cec-4fd8-b666-f9ab9dbe9d4b
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        Thailand
+      kohler:title: Go Touchless Thailand
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7856ed89-0e17-4851-ab80-05c7113251e5
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:42:09.690+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f1395df8-5cec-4fd8-b666-f9ab9dbe9d4b
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        Thailand
+      kohler:title: Go Touchless Thailand
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 985e5c4d-3659-4ef6-8ee1-94f0a455ccab
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:42:14.340+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:42:15.577+05:30
+      hippotranslation:id: f1395df8-5cec-4fd8-b666-f9ab9dbe9d4b
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        Thailand
+      kohler:title: Go Touchless Thailand

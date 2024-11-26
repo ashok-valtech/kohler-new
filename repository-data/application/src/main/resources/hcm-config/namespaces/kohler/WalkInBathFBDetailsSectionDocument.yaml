@@ -1,0 +1,67 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/WalkInBathFBDetailsSectionDocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 0eca2144-6ed1-4fdd-bc65-667763692b13
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bce4f6bb-dadc-4e31-be6a-7a7e7a948e7e
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: bf81982e-5221-4624-bb2e-89680090f57c
+          hipposysedit:node: true
+          hipposysedit:supertype: ['kohler:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /kohler_walkinbathfbdetailscompound:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:kohler_walkinbathfbdetailscompound
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:walkInBathFBDetailsCompound
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:WalkInBathFBDetailsSectionDocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0a17eb22-d177-4081-8c24-5ae790e4f7c9
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2019-12-26T15:13:03.741+05:30
+          hippostdpubwf:lastModificationDate: 2019-12-26T15:13:03.741+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          /kohler:kohler_walkinbathfbdetailscompound:
+            jcr:primaryType: kohler:walkInBathFBDetailsCompound
+            kohler:anchorName: ''
+            kohler:imageAlt: ''
+            kohler:imagePath: ''
+            kohler:imageTitle: ''
+            kohler:navigationUrl: ''
+            kohler:title: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /kohler_walkinbathfbdetailscompound:
+            jcr:primaryType: frontend:plugin
+            caption: Walk In Bath Details Section
+            field: kohler_walkinbathfbdetailscompound
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/storelocator-detail:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.StoreDetailComponent
+        hst:parameternames: [path]
+        hst:parametervalues: [/dealerdocuments]
+        hst:template: storelocator-detail

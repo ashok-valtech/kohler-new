@@ -1,0 +1,2777 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+
+/* _c-koh-banner-carousel.scss
+
+   Partial SCSS containing styles for Carousel Component and associated slide variations
+*/
+
+// Styles for slick javascript plugin
+@import "slick/slick.scss";
+
+/* Component-Specific Fonts and Variables */
+
+@mixin koh-carousel-title-font($variant: default) {
+    @include koh-font( $font-size: 34.28571px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 32.1429px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 30px);
+    }
+    line-height: 1.2em;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+@mixin koh-slide-banner-title-font($variant: default) {
+    @include koh-font( $font-size: 34.28571px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 34.28571px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 34.28571px);
+    }
+}
+
+@mixin koh-slide-banner-summary-font($variant: default) {
+    @include koh-font( $font-size: 21.28px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 21.28px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 21.28px);
+    }
+}
+
+@mixin koh-slide-banner-overlay-title-font($variant: default) {
+    @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-bold);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-bold);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-bold);
+    }
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+@mixin koh-slide-banner-overlay-text-font($variant: default) {
+    @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-light);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-light);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-light);
+    }
+    line-height: 1.2em;
+}
+
+@mixin koh-slide-banner-overlay-icon-font() {
+    @include koh-font( $font-size: 14.4px, $font-family: $koh-font-sans-serif-bold);
+}
+
+@mixin koh-slide-banner-hotspot-title-font() {
+    @include koh-font( $font-size: 16px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 16px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 16px);
+    }
+    text-transform: uppercase;
+}
+
+@mixin koh-slide-banner-hotspot-description-font() {
+    @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-med);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-med);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-med);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-link-font() {
+    @include koh-font( $font-size: 12px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 12px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 12px);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-sku-font() {
+    @include koh-font( $font-size: 12px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 12px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 12px);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-price-font() {
+    @include koh-font( $font-size: 14px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 14px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 14px);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-store-font() {
+    @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    }
+}
+
+
+/* Slide Popovers */
+
+@mixin koh-bookmark-popover() {
+    background: $koh-color-white;
+    color: $koh-color-pdk-grey;
+    min-width: 300px;
+    text-align: left;
+    .koh-caption {
+        @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-bold);
+        padding-bottom: 10px;
+        border-bottom: 1px solid $koh-color-smd-grey;
+        margin-bottom: 10px;
+    }
+    >form {
+        .koh-fieldset-folders {
+            padding: 0;
+            list-style: none;
+            @include koh-font( $font-size: 12px, $font-family: $koh-font-sans-serif-bold);
+            margin-bottom: 10px;
+        }
+        .koh-form-field {
+            @include koh-font( $font-size: 12px);
+            margin-bottom: 10px;
+            position: relative;
+            .koh-character-count {
+                position: absolute;
+                right: 0;
+            }
+            textarea {
+                width: 100%;
+            }
+        }
+        button {
+            &.koh-button-add {
+                @include koh-button-blue($padding: 8px 14px);
+            }
+            &.koh-button-cancel {
+                @include koh-button-grey($padding: 8px 14px);
+            }
+        }
+    }
+}
+
+@mixin koh-share-popover() {
+    background: $koh-color-white;
+    color: $koh-color-pdk-grey;
+    min-width: 238px;
+    padding: 0;
+    list-style: none;
+    button {
+        @include koh-unbutton();
+        background: $koh-color-white;
+        color: $koh-color-pdk-grey;
+        width: 100%;
+        padding: 5px;
+        @include koh-font( $font-size: 14px);
+        line-height: 20px;
+        .icon {
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        &.koh-share-pinterest .icon {
+            color: #c62b2e;
+        }
+        &.koh-share-houzz .icon {
+            color: #76b74b;
+        }
+        &.koh-share-facebook .icon {
+            color: #325a90;
+        }
+        &.koh-share-twitter .icon {
+            color: #55acee;
+        }
+        &.koh-share-google .icon {
+            color: #cc4e3f;
+        }
+        &.koh-share-email .icon {
+            color: #3b659c;
+        }
+        &.koh-share-showroom .icon {
+            color: #000000;
+        }
+        &:hover {
+            background: #eee;
+        }
+    }
+}
+
+@mixin koh-hotspot-popover() {
+    background: $koh-color-white;
+    color: $koh-color-pdk-grey;
+    display: none;
+    @media #{$koh-media-screen-md} {
+        position: relative;
+        width: 400px;
+        font: $koh-font-sans-serif-light;
+        text-align: center;
+        background: $koh-color-white;
+    }
+    .koh-hotspot-image {
+        position: relative;
+        img {}
+    }
+    .koh-hotspot-content {
+        text-align: center;
+        padding: 26px 10px;
+        .koh-hotspot-description {
+            display: block;
+            margin-bottom: 20px;
+            @include koh-slide-banner-hotspot-description-font();
+        }
+        .koh-hotspot-link {
+            display: block;
+            margin: -8px 0 10px 0;
+            @include koh-slide-banner-hotspot-link-font();
+            text-transform: uppercase;
+        }
+        .koh-hotspot-sku {
+            display: block;
+            @include koh-slide-banner-hotspot-sku-font();
+            color: $koh-color-pmd-grey;
+            margin-bottom: 4px;
+        }
+        .koh-hotspot-price {
+            display: block;
+            @include koh-slide-banner-hotspot-price-font();
+            color: $koh-color-pmd-grey;
+        }
+        .koh-hotspot-store-locator a {
+            display: block;
+            margin-top: 20px;
+            @include koh-slide-banner-hotspot-store-font();
+            color: $koh-color-pmd-grey;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+/* Main Carousel Components */
+
+.c-koh-banner-carousel {
+    font-size: $koh-base-font-size;
+    .koh-carousel-title {
+        @include koh-carousel-title-font();
+        margin: 0;
+        padding: 60px 20px 20px 20px;
+        font-size: 2.428571em;
+        @media #{$koh-media-screen-md} {
+            padding: 60px 0 20px 0;
+            font-size: 3.428571em;
+        }
+        &.koh-alignment-left {
+            text-align: left;
+        }
+        &.koh-alignment-center {
+            text-align: center;
+        }
+        &.koh-alignment-right {
+            text-align: right;
+        }
+    }
+    &.c-koh-banner-carousel-spot {
+        padding-bottom: 30px;
+        clear: both;
+        .koh-print-share-tools {
+            display: inline-block;
+            margin: 0;
+            overflow: inherit;
+            .koh-page-share {
+                display: inline-block;
+                float: none;
+                padding: 0;
+            }
+        }
+        .slick-slider {
+            width: 100%;
+            .slick-track {}
+        }
+        .koh-carousel {
+            &.koh-theme-dark {
+                icon {
+                    color: #232323;
+                }
+            }
+        }
+    }
+    &.v-koh-inline {
+        @include koh-page-gutters-padding();
+        background: $koh-color-white;
+    }
+    &.v-koh-hero {
+        width: 100%;
+        padding: 0;
+        background: transparent;
+    }
+	&.v-koh-article {
+    // The video icon and hotspots block should not be included in the HTML for
+    // the simple slide variant, but in case they're added accidentally, hide them
+    .koh-banner-background .koh-banner-video-icon,
+    .koh-banner-hotspots {
+      display: none;
+    }
+    @media #{$koh-media-screen-md} {
+      .koh-banner-content .koh-banner-text .koh-banner-cta {
+        display: none;
+      }
+    }
+  }
+    .koh-carousel {
+        position: relative;
+        &:hover {
+            .koh-carousel-controls {
+                .koh-carousel-control {
+                    opacity: 0.3;
+                }
+            }
+        }
+        .koh-carousel-controls {
+            position: absolute;
+            top: 0;
+            left: 0;
+            .koh-carousel-control {
+                position: absolute;
+                width: 70px;
+                height: 40px;
+                z-index: $koh-zindex-carousel-overlays;
+                @include koh-carousel-arrow();
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .koh-carousel-indicators {
+                position: absolute;
+                z-index: $koh-zindex-carousel-overlays;
+                @include koh-carousel-indicators();
+                bottom: 4px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+			.koh-article-carousel-indicators{
+                position: absolute;
+                z-index: $koh-zindex-carousel-overlays;
+                @include koh-article-carousel-indicators();
+                bottom: 4px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .koh-slide-collection {
+            /* Carousel Slides */
+            .koh-banner-slide {
+                font-size: $koh-base-font-size;
+                position: relative;
+                outline: none;
+                &.m-koh-linked {
+                    .koh-banner-content {}
+                }
+                a {
+                    text-decoration: none;
+                    outline: none;
+                    &:visited,
+                    &:hover,
+                    &:active {
+                        text-decoration: none;
+                        outline: none;
+                    }
+                }
+                /* Defaults */
+                .koh-banner-background {
+                    position: relative;
+                    text-align: center;
+                    a {
+                        cursor: pointer;
+                    }
+                    img {
+                        display: inline-block;
+                        width: 100vw;
+                        z-index: $koh-zindex-carousel-slides;
+                    }
+                    .koh-banner-video-icon {
+                        z-index: $koh-zindex-carousel-overlays;
+                        width: 74px;
+                        height: 74px;
+                        @include koh-centered-overlay( $width: 74px, $height: 74px);
+                        background: $koh-color-black;
+                        color: $koh-color-white;
+                        opacity: 0.4;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        @media #{$koh-media-screen-md} {
+                            display: none;
+                        }
+                        .icon {
+                            font-size: 24px;
+                            line-height: 24px;
+                            padding-left: 2px;
+                            @include koh-centered-overlay( $width: 24px, $height: 24px);
+                        }
+                        .label {
+                            @include sr-only();
+                        }
+                    }
+                    &:hover .koh-banner-video-icon {
+                        background: $koh-color-pdk-grey;
+                        color: $koh-color-white;
+                    }
+                }
+                .koh-banner-content {
+                    padding: 20px;
+                    position: relative;
+                    z-index: $koh-zindex-carousel-slides;
+                    @media #{$koh-media-screen-md} {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        .koh-banner-text {
+                            position: absolute;
+                            width: calc(100% - 140px); // carousel controls are 70px wide on each side
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                        &.koh-valignment-top {
+                            .koh-banner-text {
+                                top: 20px;
+                            }
+                        }
+                        &.koh-valignment-middle {
+                            .koh-banner-text {
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                        &.koh-valignment-bottom {
+                            .koh-banner-text {
+                                bottom: 45px;
+                            }
+                        }
+                    }
+                    .koh-banner-text {
+                        display: block;
+                        background: transparent;
+                        color: $koh-color-black;
+                        text-align: center;
+                        .koh-banner-title {
+                            display: block;
+                            text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                            @include koh-slide-banner-title-font();
+                            &+.koh-banner-summary,
+                            &+.koh-banner-cta {
+                                margin-top: 15px;
+                            }
+                            sub{
+                                bottom: -0.53em !important ;
+                            }
+                            @media #{$koh-media-screen-md} {
+                                font-size: 60px;
+                                &+.koh-banner-summary {
+                                    margin-top: 30px;
+                                    margin-bottom: 35px;
+                                }
+                            }
+                            @media #{$koh-media-screen-sm-max} {
+                                font-size: 34.28571px !important;
+                                color: $koh-color-black !important;
+                            }
+                        }
+                        .koh-banner-summary {
+                            display: block;
+                            text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                            @include koh-slide-banner-summary-font();
+                            @media #{$koh-media-screen-md} {
+                                font-size: 18px;
+                            }
+                            @media #{$koh-media-screen-sm-max} {
+                                font-size: 21.28px !important;
+                                color: $koh-color-black !important;
+                            }
+                            &+.koh-banner-cta {
+                                margin-top: 15px;
+                            }
+                        }
+                        .koh-banner-cta {
+                            display: block;
+                            @include koh-button($button-bg: $koh-color-white);
+                            @media #{$koh-media-screen-md} {
+                                width: 200px !important;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                padding: 9px;
+                                border: .5px $koh-color-black solid !important;
+                                display: inline-block;
+                                background: 0 0;
+                                background-repeat: no-repeat;
+                                border-radius: 0 !important;
+                                font-family: HelveticaRoman, Helvetica, sans-serif;
+                                font-size: 14px;
+                                box-shadow: none;
+                            }
+                            &:hover {
+                                background: #607ca1;
+                                color: #ffffff !important;
+                            }
+                        }
+                        .koh-banner-video-icon {
+                            z-index: $koh-zindex-carousel-overlays;
+                            width: 74px;
+                            height: 74px;
+                            margin: 20px auto 0 auto;
+                            position: relative;
+                            background: $koh-color-black;
+                            color: $koh-color-white;
+                            opacity: 0.4;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            display: none;
+                            @media #{$koh-media-screen-md} {
+                                display: block;
+                            }
+                            &:hover {
+                                background: $koh-color-pdk-grey;
+                                color: $koh-color-white;
+                            }
+                            .icon {
+                                font-size: 24px;
+                                line-height: 24px;
+                                padding-left: 2px;
+                                @include koh-centered-overlay( $width: 24px, $height: 24px);
+                            }
+                            .label {
+                                @include sr-only();
+                            }
+                        }
+                    }
+                }
+                .koh-banner-overlay {
+                    padding: 20px 10px 50px 10px;
+                    position: relative;
+                    @media #{$koh-media-screen-md} {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        &.koh-theme-dark {
+                            color: $koh-color-white;
+                            .icon {
+                                color: $koh-color-pdk-grey;
+                            }
+                            background: rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                    .koh-overlay-title {
+                        display: block;
+                        @include koh-slide-banner-overlay-title-font();
+                        @media #{$koh-media-screen-md} {
+                            max-width: calc(100% - 220px);
+                        }
+                    }
+                    .koh-overlay-text {
+                        display: block;
+                        @include koh-slide-banner-overlay-text-font();
+                        @media #{$koh-media-screen-md} {
+                            max-width: calc(100% - 220px);
+                            margin-top: 5px;
+                            line-height: 1.2em;
+                        }
+                    }
+                    .koh-overlay-controls {
+                        position: absolute;
+                        top: -56px;
+                        right: 8px;
+                        padding: 8px 0;
+                        text-align: right;
+                        z-index: $koh-zindex-carousel-overlays;
+                        @media #{$koh-media-screen-md} {
+                            top: 15px;
+                        }
+                        .koh-overlay-link {
+                            display: none;
+                            @media #{$koh-media-nav-breakpoint} {
+                                display: inline-block;
+                                a {
+                                    display: block;
+                                    @include koh-button-white( $padding: 14px 10px 13px 10px);
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        .koh-overlay-bookmark {
+                            display: inline-block;
+                            .koh-overlay-bookmark-button {
+                                @include koh-button-white( $padding: 0);
+                                @include koh-slide-banner-overlay-icon-font();
+                                width: 40px;
+                                height: 40px;
+                                margin-right: 5px;
+                                .label {
+                                    @include sr-only();
+                                }
+                            }
+                            .koh-overlay-bookmark-form {
+                                @include koh-bookmark-popover();
+                                display: none;
+                            }
+                        }
+                        .koh-overlay-social {
+                            display: inline-block;
+                            .koh-overlay-share-button {
+                                @include koh-button-white( $padding: 0);
+                                @include koh-slide-banner-overlay-icon-font();
+                                width: 40px;
+                                height: 40px;
+                                .label {
+                                    @include sr-only();
+                                }
+                            }
+                            .koh-overlay-share-menu {
+                                @include koh-share-popover();
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                /* Popovers when they've been moved to tooltips */
+                .koh-carousel-popover {
+                    .koh-overlay-bookmark-form {
+                        @include koh-bookmark-popover();
+                        margin: 20px;
+                    }
+                    .koh-overlay-share-menu {
+                        @include koh-share-popover();
+                        margin: 10px;
+                    }
+                    .koh-banner-hotspot-tile {
+                        @include koh-hotspot-popover();
+                        margin: 10px;
+                    }
+                }
+                /* Simple Slide */
+                &.v-koh-simple {
+                    // The video icon and hotspots block should not be included in the HTML for
+                    // the simple slide variant, but in case they're added accidentally, hide them
+                    .koh-banner-background .koh-banner-video-icon,
+                    .koh-banner-hotspots {
+                        display: none;
+                    }
+                    @media #{$koh-media-screen-md} {
+                        .koh-banner-content .koh-banner-text .koh-banner-cta {
+                            display: none;
+                        }
+                    }
+                } // end v-koh-simple
+                /* Video Slide */
+                &.v-koh-video {
+                    // The main CTA and hotspots block should not be included in the HTML for
+                    // the video slide variant, but in case they're added accidentally, hide them
+                    .koh-banner-content .koh-banner-text .koh-banner-cta,
+                    .koh-banner-hotspots {
+                        display: none;
+                    }
+                    .koh-banner-video-panel {
+                        display: none;
+                    }
+                } // end v-koh-video
+                /* Hotspot Slide */
+                &.v-koh-hotspot {
+                    // The main CTA and video icon should not be included in the HTML for
+                    // the video slide variant, but in case they're added accidentally, hide them
+                    .koh-banner-content .koh-banner-text .koh-banner-cta,
+                    .koh-banner-background .koh-banner-video-icon {
+                        display: none;
+                    }
+                    .koh-banner-hotspots {
+                        border-top: 1px solid $koh-color-pmd-grey;
+                        border-bottom: 1px solid $koh-color-pmd-grey;
+                        @media #{$koh-media-screen-md} {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            border: none;
+                        }
+                        .koh-banner-hotspots-header {
+                            display: block;
+                            position: relative;
+                            padding: 20px 10px;
+                            @include koh-slide-banner-hotspot-title-font();
+                            @media #{$koh-media-screen-md} {
+                                display: none;
+                            }
+                            &:after {
+                                position: absolute;
+                                right: 15px;
+                                font-family: 'KohlerIcons';
+                                content: "\e612";
+                            }
+                        }
+                        &.open .koh-banner-hotspots-header:after {
+                            content: "\e600";
+                        }
+                        .koh-banner-hotspots-collection {
+                            display: none;
+                            @media #{$koh-media-screen-md} {
+                                display: block;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                padding-left: 0;
+                                padding-right: 0;
+                            }
+                        }
+                        &.open .koh-banner-hotspots-collection {
+                            display: block;
+                            padding: 0px 10px 30px 10px;
+                            @include koh-make-row($gutter: 2px);
+                        }
+                        .koh-banner-hotspot {
+                            @include koh-make-column($xs: 6, $sm: 3, $gutter: 2px);
+                            background: $koh-color-slt-grey;
+                            width: calc(50% - 2px);
+                            //padding: 12px 0 74px 0;
+                            padding: 12px 0 12px 0;
+                            min-height: 330px;
+                            margin: 0 1px 2px 1px;
+                            z-index: $koh-zindex-carousel-overlays;
+                            position: static !important; // because Bootstrap gets annoying sometimes
+                            @media #{$koh-media-screen-sm} {
+                                width: 24.7%;
+                                min-height: 310px;
+                                padding-bottom: 0;
+                            }
+                            @media #{$koh-media-screen-md} {
+                                float: none;
+                                width: 32px;
+                                height: 32px;
+                                min-height: inherit;
+                                padding: 0;
+                                margin: 0;
+                                background: none;
+                                position: absolute !important; // because it had to be important at mobile
+                            }
+                            .koh-banner-hotspot-icon {
+                                display: none;
+                                @media #{$koh-media-screen-md} {
+                                    display: block;
+                                    position: relative;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: rgba(0, 0, 0, 0.45);
+                                    border: 2px solid white;
+                                    border-radius: 30px;
+                                    cursor: pointer;
+                                    &:hover {
+                                        background-color: rgba(255, 255, 255, 1);
+                                    }
+                                    &:before {
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 26px;
+                                        height: 24px;
+                                        content: "+";
+                                        font-size: 20px;
+                                        line-height: 24px;
+                                        text-align: center;
+                                        color: $koh-color-pdk-grey;
+                                    }
+                                }
+                            }
+                            .koh-banner-hotspot-tile {
+                                @media #{$koh-media-screen-md} {
+                                    display: none;
+                                    position: relative;
+                                    z-index: $koh-zindex-carousel-popovers;
+                                    width: 400px;
+                                    padding: 10px;
+                                    font: $koh-font-sans-serif-light;
+                                    text-align: center;
+                                    background: $koh-color-white;
+                                    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+                                    &.open {
+                                        display: block;
+                                    }
+                                }
+                                .koh-hotspot-image {
+                                    position: relative;
+                                    img {}
+                                }
+                                .koh-hotspot-content {
+                                    text-align: center;
+                                    padding: 26px 10px;
+                                    .koh-hotspot-description {
+                                        display: block;
+                                        margin-bottom: 20px;
+                                        @include koh-slide-banner-hotspot-description-font();
+                                    }
+                                    .koh-hotspot-link {
+                                        display: block;
+                                        margin: -8px 0 10px 0;
+                                        @include koh-slide-banner-hotspot-link-font();
+                                        text-transform: uppercase;
+                                    }
+                                    .koh-hotspot-sku {
+                                        display: block;
+                                        @include koh-slide-banner-hotspot-sku-font();
+                                        color: $koh-color-pmd-grey;
+                                        margin-bottom: 4px;
+                                    }
+                                    .koh-hotspot-price {
+                                        display: block;
+                                        @include koh-slide-banner-hotspot-price-font();
+                                        color: $koh-color-pmd-grey;
+                                    }
+                                    .koh-hotspot-store-locator a {
+                                        display: block;
+                                        margin-top: 20px;
+                                        @include koh-slide-banner-hotspot-store-font();
+                                        color: $koh-color-pmd-grey;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } // end v-koh-hotspot
+            }
+            .c-koh-banner-slide.inactive {
+                display: none;
+            }
+            .c-koh-banner-slide.active {
+                display: block;
+            }
+        }
+        &.koh-theme-dark {
+            /*.icon {
+                color: $koh-color-white;
+            }*/
+        }
+    }
+    &.koh-banner-thumbnail-comp {
+        .koh-carousel {
+            .koh-carousel-controls {
+                opacity: 1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 30%;
+                .koh-carousel-indicators {
+                    display: none !important;
+                }
+                .koh-carousel-control.previous {
+                    padding-left: 0;
+                    background: rgba(0, 0, 0, .12);
+                    width: 44px;
+                    padding: 0px 14px;
+                    height: 60px;
+                    .icon {
+                        font-size: 24px;
+                        line-height: 60px;
+                    }
+                }
+                .koh-carousel-control.next {
+                    padding-left: 0;
+                    background: rgba(0, 0, 0, .12);
+                    width: 44px;
+                    padding: 0px 14px;
+                    height: 60px;
+                    .icon {
+                        font-size: 24px;
+                        line-height: 60px;
+                    }
+                }
+            }
+            .koh-slide-collection {
+                .koh-banner-slide {
+                    .koh-banner-content {
+                        .koh-banner-text {
+                            display: block;
+                            background: 0 0;
+                            color: #000;
+                            text-align: center;
+                            transform: none !important;
+                            top: auto !important;
+                            bottom: 0;
+                            width: 100%;
+                            right: 0;
+                            left: 0;
+                            padding: 15px 20px 15px;
+                            position: absolute;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            .koh-banner-title {
+                                color: #fff;
+                                font-size: 18px !important;
+                                line-height: 1.2em;
+                                text-align: left;
+                                font-family: HelveticaRoman,Helvetica,sans-serif;
+                                text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                            }
+                            .koh-banner-summary {
+                                font-size: 14px !important;
+                                line-height: 1.5em;
+                                color: #fff;
+                                display: block;
+                                margin: 5px 0 0;
+                                text-align: left;
+                                text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                                p {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                        @media #{$koh-media-screen-sm-max} {
+                            padding: 0;
+                            .koh-banner-text {
+                                .koh-banner-title {}
+                                .koh-banner-summary {
+                                    p {
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                        @media #{$koh-media-screen-xxs-max} {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.koh-descriptive-carousel-comp {
+        .top {
+            padding: 50px 0;
+            .header-small {
+                text-align: center;
+                font-size: 18px;
+                color: #000000;
+                letter-spacing: 1px;
+                font-weight: bold;
+            }
+            .copy {
+                text-align: center;
+                font-size: 14px;
+                width: 390px;
+                margin: 0 auto;
+                line-height: 19px;
+                margin-top: 15px;
+                color: #4d4d4f;
+            }
+            .line {
+                width: 40px;
+                margin: 0 auto;
+                margin-top: 25px;
+                border-bottom: 1px solid #4d4d4f;
+            }
+        }
+        .koh-carousel {
+            min-height: 340px;
+            .koh-carousel-controls {
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                margin: auto;
+                @media screen and (max-width: 980px) {
+                    top: 60px;
+                    width: 100% !important;
+                }
+                .koh-carousel-control {
+                    &.previous {
+                        background: url('../images/arrow-left.png');
+                        left: 30px;
+                        @media screen and (max-width: 980px) {
+                            left: 20%;
+                        }
+                        @media screen and (max-width: 720px) {
+                            left: 15%;
+                        }
+                        @media screen and (max-width: 500px) {
+                            left: 10%;
+                        }
+                        .icon {
+                            &:after {
+                                content: '';
+                            }
+                        }
+                    }
+                    &.next {
+                        background: url('../images/arrow-right.png');
+                        right: 55%;
+                        @media screen and (max-width: 980px) {
+                            right: 20%;
+                        }
+                        @media screen and (max-width: 720px) {
+                            right: 15%;
+                        }
+                        @media screen and (max-width: 500px) {
+                            right: 10%;
+                        }
+                        .icon {
+                            &:after {
+                                content: '';
+                            }
+                        }
+                    }
+                    &.slick-arrow {
+                        font-size: 0;
+                        line-height: 0;
+                        position: absolute;
+                        top: 140px;
+                        display: block;
+                        width: 55px;
+                        height: 55px;
+                        padding: 0;
+                        cursor: pointer;
+                        color: transparent;
+                        border: none;
+                        outline: none;
+                        background-size: auto 55px;
+                        background-position: top;
+                        background-repeat: no-repeat;
+                        background-color: transparent;
+                        z-index: 10;
+                        opacity: 1;
+                        @media #{$koh-media-screen-xxs-max} {
+                            top: 100px;
+                        }
+                    }
+                }
+            }
+            .koh-slide-collection {
+                >.slick-list {
+                    overflow: unset;
+                }
+                .slick-list {
+                    //height: 300px !important;
+                    .slick-track {
+                        .koh-banner-slide {
+                            .koh-banner-background {
+                                width: 50%;
+                                max-width: 310px;
+                                margin-left: 75px;
+                                float: left;
+                                @media screen and (max-width: 980px) {
+                                    margin-left: 0;
+                                    margin: 60px auto 0;
+                                    width: 50%;
+                                    float: none;
+                                }
+                                img {
+                                    max-height: 250px;
+                                }
+                            }
+                            .koh-banner-content {
+                                width: 50%;
+                                float: right;
+                                position: static;
+                                padding-top: 0;
+                                @media screen and (max-width: 980px) {
+                                    margin: 0 auto;
+                                    width: 100%;
+                                    float: none;
+                                }
+                                @media #{$koh-media-screen-xxs-max} {
+                                    display: block !important;
+                                }
+                                .koh-banner-text {
+                                    top: 0 !important;
+                                    background: none;
+                                    position: static;
+                                    padding-top: 0;
+                                    text-align: left;
+                                    @media screen and (max-width: 980px) {
+                                        padding-top: 20px;
+                                        text-align: center;
+                                    }
+                                    .koh-banner-title {
+                                        text-shadow: none;
+                                        color: #000;
+                                        font-size: 12px !important;
+                                        width: 270px;
+                                        display: block;
+                                        @media screen and (max-width: 980px) {
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                    .more-buttons {
+                                        margin-top: 20px;
+                                        a.sw-button {
+                                            border: 2px solid black;
+                                            padding: 7px;
+                                            text-transform: uppercase;
+                                            background: #ffffff;
+                                            cursor: pointer;
+                                            display: inline-block;
+                                            color: black;
+                                            font-weight: bold;
+                                            margin-bottom: 5px;
+                                            &:hover {
+                                                border: 2px solid black;
+                                                background: black;
+                                                color: white;
+                                                text-decoration: none;
+                                            }
+                                        }
+                                    }
+                                    .more-seals {
+                                        width: 280px;
+                                        margin-top: 25px;
+                                        text-align: left;
+                                        @media screen and (max-width: 980px) {
+                                            margin: 20px auto 0;
+                                            text-align: center;
+                                        }
+                                        div {
+                                            margin: 0 20px 0 0;
+                                            display: inline-block !important;
+                                            img {
+                                                width: 100px;
+                                                height: auto;
+                                                max-height: 100px;
+                                            }
+                                        }
+                                        .seal1 {
+                                            img {
+                                                @media screen and (max-width: 980px) {
+                                                    width: 60px;
+                                                }
+                                            }
+                                        }
+                                        .seal2 {
+                                            img {
+                                                width: 55px;
+                                                @media screen and (max-width: 980px) {
+                                                    width: 42px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .myClass {
+                    height: 500px !important;
+                }
+            }
+            .koh-thumbnail-slide-navigation {
+                max-width: 310px;
+                margin-left: 32px;
+                position: absolute;
+                top: 270px;
+                width: calc(50% - 30px);
+                @media screen and (max-width: 980px) {
+                    top: -5px;
+                    position: absolute;
+                    margin-left: auto;
+                    width: 220px;
+                    left: calc(50% - 110px);
+                }
+                .slick-list {
+                    width: 220px;
+                    margin: 0 auto;
+                    left: calc(50% - 110px);
+                    .thumb {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        width: 50px !important;
+                        img {
+                            border-radius: 50%;
+                            border: 1px solid #ccc;
+                            padding: 5px;
+                            min-height: 50px;
+                        }
+                    }
+                    .slick-active {
+                        img {
+                            background: #cccccc;
+                        }
+                    }
+                    .slick-current {
+                        img {
+                            background: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.koh-text-image-carousel-comp {
+		overflow: hidden;
+        .top {
+          padding: 50px 0;
+          .header-small {
+            text-align: center;
+            font-size: 18px;
+            color: #000000;
+            letter-spacing: 1px;
+            font-weight: bold;
+          }
+          .copy {
+            text-align: center;
+            font-size: 14px;
+            width: 390px;
+            margin: 0 auto;
+            line-height: 19px;
+            margin-top: 15px;
+            color: #4d4d4f;
+          }
+          .line {
+            width: 40px;
+            margin: 0 auto;
+            margin-top: 25px;
+            border-bottom: 1px solid #4d4d4f;
+          }
+        }
+        .koh-carousel {
+          .koh-carousel-controls {
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            margin: auto;
+            @media screen and (max-width: 980px) {
+              top: 60px;
+              width: 100% !important;
+            }
+            .koh-carousel-control {
+              &.previous {
+                background: url("../images/arrow-left.png");
+                left: 30px;
+                @media screen and (max-width: 980px) {
+                  left: 20%;
+                }
+                @media screen and (max-width: 720px) {
+                  left: 15%;
+                }
+                @media screen and (max-width: 500px) {
+                  left: 10%;
+                }
+                .icon {
+                  &:after {
+                    content: "";
+                  }
+                }
+              }
+              &.next {
+                background: url("../images/arrow-right.png");
+                right: 55%;
+                @media screen and (max-width: 980px) {
+                  right: 20%;
+                }
+                @media screen and (max-width: 720px) {
+                  right: 15%;
+                }
+                @media screen and (max-width: 500px) {
+                  right: 10%;
+                }
+                .icon {
+                  &:after {
+                    content: "";
+                  }
+                }
+              }
+              &.slick-arrow {
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: 114px;
+                display: block;
+                width: 55px;
+                height: 55px;
+                padding: 0;
+                cursor: pointer;
+                color: transparent;
+                border: none;
+                outline: none;
+                background-size: auto 55px;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                z-index: 10;
+                opacity: 1;
+				margin-right: 10px;
+                @media #{$koh-media-screen-xxs-max} {
+                  top: 100px;
+                }
+              }
+            }
+          }
+          .koh-slide-collection {
+            > .slick-list {
+              overflow: unset;
+            }
+            .slick-list {
+              //height: 300px !important;
+              .slick-track {
+                .koh-banner-slide {
+                  .koh-banner-background {
+                    width: 50%;
+                    max-width: 310px;
+                    margin-left: 75px;
+                    float: left;
+                    @media screen and (max-width: 980px) {
+                      margin-left: 0;
+                      margin: 60px auto 0;
+                      width: 50%;
+                      float: none;
+                    }
+                    img {
+                      max-height: 250px;
+                    }
+                  }
+                  .koh-banner-content {
+                    width: 60%;
+                    float: right;
+                    position: static;
+                    padding-top: 0;
+					padding-right: 0;
+                    @media screen and (max-width: 980px) {
+                      margin: 0 auto;
+                      width: 100%;
+                      float: none;
+                    }
+                    @media #{$koh-media-screen-xxs-max} {
+                      display: block !important;
+                    }
+                    .koh-banner-text {
+                      top: 0 !important;
+                      background: none;
+                      position: static;
+                      padding-top: 0;
+                      text-align: left;
+                      @media screen and (max-width: 980px) {
+                        padding-top: 20px;
+                        text-align: center;
+                      }
+                      .koh-banner-title {
+                        text-shadow: none;
+                        color: #000;
+                        font-size: 14px !important;
+                        display: block;
+                        @media screen and (max-width: 980px) {
+                          margin: 0 auto;
+                        }
+                      }
+                      .more-buttons {
+                        margin-top: 20px;
+                        a.sw-button {
+                          border: 2px solid black;
+                          padding: 7px;
+                          text-transform: uppercase;
+                          background: #ffffff;
+                          cursor: pointer;
+                          display: inline-block;
+                          color: black;
+                          font-weight: bold;
+                          margin-bottom: 5px;
+                          &:hover {
+                            border: 2px solid black;
+                            background: black;
+                            color: white;
+                            text-decoration: none;
+                          }
+                        }
+                      }
+                      .more-seals {
+                        width: 280px;
+                        margin-top: 25px;
+                        text-align: left;
+                        @media screen and (max-width: 980px) {
+                          margin: 20px auto 0;
+                          text-align: center;
+                        }
+                        div {
+                          margin: 0 20px 0 0;
+                          display: inline-block !important;
+                          img {
+                            width: 100px;
+                            height: auto;
+                            max-height: 100px;
+                          }
+                        }
+                        .seal1 {
+                          img {
+                            @media screen and (max-width: 980px) {
+                              width: 60px;
+                            }
+                          }
+                        }
+                        .seal2 {
+                          img {
+                            width: 55px;
+                            @media screen and (max-width: 980px) {
+                              width: 42px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .myClass {
+              height: 500px !important;
+            }
+          }
+        }
+    }
+}
+
+.koh-promo-video {
+  @media #{$koh-media-screen-sm} {
+    display: none;
+  }       
+  width: 100%;
+  margin: 26px auto;
+  display: flex;
+  justify-content: center;
+  iframe {
+    width: 100%;
+    max-width: 92em;
+    height: 33em;
+
+    @media #{$koh-media-screen-md} {
+        height: 40em;
+    }
+  }
+}
+
+.c-koh-banner-carousel:first-child {
+
+     @media #{$koh-media-screen-sm} {
+        .koh-banner-background-mobile {
+            display: none;
+        }
+     }      
+    @media #{$koh-media-screen-xs-max} {
+         height: 50em;
+        .koh-carousel {
+            height: 100%;
+            position: relative;
+            .koh-carousel-controls {
+                position: absolute;
+                top: 0%;
+                left: 0;
+            }
+            .koh-slide-collection {
+                height: 100%;
+                .slick-list {
+                height: 100%;
+                    .slick-track {
+                        height: 100%;
+                        transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+                    .koh-banner-slide {
+                            height: 100%;
+                            position: relative;
+                            z-index: 1;
+                        .koh-banner-background {
+                            display: none;
+                        }
+                        .koh-banner-background-mobile {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                    object-position: center center;
+                                    transition: all 2s cubic-bezier(0.34, 0.5, 0.57, 0.76);
+                                    transform: scale(1.4);
+                                }
+                            
+                        }
+
+                            .koh-banner-content {
+                                position: absolute;
+                                bottom: 6%;
+                                left: 0;
+                                right: 0;
+                                .koh-banner-text {
+                                    position: relative;
+                                    min-height: 22em;
+                                    height: auto;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: end;
+                                    z-index: 2;
+                                    width: 100%;
+                                    .koh-banner-title {
+                                        color: #FFFFFF !important;
+                                        max-width: 95%;
+                                        height: auto;
+                                    }
+                                .koh-banner-summary {
+                                        color: #FFFFFF !important;
+                                        font-size: 16px !important;
+                                        max-width: 95%;
+                                        height: auto;
+                                }
+                                .koh-banner-cta {
+                                            position: relative;
+                                            @include koh-button($button-bg: #FFFFFF);
+                                            border-radius: 0;
+                                            margin-top: 1.3em;  
+                                            z-index: 2;
+                                    }
+                                }
+                            }
+
+                        &.slick-active {
+                            position: relative;
+                            .koh-banner-background-mobile{ 
+                                    img {
+                                        transform: scale(1);
+                                    }
+                            }
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 20em;
+                                z-index: 1;
+                                background: linear-gradient(360deg, rgba(56,56,56,0.8), rgba(0,0,0,0))
+                            } 
+                        }
+
+                    } 
+                    
+                }     
+            }
+
+            }
+        }
+  } 
+
+}
+
+
+
+
+//shopping guide banner carousel starts from here
+.c-koh-shopping-guide-carousel {
+    font-size: $koh-base-font-size;
+    .koh-carousel-title {
+        @include koh-carousel-title-font();
+        margin: 0;
+        padding: 60px 20px 20px 20px;
+        font-size: 2.428571em;
+        @media #{$koh-media-screen-md} {
+            padding: 60px 0 20px 0;
+            font-size: 3.428571em;
+        }
+        &.koh-alignment-left {
+            text-align: left;
+        }
+        &.koh-alignment-center {
+            text-align: center;
+        }
+        &.koh-alignment-right {
+            text-align: right;
+        }
+    }
+    &.c-koh-banner-carousel-spot {
+        padding-bottom: 30px;
+        clear: both;
+        .koh-print-share-tools {
+            display: inline-block;
+            margin: 0;
+            overflow: inherit;
+            .koh-page-share {
+                display: inline-block;
+                float: none;
+                padding: 0;
+            }
+        }
+        .slick-slider {
+            width: 100%;
+            .slick-track {}
+        }
+        .koh-carousel {
+            &.koh-theme-dark {
+                icon {
+                    color: #232323;
+                }
+            }
+        }
+    }
+    &.v-koh-inline {
+        @include koh-page-gutters-padding();
+        background: $koh-color-white;
+    }
+    &.v-koh-hero {
+        width: 100%;
+        padding: 0;
+        background: transparent;
+    }
+    .koh-carousel {
+        position: relative;
+        &:hover {
+            .koh-carousel-controls {
+                .koh-carousel-control {
+                    opacity: 0.3;
+                }
+            }
+        }
+        .koh-carousel-controls {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            .koh-carousel-control {
+                position: absolute;
+                width: 70px;
+                height: 40px;
+                z-index: $koh-zindex-carousel-overlays;
+                @include koh-carousel-arrow();
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .koh-carousel-indicators {
+                position: absolute;
+                z-index: $koh-zindex-carousel-overlays;
+                @include koh-carousel-indicators();
+                bottom: 4px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .koh-slide-collection {
+            /* Carousel Slides */
+            .koh-banner-slide {
+                font-size: $koh-base-font-size;
+                position: relative;
+                outline: none;
+                &.m-koh-linked {
+                    .koh-banner-content {}
+                }
+                a {
+                    text-decoration: none;
+                    outline: none;
+                    &:visited,
+                    &:hover,
+                    &:active {
+                        text-decoration: none;
+                        outline: none;
+                    }
+                }
+                /* Defaults */
+                .koh-banner-background {
+					.koh-shop-by-look-video {
+						width: 100%;
+						height: 500px;
+					  }
+                    position: relative;
+                    text-align: center;
+                    a {
+                        cursor: pointer;
+                    }
+                    img {
+                        display: inline-block;
+                        width: 100vw;
+                        z-index: $koh-zindex-carousel-slides;
+                    }
+                    .koh-banner-video-icon {
+                        z-index: $koh-zindex-carousel-overlays;
+                        width: 74px;
+                        height: 74px;
+                        @include koh-centered-overlay( $width: 74px, $height: 74px);
+                        background: $koh-color-black;
+                        color: $koh-color-white;
+                        opacity: 0.4;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        @media #{$koh-media-screen-md} {
+                            display: none;
+                        }
+                        .icon {
+                            font-size: 24px;
+                            line-height: 24px;
+                            padding-left: 2px;
+                            @include koh-centered-overlay( $width: 24px, $height: 24px);
+                        }
+                        .label {
+                            @include sr-only();
+                        }
+                    }
+                    &:hover .koh-banner-video-icon {
+                        background: $koh-color-pdk-grey;
+                        color: $koh-color-white;
+                    }
+                }
+                .koh-banner-content {
+                    padding: 20px;
+                    position: relative;
+                    z-index: $koh-zindex-carousel-slides;
+                    @media #{$koh-media-screen-md} {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        .koh-banner-text {
+                            position: absolute;
+                            width: calc(100% - 140px); // carousel controls are 70px wide on each side
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                        &.koh-valignment-top {
+                            .koh-banner-text {
+                                top: 20px;
+                            }
+                        }
+                        &.koh-valignment-middle {
+                            .koh-banner-text {
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                        &.koh-valignment-bottom {
+                            .koh-banner-text {
+                                bottom: 45px;
+                            }
+                        }
+                    }
+                    .koh-banner-text {
+                        display: block;
+                        background: transparent;
+                        color: $koh-color-black;
+                        font-family: HelveticaRoman, Helvetica, sans-serif;
+                        text-align: center;
+                        .koh-banner-title {
+                            display: block;
+                            /* text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                            @include koh-slide-banner-title-font();*/
+                            &+.koh-banner-summary,
+                            &+.koh-banner-cta {
+                                margin-top: 15px;
+                            }
+                            @media #{$koh-media-screen-md} {
+                                font-size: 40px;
+                                font-family: HelveticaRoman, Helvetica, sans-serif;
+                                &+.koh-banner-summary {
+                                    margin-top: 30px;
+                                    margin-bottom: 35px;
+                                    font-family: HelveticaRoman, Helvetica, sans-serif;
+                                }
+                            }
+                            @media #{$koh-media-screen-sm-max} {
+                                font-size: 34.28571px !important;
+                                color: $koh-color-black !important;
+                            }
+                        }
+                        .koh-banner-summary {
+                            display: block;
+                            font-family: $koh-font-sans-serif-light;
+                            /* text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                            @include koh-slide-banner-summary-font();*/
+                            @media #{$koh-media-screen-md} {
+                                font-size: 18px;
+                                font-family: HelveticaRoman, Helvetica, sans-serif;
+                            }
+                            @media #{$koh-media-screen-sm-max} {
+                                font-size: 21.28px !important;
+                                color: $koh-color-black !important;
+                            }
+                            &+.koh-banner-cta {
+                                margin-top: 15px;
+                            }
+                        }
+                        .koh-banner-cta {
+                            display: block;
+                            @include koh-button($button-bg: $koh-color-white);
+                            @media #{$koh-media-screen-md} {
+                                width: 200px !important;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                padding: 9px;
+                                border: .5px $koh-color-black solid !important;
+                                display: inline-block;
+                                background: 0 0;
+                                background-repeat: no-repeat;
+                                border-radius: 0 !important;
+                                font-family: HelveticaRoman, Helvetica, sans-serif;
+                                font-size: 14px;
+                                box-shadow: none;
+                            }
+                            &:hover {
+                                background: #607ca1;
+                                color: #ffffff !important;
+                            }
+                        }
+                        .koh-banner-video-icon {
+                            z-index: $koh-zindex-carousel-overlays;
+                            width: 74px;
+                            height: 74px;
+                            margin: 20px auto 0 auto;
+                            position: relative;
+                            background: $koh-color-black;
+                            color: $koh-color-white;
+                            opacity: 0.4;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            display: none;
+                            @media #{$koh-media-screen-md} {
+                                display: block;
+                            }
+                            &:hover {
+                                background: $koh-color-pdk-grey;
+                                color: $koh-color-white;
+                            }
+                            .icon {
+                                font-size: 24px;
+                                line-height: 24px;
+                                padding-left: 2px;
+                                @include koh-centered-overlay( $width: 24px, $height: 24px);
+                            }
+                            .label {
+                                @include sr-only();
+                            }
+                        }
+                    }
+                }
+                .koh-banner-overlay {
+                    padding: 20px 10px 50px 10px;
+                    position: relative;
+                    @media #{$koh-media-screen-md} {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        &.koh-theme-dark {
+                            color: $koh-color-white;
+                            .icon {
+                                color: $koh-color-pdk-grey;
+                            }
+                            background: rgba(0,
+                            0,
+                            0,
+                            0.5);
+                        }
+                    }
+                    .koh-overlay-title {
+                        display: block;
+                        @include koh-slide-banner-overlay-title-font();
+                        @media #{$koh-media-screen-md} {
+                            max-width: calc(100% - 220px);
+                        }
+                    }
+                    .koh-overlay-text {
+                        display: block;
+                        @include koh-slide-banner-overlay-text-font();
+                        @media #{$koh-media-screen-md} {
+                            max-width: calc(100% - 220px);
+                            margin-top: 5px;
+                            line-height: 1.2em;
+                        }
+                    }
+                    .koh-overlay-controls {
+                        position: absolute;
+                        top: -56px;
+                        right: 8px;
+                        padding: 8px 0;
+                        text-align: right;
+                        z-index: $koh-zindex-carousel-overlays;
+                        @media #{$koh-media-screen-md} {
+                            top: 15px;
+                        }
+                        .koh-overlay-link {
+                            display: none;
+                            @media #{$koh-media-nav-breakpoint} {
+                                display: inline-block;
+                                a {
+                                    display: block;
+                                    @include koh-button-white( $padding: 14px 10px 13px 10px);
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        .koh-overlay-bookmark {
+                            display: inline-block;
+                            .koh-overlay-bookmark-button {
+                                @include koh-button-white( $padding: 0);
+                                @include koh-slide-banner-overlay-icon-font();
+                                width: 40px;
+                                height: 40px;
+                                margin-right: 5px;
+                                .label {
+                                    @include sr-only();
+                                }
+                            }
+                            .koh-overlay-bookmark-form {
+                                @include koh-bookmark-popover();
+                                display: none;
+                            }
+                        }
+                        .koh-overlay-social {
+                            display: inline-block;
+                            .koh-overlay-share-button {
+                                @include koh-button-white( $padding: 0);
+                                @include koh-slide-banner-overlay-icon-font();
+                                width: 40px;
+                                height: 40px;
+                                .label {
+                                    @include sr-only();
+                                }
+                            }
+                            .koh-overlay-share-menu {
+                                @include koh-share-popover();
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                /* Popovers when they've been moved to tooltips */
+                .koh-carousel-popover {
+                    .koh-overlay-bookmark-form {
+                        @include koh-bookmark-popover();
+                        margin: 20px;
+                    }
+                    .koh-overlay-share-menu {
+                        @include koh-share-popover();
+                        margin: 10px;
+                    }
+                    .koh-banner-hotspot-tile {
+                        @include koh-hotspot-popover();
+                        margin: 10px;
+                    }
+                }
+                /* Simple Slide */
+                &.v-koh-simple {
+                    // The video icon and hotspots block should not be included in the HTML for
+                    // the simple slide variant, but in case they're added accidentally, hide them
+                    .koh-banner-background .koh-banner-video-icon,
+                    .koh-banner-hotspots {
+                        display: none;
+                    }
+                    /*                     @media #{$koh-media-screen-md} {
+                        .koh-banner-content .koh-banner-text .koh-banner-cta {
+                            display: none;
+                        }
+                    } */
+                } // end v-koh-simple
+                /* Video Slide */
+                &.v-koh-video {
+                    // The main CTA and hotspots block should not be included in the HTML for
+                    // the video slide variant, but in case they're added accidentally, hide them
+                    .koh-banner-content .koh-banner-text .koh-banner-cta,
+                    .koh-banner-hotspots {
+                        display: none;
+                    }
+                    .koh-banner-video-panel {
+                        display: none;
+                    }
+                } // end v-koh-video
+                /* Hotspot Slide */
+                &.v-koh-hotspot {
+                    // The main CTA and video icon should not be included in the HTML for
+                    // the video slide variant, but in case they're added accidentally, hide them
+                    .koh-banner-content .koh-banner-text .koh-banner-cta,
+                    .koh-banner-background .koh-banner-video-icon {
+                        display: none;
+                    }
+                    .koh-banner-hotspots {
+                        border-top: 1px solid $koh-color-pmd-grey;
+                        border-bottom: 1px solid $koh-color-pmd-grey;
+                        @media #{$koh-media-screen-md} {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            border: none;
+                        }
+                        .koh-banner-hotspots-header {
+                            display: block;
+                            position: relative;
+                            padding: 20px 10px;
+                            @include koh-slide-banner-hotspot-title-font();
+                            @media #{$koh-media-screen-md} {
+                                display: none;
+                            }
+                            &:after {
+                                position: absolute;
+                                right: 15px;
+                                font-family: 'KohlerIcons';
+                                content: "\e612";
+                            }
+                        }
+                        &.open .koh-banner-hotspots-header:after {
+                            content: "\e600";
+                        }
+                        .koh-banner-hotspots-collection {
+                            display: none;
+                            @media #{$koh-media-screen-md} {
+                                display: block;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                padding-left: 0;
+                                padding-right: 0;
+                            }
+                        }
+                        &.open .koh-banner-hotspots-collection {
+                            display: block;
+                            padding: 0px 10px 30px 10px;
+                            @include koh-make-row($gutter: 2px);
+                        }
+                        .koh-banner-hotspot {
+                            @include koh-make-column($xs: 6, $sm: 3, $gutter: 2px);
+                            background: $koh-color-slt-grey;
+                            width: calc(50% - 2px);
+                            //padding: 12px 0 74px 0;
+                            padding: 12px 0 12px 0;
+                            min-height: 330px;
+                            margin: 0 1px 2px 1px;
+                            z-index: $koh-zindex-carousel-overlays;
+                            position: static !important; // because Bootstrap gets annoying sometimes
+                            @media #{$koh-media-screen-sm} {
+                                width: 24.7%;
+                                min-height: 310px;
+                                padding-bottom: 0;
+                            }
+                            @media #{$koh-media-screen-md} {
+                                float: none;
+                                width: 32px;
+                                height: 32px;
+                                min-height: inherit;
+                                padding: 0;
+                                margin: 0;
+                                background: none;
+                                position: absolute !important; // because it had to be important at mobile
+                            }
+                            .koh-banner-hotspot-icon {
+                                display: none;
+                                @media #{$koh-media-screen-md} {
+                                    display: block;
+                                    position: relative;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: rgba(0, 0, 0, 0.45);
+                                    border: 2px solid white;
+                                    border-radius: 30px;
+                                    cursor: pointer;
+                                    &:hover {
+                                        background-color: rgba(255, 255, 255, 1);
+                                    }
+                                    &:before {
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 26px;
+                                        height: 24px;
+                                        content: "+";
+                                        font-size: 20px;
+                                        line-height: 24px;
+                                        text-align: center;
+                                        color: $koh-color-pdk-grey;
+                                    }
+                                }
+                            }
+                            .koh-banner-hotspot-tile {
+                                @media #{$koh-media-screen-md} {
+                                    display: none;
+                                    position: relative;
+                                    z-index: $koh-zindex-carousel-popovers;
+                                    width: 400px;
+                                    padding: 10px;
+                                    font: $koh-font-sans-serif-light;
+                                    text-align: center;
+                                    background: $koh-color-white;
+                                    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+                                    &.open {
+                                        display: block;
+                                    }
+                                }
+                                .koh-hotspot-image {
+                                    position: relative;
+                                    img {}
+                                }
+                                .koh-hotspot-content {
+                                    text-align: center;
+                                    padding: 26px 10px;
+                                    .koh-hotspot-description {
+                                        display: block;
+                                        margin-bottom: 20px;
+                                        @include koh-slide-banner-hotspot-description-font();
+                                    }
+                                    .koh-hotspot-link {
+                                        display: block;
+                                        margin: -8px 0 10px 0;
+                                        @include koh-slide-banner-hotspot-link-font();
+                                        text-transform: uppercase;
+                                    }
+                                    .koh-hotspot-sku {
+                                        display: block;
+                                        @include koh-slide-banner-hotspot-sku-font();
+                                        color: $koh-color-pmd-grey;
+                                        margin-bottom: 4px;
+                                    }
+                                    .koh-hotspot-price {
+                                        display: block;
+                                        @include koh-slide-banner-hotspot-price-font();
+                                        color: $koh-color-pmd-grey;
+                                    }
+                                    .koh-hotspot-store-locator a {
+                                        display: block;
+                                        margin-top: 20px;
+                                        @include koh-slide-banner-hotspot-store-font();
+                                        color: $koh-color-pmd-grey;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } // end v-koh-hotspot
+            }
+            .c-koh-banner-slide.inactive {
+                display: none;
+            }
+            .c-koh-banner-slide.active {
+                display: block;
+            }
+        }
+        &.koh-theme-dark {
+            /*.icon {
+                color: $koh-color-white;
+            }*/
+        }
+    }
+    &.koh-banner-thumbnail-comp {
+		padding-bottom: 30px;
+			.koh-video-header {
+			  text-align: left;
+			  font-size: 1.5em !important;
+			  font-family: HelveticaBold, Helvetica, sans-serif;
+			  display: inline-block;
+			  line-height: 1.2em;
+			  @media #{$koh-media-nav-breakpoint} {
+				font-size: 2.5em !important;
+			  }
+			}
+        .koh-carousel {
+            .koh-carousel-controls {
+                opacity: 1;
+                .koh-carousel-indicators {
+                    position: absolute;
+				    z-index: $koh-zindex-carousel-overlays;
+				    @include koh-carousel-indicators();
+				    bottom: 4px;
+				    left: 50%;
+				    transform: translateX(-50%);
+				}
+                .koh-carousel-control.previous {
+                    padding-left: 0;
+                    background: rgba(0, 0, 0, .12);
+                    width: 44px;
+                    padding: 0px 14px;
+                    height: 60px;
+                    .icon {
+                        font-size: 24px;
+                        line-height: 60px;
+                    }
+                }
+                .koh-carousel-control.next {
+                    padding-left: 0;
+                    background: rgba(0, 0, 0, .12);
+                    width: 44px;
+                    padding: 0px 14px;
+                    height: 60px;
+                    .icon {
+                        font-size: 24px;
+                        line-height: 60px;
+                    }
+                }
+            }
+            .koh-slide-collection {
+                .koh-banner-slide {
+                    .koh-banner-content {
+                        .koh-banner-text {
+                            display: block;
+                            background: 0 0;
+                            color: #000;
+                            text-align: center;
+                            transform: none !important;
+                            top: auto !important;
+                            bottom: 0;
+                            width: 100%;
+                            right: 0;
+                            left: 0;
+                            padding: 15px 20px 15px;
+                            position: absolute;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            .koh-banner-title {
+                                color: #fff;
+                                font-size: 18px !important;
+                                line-height: 1.2em;
+                                text-align: left;
+                                font-family: HelveticaMedium, Helvetica, sans-serif;
+                                text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                            }
+                            .koh-banner-summary {
+                                font-size: 14px !important;
+                                line-height: 1.5em;
+                                color: #fff;
+                                display: block;
+                                margin: 5px 0 0;
+                                text-align: left;
+                                text-shadow: 0 0 5px rgba(0, 0, 0, .24);
+                                p {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                        @media #{$koh-media-screen-sm-max} {
+                            padding: 0;
+                            .koh-banner-text {
+                                .koh-banner-title {}
+                                .koh-banner-summary {
+                                    p {
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                        @media #{$koh-media-screen-xxs-max} {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.koh-descriptive-carousel-comp {
+        .top {
+            padding: 50px 0;
+            .header-small {
+                text-align: center;
+                font-size: 18px;
+                color: #000000;
+                letter-spacing: 1px;
+                font-weight: bold;
+            }
+            .copy {
+                text-align: center;
+                font-size: 14px;
+                width: 390px;
+                margin: 0 auto;
+                line-height: 19px;
+                margin-top: 15px;
+                color: #4d4d4f;
+            }
+            .line {
+                width: 40px;
+                margin: 0 auto;
+                margin-top: 25px;
+                border-bottom: 1px solid #4d4d4f;
+            }
+        }
+        .koh-carousel {
+            min-height: 340px;
+            .koh-carousel-controls {
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                margin: auto;
+                @media screen and (max-width: 980px) {
+                    top: 60px;
+                    width: 100% !important;
+                }
+                .koh-carousel-control {
+                    &.previous {
+                        background: url('../images/arrow-left.png');
+                        left: 30px;
+                        @media screen and (max-width: 980px) {
+                            left: 20%;
+                        }
+                        @media screen and (max-width: 720px) {
+                            left: 15%;
+                        }
+                        @media screen and (max-width: 500px) {
+                            left: 10%;
+                        }
+                        .icon {
+                            &:after {
+                                content: '';
+                            }
+                        }
+                    }
+                    &.next {
+                        background: url('../images/arrow-right.png');
+                        right: 55%;
+                        @media screen and (max-width: 980px) {
+                            right: 20%;
+                        }
+                        @media screen and (max-width: 720px) {
+                            right: 15%;
+                        }
+                        @media screen and (max-width: 500px) {
+                            right: 10%;
+                        }
+                        .icon {
+                            &:after {
+                                content: '';
+                            }
+                        }
+                    }
+                    &.slick-arrow {
+                        font-size: 0;
+                        line-height: 0;
+                        position: absolute;
+                        top: 140px;
+                        display: block;
+                        width: 55px;
+                        height: 55px;
+                        padding: 0;
+                        cursor: pointer;
+                        color: transparent;
+                        border: none;
+                        outline: none;
+                        background-size: auto 55px;
+                        background-position: top;
+                        background-repeat: no-repeat;
+                        background-color: transparent;
+                        z-index: 10;
+                        opacity: 1;
+                        @media #{$koh-media-screen-xxs-max} {
+                            top: 100px;
+                        }
+                    }
+                }
+            }
+            .koh-slide-collection {
+                >.slick-list {
+                    overflow: unset;
+                }
+                .slick-list {
+                    //height: 300px !important;
+                    .slick-track {
+                        .koh-banner-slide {
+                            .koh-banner-background {
+                                width: 50%;
+                                max-width: 310px;
+                                margin-left: 75px;
+                                float: left;
+                                @media screen and (max-width: 980px) {
+                                    margin-left: 0;
+                                    margin: 60px auto 0;
+                                    width: 50%;
+                                    float: none;
+                                }
+                                img {
+                                    max-height: 250px;
+                                }
+                            }
+                            .koh-banner-content {
+                                width: 50%;
+                                float: right;
+                                position: static;
+                                padding-top: 0;
+                                @media screen and (max-width: 980px) {
+                                    margin: 0 auto;
+                                    width: 100%;
+                                    float: none;
+                                }
+                                @media #{$koh-media-screen-xxs-max} {
+                                    display: block !important;
+                                }
+                                .koh-banner-text {
+                                    top: 0 !important;
+                                    background: none;
+                                    position: static;
+                                    padding-top: 0;
+                                    text-align: left;
+                                    @media screen and (max-width: 980px) {
+                                        padding-top: 20px;
+                                        text-align: center;
+                                    }
+                                    .koh-banner-title {
+                                        text-shadow: none;
+                                        color: #000;
+                                        font-size: 12px !important;
+                                        width: 270px;
+                                        display: block;
+                                        @media screen and (max-width: 980px) {
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                    .more-buttons {
+                                        margin-top: 20px;
+                                        a.sw-button {
+                                            border: 2px solid black;
+                                            padding: 7px;
+                                            text-transform: uppercase;
+                                            background: #ffffff;
+                                            cursor: pointer;
+                                            display: inline-block;
+                                            color: black;
+                                            font-weight: bold;
+                                            margin-bottom: 5px;
+                                            &:hover {
+                                                border: 2px solid black;
+                                                background: black;
+                                                color: white;
+                                                text-decoration: none;
+                                            }
+                                        }
+                                    }
+                                    .more-seals {
+                                        width: 280px;
+                                        margin-top: 25px;
+                                        text-align: left;
+                                        @media screen and (max-width: 980px) {
+                                            margin: 20px auto 0;
+                                            text-align: center;
+                                        }
+                                        div {
+                                            margin: 0 20px 0 0;
+                                            display: inline-block !important;
+                                            img {
+                                                width: 100px;
+                                                height: auto;
+                                                max-height: 100px;
+                                            }
+                                        }
+                                        .seal1 {
+                                            img {
+                                                @media screen and (max-width: 980px) {
+                                                    width: 60px;
+                                                }
+                                            }
+                                        }
+                                        .seal2 {
+                                            img {
+                                                width: 55px;
+                                                @media screen and (max-width: 980px) {
+                                                    width: 42px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .myClass {
+                    height: 500px !important;
+                }
+            }
+            .koh-thumbnail-slide-navigation {
+                max-width: 310px;
+                margin-left: 32px;
+                position: absolute;
+                top: 270px;
+                width: calc(50% - 30px);
+                @media screen and (max-width: 980px) {
+                    top: -5px;
+                    position: absolute;
+                    margin-left: auto;
+                    width: 220px;
+                    left: calc(50% - 110px);
+                }
+                .slick-list {
+                    width: 220px;
+                    margin: 0 auto;
+                    left: calc(50% - 110px);
+                    .thumb {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        width: 50px !important;
+                        img {
+                            border-radius: 50%;
+                            border: 1px solid #ccc;
+                            padding: 5px;
+                            min-height: 50px;
+                        }
+                    }
+                    .slick-active {
+                        img {
+                            background: #cccccc;
+                        }
+                    }
+                    .slick-current {
+                        img {
+                            background: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.koh-text-image-carousel-comp {
+		overflow: hidden;
+        .top {
+          padding: 50px 0;
+          .header-small {
+            text-align: center;
+            font-size: 18px;
+            color: #000000;
+            letter-spacing: 1px;
+            font-weight: bold;
+          }
+          .copy {
+            text-align: center;
+            font-size: 14px;
+            width: 390px;
+            margin: 0 auto;
+            line-height: 19px;
+            margin-top: 15px;
+            color: #4d4d4f;
+          }
+          .line {
+            width: 40px;
+            margin: 0 auto;
+            margin-top: 25px;
+            border-bottom: 1px solid #4d4d4f;
+          }
+        }
+        .koh-carousel {
+          .koh-carousel-controls {
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            margin: auto;
+            @media screen and (max-width: 980px) {
+              top: 60px;
+              width: 100% !important;
+            }
+            .koh-carousel-control {
+              &.previous {
+                background: url("../images/arrow-left.png");
+                left: 30px;
+                @media screen and (max-width: 980px) {
+                  left: 20%;
+                }
+                @media screen and (max-width: 720px) {
+                  left: 15%;
+                }
+                @media screen and (max-width: 500px) {
+                  left: 10%;
+                }
+                .icon {
+                  &:after {
+                    content: "";
+                  }
+                }
+              }
+              &.next {
+                background: url("../images/arrow-right.png");
+                right: 55%;
+                @media screen and (max-width: 980px) {
+                  right: 20%;
+                }
+                @media screen and (max-width: 720px) {
+                  right: 15%;
+                }
+                @media screen and (max-width: 500px) {
+                  right: 10%;
+                }
+                .icon {
+                  &:after {
+                    content: "";
+                  }
+                }
+              }
+              &.slick-arrow {
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: 114px;
+                display: block;
+                width: 55px;
+                height: 55px;
+                padding: 0;
+                cursor: pointer;
+                color: transparent;
+                border: none;
+                outline: none;
+                background-size: auto 55px;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                z-index: 10;
+                opacity: 1;
+				margin-right: 10px;
+                @media #{$koh-media-screen-xxs-max} {
+                  top: 100px;
+                }
+              }
+            }
+          }
+          .koh-slide-collection {
+            > .slick-list {
+              overflow: unset;
+            }
+            .slick-list {
+              //height: 300px !important;
+              .slick-track {
+                .koh-banner-slide {
+                  .koh-banner-background {
+                    width: 50%;
+                    max-width: 310px;
+                    margin-left: 75px;
+                    float: left;
+                    @media screen and (max-width: 980px) {
+                      margin-left: 0;
+                      margin: 60px auto 0;
+                      width: 50%;
+                      float: none;
+                    }
+                    img {
+                      max-height: 250px;
+                    }
+                  }
+                  .koh-banner-content {
+                    width: 60%;
+                    float: right;
+                    position: static;
+                    padding-top: 0;
+					padding-right: 0;
+                    @media screen and (max-width: 980px) {
+                      margin: 0 auto;
+                      width: 100%;
+                      float: none;
+                    }
+                    @media #{$koh-media-screen-xxs-max} {
+                      display: block !important;
+                    }
+                    .koh-banner-text {
+                      top: 0 !important;
+                      background: none;
+                      position: static;
+                      padding-top: 0;
+                      text-align: left;
+                      @media screen and (max-width: 980px) {
+                        padding-top: 20px;
+                        text-align: center;
+                      }
+                      .koh-banner-title {
+                        text-shadow: none;
+                        color: #000;
+                        font-size: 14px !important;
+                        display: block;
+                        @media screen and (max-width: 980px) {
+                          margin: 0 auto;
+                        }
+                      }
+                      .more-buttons {
+                        margin-top: 20px;
+                        a.sw-button {
+                          border: 2px solid black;
+                          padding: 7px;
+                          text-transform: uppercase;
+                          background: #ffffff;
+                          cursor: pointer;
+                          display: inline-block;
+                          color: black;
+                          font-weight: bold;
+                          margin-bottom: 5px;
+                          &:hover {
+                            border: 2px solid black;
+                            background: black;
+                            color: white;
+                            text-decoration: none;
+                          }
+                        }
+                      }
+                      .more-seals {
+                        width: 280px;
+                        margin-top: 25px;
+                        text-align: left;
+                        @media screen and (max-width: 980px) {
+                          margin: 20px auto 0;
+                          text-align: center;
+                        }
+                        div {
+                          margin: 0 20px 0 0;
+                          display: inline-block !important;
+                          img {
+                            width: 100px;
+                            height: auto;
+                            max-height: 100px;
+                          }
+                        }
+                        .seal1 {
+                          img {
+                            @media screen and (max-width: 980px) {
+                              width: 60px;
+                            }
+                          }
+                        }
+                        .seal2 {
+                          img {
+                            width: 55px;
+                            @media screen and (max-width: 980px) {
+                              width: 42px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .myClass {
+              height: 500px !important;
+            }
+          }
+        }
+    }
+}

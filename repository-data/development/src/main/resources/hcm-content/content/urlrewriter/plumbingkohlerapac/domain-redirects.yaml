@@ -1,0 +1,67 @@
+/content/urlrewriter/plumbingkohlerapac/domain-redirects:
+  jcr:primaryType: urlrewriter:ruleset
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: c4e6dc60-c6d5-4b7a-9218-1610b87efc67
+  hippo:name: domain redirects
+  hippostd:foldertype: [new-urlrewriter-folder, new-urlrewriter-document]
+  /-collections-fixtures-wellworth-redirect:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 526d7fc5-fe93-4a5e-98bd-b2ee494927c0
+    hippo:name: /collections/fixtures/wellworth Redirect
+    /-collections-fixtures-wellworth-redirect[1]:
+      jcr:primaryType: urlrewriter:advancedrule
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 12b836bb-53fd-455f-a95d-aeefea2b0398
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-26T12:54:31.002+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T12:54:31.290+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+      urlrewriter:casesensitive: false
+      urlrewriter:isnotlast: false
+      urlrewriter:iswildcardtype: false
+      urlrewriter:qsappend: false
+      urlrewriter:ruledescription: ''
+      urlrewriter:rulefrom: /collections/fixtures/wellworth.html
+      urlrewriter:ruleto: http://www.kohlerapac.dev
+      urlrewriter:ruletype: temporary-redirect
+    /-collections-fixtures-wellworth-redirect[2]:
+      jcr:primaryType: urlrewriter:advancedrule
+      jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+      jcr:uuid: 12e07020-1bf8-4c99-befb-38bfec0f70c1
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-26T12:54:31.002+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T12:55:30.390+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      urlrewriter:casesensitive: false
+      urlrewriter:isnotlast: false
+      urlrewriter:iswildcardtype: false
+      urlrewriter:qsappend: false
+      urlrewriter:ruledescription: ''
+      urlrewriter:rulefrom: /collections/fixtures/wellworth.html
+      urlrewriter:ruleto: http://www.kohlerapac.dev
+      urlrewriter:ruletype: temporary-redirect
+    /-collections-fixtures-wellworth-redirect[3]:
+      jcr:primaryType: urlrewriter:advancedrule
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a40b8661-39d4-44bb-bddb-00c37b369c1a
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-26T12:54:31.002+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-26T12:55:30.390+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-26T12:55:32.343+05:30
+      urlrewriter:casesensitive: false
+      urlrewriter:isnotlast: false
+      urlrewriter:iswildcardtype: false
+      urlrewriter:qsappend: false
+      urlrewriter:ruledescription: ''
+      urlrewriter:rulefrom: /collections/fixtures/wellworth.html
+      urlrewriter:ruleto: http://www.kohlerapac.dev
+      urlrewriter:ruletype: temporary-redirect

@@ -1,0 +1,655 @@
+/content/documents/plumbingkohlervn/banners:
+  .meta:order-before: collectons-promo
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 005ad40b-fd4e-4aa4-b3ec-f44c30b9e23e
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 1e29d924-4cfc-48eb-a687-4d5e553e0a03
+  hippotranslation:locale: vi_VN
+  /kohlerhome:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: f7734ca5-b3fa-4e99-bd06-239f004372fb
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: b89e43b0-18c8-497c-b509-e1ffefaa99cb
+    hippotranslation:locale: vi_VN
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 3bb1a23c-bb6b-4ab6-b300-a04c347150a1
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 490681fa-84f1-4ecb-8aa6-8abce6c5bf93
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:38:51.968+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b3e2e702-81b1-455f-8f64-30ec0ccf6fdc
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: Kết thúc vừa mới bắt đầu (Việt Nam) Kết thúc vừa mới bắt đầu
+          (Việt Nam)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Mỗi phòng kể một câu chuyện.<br />
+            Bắt đầu tưởng tượng bạn với vòi nước phải. (Việt Nam)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: af3552f6-2b40-481f-b77c-73ebf564df47
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:38:13.265+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b3e2e702-81b1-455f-8f64-30ec0ccf6fdc
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: Kết thúc vừa mới bắt đầu (Việt Nam) Kết thúc vừa mới bắt đầu
+          (Việt Nam)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Mỗi phòng kể một câu chuyện.<br />
+            Bắt đầu tưởng tượng bạn với vòi nước phải. (Việt Nam)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bad84307-5c83-4e0d-96aa-72435532da71
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:38:51.968+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T16:38:53.211+05:30
+        hippotranslation:id: b3e2e702-81b1-455f-8f64-30ec0ccf6fdc
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: Kết thúc vừa mới bắt đầu (Việt Nam) Kết thúc vừa mới bắt đầu
+          (Việt Nam)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Mỗi phòng kể một câu chuyện.<br />
+            Bắt đầu tưởng tượng bạn với vòi nước phải. (Việt Nam)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 68a24f70-9429-45a5-9ecc-8a4273a014a9
+      hippo:name: Artist Editions
+      /artist-editions[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e212f280-67f5-40ec-9209-92daa8ba7d86
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:39:17.208+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: df6adb8d-d861-40cf-8f6b-fffa01357c9f
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (Việt Nam)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Mọi tác phẩm nghệ thuật tuyệt vời đều bắt nguồn từ
+            cảm hứng. (Việt Nam)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2543bde1-8d3a-4c64-9df3-2e7615cbb5a4
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:38:54.487+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: df6adb8d-d861-40cf-8f6b-fffa01357c9f
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (Việt Nam)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Mọi tác phẩm nghệ thuật tuyệt vời đều bắt nguồn từ
+            cảm hứng. (Việt Nam)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a703bcee-6731-4165-a245-f31652abadb3
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:39:17.208+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T16:39:18.538+05:30
+        hippotranslation:id: df6adb8d-d861-40cf-8f6b-fffa01357c9f
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (Việt Nam)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Mọi tác phẩm nghệ thuật tuyệt vời đều bắt nguồn từ
+            cảm hứng. (Việt Nam)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /its-happening-again:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 52319b5b-fc8a-4038-a120-dad6a92bd8ba
+      hippo:name: It's happening again
+      /its-happening-again[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 1d73b1a4-6231-4f4c-970a-ea2f4884c4e9
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:39:55.750+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d79a9a5b-2847-474f-b725-b327ea324c57
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Nó đang xảy ra lần nữa (Singapore)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Xem các Toà nhà thông minh và Mặt ghế vệ sinh Kohler (Singapore)<br />
+            &nbsp;</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 16867219-7194-45c1-8c5b-3e2976ae68d2
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:39:19.966+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d79a9a5b-2847-474f-b725-b327ea324c57
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Nó đang xảy ra lần nữa (Singapore)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Xem các Toà nhà thông minh và Mặt ghế vệ sinh Kohler (Singapore)<br />
+            &nbsp;</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e2b60b9e-1c0e-484c-b448-1d37bf073aca
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:39:55.750+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T16:39:57.127+05:30
+        hippotranslation:id: d79a9a5b-2847-474f-b725-b327ea324c57
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Nó đang xảy ra lần nữa (Singapore)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Xem các Toà nhà thông minh và Mặt ghế vệ sinh Kohler (Singapore)<br />
+            &nbsp;</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /carouseloverlay:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 0435d5f0-bc99-4a5a-be8e-c4aee971eefa
+    hippostd:foldertype: [new-carouselOverlay, new-carouselOverlay-folder]
+    hippotranslation:id: 794d40af-8435-4218-9189-bf9889f29f2b
+    hippotranslation:locale: vi_VN
+    /poplin:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 7514abf5-7583-43f3-ad7d-2385eef940b7
+      hippo:name: Poplin
+      /poplin[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e8257575-d5f1-41e1-ad92-905eac551f48
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:40:46.105+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4f03434d-7162-4c27-94d8-b549fe19cb64
+        hippotranslation:locale: en
+        kohler:description: Phong cách Poplin bị ảnh hưởng bởi vẻ đẹp dân dã và tính
+          năng của phong cách Shaker và thiết kế.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin ™ Vietnam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 977453e4-c35d-4600-b99f-b93321bc8fa5
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:40:27.605+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4f03434d-7162-4c27-94d8-b549fe19cb64
+        hippotranslation:locale: en
+        kohler:description: Phong cách Poplin bị ảnh hưởng bởi vẻ đẹp dân dã và tính
+          năng của phong cách Shaker và thiết kế.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin ™ Vietnam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 574c06ba-246f-439f-9c40-511f08157762
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:40:46.105+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T16:40:47.416+05:30
+        hippotranslation:id: 4f03434d-7162-4c27-94d8-b549fe19cb64
+        hippotranslation:locale: en
+        kohler:description: Phong cách Poplin bị ảnh hưởng bởi vẻ đẹp dân dã và tính
+          năng của phong cách Shaker và thiết kế.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin ™ Vietnam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /jute:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 8156a4bf-a42d-40a4-8df3-dd3cb46644ed
+      hippo:name: Jute
+      /jute[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: ae783da5-52f9-4c4c-84c6-47b2f8c703da
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:41:07.946+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: a65ca026-1ee9-4d07-baeb-6a4f3efc7623
+        hippotranslation:locale: en
+        kohler:description: Các tính đúc của đay là một trò chơi vui nhộn về thẩm
+          mỹ hiện đại giữa thế kỷ và sẽ tạo ra một tuyên bố thiết kế tuyệt đẹp trong
+          phòng tắm.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute ™ Vietnam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a829bc89-0dd4-475d-9879-9ed7ee6f87bf
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:40:49.350+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: a65ca026-1ee9-4d07-baeb-6a4f3efc7623
+        hippotranslation:locale: en
+        kohler:description: Các tính đúc của đay là một trò chơi vui nhộn về thẩm
+          mỹ hiện đại giữa thế kỷ và sẽ tạo ra một tuyên bố thiết kế tuyệt đẹp trong
+          phòng tắm.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute ™ Vietnam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 778cc4f9-2e14-4bed-9595-e2a5364cc492
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:41:07.946+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T16:41:09.299+05:30
+        hippotranslation:id: a65ca026-1ee9-4d07-baeb-6a4f3efc7623
+        hippotranslation:locale: en
+        kohler:description: Các tính đúc của đay là một trò chơi vui nhộn về thẩm
+          mỹ hiện đại giữa thế kỷ và sẽ tạo ra một tuyên bố thiết kế tuyệt đẹp trong
+          phòng tắm.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute ™ Vietnam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /artifacts:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 11defd9d-6982-43b8-8b7c-c9c8c714f0c0
+      hippo:name: Artifacts
+      /artifacts[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 89b2b26f-3714-4bf7-8568-71f06260bc12
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:41:29.972+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4e8b9758-c71f-43d0-b25c-1cb5a228d2d0
+        hippotranslation:locale: en
+        kohler:description: Vẻ đẹp của bộ sưu tập Đồ tạo tác nằm ở kiểu dáng vượt
+          thời gian của nó. Từ bình thường đến hình thức, đồ tạo tác ở nhà trong bất
+          kỳ trang trí.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® trong phòng tắm Việt Nam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b37564ae-cb11-47a1-9d12-e08a29901912
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:41:10.732+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4e8b9758-c71f-43d0-b25c-1cb5a228d2d0
+        hippotranslation:locale: en
+        kohler:description: Vẻ đẹp của bộ sưu tập Đồ tạo tác nằm ở kiểu dáng vượt
+          thời gian của nó. Từ bình thường đến hình thức, đồ tạo tác ở nhà trong bất
+          kỳ trang trí.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® trong phòng tắm Việt Nam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 755a0c5e-c298-4cde-adf9-0353924b4a88
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T16:41:29.972+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T16:41:32.781+05:30
+        hippotranslation:id: 4e8b9758-c71f-43d0-b25c-1cb5a228d2d0
+        hippotranslation:locale: en
+        kohler:description: Vẻ đẹp của bộ sưu tập Đồ tạo tác nằm ở kiểu dáng vượt
+          thời gian của nó. Từ bình thường đến hình thức, đồ tạo tác ở nhà trong bất
+          kỳ trang trí.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® trong phòng tắm Việt Nam
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+  /material-and-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+    jcr:uuid: fb3ff1f2-0530-437b-81fb-c92116d136ee
+    hippo:name: material and color palette
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: b3b31f03-ee69-4035-8ec8-50df32c263ad
+    hippotranslation:locale: vi_VN
+  /globalproject-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 209b3fe1-8bfa-477e-a5e0-6cbb2923acc0
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 53aa5436-04cc-4c8d-b564-3e4da6449008
+    hippotranslation:locale: vi_VN

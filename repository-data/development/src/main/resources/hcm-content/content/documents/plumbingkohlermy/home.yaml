@@ -1,0 +1,497 @@
+/content/documents/plumbingkohlermy/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 0e759cef-a101-4ddd-ba98-93a7e1d154b2
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: 4d871b24-a7d7-4801-8c2a-7f0aa9c2686a
+  hippotranslation:locale: en_MY
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 39c434dc-b46f-43bd-b89f-b4466fcd5cac
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 5d87998a-ead8-462a-94f8-12c7f140e3ac
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:35.656+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0a1567db-41fa-48bf-ad10-b4fbb24e86b1
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean malaysia
+      kohler:title: Cleansing seats malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a2d04f89-1003-4e01-ba02-1e4889bdc199
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:30.958+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0a1567db-41fa-48bf-ad10-b4fbb24e86b1
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean malaysia
+      kohler:title: Cleansing seats malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e5623299-5cf2-449f-be27-9a928097b167
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:35.656+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T21:05:36.912+05:30
+      hippotranslation:id: 0a1567db-41fa-48bf-ad10-b4fbb24e86b1
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: Leaves you feeling a cleaner kind of clean malaysia
+      kohler:title: Cleansing seats malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 98badfee-9ca8-4647-ba61-db57e0462133
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: b94d331f-ea4a-4fea-bee0-2720292be2bb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:44.906+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ac9e61fa-589d-40e5-830c-7d70323d8ff7
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 82f95e87-87e4-4654-996a-58a5c82d997e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:38.237+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ac9e61fa-589d-40e5-830c-7d70323d8ff7
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b5f78201-0b2c-486c-9d32-17656220f751
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:44.906+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T21:05:46.831+05:30
+      hippotranslation:id: ac9e61fa-589d-40e5-830c-7d70323d8ff7
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: Every great work of art starts with inspiration
+      kohler:title: Artist Editions malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b9f4f73d-1c39-40cf-8f33-298c15104dc6
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 1ef18116-4f54-442e-8ed9-2cf59f17a5d9
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:54.360+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: be2c2d59-3092-4bd8-b023-c86ee634ade5
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. malaysia
+      kohler:title: Composed malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 87a351b7-2ac5-4d9f-8475-0551f919cd5e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:48.829+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: be2c2d59-3092-4bd8-b023-c86ee634ade5
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. malaysia
+      kohler:title: Composed malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a078ef52-c698-4753-9db0-546dc74519f2
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:54.360+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T21:05:55.757+05:30
+      hippotranslation:id: be2c2d59-3092-4bd8-b023-c86ee634ade5
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The Composed faucet collection by Kohler is a design stripped
+        of nonessential flourishes. malaysia
+      kohler:title: Composed malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 7a796d07-6a6f-412d-a988-235e1a7ff491
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 908520af-5c9c-4e68-a437-bdd283e35579
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:02.504+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5592ea99-7c6d-42fe-aaa7-93b94bbdd2c7
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  malaysia
+      kohler:title: Bathroom Vanities malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 72336fc7-d887-4309-82ba-85a815cd0979
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:05:57.952+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5592ea99-7c6d-42fe-aaa7-93b94bbdd2c7
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  malaysia
+      kohler:title: Bathroom Vanities malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 92eb815e-8667-4fc5-9a76-0e0bdec1ea47
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:02.504+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T21:06:03.854+05:30
+      hippotranslation:id: 5592ea99-7c6d-42fe-aaa7-93b94bbdd2c7
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: The KOHLER tailored Vanity Collection brings a new dimension
+        to the bathroom. Each style enables you to furnish your room completely in
+        Kohler quality.  malaysia
+      kohler:title: Bathroom Vanities malaysia
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 409e2481-62ca-4736-8752-252512e2725e
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 84144394-e8ba-4a55-a88d-98785f054463
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:10.328+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9c11dfc9-3c43-40d8-a1d2-afcc70866abd
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. malaysia
+      kohler:title: DTV+™ malaysia
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8b572cef-0fca-4f59-8add-fbbbdf035c5c
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:05.624+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9c11dfc9-3c43-40d8-a1d2-afcc70866abd
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. malaysia
+      kohler:title: DTV+™ malaysia
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f98ee54c-3f59-450d-bb79-9e8ff22c7797
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:10.328+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T21:06:11.517+05:30
+      hippotranslation:id: 9c11dfc9-3c43-40d8-a1d2-afcc70866abd
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: Kohler brings water, sound, steam and light together like
+        no one else in DTV+. It's our most advanced showering system ever. malaysia
+      kohler:title: DTV+™ malaysia
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 6d33564b-5751-4cde-8594-8284e65e59ea
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 07805251-9594-46f5-9ef1-f6c30214bd86
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:17.223+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b73b48a8-cf7c-49a7-868b-86163537cd37
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        malaysia
+      kohler:title: Go Touchless malaysia
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2419de40-c655-4677-bac1-db7936a19a97
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:13.253+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b73b48a8-cf7c-49a7-868b-86163537cd37
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        malaysia
+      kohler:title: Go Touchless malaysia
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e31f4f5a-5a4b-4353-b7ff-6668c8bc09ef
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T21:06:17.223+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-16T21:06:18.397+05:30
+      hippotranslation:id: b73b48a8-cf7c-49a7-868b-86163537cd37
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: No touch means fewer germs to pick up or leave behind.
+        malaysia
+      kohler:title: Go Touchless malaysia

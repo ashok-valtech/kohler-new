@@ -1,0 +1,386 @@
+/content/gallery/plumbingkohlermy/global-projects:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: b2c37ba5-c940-4d5d-98a1-0d8fe6f5064c
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /australia:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 9a81561e-62f7-4f10-bced-3e34857ade82
+    hippo:name: Australia
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_capri_by_fraser.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 7512544f-625e-4a2d-ad85-c86adfade741
+      hippo:name: Cover_Capri_By_Fraser.jpg
+      /cover_capri_by_fraser.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_Capri_By_Fraser.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_Capri_By_Fraser.jpg
+          hippogallery:height: 35
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/australia/cover_capri_by_fraser.jpg/Cover_Capri_By_Fraser_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T09:38:04.621Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 764
+          hippogallery:width: 1280
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/australia/cover_capri_by_fraser.jpg/Cover_Capri_By_Fraser_original.jpg
+          jcr:lastModified: 2017-08-11T09:38:04.621Z
+          jcr:mimeType: image/jpeg
+    /cover_crown_towers_perth.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: efa530ad-55a5-4ada-805b-f87ef1d80477
+      hippo:name: Cover_Crown_Towers_Perth.jpg
+      /cover_crown_towers_perth.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_Crown_Towers_Perth.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_Crown_Towers_Perth.jpg
+          hippogallery:height: 33
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/australia/cover_crown_towers_perth.jpg/Cover_Crown_Towers_Perth_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T09:38:20.044Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 900
+          hippogallery:width: 1600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/australia/cover_crown_towers_perth.jpg/Cover_Crown_Towers_Perth_original.jpg
+          jcr:lastModified: 2017-08-11T09:38:20.044Z
+          jcr:mimeType: image/jpeg
+  /china:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 74a7719d-4acb-4a86-82c0-a04697a61107
+    hippo:name: China
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+  /hong-kong:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: c88b762e-c893-4523-8dc8-f4e7730af737
+    hippo:name: Hong Kong
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_the_ritz-carlton.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 162ff54c-258d-4e37-bfa3-e30142afa86c
+      hippo:name: Cover_The_Ritz-Carlton.jpg
+      /cover_the_ritz-carlton.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_The_Ritz-Carlton.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_The_Ritz-Carlton.jpg
+          hippogallery:height: 35
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/hong-kong/cover_the_ritz-carlton.jpg/Cover_The_Ritz-Carlton_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T07:49:44.708Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 830
+          hippogallery:width: 1400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/hong-kong/cover_the_ritz-carlton.jpg/Cover_The_Ritz-Carlton_original.jpg
+          jcr:lastModified: 2017-08-11T07:49:44.708Z
+          jcr:mimeType: image/jpeg
+  /indonesia:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 6297c7d3-b97e-4df0-81ec-9f2c19bafa86
+    hippo:name: Indonesia
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+  /malaysia:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 6f9a7cdd-f4f9-419c-a7a7-72252fd9cbe6
+    hippo:name: Malaysia
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_mulu_marriott_resort_spa.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 3b73b98d-827b-4f3c-b4b8-43127a40cdf7
+      hippo:name: Cover_Mulu_Marriott_Resort_Spa.jpg
+      /cover_mulu_marriott_resort_spa.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_Mulu_Marriott_Resort_Spa.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_Mulu_Marriott_Resort_Spa.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/malaysia/cover_mulu_marriott_resort_spa.jpg/Cover_Mulu_Marriott_Resort_Spa_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T09:55:03.648Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 462
+          hippogallery:width: 693
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/malaysia/cover_mulu_marriott_resort_spa.jpg/Cover_Mulu_Marriott_Resort_Spa_original.jpg
+          jcr:lastModified: 2017-08-11T09:55:03.648Z
+          jcr:mimeType: image/jpeg
+  /philippines:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: a3d1d833-2225-4868-b230-c182026847b6
+    hippo:name: Philippines
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_solaire_resort_casino.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: b85dba19-b302-4fce-bbd6-079902576f0a
+      hippo:name: Cover_Solaire_Resort_Casino.jpg
+      /cover_solaire_resort_casino.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_Solaire_Resort_Casino.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_Solaire_Resort_Casino.jpg
+          hippogallery:height: 41
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/philippines/cover_solaire_resort_casino.jpg/Cover_Solaire_Resort_Casino_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T10:34:28.326Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 690
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/philippines/cover_solaire_resort_casino.jpg/Cover_Solaire_Resort_Casino_original.jpg
+          jcr:lastModified: 2017-08-11T10:34:28.326Z
+          jcr:mimeType: image/jpeg
+  /singapore:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 71011c84-2d26-4e4a-9436-d0c30fe6f873
+    hippo:name: Singapore
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_the_club.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 6803c51b-a6f8-497a-ab17-8a126e7e62a5
+      hippo:name: Cover_The_Club.png
+      /cover_the_club.png:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_The_Club.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_The_Club.png
+          hippogallery:height: 26
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/singapore/cover_the_club.png/Cover_The_Club_thumbnail.png
+          jcr:lastModified: 2017-08-11T09:42:28.665Z
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/singapore/cover_the_club.png/Cover_The_Club_original.png
+          jcr:lastModified: 2017-08-11T09:42:28.665Z
+          jcr:mimeType: image/png
+  /taiwan:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 79707917-adbe-4fca-9610-fdf9a74fc8db
+    hippo:name: Taiwan
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_the_lin_taichung.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 642c4608-25e8-47e8-a038-cb6904c99dc3
+      hippo:name: Cover_The_Lin_Taichung.jpg
+      /cover_the_lin_taichung.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_The_Lin_Taichung.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_The_Lin_Taichung.jpg
+          hippogallery:height: 39
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/taiwan/cover_the_lin_taichung.jpg/Cover_The_Lin_Taichung_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T10:07:52.851Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 853
+          hippogallery:width: 1280
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/taiwan/cover_the_lin_taichung.jpg/Cover_The_Lin_Taichung_original.jpg
+          jcr:lastModified: 2017-08-11T10:07:52.851Z
+          jcr:mimeType: image/jpeg
+  /thailand:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 3ddb437f-bc67-4e41-a63e-4831ef99550f
+    hippo:name: Thailand
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_hotel_indigo.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 61438a4c-a041-4f6d-b09a-00c3c9fbfd01
+      hippo:name: Cover_Hotel_Indigo.jpg
+      /cover_hotel_indigo.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_Hotel_Indigo.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_Hotel_Indigo.jpg
+          hippogallery:height: 30
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/thailand/cover_hotel_indigo.jpg/Cover_Hotel_Indigo_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T09:39:14.990Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 720
+          hippogallery:width: 1440
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/thailand/cover_hotel_indigo.jpg/Cover_Hotel_Indigo_original.jpg
+          jcr:lastModified: 2017-08-11T09:39:14.990Z
+          jcr:mimeType: image/jpeg
+  /vietnam:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: c5bc40f3-6d7e-492a-a206-31ad6acf86de
+    hippo:name: Vietnam
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /cover_the_grand_ho_tram_strip.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 2dbe1ae3-554a-4d38-869d-c78b964f1de5
+      hippo:name: Cover_The_Grand_Ho_Tram_Strip.jpg
+      /cover_the_grand_ho_tram_strip.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Cover_The_Grand_Ho_Tram_Strip.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_The_Grand_Ho_Tram_Strip.jpg
+          hippogallery:height: 35
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/vietnam/cover_the_grand_ho_tram_strip.jpg/Cover_The_Grand_Ho_Tram_Strip_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T07:34:44.616Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 550
+          hippogallery:width: 920
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/vietnam/cover_the_grand_ho_tram_strip.jpg/Cover_The_Grand_Ho_Tram_Strip_original.jpg
+          jcr:lastModified: 2017-08-11T07:34:44.616Z
+          jcr:mimeType: image/jpeg
+    /cover_flc_luxury_resort_qui_nhon.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5ed8f096-2b25-45d2-935c-75354344a0c0
+      hippo:name: Cover_FLC_Luxury_Resort_Qui_Nhon.jpg
+      /cover_flc_luxury_resort_qui_nhon.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Cover_FLC_Luxury_Resort_Qui_Nhon.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_FLC_Luxury_Resort_Qui_Nhon.jpg
+          hippogallery:height: 48
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/vietnam/cover_flc_luxury_resort_qui_nhon.jpg/Cover_FLC_Luxury_Resort_Qui_Nhon_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T07:41:57.359Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 462
+          hippogallery:width: 957
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/vietnam/cover_flc_luxury_resort_qui_nhon.jpg/Cover_FLC_Luxury_Resort_Qui_Nhon_original.jpg
+          jcr:lastModified: 2017-08-11T09:20:23.930Z
+          jcr:mimeType: image/jpeg
+    /cover_hotel_des_arts.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5af5fab7-ad40-4ba4-bfce-ce6bce18dbb9
+      hippo:name: Cover_Hotel_Des_Arts.jpg
+      /cover_hotel_des_arts.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cover_Hotel_Des_Arts.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Cover_Hotel_Des_Arts.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/vietnam/cover_hotel_des_arts.jpg/Cover_Hotel_Des_Arts_thumbnail.jpg
+          jcr:lastModified: 2017-08-11T09:23:19.190Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 1200
+          hippogallery:width: 1796
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/global-projects/vietnam/cover_hotel_des_arts.jpg/Cover_Hotel_Des_Arts_original.jpg
+          jcr:lastModified: 2017-08-11T09:23:19.190Z
+          jcr:mimeType: image/jpeg

@@ -1,0 +1,45 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.c-koh-sitemap-content {
+    overflow: hidden;
+    .koh-simple-content-body {
+        .koh-site-map {
+            list-style: outside none none;
+            padding-left: 0;
+        }
+    }
+    .koh-site-map {
+        .koh-sitemap-list {
+            margin-bottom: 20px;
+            min-height: 310px;
+            .koh-subnav-header {
+                font-weight: bold;
+                text-transform: capitalize;
+                font-family: HelveticaBold, Helvetica, sans-serif;
+            }
+            .koh-nav-section {
+                list-style: outside none none;
+                padding: 0;
+                li {
+                    margin-top: 10px;
+                }
+            }
+            @media #{$koh-media-screen-xs-max} {
+                min-height: auto;
+            }
+            @media #{$koh-media-screen-lg} {
+                min-height: auto;
+            }
+        }
+        @media #{$koh-media-screen-sm} {
+            .koh-sitemap-list {
+                min-height: 310px;
+                &:last-child {
+                    min-height: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+site: kohler
+group: kohler
+project: kohler
+module:
+  name: kohler-repository-data-site-development
+  after: kohler-repository-data-site

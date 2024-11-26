@@ -1,0 +1,17 @@
+/content/documents/plumbingkohlerentw/productfacets:
+  .meta:order-before: products
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:count: 3
+  hippo:docbase: 10dca215-f083-40db-884b-0e704d8a9628
+  hippofacnav:facetnodenames: [Categories, IsNew, PriceRange, Color, InstallationType,
+    HandleType, NumberOfHandles, WaterSaving, ProductType, ToiletType, LitersperFlush,
+    BowlShape, TrapwayType, RoughIn, 'ProductFamily${sortby:''facetvalue'', sortorder:''ascending''}',
+    Material, 'OverallLength${sortby:''facetvalue'', sortorder:''ascending''}', 'OverallHeight${sortby:''facetvalue'',
+      sortorder:''ascending''}', 'OverallWidth${sortby:''facetvalue'', sortorder:''ascending''}']
+  hippofacnav:facets: ['hippotaxonomy:keys', 'kohler:isNew', 'kohler:priceRange',
+    'kohler:color', 'kohler:installationType', 'kohler:handleType', 'kohler:numberOfHandles',
+    'kohler:waterSaving', 'kohler:ProductType', 'kohler:toiletType', 'kohler:Liters_Per_Flush',
+    'kohler:bowlShape', 'kohler:Trapway_Type', 'kohler:minimumRoughIn', 'kohler:productFamily',
+    'kohler:material', 'kohler:overallLength', 'kohler:overallHeight', 'kohler:overallWidth']
+  hippofacnav:filters: ['jcr:primaryType=kohler:Product']
+  hippofacnav:limit: 2000

@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/protoolbox:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:parameternames: [path]
+        hst:parametervalues: [/menus/footer/protoolbox]
+        hst:template: protoolbox
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: protoolbox/main

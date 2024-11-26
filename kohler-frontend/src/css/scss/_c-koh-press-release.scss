@@ -1,0 +1,221 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+// Component-Specific Variables and Mixins
+.c-koh-press-release {
+    background: $koh-color-white;
+    .koh-release-container {
+        @include koh-page-gutters();
+        overflow: auto;
+        padding: 20px 15px;
+        @media #{$koh-media-screen-md} {
+            padding: 0;
+        }
+        @media #{$koh-media-nav-breakpoint} {
+            width: 960px;
+        }
+        &:after {
+            content: "";
+            display:table;
+            clear:both;
+        }
+    }
+    .koh-release-header {
+        padding: 0 0 20px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid $koh-color-slt-grey;
+        @media #{$koh-media-screen-md} {
+            padding: 20px 0 20px 0;
+            margin-bottom: 40px;
+        }
+        .koh-release-title {
+            display: block;
+            font-size: 26px;
+            line-height: 1.428571429;
+            margin-top: 0;
+            font-family: $koh-font-sans-serif-light;
+            @media #{$koh-media-screen-md} {
+                font-size: 32px;
+            }
+        }
+        .koh-release-description {
+            display: block;
+            margin: 4px 0 12px 0;
+            @include koh-font( $font-size: 15px, $line-height: 23px, $font-family: $koh-font-sans-serif);
+            font-style: italic;
+            color: $koh-color-pmd-grey;
+            @media #{$koh-media-screen-md} {
+                margin: 8px 0 18px 0;
+            }
+        }
+        .koh-release-controls {
+            overflow: auto;
+            .koh-release-bookmark,
+            .koh-release-share,
+            .koh-release-print {
+                display: block;
+                float: left;
+                > button {
+                    display: inline-block;
+                    @include koh-button( $padding: 0);
+                    @include koh-slide-banner-overlay-icon-font();
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 5px;
+                    .label {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .koh-release-content {
+        div {
+            @include koh-font( $font-size: 15px, $line-height: 23px, $font-family: $koh-font-sans-serif-light);
+            p {
+                margin-bottom: 10px;
+                @media #{$koh-media-screen-md} {
+                    margin-bottom: 20px;
+                }
+            }
+            img {
+                margin-bottom: 10px;
+            }
+            @media #{$koh-media-screen-md} {
+                &.v-image-left {
+                    img {
+                        float: left;
+                        margin: 5px 30px 0 0;
+                    }
+                }
+                &.v-image-right {
+                    img {
+                        float: right;
+                        margin: 5px 0 0 30px;
+                    }
+                }
+            }
+        }
+    }
+    .koh-release-sidebar {
+        position: relative;
+        font-size: 1.5em;
+        .koh-release-contacts {
+            background: $koh-color-slt-grey none repeat scroll 0 0;
+            margin-left: 40px;
+            overflow: hidden;
+            padding: 24px;
+            h3 {
+                margin: 0;
+            }
+            .koh-press-room-list {
+                list-style: outside none none;
+                margin: 0;
+                padding: 0;
+                li {
+                    border-top: 1px solid #ccc;
+                    line-height: 1.8em;
+                    margin-top: 10px;
+                    padding-top: 10px;
+                    .koh-media-contact-name {
+                        font-weight: 600;
+                    }
+                }
+            }
+            @media #{$koh-media-screen-xs-max} {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.koh-release-popover {
+    &.v-koh-bookmark {
+        display: none;
+        background: $koh-color-white;
+        color: $koh-color-pdk-grey;
+        min-width: 300px;
+        padding: 20px;
+        text-align: left;
+        .koh-caption {
+            @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-bold);
+            padding-bottom: 10px;
+            border-bottom: 1px solid $koh-color-smd-grey;
+            margin-bottom: 10px;
+        }
+        > form {
+            .koh-fieldset-folders {
+                padding: 0;
+                list-style: none;
+                @include koh-font( $font-size: 12px, $font-family: $koh-font-sans-serif-bold);
+                margin-bottom: 10px;
+            }
+            .koh-form-field {
+                @include koh-font( $font-size: 12px);
+                margin-bottom: 10px;
+                position: relative;
+                .koh-character-count {
+                    position: absolute;
+                    right: 0;
+                }
+                textarea {
+                    width: 100%;
+                }
+            }
+            button {
+                &.koh-button-add {
+                    @include koh-button-blue($padding: 8px 14px);
+                }
+                &.koh-button-cancel {
+                    @include koh-button-grey($padding: 8px 14px);
+                }
+            }
+        }
+    }
+    &.v-koh-share {
+        display: none;
+        background: $koh-color-white;
+        color: $koh-color-pdk-grey;
+        min-width: 238px;
+        padding: 20px;
+        list-style: none;
+        button {
+            @include koh-unbutton();
+            background: $koh-color-white;
+            color: $koh-color-pdk-grey;
+            width: 100%;
+            padding: 5px 0;
+            @include koh-font( $font-size: 14px);
+            line-height: 20px;
+            .icon {
+                width: 20px;
+                height: 20px;
+                font-size: 20px;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            &.koh-share-pinterest .icon {
+                color: #c62b2e;
+            }
+            &.koh-share-houzz .icon {
+                color: #76b74b;
+            }
+            &.koh-share-facebook .icon {
+                color: #325a90;
+            }
+            &.koh-share-twitter .icon {
+                color: #55acee;
+            }
+            &.koh-share-google .icon {
+                color: #cc4e3f;
+            }
+            &.koh-share-email .icon {
+                color: #3b659c;
+            }
+            &.koh-share-showroom .icon {
+                color: #000000;
+            }
+        }
+    }
+}

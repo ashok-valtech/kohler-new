@@ -1,0 +1,56 @@
+/content/documents/config/th:
+  .meta:order-before: tw
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 8181c489-6f7e-4d01-a57f-829d9b9a622e
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: f13a90c2-e000-45c7-8a70-2cbf6e014d11
+  hippotranslation:locale: en
+  /robots:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 2f078bd5-d4cd-47ac-b151-4ab91c600248
+    hippo:name: robots
+    /robots[1]:
+      jcr:primaryType: robotstxt:robotstxt
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 80fef43f-73d2-4e78-8f0f-8bf906ecda3b
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-26T16:19:59.129Z
+      hippostdpubwf:lastModificationDate: 2018-07-20T15:03:45.563Z
+      hippostdpubwf:lastModifiedBy: admin
+      /robotstxt:section:
+        jcr:primaryType: robotstxt:section
+        robotstxt:disallow: [/results/]
+        robotstxt:useragent: '*'
+    /robots[2]:
+      jcr:primaryType: robotstxt:robotstxt
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bf45ec0c-60d6-4ab7-bb55-f1ab5fb792ea
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-26T16:19:59.129Z
+      hippostdpubwf:lastModificationDate: 2018-07-20T15:03:45.563Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-07-20T15:03:47.790Z
+      /robotstxt:section:
+        jcr:primaryType: robotstxt:section
+        robotstxt:disallow: [/results/]
+        robotstxt:useragent: '*'
+    /robots[3]:
+      jcr:primaryType: robotstxt:robotstxt
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 089b20c8-8534-4180-b42b-1357fc55bb92
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-26T16:19:59.129Z
+      hippostdpubwf:lastModificationDate: 2018-07-20T15:04:25.329Z
+      hippostdpubwf:lastModifiedBy: admin
+      /robotstxt:section:
+        jcr:primaryType: robotstxt:section
+        robotstxt:disallow: [/results/]
+        robotstxt:useragent: '*'

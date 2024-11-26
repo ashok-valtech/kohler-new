@@ -1,0 +1,24 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:abstractpages/base:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.BaseComponent
+      hst:template: base-layout
+      /menu:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.MenuNavigationComponent
+        hst:parameternames: [selectedMenu, level, submenu, menu]
+        hst:parametervalues: ['on', '1', siteMenus, main]
+        hst:template: base-top-menu
+      /footer:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.MenuNavigationComponent
+        hst:parameternames: [selectedMenu, level, menu, submenu]
+        hst:parametervalues: ['on', '1', main, 'FooterNavigation,CopywriteNavigation']
+        hst:template: base-footer
+      /header:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.MenuNavigationComponent
+        hst:parameternames: [selectedMenu, level, menu, submenu]
+        hst:parametervalues: ['on', '1', main, 'brandingMenu,regionMenu']
+        hst:template: base-header-menu

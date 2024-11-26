@@ -1,0 +1,7 @@
+/content/gallery/plumbingkohlersg:
+  .meta:order-before: plumbingkohlerth
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: b8276bb7-662a-411e-99c8-6db5e65c9e1f
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

@@ -1,0 +1,532 @@
+/content/documents/kohler/dealerdocuments:
+  .meta:order-before: faq
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: d82d3dcb-4257-4ce6-8da6-b83d74d519b8
+  hippostd:foldertype: [new-dealer]
+  hippotranslation:id: 33f3ae71-9010-4720-96fd-48c08aff13ba
+  hippotranslation:locale: en
+  /dealer1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4317ff0d-63aa-4074-ab0c-468e2420bb0c
+    hippo:name: dealer1
+    /dealer1[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: e1a014e9-8b9d-4e08-a309-97e7c9734aa7
+      hippo:availability: [live]
+      hippo:name: dealer1
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.051+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.051+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7e86a18c-fb8b-4401-bfad-2ba19ff10fd1
+      hippotranslation:locale: en
+      kohler:addressLine1: tarabai park
+      kohler:addressLine2: panhala road
+      kohler:addressLine3: Kolhapur
+      kohler:city: Kolhapur
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: true
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: false
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Sawant Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Amey Sawant
+      kohler:state: Maharashtra
+      kohler:storeId: '1'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '4162001'
+    /dealer1[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: fc4bb3ed-e7aa-4d22-9422-5a5fdc626487
+      hippo:availability: [preview]
+      hippo:name: dealer1
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.051+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.051+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7e86a18c-fb8b-4401-bfad-2ba19ff10fd1
+      hippotranslation:locale: en
+      kohler:addressLine1: tarabai park
+      kohler:addressLine2: panhala road
+      kohler:addressLine3: Kolhapur
+      kohler:city: Kolhapur
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: true
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: false
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Sawant Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Amey Sawant
+      kohler:state: Maharashtra
+      kohler:storeId: '1'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '4162001'
+    /dealer1[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 3dd64f97-e155-42c2-b670-b8f9858e8807
+      hippo:availability: []
+      hippo:name: dealer1
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.051+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.251+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7e86a18c-fb8b-4401-bfad-2ba19ff10fd1
+      hippotranslation:locale: en
+      kohler:addressLine1: tarabai park
+      kohler:addressLine2: panhala road
+      kohler:addressLine3: Kolhapur
+      kohler:city: Kolhapur
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: true
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: false
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Sawant Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Amey Sawant
+      kohler:state: Maharashtra
+      kohler:storeId: '1'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '4162001'
+  /dealer2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 69141ad2-fc70-465c-a170-7e5b0ec1e7f0
+    hippo:name: dealer2
+    /dealer2[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: e7d5b711-deeb-42b6-b4c6-e3326805bf77
+      hippo:availability: [live]
+      hippo:name: dealer2
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.350+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.350+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1c828f31-89fd-4542-9152-a12b6f858c5b
+      hippotranslation:locale: en
+      kohler:addressLine1: Ganpati Road
+      kohler:addressLine2: ''
+      kohler:addressLine3: Sangli
+      kohler:city: Sangli
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: true
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Patil Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Amit Patil
+      kohler:state: Maharashtra
+      kohler:storeId: '2'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '416301'
+    /dealer2[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: ea0a25a2-c401-47f3-89d6-b1fd11050a6e
+      hippo:availability: [preview]
+      hippo:name: dealer2
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.350+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.350+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1c828f31-89fd-4542-9152-a12b6f858c5b
+      hippotranslation:locale: en
+      kohler:addressLine1: Ganpati Road
+      kohler:addressLine2: ''
+      kohler:addressLine3: Sangli
+      kohler:city: Sangli
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: true
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Patil Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Amit Patil
+      kohler:state: Maharashtra
+      kohler:storeId: '2'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '416301'
+    /dealer2[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 502254ce-6ad2-402e-8d2c-ec2bdec0864d
+      hippo:availability: []
+      hippo:name: dealer2
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.350+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.529+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1c828f31-89fd-4542-9152-a12b6f858c5b
+      hippotranslation:locale: en
+      kohler:addressLine1: Ganpati Road
+      kohler:addressLine2: ''
+      kohler:addressLine3: Sangli
+      kohler:city: Sangli
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: true
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Patil Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Amit Patil
+      kohler:state: Maharashtra
+      kohler:storeId: '2'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '416301'
+  /dealer3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d6c45457-f4b0-4898-aec4-0aac3ff3404f
+    hippo:name: dealer3
+    /dealer3[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 3da00a12-697a-481a-8a8f-1ff65f8bd531
+      hippo:availability: [live]
+      hippo:name: dealer3
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.597+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.597+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7f2688c8-fa88-4662-95f1-42de0f0d5b9a
+      hippotranslation:locale: en
+      kohler:addressLine1: Main Road
+      kohler:addressLine2: ''
+      kohler:addressLine3: Sangli
+      kohler:city: Sangli
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: false
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: City Treders
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Krushna
+      kohler:state: Maharashtra
+      kohler:storeId: '3'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '416301'
+    /dealer3[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: a53640bd-ca1f-4aed-aebe-23e928263982
+      hippo:availability: [preview]
+      hippo:name: dealer3
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.597+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.597+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7f2688c8-fa88-4662-95f1-42de0f0d5b9a
+      hippotranslation:locale: en
+      kohler:addressLine1: Main Road
+      kohler:addressLine2: ''
+      kohler:addressLine3: Sangli
+      kohler:city: Sangli
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: false
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: City Treders
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Krushna
+      kohler:state: Maharashtra
+      kohler:storeId: '3'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '416301'
+    /dealer3[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 0b08ef14-33eb-4803-a87b-a0d7da6ae6af
+      hippo:availability: []
+      hippo:name: dealer3
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.597+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.772+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7f2688c8-fa88-4662-95f1-42de0f0d5b9a
+      hippotranslation:locale: en
+      kohler:addressLine1: Main Road
+      kohler:addressLine2: ''
+      kohler:addressLine3: Sangli
+      kohler:city: Sangli
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Sawant Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: false
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: City Treders
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: Krushna
+      kohler:state: Maharashtra
+      kohler:storeId: '3'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '416301'
+  /dealer4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 73a99ea7-1a7d-4bf2-99cf-e50eab209536
+    hippo:name: dealer4
+    /dealer4[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 49589cb4-71cc-4403-87f8-7d72530e0f6f
+      hippo:availability: [live]
+      hippo:name: dealer4
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.883+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.883+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4e08d73a-fd9c-4b97-a21f-255328644cde
+      hippotranslation:locale: en
+      kohler:addressLine1: address line 1
+      kohler:addressLine2: address line 2
+      kohler:addressLine3: address line 3
+      kohler:city: Banglore
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Banglore Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: true
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Banglore Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: abc xyz
+      kohler:state: Karnataka
+      kohler:storeId: '4'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '560078'
+    /dealer4[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 8f7c234a-b9f5-4f74-8de8-86b615e4b1db
+      hippo:availability: [preview]
+      hippo:name: dealer4
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.883+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:19.883+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4e08d73a-fd9c-4b97-a21f-255328644cde
+      hippotranslation:locale: en
+      kohler:addressLine1: address line 1
+      kohler:addressLine2: address line 2
+      kohler:addressLine3: address line 3
+      kohler:city: Banglore
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Banglore Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: true
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Banglore Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: abc xyz
+      kohler:state: Karnataka
+      kohler:storeId: '4'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '560078'
+    /dealer4[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 140874ea-bf78-40d2-be06-927466887741
+      hippo:availability: []
+      hippo:name: dealer4
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-05T16:30:19.883+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-05T16:30:20.019+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4e08d73a-fd9c-4b97-a21f-255328644cde
+      hippotranslation:locale: en
+      kohler:addressLine1: address line 1
+      kohler:addressLine2: address line 2
+      kohler:addressLine3: address line 3
+      kohler:city: Banglore
+      kohler:country: India
+      kohler:dealerType: S2S Showrooms
+      kohler:description: Banglore Treding Company
+      kohler:detailView: false
+      kohler:facebookLink: https://www.facebook.com/valtech
+      kohler:fax: 1-408-999 8888
+      kohler:featuredShowroom: true
+      kohler:generalEmail: sawant@gmail.com
+      kohler:instagramLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:latitude: '47.64054'
+      kohler:lineLink: https://www.instagram.com/explore/tags/valtech/
+      kohler:longitude: '-122.12934'
+      kohler:mobilePhone: +91-7841000000
+      kohler:nameOfStore: Banglore Treding Company
+      kohler:openingHours: ['Monday-Friday: 9:00 to 19:00 hrs', 'Saturday: 10:00 to
+          14:00 hrs', 'Sunday: Closed']
+      kohler:phone: [0233-2375477, 0233-2375478, 0233-2375479]
+      kohler:primaryContactEmail: sawanttreders@hotmail.com
+      kohler:primaryContactName: abc xyz
+      kohler:state: Karnataka
+      kohler:storeId: '4'
+      kohler:storeLogo: logo.png
+      kohler:twitterLink: https://twitter.com/valtech_
+      kohler:website: https://www.valtech.com/about/contact-us/bangalore/
+      kohler:zip: '560078'

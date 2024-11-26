@@ -1,0 +1,51 @@
+definitions:
+  config:
+    /hst:hst/hst:sites:
+      /kohler:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/kohler
+      /plumbingkohlersg:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlersg
+      /plumbingkohlerid:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerid
+      /plumbingkohlerenid:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerenid
+      /plumbingkohlerph:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerph
+      /plumbingkohlerkr:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerkr
+      /plumbingkohlervn:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlervn
+      /plumbingkohlerth:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerth
+      /plumbingkohlertw:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlertw
+      /plumbingkohlerhk:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerhk
+      /plumbingkohlerenvn:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerenvn
+      /plumbingkohlerentw:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerentw
+      /plumbingkohlerenth:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerenth
+      /plumbingkohlerenhk:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerenhk
+      /plumbingkohlerenkr:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlerenkr
+      /plumbingkohlermy:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/plumbingkohlermy

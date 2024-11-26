@@ -1,0 +1,91 @@
+/content/gallery/kohler/bathroom-products-buying-guides-styling-spaces:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 28cb9a40-b705-4909-a864-72b42a1b8bfd
+  hippo:name: Bathroom Products Buying Guides Styling Spaces
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /zac08690_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 44cf911e-f1f8-4fad-9ac3-ac4c6d3d8ae3
+    hippo:name: Size & Installation.jpg
+    /zac08690_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac08690_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac08690_rgb.jpg
+        hippogallery:height: 18
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-products-buying-guides-styling-spaces/zac08690_rgb.jpg/zac08690_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-09-15T06:41:29.401Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 568
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-products-buying-guides-styling-spaces/zac08690_rgb.jpg/zac08690_rgb_original.jpg
+        jcr:lastModified: 2017-09-15T06:41:29.401Z
+        jcr:mimeType: image/jpeg
+  /zac08692_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4874484a-a52e-4bf0-9eee-fb261e390f86
+    hippo:name: Mirror cabinets Design Shape.jpg
+    /zac08692_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac08692_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac08692_rgb.jpg
+        hippogallery:height: 20
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-products-buying-guides-styling-spaces/zac08692_rgb.jpg/zac08692_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-09-15T07:05:09.482Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-products-buying-guides-styling-spaces/zac08692_rgb.jpg/zac08692_rgb_original.jpg
+        jcr:lastModified: 2017-09-15T07:05:09.482Z
+        jcr:mimeType: image/jpeg
+  /zac08693_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d2043ae9-0c48-4968-b12d-d6386c881146
+    hippo:name: Mirrors Shape.jpg
+    /zac08693_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac08693_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac08693_rgb.jpg
+        hippogallery:height: 20
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-products-buying-guides-styling-spaces/zac08693_rgb.jpg/zac08693_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-09-15T07:32:15.120Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-products-buying-guides-styling-spaces/zac08693_rgb.jpg/zac08693_rgb_original.jpg
+        jcr:lastModified: 2017-09-15T07:32:15.120Z
+        jcr:mimeType: image/jpeg

@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/categorySitemap:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.CustomSitemapComponent
+      hst:parameternames: [siteMenuParentName, siteMenuName, contentRootPath]
+      hst:parametervalues: ['${siteMenuParentName}', '${siteMenuName}', '${contentRootPath}']
+      hst:template: specific-sitemap.ftl

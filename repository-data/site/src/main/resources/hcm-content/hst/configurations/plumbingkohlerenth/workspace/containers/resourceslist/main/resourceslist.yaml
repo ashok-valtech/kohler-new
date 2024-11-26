@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers/resourceslist/main/resourceslist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+  hst:label: Resources List
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [ideas/resources, '', asc, 'kohler:displayOrder', '10', 'off',
+    'on']
+  hst:template: resources-item-list-main
+  hst:xtype: hst.item

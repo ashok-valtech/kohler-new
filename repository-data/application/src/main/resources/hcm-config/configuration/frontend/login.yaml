@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/login/login/loginPage:
+      show.captcha.after.how.many.times:
+        operation: delete
+      use.captcha:
+        operation: delete

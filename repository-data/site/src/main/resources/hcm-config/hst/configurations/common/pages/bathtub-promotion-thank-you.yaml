@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/bathtub-promotion-thank-you:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: promo-thankyou-page-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: bathtub-thank-you/main

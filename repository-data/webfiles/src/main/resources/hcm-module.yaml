@@ -1,0 +1,5 @@
+group:
+  name: kohler
+project: kohler
+module:
+  name: kohler-repository-data-webfiles

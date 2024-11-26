@@ -1,0 +1,34 @@
+/content/gallery/plumbingkohlersg/home:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: fe4850df-01b5-4a0c-88db-596087231db0
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /kohler-logo-261x146-1.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d17bac7c-2a94-4d7d-925a-c9b79432f72e
+    hippo:name: kohler-logo-261x146-1.png
+    /kohler-logo-261x146-1.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: kohler-logo-261x146.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: kohler-logo-261x146.png
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/home/kohler-logo-261x146-1.png/kohler-logo-261x146_thumbnail.png
+        jcr:lastModified: 2017-08-21T17:18:04.062+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 261
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/home/kohler-logo-261x146-1.png/kohler-logo-261x146_original.png
+        jcr:lastModified: 2017-08-21T17:18:04.062+05:30
+        jcr:mimeType: image/png

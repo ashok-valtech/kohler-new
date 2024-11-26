@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-customBanner-folder:
+      jcr:primaryType: hippostd:templatequery
+      jcr:mixinTypes: ['hipposys:implementation']
+      hippostd:icon: addfolder_ico
+      hippostd:modify: [./_name, $name, './hippotranslation:id', $uuid, './hippotranslation:locale',
+        $inherited]
+      hipposys:classname: org.hippoecm.repository.impl.query.DirectPath
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-customBanner-folder/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /hippostd:folder:
+          jcr:primaryType: hippostd:folder
+          jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+          jcr:uuid: 2d4b1f86-68cb-4ae7-ad1d-41bbccccf64a
+          hippostd:foldertype: [new-customBanner-folder, new-customBanner]
+          hippotranslation:id: 3f56ad50-ff7a-4dd1-9ffb-f72058a0b83d
+          hippotranslation:locale: inherited locale

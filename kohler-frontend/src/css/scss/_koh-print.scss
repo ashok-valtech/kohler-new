@@ -1,0 +1,492 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+@media print {
+    body {
+        width: 768px;
+    }
+    .visible-print {
+        display: block!important
+    }
+    table.visible-print {
+        display: table!important
+    }
+    tr.visible-print {
+        display: table-row!important
+    }
+    td.visible-print,
+    th.visible-print {
+        display: table-cell!important
+    }
+    footer {
+        clear: both;
+        width: 100%;
+        overflow: hidden;
+    }
+    .visible-print-block {
+        display: none!important
+    }
+    .visible-print-block {
+        display: block!important
+    }
+    .visible-print-inline {
+        display: none!important
+    }
+    .visible-print-inline {
+        display: inline!important
+    }
+    .visible-print-inline-block {
+        display: none!important
+    }
+    .visible-print-inline-block {
+        display: inline-block!important
+    }
+    .hidden-print {
+        display: none!important
+    }
+    a[href]:after {
+        content: none
+    }
+    .remodal-close,
+    .remodal-close:before {
+        display: none
+    }
+    .koh-global-navigation {
+        .koh-global-navigation-components {
+            position: static;
+        }
+        .koh-global-navigation-spacer {
+            display: none;
+        }
+    }
+    .c-koh-branding-bar {
+        display: none !important;
+    }
+    .non-printable {
+        display: none !important;
+    }
+    #onetrust-banner-sdk {
+        display: none !important;
+    }
+    .koh-primary-nav-header {
+        border-bottom: none !important;
+    }
+    .koh-primary-nav-toggle,
+    .koh-primary-search-toggle,
+    .koh-primary-search-toggle,
+    .koh-primary-nav-menu {
+        display: none!important;
+    }
+    .koh-primary-nav {
+        border-bottom: none;
+    }
+    .c-koh-site-search {
+        display: none!important;
+    }
+    .c-koh-article-pages .koh-article-pages-container {
+        overflow: hidden;
+    }
+    .c-koh-printfooter {
+        font-size: 14px;
+        display: block;
+        padding: 40px 0 0;
+        border-top: 1px solid #e8e8e8;
+        margin: 10px 10px 0;
+        span {
+            font-weight: 700;
+        }
+    }
+    .koh-global-navigation-spacer {
+        height: 0 !important;
+    }
+    .c-koh-footer-copyright,
+    .c-koh-footer-nav {
+        display: none;
+    }
+    .c-koh-product-details {
+        .koh-product-content {
+            padding: 20px 0 !important;
+            .koh-product-resources {
+                > div, 
+                > span, 
+                > hr {
+                    display: none !important;
+                }
+                > .koh-product-specs {
+                    display: block !important;
+                    .koh-product-resources-technical-info {
+                        display: none !important;
+                    }
+                }
+
+            }
+            .koh-product-required-items-print {
+                display: block;
+                margin-top: 20px;
+                .required-product-subtitle {
+                    display: block;
+                    padding-bottom: 20px;
+                    font-family: HelveticaLight, Helvetica, sans-serif;
+                    font-size: 2em;
+                    line-height: 1em;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .contaier {
+                    width: 700px;
+                    float: none;
+                    clear: both;
+                    .required-product-row {
+                        overflow: hidden;
+                        display: inline-block;
+                        margin-bottom: 40px;
+                        .required-product-photo {
+                            display: inline-block;
+                            width: 100px
+                        }
+                        .required-product-description {
+                            display: inline-block;
+                            padding-left: 25px;
+                            padding-right: 20px;
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+            .koh-product-specs {
+                img {
+                    width: auto;
+                }
+            }
+        }
+        #back-to-top,
+        .koh-product-breadcrumb,
+        .koh-product-features-description-files,
+        .koh-product-locator,
+        .koh-product-tools,
+        .no-print {
+            display: none!important;
+        }
+        a {
+            color: #3b659c!important;
+        }
+        .product-images__primary {
+            display: block;
+        }
+        .koh-product-name-and-short-description,
+        .koh-product-skus-colors {
+            float: left;
+            padding-right: 20px;
+            width: 50%;
+        }
+        .koh-products-description-files-print {
+            display: block!important;
+            font-family: HelveticaLight, Helvetica, sans-serif;
+            font-size: 1.5em;
+            line-height: 1.5333333333em;
+            font-weight: 400;
+            .koh-product-long-description {
+                padding-bottom: 20px
+            }
+        }
+        .koh-product-image-sliders {
+            margin-bottom: 20px;
+            width: 100% !important;
+            background: #ffffff !important;
+            div {
+                width: 100% !important;
+                height: auto !important;
+                img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+            }
+        }
+        /*.koh-product-specs-geometry {
+            display: none;
+        }*/
+    }
+    .koh-product-image-sliders,
+    .product-slider,
+    .iv-snap-view {
+            background: #ffffff !important;
+    }
+    .koh-product-details {
+        top: 0 !important;
+    }
+    .koh-product-top-row {
+        height: auto !important;
+    }
+    .koh-product-expand-container {
+        display: none !important;
+    }
+    .c-koh-product-details-modal {
+        display: none;
+    }
+    .koh-product-features {
+        padding-bottom: 0 !important;
+    }
+    .product-zoom-expand,
+    product-slide-expand {
+        display: none !important;
+    }
+    .koh-product-top-row {
+        height: auto !important;
+    }
+    .product-slide,
+    .product-slider-mobile {
+        display: none !important;
+    }
+    .slick-current {
+        display: block !important;
+        background: red !important;
+        left: 0 !important;
+        top: 0 !important;
+        height: 562px !important;
+        overflow:hidden !important;
+    }
+    .slick-current .product-zoom-contract,
+    .slick-current .product-zoom-contract .iv-container,
+    .slick-current .product-zoom-contract .iv-image-view {
+        display: block !important;
+        height: 562px !important;
+        position: relative !important;
+    }
+    .slick-current .product-zoom-contract .iv-container .iv-loader,
+    .slick-current .product-zoom-contract .iv-container .iv-snap-view,
+    .slick-current .product-zoom-contract .iv-container .iv-image-view {
+        display: none !important;
+    }
+    .slick-current .product-zoom-contract .iv-container img.koh-product-img {
+        display: block !important;
+        z-index: 10 !important;
+        opacity: 1 !important;
+    }
+    /*.product-slide,
+    .iv-snap-view {
+        display: none !important;
+    }
+    .iv-image-view img {
+        opacity: 1 !important;
+     }
+    .slick-current {
+        display: block !important;
+        width: 100% !important;
+        position: static !important;
+        max-width: 100% !important;
+        float: left;
+        left:0 !important;
+        background:red;
+    }
+
+    .slick-current * {
+        display: none !important;
+    }
+    
+    .slick-current .product-zoom-contract,
+    .slick-current .iv-container,
+    .slick-current .iv-image-view {
+        display: block !important;
+        height:562px !important;
+        width:100% !important;
+        position: static !important;
+    }
+    .slick-current img.koh-product-img {
+        display: block !important;
+        z-index: 10 !important;
+        opacity: 1 !important;
+    }
+
+    .product-slider-mobile {
+        display: none !important;
+    }*/
+    /*.product-slider .slick-active img,
+    .product-slider .slick-active .product-slide-expand,
+    .product-slider .slick-active .product-zoom-contract,
+    .product-slider .slick-active .product-zoom-expand .magnify-lens {
+        display: none !important;
+    }
+    .product-slider .slick-active .product-zoom-expand img.koh-product-img {
+        display: block !important;
+    }
+    .koh-product-image-sliders {
+        height: 562px !important;
+        overflow: hidden !important;
+    }
+    .iv-large-image img {
+        width: 100% !important;
+        position: static !important;
+        max-width: 100% !important;
+        float: left;
+    }*/
+    .c-koh-banner-carousel {
+        div {
+            position: static !important;
+            width: 100% !important;
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
+        }
+        .koh-banner-slide {
+            display: none !important;
+            background: #ffffff !important;
+            &.slick-active {
+                display: block !important;
+            }
+        }
+        .koh-carousel-controls {
+            display: none !important;
+        }
+        .koh-banner-overlay {
+            padding-bottom: 0 !important;
+            background: #ffffff !important;
+        }
+    }
+    .koh-similar-products-title {
+        margin-top: 0!important;
+    }
+    .koh-improve-site,
+    .koh-primary-nav-toggle,
+    .koh-primary-search-toggle {
+        display: none;
+    }
+    .koh-back-top,
+    #back-to-top,
+    .koh-fixed-enquire-btn {
+        display: none;
+    }
+    .koh-project-display-items {
+        width: 33.3333333333% !important;
+    }
+    .koh-print-share-tools {
+        display: none;
+    }
+    .c-koh-projects-pages {
+        .koh-similar-products {
+            overflow: hidden;
+        }
+        .koh-product-tiles {
+            .koh-product-tile {
+                width: 24% !important;
+                overflow: hidden;
+                background-color: #f9f9f9 !important;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+        .koh-similar-products {
+            padding: 0 0 20px !important;
+        }
+        .koh-projects-pages-container-banner {
+            overflow: hidden !important;
+            max-height: 575px !important;
+        }
+    }
+    .c-koh-projects-pages .koh-projects-pages-container {
+        overflow: hidden;
+    }
+    .koh-release-contacts {
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    .koh-release-header {
+        border-bottom: 0 none !important;
+        margin-bottom: 0 !important;
+    }
+    .koh-article-pages-section {
+        .koh-article-content {
+            width: 33.3333333333% !important;
+            &:last-child {
+                width: 66.6666666667% !important;
+            }
+            .koh-article-img-video {
+                margin: 20px 20px 0 0 !important;
+            }
+        }
+    }
+    .koh-article-pages-text-link {
+        background-color: black !important;
+        -webkit-print-color-adjust: exact;
+        color: white !important;
+    }
+    .c-koh-compare-panel,
+    .koh-article-pages-text-link {
+        display: none !important;
+    }
+    .c-koh-compare-products {
+        .koh-compare-top {
+            width: 100% !important;
+            .koh-compare-remove {
+                display: none !important;
+            }
+        }
+        .koh-compare-features {
+            width: 25% !important;
+        }
+        .koh-compare-columns {
+            width: 75% !important;
+            margin-left: 25% !important;
+            overflow: hidden !important;
+            .koh-compare-product {
+                width: 33.33% !important;
+            }
+        }
+        .koh-history-page {
+            display: none !important;
+        }
+        .koh-compare-features,
+        .koh-compare-columns {
+            background-color: #f5f5f5 !important;
+            -webkit-print-color-adjust: exact;
+        }
+        .koh-compare-features {
+            .koh-compare-top {
+                width: 100% !important;
+            }
+        }
+    }
+    .koh-release-content,
+    .koh-release-sidebar {
+        width: 100% !important;
+    }
+    .koh-page {
+        overflow: hidden !important;
+    }
+    .qtip {
+        display: none !important;    
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content .koh-banner-text .more-seals {
+        width: 280px !important;
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content .koh-banner-text .more-seals div {
+        float: left;
+        width: 60px !important;
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content .koh-banner-text .more-seals div img {
+        width: 60px !important;
+        height: auto;
+        max-height: 100px
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel {
+        background-color: red!important;
+        -webkit-print-color-adjust: exact;
+        width: 768px !important;
+        height: 150px !important;
+        overflow: hidden;
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide {
+        width: 768px !important;
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-background {
+        width: 350px !important;
+        float: left
+    }
+    .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content {
+        width: 350px!important;
+        float: right;
+    }
+    .koh-banner-thumbnail-comp.c-koh-banner-carousel.v-koh-inline .koh-carousel .koh-thumbnail-slide-navigation {
+        display: none !important;
+    }
+}

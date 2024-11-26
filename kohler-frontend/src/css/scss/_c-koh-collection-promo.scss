@@ -1,0 +1,232 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+ 
+/* _c-koh-collection-promo.scss
+
+   Partial SCSS containing styles for Collection Promo Container Component
+*/
+
+.c-koh-collection-promo {
+	@include koh-page-gutters();
+	padding: 0 10px;
+	.koh-collection-promo-doc {
+		// Defaults for collection promo tile
+		margin: 30px 0;
+		.koh-collection-row {
+			@include koh-make-row();
+			overflow: hidden;
+			.koh-collection-content {
+				display: table-cell;
+				width: 100%;
+				height: 100%;
+				vertical-align: middle;
+				text-align: center;
+				font-family: $koh-font-sans-serif-light;
+			}
+			.koh-collection-img {
+				position: relative;
+				box-shadow:inset 0px 0px 0px 1px $koh-color-slt-grey;
+				img {
+					position: relative;
+					width: 100%;
+					height: auto;
+					z-index: -1;
+				}
+			}
+			&.v-koh-top {
+				.koh-collection-intro {
+					@media #{$koh-media-screen-sm}{
+						display: table;
+						width: 100%;
+						height: 26.5vw;
+						max-height: 261px;
+					}
+					h2 {
+						margin: 0 0 15px 0;
+						a {
+							display: block;
+							font-size: 25px;
+							color: $koh-color-pdk-grey;
+							@media #{$koh-media-screen-sm}{
+								font-size: 30px;
+							}
+						}
+					}
+					p {
+						width: 60%;
+						margin: 15px auto;
+						font-size: 16px;
+						display: none;
+						@media #{$koh-media-screen-sm}{
+							display: block;
+						}
+					}
+					a {
+						margin: 20px 0;
+						font-size: 16px;
+						color: $koh-color-plt-grey;
+						display: none;
+						@media #{$koh-media-screen-sm}{
+							display: block;
+						}
+						&:hover {
+							text-decoration: none;
+							.label {
+								text-decoration: underline;
+							}
+						}
+						span {
+							display: inline-block;
+							&.icon {
+								margin-left: 5px;
+								font-size: 9px;
+							}
+						}
+					}
+				}
+				.koh-collection-img {
+					display: none;
+					@media #{$koh-media-screen-sm}{
+						display: block;
+					}
+				}
+			}
+			&.v-koh-bottom {
+				.koh-collection-description {
+					@media #{$koh-media-screen-sm}{
+						display: table;
+						width: 100%;
+						height: 38.25vw;
+						max-height: 377px;
+					}
+					p {
+						width: 100%;
+						margin: 20px 0 0 0;
+						font-size: 12px;
+						line-height: 18px;
+						text-align: left;
+						color: $koh-color-plt-grey;
+						@media #{$koh-media-screen-sm}{
+							margin: 0 auto;
+							padding: 0 10px;
+							width: 80%;
+							font-size: 14px;
+							line-height: 21px;
+						}
+					}
+				}
+			}
+			&.v-koh-carousel {
+				.koh-collection-carousel {
+					position: relative;
+					&:hover {
+						.koh-carousel-controls {
+							.koh-carousel-control {
+								opacity: 0.3;
+							}
+						}
+					}
+					.koh-background {
+						text-align: center;
+						img {
+							display: inline-block;
+						}
+					}
+					.koh-carousel-controls {
+						.koh-carousel-control {
+							position: absolute;
+							top: 50%;
+							transform: translateY(-50%);
+							z-index: $koh-zindex-carousel-overlays;
+							@include koh-carousel-arrow();
+							opacity: 0;
+							transition: opacity .15s ease-in-out;
+							&:hover {
+								opacity: 1;
+							}
+						}
+						.koh-carousel-indicators {
+							position: absolute;
+							bottom: 0;
+							left: 50%;
+							transform: translateX(-50%);
+							white-space: nowrap;
+							z-index: $koh-zindex-carousel-overlays;
+							@include koh-carousel-indicators();
+						}
+					}
+				}
+				@media #{$koh-media-screen-sm}{
+					display: none;
+				}
+			}
+		}
+		// v-koh-default has featured image on the left and text on the right
+		&.v-koh-default {
+			.koh-collection-row {
+				&.v-koh-top {
+					.koh-collection-left {
+						@include koh-make-column($xs: 12, $sm: 5);
+					}
+					.koh-collection-right {
+						display: none;
+						@media #{$koh-media-screen-sm}{
+							display: block;
+							@include koh-make-column(7);
+						}
+					}
+				}
+				&.v-koh-bottom {
+					.koh-collection-left {
+						@include koh-make-column($xs: 12, $sm: 5);
+					}
+					.koh-collection-right {
+						display: none;
+						@media #{$koh-media-screen-sm}{
+							display: block;
+							@include koh-make-column(5);
+						}
+					}
+				}
+			}
+		}
+
+		// v-koh-mirror has featured image on the right and text on the left
+		&.v-koh-mirror {
+			.koh-collection-row {
+				&.v-koh-top {
+					.koh-collection-left {
+						@include koh-make-column($xs: 12, $sm: 7);
+					}
+					.koh-collection-right {
+						@include koh-make-column($xs: 12, $sm: 5);
+					}
+				}
+				&.v-koh-carousel {
+					@media #{$koh-media-screen-sm}{
+						display: none;
+					}
+				}
+				&.v-koh-bottom {
+					.koh-collection-left {
+						display: none;
+						@media #{$koh-media-screen-sm}{
+							display: block;
+							@include koh-make-column($xs: 12, $sm: 5);
+							margin-left: 16.66667%;
+						}
+					}
+					.koh-collection-right {
+						@include koh-make-column($xs: 12, $sm: 5);
+					}
+				}
+			}
+		}
+	}
+}
+
+.koh-line {
+	margin: 36px 0px;
+	border-top-color: $koh-color-sdk-grey;
+}

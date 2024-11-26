@@ -1,0 +1,410 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ // Table
+$products-number: 4;
+$products-column-width-mobile: 160px;
+$products-column-width: 248px;
+$features-column-width-mobile: 140px;
+$features-column-width: 213px;
+.c-koh-compare-products {
+    padding: 20px 0;
+    background: $koh-color-white;
+    ul,
+    li {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    @media #{$koh-media-screen-md} {
+        padding: 0;
+    }
+    .koh-compare-header {
+        @media #{$koh-media-nav-breakpoint} {
+            padding-left: calc((100% - 980px) / 2);
+            padding-right: calc((100% - 980px) / 2);
+            width: 100%;
+        }
+        .koh-compare-title {
+            display: block;
+            margin: 0;
+            padding: 0 0 20px 10px;
+            font-size: 26px;
+            font-family: $koh-font-sans-serif-light;
+            @media #{$koh-media-screen-md} {
+                padding: 40px 0;
+                font-size: 32px;
+            }
+        }
+    }
+    .koh-compare-table {
+        position: relative;
+        overflow: hidden;
+        border-bottom: 1px solid $koh-color-sdk-grey;
+        @media #{$koh-media-screen-md} {
+            @include koh-page-gutters();
+        }
+        .koh-compare-features {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: $features-column-width-mobile;
+            background-color: rgba(255, 255, 255, 0.9);
+            @media #{$koh-media-screen-md} {
+                width: $features-column-width;
+            }
+            .koh-compare-top {
+                width: $features-column-width-mobile;
+                padding-top: 274px;
+                @media #{$koh-media-screen-md} {
+                    width: $features-column-width;
+                    padding-top: 350px;
+                }
+            }
+        }
+        .koh-compare-products {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .koh-compare-columns {
+            @include clearfix;
+            width: 760px;
+            margin-left: $features-column-width-mobile;
+            @media #{$koh-media-screen-md} {
+                /*width: $products-number*$products-column-width;*/
+                width: 760px;
+                margin-left: $features-column-width;
+            }
+            .koh-compare-product {
+                position: relative;
+                float: left;
+                /*width: $products-column-width-mobile;*/
+                width: 252px;
+                text-align: center;
+                @media #{$koh-media-screen-md} {
+                    /*width: $products-column-width;*/
+                    width: 252px;
+                }
+                li {
+                    border-right: 1px solid $koh-color-sdk-grey;
+                    .koh-required-products-panel {
+                        display: none;
+                    }
+                    &.colorFinish {
+                     font-size:0;
+                     	.koh-discontinued {
+                     		position: relative;
+                     		display: inline-block;
+                     		&:after {							    
+							    content: '';
+								display: block;
+								position: absolute;
+								top: -3px;
+								left: 8px;
+								margin: 0;
+								width: 3px;
+								height: 24px;
+								border: solid red;
+								border-width: 0 2px 0 0;
+								transform: rotate(136deg);
+								box-shadow: none;
+                     		}
+                     	}
+	                    img {
+	                    	border: 1px solid #ccc;
+	                    	margin-right:2px; 
+	                    }                    
+                    }
+
+                }
+                &:last-child {
+                    li {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+        .koh-compare-features-list li {
+            min-height: 42px;
+            padding: 5px 0 5px 5px;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            overflow: auto;
+            border-right: 1px solid $koh-color-sdk-grey;
+            @media #{$koh-media-screen-md} {
+                min-height: none;
+                padding: 10px 0 10px 15px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            &:nth-child(odd) {
+                background-color: $koh-color-slt-grey;
+            }
+            &.strong {
+                font-family: $koh-font-sans-serif-bold;
+            }
+            &.koh-image-row-hight {
+                min-height: 65px;
+                img {
+                    margin-bottom: 2px;
+                }
+                @media #{$koh-media-screen-xs-max} {
+                    min-height: 55px;
+                }
+            }
+            &.koh-image-row-hight-3rd {
+                min-height: 86px;
+                img {
+                    margin-bottom: 2px;
+                }
+                @media #{$koh-media-screen-xs-max} {
+                    min-height: 79px;
+                }
+            }
+            &.koh-image-row-hight-4th {
+                min-height: 108px;
+                img {
+                    margin-bottom: 2px;
+                }
+                @media #{$koh-media-screen-xs-max} {
+                    min-height: 103px;
+                }
+            }
+        }
+        .koh-compare-top {
+            position: relative;
+            height: 330px;
+            /*width: $products-column-width-mobile;*/
+            width: 252px;
+            text-align: center;
+            padding-top: 40px;
+            cursor: pointer;
+            background: #f5f5f5;
+            border-right: 1px solid #fff;
+            border-bottom: 1px solid $koh-color-sdk-grey;
+            @media #{$koh-media-screen-md} {
+                height: 410px;
+                width: 100%;
+                padding-top: 80px;
+            }
+            .koh-compare-picture {
+                display: block;
+                height: 119px;
+                overflow: hidden;
+                @media #{$koh-media-screen-md} {
+                    height: 165px;
+                }
+                img {
+                    display: inline-block;
+                }
+            }
+            .koh-compare-name {
+                display: block;
+                margin: 3px 0 15px 0;
+                padding: 0px 10px;
+                min-height: 40px;
+                font-family: $koh-font-sans-serif-med;
+                font-size: 14px;
+                line-height: 16px;
+                color: #232323;
+                max-height: 98px;
+                overflow: hidden;
+            }
+            .koh-compare-sku {
+                display: block;
+                font-size: 12px;
+                line-height: 1;
+                color: $koh-color-pmd-grey;
+            }
+            .koh-compare-price {
+                display: block;
+                font-size: 14px;
+                font-family: $koh-font-sans-serif-med;
+                margin-top: 10px;
+                line-height: 16px;
+                color: #232323;
+            }
+            .koh-compare-add {
+                @include koh-button( $button-bg: $koh-color-md-green, $button-fg: $koh-color-white, $hover-bg: $koh-color-dk-green, $hover-fg: $koh-color-white, $padding: 0);
+                width: 40px;
+                height: 40px;
+                margin-right: 2px;
+                font-size: 13px;
+                box-shadow: none;
+                vertical-align: top;
+                @media #{$koh-media-screen-md} {
+                    width: 145px;
+                }
+                .icon {
+                    @media #{$koh-media-screen-md} {
+                        display: none;
+                    }
+                }
+                .label {
+                    display: none;
+                    @media #{$koh-media-screen-md} {
+                        display: inline-block;
+                    }
+                }
+            }
+            .koh-compare-save {
+                @include koh-button( $button-bg: $koh-color-smd-grey, $hover-bg: $koh-color-md-blue, $hover-fg: $koh-color-white, $padding: 0);
+                width: 80%;
+                height: 40px;
+                margin-right: 2px;
+                font-size: 13px;
+                box-shadow: none;
+                @media #{$koh-media-screen-md} {
+                    width: 145px;
+                }
+                .icon {
+                    margin-right: 4px;
+                }
+            }
+            .koh-compare-print {
+                @include koh-button( $button-bg: $koh-color-smd-grey, $hover-bg: $koh-color-md-blue, $hover-fg: $koh-color-white, $padding: 0);
+                float: right;
+                margin-right: 30px;
+                width: 40px;
+                height: 40px;
+                font-size: 13px;
+                box-shadow: none;
+                display: none;
+                @media #{$koh-media-screen-md} {
+                    display: inline-block;
+                }
+                .label {
+                    display: none;
+                }
+            }
+            .koh-compare-locate {
+                @include koh-button( $button-bg: $koh-color-md-blue, $button-fg: $koh-color-white, $hover-bg: $koh-color-dk-blue, $hover-fg: $koh-color-white, $padding: 0);
+                width: 40px;
+                height: 40px;
+                margin-right: 4px;
+                font-size: 13px;
+                box-shadow: none;
+                @media #{$koh-media-screen-md} {
+                    width: 145px;
+                }
+                .icon {
+                    @media #{$koh-media-screen-md} {
+                        display: none;
+                    }
+                }
+                .label {
+                    display: none;
+                    @media #{$koh-media-screen-md} {
+                        display: inline-block;
+                    }
+                }
+            }
+            .koh-compare-bookmark {
+                @include koh-button( $button-bg: $koh-color-smd-grey, $hover-bg: $koh-color-md-blue, $hover-fg: $koh-color-white, $padding: 0);
+                @include koh-slide-banner-overlay-icon-font();
+                width: 40px;
+                height: 40px;
+                padding-right: 1px;
+                box-shadow: none;
+                vertical-align: top;
+                .label {
+                    display: none;
+                }
+            }
+            .koh-compare-popover {
+                display: none;
+            }
+            .koh-compare-remove {
+                @include koh-button( $padding: 0);
+                display: block;
+                position: absolute;
+                top: 12px;
+                right: 12px;
+                background: none;
+                box-shadow: none;
+                &:hover {
+                    background: none;
+                }
+                .label {
+                    display: none;
+                }
+            }
+        }
+    }
+    .koh-compare-navigation {
+        display: none;
+        a {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            right: 15px;
+            transform: translateY(55px);
+            /* replace text with image */
+            overflow: hidden;
+            text-indent: 100%;
+            white-space: nowrap;
+            color: transparent;
+            height: 60px;
+            width: 40px;
+            background: rgba($koh-color-pdk-grey, .8) url('../img/cd-arrow.svg') no-repeat center center;
+            transition: background-color .3s, opacity .3s, visibility .3s, transform .3s;
+            &.inactive {
+                opacity: 0;
+                visibility: hidden;
+            }
+            &.prev {
+                left: $features-column-width-mobile;
+                right: auto;
+                transform: translateY(55px) translateX(15px) rotate(180deg);
+            }
+            .no-touch &:hover {
+                background-color: $koh-color-pdk-grey;
+            }
+            @media #{$koh-media-screen-md} {
+                transform: translateY(100px);
+                &.prev {
+                    left: $features-column-width;
+                    transform: translateY(100px) translateX(15px) rotate(180deg);
+                }
+                .top-fixed & {
+                    position: fixed;
+                }
+                .top-fixed &,
+                .top-scrolling & {
+                    transform: translateY(45px);
+                }
+                .top-fixed &.prev,
+                .top-scrolling &.prev {
+                    transform: translateY(45px) translateX(15px) rotate(180deg);
+                }
+            }
+        }
+    }
+    .koh-history-page {
+        padding: 40px 0;
+        text-align: center;
+        button {
+            background: #e5e5e5 none repeat scroll 0 0;
+            border: 0 none;
+            border-radius: 4px;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+            color: #232323;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: 1.3em;
+            font-weight: 400;
+            line-height: 1em;
+            outline: 0 none;
+            padding: 13.5px 20px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover {
+                background: #bebebe none repeat scroll 0 0;
+                color: #232323;
+            }
+        }
+    }
+}

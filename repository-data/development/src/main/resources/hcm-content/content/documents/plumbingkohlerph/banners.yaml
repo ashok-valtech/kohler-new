@@ -1,0 +1,901 @@
+/content/documents/plumbingkohlerph/banners:
+  .meta:order-before: collectons-promo
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: e8f79d88-f7c3-459f-8fed-7029db779c70
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: a1f90afb-40f3-491a-81aa-67085a954d0a
+  hippotranslation:locale: en_PH
+  /kohlerhome:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 3c820b8f-4a24-4620-bc87-9eebfc6ca0bf
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 26c0f6e0-783f-4eba-bfe6-ee1528ba8332
+    hippotranslation:locale: en_PH
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 99a292c0-b614-4187-a49a-90f8f0e12282
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e325430d-9c6a-4432-b558-d64d712ea364
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:49:48.954+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d0a9889d-44fc-4fae-bc58-210286c55c65
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: The Finish is Just the Beginning (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Every room tells a story.<br />
+            Begin to imagine yours with the right faucet finish.&nbsp;(The Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7978fa48-162d-4f55-a8b2-07090e12382d
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:49:29.521+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d0a9889d-44fc-4fae-bc58-210286c55c65
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: The Finish is Just the Beginning (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Every room tells a story.<br />
+            Begin to imagine yours with the right faucet finish.&nbsp;(The Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7bd30429-be44-45c1-b518-a2620511ad78
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:49:48.954+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T15:49:52.705+05:30
+        hippotranslation:id: d0a9889d-44fc-4fae-bc58-210286c55c65
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: The Finish is Just the Beginning (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Every room tells a story.<br />
+            Begin to imagine yours with the right faucet finish.&nbsp;(The Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 39c8c511-9a1d-4947-8c0b-4ab4d749aa48
+      hippo:name: Artist Editions
+      /artist-editions[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 7b83c382-92f1-4297-b94a-fddec1c0af0b
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:49:58.461+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 8afb3897-634a-4914-83a6-6c79044c589d
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every great work of art starts with inspiration.&nbsp;(The
+            Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: dbb3d6d5-a062-4e55-a32f-d53d2b343a11
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:49:54.613+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 8afb3897-634a-4914-83a6-6c79044c589d
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every great work of art starts with inspiration.&nbsp;(The
+            Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 637f15eb-208a-479c-a0ad-8bac006a1b44
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:49:58.461+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T15:50:00.162+05:30
+        hippotranslation:id: 8afb3897-634a-4914-83a6-6c79044c589d
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: Artist Editions® (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every great work of art starts with inspiration.&nbsp;(The
+            Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /its-happening-again:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: cc0d7a78-727b-4475-855e-1f5892d2ce2a
+      hippo:name: It's happening again
+      /its-happening-again[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e8ebe787-28c3-4e65-8db2-6b2f10adc3a1
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:50:06.011+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9374bc73-abd3-4faa-99e1-74ae4956e6ad
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: It's happening again (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>See Kohler Intelligent Toilets and Cleansing Seats&nbsp;(The
+            Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a61534c1-d016-4cff-8956-8c1fd6200308
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:50:02.122+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9374bc73-abd3-4faa-99e1-74ae4956e6ad
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: It's happening again (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>See Kohler Intelligent Toilets and Cleansing Seats&nbsp;(The
+            Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b9581cec-b6da-49f1-aa2b-7b85c17446b5
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T15:50:06.011+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T15:50:09.578+05:30
+        hippotranslation:id: 9374bc73-abd3-4faa-99e1-74ae4956e6ad
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: It's happening again (The Philippines)
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>See Kohler Intelligent Toilets and Cleansing Seats&nbsp;(The
+            Philippines)</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /carouseloverlay:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: c2bea658-dc98-465b-ae14-b39b5fdbedae
+    hippostd:foldertype: [new-carouselOverlay, new-carouselOverlay-folder]
+    hippotranslation:id: e586d8f1-77e5-4d77-8ed2-e334470acd3e
+    hippotranslation:locale: en_PH
+    /poplin:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9313f5d7-ad66-4b87-bc82-f37c57b598d9
+      hippo:name: Poplin
+      /poplin[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: a4c319f2-ae12-4574-86db-d45655a2c4d2
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:06:56.451+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 16106623-7eeb-4dfd-ac50-89236fcb1dbf
+        hippotranslation:locale: en
+        kohler:description: The Poplin vanities were influenced by the rustic beauty
+          and functionality of the Shaker style and design.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™ Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 12366e31-c334-4643-b027-4f719c34e599
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:06:48.052+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 16106623-7eeb-4dfd-ac50-89236fcb1dbf
+        hippotranslation:locale: en
+        kohler:description: The Poplin vanities were influenced by the rustic beauty
+          and functionality of the Shaker style and design.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™ Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: dc896586-e5b8-4a43-b89f-ec9e50aa11c2
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:06:56.451+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T21:06:58.088+05:30
+        hippotranslation:id: 16106623-7eeb-4dfd-ac50-89236fcb1dbf
+        hippotranslation:locale: en
+        kohler:description: The Poplin vanities were influenced by the rustic beauty
+          and functionality of the Shaker style and design.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™ Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /jute:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 324703e7-15b7-42ac-9ea9-5a02e5336768
+      hippo:name: Jute
+      /jute[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: cfb0defa-1638-4d61-ae3e-a7c30315caa8
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:07:08.759+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f43196cf-23f0-4c56-aec1-0ca58aa839ee
+        hippotranslation:locale: en
+        kohler:description: The Jute vanities are a playful take on the mid-century
+          modern aesthetic that will make a stunning design statement in the bathroom.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute™ Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: eeb2b65b-1db2-4fd2-8b47-22fa01eff09c
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:07:05.297+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f43196cf-23f0-4c56-aec1-0ca58aa839ee
+        hippotranslation:locale: en
+        kohler:description: The Jute vanities are a playful take on the mid-century
+          modern aesthetic that will make a stunning design statement in the bathroom.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute™ Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 28797942-7207-4a18-b566-f4d3c60f7b50
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:07:08.759+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T21:07:10.118+05:30
+        hippotranslation:id: f43196cf-23f0-4c56-aec1-0ca58aa839ee
+        hippotranslation:locale: en
+        kohler:description: The Jute vanities are a playful take on the mid-century
+          modern aesthetic that will make a stunning design statement in the bathroom.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Jute™ Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /artifacts:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 32a5fe93-96da-4459-afb3-7fc9d37baa58
+      hippo:name: Artifacts
+      /artifacts[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 578aa683-3c86-4585-841e-64cbe97c1da0
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:07:15.500+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 46c82d5e-167f-43ea-b385-9ca4bfc6e2d7
+        hippotranslation:locale: en
+        kohler:description: The beauty of the Artifacts collection lies in its timeless
+          styling. From casual to formal, Artifacts is at home in any décor.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® in the bathroom Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1dbca1de-9ce0-4539-8a5c-ca7065c3ddb0
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:07:11.936+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 46c82d5e-167f-43ea-b385-9ca4bfc6e2d7
+        hippotranslation:locale: en
+        kohler:description: The beauty of the Artifacts collection lies in its timeless
+          styling. From casual to formal, Artifacts is at home in any décor.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® in the bathroom Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 936575ad-5081-4093-9595-44d6b658b83f
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T21:07:15.500+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T21:07:16.872+05:30
+        hippotranslation:id: 46c82d5e-167f-43ea-b385-9ca4bfc6e2d7
+        hippotranslation:locale: en
+        kohler:description: The beauty of the Artifacts collection lies in its timeless
+          styling. From casual to formal, Artifacts is at home in any décor.
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts® in the bathroom Philipines
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+  /material-and-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 4ceadcd8-e23c-4d7b-b026-d8af6f8867a7
+    hippo:name: material and color palette
+    hippostd:foldertype: [new-banner-folder, new-banner-document]
+    hippotranslation:id: 8dc19aaf-000d-4d8d-b685-1fd24f6b14d6
+    hippotranslation:locale: en_PH
+    /material-and-color-palette-banner:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 331811b2-697d-4ff4-8625-b16d8ec0e88e
+      hippo:name: material and color palette banner
+      /material-and-color-palette-banner[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a178053e-c8fb-4293-bb77-cfe6918757fe
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T15:53:27.836+05:30
+        hippostdpubwf:lastModificationDate: 2017-08-21T12:18:03.648+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d2c7adb2-ff5c-4cbc-bbef-7a8f507abc75
+        hippotranslation:locale: en
+        kohler:imagePath: http://kohler.scene7.com/is/image/PAWEB/zab82099_1800x800_SunBleached?$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: Luxurious Casual Living
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Get Inspired</p>
+      /material-and-color-palette-banner[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: c871657c-a24c-4108-a09c-b9ecff1a334f
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T15:53:27.836+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T15:55:24.640+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d2c7adb2-ff5c-4cbc-bbef-7a8f507abc75
+        hippotranslation:locale: en
+        kohler:imagePath: http://kohler.scene7.com/is/image/PAWEB/zab82099_1800x800_SunBleached?$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: Luxurious Casual Living
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Get Inspired</p>
+      /material-and-color-palette-banner[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f68a98aa-fea5-453e-854a-926b7e92cb85
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T15:53:27.836+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T15:55:24.640+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-07-19T15:55:26.442+05:30
+        hippotranslation:id: d2c7adb2-ff5c-4cbc-bbef-7a8f507abc75
+        hippotranslation:locale: en
+        kohler:imagePath: http://kohler.scene7.com/is/image/PAWEB/zab82099_1800x800_SunBleached?$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: Luxurious Casual Living
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Get Inspired</p>
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dcb8382a-0306-4da9-9e02-046ea54a716f
+    /banner1:
+      jcr:primaryType: kohler:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8c3e6624-eaa6-473c-90a1-a00f17601671
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: a9051afc-bda0-4941-9b17-cd68dcd93ddd
+      hippotranslation:locale: ph
+      kohler:title: Sample banner
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5b5cfc34-ee97-40b3-972e-e921b39d8b34
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: kohler:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1e476dca-b83f-4e0d-8d9d-ad98406ddb5e
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 6ae42386-78d6-4b21-b2f2-0852dbfdaec4
+      hippotranslation:locale: en
+      kohler:title: Sample banner 2
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /globalproject-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 5642aa9a-40c1-49bb-a374-3d6c96eb9bab
+    hippostd:foldertype: [new-banner-folder, new-banner-document]
+    hippotranslation:id: d2b47c6e-3df0-4a53-a5a0-c04ceac36764
+    hippotranslation:locale: en_PH
+    /secrets-resorts:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 0fe26004-7c43-4069-9f84-524839d601f7
+      hippo:name: Secrets Resorts
+      /secrets-resorts[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3628cc6e-8f91-4692-9da0-9925df8da1ad
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T19:27:48.131+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T19:57:56.861+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 827ce36a-6c10-4b9b-8364-9a941ec6c112
+        hippotranslation:locale: en
+        kohler:imagePath: https://static1.squarespace.com/static/5787dc329f745686c880ae1a/579b70ec37c581ffa0500fd0/579b70ec197aea83dddf09eb/1476890784018/Exterior1.jpg?format=1000w
+        kohler:navigationPath: /contact-us
+        kohler:textColor: ''
+        kohler:title: Secrets Resorts
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>KOHLER presents the Veil Intelligent toilet.</p>
+      /secrets-resorts[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 1ee3aa84-fc22-4a0b-a097-3729f93ced22
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T19:27:48.131+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T19:58:13.129+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 827ce36a-6c10-4b9b-8364-9a941ec6c112
+        hippotranslation:locale: en
+        kohler:imagePath: https://static1.squarespace.com/static/5787dc329f745686c880ae1a/579b70ec37c581ffa0500fd0/579b70ec197aea83dddf09eb/1476890784018/Exterior1.jpg?format=1000w
+        kohler:navigationPath: /contact-us
+        kohler:textColor: ''
+        kohler:title: Secrets Resorts
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>KOHLER presents the Veil Intelligent toilet.</p>
+      /secrets-resorts[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3c39c590-db34-419a-8ccd-e7eea140f12c
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T19:27:48.131+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T19:58:13.129+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-07-19T19:58:14.563+05:30
+        hippotranslation:id: 827ce36a-6c10-4b9b-8364-9a941ec6c112
+        hippotranslation:locale: en
+        kohler:imagePath: https://static1.squarespace.com/static/5787dc329f745686c880ae1a/579b70ec37c581ffa0500fd0/579b70ec197aea83dddf09eb/1476890784018/Exterior1.jpg?format=1000w
+        kohler:navigationPath: /contact-us
+        kohler:textColor: ''
+        kohler:title: Secrets Resorts
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>KOHLER presents the Veil Intelligent toilet.</p>
+    /the-westin-peachtree-plaza:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: f6dc75b9-f359-498a-b4cf-216ac6b2577f
+      hippo:name: The Westin Peachtree Plaza
+      /the-westin-peachtree-plaza[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d904998a-949e-45d8-8d4c-a28fb4629cab
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T19:56:30.510+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T19:56:30.805+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: e47d944b-6e25-41b4-b345-74557537c3bc
+        hippotranslation:locale: en
+        kohler:imagePath: https://static1.squarespace.com/static/5787dc329f745686c880ae1a/579b70ec37c581ffa0500fd0/579b70f1197aea83dddf0a20/1476890292785/Westin-Peachtree-Plaza-1.jpg?format=1000w
+        kohler:navigationPath: http://www.kohler.co.in/
+        kohler:textColor: ''
+        kohler:title: The Westin Peachtree Plaza
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Westin Peachtree Plaza</p>
+      /the-westin-peachtree-plaza[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 17b34db5-3947-4125-bdcd-aeae1821308c
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T19:56:30.510+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T19:57:51.685+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: e47d944b-6e25-41b4-b345-74557537c3bc
+        hippotranslation:locale: en
+        kohler:imagePath: https://static1.squarespace.com/static/5787dc329f745686c880ae1a/579b70ec37c581ffa0500fd0/579b70f1197aea83dddf0a20/1476890292785/Westin-Peachtree-Plaza-1.jpg?format=1000w
+        kohler:navigationPath: http://www.kohler.co.in/
+        kohler:textColor: ''
+        kohler:title: The Westin Peachtree Plaza
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Westin Peachtree Plaza</p>
+      /the-westin-peachtree-plaza[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d44c798d-e82c-4cc2-ac51-f01569258544
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-19T19:56:30.510+05:30
+        hippostdpubwf:lastModificationDate: 2017-07-19T19:57:51.685+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-07-19T19:57:53.554+05:30
+        hippotranslation:id: e47d944b-6e25-41b4-b345-74557537c3bc
+        hippotranslation:locale: en
+        kohler:imagePath: https://static1.squarespace.com/static/5787dc329f745686c880ae1a/579b70ec37c581ffa0500fd0/579b70f1197aea83dddf0a20/1476890292785/Westin-Peachtree-Plaza-1.jpg?format=1000w
+        kohler:navigationPath: http://www.kohler.co.in/
+        kohler:textColor: ''
+        kohler:title: The Westin Peachtree Plaza
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Westin Peachtree Plaza</p>

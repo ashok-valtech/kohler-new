@@ -1,0 +1,88 @@
+/content/gallery/kohler/logostodisplay:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 6a77431a-0fc0-4580-90a8-d84644eee837
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /ada.gif:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e6664bd0-4e14-4f1b-9179-f3a787174e7e
+    /ada.gif:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: ada.gif
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: ada.gif
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/logostodisplay/ada.gif/ada_thumbnail.gif
+        jcr:lastModified: 2017-10-13T17:56:11.118+05:30
+        jcr:mimeType: image/gif
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/logostodisplay/ada.gif/ada_original.gif
+        jcr:lastModified: 2017-10-13T17:56:11.118+05:30
+        jcr:mimeType: image/gif
+  /faucetwrty2.gif:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 39427e2c-ecc9-4be7-940d-f6f4b66afe04
+    hippo:name: FaucetWrty2.gif
+    /faucetwrty2.gif:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: FaucetWrty2.gif
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: FaucetWrty2.gif
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/logostodisplay/faucetwrty2.gif/FaucetWrty2_thumbnail.gif
+        jcr:lastModified: 2017-10-13T17:56:11.664+05:30
+        jcr:mimeType: image/gif
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/logostodisplay/faucetwrty2.gif/FaucetWrty2_original.gif
+        jcr:lastModified: 2017-10-13T17:56:11.664+05:30
+        jcr:mimeType: image/gif
+  /watersense.gif:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: aba1ddcc-2d2c-45d3-9fe0-ebdb78672e0a
+    /watersense.gif:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: watersense.gif
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: watersense.gif
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/logostodisplay/watersense.gif/watersense_thumbnail.gif
+        jcr:lastModified: 2017-10-13T17:56:11.756+05:30
+        jcr:mimeType: image/gif
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/logostodisplay/watersense.gif/watersense_original.gif
+        jcr:lastModified: 2017-10-13T17:56:11.756+05:30
+        jcr:mimeType: image/gif

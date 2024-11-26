@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kohler-common/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /kohler-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /searchfacet:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.SearchFacetsComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product_fecet.png
+          hst:label: Search Facet
+          hst:parameternames: [ignoreSpecialCharacters, pageSize]
+          hst:parametervalues: ['[<>''%;&/+;-]', '20']
+          hst:template: search-facetpage

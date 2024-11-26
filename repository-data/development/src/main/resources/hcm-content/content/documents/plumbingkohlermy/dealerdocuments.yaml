@@ -1,0 +1,875 @@
+/content/documents/plumbingkohlermy/dealerdocuments:
+  .meta:order-before: faq
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: e3831e83-63b6-4cb9-8a47-504ff694f847
+  hippo:name: dealerdocuments
+  hippotranslation:id: 8d917a70-18e9-4e43-8c39-25b7e45a3f79
+  hippotranslation:locale: en_MY
+  /MY1024147:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: e2e1b05f-f6ad-4ce2-8eb0-c5282bc6e712
+    hippo:name: MY1024147
+    /MY1024147[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: d2d81730-c5bb-4522-9bfc-5d4297056d42
+      hippo:availability: [live]
+      hippo:name: MY1024147
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:48.232+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:48.634+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:48.699+05:30
+      hippotranslation:id: 56360993-00f3-4649-8ad7-1cf31323c8d9
+      hippotranslation:locale: en
+      kohler:addressLine1: 22, Jalan Kampong Attap
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Kuala Lumpur
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-8-4316890
+      kohler:featuredShowroom: false
+      kohler:generalEmail: yhykuching@gmail.com
+      kohler:instagramLink: ''
+      kohler:latitude: '3.138306'
+      kohler:lineLink: ''
+      kohler:longitude: '101.696545'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Bina Warehouse Sdn Bhd
+      kohler:phone: [60-3-2274-6111]
+      kohler:primaryContactEmail: ''
+      kohler:state: Kuala Lumpur
+      kohler:storeId: MY1024147
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '50460'
+    /MY1024147[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 8284dcb0-6db5-4dfb-a08a-6f6ea330eb34
+      hippo:availability: [preview]
+      hippo:name: MY1024147
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:48.232+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:48.634+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 56360993-00f3-4649-8ad7-1cf31323c8d9
+      hippotranslation:locale: en
+      kohler:addressLine1: 22, Jalan Kampong Attap
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Kuala Lumpur
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-8-4316890
+      kohler:featuredShowroom: false
+      kohler:generalEmail: yhykuching@gmail.com
+      kohler:instagramLink: ''
+      kohler:latitude: '3.138306'
+      kohler:lineLink: ''
+      kohler:longitude: '101.696545'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Bina Warehouse Sdn Bhd
+      kohler:phone: [60-3-2274-6111]
+      kohler:primaryContactEmail: ''
+      kohler:state: Kuala Lumpur
+      kohler:storeId: MY1024147
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '50460'
+    /MY1024147[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: d5628f81-a33a-4b94-8847-86bab41a8db5
+      hippo:availability: []
+      hippo:name: MY1024147
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:48.232+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:48.539+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 56360993-00f3-4649-8ad7-1cf31323c8d9
+      hippotranslation:locale: en
+      kohler:addressLine1: 22, Jalan Kampong Attap
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Kuala Lumpur
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-8-4316890
+      kohler:featuredShowroom: false
+      kohler:generalEmail: yhykuching@gmail.com
+      kohler:instagramLink: ''
+      kohler:latitude: '3.138306'
+      kohler:lineLink: ''
+      kohler:longitude: '101.696545'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Bina Warehouse Sdn Bhd
+      kohler:phone: [60-3-2274-6111]
+      kohler:primaryContactEmail: ''
+      kohler:state: Kuala Lumpur
+      kohler:storeId: MY1024147
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '50460'
+  /MY1046757:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b35d545b-97cf-46df-919c-6f93959f004f
+    hippo:name: MY1046757
+    /MY1046757[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: cc9c9d80-0d9c-4b98-a199-4dbf9176fe37
+      hippo:availability: [live]
+      hippo:name: MY1046757
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:48.841+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:49.239+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:49.332+05:30
+      hippotranslation:id: eb33c64d-b7ec-4aaa-b19c-6b86d1347fbd
+      hippotranslation:locale: en
+      kohler:addressLine1: Unit A-2-13A & A-2-15, 10 Boulevard, Jalan Cempaka,Kampung
+        Sungai Kayu Ara,PJU 6A
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-3373 1591
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.132601'
+      kohler:lineLink: ''
+      kohler:longitude: '101.612749'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: DCOR Bath Sdn Bhd
+      kohler:phone: [60-3-77252800]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1046757
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://thebestsupplies.com.my/
+      kohler:zip: '47400'
+    /MY1046757[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 26527468-1f6f-4c0c-afc2-03d8fdfa7571
+      hippo:availability: [preview]
+      hippo:name: MY1046757
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:48.841+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:49.239+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: eb33c64d-b7ec-4aaa-b19c-6b86d1347fbd
+      hippotranslation:locale: en
+      kohler:addressLine1: Unit A-2-13A & A-2-15, 10 Boulevard, Jalan Cempaka,Kampung
+        Sungai Kayu Ara,PJU 6A
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-3373 1591
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.132601'
+      kohler:lineLink: ''
+      kohler:longitude: '101.612749'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: DCOR Bath Sdn Bhd
+      kohler:phone: [60-3-77252800]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1046757
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://thebestsupplies.com.my/
+      kohler:zip: '47400'
+    /MY1046757[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 1d6a84d7-f076-4cbb-8080-53c62a9c8637
+      hippo:availability: []
+      hippo:name: MY1046757
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:48.841+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:49.087+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: eb33c64d-b7ec-4aaa-b19c-6b86d1347fbd
+      hippotranslation:locale: en
+      kohler:addressLine1: Unit A-2-13A & A-2-15, 10 Boulevard, Jalan Cempaka,Kampung
+        Sungai Kayu Ara,PJU 6A
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-3373 1591
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.132601'
+      kohler:lineLink: ''
+      kohler:longitude: '101.612749'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: DCOR Bath Sdn Bhd
+      kohler:phone: [60-3-77252800]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1046757
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://thebestsupplies.com.my/
+      kohler:zip: '47400'
+  /MY1043837:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 6583418c-4c26-475b-a768-12d63209ce4e
+    hippo:name: MY1043837
+    /MY1043837[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: a3ed3af9-179d-42df-add8-de1be6a6dfe0
+      hippo:availability: [live]
+      hippo:name: MY1043837
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:49.412+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:49.724+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:49.809+05:30
+      hippotranslation:id: f462e094-5c14-4648-9efb-2ff7f8838e82
+      hippotranslation:locale: en
+      kohler:addressLine1: No. 70, Jalan Dato'Abu Bakar, 16/1, Section 16
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.127511'
+      kohler:lineLink: ''
+      kohler:longitude: '101.646873'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: The Best Supplies Sdn Bhd
+      kohler:phone: [60-3 7931 8377]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1043837
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '46350'
+    /MY1043837[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 121f15a8-c7db-4815-8e71-323c5e5743ed
+      hippo:availability: [preview]
+      hippo:name: MY1043837
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:49.412+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:49.724+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: f462e094-5c14-4648-9efb-2ff7f8838e82
+      hippotranslation:locale: en
+      kohler:addressLine1: No. 70, Jalan Dato'Abu Bakar, 16/1, Section 16
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.127511'
+      kohler:lineLink: ''
+      kohler:longitude: '101.646873'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: The Best Supplies Sdn Bhd
+      kohler:phone: [60-3 7931 8377]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1043837
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '46350'
+    /MY1043837[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 60ac4f2c-679d-4995-9c23-769554e50b2e
+      hippo:availability: []
+      hippo:name: MY1043837
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:49.412+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:49.643+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: f462e094-5c14-4648-9efb-2ff7f8838e82
+      hippotranslation:locale: en
+      kohler:addressLine1: No. 70, Jalan Dato'Abu Bakar, 16/1, Section 16
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.127511'
+      kohler:lineLink: ''
+      kohler:longitude: '101.646873'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: The Best Supplies Sdn Bhd
+      kohler:phone: [60-3 7931 8377]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1043837
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '46350'
+  /MY1024147a:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4d295476-ba63-4047-a5a8-9fa9d4c1a5b1
+    hippo:name: MY1024147a
+    /MY1024147a[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: fb3c0ef6-b2e1-4ae8-b917-bd5d82bbac97
+      hippo:availability: [live]
+      hippo:name: MY1024147a
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:49.896+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.247+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:50.312+05:30
+      hippotranslation:id: 3378ec31-c34b-4a0e-8593-148dfb20190c
+      hippotranslation:locale: en
+      kohler:addressLine1: 7A, Jalan 51/215, Seksyen 51
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-8-4316890
+      kohler:featuredShowroom: false
+      kohler:generalEmail: hopefull.mkt@gmail.com
+      kohler:instagramLink: ''
+      kohler:latitude: '3.093301'
+      kohler:lineLink: ''
+      kohler:longitude: '101.637661'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Bina Warehouse Sdn Bhd
+      kohler:phone: [60-3-7781 5269]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor
+      kohler:storeId: MY1024147a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '46050'
+    /MY1024147a[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 4e20969e-a9a6-45af-9e44-b124081c6267
+      hippo:availability: [preview]
+      hippo:name: MY1024147a
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:49.896+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.247+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 3378ec31-c34b-4a0e-8593-148dfb20190c
+      hippotranslation:locale: en
+      kohler:addressLine1: 7A, Jalan 51/215, Seksyen 51
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-8-4316890
+      kohler:featuredShowroom: false
+      kohler:generalEmail: hopefull.mkt@gmail.com
+      kohler:instagramLink: ''
+      kohler:latitude: '3.093301'
+      kohler:lineLink: ''
+      kohler:longitude: '101.637661'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Bina Warehouse Sdn Bhd
+      kohler:phone: [60-3-7781 5269]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor
+      kohler:storeId: MY1024147a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '46050'
+    /MY1024147a[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 3860e679-8309-42de-b40b-d3545d70697b
+      hippo:availability: []
+      hippo:name: MY1024147a
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:49.896+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.150+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 3378ec31-c34b-4a0e-8593-148dfb20190c
+      hippotranslation:locale: en
+      kohler:addressLine1: 7A, Jalan 51/215, Seksyen 51
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Petaling Jaya
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-8-4316890
+      kohler:featuredShowroom: false
+      kohler:generalEmail: hopefull.mkt@gmail.com
+      kohler:instagramLink: ''
+      kohler:latitude: '3.093301'
+      kohler:lineLink: ''
+      kohler:longitude: '101.637661'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Bina Warehouse Sdn Bhd
+      kohler:phone: [60-3-7781 5269]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor
+      kohler:storeId: MY1024147a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '46050'
+  /MY1043837a:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: c25aec7a-d293-4cbc-8bd7-d4ad73717465
+    hippo:name: MY1043837a
+    /MY1043837a[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 481be91e-6336-4b46-866f-78b06f1bafea
+      hippo:availability: [live]
+      hippo:name: MY1043837a
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:50.405+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.646+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:50.720+05:30
+      hippotranslation:id: 070bdd5f-920f-4d2f-a91c-7fe5333012fa
+      hippotranslation:locale: en
+      kohler:addressLine1: No. 11, Jalan Kelapa, Persiaran Raja Muda Musa, Taman Palm
+        Groove
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Klang
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.032975'
+      kohler:lineLink: ''
+      kohler:longitude: '101.436566'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: The Best Supplies Sdn Bhd
+      kohler:phone: [60-3-33731588]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1043837a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://www.twjsgroup.com/
+      kohler:zip: '41200'
+    /MY1043837a[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 41150d8c-6f27-4f16-8533-addbc02faa4b
+      hippo:availability: [preview]
+      hippo:name: MY1043837a
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:50.405+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.646+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 070bdd5f-920f-4d2f-a91c-7fe5333012fa
+      hippotranslation:locale: en
+      kohler:addressLine1: No. 11, Jalan Kelapa, Persiaran Raja Muda Musa, Taman Palm
+        Groove
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Klang
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.032975'
+      kohler:lineLink: ''
+      kohler:longitude: '101.436566'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: The Best Supplies Sdn Bhd
+      kohler:phone: [60-3-33731588]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1043837a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://www.twjsgroup.com/
+      kohler:zip: '41200'
+    /MY1043837a[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 7c9092eb-122b-4b6b-8190-e67dbb11066f
+      hippo:availability: []
+      hippo:name: MY1043837a
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:50.405+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.593+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 070bdd5f-920f-4d2f-a91c-7fe5333012fa
+      hippotranslation:locale: en
+      kohler:addressLine1: No. 11, Jalan Kelapa, Persiaran Raja Muda Musa, Taman Palm
+        Groove
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Klang
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '3.032975'
+      kohler:lineLink: ''
+      kohler:longitude: '101.436566'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: The Best Supplies Sdn Bhd
+      kohler:phone: [60-3-33731588]
+      kohler:primaryContactEmail: ''
+      kohler:state: Selangor Darul Ehsan
+      kohler:storeId: MY1043837a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://www.twjsgroup.com/
+      kohler:zip: '41200'
+  /MY1024320:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a7d44be8-a287-44ee-844b-154719357f54
+    hippo:name: MY1024320
+    /MY1024320[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 55aa2835-0778-42d8-9ef8-17360daf1caf
+      hippo:availability: [live]
+      hippo:name: MY1024320
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:50.783+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.976+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:51.038+05:30
+      hippotranslation:id: 95212942-9c68-4749-ab2d-b34e6f4247f5
+      hippotranslation:locale: en
+      kohler:addressLine1: 52, Lorong Lanang 1
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Sibu
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-77252802
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '2.286357'
+      kohler:lineLink: ''
+      kohler:longitude: '111.834912'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Crwn Idea Sdn Bhd
+      kohler:phone: [60-8-4330890]
+      kohler:primaryContactEmail: ''
+      kohler:state: Sarawak
+      kohler:storeId: MY1024320
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '96000'
+    /MY1024320[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 1e77d06c-9aa5-4820-bf35-ebac9f52cfc0
+      hippo:availability: [preview]
+      hippo:name: MY1024320
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:50.783+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.976+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 95212942-9c68-4749-ab2d-b34e6f4247f5
+      hippotranslation:locale: en
+      kohler:addressLine1: 52, Lorong Lanang 1
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Sibu
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-77252802
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '2.286357'
+      kohler:lineLink: ''
+      kohler:longitude: '111.834912'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Crwn Idea Sdn Bhd
+      kohler:phone: [60-8-4330890]
+      kohler:primaryContactEmail: ''
+      kohler:state: Sarawak
+      kohler:storeId: MY1024320
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '96000'
+    /MY1024320[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 5b5d0f86-306b-48a1-b021-e638bcf89717
+      hippo:availability: []
+      hippo:name: MY1024320
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:50.783+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:50.912+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 95212942-9c68-4749-ab2d-b34e6f4247f5
+      hippotranslation:locale: en
+      kohler:addressLine1: 52, Lorong Lanang 1
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Sibu
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-77252802
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '2.286357'
+      kohler:lineLink: ''
+      kohler:longitude: '111.834912'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Crwn Idea Sdn Bhd
+      kohler:phone: [60-8-4330890]
+      kohler:primaryContactEmail: ''
+      kohler:state: Sarawak
+      kohler:storeId: MY1024320
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '96000'
+  /MY1024320a:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 74b19c55-b85e-471d-82e8-d8b1940b484b
+    hippo:name: MY1024320a
+    /MY1024320a[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 37bb32ad-6d28-436f-8c84-2588d19bc5dc
+      hippo:availability: [live]
+      hippo:name: MY1024320a
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:51.102+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:51.329+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:25:51.372+05:30
+      hippotranslation:id: b6350226-d90d-4284-a934-89617eecfd74
+      hippotranslation:locale: en
+      kohler:addressLine1: 32H, G/F, Lot 10141, Section 64, Jalan Mendu
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Kuching
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-3373 1590
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.543553'
+      kohler:lineLink: ''
+      kohler:longitude: '110.358973'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Crwn Idea Sdn Bhd
+      kohler:phone: [60-8-2330890]
+      kohler:primaryContactEmail: ''
+      kohler:state: Sarawak
+      kohler:storeId: MY1024320a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://thebestsupplies.com.my/
+      kohler:zip: '93300'
+    /MY1024320a[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: d7fb83c8-726b-465d-a932-e79a94249c79
+      hippo:availability: [preview]
+      hippo:name: MY1024320a
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:51.102+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:51.329+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: b6350226-d90d-4284-a934-89617eecfd74
+      hippotranslation:locale: en
+      kohler:addressLine1: 32H, G/F, Lot 10141, Section 64, Jalan Mendu
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Kuching
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-3373 1590
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.543553'
+      kohler:lineLink: ''
+      kohler:longitude: '110.358973'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Crwn Idea Sdn Bhd
+      kohler:phone: [60-8-2330890]
+      kohler:primaryContactEmail: ''
+      kohler:state: Sarawak
+      kohler:storeId: MY1024320a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://thebestsupplies.com.my/
+      kohler:zip: '93300'
+    /MY1024320a[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 708a2b30-9360-4709-ae17-fe7db6087374
+      hippo:availability: []
+      hippo:name: MY1024320a
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:25:51.102+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:25:51.270+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: b6350226-d90d-4284-a934-89617eecfd74
+      hippotranslation:locale: en
+      kohler:addressLine1: 32H, G/F, Lot 10141, Section 64, Jalan Mendu
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Kuching
+      kohler:country: Malaysia
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: true
+      kohler:facebookLink: ''
+      kohler:fax: 60-3-3373 1590
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.543553'
+      kohler:lineLink: ''
+      kohler:longitude: '110.358973'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Crwn Idea Sdn Bhd
+      kohler:phone: [60-8-2330890]
+      kohler:primaryContactEmail: ''
+      kohler:state: Sarawak
+      kohler:storeId: MY1024320a
+      kohler:storeLogo: https://s7d4.scene7.com/is/image/PAWEB/KohlerBlk
+      kohler:twitterLink: ''
+      kohler:website: http://thebestsupplies.com.my/
+      kohler:zip: '93300'

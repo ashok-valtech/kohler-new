@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/brandSitemap:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.BrandSitemapComponent
+      hst:parameternames: [siteMenuParentName, siteMenuName]
+      hst:parametervalues: ['${siteMenuParentName}', '${siteMenuName}']
+      hst:template: specific-sitemap.ftl

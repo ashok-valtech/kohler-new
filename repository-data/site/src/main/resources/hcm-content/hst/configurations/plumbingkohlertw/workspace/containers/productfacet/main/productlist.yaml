@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers/productfacet/main/productlist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.EssentialsProductListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+  hst:label: Product List
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: ['', '', asc, '', '10', 'off', 'on']
+  hst:template: productfacetpage-productlist
+  hst:xtype: hst.item

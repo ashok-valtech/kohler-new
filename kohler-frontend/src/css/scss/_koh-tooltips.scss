@@ -1,0 +1,22 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+ 
+/* Global Styling for Tooltips */
+
+// Styles for qTip2 javascript plugin
+@import "qtip2/jquery.qtip";
+
+// Basic simple plaintext tooltip 
+// Should be applied in combination with qtip-bootstrap class when initializing qtip
+.koh-qtip-tooltip {
+	
+}
+
+// Complex popover tooltip with custom HTML content
+// Should be applied in combination with qtip-plain class when initializing qtip
+.koh-qtip-popover {
+	max-width: 100%;
+	
+	.qtip-content { padding: 0; }
+}

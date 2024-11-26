@@ -1,0 +1,83 @@
+/content/urlrewriter/plumbingkohlerapac/domain-redirect:
+  .meta:order-before: domain-redirects
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 10fd3a07-9a59-4efe-a662-16ae2ce83ec4
+  hippo:name: Domain redirect
+  /domain-redirect[1]:
+    jcr:primaryType: urlrewriter:advancedrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0f87c5fa-0663-4763-97e2-3aee10fe0fde
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2017-09-26T12:51:54.197+05:30
+    hippostdpubwf:lastModificationDate: 2017-09-26T12:51:54.749+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+    urlrewriter:casesensitive: false
+    urlrewriter:isnotlast: true
+    urlrewriter:iswildcardtype: false
+    urlrewriter:qsappend: false
+    urlrewriter:ruledescription: APAC root redirect
+    urlrewriter:rulefrom: ^/$
+    urlrewriter:ruleto: /
+    urlrewriter:ruletype: permanent-redirect
+    /urlrewriter:rulecondition:
+      jcr:primaryType: urlrewriter:rulecondition
+      urlrewriter:conditionname: host
+      urlrewriter:conditionoperator: equal
+      urlrewriter:conditionor: or
+      urlrewriter:conditiontype: header
+      urlrewriter:conditionvalue: www.kohlerapac.dev
+  /domain-redirect[2]:
+    jcr:primaryType: urlrewriter:advancedrule
+    jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+    jcr:uuid: 8ccf705d-52df-4e8b-bcd8-8e9469f15596
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2017-09-26T12:51:54.197+05:30
+    hippostdpubwf:lastModificationDate: 2017-09-26T12:53:33.653+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:casesensitive: false
+    urlrewriter:isnotlast: true
+    urlrewriter:iswildcardtype: false
+    urlrewriter:qsappend: false
+    urlrewriter:ruledescription: APAC root redirect
+    urlrewriter:rulefrom: ^/$
+    urlrewriter:ruleto: /
+    urlrewriter:ruletype: permanent-redirect
+    /urlrewriter:rulecondition:
+      jcr:primaryType: urlrewriter:rulecondition
+      urlrewriter:conditionname: host
+      urlrewriter:conditionoperator: equal
+      urlrewriter:conditionor: or
+      urlrewriter:conditiontype: header
+      urlrewriter:conditionvalue: www.kohlerapac.dev
+  /domain-redirect[3]:
+    jcr:primaryType: urlrewriter:advancedrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a2573de7-e8d1-4b55-bb96-7bc834e71edc
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2017-09-26T12:51:54.197+05:30
+    hippostdpubwf:lastModificationDate: 2017-09-26T12:53:33.653+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2017-09-26T12:53:41.193+05:30
+    urlrewriter:casesensitive: false
+    urlrewriter:isnotlast: true
+    urlrewriter:iswildcardtype: false
+    urlrewriter:qsappend: false
+    urlrewriter:ruledescription: APAC root redirect
+    urlrewriter:rulefrom: ^/$
+    urlrewriter:ruleto: /
+    urlrewriter:ruletype: permanent-redirect
+    /urlrewriter:rulecondition:
+      jcr:primaryType: urlrewriter:rulecondition
+      urlrewriter:conditionname: host
+      urlrewriter:conditionoperator: equal
+      urlrewriter:conditionor: or
+      urlrewriter:conditiontype: header
+      urlrewriter:conditionvalue: www.kohlerapac.dev

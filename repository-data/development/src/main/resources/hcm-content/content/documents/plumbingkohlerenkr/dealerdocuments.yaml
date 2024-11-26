@@ -1,0 +1,374 @@
+/content/documents/plumbingkohlerenkr/dealerdocuments:
+  .meta:order-before: faq
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 69cf90cd-2824-427e-9f1d-cb2fcb49afa7
+  hippo:name: dealerdocuments
+  hippotranslation:id: 98d9da23-b8cb-4ec1-8410-5f65dd484a51
+  hippotranslation:locale: en_KR
+  /SG0000001:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3782a701-a4a0-400c-9c57-f9504badca0e
+    hippo:name: SG0000001
+    /SG0000001[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: adf8fe56-e1ce-4ed5-9f5b-7946625a4850
+      hippo:availability: [live]
+      hippo:name: SG0000001
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:43.859+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.027+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:26:44.092+05:30
+      hippotranslation:id: 81ebea52-8b8d-4d03-a8a8-1a640fe511e3
+      hippotranslation:locale: en
+      kohler:addressLine1: '120 Lower Delta Road, #01-11 Cendex Centre'
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: 043-441902
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.280254'
+      kohler:lineLink: ''
+      kohler:longitude: '103.822783'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: KHK Asia Pte Ltd
+      kohler:phone: [63-32-2530-103]
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000001
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '169208'
+    /SG0000001[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 1b951720-d7e6-4507-94d0-3d1966870d00
+      hippo:availability: [preview]
+      hippo:name: SG0000001
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:43.859+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.027+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 81ebea52-8b8d-4d03-a8a8-1a640fe511e3
+      hippotranslation:locale: en
+      kohler:addressLine1: '120 Lower Delta Road, #01-11 Cendex Centre'
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: 043-441902
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.280254'
+      kohler:lineLink: ''
+      kohler:longitude: '103.822783'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: KHK Asia Pte Ltd
+      kohler:phone: [63-32-2530-103]
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000001
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '169208'
+    /SG0000001[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 49454013-37d9-45b5-a1bd-de8d9d5ec9c6
+      hippo:availability: []
+      hippo:name: SG0000001
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:43.859+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:43.983+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: 81ebea52-8b8d-4d03-a8a8-1a640fe511e3
+      hippotranslation:locale: en
+      kohler:addressLine1: '120 Lower Delta Road, #01-11 Cendex Centre'
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: 043-441902
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.280254'
+      kohler:lineLink: ''
+      kohler:longitude: '103.822783'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: KHK Asia Pte Ltd
+      kohler:phone: [63-32-2530-103]
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000001
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '169208'
+  /SG0000002:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 26443f30-80be-4a85-a85e-065af14680cc
+    hippo:name: SG0000002
+    /SG0000002[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 88932c5f-7fab-497f-a7eb-9ab58276d2fb
+      hippo:availability: [live]
+      hippo:name: SG0000002
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:44.140+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.319+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:26:44.372+05:30
+      hippotranslation:id: a2c174f4-36da-4c34-bb52-cedfe620b47f
+      hippotranslation:locale: en
+      kohler:addressLine1: 7 Sungei Kadut Crescent
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: 052-001201
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.410026'
+      kohler:lineLink: ''
+      kohler:longitude: '103.744468'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Sinbor Company Pte Ltd
+      kohler:phone: [63-2-728-8014]
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000002
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '728696'
+    /SG0000002[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 654c19ab-20a7-463a-9603-25a4ea551883
+      hippo:availability: [preview]
+      hippo:name: SG0000002
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:44.140+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.319+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: a2c174f4-36da-4c34-bb52-cedfe620b47f
+      hippotranslation:locale: en
+      kohler:addressLine1: 7 Sungei Kadut Crescent
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: 052-001201
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.410026'
+      kohler:lineLink: ''
+      kohler:longitude: '103.744468'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Sinbor Company Pte Ltd
+      kohler:phone: [63-2-728-8014]
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000002
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '728696'
+    /SG0000002[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: dd286b48-76c4-4035-a3e5-e550e5605f4a
+      hippo:availability: []
+      hippo:name: SG0000002
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:44.140+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.254+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: a2c174f4-36da-4c34-bb52-cedfe620b47f
+      hippotranslation:locale: en
+      kohler:addressLine1: 7 Sungei Kadut Crescent
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: 052-001201
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: '1.410026'
+      kohler:lineLink: ''
+      kohler:longitude: '103.744468'
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: Sinbor Company Pte Ltd
+      kohler:phone: [63-2-728-8014]
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000002
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '728696'
+  /SG0000003:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8ee01c74-eaac-4545-9645-3707099b4f91
+    hippo:name: SG0000003
+    /SG0000003[1]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 94b545fc-87c2-4e1a-a752-2e0c167d1d00
+      hippo:availability: [live]
+      hippo:name: SG0000003
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:44.441+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.592+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippostdpubwf:publicationDate: 2017-10-17T12:26:44.634+05:30
+      hippotranslation:id: cc4c9f4e-a46b-40e1-8582-58be0bed42a1
+      hippotranslation:locale: en
+      kohler:addressLine1: 52/56 Peck Seah Street, Tanjong Pagar
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: ''
+      kohler:lineLink: ''
+      kohler:longitude: ''
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: KOHLER Experience Center Singapore
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000003
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '079321'
+    /SG0000003[2]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 0d32bdc1-9f0c-4847-840b-d619a52f3b73
+      hippo:availability: [preview]
+      hippo:name: SG0000003
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:44.441+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.592+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: cc4c9f4e-a46b-40e1-8582-58be0bed42a1
+      hippotranslation:locale: en
+      kohler:addressLine1: 52/56 Peck Seah Street, Tanjong Pagar
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: ''
+      kohler:lineLink: ''
+      kohler:longitude: ''
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: KOHLER Experience Center Singapore
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000003
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '079321'
+    /SG0000003[3]:
+      jcr:primaryType: kohler:Dealer
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: e34c820b-87a0-4118-abc0-09448896a659
+      hippo:availability: []
+      hippo:name: SG0000003
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-17T12:26:44.441+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-17T12:26:44.550+05:30
+      hippostdpubwf:lastModifiedBy: sitewriter
+      hippotranslation:id: cc4c9f4e-a46b-40e1-8582-58be0bed42a1
+      hippotranslation:locale: en
+      kohler:addressLine1: 52/56 Peck Seah Street, Tanjong Pagar
+      kohler:addressLine2: ''
+      kohler:addressLine3: ''
+      kohler:city: Singapore
+      kohler:country: Singapore
+      kohler:dealerType: ''
+      kohler:description: ''
+      kohler:detailView: false
+      kohler:facebookLink: ''
+      kohler:fax: ''
+      kohler:featuredShowroom: false
+      kohler:generalEmail: ''
+      kohler:instagramLink: ''
+      kohler:latitude: ''
+      kohler:lineLink: ''
+      kohler:longitude: ''
+      kohler:mobilePhone: ''
+      kohler:nameOfStore: KOHLER Experience Center Singapore
+      kohler:primaryContactEmail: ''
+      kohler:state: Singapore
+      kohler:storeId: SG0000003
+      kohler:storeLogo: ''
+      kohler:twitterLink: ''
+      kohler:website: ''
+      kohler:zip: '079321'

@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/searchSuggestionComponentIDEN:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.indonesia.components.search.JSONAutoSuggestComponentEn

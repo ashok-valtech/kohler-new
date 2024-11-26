@@ -1,0 +1,435 @@
+/content/documents/kohler/categorybanner:
+  .meta:order-before: collectons-promo
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 3656de47-53cf-466d-8519-99a6d80ac5aa
+  hippostd:foldertype: [new-categorybanner-folder, new-categorybanner-document]
+  hippotranslation:id: 060190cf-191a-4b60-b148-5164a9cf1210
+  hippotranslation:locale: en
+  /categorybanner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: fa4cc458-2c82-4ade-9c1d-58a786761a60
+    /categorybanner1[1]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: c4e166b4-a344-4bda-a659-8151db18cd59
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-22T17:09:14.970+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T13:10:22.356+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [toilets]
+      hippotranslation:id: f1cbcf8a-7df1-438e-820b-1dfdbe0ff966
+      hippotranslation:locale: en
+      kohler:buttonText: more
+      kohler:displayOrder: 2
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab40410_1800x800
+      kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-bathroom-faucets-sink-faucets/_/N-259w
+      kohler:textColor: ''
+      kohler:title: Shower Sprays, Components & Fittings Buying Guide
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Choose the door that's right for you.</p>
+    /categorybanner1[2]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 0357b6a5-a453-48b1-a8e4-3970d7ddfa3f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-22T17:09:14.970+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T13:10:29.293+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [toilets]
+      hippotranslation:id: f1cbcf8a-7df1-438e-820b-1dfdbe0ff966
+      hippotranslation:locale: en
+      kohler:buttonText: more
+      kohler:displayOrder: 2
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab40410_1800x800
+      kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-bathroom-faucets-sink-faucets/_/N-259w
+      kohler:textColor: ''
+      kohler:title: Shower Sprays, Components & Fittings Buying Guide
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Choose the door that's right for you.</p>
+    /categorybanner1[3]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: fd756eb3-259e-4b80-802f-5c3a166b6644
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-22T17:09:14.970+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T13:10:29.293+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-24T13:10:31.305+05:30
+      hippotaxonomy:keys: [toilets]
+      hippotranslation:id: f1cbcf8a-7df1-438e-820b-1dfdbe0ff966
+      hippotranslation:locale: en
+      kohler:buttonText: more
+      kohler:displayOrder: 2
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab40410_1800x800
+      kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-bathroom-faucets-sink-faucets/_/N-259w
+      kohler:textColor: ''
+      kohler:title: Shower Sprays, Components & Fittings Buying Guide
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Choose the door that's right for you.</p>
+  /categorybanner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3f5024cb-5a06-4b58-b49c-ed51d35f3449
+    /categorybanner2[1]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 0ecd2425-eb83-4b76-9400-5605d06e9049
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:34:21.595+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-27T17:24:28.129+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [toilets]
+      hippotranslation:id: b276a918-4f19-457b-99d3-24d13e4bf2e4
+      hippotranslation:locale: en
+      kohler:buttonText: explore
+      kohler:displayOrder: 1
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab86829_1800x800?$1800Hero$
+      kohler:navigationPath: https://www.us.kohler.com/us/Kitchen/category/432288.htm
+      kohler:textColor: '#000000'
+      kohler:title: Kitchen Product Buying Guides
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Find the kitchen products that work for you.</p>
+    /categorybanner2[2]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: ad636341-7e64-45e0-a0bf-be1e8f868b26
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:34:21.595+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-27T17:24:36.633+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [toilets]
+      hippotranslation:id: b276a918-4f19-457b-99d3-24d13e4bf2e4
+      hippotranslation:locale: en
+      kohler:buttonText: explore
+      kohler:displayOrder: 1
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab86829_1800x800?$1800Hero$
+      kohler:navigationPath: https://www.us.kohler.com/us/Kitchen/category/432288.htm
+      kohler:textColor: '#000000'
+      kohler:title: Kitchen Product Buying Guides
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Find the kitchen products that work for you.</p>
+    /categorybanner2[3]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 78913fff-e9cf-460c-a4c9-3807133b5f24
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:34:21.595+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-27T17:24:36.633+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-27T17:24:38.304+05:30
+      hippotaxonomy:keys: [toilets]
+      hippotranslation:id: b276a918-4f19-457b-99d3-24d13e4bf2e4
+      hippotranslation:locale: en
+      kohler:buttonText: explore
+      kohler:displayOrder: 1
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab86829_1800x800?$1800Hero$
+      kohler:navigationPath: https://www.us.kohler.com/us/Kitchen/category/432288.htm
+      kohler:textColor: '#000000'
+      kohler:title: Kitchen Product Buying Guides
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Find the kitchen products that work for you.</p>
+  /categorybanner3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 855f85ea-21e3-4d88-af1b-20f3dabe3fc2
+    /categorybanner3[1]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: a30e0d61-6a46-4f61-8ba3-44d5c9407187
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:40:05.679+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:40:37.790+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [bathing]
+      hippotranslation:id: 54da1955-0727-43d9-8030-a1937bc9d8c9
+      hippotranslation:locale: en
+      kohler:buttonText: Discover
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab86142_1800x800_SoftSummer
+      kohler:navigationPath: https://www.us.kohler.com/us/browse/kitchen-kitchen-sinks/_/N-25b4
+      kohler:textColor: '#00FF00'
+      kohler:title: Eclectic Blend of Textures
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get Inspired</p>
+    /categorybanner3[2]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 1629f1dd-ae87-4ef2-bd42-7266e035038f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:40:05.679+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:43:00.408+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [bathing]
+      hippotranslation:id: 54da1955-0727-43d9-8030-a1937bc9d8c9
+      hippotranslation:locale: en
+      kohler:buttonText: Discover
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab86142_1800x800_SoftSummer
+      kohler:navigationPath: https://www.us.kohler.com/us/browse/kitchen-kitchen-sinks/_/N-25b4
+      kohler:textColor: '#00FF00'
+      kohler:title: Eclectic Blend of Textures
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get Inspired</p>
+    /categorybanner3[3]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: 4c77a40b-5ad4-4c02-b6ee-3aa70531fda6
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:40:05.679+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:43:00.408+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-24T12:43:02.078+05:30
+      hippotaxonomy:keys: [bathing]
+      hippotranslation:id: 54da1955-0727-43d9-8030-a1937bc9d8c9
+      hippotranslation:locale: en
+      kohler:buttonText: Discover
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab86142_1800x800_SoftSummer
+      kohler:navigationPath: https://www.us.kohler.com/us/browse/kitchen-kitchen-sinks/_/N-25b4
+      kohler:textColor: '#00FF00'
+      kohler:title: Eclectic Blend of Textures
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get Inspired</p>
+  /categorybanner4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 40637722-3f0a-467b-9aec-a8f97ab11b1c
+    /categorybanner4[1]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: d8b6a46c-35de-469d-a73c-2d5add56d435
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:43:51.428+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:43:51.513+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [bathing]
+      hippotranslation:id: 399c18ce-c253-4f1e-922e-963b84ee7999
+      hippotranslation:locale: en
+      kohler:buttonText: Explore
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab44801_1800x800
+      kohler:navigationPath: /browse/bathroom/Categories/bathing
+      kohler:textColor: '#0000FF'
+      kohler:title: Why Kohler Stainless
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Premium material. SilentShield</p>
+    /categorybanner4[2]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+      jcr:uuid: 5477017b-8e72-4b29-8599-f37a8b5f5b5e
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:43:51.428+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:46:04.537+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [bathing]
+      hippotranslation:id: 399c18ce-c253-4f1e-922e-963b84ee7999
+      hippotranslation:locale: en
+      kohler:buttonText: Explore
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab44801_1800x800
+      kohler:navigationPath: /browse/bathroom/Categories/bathing
+      kohler:textColor: '#0000FF'
+      kohler:title: Why Kohler Stainless
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Premium material. SilentShield</p>
+    /categorybanner4[3]:
+      jcr:primaryType: kohler:CategoryBanner
+      jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+      jcr:uuid: b21ba70b-455d-4140-811f-595d17349331
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-24T12:43:51.428+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:46:04.537+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-24T12:46:06.001+05:30
+      hippotaxonomy:keys: [bathing]
+      hippotranslation:id: 399c18ce-c253-4f1e-922e-963b84ee7999
+      hippotranslation:locale: en
+      kohler:buttonText: Explore
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab44801_1800x800
+      kohler:navigationPath: /browse/bathroom/Categories/bathing
+      kohler:textColor: '#0000FF'
+      kohler:title: Why Kohler Stainless
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Premium material. SilentShield</p>
+  /showering:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 070c4e41-887f-4cb4-9cec-486315da14ed
+    hippostd:foldertype: [new-categorybanner-folder, new-categorybanner-document]
+    hippotranslation:id: 4eddef80-5ebf-4ada-afa4-6496d6f9b251
+    hippotranslation:locale: en
+    /showering1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 887ed85e-10ff-4531-a04e-8f8eaf15c220
+      /showering1[1]:
+        jcr:primaryType: kohler:CategoryBanner
+        jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+        jcr:uuid: 61730559-b03c-4ee7-8cdf-5e3198201a0f
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-11-27T11:59:18.337+05:30
+        hippostdpubwf:lastModificationDate: 2017-11-27T12:06:20.861+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotaxonomy:keys: [bathroom-showering]
+        hippotranslation:id: 3ab7fa15-8626-42b8-aec5-5837215b3127
+        hippotranslation:locale: en
+        kohler:buttonText: explore
+        kohler:displayOrder: 2
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49009_1800x800
+        kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-showering-steam/_/N-259p
+        kohler:textColor: '#00FFFF'
+        kohler:title: Benefits of Steam in your Shower
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Learn More</p>
+      /showering1[2]:
+        jcr:primaryType: kohler:CategoryBanner
+        jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+        jcr:uuid: a237c6f0-adb6-4663-a8cd-4994560f612d
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-11-27T11:59:18.337+05:30
+        hippostdpubwf:lastModificationDate: 2017-11-27T12:04:52.449+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotaxonomy:keys: [bathroom-showering]
+        hippotranslation:id: 3ab7fa15-8626-42b8-aec5-5837215b3127
+        hippotranslation:locale: en
+        kohler:buttonText: explore
+        kohler:displayOrder: 2
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49009_1800x800
+        kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-showering-steam/_/N-259p
+        kohler:textColor: '#00FFFF'
+        kohler:title: Benefits of Steam in your Shower
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Learn More</p>
+      /showering1[3]:
+        jcr:primaryType: kohler:CategoryBanner
+        jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+        jcr:uuid: 3dbaf01f-9073-483e-84a3-1cce3bc9315b
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-11-27T11:59:18.337+05:30
+        hippostdpubwf:lastModificationDate: 2017-11-27T12:04:52.449+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-11-27T12:04:55.307+05:30
+        hippotaxonomy:keys: [bathroom-showering]
+        hippotranslation:id: 3ab7fa15-8626-42b8-aec5-5837215b3127
+        hippotranslation:locale: en
+        kohler:buttonText: explore
+        kohler:displayOrder: 2
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49009_1800x800
+        kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-showering-steam/_/N-259p
+        kohler:textColor: '#00FFFF'
+        kohler:title: Benefits of Steam in your Shower
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Learn More</p>
+    /showering2:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d592ec29-13fc-4507-b5e0-c8350ed729b4
+      /showering2[1]:
+        jcr:primaryType: kohler:CategoryBanner
+        jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+        jcr:uuid: 4d7b7b38-97de-4f4e-997a-8d2198e0a131
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-11-27T12:05:08.508+05:30
+        hippostdpubwf:lastModificationDate: 2017-11-27T12:05:08.626+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotaxonomy:keys: [bathroom-showering]
+        hippotranslation:id: b7e9e163-3dcf-4e9b-8bbc-dfa2aa2f2e34
+        hippotranslation:locale: en
+        kohler:buttonText: Learn more
+        kohler:displayOrder: 1
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab85269_1800x800
+        kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-showering-steam/_/N-259p
+        kohler:textColor: '#008080'
+        kohler:title: Go Digital in the Shower
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Where does your shower take you?</p>
+      /showering2[2]:
+        jcr:primaryType: kohler:CategoryBanner
+        jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:versionable']
+        jcr:uuid: a6d3dd71-e89d-40f1-b9a9-aa3beaf62d9a
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-11-27T12:05:08.508+05:30
+        hippostdpubwf:lastModificationDate: 2017-11-27T12:07:06.675+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotaxonomy:keys: [bathroom-showering]
+        hippotranslation:id: b7e9e163-3dcf-4e9b-8bbc-dfa2aa2f2e34
+        hippotranslation:locale: en
+        kohler:buttonText: Learn more
+        kohler:displayOrder: 1
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab85269_1800x800
+        kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-showering-steam/_/N-259p
+        kohler:textColor: '#008080'
+        kohler:title: Go Digital in the Shower
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Where does your shower take you?</p>
+      /showering2[3]:
+        jcr:primaryType: kohler:CategoryBanner
+        jcr:mixinTypes: ['hippotaxonomy:classifiable', 'mix:referenceable']
+        jcr:uuid: c8f0c38c-3899-4eca-bef2-016c476051fb
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-11-27T12:05:08.508+05:30
+        hippostdpubwf:lastModificationDate: 2017-11-27T12:07:06.675+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-11-27T12:07:08.049+05:30
+        hippotaxonomy:keys: [bathroom-showering]
+        hippotranslation:id: b7e9e163-3dcf-4e9b-8bbc-dfa2aa2f2e34
+        hippotranslation:locale: en
+        kohler:buttonText: Learn more
+        kohler:displayOrder: 1
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab85269_1800x800
+        kohler:navigationPath: https://www.us.kohler.com/us/browse/bathroom-showering-steam/_/N-259p
+        kohler:textColor: '#008080'
+        kohler:title: Go Digital in the Shower
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Where does your shower take you?</p>

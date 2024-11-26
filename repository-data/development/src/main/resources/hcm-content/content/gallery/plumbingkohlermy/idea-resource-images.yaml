@@ -1,0 +1,7 @@
+/content/gallery/plumbingkohlermy/idea-resource-images:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: f067df5e-b2ce-4061-bc97-25f56c66b8ff
+  hippo:name: idea-resource images
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

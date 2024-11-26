@@ -1,0 +1,628 @@
+/content/documents/plumbingkohlertw/banners:
+  .meta:order-before: collectons-promo
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 41f39afa-0080-4c07-aefb-9ebd684937cf
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: dddce8fc-aa4c-4a62-9608-f012a784c2af
+  hippotranslation:locale: zh_TW
+  /kohlerhome:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: c541fd7b-cd86-4ec0-ace2-de1d5a0f920b
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: d3e0d443-43f9-4fe6-85cb-636ddab2a5da
+    hippotranslation:locale: zh_TW
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 58b85129-b833-4de5-931b-01ea5f0c7227
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 27ddcc5f-64a1-4081-adc6-c2c66aeda8b2
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T17:59:32.956+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2b618a7f-5c3d-4fdc-9088-14c6320df69e
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: 完成剛剛開始（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>每個房間都講故事。<br />
+            開始想像你的右手水龍頭完成。 （新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b8323b5b-7341-48bc-9d9c-7ce34dbb3600
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T17:46:06.649+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2b618a7f-5c3d-4fdc-9088-14c6320df69e
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: 完成剛剛開始（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>每個房間都講故事。<br />
+            開始想像你的右手水龍頭完成。 （新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 291d4ccd-ddfe-4c4b-abc8-b58c4effe647
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:11:58.203+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T17:59:32.956+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T17:59:34.209+05:30
+        hippotranslation:id: 2b618a7f-5c3d-4fdc-9088-14c6320df69e
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zab80599_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac23290_rgb?$1800Hero$&crop=(0,1475,8277,3679)
+        kohler:navigationPath: ''
+        kohler:textColor: '#000000'
+        kohler:title: 完成剛剛開始（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>每個房間都講故事。<br />
+            開始想像你的右手水龍頭完成。 （新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 37d230e8-7d50-49ff-89f1-25af49dd7515
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: b6bc6641-17d2-40db-9b33-236707dc43c6
+      hippo:name: Artist Editions
+      /artist-editions[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 50b1298c-5698-4ca2-b1d7-094adb84b4a1
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:00:16.137+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: ade97b2a-ef42-4701-8942-e4c65b6d3043
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: ArtistEditions®（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>每一件偉大的藝術作品都以靈感開始。 （新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: dbc2919f-5e2d-43e0-a8e4-b432b5f4c4fa
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T17:59:35.510+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: ade97b2a-ef42-4701-8942-e4c65b6d3043
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: ArtistEditions®（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>每一件偉大的藝術作品都以靈感開始。 （新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /artist-editions[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c01caf99-0f6b-473d-a8de-0936e4610c2f
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:00:16.137+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T18:00:17.475+05:30
+        hippotranslation:id: ade97b2a-ef42-4701-8942-e4c65b6d3043
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab69083_rgb?extend=0,-400,0,-450&$1800Hero$
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: ArtistEditions®（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>每一件偉大的藝術作品都以靈感開始。 （新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /its-happening-again:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: a3aada69-8b06-4b7a-b7b8-d6d7e7e80a2c
+      hippo:name: It's happening again
+      /its-happening-again[1]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 59abc235-dd61-4cbd-9ff0-71dad95176b6
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:00:39.358+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0b7e1911-5044-40ed-af84-a4f2fbb48d4b
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 再次發生（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>參見科勒智能廁所和清潔座椅（新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[2]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0ecb3464-d8bd-4c12-84b6-ceda61c7aa5d
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:00:19.158+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0b7e1911-5044-40ed-af84-a4f2fbb48d4b
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 再次發生（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>參見科勒智能廁所和清潔座椅（新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /its-happening-again[3]:
+        jcr:primaryType: kohler:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 723c241a-1840-484c-8580-15c0c391ecfd
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-04-20T17:19:34.312+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:00:39.358+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T18:00:40.863+05:30
+        hippotranslation:id: 0b7e1911-5044-40ed-af84-a4f2fbb48d4b
+        hippotranslation:locale: en
+        kohler:buttonText: ''
+        kohler:image path: /site/binaries/content/gallery/kohler/banners/zac09780_rgb.jpg
+        kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac09780_rgb?crop=(5883,8264,4322,1921)
+        kohler:navigationPath: ''
+        kohler:textColor: '#ffffff'
+        kohler:title: 再次發生（新加坡）
+        /kohler:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>參見科勒智能廁所和清潔座椅（新加坡）</p>
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 50d16774-faf7-4a36-89e7-e964696f2352
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /carouseloverlay:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: aa7ad78f-ba60-422c-b7d4-b88590906365
+    hippostd:foldertype: [new-carouselOverlay, new-carouselOverlay-folder]
+    hippotranslation:id: fa9920a9-60da-496a-80fd-8ede3e4f7320
+    hippotranslation:locale: zh_TW
+    /poplin:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: fa052579-2780-4ff2-a55a-1c8313e91800
+      hippo:name: Poplin
+      /poplin[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: b45eba11-1bf7-4f21-92fe-4aed74fc45ca
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:02.784+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: bfcb8acb-e79b-4a87-8252-0eba07498e97
+        hippotranslation:locale: en
+        kohler:description: Poplin面具受到Shaker風格和設計的鄉村美感和功能的影響。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6fcb7ff2-c685-4a94-8d77-db36f580906f
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:00:43.767+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: bfcb8acb-e79b-4a87-8252-0eba07498e97
+        hippotranslation:locale: en
+        kohler:description: Poplin面具受到Shaker風格和設計的鄉村美感和功能的影響。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /poplin[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ef9312d0-919f-41fb-856b-06927d1cc8eb
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:02.784+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T18:01:04.133+05:30
+        hippotranslation:id: bfcb8acb-e79b-4a87-8252-0eba07498e97
+        hippotranslation:locale: en
+        kohler:description: Poplin面具受到Shaker風格和設計的鄉村美感和功能的影響。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab42063_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Poplin™新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /jute:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: a5876083-8a76-4a52-b943-e553d5d2ad22
+      hippo:name: Jute
+      /jute[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 5f9baff3-1210-4def-ba3a-9d3d1ec138ea
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:23.318+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3fc8b239-7f05-486e-80aa-8f4d423b9be6
+        hippotranslation:locale: en
+        kohler:description: 黃麻梳妝台是中世紀現代美學的一個俏皮的選擇，這將使浴室中的設計聲明令人驚嘆。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: 黃麻™新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3e028f87-4fbe-4707-b965-8946e9997346
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:05.921+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3fc8b239-7f05-486e-80aa-8f4d423b9be6
+        hippotranslation:locale: en
+        kohler:description: 黃麻梳妝台是中世紀現代美學的一個俏皮的選擇，這將使浴室中的設計聲明令人驚嘆。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: 黃麻™新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /jute[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 02052167-e5d0-47c0-b3d1-08e419fbf4c0
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:23.318+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T18:01:24.679+05:30
+        hippotranslation:id: 3fc8b239-7f05-486e-80aa-8f4d423b9be6
+        hippotranslation:locale: en
+        kohler:description: 黃麻梳妝台是中世紀現代美學的一個俏皮的選擇，這將使浴室中的設計聲明令人驚嘆。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb?extend=0,-525,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: 黃麻™新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+    /artifacts:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 0e8c12dd-81bc-4fdf-840a-afb2b1e18757
+      hippo:name: Artifacts
+      /artifacts[1]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 543623d8-ffbd-48a0-9b15-dcd3301cbf39
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:46.293+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6e060f68-aab0-4b85-ad52-660cb74e6835
+        hippotranslation:locale: en
+        kohler:description: Artifacts系列的美麗在於其永恆的造型。 從休閒到正式，神器在任何裝飾在家。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts®在浴室新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[2]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9bb92b9e-d792-427b-9a91-b9ca3c36ce02
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:25.876+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6e060f68-aab0-4b85-ad52-660cb74e6835
+        hippotranslation:locale: en
+        kohler:description: Artifacts系列的美麗在於其永恆的造型。 從休閒到正式，神器在任何裝飾在家。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts®在浴室新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+      /artifacts[3]:
+        jcr:primaryType: kohler:carouselOverlayDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 71e6503a-ba31-4332-8247-6979caa76270
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-07-13T12:29:56.992+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T18:01:46.293+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T18:01:47.542+05:30
+        hippotranslation:id: 6e060f68-aab0-4b85-ad52-660cb74e6835
+        hippotranslation:locale: en
+        kohler:description: Artifacts系列的美麗在於其永恆的造型。 從休閒到正式，神器在任何裝飾在家。
+        kohler:image: https://kohler.scene7.com/is/image/PAWEB/zab29178_rgb?extend=0,-560,0,0&$960Carousel$
+        kohler:imageText: Brooklyn Black
+        kohler:label: ''
+        kohler:learnMore: ''
+        kohler:link: ''
+        kohler:title: Artifacts®在浴室新加坡
+        /kohler:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /kohler:kohler_carouseloverlaycompounddocument:
+          jcr:primaryType: kohler:carouselOverlayCompoundDocument
+          kohler:itemNo: ''
+          kohler:sku: ''
+          kohler:xCoordinate: 0.0
+          kohler:yCoordinate: 0.0
+  /material-and-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+    jcr:uuid: 54276ff4-0b95-4976-8f7b-c2324d8fc15a
+    hippo:name: material and color palette
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 05636f46-f3ec-47c3-9592-af58c0c884b4
+    hippotranslation:locale: zh_TW
+  /globalproject-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 5f42f870-cd4b-4964-abee-c1a09ebc6342
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: a7deb1b7-df45-41cc-a504-e93b5721f2e0
+    hippotranslation:locale: zh_TW

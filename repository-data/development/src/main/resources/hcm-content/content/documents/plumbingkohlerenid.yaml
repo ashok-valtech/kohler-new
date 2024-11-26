@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerenid:
+  .meta:order-before: plumbingkohlerenkr
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 5c45bc1b-4e97-421d-bb20-1a9b94cfda4b
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 787788fe-3612-49bd-a30c-e0953621ff18
+  hippotranslation:locale: en_ID

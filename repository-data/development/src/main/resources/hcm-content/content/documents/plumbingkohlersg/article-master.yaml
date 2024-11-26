@@ -1,0 +1,252 @@
+/content/documents/plumbingkohlersg/article-master:
+  .meta:order-before: banners
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 612d8bdc-785c-4f58-b9c5-1b3e443cff17
+  hippostd:foldertype: []
+  hippotranslation:id: ecdf204e-ad94-40b6-ae94-cdad9e0b31eb
+  hippotranslation:locale: en_SG
+  /article-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 67b730e1-becf-4914-8e7e-47ece35f0ad6
+    hippostd:foldertype: [new-articleBannerDocument]
+    hippotranslation:id: c915fe42-3204-41cb-b0f8-f49fba6f1970
+    hippotranslation:locale: en_SG
+    /the-finish-is-just-the-beginning:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 7584e35d-c0d4-4d5e-8170-925adf919a1c
+      hippo:name: The Finish is Just the Beginning
+      /the-finish-is-just-the-beginning[1]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 72533c1e-f255-4674-aefd-9350c02e1c6d
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: kohler_editor
+        hippostdpubwf:creationDate: 2017-08-21T11:05:36.016Z
+        hippostdpubwf:lastModificationDate: 2017-11-15T07:32:52.964Z
+        hippostdpubwf:lastModifiedBy: admin_4
+        hippotranslation:id: e50e9e8d-e3c8-4fc6-bc49-c7dee5e2b45c
+        hippotranslation:locale: en_SG
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac18643_rgb?extend=-1800,-1350,-1510,-1550&$960Carousel$
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:metaDescription: ''
+        kohler:seoTitle: ''
+        kohler:thumbnailUrl: ''
+        kohler:title: The Finish is Just the Beginning
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every room tells a story. Begin to imagine yours with
+            the right faucet finish.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 8d4b5606-eedb-4042-982c-1b3d8f5e0782
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: c3165a79-1ed5-44d6-b650-85e11865d6a4
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 08bc4026-a694-4c7f-827d-8ce1121354fc
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 5358a9a3-e23a-4829-9ce3-4eefbe218531
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4b788337-1665-482d-b8cf-c09bea960527
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: aec9c459-7542-4b6a-a05d-e6f1b34e1291
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 3cf3acbd-bc55-4d6f-9819-cfaaeaf54dfa
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: f5da9eb6-b564-4368-b1a3-51853a64fb09
+        /kohler:relatedDocument[9]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: bd30e28e-54b2-4e6a-b035-b2912fc88def
+        /kohler:relatedDocument[10]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 9450ae5a-b1c9-41a6-899a-5d1d6d44965c
+        /kohler:relatedDocument[11]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a2bfd6d4-1678-4e86-9321-2a62cf09bc15
+      /the-finish-is-just-the-beginning[2]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: dda59558-f602-4f31-8781-b792af30b77b
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: kohler_editor
+        hippostdpubwf:creationDate: 2017-08-21T11:05:36.016Z
+        hippostdpubwf:lastModificationDate: 2017-11-15T07:34:13.285Z
+        hippostdpubwf:lastModifiedBy: admin_4
+        hippotranslation:id: e50e9e8d-e3c8-4fc6-bc49-c7dee5e2b45c
+        hippotranslation:locale: en_SG
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac18643_rgb?extend=-1800,-1350,-1510,-1550&$960Carousel$
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:metaDescription: ''
+        kohler:seoTitle: ''
+        kohler:thumbnailUrl: ''
+        kohler:title: The Finish is Just the Beginning
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every room tells a story. Begin to imagine yours with
+            the right faucet finish.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 8d4b5606-eedb-4042-982c-1b3d8f5e0782
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: c3165a79-1ed5-44d6-b650-85e11865d6a4
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 08bc4026-a694-4c7f-827d-8ce1121354fc
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 5358a9a3-e23a-4829-9ce3-4eefbe218531
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4b788337-1665-482d-b8cf-c09bea960527
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: aec9c459-7542-4b6a-a05d-e6f1b34e1291
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 3cf3acbd-bc55-4d6f-9819-cfaaeaf54dfa
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: f5da9eb6-b564-4368-b1a3-51853a64fb09
+        /kohler:relatedDocument[9]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: bd30e28e-54b2-4e6a-b035-b2912fc88def
+        /kohler:relatedDocument[10]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 9450ae5a-b1c9-41a6-899a-5d1d6d44965c
+        /kohler:relatedDocument[11]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a2bfd6d4-1678-4e86-9321-2a62cf09bc15
+      /the-finish-is-just-the-beginning[3]:
+        jcr:primaryType: kohler:articleBannerDocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8d968cd9-164e-4061-a061-e7496ef30f3e
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: kohler_editor
+        hippostdpubwf:creationDate: 2017-08-21T11:05:36.016Z
+        hippostdpubwf:lastModificationDate: 2017-11-15T07:34:13.285Z
+        hippostdpubwf:lastModifiedBy: admin_4
+        hippostdpubwf:publicationDate: 2017-11-15T07:34:15.183Z
+        hippotranslation:id: e50e9e8d-e3c8-4fc6-bc49-c7dee5e2b45c
+        hippotranslation:locale: en_SG
+        kohler:imageLink: https://kohler.scene7.com/is/image/PAWEB/zac18643_rgb?extend=-1800,-1350,-1510,-1550&$960Carousel$
+        kohler:link: ''
+        kohler:linkLable: ''
+        kohler:metaDescription: ''
+        kohler:seoTitle: ''
+        kohler:thumbnailUrl: ''
+        kohler:title: The Finish is Just the Beginning
+        kohler:titleHeader: ''
+        kohler:videoUrl: ''
+        /kohler:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Every room tells a story. Begin to imagine yours with
+            the right faucet finish.</p>
+        /kohler:relatedDocument[1]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 8d4b5606-eedb-4042-982c-1b3d8f5e0782
+        /kohler:relatedDocument[2]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: c3165a79-1ed5-44d6-b650-85e11865d6a4
+        /kohler:relatedDocument[3]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 08bc4026-a694-4c7f-827d-8ce1121354fc
+        /kohler:relatedDocument[4]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 5358a9a3-e23a-4829-9ce3-4eefbe218531
+        /kohler:relatedDocument[5]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 4b788337-1665-482d-b8cf-c09bea960527
+        /kohler:relatedDocument[6]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: aec9c459-7542-4b6a-a05d-e6f1b34e1291
+        /kohler:relatedDocument[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 3cf3acbd-bc55-4d6f-9819-cfaaeaf54dfa
+        /kohler:relatedDocument[8]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: f5da9eb6-b564-4368-b1a3-51853a64fb09
+        /kohler:relatedDocument[9]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: bd30e28e-54b2-4e6a-b035-b2912fc88def
+        /kohler:relatedDocument[10]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 9450ae5a-b1c9-41a6-899a-5d1d6d44965c
+        /kohler:relatedDocument[11]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: a2bfd6d4-1678-4e86-9321-2a62cf09bc15
+  /articles-documents:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 55290a7a-25f6-4bee-bcaf-21a10f5b6bbb
+    hippostd:foldertype: [new-Article-folder]
+    hippotranslation:id: 8a9c2d24-8e3c-47e4-a8e8-94c6787464ce
+    hippotranslation:locale: en_SG
+    /toilet-seats:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: b41656c0-dcd8-44a3-97bc-71979488edb3
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: a90c1757-9fac-4cd2-8e08-8acf70de9471
+      hippotranslation:locale: en_SG
+    /flushing-technologies:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 961f9187-54ef-4302-beb5-a65bedd4c3d1
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 050550e1-49a6-4534-a28a-3b33e2db6575
+      hippotranslation:locale: en_SG
+    /waterless-urinals:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 3c3a7989-d936-41f9-aa4b-10db35a6b7a3
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: a5a29029-0588-47ae-8118-8da72b8455aa
+      hippotranslation:locale: en_SG
+    /bubble-massage-baths:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 879d98e9-1ae9-456e-a2ca-4ab636ca945a
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 3fed6401-3569-4608-9660-a0736cd4afb9
+      hippotranslation:locale: en_SG
+    /vibra-coustic-baths:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 16efc6e6-6b79-42c6-ae0e-c7ec311fb896
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 73a8e725-d8d8-4cf3-8e75-8c46399ef4a0
+      hippotranslation:locale: en_SG
+    /kohler-cast-iron:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 461ce31b-9a94-4eb5-b7e0-20c91c85f8ba
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 8cbeced9-cd19-4f34-982e-574281f3134b
+      hippotranslation:locale: en_SG
+    /composed-bathroom-faucet-collection:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+      jcr:uuid: e8bd4f3e-47bc-4e61-9c93-4d740964d7d1
+      hippo:name: Composed Bathroom Faucet Collection
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 166d4d62-3a71-44e5-8a82-b2a221f8b71e
+      hippotranslation:locale: en_SG

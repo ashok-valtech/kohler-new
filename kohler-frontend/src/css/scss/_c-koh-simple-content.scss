@@ -1,0 +1,155 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+/* _c-koh-simple-document.scss
+
+   Partial SCSS containing styles for the simple document component
+*/
+
+.c-koh-simple-content {
+    @include koh-page-gutters-padding();
+    font-size: 10px;
+    background: $koh-color-white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media #{$koh-media-screen-sm-max} {
+        padding: 30px 0;
+    }
+    &.v-koh-full-page {
+        background: $koh-color-white;
+        color: $koh-color-pdk-grey;
+        .koh-simple-content-title {
+            margin-bottom: 30px;
+            @include koh-font( $font-size: 20px, $line-height: 22px, $font-family: $koh-font-sans-serif-light);
+            @media #{$koh-media-screen-sm} {
+                padding-bottom: 40px;
+                @include koh-font( $font-size: 30px, $line-height: 33px, $font-family: $koh-font-sans-serif-light);
+            }
+            @media #{$koh-media-screen-md} {
+                @include koh-font( $font-size: 50px, $line-height: 55px, $font-family: $koh-font-sans-serif-light);
+            }
+        }
+        .koh-simple-content-body {
+            /* Styling for rich text area will go here */
+            @include koh-font( $font-size: 14px, $line-height: 20px);
+            @include koh-rich-text();
+            iframe {
+            	width:100%;
+            	height: 3040px;
+            	border:0;
+            }
+        }
+    }
+    &.v-koh-snippet {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto;
+        .koh-simple-content-title {
+            margin: 0 0 15px 0;
+            @include koh-font( $font-size: 30px, $line-height: 32px, $font-family: $koh-font-sans-serif-light);
+            img {
+                width: 32px;
+                height: 32px;
+                float: left;
+                margin-right: 10px;
+            }
+        }
+        .koh-simple-content-body {
+            /* Styling for rich text area will go here */
+            @include koh-font( $font-size: 14px, $line-height: 20px);
+            @include koh-rich-text();
+        }
+        .koh-simple-content-cta {
+            &.v-koh-white {
+                @include koh-button-white();
+                margin-top: 5px;
+                &:hover {
+                    color: $koh-color-white;
+                    background: $koh-color-plt-grey;
+                }
+            }
+            &.v-koh-black {
+                @include koh-button($button-bg: $koh-color-black);
+                margin-top: 5px;
+                color: $koh-color-white;
+            }
+        }
+        .koh-simple-content-image {
+            display: inline-block;
+            margin-bottom: 20px;
+            a {
+                display: block;
+                position: relative;
+            }
+            &.v-koh-video {
+                a {
+                    &:before,
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        margin: auto;
+                    }
+                    &:before {
+                        width: 46px;
+                        height: 46px;
+                        background: $koh-color-black;
+                        opacity: .4;
+                        border-radius: 50%;
+                    }
+                    &:after {
+                        left: 50%;
+                        margin-left: -8px;
+                        width: 20px;
+                        height: 20px;
+                        padding-right: 20px;
+                        border-style: solid;
+                        border-width: 10px 0 10px 20px;
+                        border-color: transparent transparent transparent #ffffff;
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+        @media #{$koh-media-screen-md} {
+            &.m-koh-image-left {
+                display: table;
+                .koh-simple-content-image,
+                .koh-simple-content-container {
+                    display: table-cell;
+                    vertical-align: top;
+                }
+                .koh-simple-content-image {
+                    padding-right: 30px;
+                    img {
+                        max-width: none;
+                    }
+                }
+            }
+            &.m-koh-image-right {
+                .koh-simple-content-image {
+                    float: right;
+                    margin: 0 0 0 30px;
+                }
+            }
+        }
+    }
+}
+
+@media #{$koh-media-screen-sm-max} {
+    .koh-page {
+        > .c-koh-simple-content {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .c-koh-sitemap-content {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}

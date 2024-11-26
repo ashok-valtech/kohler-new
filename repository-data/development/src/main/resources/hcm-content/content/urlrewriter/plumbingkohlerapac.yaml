@@ -1,0 +1,5 @@
+/content/urlrewriter/plumbingkohlerapac:
+  jcr:primaryType: urlrewriter:ruleset
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 81dc6f9b-3254-4b76-b4d2-63183560b55e
+  hippostd:foldertype: [new-urlrewriter-folder, new-urlrewriter-document]

@@ -1,0 +1,70 @@
+.page-heading-container {
+    @media screen and (min-width: 800px) {
+        padding: 0 !important;
+    }
+}   
+.image-container {
+    position: relative;
+    .gradient-container {
+        width: 100%;
+        max-width: 846px;
+        height: 25%;
+        position: absolute; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(1800deg, rgba(0,0,0,1), rgba(0,0,0,0));
+        z-index: 1;
+    }
+    .hk-tile-content {
+        position: absolute !important;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        .title-text {
+            grid-column: 1/5;
+            font-size: 14px !important;
+            width: calc(100% - 10px) !important;
+            color: #FFFFFF !important;
+            line-height: 20px !important;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal !important;
+            /* autoprefixer: off */
+            -moz-box-orient: vertical;
+            -webkit-box-orient: vertical;
+            /* autoprefixer: on */
+            @media screen and (min-width: 768px) {
+                font-size: 16px !important;
+                line-height: 24px !important;
+                -webkit-line-clamp: 2;
+                grid-column: 1/5;
+            }
+
+            @media screen and (min-width: 1024px) {
+                grid-column: 1/8;
+            }
+        }
+        .showroom-360-icon {
+            height: 40px !important;
+            right: 0 !important;
+            top: 0 !important;
+            position: relative !important;
+        }
+    }
+    .tile-image {
+        max-height: 400px !important;
+        height: 400px !important;
+        object-fit: cover;
+        @media screen and (min-width: 768px) {
+            height: auto;
+            object-fit: fill;
+        }
+    }
+}

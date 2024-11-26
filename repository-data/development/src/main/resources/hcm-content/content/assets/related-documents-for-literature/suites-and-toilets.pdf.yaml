@@ -1,0 +1,17 @@
+/content/assets/related-documents-for-literature/suites-and-toilets.pdf:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: ffd7913f-304f-4d13-ae5e-303703b4586b
+  /suites-and-toilets.pdf:
+    jcr:primaryType: hippogallery:exampleAssetSet
+    hippo:availability: [live, preview]
+    /hippogallery:asset:
+      jcr:primaryType: hippo:resource
+      hippo:text:
+        type: binary
+        resource: /content/assets/related-documents-for-literature/suites-and-toilets.pdf/suites-and-toilets.pdf/asset/suites-and-toilets.pdf
+      jcr:data:
+        type: binary
+        resource: /content/assets/related-documents-for-literature/suites-and-toilets.pdf/suites-and-toilets.pdf/asset/suites-and-toilets-1.pdf
+      jcr:lastModified: 2017-07-31T15:30:03.088+05:30
+      jcr:mimeType: application/pdf

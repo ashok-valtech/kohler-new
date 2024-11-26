@@ -1,0 +1,69 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms:
+      /cms-services:
+        /localeProviderService:
+          /en_MY:
+            jcr:primaryType: frontend:pluginconfig
+            country: my
+            language: en
+          /en_SG:
+            jcr:primaryType: frontend:pluginconfig
+            country: sg
+            language: en
+          /en_TH:
+            jcr:primaryType: frontend:pluginconfig
+            country: th
+            language: en
+          /vi_VN:
+            jcr:primaryType: frontend:pluginconfig
+            country: vn
+            language: vi
+          /en_VN:
+            jcr:primaryType: frontend:pluginconfig
+            country: vn
+            language: en
+          /th_TH:
+            jcr:primaryType: frontend:pluginconfig
+            country: th
+            language: th
+          /en_PH:
+            jcr:primaryType: frontend:pluginconfig
+            country: ph
+            language: en
+          /in_ID:
+            jcr:primaryType: frontend:pluginconfig
+            country: id
+            language: in
+          /en_ID:
+            jcr:primaryType: frontend:pluginconfig
+            country: id
+            language: en
+          /zh_HK:
+            jcr:primaryType: frontend:pluginconfig
+            country: hk
+            language: zh
+          /zh_TW:
+            jcr:primaryType: frontend:pluginconfig
+            country: tw
+            language: zh
+          /ko_KR:
+            jcr:primaryType: frontend:pluginconfig
+            country: kr
+            language: ko
+          /en_US:
+            jcr:primaryType: frontend:pluginconfig
+            country: us
+            language: en
+          /en_HK:
+            jcr:primaryType: frontend:pluginconfig
+            country: hk
+            language: en
+          /en_TW:
+            jcr:primaryType: frontend:pluginconfig
+            country: tw
+            language: en
+          /en_KR:
+            jcr:primaryType: frontend:pluginconfig
+            country: kr
+            language: en

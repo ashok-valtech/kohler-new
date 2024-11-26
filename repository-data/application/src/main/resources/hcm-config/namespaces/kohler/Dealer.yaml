@@ -1,0 +1,568 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/Dealer:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 6d66a8f1-7bb4-444a-82bd-1afdfc0e17ed
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d1d941ec-08a3-4275-a76b-0a4dd0f2310f
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 966365ae-ff64-4492-ba07-8cb2127a0f29
+          hipposysedit:node: true
+          hipposysedit:supertype: ['kohler:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /dealerName:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:primaryContactName
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /businessName:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:nameOfStore
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [required]
+          /addressLine1:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:addressLine1
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /addressLine2:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:addressLine2
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /addressLine3:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:addressLine3
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /city:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:city
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [required]
+          /state:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:state
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [required]
+          /zip:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:zip
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /country:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:country
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [required]
+          /mobileNumber:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:mobilePhone
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /email:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:generalEmail
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /website:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:website
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /landlineTelephoneNumber:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:phone
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /dealerType:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:showroomType
+            hipposysedit:primary: false
+            hipposysedit:type: StaticDropdown
+          /description:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:description
+            hipposysedit:primary: false
+            hipposysedit:type: Text
+          /storeId:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:storeId
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [required]
+          /latitude:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:latitude
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /longitude:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:longitude
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /facebookLink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:facebookLink
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /twitterLink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:twitterLink
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /openingHours:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: kohler:openingHours
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /instagramLink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:instagramLink
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /lineLink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:lineLink
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /primaryContactEmail:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:primaryContactEmail
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /storeLogo:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:storeLogo
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /fax:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:fax
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /detailView:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:detailView
+            hipposysedit:primary: false
+            hipposysedit:type: Boolean
+          /dealertype:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:dealerType
+            hipposysedit:primary: false
+            hipposysedit:type: StaticDropdown
+            hipposysedit:validators: [required]
+          /dealerhash:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:dealerhash
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+            hipposysedit:validators: [required]
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:Dealer
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 19b0dc7d-b6b9-4de7-9ca1-3adfc2dff036
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2016-04-14T12:00:23.157-04:00
+          hippostdpubwf:lastModificationDate: 2016-04-14T12:00:23.157-04:00
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: 6c511cb8-7e95-4673-ae60-d7369eed00d1
+          hippotranslation:locale: document-type-locale
+          kohler:addressLine1: ''
+          kohler:addressLine2: ''
+          kohler:addressLine3: ''
+          kohler:city: ''
+          kohler:country: ''
+          kohler:dealerType: KEC
+          kohler:dealerhash: 0
+          kohler:description: ''
+          kohler:detailView: false
+          kohler:facebookLink: ''
+          kohler:fax: ''
+          kohler:generalEmail: ''
+          kohler:instagramLink: ''
+          kohler:latitude: ''
+          kohler:lineLink: ''
+          kohler:longitude: ''
+          kohler:mobilePhone: ''
+          kohler:nameOfStore: ''
+          kohler:openingHours: ['']
+          kohler:phone: ['']
+          kohler:primaryContactEmail: ''
+          kohler:primaryContactName: ''
+          kohler:showroomType: S2S Showrooms
+          kohler:state: ''
+          kohler:storeId: ''
+          kohler:storeLogo: ''
+          kohler:twitterLink: ''
+          kohler:website: ''
+          kohler:zip: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /storeId:
+            jcr:primaryType: frontend:plugin
+            caption: Store ID
+            field: storeId
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /nameOfStore:
+            jcr:primaryType: frontend:plugin
+            caption: Name of store / dealer
+            field: businessName
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /primaryContactName:
+            jcr:primaryType: frontend:plugin
+            caption: Primary Contact Name
+            field: dealerName
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /addressLine1:
+            jcr:primaryType: frontend:plugin
+            caption: Address Line 1
+            field: addressLine1
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /addressLine2:
+            jcr:primaryType: frontend:plugin
+            caption: Address Line 2
+            field: addressLine2
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /addressLine3:
+            jcr:primaryType: frontend:plugin
+            caption: Address Line 3
+            field: addressLine3
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /city:
+            jcr:primaryType: frontend:plugin
+            caption: City
+            field: city
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /state:
+            jcr:primaryType: frontend:plugin
+            caption: State
+            field: state
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /zip:
+            jcr:primaryType: frontend:plugin
+            caption: Zip / PIN Code
+            field: zip
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /country:
+            jcr:primaryType: frontend:plugin
+            caption: Country
+            field: country
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /latitude:
+            jcr:primaryType: frontend:plugin
+            caption: Latitude
+            field: latitude
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /longitude:
+            jcr:primaryType: frontend:plugin
+            caption: Longitude
+            field: longitude
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /phone:
+            jcr:primaryType: frontend:plugin
+            caption: Phone
+            field: landlineTelephoneNumber
+            hint: ''
+            maxitems: '3'
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              maxlength: '30'
+              size: '30'
+          /mobilePhone:
+            jcr:primaryType: frontend:plugin
+            caption: Mobile phone
+            field: mobileNumber
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              maxlength: '20'
+              size: '20'
+          /fax:
+            jcr:primaryType: frontend:plugin
+            caption: Fax
+            field: fax
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /generalEmail:
+            jcr:primaryType: frontend:plugin
+            caption: General Email
+            field: email
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /primaryContactEmail:
+            jcr:primaryType: frontend:plugin
+            caption: Primary Contact Email
+            field: primaryContactEmail
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /website:
+            jcr:primaryType: frontend:plugin
+            caption: Website
+            field: website
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /facebookLink:
+            jcr:primaryType: frontend:plugin
+            caption: Facebook Link
+            field: facebookLink
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /twitterLink:
+            jcr:primaryType: frontend:plugin
+            caption: Twitter Link
+            field: twitterLink
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /instagramLink:
+            jcr:primaryType: frontend:plugin
+            caption: Instagram Link
+            field: instagramLink
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /lineLink:
+            jcr:primaryType: frontend:plugin
+            caption: Line Link
+            field: lineLink
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /showroomType:
+            jcr:primaryType: frontend:plugin
+            caption: Showroom type
+            field: dealerType
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              selectable.options: S2S Showrooms,O2SR Showrooms
+          /description:
+            jcr:primaryType: frontend:plugin
+            caption: Description
+            field: description
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /openingHours:
+            jcr:primaryType: frontend:plugin
+            caption: Opening Hours
+            field: openingHours
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /storeLogo:
+            jcr:primaryType: frontend:plugin
+            caption: Store Logo
+            field: storeLogo
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /detailView:
+            jcr:primaryType: frontend:plugin
+            caption: Detail View
+            field: detailView
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /dealerType:
+            jcr:primaryType: frontend:plugin
+            caption: Dealer Type
+            field: dealertype
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              selectable.options: KEC,distributors,stardealers,dealers
+          /dealerhash:
+            jcr:primaryType: frontend:plugin
+            caption: DealerHash
+            field: dealerhash
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

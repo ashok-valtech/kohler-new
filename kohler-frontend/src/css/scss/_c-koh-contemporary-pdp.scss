@@ -1,0 +1,110 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+/* description Section */
+.koh-contemporary-pdp-title-and-description {
+  background: white;
+  display: inline-block;
+  .koh-contemporary-pdp-title {
+    font-family: $koh-font-sans-serif-bold;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin: 30px 10px 0;
+    @media #{$koh-media-nav-breakpoint} {
+      font-size: 30px;
+    }
+  }
+  .koh-contemporary-pdp-description {
+    line-height: 1.5em;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin: 30px 10px 0;
+  }
+}
+
+//promo banner section
+.koh-contemporary-image {
+  background: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+//item-details section
+.koh-contemporary-pdp-item-details {
+  background: white;
+  display: inline-block;
+  .koh-item-details-header {
+    font-family: $koh-font-sans-serif-bold;
+    font-size: 30px;
+    margin: 30px 10px 30px;
+  }
+  .koh-item-details-container {
+    display: inline-block;
+    .koh-item-details-card-list {
+      background: #f9f9f9;
+      height: 170px;
+      margin: 12px;
+      width: 47%;
+      float: left;
+      @media only screen and (max-width: 768px) {
+        margin: 10px 10px;
+        width: 95%;
+      }
+      img {
+        width: 30%;
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+        @media only screen and (max-width: 768px) {
+          width: 25%;
+          margin-top: 20px;
+        }
+      }
+      .koh-item-details-card-info {
+        float: left;
+        width: 66%;
+        padding: 8px 0px 5px 0px;
+        .koh-item-details-title {
+          font-family: HelveticaBold, Helvetica, sans-serif;
+          font-size: 18px;
+          padding: 0px 0 5px 0;
+          padding-top: 10px;
+        }
+        .koh-item-details-itemno {
+          font-family: HelveticaRoman, Helvetica, sans-serif;
+          font-size: 16px;
+          color: black;
+          padding: 0px 0 5px 0;
+        }
+        .koh-item-details-desc {
+          font-family: HelveticaLight, Helvetica, sans-serif;
+          font-size: 14px;
+          color: #77777a;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+        .koh-item-more {
+          font-size: 15px;
+          float: right;
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+  .koh-contemporary-pdp-title-and-description,
+  .koh-contemporary-image,
+  .koh-contemporary-pdp-item-details {
+    padding-left: calc((100% - 980px) / 2);
+    padding-right: calc((100% - 980px) / 2);
+    width: 100%;
+  }
+}

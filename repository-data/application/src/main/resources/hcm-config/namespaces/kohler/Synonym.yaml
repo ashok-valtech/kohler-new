@@ -1,0 +1,63 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/Synonym:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 3b9d5b96-22a1-424c-9a53-ffeb7d4925df
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 63050f5c-e3fd-42fe-9cd9-08c2be32cdbd
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 34e0365a-2db5-497e-9352-6fae692ac085
+          hipposysedit:node: true
+          hipposysedit:supertype: ['kohler:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /Synonym:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:Synonym
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:cSynonym
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:Synonym
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c91b7d2e-7843-428f-a238-2313839c3201
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2017-08-04T17:44:20.624+05:30
+          hippostdpubwf:lastModificationDate: 2017-08-04T17:44:20.624+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: ad2ce7e0-be6d-4d06-a48c-822598e1371c
+          hippotranslation:locale: document-type-locale
+          /kohler:Synonym:
+            jcr:primaryType: kohler:cSynonym
+            kohler:key: ''
+            kohler:value: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /Synonym:
+            jcr:primaryType: frontend:plugin
+            caption: Synonym
+            field: Synonym
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

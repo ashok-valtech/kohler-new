@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers/search/main/searchlist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.EssentialsSearchListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/product_list.png
+  hst:label: Search List
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes, ignoreSpecialCharacters]
+  hst:parametervalues: ['', '', desc, '', '21', 'on', 'on', '[®©]']
+  hst:template: search-listpage
+  hst:xtype: hst.item

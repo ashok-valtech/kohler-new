@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers/faqlist/main/faq:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.EssentialsFAQDocumentComponent
+  hst:iconpath: images/component-icon-faq.png
+  hst:label: Faq
+  hst:parameternames: [path, document, sortOrder, sortField, pageSize, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [/content/documents/plumbingkohlerenhk/faq, faq/about-faq,
+    asc, 'kohler:displayOrder', '6', 'webfile:/freemarker/hstdefault/faqlist-main.ftl']
+  hst:template: faqlist-main
+  hst:xtype: hst.item

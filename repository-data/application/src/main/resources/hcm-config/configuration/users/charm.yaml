@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/charm:
+      jcr:primaryType: hipposys:user
+      hipposys:active: true
+      hipposys:email: Charm.Sundar@valtech.co.in
+      hipposys:firstname: Charm
+      hipposys:lastname: sundar
+      hipposys:password:
+        .meta:category: system
+        value: $SHA-256$luXEmBQxzqQ=$uHDdq+mDM6JkuXMqNBd+WwpEVY56hhGMqClJwEyw4wE=
+      hipposys:passwordlastmodified:
+        .meta:category: system
+      hipposys:securityprovider: internal

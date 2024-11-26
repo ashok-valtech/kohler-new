@@ -1,0 +1,239 @@
+section.c-koh-ramadan-promotion-carousel {
+  background: $koh-color-white none repeat scroll 0 0;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  width: 100%;
+  .ramadan-underline {
+    border-top: 1px solid #e8e8e8;
+  }
+  .koh-ramadan-promotion-container {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .koh-ramadan-promotion-carousel-title {
+      text-align: left;
+      font-size: 1.5em !important;
+      font-family: HelveticaLight, Helvetica, sans-serif;
+      margin: 15px 15px 15px 0;
+      line-height: 1.2em;
+      @media #{$koh-media-nav-breakpoint} {
+        font-size: 2.5em !important;
+      }
+    }
+    .koh-projects-pages-container-banner {
+      overflow: hidden;
+      button[id="koh-ramadan-promotion-broucher"] {
+        background: #000 none repeat scroll 0 0;
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        color: $koh-color-white;
+        text-decoration: none;
+        text-align: center;
+        font-family: HelveticaBold, Helvetica, sans-serif;
+        z-index: 3;
+        font-size: 1.3em;
+        margin-top: 40px !important;
+        text-transform: uppercase;
+        border: none;
+        line-height: 2;
+        position: relative;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        &:hover {
+          background: #bebebe none repeat scroll 0 0;
+          color: $koh-color-pdk-grey;
+        }
+      }
+    }
+  }
+}
+
+.c-koh-ramadan-store-list {
+  background: $koh-color-white none repeat scroll 0 0;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  width: 100%;
+  .koh-ramadan-store-list-container {
+    padding: 0 20px;
+    @media #{$koh-media-nav-breakpoint} {
+      padding: 0 10px;
+    }
+    .koh-ramadan-store-header {
+      text-align: center;
+      padding: 10px;
+      @media #{$koh-media-screen-md} {
+      }
+      .koh-ramadan-store-list-title {
+        padding-bottom: 5px;
+        font-size: 30px;
+        font-family: HelveticaLight, Helvetica, sans-serif;
+        margin: 15px;
+        line-height: 1.2em;
+      }
+    }
+    .koh-ramadan-store-list-row {
+      margin: 10px;
+      background: #ffffff;
+      .koh-ramadan-list-col {
+        font-family: $koh-font-sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        padding: 15px;
+        border-bottom: 1px solid #e8e8e8;
+        @media #{$koh-media-screen-md} {
+          border: none;
+        }
+      }
+    }
+  }
+}
+.c-koh-ramadan-thank-you-page {
+  background: $koh-color-white none repeat scroll 0 0;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  width: 100%;
+  &:last-child {
+    border: none;
+    padding: 0;
+  }
+  .koh-ramadan-thank-you-page-container {
+    padding: 0 20px;
+    @media #{$koh-media-nav-breakpoint} {
+      padding: 0 10px;
+    }
+    .koh-thank-you-top-section {
+      margin-bottom: 20px;
+      .koh-thank-you-main-title {
+        display: block;
+        padding: 20px 0;
+        font-size: 43px;
+        font-family: HelveticaLight, Helvetica, sans-serif;
+        text-align: center;
+        @media #{$koh-media-screen-md} {
+          padding: 40px 0;
+          font-size: 40px;
+        }
+      }
+      .koh-thank-you-username {
+        margin: 10px 0 10px;
+        font-family: $koh-font-sans-serif;
+        font-size: 14px;
+      }
+      .koh-thank-you-first-description {
+        margin: 10px 0 40px 0;
+        font-family: $koh-font-sans-serif;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.koh-top-static-image {
+  background: $koh-color-white none repeat scroll 0 0;
+  @media #{$koh-media-nav-breakpoint} {
+    padding: 0;
+  }
+  img {
+  }
+}
+.koh-promotion-titledesc-comp {
+  background: $koh-color-white none repeat scroll 0 0;
+  padding: 1px 10px;
+  .koh-promotion-title {
+    margin: 0 0 10px;
+    font-size: 36px;
+	font-family: HelveticaLight, Helvetica, sans-serif;
+    /*padding-left: 10px;*/
+  }
+  .koh-promotion-description {
+    /*padding-left: 10px;*/
+	font-family: HelveticaRoman,Helvetica,sans-serif;
+	 h5 {
+      line-height: 1.428571429;
+    }
+  }
+}
+
+/* online shop contact section*/
+.koh-online-shop-conatct-section {
+  background: #ffffff;
+  display: inline-block;
+  margin-bottom: -4px;
+  @media #{$koh-media-screen-sm} {
+    background: #ffffff;
+    padding-left: calc((100% - 980px) / 2);
+    padding-right: calc((100% - 980px) / 2);
+    display: inline-block;
+    padding-bottom: 23px;
+    margin-bottom: -4px;
+  }
+
+  .koh-online-shop {
+    padding: 0 15px;
+    padding-right: 6px;
+    @media #{$koh-media-screen-sm} {
+      padding: 15px 10px 0 10px;
+      margin: 0 50px;
+    }
+    @media #{$koh-media-screen-md-lg} {
+      padding: 0 15px;
+      margin: 0 20px;
+    }
+    .koh-main-title,
+    .koh-text-description {
+      font-size: 1.5em;
+      text-align: center;
+      font-family: $koh-font-sans-serif;
+    }
+    .koh-text-description {
+      font-size: 14px;
+      padding: 20px;
+    }
+    .koh-online-shop-img {
+      .koh-images-caption {
+        float: left;
+        width: 33%;
+        padding-right: 5px;
+        @media #{$koh-media-screen-sm} {
+          float: left;
+          width: 33%;
+		  padding-right: 40px;
+        }
+        .koh-outerLayer-Caption {
+          .koh-online-imageCaption {
+            font-size: 14px;
+            line-height: 1.2em;
+            font-family: $koh-font-sans-serif-med;
+            color: $koh-color-black;
+            padding: 10px;
+            text-align: center;
+            p {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+  .c-koh-ramadan-promotion-carousel,
+  .c-koh-ramadan-store-information,
+  .c-koh-ramadan-thank-you-page,
+  .koh-top-static-image,
+  .c-koh-ramadan-store-list,
+  .koh-promotion-titledesc-comp {
+    padding-left: calc((100% - 980px) / 2);
+    padding-right: calc((100% - 980px) / 2);
+    width: 100%;
+  }
+}

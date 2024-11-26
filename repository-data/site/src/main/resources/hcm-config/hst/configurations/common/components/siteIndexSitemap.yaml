@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/siteIndexSitemap:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.SiteIndexSitemap
+      hst:template: specific-sitemap.ftl

@@ -1,0 +1,425 @@
+section:last-child .row {
+	border: none !important;
+}
+
+section.c-koh-shopping-list-2promo {
+	margin: 0 auto;
+	background: #ffffff;
+	.koh-head-wrapper {
+		padding: 20px 0;
+		text-align: center;
+		h2 {
+			font-family: HelveticaBold, Helvetica, sans-serif;
+			margin: 0;
+		}
+	}
+	  .koh-main-header {
+		padding-top: 20px;
+		text-align: left;
+		font-family: HelveticaMedium, Helvetica, sans-serif;
+		margin: 0;
+		font-size: 30px;
+		padding-bottom: 10px;
+	  }
+	  .koh-sub-header {
+		text-align: left;
+		font-family: HelveticaMedium, Helvetica, sans-serif;
+		margin: 0;
+		font-size: 25px;
+	  }
+	.koh-shopping-list-2promo {
+		margin-left: -10px;
+		margin-right: -10px;
+		.koh-shopping-guide-2promo {
+			@media screen and (min-width: $mobile-landscape) {
+				width: 50% !important;
+				float: left !important;
+			}
+			figure.koh-shopping-item-2promo {
+				margin: 20px 10px;
+				box-shadow: 0 0 6px 0 #000;
+				height: 500px;
+				img {
+					min-width: 100%;
+					height: auto;
+					display: block;
+				}
+				.koh-shopping-2promo-title-format {
+					font-family: $koh-font-sans-serif-bold;
+				    font-size: 25px;
+				    margin-top: 10px !important;
+				    min-height: 45px;
+				    word-wrap: break-word;
+				    padding-left: 15px;
+				  }
+				.koh-shopping-2promo-desc-format {
+					font-size: 15px;
+				    padding-left: 15px;
+				    padding-bottom: 30px;
+				    padding-right: 5px;
+				}
+			}
+		}
+			&:after,
+    &:before {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+	}
+	.koh-shopping-guide-carousel {
+		.koh-shopping-guide-2promo {
+		  figure.koh-shopping-item-2promo {
+			margin: 20px 10px;
+			img {
+			  min-width: 100%;
+			  height: auto;
+			  display: block;
+			}
+			.koh-shopping-2promo-title-format {
+			  font-family: $koh-font-sans-serif-bold;
+			  text-transform: uppercase;
+			  font-size: 15px;
+			  margin-top: 10px !important;
+			  text-align: center;
+			}
+			.koh-shopping-2promo-desc-format {
+			  font-size: 14px;
+			  padding: 25px 0 25px 0;
+			}
+		  }
+		}
+		.koh-carousel-indicators {
+		  position: absolute;
+		  z-index: $koh-zindex-carousel-overlays;
+		  @include koh-carousel-indicators();
+		  bottom: 4px;
+		  left: 50%;
+		  transform: translateX(-50%);
+		}
+		.slick-dots {
+		  text-align: center;
+		  padding: 0;
+		  li {
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			padding: 10px;
+			&.slick-active {
+			  margin: 6px;
+			  padding: 2px;
+			  /* padding-left: 5px; */
+			  /* padding-right: 5px; */
+			  font-size: 0;
+			  line-height: -28;
+			  width: 16px;
+			  height: 16px;
+			  background: #000;
+			  border: 1px solid #000;
+			  border-radius: 50%;
+			}
+			button {
+			  outline: 0;
+			  text-align: left;
+			  color: inherit;
+			  margin: 0;
+			  padding: 0;
+			  font-size: 0;
+			  line-height: 0;
+			  width: 10px;
+			  height: 10px;
+			  background: 0 0;
+			  border: 1px solid black;
+			  border-radius: 50%;
+			  &.active {
+				margin: 0;
+				padding: 0;
+				font-size: 0;
+				line-height: 0;
+				width: 16px;
+				height: 16px;
+				background: black;
+				border: 1px solid black;
+				border-radius: 50%;
+			  }
+			}
+		  }
+		}
+		.slick-slide {
+		  height: auto;
+		  //width: 340px;
+		  margin: 0 2px;
+		  transition: all ease-in-out 0.3s;
+		  opacity: 1;
+		  img {
+			width: 100%;
+		  }
+		}
+		@media screen and (max-width: 760px) {
+		  display: block;
+		  padding: 0;
+		}
+		@media screen and (min-width: 761px) {
+		  display: none;
+		}
+	  }
+	}
+	.koh-underline-2promo {
+		margin-top: 0 !important;
+		opacity: .2;
+		box-sizing: content-box;
+		height: 0;
+		background-color: #808080;
+		border-color: #808080;
+		border-top: 2px solid;
+	}
+	@media screen and (max-width: $tablet-landscape) {
+		padding: 0 20px !important;
+	}
+}
+
+section.c-koh-shopping-list-3promo {
+	margin: 0 auto;
+	background: #ffffff;
+	.koh-head-wrapper {
+		padding: 20px 0;
+		h2 {
+			font-family: $koh-font-sans-serif-light;
+			margin: 0;
+		}
+	}
+	.koh-head-video-tile {
+		padding: 20px 0;
+		h2 {
+		  font-family: $koh-font-sans-serif-light;
+		  margin: 0;
+		}
+	  }
+	.koh-head-description {
+		line-height: 1.4em;
+		font-size: 14px;
+		font-family: $koh-font-sans-serif-light;
+	  }
+	.koh-shopping-list-3promo {
+		margin-left: -10px;
+		margin-right: -10px;
+		.koh-shopping-guide-3promo {
+			figure.koh-shopping-item-3promo {
+				margin: 20px 10px;
+				img {
+					min-width: 100%;
+					height: auto;
+				}
+				.koh-shopping-3promo-title-format {
+					font-family: $koh-font-sans-serif-bold;
+					text-transform: uppercase;
+					font-size: 15px;
+					margin-top: 10px!important;
+					text-align: center;
+					min-height: 45px;
+					word-wrap: break-word;
+				}
+				.koh-shopping-3promo-desc-format {
+					font-size: 14px;
+					padding: 25px 0 25px 0;
+				}
+			}
+		}
+		    &:after,
+    &:before {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+    .koh-shopping-guide-carousel {
+      .koh-shopping-guide-3promo {
+        figure.koh-shopping-item-3promo {
+          margin: 20px 10px;
+          img {
+            min-width: 100%;
+            height: auto;
+          }
+          .koh-shopping-3promo-title-format {
+            font-family: $koh-font-sans-serif-bold;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-top: 10px !important;
+            text-align: center;
+          }
+          .koh-shopping-3promo-desc-format {
+            font-size: 14px;
+            padding: 25px 0 25px 0;
+          }
+        }
+      }
+      .koh-carousel-indicators {
+        position: absolute;
+        z-index: $koh-zindex-carousel-overlays;
+        @include koh-carousel-indicators();
+        bottom: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .slick-dots {
+        text-align: center;
+        padding: 0;
+        li {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          padding: 10px;
+          &.slick-active {
+            margin: 6px;
+            padding: 2px;
+            /* padding-left: 5px; */
+            /* padding-right: 5px; */
+            font-size: 0;
+            line-height: -28;
+            width: 16px;
+            height: 16px;
+            background: #000;
+            border: 1px solid #000;
+            border-radius: 50%;
+          }
+          button {
+            outline: 0;
+            text-align: left;
+            color: inherit;
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+            line-height: 0;
+            width: 10px;
+            height: 10px;
+            background: 0 0;
+            border: 1px solid black;
+            border-radius: 50%;
+            &.active {
+              margin: 0;
+              padding: 0;
+              font-size: 0;
+              line-height: 0;
+              width: 16px;
+              height: 16px;
+              background: black;
+              border: 1px solid black;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      .slick-slide {
+        height: auto;
+        //width: 340px;
+        margin: 0 2px;
+        transition: all ease-in-out 0.3s;
+        opacity: 1;
+        img {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 760px) {
+        display: block;
+        padding: 0;
+      }
+      @media screen and (min-width: 761px) {
+        display: none;
+      }
+    }
+	}
+	.koh-underline-3promo {
+		margin-top: 0 !important;
+		opacity: .2;
+		box-sizing: content-box;
+		height: 0;
+		background-color: #808080;
+		border-color: #808080;
+		border-top: 2px solid;
+	}
+	@media screen and (max-width: $tablet-landscape) {
+		padding: 0 20px !important;
+	}
+}
+
+/* CSS for showroom tile section */
+section.c-koh-showroom-tile-section {
+  margin: 0 auto;
+  background: #ffffff;
+  .koh-head-wrapper {
+    h2 {
+      font-family: $koh-font-sans-serif-light;
+      margin: 0;
+    }
+  }
+  .koh-showroom-tile-list {
+    margin-left: -10px;
+    margin-right: -10px;
+    .koh-showroom-tile-guide {
+      a,
+      a:hover,
+      a:active,
+      a:visited,
+      a:focus {
+        text-decoration: none;
+      }
+      figure.koh-showroom-tile-image {
+        box-shadow: 0 0px 6px 0 rgb(0, 0, 0 / 20%);
+        transition: box-shadow 0.3s;
+        &:hover {
+          box-shadow: 0 10px 16px 0 rgb(0, 0, 0 / 20%),
+            0 6px 20px 0 rgb(0, 0, 0 / 19%);
+        }
+        margin: 10px 10px;
+        img {
+          width: 100%;
+          max-width: 846px;
+          max-height: 351px;
+        }
+
+        .koh-showroom-tile-content {
+          height: 60px;
+          position: relative;
+          .koh-showroom-tile-title {
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: large;
+            color: #000;
+            line-height: 56px;
+            overflow: hidden;
+            margin-left: 5px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: calc(100% - 70px);
+          }
+          .koh-showroom-360-icon {
+            width: auto;
+            height: 30px;
+            position: absolute;
+            right: 10px;
+            top: 15px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $tablet-landscape) {
+    padding: 0 20px !important;
+  }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+  .c-koh-shopping-list-2promo,
+  .c-koh-shopping-list-3promo {
+    padding-left: calc((100% - 980px) / 2);
+    padding-right: calc((100% - 980px) / 2);
+    width: 100%;
+  }
+  .c-koh-showroom-tile-section {
+    padding-left: calc((88% - 980px) / 2);
+    padding-right: calc((88% - 980px) / 2);
+    width: 100%;
+  }
+}
+

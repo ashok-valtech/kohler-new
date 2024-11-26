@@ -1,0 +1,1071 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+/* _c-koh-navigation-bar.scss
+
+   Partial SCSS containing styles for
+*/
+
+$koh-mobile-nav-height: 56px;
+$koh-mobile-nav-logo-width: 100px;
+$koh-mobile-nav-logo-height: $koh-mobile-nav-height;
+$koh-desktop-nav-height: 80px;
+$koh-desktop-nav-logo-width: 143px;
+$koh-desktop-nav-logo-height: $koh-desktop-nav-height;
+$koh-mobile-nav-icon-size: 50px;
+$koh-desktop-nav-icon-size: 50px;
+$koh-desktop-nav-indent: 10px;
+@mixin koh-search-form() {
+    .koh-form-label {
+        @include sr-only();
+    }
+    .koh-form-input-group {
+        display: block;
+        text-align: left;
+        border: 0;
+        border-bottom: solid 1px #ddd;
+        border-radius: 4px;
+        padding: 8px 40px 8px 15px;
+        background-color: #f5f5f5;
+        font-size: 12px;
+        width: 100%;
+        height: 36px;
+        input {
+            background: none;
+            border: medium none;
+            padding: 0;
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .koh-form-button {
+        button {
+            background: none;
+            border: medium none;
+            bottom: 0;
+            height: 16px;
+            line-height: 16px;
+            outline: 0 none;
+            padding: 0;
+            position: absolute;
+            right: 15px;
+            top: 0;
+            width: 16px;
+            margin: auto 0;
+            color: $koh-color-sdk-grey;
+            &:hover,
+            &:focus {
+                color: $koh-color-black;
+            }
+            .icon {
+                font-size: 16px;
+            }
+            .text {
+                @include sr-only;
+            }
+        }
+    }
+}
+
+@mixin koh-mobile-nav-item( $text-color: $koh-color-black, $text-hover-color: $koh-color-pmd-grey) {
+    display: block;
+    a,
+    >span {
+        height: $koh-mobile-nav-height;
+        display: block;
+        position: relative;
+        padding: 16px 14px;
+        border-bottom: 1px solid $koh-color-smd-grey;
+        @include koh-font-light( $font-size: 16px, $line-height: 24px, $font-weight: bold);
+        outline: 0;
+        color: $text-color;
+    }
+    span.heading-caption {
+		display: none;
+	}
+    a:hover,
+    a:focus {
+        color: $text-hover-color;
+        text-decoration: none;
+    }
+    &.nav-item {
+        display: block;
+    }
+    &.nav-heading {
+        display: block;
+        a {
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-weight: 400;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+    &.nav-spacer {
+        display: none;
+    }
+    &.nav-document {
+        .nav-document-image,
+        .nav-document-content {
+            display: none;
+        }
+    }
+}
+
+@mixin koh-reset-nav-item() {
+    display: block;
+    a,
+    >span {
+        height: auto;
+        display: block;
+        position: static;
+        padding: 0;
+        border: none;
+        outline: 0;
+    }
+    &.nav-item {
+        display: block;
+    }
+    &.nav-heading {
+        display: block;
+    }
+    &.nav-document {
+        .nav-document-image,
+        .nav-document-text {
+            display: none;
+        }
+    }
+}
+
+.c-koh-navigation-bar {
+    &.koh-desktop-nav,
+    .koh-desktop-nav {
+        display: none;
+    }
+    height: $koh-mobile-nav-height;
+    z-index: $koh-zindex-navbar;
+    @media #{$koh-media-screen-md-max} {
+        /*height: auto;* Menu overflow issue*/
+    }
+    @media #{$koh-media-screen-sm-max} {
+        position: relative;
+    }
+    .c-koh-navigation {
+        .koh-primary-nav {
+            .koh-primary-nav-header {
+                display: table;
+                position: relative;
+                width: 100%;
+                height: $koh-mobile-nav-height;
+                overflow: hidden;
+                background: $koh-color-white;
+                color: $koh-color-sdk-grey;
+                border-bottom: 1px solid $koh-color-smd-grey;
+                text-align: right;
+                padding: 0 10px;
+                .koh-primary-nav-home-link {
+                    display: block;
+                    width: $koh-mobile-nav-logo-width;
+                    height: $koh-mobile-nav-logo-height;
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    img {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    h1 {
+                        @include sr-only();
+                    }
+                }
+                .koh-primary-nav-toggle,
+                .koh-primary-search-toggle,
+                .koh-shopping-cart-menu-mobile {
+                    @include koh-unbutton();
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 11%;
+                    max-width: $koh-mobile-nav-icon-size;
+                    height: $koh-mobile-nav-logo-height;
+                    background: $koh-color-white;
+                    color: $koh-color-sdk-grey;
+                    font-size: 18px;
+                    text-align: center;
+                    &:hover {
+                        background: $koh-color-white;
+                        color: $koh-color-black;
+                    }
+                    .label {
+                        @include sr-only();
+                    }
+                    &.koh-primary-nav-toggle {
+                        position: absolute;
+                        left: 10px;
+                    }
+                    &.koh-shopping-cart-menu-mobile {
+                        font-size: 26px;
+                    }
+                }
+            }
+            .koh-primary-nav-menu {
+                display: none;
+                z-index: $koh-zindex-navbar-menu;
+                &.open {
+                    display: block;
+                }
+                .koh-site-search-mobile {
+                    display: none;
+                    &.open {
+                        display: block;
+                    }
+                    padding: 20px 10px;
+                    background: $koh-color-white;
+                    form {
+                        position: relative;
+                        width: 60%;
+                        margin: 0 auto;
+                        @include koh-search-form();
+                    }
+                }
+                .koh-nav-parents {
+                    @include koh-unlist();
+                    background: $koh-color-slt-grey;
+                    >li {
+                        @include koh-mobile-nav-item();
+                        >a,
+                        >span {
+                            background: $koh-color-white;
+                            text-transform: uppercase;
+                            &:after {
+                                position: absolute;
+                                top: 16px;
+                                right: 14px;
+                                font-family: KohlerIcons;
+                                content: "\e612";
+                                transform: scale(0.8);
+                            }
+                            &.open:after {
+                                content: "\e600";
+                            }
+                            &:hover {
+                                cursor: hand;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .koh-subnav-header {
+                        @include koh-mobile-nav-item();
+                    }
+                    .koh-nav-subnav {
+                        display: none;
+                        &.open {
+                            display: block;
+							overflow-y: auto;
+                        }
+                        .koh-nav-section {
+                            @include koh-unlist();
+                            li {
+                                @include koh-mobile-nav-item();
+                            }
+                        }
+                       .koh-subnav-content{
+                       		.nav-heading-products, .nav-heading-nochild, .nav-heading-idea, .nav-heading-other {
+                       			.heading-resp-hide {
+                       				@media #{$koh-media-screen-tab-max} {
+                                        display: none;
+                                    }
+                       			}	
+                       			.grey-line {
+                       		 		@media #{$koh-media-screen-tab-max} {
+                                        display: none;
+                                    }
+                       		 	}
+                       		 	.koh-icon-external {
+									background: url(../images/external-link-alt.png) no-repeat;
+									width: 15px;
+									height: 15px;
+									float: left;
+									margin-left: 10px;
+									margin-top: 5px;
+								}
+								.koh-nav-text {
+									float: left;
+								}
+                       		}
+                       	} 
+                    }
+                }
+                .koh-branding-bar-mobile {
+                    .koh-links {
+                        >ul {
+                            @include koh-unlist();
+                            background: $koh-color-black;
+                            >li {
+                                @include koh-mobile-nav-item( $text-color: $koh-color-white, $text-hover-color: $koh-color-white);
+                                a {
+                                    border-color: $koh-color-pdk-grey;
+                                    padding-left: 35px;
+                                    span {
+                                        display: none;
+                                        &.icon {
+                                            position: absolute;
+                                            background: url(../images/branding-bar-icons.png) 4px -23px no-repeat;
+                                            width: 19px;
+                                            height: 19px;
+                                            left: 10px;
+                                            top: 18px;
+                                            display: block;
+                                            z-index: 20;
+                                            &.koh-icon-envelope {
+                                                background-position: -20px -19px;
+                                            }
+                                            &.koh-icon-estore {
+                                                background-position: -74px -20px;
+                                            }
+											&.koh-icon-vrshowroom {
+												background-position: -102px -21px;
+											}
+                                        }
+                                    }
+                                    &.koh-link-company-brand {
+                                        &:after {
+                                            content: "";
+                                            position: absolute;
+                                            background: url(../images/branding-bar-icons.png) -47px -30px no-repeat;
+                                            width: 19px;
+                                            height: 19px;
+                                            left: 10px;
+                                            top: 18px;
+                                            display: block;
+                                            z-index: 20;
+                                        }
+                                    }
+                                    span {
+                                        display: none;
+                                        &.koh-eshop-icon {
+                                          content: "";
+                                          position: absolute;
+                                          background: url(../images/koh-estore.png) 0 0 no-repeat;
+                                          width: 70px;
+                                          height: 19px;
+                                          left: 10px;
+                                          top: 23px;
+                                          z-index: 20;
+                                          display: block;
+                                        }
+                                       /*  .koh-eshop-textarea {
+                                          display: block;
+                                          margin-top: -7px;
+                                          margin-left: 70px;
+                                          width: 100%;
+                                          float: left;
+                                          @media #{$koh-media-nav-breakpoint} {
+                                            display: inline-block;
+                                            float: right;
+                                            margin-left: 0;
+                                          }
+                                        } */
+                                      }
+                                }
+                                >span {
+                                    &.koh-link-language-divider {
+                                        @media #{$koh-media-screen-sm-max} {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                            .koh-link-company-brand {
+                                .icon:after {
+                                    position: absolute;
+                                    top: 16px;
+                                    right: 14px;
+                                    padding: 0;
+                                }
+                                &.open .icon:after {
+                                    content: "\e600";
+                                }
+                            } // end .koh-link-company-brand
+
+                            &.koh-links-set-1 {
+                                @media #{$koh-media-screen-xs-max} {
+                                    display: none;
+                                }
+                                display: block;
+                            }
+
+                        } // end > ul
+                    } // end .koh-links
+                    .koh-brands {
+                        display: none;
+                        &.open {
+                            display: block;
+                        }
+                        background: $koh-color-pmd-grey;
+                        border-bottom: 1px solid $koh-color-pdk-grey;
+                        .koh-worldwide-menu {
+                            ul {
+                                padding-left: 0;
+                                margin-bottom: 0;
+                                .worldwide-menu-top {
+                                    display: block;
+                                    min-width: 100%;
+                                    a,
+                                    span {
+                                        height: 56px;
+                                        display: block;
+                                        position: relative;
+                                        padding: 16px 14px;
+                                        border-bottom: 1px solid #000;
+                                        font-family: HelveticaLight, Helvetica, sans-serif;
+                                        font-size: 1.6em;
+                                        line-height: 1.5em;
+                                        font-weight: 700;
+                                        outline: 0;
+                                        color: $koh-color-white;
+                                        &:after {
+                                            position: absolute;
+                                            top: 16px;
+                                            right: 14px;
+                                            font-family: KohlerIcons;
+                                            content: "\e612"
+                                        }
+                                    }
+                                    li {
+                                        display: none;
+                                    }
+                                    &.open {
+                                        span {
+                                            color: $koh-color-white;
+                                            &:after {
+                                                content: "\e600";
+                                            }
+                                        }
+                                        ul {
+                                            display: block;
+                                        }
+                                        li {
+                                            background-color: #000;
+                                            display: block;
+                                            a,
+                                            >span {
+                                                height: 35px;
+                                                display: block;
+                                                position: relative;
+                                                padding: 5px 14px;
+                                                border-bottom: 1px solid #000;
+                                                font-family: HelveticaLight, Helvetica, sans-serif;
+                                                font-size: 1.2em;
+                                                line-height: 2em;
+                                                font-weight: 700;
+                                                outline: 0;
+                                                color: $koh-color-white;
+                                                background-color: #6d6d6d;
+                                                opacity: .7;
+                                                &:after {
+                                                    top: 5px;
+                                                    content: "\e612";
+                                                }
+                                                &.worldwide-menu-label {
+                                                    &.open {
+                                                        &after {
+                                                            content: "\e600";
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            a:after {
+                                                display: none;
+                                            }
+                                            a:focus,
+                                            a:hover {
+                                                color: $koh-color-white;
+                                                text-decoration: none
+                                            }
+                                            &.nav-heading,
+                                            &.nav-item {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .koh-brands-header {
+                            display: none;
+                        }
+                        .koh-brand-groupings {
+                            .koh-brand-grouping {
+                                @include koh-unlist();
+                                display: block;
+                                li {
+                                    display: inline-block;
+                                    a,
+                                    >span {
+                                        border-bottom: medium none;
+                                        display: inline-block;
+                                        height: 61px;
+                                        padding: 24px;
+                                        img {
+                                            max-height: 36px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } // end .koh-brands
+                }
+            }
+        }
+    } // end .c-koh-navigation mobile
+    @media #{$koh-media-screen-sm-max} {
+        #search-suggestions-container {
+            display: none;
+            position: absolute;
+            height: auto;
+            max-height: 300px;
+            background-color: #f5f5f5;
+            border-radius: 3px;
+            width: 58.5%;
+            text-align: left;
+            overflow: auto;
+            z-index: 99999;
+            margin: auto;
+            left: 10px;
+            right: 10px;
+            .search-suggestions-scroller {
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    li {
+                        font-family: "HelveticaLight", Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        height: auto !important;
+                        line-height: 1em;
+                        padding: 20px 15px;
+                        display: block;
+                        &:hover {
+                            background-color: #6c89ad;
+                            a {
+                                color: #fafbfc;
+                            }
+                        }
+                        a {
+                            text-decoration: none;
+                            color: #444444;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                b {
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+    @media #{$koh-media-nav-breakpoint} {
+        &.koh-mobile-nav,
+        .koh-mobile-nav {
+            display: none;
+        }
+        &.koh-desktop-nav,
+        .koh-desktop-nav {
+            display: block;
+        }
+        /*@include koh-page-gutters-padding();
+        padding-left: calc((100vw - 980px) / 2);
+        padding-right: calc((100vw - 980px) / 2);
+        width: 100vw;
+        padding: 0 $koh-desktop-nav-indent;*/
+        /*margin:0 auto;*/
+        padding-left: calc((100vw - 995px) / 2);
+        padding-right: calc((100vw - 995px) / 2);
+        height: $koh-desktop-nav-height;
+        position: relative;
+        background: $koh-color-white;
+        color: $koh-color-pdk-grey;
+        text-align: right;
+        display: table;
+        @media screen and (-ms-high-contrast: active),
+        screen and (-ms-high-contrast: none) {
+            padding-left: calc((100vw - 980px) / 2);
+            padding-right: calc((100vw - 980px) / 2);
+        }
+        .c-koh-navigation {
+            display: table-cell;
+            position: static;
+            vertical-align: middle;
+            width: 100%;
+            padding-left: $koh-desktop-nav-indent;
+            .koh-primary-nav {
+                .koh-primary-nav-header {
+                    display: block;
+                    width: $koh-desktop-nav-logo-width;
+                    height: $koh-desktop-nav-logo-height;
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    margin-left: 8px; // Not sure why this is needed, but it's what makes the space right
+                    overflow: hidden;
+                    border: none;
+                    text-align: inherit;
+                    padding: 0;
+                    .koh-primary-nav-home-link {
+                        width: $koh-desktop-nav-logo-width;
+                        height: $koh-desktop-nav-logo-height;
+                    }
+                    .koh-primary-nav-toggle,
+                    .koh-primary-search-toggle,
+                    .koh-shopping-cart-menu-mobile {
+                        display: none;
+                    }
+                }
+                .koh-primary-nav-menu {
+                    display: block !important;
+                    z-index: $koh-zindex-navbar;
+                    &.open {
+                        display: block;
+                    }
+                    .koh-branding-bar-mobile .koh-brands,
+                    .koh-site-search-mobile {
+                        display: none;
+                        &.open {
+                            display: none;
+                        }
+                    }
+                    .koh-nav-parents {
+                        @include koh-unlist();
+                        background: $koh-color-white;
+                        >li {
+                            @include koh-reset-nav-item();
+                            display: inline-block;
+                            float: left;
+                            &:nth-child(4) {
+                                margin-left: 196px;
+                            }
+                            &:last-child {}
+                            >a,
+                            >span {
+                                display: block;
+                                width: 125px;
+                                @include koh-font-light( $font-size: 16px, $line-height: $koh-desktop-nav-height);
+                                background: $koh-color-white;
+                                color: $koh-color-pdk-grey;
+                                text-transform: uppercase;
+                                text-align: center;
+                                &:after {
+                                    display: none;
+                                }
+                                &:hover,
+                                &.open {
+                                    background: $koh-color-plt-grey;
+                                    @include gradient-vertical($start-color: #f7f7f7, $end-color: $koh-color-slt-grey);
+                                    color: $koh-color-black;
+                                }
+                                &:hover {
+                                    cursor: hand;
+                                    cursor: pointer;
+                                }
+                            }
+                            &:nth-child(4),
+                            &:last-child {
+                                >a {
+                                    width: auto;
+                                    padding: 0 13px;
+                                }
+                            }
+                        }
+                        .koh-nav-subnav {
+                            display: none;
+                            &.open {
+                                display: block;
+                            }
+                            position: absolute;
+                            top: $koh-desktop-nav-height;
+                            left: 0;
+                            width: 100%;
+                            background: $koh-color-slt-grey;
+                            color: $koh-color-pdk-grey;
+                            box-shadow: 0 3px 8px 0 $koh-color-pmd-grey;
+                            .koh-subnav-content {
+                                @include koh-page-gutters-padding();
+                                padding-top: 44px;
+                                padding-bottom: 69px;
+                                @include clearfix();
+                                .koh-subnav-header {
+                                    @include koh-reset-nav-item();
+                                    margin-bottom: 20px;
+                                    a,
+                                    >span {
+                                        display: inline-block;
+                                        position: relative;
+                                        @include koh-font-roman( $font-size: 30px, $font-weight: 400);
+                                        text-transform: uppercase;
+                                        background: transparent;
+                                        color: $koh-color-black;
+                                        .prefix {
+                                            @include sr-only();
+                                        }
+                                        &:after {
+                                            font-family: KohlerIcons;
+                                            content: "\e612";
+                                            font-size: 18px;
+                                            padding-left: 25px;
+                                        }
+                                    }
+                                    span.heading-caption {
+										display: inline-block;
+										font-size: 13px;
+										color: #717171!important;
+										font-family: HelveticaMedium, Helvetica, sans-serif;
+										text-transform: none;
+										font-weight: 500;
+										padding-left: 7px;
+									}
+                                    a:hover,
+                                    a:focus {
+                                        background: transparent;
+                                        color: $koh-color-pmd-grey;
+                                    }
+                                }
+                                .koh-nav-section {
+                                    @include koh-unlist();
+                                    float: left;
+                                    width: 18%;
+                                    margin-right: 2%;
+                                    &.koh-nav-section-three-columns {
+                                        width: 23%;
+                                    }
+                                    &.nav-document-section {
+                                        width: 58%;
+                                    }
+                                    li {
+                                        @include koh-reset-nav-item();
+                                        &.nav-item {
+                                            margin: 0 0 9px 0;
+                                            a,
+                                            >span {
+                                                @include koh-font-medium( $font-size: 13px, $line-height: 16.8px);
+                                                background: transparent;
+                                                color: $koh-color-pmd-grey;
+                                            }
+                                            a:hover,
+                                            a:focus {
+                                                color: $koh-color-pdk-grey;
+                                            }
+                                        }
+                                        &.nav-heading {
+                                            hr.underline-color {
+												color: #e8e8e8;
+												opacity: .2;
+												unicode-bidi: isolate;
+												display: block;
+												border-color: grey;
+												background-color: grey;
+												margin-block-start: 0.5em;
+												margin-block-end: 0.5em;
+												margin-inline-start: auto;
+												margin-inline-end: auto;
+												overflow: hidden;
+												border-style: inset;
+												border-width: 1px;
+											}
+                                            margin: 25px 0 9px 0;
+                                            &:first-child {
+                                                margin-top: 0;
+                                            }
+                                            +.nav-heading {
+                                                margin: 0 0 9px 0;
+                                            }
+                                            a,
+                                            >span {
+                                                @include koh-font-bold( $font-size: 14px, $line-height: 16.8px);
+                                                color: $koh-color-black;
+                                                font-weight: 400;
+                                            }
+                                            a:hover,
+                                            a:focus {
+                                                color: $koh-color-pmd-grey;
+                                            }
+                                        }
+                                        &.nav-document {
+                                            >a,
+                                            >span {
+                                                display: block;
+                                                @include koh-font-bold( $font-size: 14px, $line-height: 16.8px);
+                                                margin-bottom: 16px;
+                                            }
+                                            .nav-document-image {
+                                                display: block;
+                                                float: left;
+                                                padding-right: 20px;
+                                                img {
+                                                    max-width: 225px;
+                                                }
+                                            }
+                                            .nav-document-content {
+                                                .nav-document-text {
+                                                    display: block;
+                                                    margin-bottom: 10px;
+                                                    @include koh-font( $base-size: 14px, $font-size: 14px, $line-height: 16.8px);
+                                                }
+                                                .nav-document-cta {
+                                                    a {
+                                                        @include koh-button-white();
+                                                        @include koh-font-bold( $base-size: 14px, $font-size: 13px);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &.nav-spacer {
+                                            display: block;
+                                            visibility: hidden;
+                                        }
+                                    }
+                                }
+                               
+                               .nav-heading-products {
+                               		width: 40%;
+									float: left;
+									margin: 0 0 9px;
+									padding-right: 10px;
+									
+									.koh-nav-section {
+	                             		 width: 46%;
+	                              	}
+                               }
+                              
+                               .nav-heading-other {
+                               		width: 20%;
+									float: left;
+									padding-right: 10px;
+                               }
+                              
+                              .nav-heading-idea {
+                               		width: 24%;
+									float: left;
+									padding-right: 10px;
+                               }
+                              .nav-heading-nochild {
+                               		width: 24%;
+									padding-right: 10px;
+                               }
+                               .nav-heading-other, .nav-heading-idea, .nav-heading-nochild {
+	                               .koh-nav-section {
+	                             		 width: 100%;
+	                              	}
+	                           }
+                               .nav-heading-products, .nav-heading-other, .nav-heading-idea, .nav-heading-nochild {
+	                              a {
+									font-family: HelveticaBold,Helvetica,sans-serif;
+									font-size: 1.4em;
+									line-height: 1.2em;
+									color: #000;
+									font-weight: 400;
+									margin-bottom:	10px;
+									display: inline-block;
+								  }
+								
+								.grey-line {
+									margin-top: 0 !important;
+									margin-bottom: 7px !important;
+									opacity: .2;
+									box-sizing: content-box;
+									height: 0;
+									background-color: #808080;
+									border-color: #808080;
+									border-top: 2px solid;
+								}
+								
+								.koh-icon-external {
+									background: url(../images/external-link-alt.png) no-repeat;
+									width: 15px;
+									height: 15px;
+									float: left;
+									margin-left: 10px;
+									margin-top: 0px;
+								}
+								.koh-nav-text {
+									float: left;
+								}
+								
+								.koh-nav-section {
+									li.nav-item {
+										margin: 0 0 0px;
+										
+										a{
+											display: inline-block;
+										}
+										a[target="_blank"] {
+                                            position: relative;
+                                            padding-right: 20px;
+                                            .koh-icon-external {
+                                                position: absolute;
+                                                right: 0;
+                                            }
+                                        }
+									}
+								}
+                              }
+                            }
+                        }
+                        &.vi_VN {
+                            >li {
+                                >a {
+                                    font-size: 1.3em;
+                                    line-height: 80px;
+                                }
+                            }
+                        }
+                    }
+                    .koh-branding-bar-mobile {
+                        display: none;
+                    }
+                }
+            }
+        } // end .c-koh-navigation desktop
+        .koh-site-search-mobile {
+            display: none !important;
+        }
+        .c-koh-site-search {
+            display: table-cell;
+            vertical-align: middle;
+            width: 195px;
+            padding: 0 10px 0 15px;
+            form {
+                position: relative;
+                width: 170px;
+                @include koh-search-form();
+                /* IE Specific for search */
+                @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+                    input {
+                        width: 115px;
+                        box-sizing: content-box;
+                    }
+                }
+                input::-ms-clear {
+                    display: none;
+                }
+                /*@media #{$koh-media-nav-breakpoint} {
+
+                }*/
+            }
+            #search-suggestions-container {
+                display: none;
+                position: absolute;
+                height: auto;
+                max-height: 300px;
+                margin-top: 5px;
+                background-color: #f5f5f5;
+                border-radius: 3px;
+                width: 170px;
+                text-align: left;
+                overflow: auto;
+                z-index: 99999;
+                .search-suggestions-scroller {
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                        li {
+                            font-family: "HelveticaLight", Helvetica, sans-serif;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            height: auto !important;
+                            line-height: 1em;
+                            padding: 20px;
+                            display: block;
+                            a {
+                                text-decoration: none;
+                                color: #444444;
+                                line-height: 20px;
+                            }
+                            &:hover {
+                                background-color: #6c89ad;
+                                a {
+                                    color: #fafbfc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .c-koh-shopping-cart-menu {
+            display: table-cell;
+            vertical-align: middle;
+            width: 20px;
+            padding: 0 (10px + $koh-desktop-nav-indent) 0 20px;
+            a {
+                background: transparent;
+                color: inherit;
+                text-decoration: none;
+                &:hover,
+                &:focus {
+                    color: $koh-color-md-green;
+                }
+                .icon {
+                    font-size: 18px;
+                }
+                .label {
+                    @include sr-only();
+                }
+            }
+        }
+    }
+}
+
+// Mobile header component CSS
+.koh-quick-link-shortcut {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
+    text-align: center;
+    background-color: #232323;
+    color: #FFFFFF ;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+
+    @media #{$koh-media-screen-sm} {
+        display: none;
+    }
+
+    .koh-quick-link {
+        height: 4em;
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            text-decoration: none;
+            color: #FFFFFF;
+            justify-content: space-between;
+            height: 100%;
+            font-size: 11px;
+        } 
+    }
+
+    .koh-quick-link:last-child {
+        a {
+            border-right: none;
+            gap: 0.7em;
+            justify-content: end;
+        }
+    }
+    
+    
+}
+
+

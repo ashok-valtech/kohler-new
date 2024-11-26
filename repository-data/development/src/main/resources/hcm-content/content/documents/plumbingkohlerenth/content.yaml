@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerenth/content:
+  .meta:order-before: custombanner
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f00fd833-d5bc-4c82-8ccb-d152af177453
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: abdf5deb-8154-42b6-be5f-1a901ee146e5
+  hippotranslation:locale: en_TH

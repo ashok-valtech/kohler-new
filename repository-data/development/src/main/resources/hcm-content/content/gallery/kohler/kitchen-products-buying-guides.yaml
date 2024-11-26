@@ -1,0 +1,7 @@
+/content/gallery/kohler/kitchen-products-buying-guides:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 1dcdf1fd-a602-40fa-a03d-a363d002c5b4
+  hippo:name: Kitchen Products Buying Guides
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

@@ -1,0 +1,234 @@
+/*
+ * Copyright © 2000-2018 Kohler Company. All Rights Reserved.
+ */
+
+// Title Description Component
+.koh-title-desc-comp {
+    &.c-koh-simple-content {
+        &.v-koh-full-page {
+            padding-top: 35px;
+            padding-bottom: 35px;
+            @media #{$koh-media-screen-sm} {
+                padding-top: 95px;
+                padding-bottom: 35px;
+            }
+            @media #{$koh-media-screen-sm-max} {
+                padding-left: 32px;
+                padding-right: 32px;
+            }
+            .koh-simple-content-container {
+                @media #{$koh-media-screen-sm} {
+                    width: 60%;
+                    margin: 0 auto;
+                }
+                h2 {
+                    margin: 0;
+                    font-size: 3em;
+                    text-align: center;
+                    line-height: 1.2em;
+                    margin-bottom: .5em;
+                    @media #{$koh-media-screen-sm} {
+                        font-size: 4.2em;
+                    }
+                }
+                .koh-simple-content-body {
+                    font-size: 1.6em;
+                    text-align: center;
+                    p {
+                        margin-bottom: 1.2rem;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Image Title Description Link Component
+.c-koh-promo-grid {
+    &.koh-img-tit-desc-link-comp {
+        background: #fff;
+        margin: 0;
+        width: 100%;
+        padding-bottom: 95px;
+        clear: both;
+        .koh-promo-content {
+            margin-top: -34px;
+            .koh-promo-tile {
+                padding-top: 34px;
+                .koh-promo-tile-box {
+                    .koh-promo-image {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .koh-promo-content-txt {
+                        h3 {
+                            text-transform: none;
+                            padding: 34px 0 20px;
+                            font-size: 2.4em;
+                        }
+                        p {
+                            font-size: 1.6em;
+                        }
+                        a {
+                            margin: 0;
+                            width: auto;
+                            box-shadow: 0 0 0;
+                            min-height: unset;
+                            background: transparent;
+                            color: #b6ada5;
+                            font-size: 1.6em;
+                            font-family: HelveticaBold, Helvetica, sans-serif;
+                        }
+                    }
+                }
+            }
+            @media #{$koh-media-screen-sm} {
+                margin-bottom: 0;
+                .koh-promo-tile {
+                    .koh-promo-tile-box {
+                        margin: 0 17px;
+                        .koh-promo-content-txt {
+                            width: 100%;
+                            h3 {
+                                text-transform: none;
+                                padding: 20px 0 15px;
+                                font-size: 2.2em;
+                            }
+                            p {
+                                font-size: 1.6em;
+                            }
+                            a {}
+                        }
+                    }
+                }
+            }
+            @media #{$koh-media-screen-md-lg} {
+                width: 1014px;
+            }
+            @media #{$koh-media-screen-xs-max} {
+                width: 100%;
+                .koh-promo-tile {
+                    width: 100%;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                }
+            }
+        }
+    }
+}
+
+// Horizontal Rule Block
+.koh-horizontalrule-block {
+    padding-top: 20px;
+    background: #fff;
+    padding-bottom: 20px;
+    hr {
+        margin: 0;
+        border: none;
+        background: #e8e8e8;
+        height: 1px;
+        @media #{$koh-media-screen-sm-max} {
+            margin: 0 32px;
+        }
+    }
+    &.koh-horizontalrule-cwidth {
+        padding-left: calc((100% - 980px) / 2);
+        padding-right: calc((100% - 980px) / 2);
+        width: 100%;
+        hr {}
+    }
+}
+
+// Title Description Map Comp
+.koh-title-dec-map-comp {
+    &.c-koh-simple-content {
+        &.v-koh-full-page {
+            padding-top: 0;
+            padding-bottom: 95px;
+            @media #{$koh-media-screen-sm-max} {
+                padding-left: 32px;
+                padding-right: 32px;
+            }
+            .koh-simple-content-container {
+                .koh-title-dec-map-img {
+                    margin-bottom: 30px;
+                    img {
+                        margin: 0 auto;
+                        display: block;
+                        max-width: 142px;
+                    }
+                }
+                .koh-simple-content-body {
+                    font-size: 1.6em;
+                    h2 {
+                        font-size: 3.2rem;
+                        margin: 0 0 .5em;
+                        font-family: HelveticaRoman, Helvetica, sans-serif;
+                        padding: 0;
+                    }
+                    p {
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .koh-title-dec-map-middle {
+                    @media #{$koh-media-screen-sm-max} {
+                        height: 20px;
+                    }
+                }
+                .koh-title-dec-map-bing {
+                    margin-top: 30px;
+                    .koh-title-dec-map-content {
+                        height: 400px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Banner thumbnail comp
+.koh-banner-thumbnail-comp {
+    &.c-koh-banner-carousel {
+        &.v-koh-inline {
+            .koh-carousel {
+                .koh-thumbnail-slide-navigation {
+					margin-top: 5px;
+                    .slick-list {
+                        .slick-track {
+                            margin: 0 auto;
+                            .slick-slide {
+                                outline: none;
+                                opacity: .5;
+                                cursor: pointer;
+                                width: 176px;
+                                &.slick-current {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+
+//Virtual showroom comp
+.koh-virtual-showroom {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  padding-top: 60px;
+  @media #{$koh-media-screen-sm} {
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: white;
+  }
+}

@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers/glossarylist/main/glossarylist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+  hst:label: Glossary List
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [ideas/glossary, '', desc, '', '10', 'off', 'on']
+  hst:template: glossary-item-main
+  hst:xtype: hst.item

@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers/homepage/main/carouselOverlay:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.CarouselOverlayComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+  hst:label: Carousel Overlay
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [banners/carouseloverlay, '', desc, '', '10', 'off', 'on']
+  hst:template: carouseloverlay-document
+  hst:xtype: hst.item

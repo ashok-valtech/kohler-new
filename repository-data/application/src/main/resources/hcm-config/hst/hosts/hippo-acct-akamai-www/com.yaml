@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hst:platform/hst:hosts/hippo-acct-akamai-www/com:
+      jcr:primaryType: hst:virtualhost
+      hst:showcontextpath: false
+      hst:showport: false
+      hst:scheme: https
+      /onehippo:
+        jcr:primaryType: hst:virtualhost
+        /hosting:
+          jcr:primaryType: hst:virtualhost
+          /cms-kohlerapac:
+            jcr:primaryType: hst:virtualhost
+            /hst:root:
+              jcr:primaryType: hst:mount
+              hst:ismapped: false
+              hst:namedpipeline: WebApplicationInvokingPipeline

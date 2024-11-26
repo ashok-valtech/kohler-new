@@ -1,0 +1,215 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'kohler'='http://www.onehippo.org/kohler/nt/1.0'>
+
+[kohler:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[kohler:Article] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:BizSchema] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:CategoryBanner] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:CollectionsPromo] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:Contact] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:Dealer] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:Filter] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:FilterCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:Product] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:PromoBanner] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:ShoppingGuideBannerDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:Synonym] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:TestDocumentType] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:WalkInBathFBDetailsSectionDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:WarrantyBannerDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:articleBannerDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:articleCarouselCompoundDocument] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:articleCarouselDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:articleDescriptiveCarousalDocument] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:articleThreeImageCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:articleThreeImageDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:bannerdocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:cAttributes] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:cCrossSelling] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:cSKU] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:cSynonym] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:careAndCleanSubDoc] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:carouselOverlayCompoundDocument] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:carouselOverlayDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:colorCoumpound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:colorCoumpoundParent] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:commoncontent] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:contentdocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:customBanner] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:descriptiveCarousalDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:docLinks] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:faqitem] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:faqlist] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:globalProject] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:glossary] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:homedocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:imgTitDecLinkGrid] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:landingPagePackageCompund] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:landingPagePckageDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:literature] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:mapDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:materialColorPalette] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:mediaContact] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:menu] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:packageCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:pressreleases] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:promoLandingPageStoreListCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:promoLandingPageStoreListDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:promotionRibbon] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:promotionRibbonDoc] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:protooldocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:resources] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:shoppingGuideCompoundDocument] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:shoppingGuideDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:thumbnailBanner] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:storeAndPackageDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:storeCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:SeoCategory] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:walkInBathDescDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:walkInBathFbStaticImageSection] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:walkInBathFBDetailsCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:walkInBathFBTopSectionCompuond] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kohler:walkInBathFBTopSectionDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable
+
+[kohler:walkInBathVideoDocument] > hippostd:relaxed, hippotranslation:translated, kohler:basedocument
+  orderable

@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/landing-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:parameternames: [path, sortField, sortOrder]
+        hst:parametervalues: [landing-page/landing-page-store-component, 'kohler:displayorder',
+          asc]
+        hst:template: landing-page-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: promo-landing-page/main

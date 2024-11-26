@@ -1,0 +1,183 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:templates:
+      jcr:primaryType: hst:templates
+      /base-layout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/base-layout.ftl
+      /base-top-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/base-top-menu.ftl
+      /base-footer:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/base-footer.ftl
+      /homepage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/homepage-main.ftl
+      /pagenotfound-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/pagenotfound-main.ftl
+      /home-document-list:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/home-document-list.ftl
+      /search-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/search/search-main.ftl
+      /base-header-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/base-header-menu.ftl
+      /productlist-cat-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/productlist-cat-main.ftl
+      /productfacetpage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/productfacetpage-main.ftl
+      /productfacetpage-navlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/productfacetpage-navlist.ftl
+      /productfacetpage-productlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/productfacetpage-productlist.ftl
+      /literaturelist-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/literaturelist-main.ftl
+      /literature-item-list-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/literatureItem-list-main.ftl
+      /resourceslist-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/resourcepage-main.ftl
+      /resources-item-list-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/resources-main-list.ftl
+      /faq-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/faq-main.ftl
+      /glossarylist-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/glossarylist-main.ftl
+      /glossary-item-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/glossary-item-list.ftl
+      /productdetails-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/productdetails-main.ftl
+      /productscompare-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/productscompare-main.ftl
+      /careandcleaningTemplate:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/careandcleaning.ftl
+      /careandclean-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/careandclean-main.ftl
+      /contentlist-main-contentlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl
+      /sitemap:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/sitemap.ftl
+      /colorpaletteTemplate:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/materialPalette-list.ftl
+      /colorpalete-list:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/colorPaletteList.ftl
+      /storelocator-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/store-locator.ftl
+      /storelocator-detail:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/store-detail.ftl
+      /contactus-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/contactus.ftl
+      /protoolbox:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/protoolbox.ftl
+      /press-releases:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/pressreleases.ftl
+      /pressreleases-list:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/pressreleases-details.ftl
+      /bathroomIdeas-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/bathroomIdeas-main.ftl
+      /kitchenIdeas-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/kitchenIdeas-main.ftl
+      /articles-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/articles-main.ftl
+      /customBanner:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/customBanner.ftl
+      /common-contentpage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/common-contentpage-main.ftl
+      /globalproject-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/globalproject-main.ftl
+      /globalprojects-detailsTemplate:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/globalproject-main.ftl
+      /globalprojects-details:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/globalprojects-details.ftl
+      /aboutus:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/aboutus.ftl
+      /search-filters:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/search-filters.ftl
+      /aboutus-details:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/aboutus-details.ftl
+      /customcarousel:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/custom-carousel.ftl
+      /search-facetpage:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/search/search-facetpage.ftl
+      /search-listpage:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/search/search-listpage.ftl
+      /carouseloverlay-document:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/carouseloverlay-document.ftl
+      /specific-sitemap.ftl:
+        jcr:primaryType: hst:template
+        hst:script: '<#ftl attributes={"content_type": "application/xml"} />${sitemap}'
+      /promo-collections-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/promo-collections-main.ftl
+      /promo-collections-document:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/promo-collections-document.ftl
+      /hrLine:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/hrLine-main.ftl
+      /imgTitDesLink-list:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/imgTitDesLink-list.ftl
+      /kec-common-contentpage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/kec-common-contentpage-main.ftl
+      /map-page-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/map-page-main.ftl
+      /thumbnail-carousel:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/thumbnail-carousel.ftl
+      /kecpage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/kecpage-main.ftl
+      /biz-schema.ftl:
+        jcr:primaryType: hst:template
+        hst:script: "<#ftl attributes={\"content_type\": \"application/ld+json\"}>\
+          \ \r\n<#if document??>\r\n  <#if document.script??>\r\n      ${document.script}\r\
+          \n  </#if>  \r\n</#if>"
+      /seo-update-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler/seo-update-main.ftl

@@ -1,0 +1,130 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+/* _koh-variables.scss
+
+   Partial SCSS containing variable definitions for Kohler website
+*/
+
+/* ----------------------------------------*/
+
+/* Bootstrap variables                     */
+
+// Include the Bootstrap variables file here, so we can override defaults if needed
+@import "./bootstrap/variables";
+// Customization of bootstrap variables
+$icon-font-path: "../fonts/bootstrap/";
+/* ----------------------------------------*/
+
+/* Site font definitions                   */
+
+@import "koh-fonts";
+$koh-font-sans-serif: "HelveticaRoman",
+Helvetica,
+sans-serif;
+$koh-font-sans-serif-bold: "HelveticaBold",
+Helvetica,
+sans-serif;
+$koh-font-sans-serif-light: "HelveticaLight",
+Helvetica,
+sans-serif;
+$koh-font-sans-serif-med: "HelveticaMedium",
+Helvetica,
+sans-serif;
+$koh-font-family-default: $koh-font-sans-serif;
+$koh-font-icons: "KohlerIcons";
+// Font definitions per section
+$koh-base-font-size: 10px;
+$koh-text-font-size: 14px;
+$koh-text-line-height: 19px;
+/* ----------------------------------------*/
+
+/* Site color palette                      */
+
+// Grayscale
+$koh-color-black: #000;
+$koh-color-pdk-grey: #232323;
+$koh-color-pmd-grey: #666;
+$koh-color-plt-grey: #999;
+$koh-color-sdk-grey: #bebebe;
+$koh-color-smd-grey: #dbdbdb;
+$koh-color-slt-grey: #e5e5e5;
+$koh-color-white: #fff;
+// Blues
+$koh-color-dk-blue: #1f2b54;
+$koh-color-md-blue: #364573;
+$koh-color-lt-blue: #3b659c;
+// Greens
+$koh-color-dk-green: #436d07;
+$koh-color-md-green: #84a648;
+// Reds
+$koh-color-red: #e50000;
+/* ----------------------------------------*/
+
+/* Site-wide Grid breakpoint definitions   */
+
+// Customization of bootstrap grid variables
+$grid-columns: 12; // Set to the default for the moment
+$grid-gutter-width: 0; // Most of the layouts do not need gutters
+$grid-float-breakpoint: 980px; // Changing the point at which we switch to hamburger nav
+/* Device widths */
+
+$mobile-portrait: 320px;
+$mobile-landscape: 480px;
+$sm-tablet-portrait: 600px;
+$tablet-portrait: 768px; // $screen-sm-min
+$sm-tablet-landscape: 800px; // $screen-md-min
+$tablet-landscape: 1024px;
+$sm-desktop: 1024px;
+$md-desktop: 1200px; // $screen-lg-min
+$lg-desktop: 1600px;
+/* Media breakpoints */
+
+$koh-media-xxs: $mobile-portrait;
+$koh-media-xs: $mobile-landscape;
+$koh-media-sm: $tablet-portrait;
+$koh-media-md: 980px;
+$koh-media-lg: $md-desktop;
+$koh-media-xl: $lg-desktop;
+$koh-media-screen-xxs: "screen and (min-width: #{$koh-media-xxs})";
+$koh-media-screen-xs: "screen and (min-width: #{$koh-media-xs})";
+$koh-media-screen-sm: "screen and (min-width: #{$koh-media-sm})";
+$koh-media-screen-md: "screen and (min-width: #{$koh-media-md})";
+$koh-media-screen-md-lg: "screen and (min-width: #{$sm-desktop})";
+$koh-media-screen-lg: "screen and (min-width: #{$koh-media-lg})";
+$koh-media-screen-xl: "screen and (min-width: #{$koh-media-xl})";
+$koh-media-screen-xxs-max: "screen and (max-width: (#{$koh-media-xs - 1}))";
+$koh-media-screen-xs-max: "screen and (max-width: (#{$koh-media-sm - 1}))";
+$koh-media-screen-sm-max: "screen and (max-width: (#{$koh-media-md - 1}))";
+$koh-media-screen-md-max: "screen and (max-width: (#{$koh-media-lg - 1}))";
+$koh-media-screen-lg-max: "screen and (max-width: (#{$koh-media-xl - 1}))";
+$koh-media-nav-breakpoint: "screen and (min-width: #{$grid-float-breakpoint})";
+$koh-media-screen-tab-max: "screen and (max-width: (#{$sm-tablet-landscape - 1}))";
+
+/* ----------------------------------------*/
+
+/* Kohler zindex definitions             */
+
+$koh-zindex-navbar: 100;
+$koh-zindex-navbar-menu: 110;
+$koh-zindex-carousel: 1;
+$koh-zindex-carousel-slides: 2;
+$koh-zindex-carousel-overlays: 3;
+$koh-zindex-carousel-controls: 4;
+$koh-zindex-carousel-popovers: 5;
+$koh-zindex-remodal-wrapper: 10000;
+$koh-zindex-remodal: 10001;
+$koh-zindex-remodal-controls: 10002;
+
+/* slick variables for article three image carousel            */
+
+$slick-font-path: "./fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: black !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;

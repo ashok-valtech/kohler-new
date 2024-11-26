@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerenhk/global-projects:
+  .meta:order-before: home
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 168eb598-f595-4058-a8f5-a3af1816ef5a
+  hippostd:foldertype: [new-globalProject]
+  hippotranslation:id: d9be5538-66d2-4672-80d5-a4468227c0ea
+  hippotranslation:locale: en_HK

@@ -1,0 +1,64 @@
+/content/documents/plumbingkohlerph/common-content:
+  .meta:order-before: content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 4f87dea4-d8e0-4211-a43b-2f2f78b3bf9c
+  hippostd:foldertype: [new-commoncontent]
+  hippotranslation:id: 6bf842b8-d53f-4690-a15a-10d06d3bc1a6
+  hippotranslation:locale: en_PH
+  /customer-supports-contact-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 328e5b02-184a-4571-bcf8-bafa0684668e
+    hippo:name: customer-supports-contact-us
+    /customer-supports-contact-us[1]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a89e7d21-686b-42e8-9538-f4e1e56992b5
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-16T20:20:13.132+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T20:21:01.768+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8d1376fe-af62-40ce-8955-3478b14aa86c
+      hippotranslation:locale: sr
+      kohler:pageTitle: Contact Us
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>MORE RESOURCES</h3>
+
+          <ul>
+           <li><a href="/storelocator">Where to Buy</a></li>
+           <li><a href="/warranty">Warranty</a></li>
+           <li><a href="/careandclean">Care and Cleaning </a></li>
+           <li><a href="/literature">Literature </a></li>
+           <li><a href="/faq">FAQs</a></li>
+          </ul>
+    /customer-supports-contact-us[2]:
+      jcr:primaryType: kohler:commoncontent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7cdd4a2b-c31a-415f-8b1a-dc2568559a32
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-16T20:20:13.132+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-16T20:21:01.768+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-19T12:26:30.905+05:30
+      hippotranslation:id: 8d1376fe-af62-40ce-8955-3478b14aa86c
+      hippotranslation:locale: sr
+      kohler:pageTitle: Contact Us
+      /kohler:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>MORE RESOURCES</h3>
+
+          <ul>
+           <li><a href="/storelocator">Where to Buy</a></li>
+           <li><a href="/warranty">Warranty</a></li>
+           <li><a href="/careandclean">Care and Cleaning </a></li>
+           <li><a href="/literature">Literature </a></li>
+           <li><a href="/faq">FAQs</a></li>
+          </ul>

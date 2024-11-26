@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/colorpalette:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.ColorPaletteComponent
+        hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+        hst:parameternames: [documentTypes, sortOrder, sortField]
+        hst:parametervalues: ['', asc, 'kohler:displayOrder']
+        hst:template: colorpaletteTemplate

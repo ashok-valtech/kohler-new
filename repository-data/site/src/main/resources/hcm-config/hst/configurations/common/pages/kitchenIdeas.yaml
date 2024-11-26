@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/kitchenIdeas:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+        hst:parameternames: [path, documentTypes, sortOrder, sortField]
+        hst:parametervalues: [ideas/kitchen-ideas, '', asc, 'kohler:displayOrder']
+        hst:template: kitchenIdeas-main

@@ -1,0 +1,392 @@
+/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:sitemenus/main/SiteMenus:
+  .meta:order-before: footernavigation
+  jcr:primaryType: hst:sitemenuitem
+  hst:repobased: false
+  /bathroom:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /bathroom:
+      jcr:primaryType: hst:sitemenuitem
+      hst:referencesitemapitem: browse/bathroom
+      hst:repobased: false
+      /Bathroom Faucets:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-faucets
+        hst:repobased: false
+        /Lavatory Faucet:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-faucets-menus/lavatory-faucets
+          hst:repobased: false
+        /Bath Faucet:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-faucets-menus/bath-faucets
+          hst:repobased: false
+        /Bathroom Fittings:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-faucets-menus/bathroom-fittings
+          hst:repobased: false
+        /Bidet Faucet:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-faucets-menus/bidet-faucets
+          hst:repobased: false
+      /Lavatories:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/lavatories
+        hst:repobased: false
+        /Self-Rimming:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/self-rimming
+          hst:repobased: false
+        /Vessel:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/vessel
+          hst:repobased: false
+        /Vanity:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/vanity
+          hst:repobased: false
+        /Wall-Mount:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/wall-mount
+          hst:repobased: false
+        /Pedestal:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/pedestal
+          hst:repobased: false
+        /Under-Counter:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/undercounter
+          hst:repobased: false
+        /Semi-Recessed:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-lavatory-menus/semi-recessed
+          hst:repobased: false
+      /Toilets:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/toilets
+        hst:repobased: false
+        /One-Piece:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilets-menus/one-piece
+          hst:repobased: false
+        /Two-Piece:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilets-menus/two-piece
+          hst:repobased: false
+        /Wall-Hung:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilets-menus/wall-hung
+          hst:repobased: false
+        /Wall-Faced:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilets-menus/wall-faced
+          hst:repobased: false
+        /Intelligent Toilets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilets-menus/intelligent-toilets
+          hst:repobased: false
+      /Toilet Seats:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/toilet-seats
+        hst:repobased: false
+        /Manual Bidet Seats:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilet-seats-menus/manual-bidet-seats
+          hst:repobased: false
+        /Bidet Seats:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-toilet-seats-menus/bidet-seats
+          hst:repobased: false
+      /Bathing:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/bathing
+        hst:repobased: false
+        /Cast Iron:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/cast-iron
+          hst:repobased: false
+        /Acrylic:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/acrylic
+          hst:repobased: false
+        /Lithocast:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/lithocast
+          hst:repobased: false
+        /Drop-in:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/drop-in
+          hst:repobased: false
+        /Freestanding:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/freestanding
+          hst:repobased: false
+        /Integrated:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/integrated
+          hst:repobased: false
+        /Bath Faucets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/bath-faucets
+          hst:repobased: false
+        /Bath Spouts:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/bath-spouts
+          hst:repobased: false
+        /Fittings:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/fittings
+          hst:repobased: false
+        /Accessories:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-bathing-menus/accessories
+          hst:repobased: false
+      /Commercial Bathroom:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/commercial-bathroom
+        hst:repobased: false
+        /Sensor Faucets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-commercial-bathroom-menus/sensor-faucets
+          hst:repobased: false
+        /Urinals:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-commercial-bathroom-menus/urinals
+          hst:repobased: false
+        /Toilet and Urinal Sensors:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-commercial-bathroom-menus/toilets-and-urinal-sensors
+          hst:repobased: false
+        /In-Wall Tanks:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-commercial-bathroom-menus/in-wall-tanks
+          hst:repobased: false
+        /In-Wall Faceplates:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-commercial-bathroom-menus/in-wall-faceplates
+          hst:repobased: false
+      /Showering:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/showering
+        hst:repobased: false
+        /Performance Showering:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/performance-showering
+          hst:repobased: false
+        /Universal Valve Box:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/universal-valve-box
+          hst:repobased: false
+        /Rainheads:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/rainheads
+          hst:repobased: false
+        /Bodysprays:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/bodysprays
+          hst:repobased: false
+        /Shower Columns and Panels:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/shower-columns-and-panels
+          hst:repobased: false
+        /Valves and Trims:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/valves-and-trims
+          hst:repobased: false
+        /Handshowers:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/hand-showers
+          hst:repobased: false
+        /Deck-Mount Diverter and Handshowers:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/deck-mount-diverter-and-handshowers
+          hst:repobased: false
+        /Shower Kits:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/shower-kits
+          hst:repobased: false
+        /Shower Fittings:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/shower-fittings
+          hst:repobased: false
+        /Shower Doors:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-showering-menus/shower-doors
+          hst:repobased: false
+      /Bathroom Furniture:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-furniture
+        hst:repobased: false
+      /Mirrored Cabinets:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/mirrored-cabinets
+        hst:repobased: false
+      /Mirrors:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/mirrors
+        hst:repobased: false
+      /Bathroom Accessories:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/bathroom/bathroom-accessories
+        hst:repobased: false
+      /Ideas and Inspiration:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://ideas.kohler.com/search/room:bathroom
+        hst:repobased: false
+      /Untitled:
+        jcr:primaryType: hst:sitemenuitem
+        hst:repobased: false
+  /kitchen:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /kitchen:
+      jcr:primaryType: hst:sitemenuitem
+      hst:referencesitemapitem: browse/kitchen
+      hst:repobased: false
+      /Kitchen Sinks:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-sinks
+        hst:repobased: false
+      /Kitchen Faucets:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-faucets
+        hst:repobased: false
+        /Pullout:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-faucets-menus/pullout
+          hst:repobased: false
+        /Pull-Down:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-faucets-menus/pull-down
+          hst:repobased: false
+        /Deck-Mount:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-faucets-menus/deck-mount
+          hst:repobased: false
+        /Wall-Mount:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-faucets-menus/wall-mount
+          hst:repobased: false
+        /Others:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: menus/sitemenus/kitchen/kitchen-faucets-menus/others
+          hst:repobased: false
+      /Ideas and Inspiration:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://ideas.kohler.com/search/room:kitchen
+        hst:repobased: false
+      /Kohler Kitchens:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://en.ikitchens.com.cn/
+        hst:repobased: false
+  /Home:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: menus/sitemenus/home
+    hst:repobased: false
+  /ideas:
+    jcr:primaryType: hst:sitemenuitem
+    /ideas:
+      jcr:primaryType: hst:sitemenuitem
+      hst:repobased: false
+      /Inspiration:
+        jcr:primaryType: hst:sitemenuitem
+        hst:repobased: false
+        /Bathroom ideas:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: ideas/bathroomIdeas
+          hst:repobased: false
+        /Kitchen Ideas:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: ideas/kitchenIdeas
+          hst:repobased: false
+      /Color & Finishes:
+        jcr:primaryType: hst:sitemenuitem
+        /Material & Color Palette:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: colorpalette
+          hst:repobased: false
+        /Faucet Finishes:
+          jcr:primaryType: hst:sitemenuitem
+          hst:repobased: false
+      /Planning Resources:
+        jcr:primaryType: hst:sitemenuitem
+        /Literature:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: literature
+          hst:repobased: false
+        /Bathroom Product Buying Guides:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/bathroom-product-buying-guides.html
+          hst:repobased: false
+        /Kitchen Product Buying Guides:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/kitchen-product-buying-guides.html
+          hst:repobased: false
+        /Care & Cleaning:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: careandclean
+          hst:repobased: false
+        /Help Topics:
+          jcr:primaryType: hst:sitemenuitem
+          hst:externallink: https://www.us.kohler.com/us/static/helpTopics.jsp
+          hst:repobased: false
+        /Warranty:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: warranty
+          hst:repobased: false
+      /Innovations:
+        jcr:primaryType: hst:sitemenuitem
+        /Artist Editions:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/artist-editions.html
+          hst:repobased: false
+        /Touchless Toilets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/touchlesstoilets.html
+          hst:repobased: false
+        /DTV+ Technology:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/dtv-shower.html
+          hst:repobased: false
+        /Artifacts Faucets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/artifacts-uncover-a-wealth-of-possibilities.html
+          hst:repobased: false
+        /Tailored Vanities:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/kohler-bathroom-vanity-collection.html
+          hst:repobased: false
+        /Moxie Showerheads:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/moxie-showerheads.html
+          hst:repobased: false
+        /Intelligent Toilets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/kohler-intelligent-toilets-and-cleansing-seats.html
+          hst:repobased: false
+        /Cleansing Seats:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/kohler-intelligent-toilets-and-cleansing-seats.html
+          hst:repobased: false
+        /Kohler Cast Iron:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/kohler-cast-iron.html
+          hst:repobased: false
+        /Composed Faucets:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: articles/composed-bathroom-faucet-collection.html
+          hst:repobased: false
+      /Further Reading:
+        jcr:primaryType: hst:sitemenuitem
+        /Designful blog:
+          jcr:primaryType: hst:sitemenuitem
+          hst:externallink: http://kohler.design/
+          hst:repobased: false
+        /Believe in Better:
+          jcr:primaryType: hst:sitemenuitem
+          hst:externallink: http://believe.kohler.com
+          hst:repobased: false
+        /Videos:
+          jcr:primaryType: hst:sitemenuitem
+          hst:externallink: https://www.facebook.com/kohlerdesignful/videos/
+          hst:repobased: false

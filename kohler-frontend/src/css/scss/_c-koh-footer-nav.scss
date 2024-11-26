@@ -1,0 +1,250 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+
+/* _c-koh-footer-nav.scss
+
+   Partial SCSS containing styles for the navigation links in the global footer
+*/
+
+.c-koh-footer-nav {
+    @include koh-footer-gutter-padding();
+    background: $koh-color-pdk-grey;
+    .koh-nav-items {
+        @include koh-make-container-row;
+        margin: 0;
+        .koh-nav-section {
+            @media #{$koh-media-nav-breakpoint} {
+                display: block;
+                float: left;
+                width: 25%;
+                padding: 48px 0 28px 0;
+            }
+            .koh-nav-section-title {
+                display: block;
+                position: relative;
+                padding: 28px 20px 28px 20px;
+                color: $koh-color-slt-grey;
+                font-size: 2rem;
+                text-transform: uppercase;
+                border-bottom: 1px solid $koh-color-pmd-grey;
+                &:after {
+                    display: block;
+                    position: absolute;
+                    top: 25px;
+                    right: 40px;
+                    font-family: 'KohlerIcons';
+                    content: "+";
+                    transform: scale(2);
+                }
+                &.active:after {
+                    content: "-";
+                }
+                a {
+                    display: block;
+                    color: $koh-color-slt-grey;
+                    text-decoration: none;
+                }
+                &.active {
+                    border: none !important;
+                    padding-bottom: 15px !important;
+                }
+                &.active + .koh-nav-section-items {
+                    display: block;
+                    padding-bottom: 25px !important;
+                    border-bottom: 1px solid $koh-color-pmd-grey;
+                }
+                @media #{$koh-media-nav-breakpoint} {
+                    padding: 0;
+                    margin: 30px 0 13px 0;
+                    font-size: 1.9rem;
+                    border-bottom: none;
+                    &:after {
+                        content: none;
+                    }
+                    &.active:after {
+                        content: none;
+                    }
+                }
+            }
+            .koh-nav-section-items {
+                padding: 10px 0 25px 0;
+                display: none;
+                @media #{$koh-media-nav-breakpoint} {
+                    display: block;
+                }
+                li {
+                    display: block;
+                }
+                a {
+                    display: inline-block;
+                    position: relative;
+                    padding: 8px 20px;
+                    color: #cdcdcd;
+                    font-size: 19px;
+                    font-weight: 400;
+                    width: calc(100%);
+					@media #{$koh-media-nav-breakpoint} {
+                        &.ot-sdk-show-settings{
+                            margin-bottom: 15px;
+                        }
+                    }
+                    @media #{$koh-media-nav-breakpoint} {
+                        padding: 0;
+                        font-size: 1.7rem;
+                        border-bottom: none;
+                        color: #bebebe;
+                        &:hover {
+                            color: $koh-color-white;
+                            text-decoration: none;
+                            .default-icon {
+                                background-color: $koh-color-white;
+                            }
+							.tiktok-icon {
+                                background-color: $koh-color-white;
+                            }
+							.zalo-icon {
+								background-color: $koh-color-white;
+							  }
+                        }
+                    }
+                    .label {
+                        @media #{$koh-media-nav-breakpoint} {
+                            display: block;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .icon {
+                        position: absolute;
+                        top: 9px;
+                        left: 30px;
+                        font-size: 20px;
+                        @media #{$koh-media-nav-breakpoint} {
+                            top: -5px;
+                            left: 0;
+                            color: #999999;
+                        }
+                        & + .label {
+                            padding-left: 30px;
+                            line-height: 21px;
+                            @media #{$koh-media-screen-sm-max} {
+                                padding-left: 45px;
+                            }
+                        }
+                        &::after {
+                            background-color: #000000;
+                        }
+                    }
+                    .default-icon {
+                        background: url(../icons/favicon.png);
+                        background-color: $koh-color-plt-grey;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: 60%;
+                        width: 20px;
+                        height: 20px;
+                        top: 13px;
+                        border-radius: 3px;
+                        &:hover {
+                            background-color: $koh-color-white;
+                        }
+                        @media #{$koh-media-nav-breakpoint} {
+                            top: 0;
+                        }
+                    }
+                    .tiktok-icon {
+                        background: url(../icons/Tiktok-icon-02.png);
+                        background-color: $koh-color-plt-grey;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: 60%;
+                        width: 20px;
+                        height: 20px;
+                        top: 16px;
+                        border-radius: 3px;
+                        &:hover {
+                            background-color: $koh-color-white;
+                        }
+                        @media #{$koh-media-nav-breakpoint} {
+                            top: 0;
+                        }
+                    }
+				.zalo-icon {
+					background: url(../icons/zalo.png);
+					background-color: $koh-color-plt-grey;
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-size: 60%;
+					width: 20px;
+					height: 20px;
+					top: 16px;
+					border-radius: 3px;
+					&:hover {
+					  background-color: $koh-color-white;
+					}
+					@media #{$koh-media-nav-breakpoint} {
+					  top: 0;
+					}
+				  }
+                }
+            }
+        }
+    }
+
+    //Footer social menu CSS for mobile
+    .koh-social-links {
+        @media #{$koh-media-screen-sm-max} {
+            font-size: 2rem;
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+        color: $koh-color-slt-grey;
+        font-size: 1.3rem;
+        padding-left: 1em;
+        padding-top: 1em;
+        width: 100%;
+        span {
+           text-transform: uppercase;
+        }
+
+        >ul {
+            display: flex;
+            gap: 3em;
+            list-style: none;
+            padding: 0.3em 0 2em 0;
+            margin: -1px;
+            li {
+                a {
+                    position: relative;
+                    color: $koh-color-plt-grey;
+                    .social-icons {
+                        background-image: url(../icons/favicon.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 1.5em;
+                        height: 1.5em;
+                        background-color:  $koh-color-plt-grey;
+                        background-size: 60%;
+                        position: absolute;
+                        top: 0.3em;
+                        border-radius: 3px;
+                    }
+                    
+                    .kohler-icon {
+                        font-size: 2rem;
+                        position: absolute;
+                        @media #{$koh-media-screen-sm-max} {
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+
+        }
+       
+
+    }
+}
+
+

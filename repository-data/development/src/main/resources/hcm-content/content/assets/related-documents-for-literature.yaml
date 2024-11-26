@@ -1,0 +1,7 @@
+/content/assets/related-documents-for-literature:
+  jcr:primaryType: hippogallery:stdAssetGallery
+  jcr:mixinTypes: ['mix:versionable', 'hippo:named']
+  jcr:uuid: 07fc30e5-8c10-4d85-ab0b-13e2c8d7ac67
+  hippo:name: related documents for Literature
+  hippostd:foldertype: [new-file-folder]
+  hippostd:gallerytype: ['hippogallery:exampleAssetSet']

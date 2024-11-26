@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/sitemap:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.SiteMapMenuNavigationComponent
+        hst:parameternames: [selectedMenu, level, menu, submenu, childMenuItem]
+        hst:parametervalues: ['on', '1', main, 'SiteMenus,footernavigation', 'bathroom,kitchen,group1,group3']
+        hst:template: sitemap

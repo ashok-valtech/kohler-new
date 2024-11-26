@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/careandcleaning-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.CareAndCleanProductComponent
+        hst:parameternames: [sortField, sortOrder, path]
+        hst:parametervalues: ['kohler:displayOrder', asc, /ideas/careandclean/listingdocs]
+        hst:template: careandclean-main
+        /careandclean-container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: careandclean/main

@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers/kec/main/thumbnail-carousel:
+  .meta:order-before: simplecontent
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.ThumdnailCarousalComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+  hst:label: Thumbnail Carousel
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [kec/kecsite/thumbnails, '', asc, 'kohler:displayOrder', '10',
+    'off', 'on']
+  hst:template: thumbnail-carousel
+  hst:xtype: hst.item

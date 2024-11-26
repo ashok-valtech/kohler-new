@@ -1,0 +1,509 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+  
+.c-koh-article-pages {
+    background: $koh-color-white none repeat scroll 0 0;
+    color: $koh-color-pdk-grey;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 100%;
+    .koh-article-pages-container {
+        padding: 0 10px;
+        &:after {
+           content: "";
+           display: table;
+           clear: both;
+
+        }
+        .koh-article-pages-banner {
+            img {
+                width: 100%;
+            }
+        }
+        header {
+            border-bottom: 1px solid #e8e8e8;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            .koh-article-pages-title {
+                font-family: HelveticaLight, Helvetica, sans-serif;
+                font-weight: 400;
+                font-size: 1.5em;
+                line-height: 1.2em;
+                margin: 30px 0 0;
+            }
+            @media #{$koh-media-nav-breakpoint} {
+                .koh-article-pages-title {
+                    font-size: 2.5em;
+                }
+            }
+        }
+        .koh-article-description {
+            margin-bottom: 30px;
+            .koh-article-pages-text-title {
+                margin: 0 0 10px;
+                font-size: 1.3em;
+            }
+            .koh-article-pages-text-link {
+                background: #000 none repeat scroll 0 0;
+                border: 0 none;
+                border-radius: 4px;
+                box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+                color: $koh-color-white;
+                display: inline-block;
+                font-family: HelveticaBold, Helvetica, sans-serif;
+                font-size: 1em;
+                margin: 10px 0 0;
+                outline: 0 none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            @media #{$koh-media-nav-breakpoint} {
+                .koh-article-pages-text-title {
+                    font-size: 1.5em;
+                }
+            }
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+        .koh-article-pages-listing {
+            border-top: 1px solid #e8e8e8;
+            list-style: outside none none;
+            margin: 0;
+            padding: 40px 0 0;
+            clear: both;
+            .koh-article-pages-section {
+                border-bottom: 1px solid #e8e8e8;
+                margin: 0 0 40px;
+                padding: 0 0 40px;
+                clear:both;
+                overflow:hidden;
+				.koh-learn-more {
+				  padding-bottom: 15px;
+				  font-size: 25px;
+				  text-align: center;
+				}
+                &:last-child {
+                    border: none;
+                    padding: 0;
+                }
+                &:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                .koh-article-img-video {
+                    img {
+                        width: 100%;
+                    }
+                }
+				.caption {
+					text-align: left;
+                    font-family: $koh-font-sans-serif-bold;
+					font-size: 13px;
+					font-family: HelveticaBold,Helvetica,sans-serif;
+					margin-top: 10px;
+                }
+                .koh-article-pages-text-title {
+                    margin: 15px 0 10px;
+                    font-size: 1.3em;
+                }
+                @media #{$koh-media-screen-sm} {
+                    .koh-article-img-video {
+                        margin: 0 25px 0 0;
+                    }
+                    .koh-article-pages-text-title {
+                        margin: 0 0 10px;
+                        font-size: 1.5em;
+                    }
+                }
+                h6 {
+                    border: medium none;
+                    display: inline-block;
+                    font-family: HelveticaLight, Helvetica, sans-serif;
+                    font-size: 25px;
+                    margin: 0 auto;
+                    padding: 0 40px;
+                    position: relative;
+                    text-align: center;
+                    &:before {
+                        color: #ccc;
+                        content: open-quote;
+                        font-size: 98px;
+                        left: -6px;
+                        line-height: 30px;
+                        position: absolute;
+                        top: 23px;
+                    }
+                    &:after {
+                        top: 23px;
+                        color: #ccc;
+                        content: close-quote;
+                        font-size: 98px;
+                        line-height: 30px;
+                        position: absolute;
+                        right: -6px;
+                    }
+                    + p {
+                        margin: 10px 0 0;
+                        text-align: center;
+                    }
+                }
+                .koh-article-pages-text-link {
+                    background: #000 none repeat scroll 0 0;
+                    border: 0 none;
+                    border-radius: 4px;
+                    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+                    color: $koh-color-white;
+                    display: inline-block;
+                    font-family: HelveticaBold, Helvetica, sans-serif;
+                    font-size: 1em;
+                    margin: 10px 0 0;
+                    outline: 0 none;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    &:hover {
+                        background: #bebebe none repeat scroll 0 0;
+                        color: $koh-color-pdk-grey;
+                    }
+                }                  
+            }
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+        .koh-three-image-carousel {
+            padding-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            .koh-carousel {
+                padding: 0 15px 0 15px;
+                margin: 0 10px;
+                @media #{$koh-media-screen-sm} {
+                    padding: 15px 10px 0 10px;
+                    margin: 0 50px;
+                }
+                @media #{$koh-media-screen-md-lg} {
+                    padding: 0 15px 0 15px;
+                    margin: 0 20px;
+                }
+                .koh-main-title,
+                .koh-text-description {
+                    font-size: 1.5em;
+                    text-align: center;
+                    font-family: $koh-font-sans-serif;
+                }
+                .koh-text-description {
+                    font-size: 14px;
+                    padding: 20px;
+                }
+                .koh-img-carousel {
+                    .koh-images-caption {
+                        position: relative;
+                        .koh-outerLayer-Caption {
+                            color: $koh-color-black;
+                            bottom: 0;
+                            width: 100%;
+                            padding: 12px 20px;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            position: absolute;
+                            .koh-carousel-imageCaption {
+                                color: $koh-color-white;
+                                font-size: 14px;
+                                line-height: 1.2em;
+                                font-family: $koh-font-sans-serif-med;
+                                text-shadow: 0 0 5px rgba(0, 0, 0, 0.24);
+                            }
+                        }
+                    }
+                    /* Arrows */
+                    .slick-prev,
+                    .slick-next {
+                        font-family: "$slick";
+                        position: absolute;
+                        display: block;
+                        height: 20px;
+                        width: 0;
+                        line-height: 0;
+                        cursor: pointer;
+                        background: transparent;
+                        color: transparent;
+                        top: 50%;
+                        -webkit-transform: translate(0, -50%);
+                        -ms-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
+                        padding: 0;
+                        border: none;
+                        outline: none;
+                        background-position: top;
+                        background-repeat: no-repeat;
+                        &:before {
+                            font-family: $slick-font-family;
+                            font-size: 30px;
+                            opacity: $slick-opacity-default;
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                            @media #{$koh-media-screen-md-lg} {
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                    .slick-prev {
+						left: -34px;
+						@media screen and (min-width: 319px) and (max-width: 760px) {
+                            left: -26px;
+                        }
+                        &:before {
+                            content: $slick-prev-character;
+                            background: url("../images/arrow-left.png") no-repeat;
+                            background-size: contain;
+                        }
+                    }
+                    .slick-next {
+                        right: -10px;
+						@media screen and (min-width: 319px) and (max-width: 760px) {
+                            right: -8px;
+                        }
+                        &:before {
+                            content: $slick-next-character;
+                            background: url("../images/arrow-right.png") no-repeat;
+                            background-size: contain;
+                        }
+                    }
+                    .slick-slide {
+                        margin: 0 2px;
+                        transition: all ease-in-out 0.3s;
+                        opacity: 1;
+                        img {
+                            max-height: 200px;
+                            width: 100%;
+                            @media #{$koh-media-screen-sm} {
+                                max-height: 400px;
+                            }
+                            @media #{$koh-media-screen-md-lg} {
+                                max-height: 600px;
+                            }
+                            @media #{$koh-media-screen-lg} {
+                                max-height: 200px;
+                            }
+                            @media screen and (min-width: 320px) and (max-width: 321px) {
+                                max-height: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+		
+		/* patricia section*/
+    .koh-patricia-section {
+      .koh-patricia-section-row {
+        .koh-patricia-section-item-title {
+          display: block;
+          height: auto;
+          position: relative;
+          overflow: hidden;
+          font-family: $koh-font-sans-serif;
+          @media #{$koh-media-nav-breakpoint} {
+            sup {
+              line-height: 1.9;
+              font-family: $koh-font-sans-serif;
+            }
+            margin-top: 0;
+          }
+          .koh-patricia-section-title-inner {
+            .koh-patricia-section-first-title {
+              text-align: left;
+              color: #232323;
+              line-height: 1.1;
+              font-family: HelveticaRoman, Helvetica, sans-serif;
+              font-size: 1.5em;
+              @media #{$koh-media-nav-breakpoint} {
+                font-size: 22px;
+                padding-left: 430px;
+                margin-top: 10px;
+              }
+              @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                font-size: 22px;
+                padding-left: 345px;
+                margin-top: 10px;
+              }
+            }
+            .koh-patricia-section-subtitle {
+              font-size: 15px;
+              font-family: $koh-font-sans-serif;
+              width: 219px;
+              @media #{$koh-media-nav-breakpoint} {
+                padding-left: 430px;
+                width: auto;
+              }
+              @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                padding-left: 345px;
+                width: auto;
+              }
+            }
+            .koh-patricia-section-description {
+              margin: 15px 5px 25px 5px;
+              font-size: 14px;
+              p {
+                color: #00274c;
+              }
+            }
+          }
+          &:focus {
+            outline: none;
+            text-decoration: none;
+          }
+        }
+        .koh-patricia-section-img {
+          display: block;
+          padding-bottom: 25px;
+          border-top: solid 1px #fff;
+          img {
+            width: 100%;
+            display: block;
+          }
+        }
+        @media screen and (min-width: 760px) {
+          .koh-patricia-section-img {
+            width: 33%;
+            display: block;
+            float: right;
+            padding-left: 30px !important;
+            padding-top: 4px;
+          }
+          .koh-patricia-section-item-title {
+            display: block;
+            clear: left;
+          }
+        }
+      }
+    }
+    }
+
+    &.backgroundchange {
+        .koh-article-pages-container {
+            .koh-three-image-carousel {
+                .koh-carousel {
+                    .koh-img-carousel {
+                        .slick-prev {
+                            &:before {
+                                background: url("../images/arrow-left-bgw.png") no-repeat;
+                                background-size: contain;
+								opacity: 1
+                            }
+                        }
+                        .slick-next {
+                            &:before {
+                                background: url("../images/arrow-right-bgw.png") no-repeat;
+                                background-size: contain;
+								opacity: 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .c-koh-banner-carousel {
+            &.v-koh-inline {
+                background: inherit; //329
+            }
+
+            &.koh-descriptive-carousel-comp {
+                .top {
+                    .copy {
+                        color: inherit; //954
+                    }
+                }
+            }
+            &.koh-descriptive-carousel-comp {
+                .top {
+                    .header-small {
+                        color: inherit; //943
+                    }
+                }
+            }
+            
+            .koh-carousel {
+                .koh-slide-collection {
+                    .koh-banner-slide {
+                        .koh-banner-content {
+                            .koh-banner-text {
+                                color: inherit; //464
+                                .koh-banner-title {
+                                    @media #{$koh-media-screen-sm-max} {
+                                        color: inherit !important;
+                                    }
+                                }
+                            }
+                        } 
+                    } 
+                }
+            }          
+        }
+        .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-carousel-controls .koh-carousel-control.next {
+                background: url("../images/arrow-right-bgw.png");
+                background-size: auto 55px;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                display: block;
+        }
+        .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-carousel-controls .koh-carousel-control.previous {
+                        background: url("../images/arrow-left-bgw.png");
+                        background-size: auto 55px;
+                        background-position: top;
+                        background-repeat: no-repeat;
+                        background-color: transparent;
+                        display: block;
+        }
+
+        .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content .koh-banner-text .koh-banner-title {
+            color: inherit !important;//897
+        }
+
+        .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide a, .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide a:active, .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide a:hover, .c-koh-banner-carousel .koh-carousel .koh-slide-collection .koh-banner-slide {
+            a {
+                color: inherit !important;
+            }
+            a:visited {
+                color: inherit !important;
+            }
+        }
+        .c-koh-banner-carousel.koh-descriptive-carousel-comp .koh-carousel .koh-slide-collection .slick-list .slick-track .koh-banner-slide .koh-banner-content .koh-banner-text .more-buttons {
+            a.sw-button {
+                color: #000 !important;
+            }
+
+            a.sw-button:hover {
+                color: #FFF !important;
+            }
+		}
+		.koh-article-pages-container .koh-article-pages-listing .koh-article-pages-section:last-child {
+			padding: 0 0 40px;
+		}
+		
+		.koh-article-pages-container .koh-article-pages-listing .koh-article-pages-section .koh-article-pages-text-link {
+			background: #b9b9b3;
+		}
+    }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+    .c-koh-article-pages {
+        padding-left: calc((100% - 980px) / 2);
+        padding-right: calc((100% - 980px) / 2);
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/pressreleases:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.PressReleaseListComponent
+        hst:parameternames: [pageSize, sortOrder, sortField]
+        hst:parametervalues: ['20', desc, 'kohler:date']
+        hst:template: press-releases

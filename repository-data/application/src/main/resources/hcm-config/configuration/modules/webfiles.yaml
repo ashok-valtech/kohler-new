@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/webfiles:
+      /hippo:moduleconfig:
+        maxFileLengthKb:
+          operation: override
+          type: long
+          value: 1000

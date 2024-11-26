@@ -1,0 +1,9 @@
+/content/documents/plumbingkohlervn/custombanner:
+  .meta:order-before: dealerdocuments
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 3abf6f83-785a-4d43-8b4b-d813504427f9
+  hippo:name: customBanner
+  hippostd:foldertype: [new-customBanner, new-customBanner-folder]
+  hippotranslation:id: 02fd80aa-63bb-43f1-a3c5-783454285761
+  hippotranslation:locale: vi_VN

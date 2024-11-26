@@ -1,0 +1,91 @@
+/content/documents/plumbingkohlersg/promobanner:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 79259fe3-9d1b-4a96-8e33-0a2b13597372
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 752f405c-7bda-461e-91ce-9106a3515112
+  hippotranslation:locale: en_SG
+  /promo_bathroom-faucets:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a91b5c17-523e-40b9-b439-0c8dc6422e9e
+    hippo:name: promo_bathroom-faucets
+    /promo_bathroom-faucets[1]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 0f14563f-e897-4e81-bc1b-dde6fe302665
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:56:30.882+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-02T18:51:00.362+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [bathroom-faucets]
+      hippotranslation:id: 0a29496b-d4dd-4be7-b244-6c215fd470ec
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: promodemo2
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promodemo2</p>
+    /promo_bathroom-faucets[2]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 92dcf775-0c1a-44fd-9171-66bfd2d87784
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-10-31T17:56:30.882+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-02T18:51:00.362+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-20T06:39:54.412Z
+      hippotaxonomy:keys: [bathroom-faucets]
+      hippotranslation:id: 0a29496b-d4dd-4be7-b244-6c215fd470ec
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zac27335_rgb
+      kohler:linkLabel: ''
+      kohler:navigationURL: https://www.msn.com/en-in/
+      kohler:title: promodemo2
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>promodemo2</p>
+  /promo_kitchen_sinks:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 59116abb-97b6-4f91-8c74-244b560c42c8
+    hippo:name: promo_kitchen_sinks
+    /promo_kitchen_sinks[1]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+      jcr:uuid: 0c0d7966-d201-4eb5-bcb4-f445aac003e4
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-20T06:22:59.197Z
+      hippostdpubwf:lastModificationDate: 2017-11-20T06:26:10.646Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:keys: [kitchen-sinks]
+      hippotranslation:id: ac570bca-cc42-409a-9f42-7eef3396bf89
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab86142_800x671_SoftSummerKitchen
+      kohler:navigationURL: http://ideas.kohler.com/mood-board/soft-summer-kitchen
+      kohler:title: Kitchen Sinks
+    /promo_kitchen_sinks[2]:
+      jcr:primaryType: kohler:PromoBanner
+      jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+      jcr:uuid: b174eab1-e34a-45a2-be14-661966a0f964
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-20T06:22:59.197Z
+      hippostdpubwf:lastModificationDate: 2017-11-20T06:26:10.646Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-20T06:40:43.775Z
+      hippotaxonomy:keys: [kitchen-sinks]
+      hippotranslation:id: ac570bca-cc42-409a-9f42-7eef3396bf89
+      hippotranslation:locale: en
+      kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab86142_800x671_SoftSummerKitchen
+      kohler:navigationURL: http://ideas.kohler.com/mood-board/soft-summer-kitchen
+      kohler:title: Kitchen Sinks

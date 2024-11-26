@@ -1,0 +1,515 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+/* FB buy parts left image section*/
+.koh-fb-buy-parts-left-section {
+  background: white;
+  padding-bottom: 25px;
+  .koh-fb-buy-parts-left-section-row {
+    .koh-fb-buy-parts-left-section-title {
+      display: block;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      padding-left: 15px;
+      padding-right: 10px;
+      font-family: $koh-font-sans-serif;
+      @media #{$koh-media-nav-breakpoint} {
+        sup {
+          line-height: 1.9;
+          font-family: $koh-font-sans-serif;
+        }
+        margin-top: 0;
+      }
+      .koh-fb-buy-parts-left-section-title-inner {
+        .koh-fb-buy-parts-left-section-first-title {
+          padding-bottom: 10px;
+          text-align: left;
+          color: #232323;
+          font-family: $koh-font-sans-serif;
+          font-size: 2.5em;
+          @media #{$koh-media-nav-breakpoint} {
+            font-size: 3em;
+            padding-bottom: 15px;
+          }
+        }
+        .koh-fb-buy-parts-left-section-description {
+          font-size: 15px;
+          padding-bottom: 10px;
+        }
+        .koh-contact-information {
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            li {
+              float: left;
+              padding: 0 10px 10px 0;
+              text-decoration: underline;
+              .koh-shop-now-title {
+                padding-left: 40px;
+                margin-top: -26px;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+      &:focus {
+        outline: none;
+        text-decoration: none;
+      }
+    }
+    .koh-fb-buy-parts-left-section-img {
+      display: block;
+      padding-bottom: 25px;
+      padding-right: 10px;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+    @media screen and (min-width: 760px) {
+      .koh-fb-buy-parts-left-section-img {
+        display: block;
+        float: left;
+      }
+      .koh-fb-buy-parts-left-section-title {
+        display: block;
+        clear: right;
+      }
+    }
+  }
+}
+
+/* FB buy parts right image section*/
+.koh-fb-buy-parts-right-section {
+  background: white;
+  .koh-fb-buy-parts-right-section-row {
+    .koh-fb-buy-parts-right-section-title {
+      display: block;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      padding-left: 10px;
+      padding-right: 15px;
+      font-family: $koh-font-sans-serif;
+      @media #{$koh-media-nav-breakpoint} {
+        sup {
+          line-height: 1.9;
+          font-family: $koh-font-sans-serif;
+        }
+        margin-top: 0;
+      }
+      .koh-fb-buy-parts-right-section-inner-title {
+        .koh-fb-buy-parts-right-section-first-title {
+          text-align: left;
+          color: #232323;
+          font-family: HelveticaRoman, Helvetica, sans-serif;
+          font-size: 2.5em;
+          padding-bottom: 10px;
+          @media #{$koh-media-nav-breakpoint} {
+            font-size: 3em;
+            padding-bottom: 15px;
+          }
+        }
+        .koh-fb-buy-parts-right-section-description {
+          font-size: 16px;
+        }
+      }
+      &:focus {
+        outline: none;
+        text-decoration: none;
+      }
+    }
+    .koh-fb-buy-parts-right-section-img {
+      display: block;
+      padding-bottom: 25px;
+      padding-left: 10px;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+    @media screen and (min-width: 760px) {
+      .koh-fb-buy-parts-right-section-img {
+        display: block;
+        float: right;
+      }
+      .koh-fb-buy-parts-right-section-title {
+        display: block;
+        clear: left;
+      }
+    }
+  }
+}
+
+//customer says component
+.koh-customer-says-carousel-component {
+  background: white;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  .koh-text-description {
+    font-size: 3em;
+    font-family: HelveticaRoman, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .koh-customer-says-carousel {
+    box-shadow: 0 0 6px 0 #000;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+    width: 85%;
+    @media #{$koh-media-screen-sm} {
+      padding: 15px 10px 0 10px;
+    }
+    @media #{$koh-media-screen-md-lg} {
+      padding: 0 15px 0 15px;
+    }
+    .koh-customer-carousel {
+      .koh-customer-caption {
+        position: relative;
+        .koh-customer-description {
+          color: black;
+          text-align: center;
+          font-size: 15px;
+          line-height: 25px;
+          font-family: $koh-font-sans-serif-med;
+          max-width: 90%;
+          margin: 30px auto 50px;
+        }
+      }
+      /* Arrows */
+      .slick-prev,
+      .slick-next {
+        font-family: "$slick";
+        position: absolute;
+        display: block;
+        height: 20px;
+        width: 0;
+        line-height: 0;
+        cursor: pointer;
+        background: transparent;
+        color: transparent;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        padding: 0;
+        border: none;
+        outline: none;
+        background-position: top;
+        background-repeat: no-repeat;
+        &:before {
+          font-family: $slick-font-family;
+          font-size: 30px;
+          opacity: $slick-opacity-default;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          @media #{$koh-media-screen-md-lg} {
+            font-size: 40px;
+          }
+        }
+      }
+      .slick-prev {
+        left: -15px;
+        @media screen and (min-width: 319px) and (max-width: 760px) {
+          left: -40px;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          left: 0;
+        }
+        &:before {
+          content: $slick-prev-character;
+          background: url("../images/arrow-left.png") no-repeat;
+          background-size: contain;
+        }
+      }
+      .slick-next {
+        right: 8px;
+        @media screen and (min-width: 319px) and (max-width: 760px) {
+          right: -24px;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          right: 15px;
+        }
+        &:before {
+          content: $slick-next-character;
+          background: url("../images/arrow-right.png") no-repeat;
+          background-size: contain;
+        }
+      }
+      .slick-slide {
+        margin: 0 2px;
+        transition: all ease-in-out 0.3s;
+        opacity: 1;
+        img {
+          max-height: 200px;
+          max-width: 90%;
+          margin: 10px auto;
+          @media #{$koh-media-screen-sm} {
+            max-height: 400px;
+          }
+          @media #{$koh-media-screen-md-lg} {
+            max-height: 600px;
+          }
+          @media screen and (min-width: 320px) and (max-width: 321px) {
+            max-height: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Bathroom and Kitchen installations carousel section*/
+.koh-installations-carousel-component {
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  .koh-installations-carousel {
+    padding: 0 15px 0 15px;
+    margin: 0 10px;
+    @media #{$koh-media-screen-sm} {
+      padding: 15px 10px 0 10px;
+      margin: 0 50px;
+    }
+    @media #{$koh-media-screen-md-lg} {
+      padding: 0 15px 0 15px;
+      margin: 0 20px;
+    }
+    .koh-text-title {
+      font-size: 30px;
+      font-family: HelveticaMedium, Helvetica, sans-serif;
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+    .koh-text-description {
+      font-size: 25px;
+      font-family: HelveticaMedium, Helvetica, sans-serif;
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+    .koh-img-carousel {
+      .koh-images-caption {
+        position: relative;
+        .koh-carousel-imageCaption {
+          color: black;
+          text-align: center;
+          font-size: 20px;
+          line-height: 1.2em;
+          font-family: HelveticaRoman, Helvetica, sans-serif;
+          max-width: 95%;
+          margin: 25px auto 35px;
+        }
+        .koh-product-carousel-enquiry-btn {
+          padding: 0 20px;
+          border-radius: 4px;
+          font-size: 14px;
+          background-color: #364573;
+          color: #fff;
+          line-height: 41px;
+          display: block;
+          text-align: center;
+          max-width: 95%;
+          text-transform: uppercase;
+          margin: 10px auto;
+        }
+      }
+      /* Arrows */
+      .slick-prev,
+      .slick-next {
+        font-family: "$slick";
+        position: absolute;
+        display: block;
+        height: 20px;
+        width: 0;
+        line-height: 0;
+        cursor: pointer;
+        background: transparent;
+        color: transparent;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        padding: 0;
+        border: none;
+        outline: none;
+        background-position: top;
+        background-repeat: no-repeat;
+        &:before {
+          font-family: $slick-font-family;
+          font-size: 30px;
+          opacity: $slick-opacity-default;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          @media #{$koh-media-screen-md-lg} {
+            font-size: 40px;
+          }
+        }
+      }
+      .slick-prev {
+        left: -35px;
+        padding-bottom: 125px;
+        @media screen and (min-width: 319px) and (max-width: 760px) {
+          left: -26px;
+        }
+        &:before {
+          content: $slick-prev-character;
+          background: url("../images/carousel-left-arrow.png") no-repeat;
+          background-size: contain;
+        }
+      }
+      .slick-next {
+        right: 5px;
+        padding-bottom: 125px;
+        @media screen and (min-width: 319px) and (max-width: 760px) {
+          right: 6px;
+        }
+        &:before {
+          content: $slick-next-character;
+          background: url("../images/carousel-right-arrow.png") no-repeat;
+          background-size: contain;
+        }
+      }
+      .slick-slide {
+        margin: 0 2px;
+        transition: all ease-in-out 0.3s;
+        opacity: 1;
+        img {
+          max-height: 200px;
+          max-width: 95%;
+          margin: 10px auto;
+          @media #{$koh-media-screen-sm} {
+            max-height: 400px;
+          }
+          @media #{$koh-media-screen-md-lg} {
+            max-height: 600px;
+          }
+          @media screen and (min-width: 320px) and (max-width: 321px) {
+            max-height: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//why kohler component
+.koh-why-kohler-component-list {
+  background: white;
+  .koh-why-kohler {
+    background: #e4e4e4;
+    padding-bottom: 50px;
+    .koh-head-wrapper {
+      padding: 20px 0;
+      padding-top: 50px;
+      h2 {
+        text-align: center;
+        font-size: 3.5em;
+        font-family: HelveticaRoman, Helvetica, sans-serif;
+      }
+    }
+    .koh-why-kohler-component {
+      .koh-why-kohler-promo {
+        figure.koh-why-kohler-promo-item {
+          margin: 20px 20px;
+          img {
+            min-width: 100%;
+            height: auto;
+          }
+          .koh-why-kohler-promo-item-title {
+            font-family: $koh-font-sans-serif-bold;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-top: 35px !important;
+            text-align: center;
+            min-height: 45px;
+            word-wrap: break-word;
+          }
+          .koh-why-kohler-promo-item-desc {
+            font-size: 14px;
+            padding: 5px 0;
+            text-align: center;
+          }
+        }
+      }
+      &:after,
+      &:before {
+        content: "";
+        display: table;
+      }
+      &:after {
+        clear: both;
+      }
+    }
+  }
+}
+
+//How it works CSS
+section.c-koh-how-it-works-list {
+  margin: 0 auto;
+  background: #ffffff;
+  .koh-head-title {
+    padding: 20px 0;
+    text-align: center;
+    h2 {
+      font-family: HelveticaBold, Helvetica, sans-serif;
+      margin: 0;
+    }
+  }
+  .koh-how-it-works-promo {
+    margin-left: -10px;
+    margin-right: -10px;
+    .koh-how-it-works-promo-list {
+      @media screen and (min-width: $mobile-landscape) {
+        width: 50% !important;
+        float: left !important;
+      }
+      figure.koh-how-it-works-item {
+        margin: 20px 10px;
+        box-shadow: 0 0 6px 0 #000;
+        height: 410px;
+        img {
+          min-width: 100%;
+          height: auto;
+          display: block;
+        }
+        .koh-how-it-works-image-title {
+          font-family: $koh-font-sans-serif-bold;
+          font-size: 25px;
+          margin-top: 10px !important;
+          min-height: 45px;
+          word-wrap: break-word;
+          padding-left: 15px;
+        }
+        .koh-how-it-works-image-desc {
+          font-size: 15px;
+          padding-left: 15px;
+          padding-bottom: 30px;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $tablet-landscape) {
+    padding: 0 20px !important;
+  }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+  .koh-fb-buy-parts-left-section,
+  .koh-fb-buy-parts-right-section,
+  .koh-customer-says-carousel-component,
+  .koh-installations-carousel-component,
+  .koh-why-kohler-component-list,
+  .c-koh-how-it-works-list {
+    padding-left: calc((100% - 980px) / 2);
+    padding-right: calc((100% - 980px) / 2);
+    width: 100%;
+  }
+}

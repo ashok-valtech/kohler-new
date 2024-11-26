@@ -1,0 +1,510 @@
+/content/gallery/kohler/country_logo:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 36b26088-bbf9-4739-adea-7932c436ef19
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /sku_au.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4c1f67cc-60ef-4a5d-adb1-6b9812551fea
+    hippo:name: SKU_AU.png
+    /sku_au.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_AU.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_AU.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_au.png/SKU_AU_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:55.458+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_au.png/SKU_AU_original.png
+        jcr:lastModified: 2018-08-20T12:15:55.458+05:30
+        jcr:mimeType: image/png
+  /sku_my.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 7ffb6077-6edb-448b-9dfc-46d03610ca2d
+    hippo:name: SKU_MY.png
+    /sku_my.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_MY.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_MY.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_my.png/SKU_MY_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:55.840+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_my.png/SKU_MY_original.png
+        jcr:lastModified: 2018-08-20T12:15:55.840+05:30
+        jcr:mimeType: image/png
+  /sku_mn.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: dc92eba2-3f7a-41c8-9ba7-6c5f8f30b920
+    hippo:name: SKU_MN.png
+    /sku_mn.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_MN.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_MN.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_mn.png/SKU_MN_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:55.998+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_mn.png/SKU_MN_original.png
+        jcr:lastModified: 2018-08-20T12:15:55.998+05:30
+        jcr:mimeType: image/png
+  /sku_nz.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 35d0d17d-7df6-48e5-b215-6ef79f16fd63
+    hippo:name: SKU_NZ.png
+    /sku_nz.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_NZ.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_NZ.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_nz.png/SKU_NZ_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.131+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_nz.png/SKU_NZ_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.131+05:30
+        jcr:mimeType: image/png
+  /sku_kr.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b2cec887-e9ac-44f5-bdf9-a2db74966194
+    hippo:name: SKU_KR.png
+    /sku_kr.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_KR.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_KR.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_kr.png/SKU_KR_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.303+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_kr.png/SKU_KR_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.303+05:30
+        jcr:mimeType: image/png
+  /sku_hk.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3cfcd773-f503-4987-95df-c33207b82880
+    hippo:name: SKU_HK.png
+    /sku_hk.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_HK.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_HK.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_hk.png/SKU_HK_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.393+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_hk.png/SKU_HK_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.393+05:30
+        jcr:mimeType: image/png
+  /sku_tw.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: ecccd767-ef65-4b46-82fb-7b82e505789f
+    hippo:name: SKU_TW.png
+    /sku_tw.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_TW.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_TW.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_tw.png/SKU_TW_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.472+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_tw.png/SKU_TW_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.472+05:30
+        jcr:mimeType: image/png
+  /sku_sg.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 969b741d-770e-4419-8df2-8563aa01d844
+    hippo:name: SKU_SG.png
+    /sku_sg.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_SG.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_SG.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_sg.png/SKU_SG_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.567+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_sg.png/SKU_SG_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.567+05:30
+        jcr:mimeType: image/png
+  /sku_ph.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a1927cda-604c-4876-b798-b1368d324e19
+    hippo:name: SKU_PH.png
+    /sku_ph.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_PH.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_PH.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_ph.png/SKU_PH_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.648+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_ph.png/SKU_PH_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.648+05:30
+        jcr:mimeType: image/png
+  /sku_th.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 46894981-0d50-4b59-9707-fcf6d9e9e65d
+    hippo:name: SKU_TH.png
+    /sku_th.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_TH.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_TH.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_th.png/SKU_TH_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:56.806+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_th.png/SKU_TH_original.png
+        jcr:lastModified: 2018-08-20T12:15:56.806+05:30
+        jcr:mimeType: image/png
+  /sku_vn.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: c842653e-0f03-43f1-b4c5-3a932ab6d79c
+    hippo:name: SKU_VN.png
+    /sku_vn.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_VN.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_VN.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_vn.png/SKU_VN_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:57.006+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_vn.png/SKU_VN_original.png
+        jcr:lastModified: 2018-08-20T12:15:57.006+05:30
+        jcr:mimeType: image/png
+  /sku_id.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 2d9d8368-8e31-4e84-8c7e-0232f526fe50
+    hippo:name: SKU_ID.png
+    /sku_id.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_ID.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_ID.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_id.png/SKU_ID_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:15:57.090+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_id.png/SKU_ID_original.png
+        jcr:lastModified: 2018-08-20T12:15:57.090+05:30
+        jcr:mimeType: image/png
+  /sku_apac.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b7e9b749-db5f-4274-ae14-61bed3e75c06
+    hippo:name: SKU_APAC.png
+    /sku_apac.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_APAC.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_APAC.png
+        hippogallery:height: 20
+        hippogallery:width: 20
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_apac.png/SKU_APAC_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:46:01.700+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 20
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_apac.png/SKU_APAC_original.png
+        jcr:lastModified: 2018-08-20T12:46:01.700+05:30
+        jcr:mimeType: image/png
+  /sku_mo.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: cdbbaf13-fcce-4ed8-b47c-ddcf56e79f4a
+    hippo:name: SKU_MO.png
+    /sku_mo.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_MO.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_MO.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_mo.png/SKU_MO_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:46:01.854+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_mo.png/SKU_MO_original.png
+        jcr:lastModified: 2018-08-20T12:46:01.854+05:30
+        jcr:mimeType: image/png
+  /sku_mm.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 822663bb-1213-4d08-b35b-8bfb6a12a05c
+    hippo:name: SKU_MM.png
+    /sku_mm.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_MM.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_MM.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_mm.png/SKU_MM_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:46:01.989+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_mm.png/SKU_MM_original.png
+        jcr:lastModified: 2018-08-20T12:46:01.989+05:30
+        jcr:mimeType: image/png
+  /sku_cn.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9643ffd3-fa45-41ed-a324-b8027f5126ae
+    hippo:name: SKU_CN.png
+    /sku_cn.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_CN.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_CN.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_cn.png/SKU_CN_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:46:02.285+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_cn.png/SKU_CN_original.png
+        jcr:lastModified: 2018-08-20T12:46:02.285+05:30
+        jcr:mimeType: image/png
+  /sku_jp.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 7271d105-2975-4fdd-b96f-c63ca0b0025c
+    hippo:name: SKU_JP.png
+    /sku_jp.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_JP.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_JP.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_jp.png/SKU_JP_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:46:02.438+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_jp.png/SKU_JP_original.png
+        jcr:lastModified: 2018-08-20T12:46:02.438+05:30
+        jcr:mimeType: image/png
+  /sku_la.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d8a8ff8c-06ac-4a6d-ac1e-af55466f0834
+    hippo:name: SKU_LA.png
+    /sku_la.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: SKU_LA.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: SKU_LA.png
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_la.png/SKU_LA_thumbnail.png
+        jcr:lastModified: 2018-08-20T12:46:02.579+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 20
+        hippogallery:width: 30
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/country_logo/sku_la.png/SKU_LA_original.png
+        jcr:lastModified: 2018-08-20T12:46:02.579+05:30
+        jcr:mimeType: image/png

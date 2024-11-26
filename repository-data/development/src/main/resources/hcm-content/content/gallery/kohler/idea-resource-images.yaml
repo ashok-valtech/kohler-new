@@ -1,0 +1,7 @@
+/content/gallery/kohler/idea-resource-images:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 86ea68ee-6b94-4b5f-9dfd-b59e66be0540
+  hippo:name: idea-resource images
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

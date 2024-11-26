@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/plumbingkohlerhk/hst:sitemenus:
+      jcr:primaryType: hst:sitemenus

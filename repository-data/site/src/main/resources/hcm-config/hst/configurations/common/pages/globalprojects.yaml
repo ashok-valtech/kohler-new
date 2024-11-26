@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/globalprojects:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.GlobalProjectsListComponent
+        hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+        hst:parameternames: [maxCountryProjects, sortField, path, pageSize, showPagination,
+          includeSubtypes, facetPath]
+        hst:parametervalues: ['3', 'kohler:displayOrder', /global-projects, '3', 'on',
+          'on', /global-projects/global-project-facets]
+        hst:template: globalproject-main
+        /global-project-container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: global-project-container/main

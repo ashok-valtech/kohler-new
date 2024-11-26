@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:name: Kohler Taiwan English
+      hst:type: website

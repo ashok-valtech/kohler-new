@@ -1,0 +1,65 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/articleCarouselDocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: a8b72a30-c56c-46c1-8b5c-5aba85895ffc
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0246f881-82eb-4076-ab25-2c6593b76aa6
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: c8f2a3cf-3e75-4daa-a56e-e1721870f74f
+          hipposysedit:node: true
+          hipposysedit:supertype: ['kohler:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /kohler_articlecarouselcompounddocument:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: kohler:kohler_articlecarouselcompounddocument
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:articleCarouselCompoundDocument
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:articleCarouselDocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 87fc8af7-02e9-4861-ad98-4e56a51510f1
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2019-04-04T16:49:05.340+05:30
+          hippostdpubwf:lastModificationDate: 2019-04-04T16:49:05.340+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          /kohler:kohler_articlecarouselcompounddocument:
+            jcr:primaryType: kohler:articleCarouselCompoundDocument
+            kohler:imageAlt: ''
+            kohler:imageTitle: ''
+            kohler:imageURL: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /kohler_articlecarouselcompounddocument:
+            jcr:primaryType: frontend:plugin
+            caption: kohler:articleCarouselCompoundDocument
+            field: kohler_articlecarouselcompounddocument
+            hint: ''
+            maxitems: 6
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

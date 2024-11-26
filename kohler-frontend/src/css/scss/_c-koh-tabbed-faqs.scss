@@ -1,0 +1,117 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.c-koh-tabbed-faqs {
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  background: $koh-color-white;
+  @media #{$koh-media-screen-md} {
+    padding: 0;
+  }
+  .koh-tab-controls {
+    position: relative;
+    margin-bottom: 20px;
+    .koh-tab-select {
+      @include koh-select-menu-button();
+      width: 100%;
+      max-width: 980px;
+      padding: 13px 15px;
+      text-transform: uppercase;
+      @media #{$koh-media-screen-md} {
+    		display: none;
+    	}
+    }
+    .koh-tab-set {
+      @include koh-select-menu-list();
+      top: 41px;
+      z-index: 1;
+      width: 100%;
+      @include koh-unlist();
+      border: 1px solid $koh-color-smd-grey;
+      border-radius: 0 0 5px 5px;
+      background: solid $koh-color-white;
+      box-shadow: 5px 5px 5px -5px $koh-color-plt-grey;
+      @media #{$koh-media-screen-md} {
+        @include koh-page-gutters();
+        display: block;
+        list-style: none;
+        margin: 0 auto 30px auto;
+        padding: 40px 0;
+        text-align: center;
+        box-shadow: none;
+        border: none;
+        border-bottom: 1px solid $koh-color-pmd-grey;
+      }
+      li {
+        padding: 5px 5px 5px 15px;
+        min-height: 42px;
+        font-size: 14px;
+        line-height: 45px;
+        border-bottom: 1px solid $koh-color-smd-grey;
+        background-color: #fff;
+        text-transform: uppercase;
+        &:hover {
+          background: $koh-color-slt-grey;
+        }
+        &.koh-sort-selected {
+          background: #d5d5d5;
+        }
+        @media #{$koh-media-screen-md} {
+          display: inline-block;
+          @include koh-button( $padding: 12px 20px );
+          @include koh-font-bold( $font-size: 14px );
+          margin-right: 15px;
+          box-shadow: none;
+          cursor: pointer;
+          &:hover {
+            background: $koh-color-smd-grey;
+          }
+          &.open {
+            color: $koh-color-white;
+            background: $koh-color-pdk-grey;
+          }
+        }
+      }
+    }
+  }
+
+  .koh-tab-content {
+    @include koh-page-gutters();
+    .koh-tab-contents {
+      display: none;
+      &.open {
+        display: block;
+      }
+      .koh-faq-questions {
+        @include koh-unlist;
+        @include koh-font-bold( $font-size: 16px );
+        padding-bottom: 10px;
+        border-bottom: 1px solid $koh-color-pmd-grey;
+        li {
+          margin-bottom: 20px;
+          &:before {
+            content: "Q: \0000a0";
+            font-family: $koh-font-sans-serif;
+          }
+        }
+
+      }
+      .koh-faq {
+        padding: 30px 0;
+        text-align: left;
+        border-bottom: 1px solid $koh-color-smd-grey;
+        &:last-of-type {
+          border-bottom: 0;
+        }
+        .koh-faq-question {
+          @include koh-font-bold( $font-size: 16px );
+        }
+        .koh-faq-answer {
+          margin-top: 15px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

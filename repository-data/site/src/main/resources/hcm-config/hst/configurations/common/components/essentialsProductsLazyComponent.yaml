@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/essentialsProductsLazyComponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.EssentialsProductListAjaxComponent
+      hst:parameternames: [sortOrder, sortField, pageSize]
+      hst:parametervalues: [desc, 'kohler:date', '20']

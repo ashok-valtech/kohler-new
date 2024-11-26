@@ -1,0 +1,9 @@
+/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers/careandclean/main/simplecontent:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+  hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+  hst:label: Simple Content
+  hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [ideas/careandclean/care-and-cleaning-main-document, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+  hst:template: contentpage-main
+  hst:xtype: hst.item

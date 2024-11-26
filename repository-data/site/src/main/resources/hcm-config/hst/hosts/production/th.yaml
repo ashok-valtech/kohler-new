@@ -1,0 +1,43 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/production/th:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      hst:scheme: https
+      hst:showcontextpath: false
+      hst:showport: false
+      /com:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /kohler:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /www:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:virtualhost
+            /hst:root:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:mount
+              hst:alias: ไทย
+              hst:homepage: root
+              hst:locale: th_TH
+              hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerth
+              /en:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: en_TH
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerenth
+                /api:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: plumbingkohlerenth-api
+                  hst:ismapped: false
+                  hst:namedpipeline: JaxrsRestPlainPipeline
+                  hst:types: [rest]
+              /api:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:alias: plumbingkohlerth-api
+                hst:ismapped: false
+                hst:namedpipeline: JaxrsRestPlainPipeline
+                hst:types: [rest]

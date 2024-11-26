@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/neo:
+      jcr:primaryType: hipposys:user
+      hipposys:active: true
+      hipposys:email: NEO.GONG@kohler.com.cn
+      hipposys:firstname: Neo
+      hipposys:lastname: Gong
+      hipposys:password:
+        .meta:category: system
+        value: $SHA-256$XTzeIaRoVUk=$LK+FwMrrMhXm3q+C48Phh8gNcWXAKKzS60oDeV1+n+g=
+      hipposys:passwordlastmodified:
+        .meta:category: system
+      hipposys:securityprovider: internal

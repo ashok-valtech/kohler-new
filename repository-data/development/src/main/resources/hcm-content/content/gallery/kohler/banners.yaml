@@ -1,0 +1,272 @@
+/content/gallery/kohler/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /banner-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+    /banner-1.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/banner-1.jpg/banner-1_thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/banner-1.jpg/banner-1_original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+  /banner-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
+    /banner-2.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/banner-2.jpg/banner-2_thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/banner-2.jpg/banner-2_original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+  /zab80599_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 37d230e8-7d50-49ff-89f1-25af49dd7515
+    /zab80599_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zab80599_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zab80599_rgb.jpg
+        hippogallery:height: 26
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/zab80599_rgb.jpg/zab80599_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.420+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 801
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/zab80599_rgb.jpg/zab80599_rgb_original.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.420+05:30
+        jcr:mimeType: image/jpeg
+  /zac09780_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 50d16774-faf7-4a36-89e7-e964696f2352
+    /zac09780_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac09780_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac09780_rgb.jpg
+        hippogallery:height: 26
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/zac09780_rgb.jpg/zac09780_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.815+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 801
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/zac09780_rgb.jpg/zac09780_rgb_original.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.815+05:30
+        jcr:mimeType: image/jpeg
+  /protoolbox:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 613db24e-713a-4284-9f8d-2787f88253fa
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /about-hero.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 28ed27cc-3888-484a-8e27-0a0f5d89c3f9
+      /about-hero.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: about-hero.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: about-hero.jpg
+          hippogallery:height: 19
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/protoolbox/about-hero.jpg/about-hero_thumbnail.jpg
+          jcr:lastModified: 2017-06-01T12:43:38.385+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 514
+          hippogallery:width: 1600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/protoolbox/about-hero.jpg/about-hero_original.jpg
+          jcr:lastModified: 2017-06-01T12:43:38.385+05:30
+          jcr:mimeType: image/jpeg
+  /about-kohler.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 228151fc-156d-4f4b-9840-4519a42fc889
+    hippo:name: About Kohler.jpg
+    /about-kohler.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: About Kohler.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: About Kohler.jpg
+        hippogallery:height: 39
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/about-kohler.jpg/About Kohler_thumbnail.jpg
+        jcr:lastModified: 2017-11-24T10:53:57.814Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 803
+        hippogallery:width: 1205
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/banners/about-kohler.jpg/About Kohler_original.jpg
+        jcr:lastModified: 2017-11-24T10:53:57.814Z
+        jcr:mimeType: image/jpeg
+  /about-us:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 128ba8d3-e9e5-4364-814e-3e9ea280ad6e
+    hippo:name: About Us
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /gracious-living.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 2fa01121-985a-4a57-b502-3e9f1c34c66b
+      hippo:name: Gracious Living.jpg
+      /gracious-living.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Gracious Living.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Gracious Living.jpg
+          hippogallery:height: 42
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/about-us/gracious-living.jpg/Gracious
+              Living_thumbnail.jpg
+          jcr:lastModified: 2017-11-24T12:50:26.484Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 351
+          hippogallery:width: 498
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/about-us/gracious-living.jpg/Gracious
+              Living_original.jpg
+          jcr:lastModified: 2017-11-24T12:50:26.484Z
+          jcr:mimeType: image/jpeg
+    /kohler-corporate-headquarters.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: fbadb681-bb4b-486d-995b-bb82ab6f5a9b
+      hippo:name: Kohler Corporate Headquarters.jpg
+      /kohler-corporate-headquarters.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Kohler Corporate Headquarters.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Kohler Corporate Headquarters.jpg
+          hippogallery:height: 31
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/about-us/kohler-corporate-headquarters.jpg/Kohler
+              Corporate Headquarters_thumbnail.jpg
+          jcr:lastModified: 2017-11-24T12:50:27.854Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 262
+          hippogallery:width: 492
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/about-us/kohler-corporate-headquarters.jpg/Kohler
+              Corporate Headquarters_original.jpg
+          jcr:lastModified: 2017-11-24T12:50:27.854Z
+          jcr:mimeType: image/jpeg
+    /kohler-since-1873.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 326a4356-c307-453e-9052-4c4c9b14d687
+      hippo:name: Kohler Since 1873.jpg
+      /kohler-since-1873.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Kohler Since 1873.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Kohler Since 1873.jpg
+          hippogallery:height: 44
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/about-us/kohler-since-1873.jpg/Kohler
+              Since 1873_thumbnail.jpg
+          jcr:lastModified: 2017-11-24T12:50:28.415Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 362
+          hippogallery:width: 492
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/banners/about-us/kohler-since-1873.jpg/Kohler
+              Since 1873_original.jpg
+          jcr:lastModified: 2017-11-24T12:50:28.415Z
+          jcr:mimeType: image/jpeg

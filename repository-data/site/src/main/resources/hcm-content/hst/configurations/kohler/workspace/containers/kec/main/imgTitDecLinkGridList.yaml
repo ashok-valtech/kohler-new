@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers/kec/main/imgTitDecLinkGridList:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/home_doc.png
+  hst:label: Image Title Desc Link
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [kec/kecsite/imgtitdesclinks, 'kohler:imgTitDecLinkGrid', asc,
+    'kohler:displayOrder', '10', 'on', 'on']
+  hst:template: imgTitDesLink-list
+  hst:xtype: hst.item

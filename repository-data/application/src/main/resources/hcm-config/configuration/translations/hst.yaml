@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:hst/componentparameters/com/kohler:
+      jcr:primaryType: hipposys:resourcebundles
+      /commons:
+        jcr:primaryType: hipposys:resourcebundles
+        /components:
+          jcr:primaryType: hipposys:resourcebundles
+          /componentsInfo:
+            jcr:primaryType: hipposys:resourcebundles
+            /EssentialsFAQDocumentComponentInfo:
+              jcr:primaryType: hipposys:resourcebundles
+              /en:
+                jcr:primaryType: hipposys:resourcebundle
+                pageSize.hint: Nr of items per page
+            /ShoppingGuideComponentInfo:
+              jcr:primaryType: hipposys:resourcebundles
+              /en:
+                jcr:primaryType: hipposys:resourcebundle
+                layout.hint: Results Two Column or Three Column

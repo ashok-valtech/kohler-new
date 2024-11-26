@@ -1,0 +1,46 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/everywhere/apacseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [apacseo]
+      hipposys:role: apacseo
+    /hippo:configuration/hippo:domains/everywhere/krseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [krseo]
+      hipposys:role: krseo
+    /hippo:configuration/hippo:domains/everywhere/hkseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [hkseo]
+      hipposys:role: hkseo
+    /hippo:configuration/hippo:domains/everywhere/idseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [idseo]
+      hipposys:role: idseo
+    /hippo:configuration/hippo:domains/everywhere/phseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [phseo]
+      hipposys:role: phseo
+    /hippo:configuration/hippo:domains/everywhere/myseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [myseo]
+      hipposys:role: myseo
+    /hippo:configuration/hippo:domains/everywhere/sgseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [sgseo]
+      hipposys:role: sgseo
+    /hippo:configuration/hippo:domains/everywhere/twseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [twseo]
+      hipposys:role: twseo
+    /hippo:configuration/hippo:domains/everywhere/vnseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [vnseo]
+      hipposys:role: vnseo
+    /hippo:configuration/hippo:domains/everywhere/thseo:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [thseo]
+      hipposys:role: thseo
+    /hippo:configuration/hippo:domains/everywhere/readwrite:
+      jcr:primaryType: hipposys:authrole
+      hipposys:role: readwrite
+      hipposys:users: [sitewriter]

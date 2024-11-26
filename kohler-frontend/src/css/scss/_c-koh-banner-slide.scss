@@ -1,0 +1,728 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+
+/* _c-koh-banner-slide.scss
+
+   Partial SCSS containing styles for slide variations associated with the Carousel Component
+*/
+
+
+/* Component-Specific Fonts and Variables */
+
+@mixin koh-slide-banner-title-font($variant: default) {
+    @include koh-font( $font-size: 34.28571px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 34.28571px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 34.28571px);
+    }
+}
+
+@mixin koh-slide-banner-summary-font($variant: default) {
+    @include koh-font( $font-size: 21.28px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 21.28px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 21.28px);
+    }
+}
+
+@mixin koh-slide-banner-overlay-title-font($variant: default) {
+    @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-bold);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-bold);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-bold);
+    }
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+@mixin koh-slide-banner-overlay-text-font($variant: default) {
+    @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-light);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-light);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 17.14286px, $font-family: $koh-font-sans-serif-light);
+    }
+    line-height: 1.2em;
+}
+
+@mixin koh-slide-banner-overlay-icon-font() {
+    @include koh-font( $font-size: 14.4px, $font-family: $koh-font-sans-serif-bold);
+}
+
+@mixin koh-slide-banner-hotspot-title-font() {
+    @include koh-font( $font-size: 16px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 16px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 16px);
+    }
+    text-transform: uppercase;
+}
+
+@mixin koh-slide-banner-hotspot-description-font() {
+    @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-med);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-med);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-med);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-link-font() {
+    @include koh-font( $font-size: 12px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 12px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 12px);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-sku-font() {
+    @include koh-font( $font-size: 12px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 12px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 12px);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-price-font() {
+    @include koh-font( $font-size: 14px);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 14px);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 14px);
+    }
+}
+
+@mixin koh-slide-banner-hotspot-store-font() {
+    @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    @media #{$koh-media-screen-sm} {
+        @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    }
+    @media #{$koh-media-screen-md} {
+        @include koh-font( $font-size: 13px, $font-family: $koh-font-sans-serif-bold);
+    }
+}
+
+
+/* Slide Popovers */
+
+@mixin koh-bookmark-popover() {
+    background: $koh-color-white;
+    color: $koh-color-pdk-grey;
+    min-width: 300px;
+    text-align: left;
+    .koh-caption {
+        @include koh-font( $font-size: 14px, $font-family: $koh-font-sans-serif-bold);
+        padding-bottom: 10px;
+        border-bottom: 1px solid $koh-color-smd-grey;
+        margin-bottom: 10px;
+    }
+    > form {
+        .koh-fieldset-folders {
+            padding: 0;
+            list-style: none;
+            @include koh-font( $font-size: 12px, $font-family: $koh-font-sans-serif-bold);
+            margin-bottom: 10px;
+        }
+        .koh-form-field {
+            @include koh-font( $font-size: 12px);
+            margin-bottom: 10px;
+            position: relative;
+            .koh-character-count {
+                position: absolute;
+                right: 0;
+            }
+            textarea {
+                width: 100%;
+            }
+        }
+        button {
+            &.koh-button-add {
+                @include koh-button-blue($padding: 8px 14px);
+            }
+            &.koh-button-cancel {
+                @include koh-button-grey($padding: 8px 14px);
+            }
+        }
+    }
+}
+
+@mixin koh-share-popover() {
+    background: $koh-color-white;
+    color: $koh-color-pdk-grey;
+    min-width: 238px;
+    padding: 0;
+    list-style: none;
+    button {
+        @include koh-unbutton();
+        background: $koh-color-white;
+        color: $koh-color-pdk-grey;
+        width: 100%;
+        padding: 5px;
+        @include koh-font( $font-size: 14px);
+        line-height: 20px;
+        .icon {
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        &.koh-share-pinterest .icon {
+            color: #c62b2e;
+        }
+        &.koh-share-houzz .icon {
+            color: #76b74b;
+        }
+        &.koh-share-facebook .icon {
+            color: #325a90;
+        }
+        &.koh-share-twitter .icon {
+            color: #55acee;
+        }
+        &.koh-share-google .icon {
+            color: #cc4e3f;
+        }
+        &.koh-share-email .icon {
+            color: #3b659c;
+        }
+        &.koh-share-showroom .icon {
+            color: #000000;
+        }
+        &:hover {
+            background: #eee;
+        }
+    }
+}
+
+@mixin koh-hotspot-popover() {
+    background: $koh-color-white;
+    color: $koh-color-pdk-grey;
+    display: none;
+    @media #{$koh-media-screen-md} {
+        position: relative;
+        width: 400px;
+        font: $koh-font-sans-serif-light;
+        text-align: center;
+        background: $koh-color-white;
+    }
+    .koh-hotspot-image {
+        position: relative;
+        img {}
+    }
+    .koh-hotspot-content {
+        text-align: center;
+        padding: 26px 10px;
+        .koh-hotspot-description {
+            display: block;
+            margin-bottom: 20px;
+            @include koh-slide-banner-hotspot-description-font();
+        }
+        .koh-hotspot-link {
+            display: block;
+            margin: -10px 0 10px 0;
+            @include koh-slide-banner-hotspot-link-font();
+            text-transform: uppercase;
+        }
+        .koh-hotspot-sku {
+            display: block;
+            @include koh-slide-banner-hotspot-sku-font();
+            color: $koh-color-pmd-grey;
+            margin-bottom: 4px;
+        }
+        .koh-hotspot-price {
+            display: block;
+            @include koh-slide-banner-hotspot-price-font();
+            color: $koh-color-pmd-grey;
+        }
+        .koh-hotspot-store-locator a {
+            display: block;
+            margin-top: 20px;
+            @include koh-slide-banner-hotspot-store-font();
+            color: $koh-color-pmd-grey;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+/* Carousel Slides */
+
+.c-koh-banner-slide {
+    font-size: $koh-base-font-size;
+    position: relative;
+    outline: none;
+    &.m-koh-linked {
+        .koh-banner-content {
+            cursor: pointer;
+        }
+    }
+    /* Defaults */
+    .koh-banner-background {
+        position: relative;
+        a {
+            cursor: pointer;
+        }
+        img {
+            z-index: $koh-zindex-carousel-slides;
+        }
+        .koh-banner-video-icon {
+            z-index: $koh-zindex-carousel-overlays;
+            width: 74px;
+            height: 74px;
+            @include koh-centered-overlay( $width: 74px, $height: 74px);
+            background: $koh-color-black;
+            color: $koh-color-white;
+            opacity: 0.4;
+            border-radius: 50%;
+            cursor: pointer;
+            @media #{$koh-media-screen-md} {
+                display: none;
+            }
+            .icon {
+                font-size: 24px;
+                line-height: 24px;
+                padding-left: 2px;
+                @include koh-centered-overlay( $width: 24px, $height: 24px);
+            }
+            .label {
+                @include sr-only();
+            }
+        }
+        &:hover .koh-banner-video-icon {
+            background: $koh-color-pdk-grey;
+            color: $koh-color-white;
+        }
+    }
+    .koh-banner-content {
+        padding: 20px;
+        position: relative;
+        z-index: $koh-zindex-carousel-slides;
+        @media #{$koh-media-screen-md} {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            .koh-banner-text {
+                position: absolute;
+                width: calc(100% - 140px); // carousel controls are 70px wide on each side
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &.koh-valignment-top {
+                .koh-banner-text {
+                    top: 20px;
+                }
+            }
+            &.koh-valignment-middle {
+                .koh-banner-text {
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            &.koh-valignment-bottom {
+                .koh-banner-text {
+                    bottom: 45px;
+                }
+            }
+        }
+        .koh-banner-text {
+            background: transparent;
+            color: $koh-color-black;
+            text-align: center;
+            .koh-banner-title {
+                display: block;
+                @include koh-slide-banner-title-font();
+                & + .koh-banner-summary {
+                    margin-top: 15px;
+                }
+                @media #{$koh-media-screen-md} {
+                    font-size: 60px;
+                    & + .koh-banner-summary {
+                        margin-top: 30px;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+            .koh-banner-summary {
+                display: block;
+                @include koh-slide-banner-summary-font();
+                @media #{$koh-media-screen-md} {
+                    font-size: 18px;
+                }
+                & + .koh-banner-cta {
+                    margin-top: 15px;
+                }
+            }
+            .koh-banner-cta {
+                display: block;
+                a {
+                    @include koh-button($button-bg: $koh-color-white);
+                    @media #{$koh-media-screen-md} {
+                        width: 200px !important;
+                        background-color: $koh-color-smd-grey;
+                        box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
+                    }
+                }
+            }
+            .koh-banner-video-icon {
+                z-index: $koh-zindex-carousel-overlays;
+                width: 74px;
+                height: 74px;
+                margin: 20px auto 0 auto;
+                position: relative;
+                background: $koh-color-black;
+                color: $koh-color-white;
+                opacity: 0.4;
+                border-radius: 50%;
+                cursor: pointer;
+                display: none;
+                @media #{$koh-media-screen-md} {
+                    display: block;
+                }
+                &:hover {
+                    background: $koh-color-pdk-grey;
+                    color: $koh-color-white;
+                }
+                .icon {
+                    font-size: 24px;
+                    line-height: 24px;
+                    padding-left: 2px;
+                    @include koh-centered-overlay( $width: 24px, $height: 24px);
+                }
+                .label {
+                    @include sr-only();
+                }
+            }
+        }
+    }
+    .koh-banner-overlay {
+        padding: 20px 10px 50px 10px;
+        position: relative;
+        @media #{$koh-media-screen-md} {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            &.koh-theme-dark {
+                color: $koh-color-white;
+                .icon {
+                    color: $koh-color-pdk-grey;
+                }
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+        .koh-overlay-title {
+            display: block;
+            @include koh-slide-banner-overlay-title-font();
+        }
+        .koh-overlay-text {
+            display: block;
+            @include koh-slide-banner-overlay-text-font();
+            @media #{$koh-media-screen-md} {
+                max-width: calc(100% - 220px);
+            }
+        }
+        .koh-overlay-controls {
+            position: absolute;
+            top: -56px;
+            right: 8px;
+            padding: 8px 0;
+            text-align: right;
+            z-index: $koh-zindex-carousel-overlays;
+            @media #{$koh-media-screen-md} {
+                top: 15px;
+            }
+            .koh-overlay-link {
+                display: none;
+                @media #{$koh-media-screen-sm} {
+                    display: inline-block;
+                    a {
+                        display: block;
+                        @include koh-button-white( $padding: 14px 10px 13px 10px);
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .koh-overlay-bookmark {
+                display: inline-block;
+                .koh-overlay-bookmark-button {
+                    @include koh-button-white( $padding: 0);
+                    @include koh-slide-banner-overlay-icon-font();
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 5px;
+                    .label {
+                        @include sr-only();
+                    }
+                }
+                .koh-overlay-bookmark-form {
+                    @include koh-bookmark-popover();
+                    display: none;
+                }
+            }
+            .koh-overlay-social {
+                display: inline-block;
+                .koh-overlay-share-button {
+                    @include koh-button-white( $padding: 0);
+                    @include koh-slide-banner-overlay-icon-font();
+                    width: 40px;
+                    height: 40px;
+                    .label {
+                        @include sr-only();
+                    }
+                }
+                .koh-overlay-share-menu {
+                    @include koh-share-popover();
+                    display: none;
+                }
+            }
+        }
+    }
+    /* Popovers when they've been moved to tooltips */
+    .koh-carousel-popover {
+        .koh-overlay-bookmark-form {
+            @include koh-bookmark-popover();
+            margin: 20px;
+        }
+        .koh-overlay-share-menu {
+            @include koh-share-popover();
+            margin: 0px;
+        }
+        .koh-banner-hotspot-tile {
+            @include koh-hotspot-popover();
+            margin: 10px;
+        }
+    }
+    /* Simple Slide */
+    &.v-koh-simple {
+        // The video icon and hotspots block should not be included in the HTML for
+        // the simple slide variant, but in case they're added accidentally, hide them
+        .koh-banner-background .koh-banner-video-icon,
+        .koh-banner-hotspots {
+            display: none;
+        }
+        @media #{$koh-media-screen-md} {
+            .koh-banner-content .koh-banner-text .koh-banner-cta {
+                display: none;
+            }
+        }
+    } // end v-koh-simple
+    /* Video Slide */
+    &.v-koh-video {
+        // The main CTA and hotspots block should not be included in the HTML for
+        // the video slide variant, but in case they're added accidentally, hide them
+        .koh-banner-content .koh-banner-text .koh-banner-cta,
+        .koh-banner-hotspots {
+            display: none;
+        }
+        .koh-banner-video-panel {
+            display: none;
+        }
+    } // end v-koh-video
+    /* Hotspot Slide */
+    &.v-koh-hotspot {
+        // The main CTA and video icon should not be included in the HTML for
+        // the video slide variant, but in case they're added accidentally, hide them
+        .koh-banner-content .koh-banner-text .koh-banner-cta,
+        .koh-banner-background .koh-banner-video-icon {
+            display: none;
+        }
+        .koh-banner-hotspots {
+            border-top: 1px solid $koh-color-pmd-grey;
+            border-bottom: 1px solid $koh-color-pmd-grey;
+            @media #{$koh-media-screen-md} {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+            .koh-banner-hotspots-header {
+                display: block;
+                position: relative;
+                padding: 20px 10px;
+                @include koh-slide-banner-hotspot-title-font();
+                @media #{$koh-media-screen-md} {
+                    display: none;
+                }
+                &:after {
+                    position: absolute;
+                    right: 15px;
+                    font-family: 'KohlerIcons';
+                    content: "\e612";
+                }
+            }
+            &.open .koh-banner-hotspots-header:after {
+                content: "\e600";
+            }
+            .koh-banner-hotspots-collection {
+                display: none;
+                @media #{$koh-media-screen-md} {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &.open .koh-banner-hotspots-collection {
+                display: block;
+                padding: 0px 10px 50px 10px;
+                @include koh-make-row($gutter: 2px);
+            }
+            .koh-banner-hotspot {
+                @include koh-make-column($xs: 6, $sm: 3, $gutter: 2px);
+                background: $koh-color-slt-grey;
+                width: calc(50% - 2px);
+                padding: 12px 0 74px 0;
+                margin: 0 1px 2px 1px;
+                z-index: $koh-zindex-carousel-overlays;
+                position: static !important; // because Bootstrap gets annoying sometimes
+                @media #{$koh-media-screen-md} {
+                    float: none;
+                    width: 32px;
+                    height: 32px;
+                    padding: 0;
+                    margin: 0;
+                    background: none;
+                    position: relative !important; // because it had to be important at mobile
+                }
+                .koh-banner-hotspot-icon {
+                    display: none;
+                    @media #{$koh-media-screen-md} {
+                        display: block;
+                        position: relative;
+                        width: 30px;
+                        height: 30px;
+                        background-color: rgba(0, 0, 0, 0.45);
+                        border: 2px solid white;
+                        border-radius: 30px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: rgba(255, 255, 255, 1);
+                        }
+                        &:before {
+                            display: block;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 26px;
+                            height: 24px;
+                            content: "+";
+                            font-size: 20px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: $koh-color-pdk-grey;
+                        }
+                    }
+                }
+                .koh-banner-hotspot-tile {
+                    @media #{$koh-media-screen-md} {
+                        display: none;
+                        position: relative;
+                        z-index: $koh-zindex-carousel-popovers;
+                        width: 400px;
+                        padding: 10px;
+                        font: $koh-font-sans-serif-light;
+                        text-align: center;
+                        background: $koh-color-white;
+                        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+                        &.open {
+                            display: block;
+                        }
+                    }
+                    .koh-hotspot-image {
+                        position: relative;
+                        img {}
+                    }
+                    .koh-hotspot-content {
+                        text-align: center;
+                        padding: 26px 10px;
+                        .koh-hotspot-description {
+                            display: block;
+                            margin-bottom: 20px;
+                            @include koh-slide-banner-hotspot-description-font();
+                        }
+                        .koh-hotspot-link {
+                            display: block;
+                            margin: -10px 0 10px 0;
+                            @include koh-slide-banner-hotspot-link-font();
+                            text-transform: uppercase;
+                        }
+                        .koh-hotspot-sku {
+                            display: block;
+                            @include koh-slide-banner-hotspot-sku-font();
+                            color: $koh-color-pmd-grey;
+                            margin-bottom: 4px;
+                        }
+                        .koh-hotspot-price {
+                            display: block;
+                            @include koh-slide-banner-hotspot-price-font();
+                            color: $koh-color-pmd-grey;
+                        }
+                        .koh-hotspot-store-locator a {
+                            display: block;
+                            margin-top: 20px;
+                            @include koh-slide-banner-hotspot-store-font();
+                            color: $koh-color-pmd-grey;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    } // end v-koh-hotspot
+}
+
+.koh-banner-video-panel {
+    padding: 0;
+    max-width: 853px !important;
+    .koh-embedded-video {
+        iframe {
+            display: block;
+        }
+    }
+    .koh-video-overlay {
+        font-size: 10px;
+        padding: 20px 10px 50px 10px;
+        width: 100%;
+        position: relative;
+        color: $koh-color-white;
+        background: $koh-color-black;
+        text-align: left;
+        .koh-video-overlay-title {
+            display: block;
+            @include koh-slide-banner-overlay-title-font();
+        }
+        .koh-video-overlay-text {
+            display: block;
+            @include koh-slide-banner-overlay-text-font();
+        }
+        .koh-video-overlay-cta {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            @include koh-button-white();
+        }
+    }
+}

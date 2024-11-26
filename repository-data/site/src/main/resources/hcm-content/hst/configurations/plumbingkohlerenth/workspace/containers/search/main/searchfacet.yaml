@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers/search/main/searchfacet:
+  .meta:order-before: searchlist
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.SearchFacetsComponent
+  hst:iconpath: images/essentials/catalog-component-icons/product_fecet.png
+  hst:label: Search Facet
+  hst:parameternames: [ignoreSpecialCharacters, facetPath, pageSize]
+  hst:parametervalues: ['[®©]', /content/documents/plumbingkohlerenth/productfacets,
+    '21']
+  hst:template: search-facetpage
+  hst:xtype: hst.item

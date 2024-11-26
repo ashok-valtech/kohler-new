@@ -1,0 +1,272 @@
+/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:sitemenus/main/regionmenu:
+  .meta:order-before: faq
+  jcr:primaryType: hst:sitemenuitem
+  /North America:
+    jcr:primaryType: hst:sitemenuitem
+    /Bahamas:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/en?country=BS
+      hst:repobased: false
+    /Canada:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://ca.kohler.com/
+      hst:repobased: false
+    /Cayman Islands:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/en?country=KY
+      hst:repobased: false
+    /Costa Rica:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=CR
+      hst:repobased: false
+    /Dominican Republic:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=DO
+      hst:repobased: false
+    /El Salvador:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=SV
+      hst:repobased: false
+    /Guatemala:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=GT
+      hst:repobased: false
+    /Honduras:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=HN
+      hst:repobased: false
+    /Jamaica:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/en?country=JM
+      hst:repobased: false
+    /Mexico:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=MX
+      hst:repobased: false
+    /Nicaragua:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=NI
+      hst:repobased: false
+    /Panama:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=PA
+      hst:repobased: false
+    /Puerto Rico:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=PA
+      hst:repobased: false
+    /Turks & Caicos:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=TC
+      hst:repobased: false
+    /United States:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.us.kohler.com/us/
+      hst:repobased: false
+  /South America:
+    jcr:primaryType: hst:sitemenuitem
+    /Argentina:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=AR
+      hst:repobased: false
+    /Brazil:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://br.kohler.com/
+      hst:repobased: false
+    /Bolivia:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=BO
+      hst:repobased: false
+    /Chile:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=CL
+      hst:repobased: false
+    /Colombia:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=CO
+      hst:repobased: false
+    /Ecuador:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=EC
+      hst:repobased: false
+    /Paraguay:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=PY
+      hst:repobased: false
+    /Peru:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=PE
+      hst:repobased: false
+    /Uruguay:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=UY
+      hst:repobased: false
+    /Venezuela:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://la.kohler.com/es?country=VE
+      hst:repobased: false
+  /Europe, the Middle East and Africa:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /Europe:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohlerco.de/
+      hst:repobased: false
+    /Germany:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohlerco.de/
+      hst:repobased: false
+    /United Kingdom:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.co.uk/
+      hst:repobased: false
+    /Middle East:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://me.kohler.com/
+      hst:repobased: false
+    /Africa:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://africa.kohler.com/
+      hst:repobased: false
+  /Asia Pacific:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /Asia Pacific (Pro):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohlerasiapacific.com/
+      hst:repobased: false
+    /Australia:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://au.kohler.com/
+      hst:repobased: false
+    /China:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.cn/
+      hst:repobased: false
+    /Hong Kong:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.com.hk/
+      hst:repobased: false
+    /India:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.co.in/
+      hst:repobased: false
+    /Indonesia:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.co.id/
+      hst:repobased: false
+    /Japan:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.jp/
+      hst:repobased: false
+    /Malaysia:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.my/
+      hst:repobased: false
+    /Mongolia:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.mn/
+      hst:repobased: false
+    /New Zealand:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.kohler.co.nz/
+      hst:repobased: false
+    /Philippines:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.ph/
+      hst:repobased: false
+    /Singapore:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.com.sg/
+      hst:repobased: false
+    /South Korea:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.co.kr/
+      hst:repobased: false
+    /Taiwan:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohler.com.tw/
+      hst:repobased: false
+    /Thailand:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohlerthai.com/
+      hst:repobased: false
+    /Vietnam:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://kohlervn.com/
+      hst:repobased: false
+  /KOHLER Co. Kitchen & Bath Brands:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /Ann Sacks:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.annsacks.com/
+      hst:repobased: false
+    /Daryl Showers:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.daryl-showers.co.uk/
+      hst:repobased: false
+    /Englefield (Australia):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.englefield.com/
+      hst:repobased: false
+    /Englefield (New Zealand):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.englefield.co.nz/
+      hst:repobased: false
+    /Englefield (Thailand):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.karatsanitaryware.com/
+      hst:repobased: false
+    /Hytec:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.hytec.ca/
+      hst:repobased: false
+    /Jacob Delafon (France):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://www.jacobdelafon.fr/
+      hst:repobased: false
+    /Jacob Delafon (Morocco):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.jacobdelafon.ma/
+      hst:repobased: false
+    /Jacob Delafon (Russia):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.jacobdelafon.ru/
+      hst:repobased: false
+    /Jacob Delafon (Spain):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://www.jacobdelafon.es/
+      hst:repobased: false
+    /Karat Sanitaryware:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.karatsanitaryware.com/
+      hst:repobased: false
+    /Kallista:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.kallista.com/
+      hst:repobased: false
+    /Mira:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: https://www.mirashowers.co.uk/
+      hst:repobased: false
+    /Rada Controls (Germany):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.rada-armaturen.de/
+      hst:repobased: false
+    /Rada Controls (UK):
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.radacontrols.com/
+      hst:repobased: false
+    /Robern:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.robern.com/
+      hst:repobased: false
+    /Sanijura:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.sanijura.fr/
+      hst:repobased: false
+    /Sterling:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: http://www.sterlingplumbing.com/
+      hst:repobased: false

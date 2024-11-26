@@ -1,0 +1,179 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/br-cloud-test/cloud:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      hst:showcontextpath: true
+      hst:showport: false
+      hst:scheme: https
+      /bloomreach:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /kohlerapac:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /test:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:virtualhost
+            /hst:root:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:mount
+              hst:mountpoint: /hst:hst/hst:sites/kohler
+              /kohler:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:alias: kohler-test
+                hst:ismapped: false
+                hst:namedpipeline: JaxrsRestPlainPipeline
+                hst:types: [rest]
+              /hk:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: zh_HK
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerhk
+                /en:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-hk-en
+                  hst:locale: en_HK
+                  hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerenhk
+                  /kohler:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: kohler-test-hk-en-kohler
+                    hst:ismapped: false
+                    hst:namedpipeline: JaxrsRestPlainPipeline
+                    hst:types: [rest]
+                /kohler:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-hk-kohler
+                  hst:ismapped: false
+                  hst:namedpipeline: JaxrsRestPlainPipeline
+                  hst:types: [rest]
+              /id:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: in_ID
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerid
+                /en:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-id-en
+                  hst:locale: en_ID
+                  hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerenid
+                  /kohler:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: kohler-test-id-en-kohler
+                    hst:ismapped: false
+                    hst:namedpipeline: JaxrsRestPlainPipeline
+                    hst:types: [rest]
+              /kr:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: ko_KR
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerkr
+                /en:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-kr-en
+                  hst:locale: en_KR
+                  hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerenkr
+                  /kohler:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: kohler-test-kr-en-kohler
+                    hst:ismapped: false
+                    hst:namedpipeline: JaxrsRestPlainPipeline
+                    hst:types: [rest]
+              /my:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: en_MY
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlermy
+                /kohler:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-my-kohler
+                  hst:ismapped: false
+                  hst:namedpipeline: JaxrsRestPlainPipeline
+                  hst:types: [rest]
+              /ph:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: en_PH
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerph
+                /kohler:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-ph
+                  hst:ismapped: false
+                  hst:namedpipeline: JaxrsRestPlainPipeline
+                  hst:types: [rest]
+              /sg:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: en_SG
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlersg
+                /kohler:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-sg
+                  hst:ismapped: false
+                  hst:namedpipeline: JaxrsRestPlainPipeline
+                  hst:types: [rest]
+              /th:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: th_TH
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerth
+                /en:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-th-en
+                  hst:locale: en_KR
+                  hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerenth
+                  /kohler:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: kohler-test-th-en-kohler
+                    hst:ismapped: false
+                    hst:namedpipeline: JaxrsRestPlainPipeline
+                    hst:types: [rest]
+              /tw:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: zh_TW
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlertw
+                /en:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-tw-en
+                  hst:locale: en_TW
+                  hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerentw
+                  /kohler:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: kohler-test-tw-en-kohler
+                    hst:ismapped: false
+                    hst:namedpipeline: JaxrsRestPlainPipeline
+                    hst:types: [rest]
+              /vn:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:locale: vi_VN
+                hst:mountpoint: /hst:hst/hst:sites/plumbingkohlervn
+                /en:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: kohler-test-vn-en
+                  hst:locale: en_VN
+                  hst:mountpoint: /hst:hst/hst:sites/plumbingkohlerenvn
+                  /kohler:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: kohler-test-vn-en-kohler
+                    hst:ismapped: false
+                    hst:namedpipeline: JaxrsRestPlainPipeline
+                    hst:types: [rest]

@@ -1,0 +1,144 @@
+/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:sitemenus/main/footernavigation:
+  .meta:order-before: brandingmenu
+  jcr:primaryType: hst:sitemenuitem
+  /group1:
+    jcr:primaryType: hst:sitemenuitem
+    /Kohler Co.:
+      jcr:primaryType: hst:sitemenuitem
+      hst:repobased: false
+      /About Us:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: about-us
+        hst:repobased: false
+      /Where to Buy:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/footer/where-to-buy
+        hst:repobased: false
+      /Careers:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: https://kohler.csod.com/ats/careersite/search.aspx?site=1&c=kohler&sid=%5e%5e%5excXhEGXzfNKAUdvTaG6cmw%3d%3d
+        hst:repobased: false
+      /Press Room:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: press-releases
+        hst:repobased: false
+      /Believe in Better:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://believe.kohler.com/
+        hst:repobased: false
+      /Legal:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: legal
+        hst:repobased: false
+      /Privacy Statement:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://www.corporate.kohler.com/privacy-statement
+        hst:repobased: false
+      /Ethics:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: ethics
+        hst:repobased: false
+      /Cookie Policy:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://www.corporate.kohler.com/cookie-policy
+        hst:repobased: false
+      /Site Map:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: sitemap
+        hst:repobased: false
+  /group2:
+    jcr:primaryType: hst:sitemenuitem
+    /Kohler Brands:
+      jcr:primaryType: hst:sitemenuitem
+      hst:repobased: false
+      /Ann Sacks:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://www.annsacks.com/
+        hst:repobased: false
+      /Kallista:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://kallista.com/
+        hst:repobased: false
+      /Robern:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://robern.com/
+        hst:repobased: false
+      /Sterling:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: https://sterlingplumbing.com/
+        hst:repobased: false
+      /Kohler Generators:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://www.kohlergenerators.com/index.html
+        hst:repobased: false
+      /Kohler Engines:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: https://power.kohler.com/na-en/engines
+        hst:repobased: false
+      /Destination Kohler:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://www.americanclubresort.com/
+        hst:repobased: false
+      /Kohler Kitchens:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://en.ikitchens.com.cn/
+        hst:repobased: false
+      /Kohler Co.:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: http://www.kohler.com/corporate/index.html
+        hst:repobased: false
+  /group3:
+    jcr:primaryType: hst:sitemenuitem
+    /Help:
+      jcr:primaryType: hst:sitemenuitem
+      /Help Topics:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: https://www.us.kohler.com/us/static/helpTopics.jsp
+        hst:repobased: false
+      /Contact Us:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: contact-us
+        hst:repobased: false
+      /Warranty:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: warranty
+        hst:repobased: false
+      /Care & Cleaning:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: careandclean
+        hst:repobased: false
+      /Videos:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: https://www.facebook.com/kohlerdesignful/videos/
+        hst:repobased: false
+  /group4:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /Trade:
+      jcr:primaryType: hst:sitemenuitem
+      hst:repobased: false
+      /Commercial Products:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/footer/commercial-products
+        hst:repobased: false
+      /Kohler Global Projects:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: global-projects
+        hst:repobased: false
+  /group5:
+    jcr:primaryType: hst:sitemenuitem
+    hst:repobased: false
+    /Social:
+      jcr:primaryType: hst:sitemenuitem
+      /kohler.design blog:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/footer/social/kohler-design
+        hst:repobased: false
+      /Subscribe to kohler.design:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/footer/social/subscribe-to-kohler-design
+        hst:repobased: false
+      /Kohler Designful:
+        jcr:primaryType: hst:sitemenuitem
+        hst:referencesitemapitem: menus/footer/social/facebook
+        hst:repobased: false

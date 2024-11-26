@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/kohler_author:
+      jcr:primaryType: hipposys:user
+      hipposys:active: true
+      hipposys:email: kohlervaltech@gmail.com
+      hipposys:firstname: Author
+      hipposys:lastname: Kohler
+      hipposys:password:
+        .meta:category: system
+        value: $SHA-256$CYMW78NrHR4=$U59EHGyLWbqsRcKqg7ft0R5SaVYm+AxfG3KpIT62nAU=
+      hipposys:passwordlastmodified:
+        .meta:category: system
+      hipposys:securityprovider: internal

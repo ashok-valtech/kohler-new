@@ -1,0 +1,139 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations:
+      /plumbingkohlerenkr:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlersg:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerth:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerkr:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlermy:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /kohler-common:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /plumbingkohlerentw:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerenhk:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /hst:default:
+        /hst:components:
+          /forge-sitemap-feed:
+            hst:parameternames: [depth]
+            hst:parametervalues: ['5']
+        /hst:catalog:
+          /essentials-catalog:
+            jcr:primaryType: hst:containeritempackage
+            /banner:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+              hst:iconpath: images/essentials/catalog-component-icons/banner.png
+              hst:label: Banner
+              hst:template: essentials-banner
+            /carousel:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+              hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+              hst:label: Carousel
+              hst:template: essentials-carousel
+            /menu:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+              hst:iconpath: images/essentials/catalog-component-icons/menu.png
+              hst:label: Menu
+              hst:parameternames: [menu]
+              hst:parametervalues: [main]
+              hst:template: essentials-menu
+            /search:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:iconpath: images/essentials/catalog-component-icons/search-box.png
+              hst:label: Search Box
+              hst:template: search-box
+            /faq:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: com.kohler.commons.components.EssentialsFAQDocumentComponent
+              hst:iconpath: images/essentials/catalog-component-icons/faq.png
+              hst:label: FAQ
+              hst:template: faqlist-main
+            /simplecontent:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+              hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+              hst:label: Simple Content
+              hst:template: contentpage-main
+            /seo:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: org.onehippo.forge.seo.support.SEOHelperComponent
+              hst:iconpath: images/essentials/catalog-component-icons/seo.png
+              hst:label: SEO
+              hst:template: seo
+        /hst:sitemap:
+          /_any_.html:
+            jcr:primaryType: hst:sitemapitem
+            hst:containerresource: true
+        /hst:templates:
+          /faqlist-main:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/faqlist-main.ftl
+          /search-box:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/search-box.ftl
+          /essentials-carousel:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/essentials-carousel.ftl
+          /essentials-menu:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/essentials-menu.ftl
+          /essentials-banner:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/essentials-banner.ftl
+          /contentpage-main:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/contentpage-main.ftl
+          /seo:
+            jcr:primaryType: hst:template
+            hst:renderpath: webfile:/freemarker/hstdefault/seo.ftl
+      /plumbingkohlerenvn:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /common:
+        jcr:primaryType: hst:configuration
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+        /hst:sitemenus:
+          jcr:primaryType: hst:sitemenus
+        /hst:sitemapitemhandlers:
+          jcr:primaryType: hst:sitemapitemhandlers
+      /plumbingkohlertw:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerhk:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /kohler:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /plumbingkohlerenid:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerph:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlervn:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerenth:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]
+      /plumbingkohlerid:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../kohler-common]

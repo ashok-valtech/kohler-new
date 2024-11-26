@@ -1,0 +1,349 @@
+/content/documents/kohler/collectons-promo:
+  .meta:order-before: common-content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 074f60da-c63f-434f-b1f4-191c65932a9c
+  hippostd:foldertype: [new-collectionsPromo-folder, new-collectionsPromo-document]
+  hippotranslation:id: 0c2c4158-b407-4244-9c9b-d7276756df74
+  hippotranslation:locale: en
+  /collecton-promo1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 45083466-046d-42d1-8836-bd5c96d24564
+    /collecton-promo1[1]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ef92f70f-0af2-4cbe-95fb-7b4c3c8addcb
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T13:21:35.514Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5dca48d0-9156-4eeb-9e89-153c1d8655f7
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: Shop MOXIE(TM) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Moxie(R)
+      kohler:shortDescription: Richly detailed architectural design in a classic style.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: MOXIE(TM)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Inspired by traditional style, the Memoirs collection
+          echoes the stylized lines of historically renowned furniture and architectural
+          design. Each detail makes it classic and timeless – sophisticated yet utterly
+          approachable. Its crisp lines resemble crown molding.</p>
+    /collecton-promo1[2]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: fdc3c161-7799-4017-8297-a0f8c5315508
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T13:21:38.820Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5dca48d0-9156-4eeb-9e89-153c1d8655f7
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: Shop MOXIE(TM) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Moxie(R)
+      kohler:shortDescription: Richly detailed architectural design in a classic style.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: MOXIE(TM)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Inspired by traditional style, the Memoirs collection
+          echoes the stylized lines of historically renowned furniture and architectural
+          design. Each detail makes it classic and timeless – sophisticated yet utterly
+          approachable. Its crisp lines resemble crown molding.</p>
+    /collecton-promo1[3]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 54151d24-d1e5-4150-bd88-270fdde18a45
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T16:48:28.609+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T13:21:38.820Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-23T13:21:40.740Z
+      hippotranslation:id: 5dca48d0-9156-4eeb-9e89-153c1d8655f7
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zac00709_rgb?crop=(619,0,3325,3782)?$collectionLG$
+      kohler:navigationLabel: Shop MOXIE(TM) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Moxie(R)
+      kohler:shortDescription: Richly detailed architectural design in a classic style.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zac00742_rgb?crop=(833,0,4069,3825)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zac01305_rgb?crop=(800,0,3905,3670)?$collectionSM$']
+      kohler:title: MOXIE(TM)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Inspired by traditional style, the Memoirs collection
+          echoes the stylized lines of historically renowned furniture and architectural
+          design. Each detail makes it classic and timeless – sophisticated yet utterly
+          approachable. Its crisp lines resemble crown molding.</p>
+  /collecton-promo2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: c8a07dbb-0c92-41d0-8245-406f766693b2
+    /collecton-promo2[1]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a78e5a12-c1b4-4153-822b-b58813de59d2
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T17:24:43.560+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T13:19:39.355Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f3fba9f1-a338-4c5d-902b-7911a42a5c01
+      hippotranslation:locale: en
+      kohler:displayOrder: '1'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zab97594_rgb?crop=(1663,0,3376,3840)?$collectionLG$
+      kohler:navigationLabel: Shop Tresham(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Tresham(R)
+      kohler:shortDescription: A fresh twist on simple, Shaker-style furniture design.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zab95329_rgb?crop=(819,0,3996,3757)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zab96183_rgb?crop=(676,0,3652,3433)?$collectionSM$']
+      kohler:title: Tresham(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>A fresh twist on simple, Shaker-style furniture design,
+          the Tresham collection is steeped in the traditions of classic Americana
+          while embracing a modern eclectic sensibility. Its vanities, toilets, sinks
+          and shower receptors bring playful eccentricity and eclectic elegance to
+          the American bathroom.</p>
+    /collecton-promo2[2]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 934d7310-7755-44a7-8e2a-f60faab22abb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T17:24:43.560+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T13:19:49.314Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f3fba9f1-a338-4c5d-902b-7911a42a5c01
+      hippotranslation:locale: en
+      kohler:displayOrder: '1'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zab97594_rgb?crop=(1663,0,3376,3840)?$collectionLG$
+      kohler:navigationLabel: Shop Tresham(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Tresham(R)
+      kohler:shortDescription: A fresh twist on simple, Shaker-style furniture design.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zab95329_rgb?crop=(819,0,3996,3757)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zab96183_rgb?crop=(676,0,3652,3433)?$collectionSM$']
+      kohler:title: Tresham(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>A fresh twist on simple, Shaker-style furniture design,
+          the Tresham collection is steeped in the traditions of classic Americana
+          while embracing a modern eclectic sensibility. Its vanities, toilets, sinks
+          and shower receptors bring playful eccentricity and eclectic elegance to
+          the American bathroom.</p>
+    /collecton-promo2[3]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0eb88f3e-e358-47fc-a2f8-32abe46ab21d
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-10T17:24:43.560+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T13:19:49.314Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-23T13:19:51.756Z
+      hippotranslation:id: f3fba9f1-a338-4c5d-902b-7911a42a5c01
+      hippotranslation:locale: en
+      kohler:displayOrder: '1'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zab97594_rgb?crop=(1663,0,3376,3840)?$collectionLG$
+      kohler:navigationLabel: Shop Tresham(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/Tresham(R)
+      kohler:shortDescription: A fresh twist on simple, Shaker-style furniture design.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zab95329_rgb?crop=(819,0,3996,3757)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zab96183_rgb?crop=(676,0,3652,3433)?$collectionSM$']
+      kohler:title: Tresham(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>A fresh twist on simple, Shaker-style furniture design,
+          the Tresham collection is steeped in the traditions of classic Americana
+          while embracing a modern eclectic sensibility. Its vanities, toilets, sinks
+          and shower receptors bring playful eccentricity and eclectic elegance to
+          the American bathroom.</p>
+  /collecton-promo3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3b499cb3-97dd-4d90-9695-927547b3502e
+    /collecton-promo3[1]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e57ae190-9fcb-4326-b861-77620b30fe2c
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-14T19:10:59.049+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T12:25:15.687+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c1d94af0-08a9-4cf3-aacc-8f28d76fcb34
+      hippotranslation:locale: en
+      kohler:displayOrder: '3'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zaa99845_rgb?crop=(45,0,3954,4498)?$collectionLG$
+      kohler:navigationLabel: Shop OBLO(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/OBLO%28R%29
+      kohler:shortDescription: A versatile transitional style with universal appeal.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zab31995_rgb?crop=(0,1198,3668,3446)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zaa99845_rgb?crop=(0,2071,1666,1565)?$collectionSM$']
+      kohler:title: OBLO(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The Cimarron collection offers the perfect duo for a
+          powder room. And with its transitional styling, it’s also a great place
+          to start for a larger, custom-designed bathroom. With clean lines and soft,
+          graceful curves, the Cimarron collection coordinates with a wide range of
+          bathroom styles.</p>
+    /collecton-promo3[2]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 803881f1-e760-4564-abef-f4a8bcb7a1a6
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-14T19:10:59.049+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T12:27:38.213+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c1d94af0-08a9-4cf3-aacc-8f28d76fcb34
+      hippotranslation:locale: en
+      kohler:displayOrder: '3'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zaa99845_rgb?crop=(45,0,3954,4498)?$collectionLG$
+      kohler:navigationLabel: Shop OBLO(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/OBLO%28R%29
+      kohler:shortDescription: A versatile transitional style with universal appeal.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zab31995_rgb?crop=(0,1198,3668,3446)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zaa99845_rgb?crop=(0,2071,1666,1565)?$collectionSM$']
+      kohler:title: OBLO(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The Cimarron collection offers the perfect duo for a
+          powder room. And with its transitional styling, it’s also a great place
+          to start for a larger, custom-designed bathroom. With clean lines and soft,
+          graceful curves, the Cimarron collection coordinates with a wide range of
+          bathroom styles.</p>
+    /collecton-promo3[3]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e2c044a7-48a1-43df-84c0-e466cebfe132
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-14T19:10:59.049+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-23T12:27:38.213+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-23T12:27:39.754+05:30
+      hippotranslation:id: c1d94af0-08a9-4cf3-aacc-8f28d76fcb34
+      hippotranslation:locale: en
+      kohler:displayOrder: '3'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/zaa99845_rgb?crop=(45,0,3954,4498)?$collectionLG$
+      kohler:navigationLabel: Shop OBLO(R) Collection
+      kohler:navigationURL: /browse/collections/ProductFamily/OBLO%28R%29
+      kohler:shortDescription: A versatile transitional style with universal appeal.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/zab31995_rgb?crop=(0,1198,3668,3446)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zaa99845_rgb?crop=(0,2071,1666,1565)?$collectionSM$']
+      kohler:title: OBLO(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The Cimarron collection offers the perfect duo for a
+          powder room. And with its transitional styling, it’s also a great place
+          to start for a larger, custom-designed bathroom. With clean lines and soft,
+          graceful curves, the Cimarron collection coordinates with a wide range of
+          bathroom styles.</p>
+  /collecton-promo4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f57d2da8-581a-4cac-a983-db3729853d78
+    /collecton-promo4[1]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 70e8c272-53e2-4cea-87ea-a36833a5c320
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-14T19:14:57.277+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T12:32:55.423+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 08002979-0229-4649-b029-f6ed61d17496
+      hippotranslation:locale: en
+      kohler:displayOrder: '4'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/aab14376_rgb?crop=(0,98,3107,3534)?$collectionLG$
+      kohler:navigationLabel: Shop Persuade(R) Collection
+      kohler:navigationURL: https://www.google.co.in/
+      kohler:shortDescription: Sleek beauty and dramatic curves for contemporary spaces.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/aab14379_rgb?crop=(0,1591,3286,3088)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zaa29084_rgb?crop=(0,664,4572,4296)?$collectionSM$']
+      kohler:title: Persuade(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Sleek curves and clean design make the Persuade collection
+          a head-turning choice for the modern bathroom. The Persuade vanity, with
+          three distinct options, pairs with the Persuade Circ or Persuace Curv fixtures,
+          allowing you to customize your storage and look within your contemporary
+          space.</p>
+    /collecton-promo4[2]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 3ff5326a-0dba-49dd-b0bc-c28c31783f6d
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-14T19:14:57.277+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T12:32:57.829+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 08002979-0229-4649-b029-f6ed61d17496
+      hippotranslation:locale: en
+      kohler:displayOrder: '4'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/aab14376_rgb?crop=(0,98,3107,3534)?$collectionLG$
+      kohler:navigationLabel: Shop Persuade(R) Collection
+      kohler:navigationURL: https://www.google.co.in/
+      kohler:shortDescription: Sleek beauty and dramatic curves for contemporary spaces.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/aab14379_rgb?crop=(0,1591,3286,3088)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zaa29084_rgb?crop=(0,664,4572,4296)?$collectionSM$']
+      kohler:title: Persuade(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Sleek curves and clean design make the Persuade collection
+          a head-turning choice for the modern bathroom. The Persuade vanity, with
+          three distinct options, pairs with the Persuade Circ or Persuace Curv fixtures,
+          allowing you to customize your storage and look within your contemporary
+          space.</p>
+    /collecton-promo4[3]:
+      jcr:primaryType: kohler:CollectionsPromo
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eeb5258f-04db-4408-8dab-17269d9a191c
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-11-14T19:14:57.277+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-15T12:32:57.829+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-15T12:32:58.965+05:30
+      hippotranslation:id: 08002979-0229-4649-b029-f6ed61d17496
+      hippotranslation:locale: en
+      kohler:displayOrder: '4'
+      kohler:largeImageURL: https://kohler.scene7.com/is/image/PAWEB/aab14376_rgb?crop=(0,98,3107,3534)?$collectionLG$
+      kohler:navigationLabel: Shop Persuade(R) Collection
+      kohler:navigationURL: https://www.google.co.in/
+      kohler:shortDescription: Sleek beauty and dramatic curves for contemporary spaces.
+      kohler:smallImageURL: ['https://kohler.scene7.com/is/image/PAWEB/aab14379_rgb?crop=(0,1591,3286,3088)?$collectionSM$',
+        'https://kohler.scene7.com/is/image/PAWEB/zaa29084_rgb?crop=(0,664,4572,4296)?$collectionSM$']
+      kohler:title: Persuade(R)
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Sleek curves and clean design make the Persuade collection
+          a head-turning choice for the modern bathroom. The Persuade vanity, with
+          three distinct options, pairs with the Persuade Circ or Persuace Curv fixtures,
+          allowing you to customize your storage and look within your contemporary
+          space.</p>

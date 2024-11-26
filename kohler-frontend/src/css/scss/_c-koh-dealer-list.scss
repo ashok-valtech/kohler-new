@@ -1,0 +1,1163 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ $break-xlarge: 1200px;
+ $break-large: 992px;
+ $break-medium: 767px;
+ $break-small: 320px;
+ $font-bold: HelveticaBold,
+ Helvetica,
+ sans-serif;
+ $font-light: HelveticaLight,
+ Helvetica,
+ sans-serif;
+ 
+ .c-koh-store-locator {
+     background-color: #fff;
+ 
+     .koh-tooltip {
+         position: relative;
+         display: inline-block;
+ 
+         .koh-tooltip-text {
+             display: inline-block;
+         }
+ 
+         span {
+             visibility: hidden;
+             min-width: 200px;
+             max-width: 300px;
+             background-color: #fff;
+             color: #000;
+             border-radius: 6px;
+             padding: 20px;
+             position: absolute;
+             z-index: 1;
+             top: auto;
+             bottom: 35px;
+             left: 0;
+             opacity: 0;
+             transition: opacity 0.3s;
+             box-shadow: 0 0 5px #aaa;
+         }
+     }
+ 
+     .koh-tooltip .koh-tooltipbottom {
+         top: 40px;
+         bottom: auto;
+     }
+ 
+     .koh-tooltiptop:after,
+     .koh-tooltipbottom:after,
+     .koh-tooltiptop:before,
+     .koh-tooltipbottom:before {
+         content: "";
+         border-color: #fff transparent transparent;
+         border-style: solid;
+         border-width: 9px;
+         width: 0;
+         height: 0;
+         position: absolute;
+         bottom: -18px;
+         left: 60px;
+     }
+ 
+     .koh-tooltipbottom:after {
+         border-color: transparent transparent #ffffff;
+         top: -18px;
+     }
+ 
+     .koh-tooltiptop:before {
+         border-color: #aeaeaa transparent transparent;
+         bottom: -19px;
+     }
+ 
+     .koh-tooltipbottom:before {
+         border-color: transparent transparent #aeaeae;
+         top: -19px;
+     }
+ 
+     .container {
+         .koh-map-form-inner-content {
+             padding-left: 200px;
+             padding-right: 200px;
+             padding-bottom: 35px;
+ 
+             @media screen and (max-width: $break-xlarge) {
+                 padding-left: 150px;
+                 padding-right: 150px;
+             }
+ 
+             @media screen and (max-width: $break-large) {
+                 padding-left: 70px;
+                 padding-right: 70px;
+             }
+ 
+             @media screen and (max-width: $break-medium) {
+                 padding-left: 20px;
+                 padding-right: 20px;
+                 overflow: hidden;
+             }
+ 
+             .koh-map-main-header {
+                 font-size: 60px;
+                 margin-top: 70px;
+                 margin-bottom: 70px;
+                 font-family: $font-light;
+ 
+                 @media screen and (max-width: $break-medium) {
+                     font-size: 36px;
+                     margin-top: 20px;
+                     margin-bottom: 20px;
+                 }
+             }
+             .koh-map-mu-promotion-header {
+                 font-size: 60px;
+                 margin-top: 0;
+                 margin-bottom: 70px;
+                 font-family: $font-light;
+                 @media screen and (max-width: $break-medium) {
+                     font-size: 36px;
+                     margin-top: 20px;
+                     margin-bottom: 20px;
+                 }
+             }
+ 
+             .row {
+                 .koh-search-text {
+                     display: inline;
+                     font-size: 12px;
+                     color: #000;
+                     margin: 0 !important;
+                     height: 45px;
+                     border: 1px solid #CAC8C8;
+                 }
+ 
+                 .col-sm-3 {
+                     padding-left: 15px;
+ 
+                     @media screen and (max-width: $break-medium) {
+                         padding-left: 0;
+                         padding-top: 20px;
+                     }
+ 
+                     .koh-store-search-btn {
+                         background-color: #364573;
+                         border: 0;
+                         height: 45px;
+                         border-radius: 5px;
+                         color: #FFF;
+                         padding: 10px 40px;
+                         text-decoration: none;
+                         font-size: 16px;
+                         white-space: pre-wrap;
+                         width: 100%;
+                         letter-spacing: 1px;
+ 
+                         @media screen and (max-width: $break-large) {
+                             padding: 10px 20px;
+                         }
+ 
+                         &:hover {
+                             background-color: #1f2b54;
+                         }
+ 
+                         &.nice-select.open,
+                         &:active {
+                             outline: 0;
+                             border: none;
+                         }
+ 
+                         &:focus {
+                             outline: 0;
+                         }
+                     }
+                 }
+             }
+ 
+             #koh-map-check {
+                 margin-top: 15px !important;
+ 
+                 .form-group {
+                     margin-bottom: 15px;
+ 
+                     .form-options {
+ 
+                         .checkbox-inline,
+                         .radio-inline {
+                             position: relative;
+                             display: inline-block;
+                             vertical-align: middle;
+                             padding-left: 0;
+                             padding-top: 5px;
+ 
+                             @media screen and (max-width: $break-medium) {
+                                 display: block;
+                             }
+                         }
+ 
+                         input[type=checkbox] {
+                             display: none;
+ 
+                             +label {
+                                 display: inline-block;
+                                 cursor: pointer;
+                                 position: relative;
+                                 padding-left: 45px;
+                                 margin-right: 15px;
+                                 font-size: 13px;
+                                 height: 32px;
+                                 font-family: HelveticaRoman, Helvetica, sans-serif;
+                             }
+ 
+                             &:checked+label::before {
+                                 content: '✓';
+                                 font-size: 17px;
+                                 line-height: 30px;
+                                 text-align: center;
+                                 background-color: #e8e8e8;
+                                 background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
+                                 border: none;
+                             }
+ 
+                             +label::before {
+                                 border-radius: 3px;
+                                 background-clip: padding-box;
+                                 width: 30px;
+                                 height: 30px;
+                                 content: "";
+                                 display: inline-block;
+                                 margin-right: 10px;
+                                 position: absolute;
+                                 left: 0;
+                                 bottom: 1px;
+                                 background-color: #FFF;
+                                 border: 1px solid #c7c7c7;
+                             }
+                         }
+ 
+                         .not-first-checkbox,
+                         .not-first-checkbox-pro {
+                             display: inline-block;
+ 
+                             @media screen and (max-width: $break-medium) {
+                                 display: block;
+                             }
+                         }
+ 
+                         .koh-dotted-span {
+                             font-size: 14px !important;
+                             font-weight: 400 !important;
+                             color: #000;
+                             border-bottom: 1px dotted #979797;
+                             line-height: 30px;
+                         }
+                     }
+                 }
+             }
+         }
+ 
+         hr {
+             display: block;
+             height: 1px;
+             border: 0;
+             border-top: 1px solid #000;
+             margin: 0 0 30px;
+             padding: 0;
+         }
+ 
+         .koh-map-outer-container {
+             #koh-no-result {
+                 display: none;
+ 
+                 h3 {
+                     padding-left: 20px;
+                     margin-bottom: 40px;
+                     font-size: 30px;
+                     font-weight: 700;
+                     color: #000;
+                     text-align: center;
+                 }
+             }
+ 
+             #koh-response-tab {
+                 display: none;
+                 padding-left: 0;
+                 padding-right: 0;
+                 margin: 0 15px 30px;
+ 
+                 li:first-child {
+                     border-radius: 5px 0 0 5px;
+                 }
+ 
+                 li:last-child {
+                     border-radius: 0 5px 5px 0;
+                 }
+ 
+                 li {
+                     background-color: #efefef;
+                     padding: 15px;
+                     float: left;
+                     width: 50%;
+                     list-style: none;
+                     text-align: center;
+                     cursor: pointer;
+ 
+                     &.active,
+                     &:hover {
+                         background-color: #aeaeae;
+                     }
+ 
+                     &:focus,
+                     &:active {
+                         background-color: #efefef;
+                     }
+ 
+                     a {
+                         font-size: 1.5em;
+                         text-align: center;
+                         color: #000000;
+                         font-weight: 700;
+                     }
+                 }
+ 
+             }
+ 
+             #koh-store-locator-results {
+                 padding-left: 15px;
+                 padding-right: 15px;
+                 height: 700px;
+                 overflow-y: auto;
+ 
+                 @media screen and (max-width: $break-medium) {
+                     height: auto;
+                 }
+ 
+                 ul {
+                     margin: 0;
+                     padding: 0;
+                     list-style-type: none;
+ 
+                     .koh-store-locator-img {
+                         width: 100%;
+                         max-width: 100%;
+                         height: auto;
+                     }
+ 
+                     li.koh-store-locator-result {
+                         cursor: pointer;
+                         padding: 15px;
+                         border-bottom: solid 1px #e8e8e8;
+                         clear: both;
+                         font-weight: 200;
+                         font-style: normal !important;
+ 
+                         &:hover {
+                             background: #F8F8F7;
+                         }
+ 
+                         &.koh-kec-background {
+                             background-color: #eff9fe;
+ 
+                             &:hover {
+                                 background: #F8F8F7;
+                             }
+                         }
+ 
+                         .koh-store-name {
+                             font-family: $font-bold;
+                             font-style: normal !important;
+                             font-size: 14px;
+                             color: #000;
+                             text-transform: uppercase;
+                             margin-bottom: 5px;
+                             margin-top: 15px;
+ 
+                             .koh-store-icon-wrapper {
+                                 display: inline-block;
+                                 vertical-align: middle;
+                                 margin-right: 10px;
+ 
+                             }
+ 
+                             text {
+                                 font-family: $font-bold;
+                             }
+ 
+                             span {
+                                 display: block;
+                                 margin-top: -29px;
+                                 margin-left: 35px;
+                             }
+                         }
+ 
+                         .koh-map-details {
+                             color: #000;
+                             font-size: 14px;
+                             margin-left: 35px;
+ 
+                             .koh-store-locator-result-address,
+                             .koh-store-locator-result-city,
+                             .koh-store-locator-result-phone-num span {
+                                 font-size: 14px;
+                                 margin-right: 5px;
+                             }
+ 
+                             .koh-store-locator-result-address,
+                             .koh-store-locator-result-city,
+                             .koh-store-locator-result-phone-num,
+                             .koh-store-locator-result-view-details {
+                                 display: inline;
+                             }
+ 
+                             .koh-store-locator-result-view-details {
+                                 position: relative;
+                                 padding-left: 6px;
+ 
+                                 &:before {
+                                     content: '';
+                                     width: 1px;
+                                     height: 14px;
+                                     position: absolute;
+                                     left: 0;
+                                     top: 1px;
+                                     background: #000000;
+                                 }
+ 
+                                 a {
+                                     text-decoration: none;
+ 
+                                     &:hover {
+                                         text-decoration: underline;
+                                     }
+                                 }
+                             }
+ 
+                             .koh-store-locator-result-phone-num {
+                                 .koh-book-an-appointment:before {
+                                     content: "";
+                                     border-left: 1px solid #333333;
+                                     height: 14px;
+                                     display: inline-block;
+                                     margin-right: 5px;
+                                     margin-bottom: -2px;
+                                 }
+                             }
+ 
+                             .remodal,
+                             [data-remodal-id] {
+                                 display: inline-block;
+                             }
+                         }
+ 
+                         .koh-store-locator-result-distance {
+                             float: right;
+                             font-size: 14px;
+                             font-weight: 700;
+                             margin-top: 15px;
+                         }
+                     }
+                 }
+             }
+ 
+             #koh-map-container {
+                 padding-left: 15px;
+                 padding-right: 15px;
+ 
+                 @media #{$koh-media-screen-xs-max} {
+                     overflow: hidden;
+                 }
+ 
+                 #koh-map {
+                     position: relative;
+                     width: 100%;
+                     height: 700px !important;
+ 
+                     .customInfobox {
+                         background-color: #fff;
+                         color: #fff;
+                         border-radius: 10px;
+                         padding: 10px 20px 15px 10px;
+                         pointer-events: auto !important;
+                         position: relative;
+                         width: 260px;
+                         font-size: 0;
+ 
+                         .infobox_title {
+                             .koh-store-icon-wrapper {
+                                 vertical-align: middle;
+                                 padding-top: 2px;
+                                 height: 25px;
+                                 position: absolute;
+                                 left: 10px;
+                                 top: 10px;
+ 
+                                 text {
+                                     font-family: $font-bold;
+                                 }
+                             }
+ 
+                             .koh-store-name {
+                                 font-family: $font-bold;
+                                 font-style: normal !important;
+                                 font-size: 14px;
+                                 color: #000;
+                                 display: block;
+                                 margin-left: 35px;
+                             }
+                         }
+ 
+                         .koh-map-details {
+                             color: #000;
+                             font-size: 14px;
+                             margin-left: 35px;
+                             margin-top: 2px;
+ 
+                             .koh-store-locator-result-address,
+                             .koh-store-locator-result-city,
+                             .koh-store-locator-result-phone-num,
+                             .koh-store-locator-result-view-details {
+                                 font-size: 14px;
+                                 display: inline;
+                             }
+ 
+                             .koh-store-locator-result-phone-num {
+                                 padding-right: 4px;
+                             }
+ 
+                             .koh-store-locator-result-view-details {
+                                 position: relative;
+                                 padding-left: 6px;
+ 
+                                 &:before {
+                                     content: '';
+                                     width: 1px;
+                                     height: 14px;
+                                     position: absolute;
+                                     left: 0;
+                                     top: 1px;
+                                     background: #000000;
+                                 }
+ 
+                                 a {
+                                     text-decoration: none;
+ 
+                                     &:hover {
+                                         text-decoration: underline;
+                                     }
+                                 }
+                             }
+ 
+                             .koh-store-locator-result-view-details {
+                                 margin-top: 10px;
+                                 margin-bottom: 10px;
+                                 text-transform: initial;
+                             }
+                         }
+ 
+                         .koh-store-locator-result-distance {
+                             float: right;
+                             font-size: 14px;
+                             font-weight: 700;
+                         }
+ 
+                         &::after {
+                             content: "";
+                             position: absolute;
+                             bottom: -8px;
+                             left: 96px;
+                             border-width: 12px 8px 0;
+                             border-style: solid;
+                             border-color: #fff transparent;
+                         }
+                     }
+                 }
+ 
+                 #koh-legend {
+                     display: none;
+                     padding-top: 15px;
+                     padding-bottom: 15px;
+ 
+                     .koh-tooltip {
+                         display: inline-block;
+                         margin: 5px 10px 10px 2px;
+ 
+                         .koh-square-color-icon {
+                             display: inline-block;
+                             height: 14px;
+                             width: 14px;
+                             margin-right: 5px;
+                         }
+ 
+                         .koh-square-color-icon-black {
+                             background-color: #000;
+                         }
+ 
+                         .koh-square-color-icon-blue {
+                             background-color: #00a7ce;
+                         }
+ 
+                         .koh-square-color-icon-green {
+                             background-color: #84A648;
+                         }
+ 
+                         .koh-square-color-icon-grey {
+                             background-color: #9d9d9d;
+                         }
+ 
+                         .koh-dotted-span {
+                             font-size: 14px !important;
+                             font-weight: 400 !important;
+                             color: #000;
+                             border-bottom: 1px dotted #979797;
+                             display: inline;
+                         }
+ 
+                         span {
+                             font-size: 1.4em;
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ 
+     #koh-map {
+         height: 700px;
+     }
+ 
+     &::after {
+         display: block;
+         content: '';
+         background-color: #ffffff;
+         height: 30px;
+     }
+ }
+ 
+ /* CSS for book an appointment popup */
+ #koh-book-appointment-remodal {
+     font-size: 1.3em;
+ 
+     .koh-success-message {
+         color: #436D07;
+         text-align: center !important;
+         font-size: 1.2em;
+     }
+ 
+     .koh-failure-message {
+         color: #e50000;
+         text-align: center !important;
+         font-size: 1.2em;
+         padding-top: 10px;
+ 
+         span {
+             font-weight: bold;
+         }
+     }
+ 
+     .btn {
+         font-family: $font-bold;
+     }
+ 
+     @media screen and (min-width: $break-medium) {
+         max-width: 800px;
+     }
+ 
+     .koh-appoint-pop-header {
+         h2 {
+             margin-bottom: 20px;
+         }
+ 
+         .koh-product-cat {
+             font-family: $font-bold;
+             font-size: 1.2em;
+         }
+ 
+         .koh-product-address {
+             font-family: $font-light;
+             font-size: 1.2em;
+         }
+ 
+         .koh-pop-noti {
+             padding-top: 15px;
+             font-size: 1.3em;
+         }
+     }
+ 
+     .koh-pop-calendar-content {
+         .clear {
+             clear: both;
+         }
+ 
+         .btn:hover {
+             background: #aeaeae;
+         }
+ 
+         .koh-set-date-container {
+             padding-left: 15px;
+             padding-right: 15px;
+ 
+             #datepicker {
+                 .ui-widget.ui-widget-content {
+                     border: none;
+ 
+                     @media screen and (max-width: $break-medium) {
+                         margin: 0 auto;
+                     }
+ 
+                     .ui-widget-header {
+                         border: none;
+                         background: transparent;
+ 
+                         .ui-state-disabled {
+                             opacity: .2;
+                         }
+ 
+                         .ui-datepicker-next,
+                         .ui-datepicker-prev {
+                             font-weight: 400;
+ 
+                             span {
+                                 color: transparent;
+                             }
+ 
+                             .ui-icon {
+                                 content: '';
+                                 font-family: KohlerIcons;
+                                 font-size: 0;
+                                 color: #aeaeae;
+                                 line-height: 1em;
+                                 text-indent: unset;
+ 
+                                 &:after {
+                                     content: "\e612";
+                                     font-size: 15px;
+                                     position: absolute;
+                                     right: 8px;
+                                     top: 8px;
+                                 }
+                             }
+ 
+                             &:hover {
+                                 background: transparent;
+                                 border: none;
+                                 right: 2px;
+                                 top: 2px;
+                                 font-weight: normal;
+                                 cursor: pointer;
+ 
+                                 span {
+                                     color: #333333;
+                                 }
+                             }
+                         }
+ 
+                         .ui-datepicker-prev {
+                             .ui-icon {
+                                 &:after {
+                                     content: "\e611";
+                                     right: auto;
+                                     left: 8px;
+                                 }
+                             }
+ 
+                             &:hover {
+                                 left: 2px;
+                             }
+                         }
+ 
+                         .ui-datepicker-title {
+                             font-size: 16px;
+                         }
+                     }
+ 
+                     table.ui-datepicker-calendar {
+                         tr {
+                             td {
+                                 .ui-state-default {
+                                     background: #efefef;
+                                     border: none;
+ 
+                                     &:hover {
+                                         background: #aeaeae;
+                                     }
+                                 }
+ 
+                                 .ui-state-highlight,
+                                 .ui-widget-content .ui-state-highlight,
+                                 .ui-widget-header .ui-state-highlight {
+                                     background: #fffa90;
+                                     color: #000000;
+                                 }
+ 
+                                 .ui-state-active,
+                                 .ui-widget-content .ui-state-active,
+                                 .ui-widget-header .ui-state-active,
+                                 a.ui-button:active,
+                                 .ui-button:active,
+                                 .ui-button.ui-state-active:hover {
+                                     background: #aeaeae;
+                                     color: #000000;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+ 
+         .koh-set-time-container {
+             padding-left: 15px;
+             padding-right: 15px;
+ 
+             #koh-time-options {
+                 span {
+                     display: none;
+                 }
+ 
+                 #koh-time-wrapper {
+                     .row {
+ 
+                         .koh-time-am,
+                         .koh-time-pm {
+                             padding-left: 15px;
+                             padding-right: 15px;
+ 
+                             @media screen and (max-width: $break-medium) {
+                                 float: none;
+                                 margin: 30px auto;
+                                 width: 150px;
+                             }
+                         }
+ 
+                         .koh-time-am ul,
+                         .koh-time-pm ul {
+                             list-style: none;
+                             margin: 0;
+                             padding: 0;
+ 
+                             li {
+                                 background-color: #efefef;
+                                 margin-bottom: 2px;
+                                 padding: 3px;
+ 
+                                 &:hover {
+                                     background-color: #aeaeae;
+                                     cursor: pointer;
+                                 }
+ 
+                                 &.active {
+                                     background-color: #aeaeae;
+                                 }
+                             }
+                         }
+ 
+                         .koh-time-am h4,
+                         .koh-time-pm h4 {
+                             font-size: 16px;
+                             font-weight: 700;
+                         }
+                     }
+                 }
+             }
+         }
+ 
+         #koh-pop-next-btn {
+             visibility: hidden;
+             font-family: $font-bold;
+ 
+             @media screen and (max-width: $break-medium) {
+                 float: none !important;
+             }
+         }
+ 
+         .koh-pop-appoint-note {
+             float: left;
+         }
+     }
+ 
+     .koh-pop-form-content {
+         .koh-pop-pre-info {
+             .row {
+                 position: relative;
+ 
+                 .koh-pop-pre-info-left {
+                     font-size: 1em;
+ 
+                     .koh-pop-row {
+                         margin-bottom: 7px;
+ 
+                         .col-sm-3 {
+                             font-family: $font-bold;
+                         }
+ 
+                         .col-sm-9 {
+                             color: #00a7ce;
+                         }
+                     }
+                 }
+ 
+                 .koh-pop-pre-info-right {
+                     position: static;
+                     font-size: 1em;
+ 
+                     @media screen and (max-width: $break-medium) {
+                         text-align: left;
+                         margin-top: 20px;
+                     }
+ 
+                     .koh-pop-pre-infoBtn {
+                         position: absolute;
+                         bottom: 10px;
+                         right: 0;
+ 
+                         @media screen and (max-width: $break-medium) {
+                             position: static;
+                         }
+ 
+                         &:hover {
+                             background-color: #aeaeae;
+                         }
+                     }
+                 }
+             }
+         }
+ 
+         .koh-appoint-pop-form {
+             input {
+                 height: 40px;
+                 margin-bottom: 5px;
+             }
+ 
+             .row {
+                 .koh-appoint-pop-form-left {
+                     padding-right: 15px;
+ 
+                     @media screen and (max-width: $break-medium) {
+                         padding-right: 0;
+                     }
+ 
+                     .form-group {
+                         .col-sm-3 {
+                             padding-right: 15px;
+                             text-align: left;
+                         }
+                     }
+                 }
+ 
+                 .koh-appoint-pop-form-right {
+                     padding-left: 15px;
+ 
+                     @media screen and (max-width: $break-medium) {
+                         padding-left: 0;
+                         text-align: left;
+                     }
+ 
+                     .form-group {
+                         .col-sm-9 {
+                             padding-left: 15px;
+ 
+                             @media screen and (max-width: $break-medium) {
+                                 padding-left: 0;
+                             }
+ 
+                             .captcha-container {
+                                 margin: 20px 0;
+ 
+                                 .koh-error {
+                                     margin-top: -10px;
+                                     text-align: left;
+                                 }
+                             }
+ 
+                             .btn {
+                                 margin-top: 15px;
+ 
+                                 @media screen and (max-width: $break-medium) {
+                                     float: none !important;
+                                 }
+ 
+                                 &:hover {
+                                     background-color: #aeaeae;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+ /* CSS for showroom location */
+ .c-koh-showroom-locations {
+   background-color: #fff;
+   .container {
+     .koh-map-outer-container {
+       padding-bottom: 15px;
+       .koh-location-title {
+         h2 {
+           padding-left: 20px;
+           font-family: HelveticaLight, Helvetica, sans-serif;
+         }
+       }
+       .koh-showroom-lists {
+         padding-left: 15px;
+         padding-right: 15px;
+         height: 560px;
+         overflow-y: auto;
+         @media screen and (max-width: $break-medium) {
+           height: auto;
+         }
+         @media only screen and (max-width: 600px) {
+           overflow-y: hidden;
+           height: auto;
+         }
+         ul {
+           margin: 0;
+           padding: 0;
+           list-style-type: none;
+           @media screen and (max-width: 600px) {
+             overflow-x: auto;
+             grid-auto-flow: column;
+             grid-auto-columns: calc(100% - 2rem);
+             display: grid;
+             grid-gap: 1rem;
+             padding-left: 5px;
+             padding-right: 5px;
+             -webkit-overflow-scrolling: touch;
+           }
+           .koh-showroom-list {
+             font-style: normal !important;
+             font-family: HelveticaRoman, Helvetica, sans-serif;
+             margin: 10px auto;
+             box-shadow: 0 0 2px 0 #000;
+             border-radius: 10px;
+             padding: 10px 10px 10px 10px;
+             &.selected {
+               box-shadow: 0 0px 10px 0 rgb(0, 0, 0 / 20%),
+                 0 0px 10px 0 rgb(0, 0, 0 / 19%);
+             }
+             .koh-showroom-name {
+               margin: 5px 0px 10px;
+               font-size: large;
+               line-height: normal;
+               font-family: $font-bold;
+             }
+             .koh-showroom-address {
+               margin: 0px;
+               margin-bottom: 5px;
+               color: #333;
+               font-size: 14px;
+               font-family: HelveticaRoman, Helvetica, sans-serif;
+             }
+             .koh-showroom-phone {
+               color: grey;
+               font-size: 14px;
+               font-family: HelveticaRoman, Helvetica, sans-serif;
+             }
+             .koh-showroom-openhours {
+               color: grey;
+               font-size: 14px;
+               font-family: HelveticaRoman, Helvetica, sans-serif;
+             }
+             .koh-direction-title {
+               cursor: pointer;
+               color: #000;
+               font-size: 15px;
+               font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+               white-space: break-spaces;
+               margin: 10px 0 0;
+               text-align: center;
+               text-decoration: none;
+               text-transform: uppercase;
+               border: 1px solid #d2d2d2;
+               padding: 6px 12px;
+             }
+             .koh-virtual-title {
+               cursor: pointer;
+               border-color: #000;
+               color: white;
+               font-size: 15px;
+               font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+               margin: 10px 0 0;
+               text-align: center;
+               text-decoration: none;
+               text-transform: uppercase;
+               border: 1px solid #d2d2d2;
+               padding: 6px 12px;
+               background-color: black;
+             }
+             .koh-appointment-title {
+               cursor: pointer;
+               border-color: white;
+               color: black;
+               font-size: 15px;
+               text-decoration: none;
+               font-family: NotoSansRegular, NotoSansThaiRegular, sans-serif;
+               margin: 10px 0 0;
+               text-align: center;
+               text-decoration: none;
+               text-transform: uppercase;
+               border: 1px solid #d2d2d2;
+               padding: 6px 12px;
+               background-color: white;
+             }
+           }
+         }
+       }
+ 
+       .koh-location-img-carousel {
+         @media only screen and (min-width: $koh-media-md) {
+             width: 65.5%;
+             float: right;
+             position: relative;
+         }
+         .koh-carousel-showroom {
+             position: relative;
+             .koh-slide-collection-showroom {
+                 .koh-banner-slide-showroom {
+                     position: relative;
+                     .koh-banner-background-showroom {
+                         position: relative;
+                         img {
+                             display: inline-block;
+                             width: 100%;
+                             z-index: $koh-zindex-carousel-slides;
+                         }
+                     }
+                 }
+             }
+             .koh-carousel-controls-showroom {
+                 position: absolute;
+                 right: 0;
+                 bottom: 0;
+                 min-width: 100%;
+                 min-height: 100%;
+                 margin: auto;
+                 @media screen and (max-width: 980px) {
+                     top: 0;
+                     width: 100% !important;
+                 }
+                 .koh-carousel-indicators-showroom {
+                     position: absolute;
+                     z-index: $koh-zindex-carousel-overlays;
+                     @include koh-carousel-indicators();
+                     bottom: 4px;
+                     left: 50%;
+                     transform: translateX(-50%);
+                     li.slick-active button {
+                         background-color: #232323;
+                     }
+                     li button {
+                         border-color: #232323;
+                     }
+                 }
+             }
+         }  
+       }
+     }
+   }
+ }
+ 

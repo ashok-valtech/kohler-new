@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlersg/products:
+  .meta:order-before: promobanner
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 913e76b7-ba31-45d1-a0b0-067b16d99742
+  hippo:name: Products
+  hippotranslation:id: 01028471-32c3-47c5-9206-2dd53e428f54
+  hippotranslation:locale: en_SG

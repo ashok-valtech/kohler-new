@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers/colorpalette/main/carousel:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+  hst:label: Carousel
+  hst:parameternames: [document4, document3, document6, document5, document2, document1,
+    cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor, showNavigation,
+    interval]
+  hst:parametervalues: ['', '', '', '', '', banners/material-and-color-palette/material-and-color-palette-banner,
+    'on', 'on', '900', '250', '#FFFFFF', 'on', '3000']
+  hst:template: essentials-carousel
+  hst:xtype: hst.item

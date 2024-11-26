@@ -1,0 +1,978 @@
+/content/documents/kohler/faq:
+  .meta:order-before: global-projects
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 372d7a62-aaaf-44a5-96d3-63d5221ce052
+  hippostd:foldertype: [new-faq-list, new-faq-item-folder, new-faq-list-folder]
+  hippotranslation:id: 3e9a7550-7b3d-4ce8-b20e-1d8ef540497a
+  hippotranslation:locale: en
+  /about-faq:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 6d1130dd-ba9f-481a-8a40-2d4d449da8a5
+    hippo:name: About FAQ
+    /about-faq[1]:
+      jcr:primaryType: kohler:faqlist
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 65d17c62-017b-4a5f-a208-80cae69699bf
+      hippo:availability: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2017-06-22T20:54:37.999+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-06-22T20:54:39.581+05:30
+      hippotranslation:id: 58e10fc7-c8b0-48ba-86e6-2f671475c881
+      hippotranslation:locale: en
+      kohler:displayOrder: '1'
+      kohler:title: Common Fixture Questions
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Frequently Asked Questions</p>
+      /kohler:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      /kohler:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 12863d11-40cc-4324-aeac-ffda4b787732
+      /kohler:faqitem[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7cfb7c01-88d0-482b-a629-c9f6a70ea7d7
+      /kohler:faqitem[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 08321c08-c791-4ea2-89fc-b11d3e5fc7bc
+    /about-faq[2]:
+      jcr:primaryType: kohler:faqlist
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 91c9a623-7403-4969-8a6b-f9826a46bf79
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2017-06-22T20:54:37.999+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 58e10fc7-c8b0-48ba-86e6-2f671475c881
+      hippotranslation:locale: en
+      kohler:displayOrder: '1'
+      kohler:title: Common Fixture Questions
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Frequently Asked Questions</p>
+      /kohler:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      /kohler:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 12863d11-40cc-4324-aeac-ffda4b787732
+      /kohler:faqitem[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7cfb7c01-88d0-482b-a629-c9f6a70ea7d7
+      /kohler:faqitem[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 08321c08-c791-4ea2-89fc-b11d3e5fc7bc
+    /about-faq[3]:
+      jcr:primaryType: kohler:faqlist
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 608d8dc6-e7f4-48c1-8617-a7724e8b114e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2017-06-22T20:54:34.279+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 58e10fc7-c8b0-48ba-86e6-2f671475c881
+      hippotranslation:locale: en
+      kohler:displayOrder: '1'
+      kohler:title: Common Fixture Questions
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Frequently Asked Questions</p>
+      /kohler:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      /kohler:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 12863d11-40cc-4324-aeac-ffda4b787732
+      /kohler:faqitem[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7cfb7c01-88d0-482b-a629-c9f6a70ea7d7
+      /kohler:faqitem[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 08321c08-c791-4ea2-89fc-b11d3e5fc7bc
+  /about-faq-items:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 02b87b23-5a86-4243-9795-125ba27353a7
+    hippo:name: About FAQ items
+    hippostd:foldertype: [new-faq-item, new-faq-item-folder]
+    hippotranslation:id: 44a0688d-57e3-4dad-a152-002a27b8d9a9
+    hippotranslation:locale: en
+    /faq-item-1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      hippo:name: FAQ Item 1
+      /faq-item-1[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9c9e7c1c-fdc2-4786-b781-4634358bfe2e
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-06-26T00:38:04.314+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-06-26T00:38:08.985+05:30
+        hippotranslation:id: fbfcbea9-30bb-4e43-a687-7ffa6677fda8
+        hippotranslation:locale: en
+        kohler:question: What is the best way to clean the system of a KOHLER whirlpool?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What is the best way to clean the system of a KOHLER whirlpool?</strong></p>
+
+            <p>Flush your whirlpool system twice a month or more, depending upon usage.</p>
+
+            <ol>
+             <li>Adjust the jets fully clockwise so there is no air induction.</li>
+             <li>Fill the bath with warm water to a level 2" above the highest jets, or leave water in the bath after using.</li>
+             <li>Add 2 teaspoons of a low-foaming dishwasher detergent and 20 ounces of household bleach (5% to 6% sodium hypochlorite) to the water.</li>
+             <li>Run the whirlpool for 5 to 10 minutes. Then shut off the whirlpool and drain the water.</li>
+             <li>If desired, rinse bath surfaces with water.</li>
+             <li>Clean bath surfaces&nbsp;as needed with recommended cleaners.</li>
+             <li>product</li>
+            </ol>
+      /faq-item-1[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 4859f39c-4299-45dd-bafe-98c07622bd0d
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-06-26T00:38:04.314+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: fbfcbea9-30bb-4e43-a687-7ffa6677fda8
+        hippotranslation:locale: en
+        kohler:question: What is the best way to clean the system of a KOHLER whirlpool?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What is the best way to clean the system of a KOHLER whirlpool?</strong></p>
+
+            <p>Flush your whirlpool system twice a month or more, depending upon usage.</p>
+
+            <ol>
+             <li>Adjust the jets fully clockwise so there is no air induction.</li>
+             <li>Fill the bath with warm water to a level 2" above the highest jets, or leave water in the bath after using.</li>
+             <li>Add 2 teaspoons of a low-foaming dishwasher detergent and 20 ounces of household bleach (5% to 6% sodium hypochlorite) to the water.</li>
+             <li>Run the whirlpool for 5 to 10 minutes. Then shut off the whirlpool and drain the water.</li>
+             <li>If desired, rinse bath surfaces with water.</li>
+             <li>Clean bath surfaces&nbsp;as needed with recommended cleaners.</li>
+             <li>product</li>
+            </ol>
+      /faq-item-1[3]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b6a833d4-8212-48ca-ad82-bb05e0f6fdaa
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-06-26T00:37:51.457+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: fbfcbea9-30bb-4e43-a687-7ffa6677fda8
+        hippotranslation:locale: en
+        kohler:question: What is the best way to clean the system of a KOHLER whirlpool?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What is the best way to clean the system of a KOHLER whirlpool?</strong></p>
+
+            <p>Flush your whirlpool system twice a month or more, depending upon usage.</p>
+
+            <ol>
+             <li>Adjust the jets fully clockwise so there is no air induction.</li>
+             <li>Fill the bath with warm water to a level 2" above the highest jets, or leave water in the bath after using.</li>
+             <li>Add 2 teaspoons of a low-foaming dishwasher detergent and 20 ounces of household bleach (5% to 6% sodium hypochlorite) to the water.</li>
+             <li>Run the whirlpool for 5 to 10 minutes. Then shut off the whirlpool and drain the water.</li>
+             <li>If desired, rinse bath surfaces with water.</li>
+             <li>Clean bath surfaces&nbsp;as needed with recommended cleaners.</li>
+             <li>product</li>
+            </ol>
+    /faq-item-2:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 12863d11-40cc-4324-aeac-ffda4b787732
+      hippo:name: FAQ Item 2
+      /faq-item-2[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: d14fc809-f2f6-442f-a703-650527733ca4
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:18.305+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-05-09T17:59:21.076+05:30
+        hippotranslation:id: c75eb5f9-e841-4378-8f63-9cc7ad3a11aa
+        hippotranslation:locale: en
+        kohler:question: Why is KOHLER Cast Iron considered the premier material for
+          plumbing fixtures?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>Why is KOHLER Cast Iron considered the premier material for plumbing fixtures?</strong></p>
+
+            <p>KOHLER Cast Iron excels in strength and beauty. Cast Iron features a thick enamel coating in a variety of colors. Fired at temperatures much higher than is possible with enameled steel products, the cast iron surface is "fire polished" to obtain its vivid color and deep gloss. The thickness of cast iron makes its surface resistant to acids, and provides outstanding protection against chipping, scratches and dents. Because of its density, cast iron also has outstanding heat retention properties, so water stays warm longer.</p>
+      /faq-item-2[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e992e9c4-f08a-48e8-920d-aa4a0dbce88e
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:18.305+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: c75eb5f9-e841-4378-8f63-9cc7ad3a11aa
+        hippotranslation:locale: en
+        kohler:question: Why is KOHLER Cast Iron considered the premier material for
+          plumbing fixtures?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>Why is KOHLER Cast Iron considered the premier material for plumbing fixtures?</strong></p>
+
+            <p>KOHLER Cast Iron excels in strength and beauty. Cast Iron features a thick enamel coating in a variety of colors. Fired at temperatures much higher than is possible with enameled steel products, the cast iron surface is "fire polished" to obtain its vivid color and deep gloss. The thickness of cast iron makes its surface resistant to acids, and provides outstanding protection against chipping, scratches and dents. Because of its density, cast iron also has outstanding heat retention properties, so water stays warm longer.</p>
+      /faq-item-2[3]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a119ca63-6772-4830-8b80-9a449aec4938
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:13.464+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: c75eb5f9-e841-4378-8f63-9cc7ad3a11aa
+        hippotranslation:locale: en
+        kohler:question: Why is KOHLER Cast Iron considered the premier material for
+          plumbing fixtures?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>Why is KOHLER Cast Iron considered the premier material for plumbing fixtures?</strong></p>
+
+            <p>KOHLER Cast Iron excels in strength and beauty. Cast Iron features a thick enamel coating in a variety of colors. Fired at temperatures much higher than is possible with enameled steel products, the cast iron surface is "fire polished" to obtain its vivid color and deep gloss. The thickness of cast iron makes its surface resistant to acids, and provides outstanding protection against chipping, scratches and dents. Because of its density, cast iron also has outstanding heat retention properties, so water stays warm longer.</p>
+    /faq-item-3:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 7cfb7c01-88d0-482b-a629-c9f6a70ea7d7
+      hippo:name: FAQ Item 3
+      /faq-item-3[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b349e374-7863-4f53-97fe-74481624ad18
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:17.219+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:25.761+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b912cf64-ef02-4539-82db-cf5d06f0aa4e
+        hippotranslation:locale: en
+        kohler:question: What are the stainless steel material and quality specifications
+          for KOHLER kitchen sinks?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What are the stainless steel material and quality specifications for KOHLER kitchen sinks?</strong></p>
+
+            <p>Sinks are made from 18-gauge type 304 stainless steel with 18% chromium and 8% nickel content. These stainless steel specifications for kitchen sinks provide exceptional resistance to stains and corrosion.</p>
+      /faq-item-3[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 0db02fd5-1ab6-4462-8eab-52a4a1c64bf4
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:17.219+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:31.011+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b912cf64-ef02-4539-82db-cf5d06f0aa4e
+        hippotranslation:locale: en
+        kohler:question: What are the stainless steel material and quality specifications
+          for KOHLER kitchen sinks?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What are the stainless steel material and quality specifications for KOHLER kitchen sinks?</strong></p>
+
+            <p>Sinks are made from 18-gauge type 304 stainless steel with 18% chromium and 8% nickel content. These stainless steel specifications for kitchen sinks provide exceptional resistance to stains and corrosion.</p>
+      /faq-item-3[3]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d27be899-0225-46f2-89fa-6fc1fdd9d408
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:17.219+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:31.011+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-05-09T17:59:33.297+05:30
+        hippotranslation:id: b912cf64-ef02-4539-82db-cf5d06f0aa4e
+        hippotranslation:locale: en
+        kohler:question: What are the stainless steel material and quality specifications
+          for KOHLER kitchen sinks?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What are the stainless steel material and quality specifications for KOHLER kitchen sinks?</strong></p>
+
+            <p>Sinks are made from 18-gauge type 304 stainless steel with 18% chromium and 8% nickel content. These stainless steel specifications for kitchen sinks provide exceptional resistance to stains and corrosion.</p>
+    /faq-item-4:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 08321c08-c791-4ea2-89fc-b11d3e5fc7bc
+      hippo:name: FAQ Item 4
+      /faq-item-4[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7bba2d61-08fa-4b73-be05-b99749b03cdf
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:23.822+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:36.627+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2ad56af8-5378-4f5c-aa0b-a81989d062f0
+        hippotranslation:locale: en
+        kohler:question: How large are the trapways and water surfaces for KOHLER
+          toilets?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>How large are the trapways and water surfaces for KOHLER toilets?</strong></p>
+
+            <p>KOHLER toilets have the following trapways and water surfaces:</p>
+
+            <table border="1" cellpadding="3" cellspacing="0">
+             <tbody>
+              <tr>
+               <td valign="top" width="51%"><strong>Toilet</strong></td>
+               <td valign="top" width="31%">
+               <p align="center"><strong>Trapway</strong></p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center"><strong>Water Surface</strong></p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">One-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 8"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Wellworth Two-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 9"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Power Lite® Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 11"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Pressure Lite™ Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 12"</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+      /faq-item-4[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: aae446a1-2ad1-42db-9c0c-f7c85d93d6f8
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:23.822+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:41.315+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2ad56af8-5378-4f5c-aa0b-a81989d062f0
+        hippotranslation:locale: en
+        kohler:question: How large are the trapways and water surfaces for KOHLER
+          toilets?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>How large are the trapways and water surfaces for KOHLER toilets?</strong></p>
+
+            <p>KOHLER toilets have the following trapways and water surfaces:</p>
+
+            <table border="1" cellpadding="3" cellspacing="0">
+             <tbody>
+              <tr>
+               <td valign="top" width="51%"><strong>Toilet</strong></td>
+               <td valign="top" width="31%">
+               <p align="center"><strong>Trapway</strong></p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center"><strong>Water Surface</strong></p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">One-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 8"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Wellworth Two-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 9"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Power Lite® Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 11"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Pressure Lite™ Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 12"</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+      /faq-item-4[3]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7fa57c4d-fc6b-4b6f-9b48-078cb78696a6
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:23.822+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:41.315+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-05-09T17:59:43.304+05:30
+        hippotranslation:id: 2ad56af8-5378-4f5c-aa0b-a81989d062f0
+        hippotranslation:locale: en
+        kohler:question: How large are the trapways and water surfaces for KOHLER
+          toilets?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>How large are the trapways and water surfaces for KOHLER toilets?</strong></p>
+
+            <p>KOHLER toilets have the following trapways and water surfaces:</p>
+
+            <table border="1" cellpadding="3" cellspacing="0">
+             <tbody>
+              <tr>
+               <td valign="top" width="51%"><strong>Toilet</strong></td>
+               <td valign="top" width="31%">
+               <p align="center"><strong>Trapway</strong></p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center"><strong>Water Surface</strong></p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">One-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 8"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Wellworth Two-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 9"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Power Lite® Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 11"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Pressure Lite™ Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 12"</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+  /bathroom:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 31a437f9-e0e5-4554-a91d-b78284f2ec6b
+    hippo:name: Bathroom
+    /bathroom[1]:
+      jcr:primaryType: kohler:faqlist
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: c6f18d12-3c36-44ce-88d5-2405fcd5c1b7
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2017-06-22T20:54:46.350+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7260337a-1a69-4637-978b-1cd0b23375d1
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:title: Bathroom
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Frequently Asked Questions on Bathroom</p>
+      /kohler:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 02d2290e-0829-431c-a39a-8cacfeb511e1
+      /kohler:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: eda1bf35-7c94-42ae-a4e3-5b12a5f3157f
+      /kohler:faqitem[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a262eb72-a03d-4fd5-b3b6-0f1e35ef6a84
+      /kohler:faqitem[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ea970e63-c35b-41f1-9173-9fe3549fbee3
+    /bathroom[2]:
+      jcr:primaryType: kohler:faqlist
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c244c989-a0ca-493b-ad31-fdad86c3ffad
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2017-06-22T20:54:41.808+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7260337a-1a69-4637-978b-1cd0b23375d1
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:title: Bathroom
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Frequently Asked Questions on Bathroom</p>
+      /kohler:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 02d2290e-0829-431c-a39a-8cacfeb511e1
+      /kohler:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: eda1bf35-7c94-42ae-a4e3-5b12a5f3157f
+      /kohler:faqitem[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a262eb72-a03d-4fd5-b3b6-0f1e35ef6a84
+      /kohler:faqitem[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ea970e63-c35b-41f1-9173-9fe3549fbee3
+    /bathroom[3]:
+      jcr:primaryType: kohler:faqlist
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2e81ccdc-5e28-4511-a5b4-32ceaed77982
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2017-06-22T20:54:46.350+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-06-22T20:54:48.340+05:30
+      hippotranslation:id: 7260337a-1a69-4637-978b-1cd0b23375d1
+      hippotranslation:locale: en
+      kohler:displayOrder: '2'
+      kohler:title: Bathroom
+      /kohler:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Frequently Asked Questions on Bathroom</p>
+      /kohler:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 02d2290e-0829-431c-a39a-8cacfeb511e1
+      /kohler:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: eda1bf35-7c94-42ae-a4e3-5b12a5f3157f
+      /kohler:faqitem[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: a262eb72-a03d-4fd5-b3b6-0f1e35ef6a84
+      /kohler:faqitem[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ea970e63-c35b-41f1-9173-9fe3549fbee3
+  /bathroom-faq-items:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: f2b52289-d4e7-4c3d-96ac-89ecd4c47b34
+    hippostd:foldertype: [new-faq-item, new-faq-item-folder]
+    hippotranslation:id: de38f0c3-7fdb-469a-a977-d50f3822b1a1
+    hippotranslation:locale: en
+    /faq-item-1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 02d2290e-0829-431c-a39a-8cacfeb511e1
+      hippo:name: FAQ Item 1
+      /faq-item-1[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 7613fb7c-23dc-4925-8cea-7f8e49e7943e
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-06-21T13:08:50.915+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f77ec7aa-925f-4d3c-b806-c2a1892fb414
+        hippotranslation:locale: en
+        kohler:question: What is the best way to clean the system of a KOHLER Bathroom?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What is the best way to clean the system of a KOHLER Bathroom?</strong></p>
+
+            <p>Flush your whirlpool system twice a month or more, depending upon usage.</p>
+
+            <ol>
+             <li>Adjust the jets fully clockwise so there is no air induction.</li>
+             <li>Fill the bath with warm water to a level 2" above the highest jets, or leave water in the bath after using.</li>
+             <li>Add 2 teaspoons of a low-foaming dishwasher detergent and 20 ounces of household bleach (5% to 6% sodium hypochlorite) to the water.</li>
+             <li>Run the whirlpool for 5 to 10 minutes. Then shut off the whirlpool and drain the water.</li>
+             <li>If desired, rinse bath surfaces with water.</li>
+             <li>Clean bath surfaces&nbsp;as needed with recommended cleaners.</li>
+            </ol>
+      /faq-item-1[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 60bf4309-97d3-4858-af98-734a6a93a7e6
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-06-21T13:08:50.915+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-06-21T13:08:53.247+05:30
+        hippotranslation:id: f77ec7aa-925f-4d3c-b806-c2a1892fb414
+        hippotranslation:locale: en
+        kohler:question: What is the best way to clean the system of a KOHLER Bathroom?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What is the best way to clean the system of a KOHLER Bathroom?</strong></p>
+
+            <p>Flush your whirlpool system twice a month or more, depending upon usage.</p>
+
+            <ol>
+             <li>Adjust the jets fully clockwise so there is no air induction.</li>
+             <li>Fill the bath with warm water to a level 2" above the highest jets, or leave water in the bath after using.</li>
+             <li>Add 2 teaspoons of a low-foaming dishwasher detergent and 20 ounces of household bleach (5% to 6% sodium hypochlorite) to the water.</li>
+             <li>Run the whirlpool for 5 to 10 minutes. Then shut off the whirlpool and drain the water.</li>
+             <li>If desired, rinse bath surfaces with water.</li>
+             <li>Clean bath surfaces&nbsp;as needed with recommended cleaners.</li>
+            </ol>
+      /faq-item-1[3]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 21f743ec-576c-426d-9ff2-155c8db37fee
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-06-21T13:06:56.216+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f77ec7aa-925f-4d3c-b806-c2a1892fb414
+        hippotranslation:locale: en
+        kohler:question: What is the best way to clean the system of a KOHLER Bathroom?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What is the best way to clean the system of a KOHLER Bathroom?</strong></p>
+
+            <p>Flush your whirlpool system twice a month or more, depending upon usage.</p>
+
+            <ol>
+             <li>Adjust the jets fully clockwise so there is no air induction.</li>
+             <li>Fill the bath with warm water to a level 2" above the highest jets, or leave water in the bath after using.</li>
+             <li>Add 2 teaspoons of a low-foaming dishwasher detergent and 20 ounces of household bleach (5% to 6% sodium hypochlorite) to the water.</li>
+             <li>Run the whirlpool for 5 to 10 minutes. Then shut off the whirlpool and drain the water.</li>
+             <li>If desired, rinse bath surfaces with water.</li>
+             <li>Clean bath surfaces&nbsp;as needed with recommended cleaners.</li>
+            </ol>
+    /faq-item-2:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: eda1bf35-7c94-42ae-a4e3-5b12a5f3157f
+      hippo:name: FAQ Item 2
+      /faq-item-2[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 2704f5cf-5c34-42ab-9dd6-6e0301028df5
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:18.305+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 11960ba2-07de-4038-a20b-fae7e013c128
+        hippotranslation:locale: en
+        kohler:question: Why is KOHLER Cast Iron considered the premier material for
+          plumbing fixtures?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>Why is KOHLER Cast Iron considered the premier material for plumbing fixtures?</strong></p>
+
+            <p>KOHLER Cast Iron excels in strength and beauty. Cast Iron features a thick enamel coating in a variety of colors. Fired at temperatures much higher than is possible with enameled steel products, the cast iron surface is "fire polished" to obtain its vivid color and deep gloss. The thickness of cast iron makes its surface resistant to acids, and provides outstanding protection against chipping, scratches and dents. Because of its density, cast iron also has outstanding heat retention properties, so water stays warm longer.</p>
+      /faq-item-2[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2d1bb470-5b29-4b78-8c8f-79f548fdf21b
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:18.305+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-06-21T13:04:33.301+05:30
+        hippotranslation:id: 11960ba2-07de-4038-a20b-fae7e013c128
+        hippotranslation:locale: en
+        kohler:question: Why is KOHLER Cast Iron considered the premier material for
+          plumbing fixtures?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>Why is KOHLER Cast Iron considered the premier material for plumbing fixtures?</strong></p>
+
+            <p>KOHLER Cast Iron excels in strength and beauty. Cast Iron features a thick enamel coating in a variety of colors. Fired at temperatures much higher than is possible with enameled steel products, the cast iron surface is "fire polished" to obtain its vivid color and deep gloss. The thickness of cast iron makes its surface resistant to acids, and provides outstanding protection against chipping, scratches and dents. Because of its density, cast iron also has outstanding heat retention properties, so water stays warm longer.</p>
+    /faq-item-3:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: a262eb72-a03d-4fd5-b3b6-0f1e35ef6a84
+      hippo:name: FAQ Item 3
+      /faq-item-3[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 66fa9cd6-de81-4835-83d2-58d3f9ebe1f6
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:17.219+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:31.011+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 60a7bfd5-6288-4348-b448-7c00cfcdb86f
+        hippotranslation:locale: en
+        kohler:question: What are the stainless steel material and quality specifications
+          for KOHLER kitchen sinks?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What are the stainless steel material and quality specifications for KOHLER kitchen sinks?</strong></p>
+
+            <p>Sinks are made from 18-gauge type 304 stainless steel with 18% chromium and 8% nickel content. These stainless steel specifications for kitchen sinks provide exceptional resistance to stains and corrosion.</p>
+      /faq-item-3[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: db6d0944-dd6d-432c-a65d-06b49935ddbe
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:17.219+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:31.011+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-06-21T13:04:30.910+05:30
+        hippotranslation:id: 60a7bfd5-6288-4348-b448-7c00cfcdb86f
+        hippotranslation:locale: en
+        kohler:question: What are the stainless steel material and quality specifications
+          for KOHLER kitchen sinks?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>What are the stainless steel material and quality specifications for KOHLER kitchen sinks?</strong></p>
+
+            <p>Sinks are made from 18-gauge type 304 stainless steel with 18% chromium and 8% nickel content. These stainless steel specifications for kitchen sinks provide exceptional resistance to stains and corrosion.</p>
+    /faq-item-4:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ea970e63-c35b-41f1-9173-9fe3549fbee3
+      hippo:name: FAQ Item 4
+      /faq-item-4[1]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 24687d78-0def-4b1b-a782-74eb19fbc8d6
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:23.822+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:41.315+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 21a061d7-ef59-48d7-8211-4aec215b0781
+        hippotranslation:locale: en
+        kohler:question: How large are the trapways and water surfaces for KOHLER
+          toilets?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>How large are the trapways and water surfaces for KOHLER toilets?</strong></p>
+
+            <p>KOHLER toilets have the following trapways and water surfaces:</p>
+
+            <table border="1" cellpadding="3" cellspacing="0">
+             <tbody>
+              <tr>
+               <td valign="top" width="51%"><strong>Toilet</strong></td>
+               <td valign="top" width="31%">
+               <p align="center"><strong>Trapway</strong></p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center"><strong>Water Surface</strong></p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">One-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 8"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Wellworth Two-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 9"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Power Lite® Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 11"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Pressure Lite™ Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 12"</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+      /faq-item-4[2]:
+        jcr:primaryType: kohler:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0f162e5e-38b9-491f-a8fd-50a935c6f05f
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-05-04T12:22:23.822+05:30
+        hippostdpubwf:lastModificationDate: 2017-05-09T17:59:41.315+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-06-21T13:04:26.889+05:30
+        hippotranslation:id: 21a061d7-ef59-48d7-8211-4aec215b0781
+        hippotranslation:locale: en
+        kohler:question: How large are the trapways and water surfaces for KOHLER
+          toilets?
+        /kohler:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p><strong>How large are the trapways and water surfaces for KOHLER toilets?</strong></p>
+
+            <p>KOHLER toilets have the following trapways and water surfaces:</p>
+
+            <table border="1" cellpadding="3" cellspacing="0">
+             <tbody>
+              <tr>
+               <td valign="top" width="51%"><strong>Toilet</strong></td>
+               <td valign="top" width="31%">
+               <p align="center"><strong>Trapway</strong></p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center"><strong>Water Surface</strong></p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">One-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 8"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Wellworth Two-piece Gravity Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 9"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Power Lite® Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">8.5 x 11"</p>
+               </td>
+              </tr>
+              <tr>
+               <td valign="top" width="51%">Pressure Lite™ Toilets</td>
+               <td valign="top" width="31%">
+               <p align="center">2-1/8", fully glazed</p>
+               </td>
+               <td valign="top" width="19%">
+               <p align="center">10 x 12"</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>

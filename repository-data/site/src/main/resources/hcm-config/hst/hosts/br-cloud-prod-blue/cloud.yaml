@@ -1,0 +1,28 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/br-cloud-prod-blue/cloud:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      hst:showcontextpath: true
+      hst:showport: false
+      hst:scheme: https
+      /bloomreach:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /kohlerapac:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /prod-blue:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:virtualhost
+            /hst:root:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:mount
+              hst:mountpoint: /hst:hst/hst:sites/kohler
+              /kohler:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:alias: kohler-prod
+                hst:ismapped: false
+                hst:namedpipeline: JaxrsRestPlainPipeline
+                hst:types: [rest]

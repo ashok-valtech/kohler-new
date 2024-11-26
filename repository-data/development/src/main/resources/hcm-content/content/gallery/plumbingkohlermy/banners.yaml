@@ -1,0 +1,274 @@
+/content/gallery/plumbingkohlermy/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 1ae6c6d6-9704-4b1a-88eb-1f903ffd2ee7
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /banner-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b68c2af2-15b5-4a80-b145-d98dbccf1a9b
+    /banner-1.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/banner-1.jpg/banner-1_thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/banner-1.jpg/banner-1_original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+  /banner-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: aac2ab52-963a-416e-824b-536fa24be236
+    /banner-2.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/banner-2.jpg/banner-2_thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/banner-2.jpg/banner-2_original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+  /zab80599_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 5a885359-1145-4632-93ae-936500efd613
+    /zab80599_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zab80599_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zab80599_rgb.jpg
+        hippogallery:height: 26
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/zab80599_rgb.jpg/zab80599_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.420+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 801
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/zab80599_rgb.jpg/zab80599_rgb_original.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.420+05:30
+        jcr:mimeType: image/jpeg
+  /zac09780_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3c571a47-3796-4ced-adca-9a51daffce71
+    /zac09780_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac09780_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac09780_rgb.jpg
+        hippogallery:height: 26
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/zac09780_rgb.jpg/zac09780_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.815+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 801
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/zac09780_rgb.jpg/zac09780_rgb_original.jpg
+        jcr:lastModified: 2017-04-20T17:17:55.815+05:30
+        jcr:mimeType: image/jpeg
+  /protoolbox:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: e393772d-4537-4ec5-8359-8a155b55cf73
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /about-hero.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 340adee4-39dd-4d2f-b4bd-f414868b6709
+      /about-hero.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: about-hero.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: about-hero.jpg
+          hippogallery:height: 19
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/protoolbox/about-hero.jpg/about-hero_thumbnail.jpg
+          jcr:lastModified: 2017-06-01T12:43:38.385+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 514
+          hippogallery:width: 1600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/protoolbox/about-hero.jpg/about-hero_original.jpg
+          jcr:lastModified: 2017-06-01T12:43:38.385+05:30
+          jcr:mimeType: image/jpeg
+  /about-kohler.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 21670d9f-4a04-45f1-b5d2-b3137b469c0f
+    hippo:name: About Kohler.jpg
+    /about-kohler.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: About Kohler.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: About Kohler.jpg
+        hippogallery:height: 39
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/about-kohler.jpg/About
+            Kohler_thumbnail.jpg
+        jcr:lastModified: 2017-11-24T10:53:57.814Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 803
+        hippogallery:width: 1205
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlermy/banners/about-kohler.jpg/About
+            Kohler_original.jpg
+        jcr:lastModified: 2017-11-24T10:53:57.814Z
+        jcr:mimeType: image/jpeg
+  /about-us:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: e5a8a767-15d6-428e-9a2b-4f963689cce8
+    hippo:name: About Us
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /gracious-living.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 19ae70ad-628b-4a8c-8d98-4e5e7c7c3848
+      hippo:name: Gracious Living.jpg
+      /gracious-living.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Gracious Living.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Gracious Living.jpg
+          hippogallery:height: 42
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/about-us/gracious-living.jpg/Gracious
+              Living_thumbnail.jpg
+          jcr:lastModified: 2017-11-24T12:50:26.484Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 351
+          hippogallery:width: 498
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/about-us/gracious-living.jpg/Gracious
+              Living_original.jpg
+          jcr:lastModified: 2017-11-24T12:50:26.484Z
+          jcr:mimeType: image/jpeg
+    /kohler-corporate-headquarters.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: f2dae059-cf11-4cb5-b6c9-bfaf785a9099
+      hippo:name: Kohler Corporate Headquarters.jpg
+      /kohler-corporate-headquarters.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Kohler Corporate Headquarters.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Kohler Corporate Headquarters.jpg
+          hippogallery:height: 31
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/about-us/kohler-corporate-headquarters.jpg/Kohler
+              Corporate Headquarters_thumbnail.jpg
+          jcr:lastModified: 2017-11-24T12:50:27.854Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 262
+          hippogallery:width: 492
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/about-us/kohler-corporate-headquarters.jpg/Kohler
+              Corporate Headquarters_original.jpg
+          jcr:lastModified: 2017-11-24T12:50:27.854Z
+          jcr:mimeType: image/jpeg
+    /kohler-since-1873.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 315c0283-0a97-4c97-a73b-7b765a2b3bf0
+      hippo:name: Kohler Since 1873.jpg
+      /kohler-since-1873.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: Kohler Since 1873.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Kohler Since 1873.jpg
+          hippogallery:height: 44
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/about-us/kohler-since-1873.jpg/Kohler
+              Since 1873_thumbnail.jpg
+          jcr:lastModified: 2017-11-24T12:50:28.415Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 362
+          hippogallery:width: 492
+          jcr:data:
+            type: binary
+            resource: /content/gallery/plumbingkohlermy/banners/about-us/kohler-since-1873.jpg/Kohler
+              Since 1873_original.jpg
+          jcr:lastModified: 2017-11-24T12:50:28.415Z
+          jcr:mimeType: image/jpeg

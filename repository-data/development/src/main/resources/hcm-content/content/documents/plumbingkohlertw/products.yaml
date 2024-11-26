@@ -1,0 +1,774 @@
+/content/documents/plumbingkohlertw/products:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 46c8387a-e34f-4483-85ca-918aafce88ff
+  hippo:name: Products
+  hippotranslation:id: 6e0bbc87-e1ed-4860-858f-30095c916f34
+  hippotranslation:locale: zh_TW
+  /2:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+    jcr:uuid: 8063da69-2ea9-41e6-93db-f9881eb7cfbf
+    hippo:name: '2'
+    hippotranslation:id: d022c1c6-1dec-444e-a1d6-212d9d5d7911
+    hippotranslation:locale: en
+    /0:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+      jcr:uuid: 2d6dd4cd-b930-4c2d-bc12-81653ebf3ed6
+      hippo:name: '0'
+      hippotranslation:id: 6a4d62a6-6608-4579-a9bb-d0eafb1eeb16
+      hippotranslation:locale: en
+      /969731:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 29e4cd82-5cae-401f-a33f-0e8d0e88af2c
+        hippo:name: 20257T
+        /969731[1]:
+          jcr:primaryType: kohler:Product
+          jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+          jcr:uuid: 23263b74-9af3-4c3f-8de4-f2ccc14d5f65
+          hippo:availability: [live]
+          hippo:name: '969731'
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-24T13:39:20.717+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-24T13:39:23.803+05:30
+          hippostdpubwf:lastModifiedBy: sitewriter
+          hippostdpubwf:publicationDate: 2017-10-24T13:39:24.247+05:30
+          hippotaxonomy:keys: [commercial-bathroom]
+          hippotranslation:id: 95c627db-c1c8-463c-924a-f6abcc5b91b3
+          hippotranslation:locale: en
+          kohler:ItemType: ROOTVAR
+          kohler:ProductType: Sensor Faucet
+          kohler:ancestors: [889031]
+          kohler:color: [swatch_2BZ, swatch_RGD, swatch_BN, swatch_CP]
+          kohler:country: [SKU_APAC]
+          kohler:descriptionProduct: COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM
+          kohler:id: 969731
+          kohler:installationType: No Power Supply
+          kohler:isNew: false
+          kohler:itemNo: 20257T
+          kohler:listPrice: 757.0
+          kohler:priceRange: [Luxury]
+          kohler:productFamily: Composed(R)
+          kohler:producthash: -2016712174
+          kohler:status: Active
+          /kohler:attributes[1]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Commercial Bathroom]
+            kohler:key: ATG_DEFAULT_CATEGORY
+          /kohler:attributes[2]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Luxury]
+            kohler:key: PRICE_RANGE
+          /kohler:attributes[3]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [20257T-CP]
+            kohler:key: DEFAULT_SKU
+          /kohler:attributes[4]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Sensor Faucet]
+            kohler:key: PRODUCT_TYPE
+          /kohler:attributes[5]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM]
+            kohler:key: DESCRIPTION_PRODUCT
+          /kohler:attributes[6]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Composed(R)]
+            kohler:key: COLLECTION
+          /kohler:attributes[7]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [No Power Supply]
+            kohler:key: INSTALLATION_TYPE
+          /kohler:attributes[8]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['Yes']
+            kohler:key: WEB_INCLUDED
+          /kohler:attributes[9]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [12.001.018]
+            kohler:key: SORT_ORDER
+          /kohler:attributes[10]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [K-20257T-CP_01]
+            kohler:key: IMG_ISO
+          /kohler:attributes[11]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Composed(R)]
+            kohler:key: BRAND_NAME
+          /kohler:attributes[12]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [SENSOR FAUCET]
+            kohler:key: DESCRIPTION_PRODUCT_SHORT
+          /kohler:skus[1]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967531
+            kohler:sku: 20257T-2BZ
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-2BZ]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [2BZ]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['0']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Oil-Rubbed Bronze]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_2BZ]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-2BZ_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[2]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967431
+            kohler:sku: 20257T-RGD
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-RGD]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [RGD]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['757']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Rose Gold]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-RGD_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_RGD]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[3]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967331
+            kohler:sku: 20257T-BN
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-BN]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [BN]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['757']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Brushed Nickel]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_BN]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-BN_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[4]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 965831
+            kohler:sku: 20257T-CP
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-CP]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [CP]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['647']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Chrome]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_CP]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-CP_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+            /kohler:attributes[9]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: DISCONTINUED_DATE
+          /kohler:adcopy[1]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM |20257T|
+                KOHLER]
+            kohler:key: Meta_Title
+          /kohler:adcopy[2]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM |20257T|
+                KOHLER]
+            kohler:key: Meta_Description
+          /kohler:adcopy[3]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['KOHLER finishes resist corrosion and tarnishing, exceeding
+                industry durability standards over two times']
+            kohler:key: Web_Features_03
+          /kohler:adcopy[4]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Solid Metal Construction for Durability and Reliability]
+            kohler:key: Web_Features_01
+          /kohler:adcopy[5]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [KOHLER ceramic disc valves exceed industry longevity standards
+                by two times for a lifetime of durable performance]
+            kohler:key: Web_Features_02
+        /969731[2]:
+          jcr:primaryType: kohler:Product
+          jcr:mixinTypes: ['mix:versionable', 'hippotaxonomy:classifiable']
+          jcr:uuid: d799efa4-77d4-4a45-965b-123a25ebf2ba
+          hippo:availability: [preview]
+          hippo:name: '969731'
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-24T13:39:20.717+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-24T13:39:23.803+05:30
+          hippostdpubwf:lastModifiedBy: sitewriter
+          hippotaxonomy:keys: [commercial-bathroom]
+          hippotranslation:id: 95c627db-c1c8-463c-924a-f6abcc5b91b3
+          hippotranslation:locale: en
+          kohler:ItemType: ROOTVAR
+          kohler:ProductType: Sensor Faucet
+          kohler:ancestors: [889031]
+          kohler:color: [swatch_2BZ, swatch_RGD, swatch_BN, swatch_CP]
+          kohler:country: [SKU_APAC]
+          kohler:descriptionProduct: COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM
+          kohler:id: 969731
+          kohler:installationType: No Power Supply
+          kohler:isNew: false
+          kohler:itemNo: 20257T
+          kohler:listPrice: 757.0
+          kohler:priceRange: [Luxury]
+          kohler:productFamily: Composed(R)
+          kohler:producthash: -2016712174
+          kohler:status: Active
+          /kohler:attributes[1]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Commercial Bathroom]
+            kohler:key: ATG_DEFAULT_CATEGORY
+          /kohler:attributes[2]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Luxury]
+            kohler:key: PRICE_RANGE
+          /kohler:attributes[3]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [20257T-CP]
+            kohler:key: DEFAULT_SKU
+          /kohler:attributes[4]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Sensor Faucet]
+            kohler:key: PRODUCT_TYPE
+          /kohler:attributes[5]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM]
+            kohler:key: DESCRIPTION_PRODUCT
+          /kohler:attributes[6]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Composed(R)]
+            kohler:key: COLLECTION
+          /kohler:attributes[7]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [No Power Supply]
+            kohler:key: INSTALLATION_TYPE
+          /kohler:attributes[8]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['Yes']
+            kohler:key: WEB_INCLUDED
+          /kohler:attributes[9]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [12.001.018]
+            kohler:key: SORT_ORDER
+          /kohler:attributes[10]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [K-20257T-CP_01]
+            kohler:key: IMG_ISO
+          /kohler:attributes[11]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Composed(R)]
+            kohler:key: BRAND_NAME
+          /kohler:attributes[12]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [SENSOR FAUCET]
+            kohler:key: DESCRIPTION_PRODUCT_SHORT
+          /kohler:skus[1]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967531
+            kohler:sku: 20257T-2BZ
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-2BZ]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [2BZ]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['0']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Oil-Rubbed Bronze]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_2BZ]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-2BZ_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[2]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967431
+            kohler:sku: 20257T-RGD
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-RGD]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [RGD]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['757']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Rose Gold]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-RGD_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_RGD]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[3]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967331
+            kohler:sku: 20257T-BN
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-BN]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [BN]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['757']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Brushed Nickel]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_BN]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-BN_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[4]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 965831
+            kohler:sku: 20257T-CP
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-CP]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [CP]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['647']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Chrome]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_CP]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-CP_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+            /kohler:attributes[9]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: DISCONTINUED_DATE
+          /kohler:adcopy[1]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM |20257T|
+                KOHLER]
+            kohler:key: Meta_Title
+          /kohler:adcopy[2]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM |20257T|
+                KOHLER]
+            kohler:key: Meta_Description
+          /kohler:adcopy[3]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['KOHLER finishes resist corrosion and tarnishing, exceeding
+                industry durability standards over two times']
+            kohler:key: Web_Features_03
+          /kohler:adcopy[4]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Solid Metal Construction for Durability and Reliability]
+            kohler:key: Web_Features_01
+          /kohler:adcopy[5]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [KOHLER ceramic disc valves exceed industry longevity standards
+                by two times for a lifetime of durable performance]
+            kohler:key: Web_Features_02
+        /969731[3]:
+          jcr:primaryType: kohler:Product
+          jcr:mixinTypes: ['mix:referenceable', 'hippotaxonomy:classifiable']
+          jcr:uuid: ee820270-ea6e-4a95-8a17-a975cf446a5e
+          hippo:availability: []
+          hippo:name: '969731'
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-24T13:39:20.717+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-24T13:39:23.421+05:30
+          hippostdpubwf:lastModifiedBy: sitewriter
+          hippotaxonomy:keys: [commercial-bathroom]
+          hippotranslation:id: 95c627db-c1c8-463c-924a-f6abcc5b91b3
+          hippotranslation:locale: en
+          kohler:ItemType: ROOTVAR
+          kohler:ProductType: Sensor Faucet
+          kohler:ancestors: [889031]
+          kohler:color: [swatch_2BZ, swatch_RGD, swatch_BN, swatch_CP]
+          kohler:country: [SKU_APAC]
+          kohler:descriptionProduct: COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM
+          kohler:id: 969731
+          kohler:installationType: No Power Supply
+          kohler:isNew: false
+          kohler:itemNo: 20257T
+          kohler:listPrice: 757.0
+          kohler:priceRange: [Luxury]
+          kohler:productFamily: Composed(R)
+          kohler:producthash: -2016712174
+          kohler:status: Active
+          /kohler:attributes[1]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Commercial Bathroom]
+            kohler:key: ATG_DEFAULT_CATEGORY
+          /kohler:attributes[2]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Luxury]
+            kohler:key: PRICE_RANGE
+          /kohler:attributes[3]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [20257T-CP]
+            kohler:key: DEFAULT_SKU
+          /kohler:attributes[4]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Sensor Faucet]
+            kohler:key: PRODUCT_TYPE
+          /kohler:attributes[5]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM]
+            kohler:key: DESCRIPTION_PRODUCT
+          /kohler:attributes[6]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Composed(R)]
+            kohler:key: COLLECTION
+          /kohler:attributes[7]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [No Power Supply]
+            kohler:key: INSTALLATION_TYPE
+          /kohler:attributes[8]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['Yes']
+            kohler:key: WEB_INCLUDED
+          /kohler:attributes[9]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [12.001.018]
+            kohler:key: SORT_ORDER
+          /kohler:attributes[10]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [K-20257T-CP_01]
+            kohler:key: IMG_ISO
+          /kohler:attributes[11]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Composed(R)]
+            kohler:key: BRAND_NAME
+          /kohler:attributes[12]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [SENSOR FAUCET]
+            kohler:key: DESCRIPTION_PRODUCT_SHORT
+          /kohler:skus[1]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967531
+            kohler:sku: 20257T-2BZ
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-2BZ]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [2BZ]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['0']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Oil-Rubbed Bronze]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_2BZ]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-2BZ_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[2]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967431
+            kohler:sku: 20257T-RGD
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-RGD]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [RGD]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['757']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Rose Gold]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-RGD_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_RGD]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[3]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 967331
+            kohler:sku: 20257T-BN
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-BN]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [BN]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['757']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Brushed Nickel]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_BN]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-BN_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+          /kohler:skus[4]:
+            jcr:primaryType: kohler:cSKU
+            kohler:id: 965831
+            kohler:sku: 20257T-CP
+            /kohler:attributes[1]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Luxury]
+              kohler:key: PRICE_RANGE
+            /kohler:attributes[2]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [20257T-CP]
+              kohler:key: SKU_APAC
+            /kohler:attributes[3]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [CP]
+              kohler:key: COLOR_FINISH_CODE
+            /kohler:attributes[4]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: ['647']
+              kohler:key: LIST_PRICE
+            /kohler:attributes[5]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [Chrome]
+              kohler:key: COLOR_FINISH_NAME
+            /kohler:attributes[6]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [swatch_CP]
+              kohler:key: IMG_SWATCH
+            /kohler:attributes[7]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [K-20257T-CP_01]
+              kohler:key: IMG_ITEM_ISO
+            /kohler:attributes[8]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: RELEASE_FOR_SHIPMENT
+            /kohler:attributes[9]:
+              jcr:primaryType: kohler:cAttributes
+              kohler:Value: [01/01/2000]
+              kohler:key: DISCONTINUED_DATE
+          /kohler:adcopy[1]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM |20257T|
+                KOHLER]
+            kohler:key: Meta_Title
+          /kohler:adcopy[2]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [COMPOSED SENSOR FAUCET COLD ONLY(W/O P)0.5GPM |20257T|
+                KOHLER]
+            kohler:key: Meta_Description
+          /kohler:adcopy[3]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: ['KOHLER finishes resist corrosion and tarnishing, exceeding
+                industry durability standards over two times']
+            kohler:key: Web_Features_03
+          /kohler:adcopy[4]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [Solid Metal Construction for Durability and Reliability]
+            kohler:key: Web_Features_01
+          /kohler:adcopy[5]:
+            jcr:primaryType: kohler:cAttributes
+            kohler:Value: [KOHLER ceramic disc valves exceed industry longevity standards
+                by two times for a lifetime of durable performance]
+            kohler:key: Web_Features_02

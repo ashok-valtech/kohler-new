@@ -1,0 +1,27 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/production/my:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      hst:locale: en_MY
+      hst:scheme: https
+      hst:showcontextpath: false
+      hst:showport: false
+      /kohler:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /www:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /hst:root:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:homepage: root
+            hst:mountpoint: /hst:hst/hst:sites/plumbingkohlermy
+            /api:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:mount
+              hst:alias: plumbingkohlermy-api
+              hst:ismapped: false
+              hst:namedpipeline: JaxrsRestPlainPipeline
+              hst:types: [rest]

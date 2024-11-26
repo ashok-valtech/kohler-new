@@ -1,0 +1,28 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.banner-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  img {
+    width: 100%;
+  }
+}
+
+.koh-privacy-policy-link-cf {
+  margin-bottom: 6px !important;
+}
+
+.checkbox-label {
+  // margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .koh-privacy-sfmc-ci-promo {
+    display: inline !important;
+  }
+  input[type=checkbox] {
+    margin: 0 !important;
+  }
+}

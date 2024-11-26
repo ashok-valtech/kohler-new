@@ -1,0 +1,27 @@
+/content/gallery/kohler/carecleaning_land_hero.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: abe0e06f-0dee-4848-bd84-2c15d8807afe
+  /carecleaning_land_hero.jpg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: carecleaning_land_hero.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: carecleaning_land_hero.jpg
+      hippogallery:height: 46
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/kohler/carecleaning_land_hero.jpg/carecleaning_land_hero_thumbnail.jpg
+      jcr:lastModified: 2017-05-03T19:18:11.329+05:30
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 232
+      hippogallery:width: 300
+      jcr:data:
+        type: binary
+        resource: /content/gallery/kohler/carecleaning_land_hero.jpg/carecleaning_land_hero_original.jpg
+      jcr:lastModified: 2017-05-03T19:18:11.329+05:30
+      jcr:mimeType: image/jpeg

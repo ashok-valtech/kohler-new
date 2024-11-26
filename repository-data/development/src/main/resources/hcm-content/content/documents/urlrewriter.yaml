@@ -1,0 +1,10 @@
+/content/documents/urlrewriter:
+  .meta:order-before: kohler
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:relaxed', 'mix:referenceable']
+  jcr:uuid: 9c747a44-c01b-4fcc-8fe6-4774cac2250c
+  hippostd:foldertype: [new-urlrewriter-folder]
+  urlrewriter:ignorecontextpath: 'true'
+  urlrewriter:skippedprefixes: [/_cmsrest, /_cmsinternal, /_rp, '/_hn:', /ping/]
+  urlrewriter:skippost: true
+  urlrewriter:usequerystring: 'false'

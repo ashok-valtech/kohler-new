@@ -1,0 +1,64 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ 
+/* _c-koh-footer-copyright.scss
+
+   Partial SCSS containing styles for the copyright area in the global footer
+*/
+
+.c-koh-footer-copyright {
+	@include koh-page-gutters-padding();
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: start;
+	background: $koh-color-black;
+	@media #{$koh-media-screen-md} {
+		border-top: 1px solid $koh-color-pmd-grey;
+		display: flex;
+	}
+	.koh-copyright-text {
+		font-size: 1.5rem;
+		color: $koh-color-white;
+		@media #{$koh-media-screen-sm-max} {
+			font-size: 2rem;
+		}
+	}
+
+	.koh-footer-items {
+		font-size: 1.5rem;
+		display: flex;
+		justify-content: start;
+		max-width: 85%;
+		margin-bottom: 0px;
+		list-style: none;
+		gap: 20px;
+		padding-left: 0px;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		flex-basis: auto;
+		@media #{$koh-media-screen-sm-max} {
+			flex-direction: column;
+			align-items: start;
+			padding-left: 20px;
+			font-size: 2rem;
+			margin: 0;
+		}
+		@media screen and (min-width: 980px) and (max-width: 1200px) {
+			max-width: 79%;
+		}
+		a {
+			color: $koh-color-white;
+			&:hover {
+				color: #bebebe;
+			}
+		}
+	}
+}
+.c-koh-printfooter {
+	display: none;
+}
+
+	

@@ -1,0 +1,26 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/production/com:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      hst:scheme: https
+      hst:showcontextpath: false
+      hst:showport: false
+      /kohlerasiapacific:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /www:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /hst:root:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:homepage: root
+            hst:mountpoint: /hst:hst/hst:sites/kohler
+            /api:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:mount
+              hst:alias: kohlerapac-api
+              hst:ismapped: false
+              hst:namedpipeline: JaxrsRestPlainPipeline
+              hst:types: [rest]

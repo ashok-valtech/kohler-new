@@ -1,0 +1,72 @@
+/content/documents/plumbingkohlerth/article-master:
+  .meta:order-before: banners
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 26983220-6846-45b1-b9c3-5fd3d21f99fb
+  hippostd:foldertype: []
+  hippotranslation:id: a28068ca-b3d5-4a0c-84d9-551f525dd27d
+  hippotranslation:locale: th_TH
+  /article-banner:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 7f2bf7db-2598-4a96-b178-ce666d7d025b
+    hippostd:foldertype: [new-articleBannerDocument]
+    hippotranslation:id: 9f406ef7-6551-4586-9914-1bdaa21f667e
+    hippotranslation:locale: th_TH
+  /articles-documents:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 1537f0d7-9acd-41c9-83e7-7b7a598afa6e
+    hippostd:foldertype: [new-Article-folder]
+    hippotranslation:id: 7737a1c1-9ae6-4468-af89-be377c674ba9
+    hippotranslation:locale: th_TH
+    /toilet-seats:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 2617767f-a642-4f8c-8b69-f13d26df709e
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 645c3e55-a31f-4e74-96ff-da4b1d7d0faa
+      hippotranslation:locale: th_TH
+    /flushing-technologies:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 12136b8e-a48d-4ec9-a051-d70cb0e9a49b
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 2f3f7354-188d-4753-94af-9a3d30b5afc0
+      hippotranslation:locale: th_TH
+    /waterless-urinals:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: b3af58a8-f349-485a-ad25-7a9287fd1f33
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 481c72f7-4d8e-43cb-971f-a75f4ab6c401
+      hippotranslation:locale: th_TH
+    /bubble-massage-baths:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 9f77e7f6-465b-4ff2-afe8-7c2211fdf168
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 84e15bdd-43e0-4b4f-9755-3cc460de03fe
+      hippotranslation:locale: th_TH
+    /vibra-coustic-baths:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 89f26c19-bc7f-4e5d-a037-c3598103f5b0
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 7f302580-b3cd-453e-88c9-952afdf4a8fa
+      hippotranslation:locale: th_TH
+    /kohler-cast-iron:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: e3de29af-311f-4c05-ad5a-663d02af9e2a
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 49cd4f67-e9fd-4e5a-bf56-6d88c2de6392
+      hippotranslation:locale: th_TH
+    /composed-bathroom-faucet-collection:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+      jcr:uuid: 5d3e5aa2-5738-4973-b22e-3f4a1d580b57
+      hippo:name: Composed Bathroom Faucet Collection
+      hippostd:foldertype: [new-Article]
+      hippotranslation:id: 7c17ceb8-0004-4b6f-a358-45220d2b9e7c
+      hippotranslation:locale: th_TH

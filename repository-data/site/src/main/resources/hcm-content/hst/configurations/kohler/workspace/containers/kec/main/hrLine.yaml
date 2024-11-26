@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers/kec/main/hrLine:
+  .meta:order-before: thumbnail-carousel
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.HRLineComponent
+  hst:iconpath: images/essentials/catalog-component-icons/custom_banner.png
+  hst:label: HR Line
+  hst:parameternames: [fullSize]
+  hst:parametervalues: ['on']
+  hst:template: hrLine
+  hst:xtype: hst.item

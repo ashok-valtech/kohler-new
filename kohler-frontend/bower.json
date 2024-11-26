@@ -1,0 +1,35 @@
+{
+  "name": "Kohler_FrontEnd_Dependencies",
+  "version": "0.0.0",
+  "homepage": "https://github.com/AuthX/Kohler",
+  "authors": [
+    "AuthX Consulting",
+    "Elizabeth Reid <ereid@authxconsulting.com"
+  ],
+  "description": "Front end project for Kohler website, as loaded through Bower",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "modernizr": "~2.8.2",
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.3.0",
+    "slick-carousel": "~1.5.9",
+    "masonry": "~3.3.2",
+    "imagesloaded": "~3.2.0",
+    "nouislider": "~8.2.1",
+    "remodal": "~1.0.6",
+    "qtip2": "~2.2.0",
+    "jquery-zoom": "~1.7.15",
+    "parsleyjs": "^2.4.3"
+  }
+}

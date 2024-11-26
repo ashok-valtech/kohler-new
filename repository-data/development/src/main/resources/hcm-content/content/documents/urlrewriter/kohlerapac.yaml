@@ -1,0 +1,66 @@
+/content/documents/urlrewriter/kohlerapac:
+  jcr:primaryType: urlrewriter:ruleset
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 3127a668-e1fc-4edd-855e-fd3ef27bd04e
+  hippostd:foldertype: [new-urlrewriter-folder, new-urlrewriter-document]
+  /sample-redirect-rule:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 907700b6-3ebf-4b8a-9ce1-62b958c7f8d7
+    hippo:name: Sample Redirect Rule
+    /sample-redirect-rule[1]:
+      jcr:primaryType: urlrewriter:advancedrule
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a2ab37e2-42b7-46c1-9816-b93fd976aabe
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-27T13:45:55.041+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-27T13:48:06.828+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+      urlrewriter:casesensitive: false
+      urlrewriter:isnotlast: false
+      urlrewriter:iswildcardtype: false
+      urlrewriter:qsappend: false
+      urlrewriter:ruledescription: ''
+      urlrewriter:rulefrom: /sample
+      urlrewriter:ruleto: /
+      urlrewriter:ruletype: temporary-redirect
+    /sample-redirect-rule[2]:
+      jcr:primaryType: urlrewriter:advancedrule
+      jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+      jcr:uuid: 87b32ce7-18f6-4d9a-aba0-fe9565102548
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-27T13:45:55.041+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-27T13:48:11.372+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      urlrewriter:casesensitive: false
+      urlrewriter:isnotlast: false
+      urlrewriter:iswildcardtype: false
+      urlrewriter:qsappend: false
+      urlrewriter:ruledescription: ''
+      urlrewriter:rulefrom: /sample
+      urlrewriter:ruleto: /
+      urlrewriter:ruletype: temporary-redirect
+    /sample-redirect-rule[3]:
+      jcr:primaryType: urlrewriter:advancedrule
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2849e35b-848d-460f-8b23-539d33657ef9
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-27T13:45:55.041+05:30
+      hippostdpubwf:lastModificationDate: 2017-09-27T13:48:11.372+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-27T13:48:13.372+05:30
+      urlrewriter:casesensitive: false
+      urlrewriter:isnotlast: false
+      urlrewriter:iswildcardtype: false
+      urlrewriter:qsappend: false
+      urlrewriter:ruledescription: ''
+      urlrewriter:rulefrom: /sample
+      urlrewriter:ruleto: /
+      urlrewriter:ruletype: temporary-redirect

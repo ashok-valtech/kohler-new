@@ -1,0 +1,27 @@
+/content/gallery/plumbingkohlermy/carecleaning_land_hero.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 913a86fe-78dc-4c2f-b400-65e11db3ef4c
+  /carecleaning_land_hero.jpg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: carecleaning_land_hero.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: carecleaning_land_hero.jpg
+      hippogallery:height: 46
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/plumbingkohlermy/carecleaning_land_hero.jpg/carecleaning_land_hero_thumbnail.jpg
+      jcr:lastModified: 2017-05-03T19:18:11.329+05:30
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 232
+      hippogallery:width: 300
+      jcr:data:
+        type: binary
+        resource: /content/gallery/plumbingkohlermy/carecleaning_land_hero.jpg/carecleaning_land_hero_original.jpg
+      jcr:lastModified: 2017-05-03T19:18:11.329+05:30
+      jcr:mimeType: image/jpeg

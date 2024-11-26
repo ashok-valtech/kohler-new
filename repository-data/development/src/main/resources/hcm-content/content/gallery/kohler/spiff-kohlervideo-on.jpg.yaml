@@ -1,0 +1,27 @@
+/content/gallery/kohler/spiff-kohlervideo-on.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 8ebe9db0-c663-455e-9f90-8b25a5537239
+  /spiff-kohlervideo-on.jpg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: spiff-kohlervideo-on.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: spiff-kohlervideo-on.jpg
+      hippogallery:height: 46
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/kohler/spiff-kohlervideo-on.jpg/spiff-kohlervideo-on_thumbnail.jpg
+      jcr:lastModified: 2017-05-09T11:47:38.771+05:30
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 232
+      hippogallery:width: 300
+      jcr:data:
+        type: binary
+        resource: /content/gallery/kohler/spiff-kohlervideo-on.jpg/spiff-kohlervideo-on_original.jpg
+      jcr:lastModified: 2017-05-09T11:47:38.771+05:30
+      jcr:mimeType: image/jpeg

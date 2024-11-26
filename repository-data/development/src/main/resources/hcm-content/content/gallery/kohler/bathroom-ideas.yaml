@@ -1,0 +1,60 @@
+/content/gallery/kohler/bathroom-ideas:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 4ff848d9-aae5-4c86-b033-8d6fea5b38d8
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /placeholder-_1.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8923d67a-beb1-4201-9dd1-2f0b153d2e17
+    /placeholder-_1.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: placeholder-_1.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: placeholder-_1.png
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-ideas/placeholder-_1.png/placeholder-_1_thumbnail.png
+        jcr:lastModified: 2017-05-31T18:12:44.063+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-ideas/placeholder-_1.png/placeholder-_1_original.png
+        jcr:lastModified: 2017-05-31T18:12:44.063+05:30
+        jcr:mimeType: image/png
+  /placeholder-_2.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: aeaee572-2cb8-4f70-9c60-7af4d0524e19
+    /placeholder-_2.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: placeholder-_2.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: placeholder-_2.png
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-ideas/placeholder-_2.png/placeholder-_2_thumbnail.png
+        jcr:lastModified: 2017-05-31T18:12:44.822+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/bathroom-ideas/placeholder-_2.png/placeholder-_2_original.png
+        jcr:lastModified: 2017-05-31T18:12:44.822+05:30
+        jcr:mimeType: image/png

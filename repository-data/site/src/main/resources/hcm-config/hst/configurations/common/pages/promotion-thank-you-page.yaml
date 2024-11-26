@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/promotion-thank-you-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: promo-thankyou-page-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: promo-thankyou/main

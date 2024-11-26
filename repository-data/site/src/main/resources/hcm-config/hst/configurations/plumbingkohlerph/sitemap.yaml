@@ -1,0 +1,337 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/plumbingkohlerph/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:refId: root
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+      /pagenotfound:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:refId: pagenotfound
+      /results:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/search
+        hst:refId: results
+        hst:relativecontentpath: productfacets
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/search
+          hst:relativecontentpath: productfacets/${1}
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/productdetails-page
+          hst:relativecontentpath: products/${1}
+      /menus:
+        jcr:primaryType: hst:sitemapitem
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:relativecontentpath: /menus/${1}
+      /browse:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        /bathroom:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/bathroom
+          hst:refId: Bathroom
+          hst:relativecontentpath: productfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productfacet
+            hst:relativecontentpath: productfacets/${1}
+          /_any_.html:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productdetails-page
+            hst:relativecontentpath: products/${1}
+        /kitchen:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/kitchen
+          hst:refId: Kitchen
+          hst:relativecontentpath: productfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productfacet
+            hst:relativecontentpath: productfacets/${1}
+        /category:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/productfacet
+          hst:refId: Category
+          hst:relativecontentpath: productfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productfacet
+            hst:relativecontentpath: productfacets/${1}
+        /commercial:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/commercial
+          hst:refId: Commercial
+          hst:relativecontentpath: productfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productfacet
+            hst:relativecontentpath: productfacets/${1}
+        /showering:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/showering
+          hst:refId: Showering
+          hst:relativecontentpath: productfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productfacet
+            hst:relativecontentpath: productfacets/${1}
+        /collections:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/collections
+          hst:relativecontentpath: productfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/productfacet
+            hst:relativecontentpath: productfacets/${1}
+        /lazy:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/essentialsProductsLazyComponent
+          hst:refId: productListLazy
+          hst:relativecontentpath: productfacets
+      /literature:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/literaturelist
+        hst:relativecontentpath: ideas/literature
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/literaturelist
+          hst:relativecontentpath: ${parent}/${1}
+      /resources:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/resourceslist
+        hst:relativecontentpath: ideas/resources
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/resourceslist
+          hst:relativecontentpath: ${parent}/${1}
+      /faq:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/faqlist
+        hst:relativecontentpath: faq
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/faqpage
+          hst:relativecontentpath: ${parent}/${1}
+        /_default_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/faqlist
+          hst:relativecontentpath: ${parent}/${1}
+      /glossary:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/glossarylist
+        hst:relativecontentpath: ideas/glossary
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/glossarylist
+          hst:relativecontentpath: ${parent}/${1}
+      /compare:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/productscompare-page
+        hst:refId: compare
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/productscompare-page
+      /careandclean:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/careandcleaning-page
+        hst:refId: careandclean
+        hst:relativecontentpath: ideas/careandclean/listingdocs
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/careandcleaning-page
+          hst:relativecontentpath: ${parent}/${1}
+      /content:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/contentlist
+        hst:relativecontentpath: content
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/contentpage
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/contentlist
+          hst:relativecontentpath: ${parent}/${1}
+      /sitemap:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/sitemap
+        hst:refId: sitemap
+        hst:relativecontentpath: sitemap
+        /categorysitemap.xml:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/categorySitemap
+          hst:parameternames: [siteMenuParentName, siteMenuName, contentRootPath]
+          hst:parametervalues: [SiteMenus, 'bathroom,kitchen', /content/documents/plumbingkohlerph]
+        /brandsitemap.xml:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/categorySitemap
+          hst:parameternames: [siteMenuParentName, siteMenuName, contentRootPath]
+          hst:parametervalues: [brandingmenu, kohlercompany, /content/documents/plumbingkohlerph]
+        /staticsitemap.xml:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/categorySitemap
+          hst:parameternames: [siteMenuParentName, siteMenuName, contentRootPath]
+          hst:parametervalues: [footernavigation, 'group1,group3,group4,group5', /content/documents/plumbingkohlerph]
+        /siteindex.xml:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/siteIndexSitemap
+        /productsitemap.xml:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/productSitemap
+        /contentsitemap.xml:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/categorySitemap
+          hst:parameternames: [siteMenuParentName, siteMenuName, contentRootPath]
+          hst:parametervalues: [SiteMenus, ideas, /content/documents/plumbingkohlerph]
+      /colorpalette:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/colorpalette
+        hst:relativecontentpath: ideas/material-color-palette
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/colorItems
+          hst:relativecontentpath: ideas/material-color-palette/${1}
+      /about-us:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/aboutus
+        hst:refId: aboutus
+        hst:relativecontentpath: menu/footer/aboutus
+      /warranty:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/warranty
+      /privacy:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/privacy
+      /legal:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/legal
+      /storelocator:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/storelocator-page
+        hst:refId: storelocator
+        hst:relativecontentpath: /dealerdocuments
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/storelocator-page
+          hst:relativecontentpath: /dealerdocuments
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/storelocator-page
+          hst:relativecontentpath: /dealerdocuments
+      /storedetail:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/storelocator-detail
+        hst:refId: storedetail
+        hst:relativecontentpath: /dealerdocuments
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/storelocator-detail
+          hst:relativecontentpath: /dealerdocuments
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/storelocator-detail
+          hst:relativecontentpath: /dealerdocuments
+      /addToCompare:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:components/addtocompare
+        hst:refId: addToCompare
+      /suggest:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:components/searchSuggestionComponentPH
+        hst:refId: suggest
+      /productDetails:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/productdetails-page
+        hst:refId: productDetails
+        hst:relativecontentpath: products/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/productdetails-page
+          hst:relativecontentpath: products/${1}
+      /contact-us:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/contactus
+        hst:refId: contact-us
+      /protoolbox:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/protoolbox
+        hst:refId: protoolbox
+        hst:relativecontentpath: menus/footer/protoolbox
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/protoolbox
+          hst:relativecontentpath: ${parent}/${1}
+      /press-releases:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pressreleases
+        hst:relativecontentpath: menus/footer/press-releases
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/pressreleases
+          hst:relativecontentpath: menus/footer/press-releases
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/pressreleases-details
+          hst:relativecontentpath: menus/footer/press-releases/${1}
+        /lazy:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/pressReleasesLazyComponent
+          hst:refId: pressReleasesLazy
+      /articles:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/articles
+          hst:relativecontentpath: article-master/article-banner/${1}
+      /robots.txt:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/robotstxt
+        hst:hiddeninchannelmanager: true
+        hst:relativecontentpath: ../administration/robots
+      /ideas:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        /bathroomIdeas:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/bathroomIdeas
+          hst:relativecontentpath: ideas/bathroom-ideas/${1}
+        /kitchenIdeas:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/kitchenIdeas
+          hst:relativecontentpath: ideas/kitchen-ideas/${1}
+      /global-projects:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/globalprojects
+        hst:refId: globalprojectKey
+        hst:relativecontentpath: global-projects
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/globalprojects
+          hst:relativecontentpath: global-projects
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/globalprojects-details
+          hst:relativecontentpath: global-projects/${1}
+      /about-us-details:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/aboutus-details
+        hst:refId: aboutus-details
+      /ethics:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/ethics
+      /Collections:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/promo-collections
+      /sharewithemail:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:components/shareWithEmailComponent
+        hst:refId: shareEmailLink

@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers/productfacet/main/productfacet:
+  .meta:order-before: productlist
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.kohler.commons.components.ProductFacetsComponent
+  hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+  hst:label: Product Facet
+  hst:parameternames: [facetPath]
+  hst:parametervalues: [/content/documents/plumbingkohlervn/productfacets]
+  hst:template: productfacetpage-navlist
+  hst:xtype: hst.item

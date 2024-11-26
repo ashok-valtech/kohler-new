@@ -1,0 +1,185 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.c-koh-brand-registration-form {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	.brand-form-container {
+		width: 80%;
+		max-width: 1600px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.brand-form-title {
+			font-size: 30px;
+			font-family: $koh-font-sans-serif-light;
+			text-align: center;
+			text-transform: capitalize;
+			@media #{$koh-media-screen-md} {
+				font-size: 40px;
+				margin-bottom: 20px;
+			}
+		}
+		.brand-form-sub-heading {
+			font-size: 20px;
+			font-family: $koh-font-sans-serif-light;
+			text-align: center;
+			text-transform: capitalize;
+			@media #{$koh-media-screen-md} {
+				font-size: 25px;
+			}
+		}
+		.brand-form-require {
+			width: 100%;
+			font-size: 12px;
+			font-family: $koh-font-sans-serif-light;
+			text-align: end;
+			margin-top: 20px;
+			color: #3c3c3c;
+			@media #{$koh-media-screen-md} {
+				font-size: 16px;
+			}
+		}
+		.submit-error-message {
+			color: #FF0000;
+			font-size: 18px;
+			margin-top: 10px;
+			width: 60%;
+			background: #eeeeee;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			text-align: center;
+		}
+		.brand-registration-form {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.brand-form-fields-wrapper {
+				width: 80%;
+				display: flex;;
+				justify-content: space-between;
+				gap: 30px;
+				margin-bottom: 20px;
+				@media screen and (max-width: 768px) {
+					flex-direction: column;
+					gap: 20px;
+					width: 100%;
+				}
+				.brand-form-group {
+					width: 100%;
+					.brand-input-wrapper {
+						 position: relative;
+    					 display: inline-block;
+						 width: 100%;
+						.brand-label {
+							font-size: 17px;
+							font-family: $koh-font-sans-serif-med;
+							letter-spacing: 0.2px;
+						}
+						.brand-input {
+							height: 50px !important;
+							font-size: 16px;
+							letter-spacing: 0.2px;
+							&:invalid {
+								color: gray;
+							}
+							&.custom-select {
+								appearance: none; /* Remove default arrow */
+								-webkit-appearance: none; /* For Safari */
+								-moz-appearance: none; /* For Firefox */
+								background-image: url('../images/down-icon.svg');
+								background-repeat: no-repeat;
+								background-position: right 18px center;
+								background-size: 16px 16px;
+							}
+						}
+						.checkbox-container {
+							display: flex;
+							align-items: start;
+							font-size: 16px;
+							font-family: $koh-font-sans-serif;
+							gap: 10px;
+							input[type="checkbox"]{
+								margin-top: 5px !important;
+							}
+						}
+						.brand-submit-button {
+							width: 100%;
+							height: 50px;
+							font-size: 18px;
+							font-family: $koh-font-sans-serif;
+							background-color: #000000;
+							color: #ffffff;
+							border: none;
+							border-radius: 6px;
+							text-transform: uppercase;
+							&.koh-form-btn-loader {
+								font-size: 0px;
+								height: 40px;
+								background: url(../images/prettyPhoto/light_rounded/loader.gif)
+								  center center no-repeat #e5e5e5;
+							  }
+						}
+						.multi-checkbox-wrapper {
+							display: flex;
+							gap: 25px;
+							margin-top: 10px;
+							flex-wrap: wrap;
+							.multi-checkbox-label {
+								display: flex;
+								align-items: center;
+								gap: 7px;
+								font-size: 18px;
+								font-family: $koh-font-sans-serif;
+								padding: 9px 13px;
+								background: #f0efef;
+								border-radius: 30px;
+								letter-spacing: o.2px;
+								cursor: pointer;
+								.checkbox-round {
+									margin: 0;
+									width: 19px;
+									height: 19px;
+									background-color: white;
+									border-radius: 50%;
+									vertical-align: middle;
+									border: 1px solid #bebebe;
+									appearance: none;
+									-webkit-appearance: none;
+									outline: none;
+									cursor: pointer;
+									&:checked {
+										background: url(../images/Check.svg);
+										background-position: center;
+										background-size: cover;
+									}
+								}
+							}
+						}
+						.captcha-brand-form {
+							transform: scale(1) !important;
+						}
+					}
+					.error-message {
+						color: #ff0000;
+						margin-top: 10px;
+						font-size: 13px;
+					}
+					.input-required:after {
+						content: " * ";
+						color: red;
+					}
+				}
+			}
+		}
+		
+	}
+}

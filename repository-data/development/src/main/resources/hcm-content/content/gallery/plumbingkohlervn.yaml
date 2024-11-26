@@ -1,0 +1,6 @@
+/content/gallery/plumbingkohlervn:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: b3424554-78be-49d8-93c7-f782f5fd24ab
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

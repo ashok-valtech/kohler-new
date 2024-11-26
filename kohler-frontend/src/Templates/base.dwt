@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- meta data -->
+		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-title" content="@@(SiteTitle)@@">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="keywords" content="Content from SEO component?">
+		<meta name="description" content="Content from SEO component?">
+		
+		<!-- FED Note: Aaron Romine has some nice ideas about how to insert the page title into the page
+		     without having to include the <title> in a headContribution; I suggest asking him about it. -->
+		<!-- document title -->
+		<title>@@(PageTitle)@@</title>
+		<!-- /end document title -->
+		
+		<!-- fav icons -->
+		<link rel="shortcut icon" href="@@(FavIconPathICO)@@" type="image/x-icon">
+		<link rel="icon" href="@@(FavIconPathICO)@@" type="image/vnd.microsoft.icon">
+		<link rel="apple-touch-icon-precomposed" href="@@(FavIconPathPNG)@@">
+		<!-- /end fav icons -->
+		
+		<!-- styles --> 
+		<!-- TemplateBeginEditable name="External Stylesheets" --> <!-- TemplateEndEditable -->
+		<!-- /end styles -->
+		
+		<!-- head scripts -->
+		<!-- TemplateBeginEditable name="Head Scripts" --> <!-- TemplateEndEditable -->
+		<!-- /end head scripts -->
+	</head>
+	<body>
+		<!-- TemplateBeginEditable name="Body Content" --> <!-- TemplateEndEditable -->
+	
+		<!-- body scripts --> 
+		<!-- TemplateBeginEditable name="Body Scripts" --> <!-- TemplateEndEditable --> 
+		<!-- /end body scripts -->
+	</body>
+	
+	<!-- TemplateParam name="SiteTitle" type="text" value="[[SiteTitle]]" -->
+	<!-- TemplateParam name="PageTitle" type="text" value="[[PageTitle]]" -->
+	<!-- TemplateParam name="FavIconPathICO" type="text" value="[[FavIconICOPath]]" -->
+	<!-- TemplateParam name="FavIconPathPNG" type="text" value="[[FavIconPNGPath]]" -->
+	<!-- TemplateBeginEditable name="TemplateParams-Base" --> <!-- TemplateEndEditable -->	
+</html>

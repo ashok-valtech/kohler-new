@@ -1,0 +1,47 @@
+/content/documents/administration/robots:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 027b3baa-8c8a-4c70-b4bf-a6e64161b83d
+  /robots[1]:
+    jcr:primaryType: robotstxt:robotstxt
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: f81ed182-3dca-4264-9d97-cad0b45a7dd9
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-06-02T14:04:49.737+02:00
+    hippostdpubwf:lastModificationDate: 2017-05-31T17:15:28.045+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2017-05-31T17:15:32.244+05:30
+    /robotstxt:section:
+      jcr:primaryType: robotstxt:section
+      robotstxt:disallow: [/]
+      robotstxt:useragent: '*'
+  /robots[2]:
+    jcr:primaryType: robotstxt:robotstxt
+    jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+    jcr:uuid: fabecb12-8086-44ce-9dbc-88b101249cc4
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-06-02T14:04:49.737+02:00
+    hippostdpubwf:lastModificationDate: 2017-05-31T17:15:28.045+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    /robotstxt:section:
+      jcr:primaryType: robotstxt:section
+      robotstxt:disallow: [/]
+      robotstxt:useragent: '*'
+  /robots[3]:
+    jcr:primaryType: robotstxt:robotstxt
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 5e90e3f2-50df-4cdd-9bf7-f1fd2765f366
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-06-02T14:04:49.737+02:00
+    hippostdpubwf:lastModificationDate: 2017-05-31T17:15:52.185+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    /robotstxt:section:
+      jcr:primaryType: robotstxt:section
+      robotstxt:disallow: [/]
+      robotstxt:useragent: '*'

@@ -1,0 +1,65 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler/promotionRibbonDoc:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: f8590262-ec62-4641-9599-51ba727443fe
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 846e6208-4270-4c83-b3e5-21362ed56845
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: ca547cc9-2b4f-42d1-813d-77b408c8b7ee
+          hipposysedit:node: true
+          hipposysedit:supertype: ['kohler:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/kohler/nt/1.0
+          /kohler_promotionribbon:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: kohler:kohler_promotionribbon
+            hipposysedit:primary: false
+            hipposysedit:type: kohler:promotionRibbon
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: kohler:promotionRibbonDoc
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a3c36447-a665-4f43-9943-af3b44564b82
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2019-12-03T13:31:01.724+05:30
+          hippostdpubwf:lastModificationDate: 2019-12-03T13:31:01.724+05:30
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          /kohler:kohler_promotionribbon:
+            jcr:primaryType: kohler:promotionRibbon
+            kohler:ctaLabel: ''
+            kohler:ctaLink: ''
+            kohler:deskTopTitle: ''
+            kohler:responsiveTitle: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /kohler_promotionribbon:
+            jcr:primaryType: frontend:plugin
+            caption: kohler:promotionRibbon
+            field: kohler_promotionribbon
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

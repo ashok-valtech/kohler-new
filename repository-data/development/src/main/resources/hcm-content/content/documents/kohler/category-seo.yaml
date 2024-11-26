@@ -1,0 +1,1914 @@
+/content/documents/kohler/category-seo:
+  .meta:order-before: categorybanner
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 0c27d571-0b00-4412-9622-efb00054679f
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 9d922128-f874-40df-924f-ff24607f4bab
+  hippotranslation:locale: en
+  /browse:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: dd242fd0-4ba0-48af-a779-af808e02519c
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: c77b68c2-36b5-4853-a23f-e68762c5086f
+    hippotranslation:locale: en
+    /bathroom:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 1c5ea847-ef02-49a1-9803-a8aa6743e2ef
+      hippo:name: BathRoom
+      hippostd:foldertype: [new-seoCategoryDocument]
+      hippotranslation:id: 41bfe16b-ad74-42b0-b5b2-14876b1dc1e9
+      hippotranslation:locale: en
+      /lavatories:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ca4ee7d6-e8f3-443e-82f5-53ad44ac71df
+        /lavatories[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1415aeb7-d4c1-4375-b451-7f01e31f2c9e
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-23T17:44:44.941+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:33:50.788Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 60f35720-ad41-4b30-85ab-6988ba8a5208
+          hippotranslation:locale: en
+          kohler:categoryKey: lavatories
+          kohler:categoryName: Lavatories
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Lavatories , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Lavatories – KOHLER
+        /lavatories[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1041e418-1578-47f4-b7a9-74e8a37b5b02
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-23T17:44:44.941+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:33:51.092Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 60f35720-ad41-4b30-85ab-6988ba8a5208
+          hippotranslation:locale: en
+          kohler:categoryKey: lavatories
+          kohler:categoryName: Lavatories
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Lavatories , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Lavatories – KOHLER
+        /lavatories[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 20ceec05-557f-48c4-a10a-af4a35ad7520
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-23T17:44:44.941+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:33:51.092Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:33:51.289Z
+          hippotranslation:id: 60f35720-ad41-4b30-85ab-6988ba8a5208
+          hippotranslation:locale: en
+          kohler:categoryKey: lavatories
+          kohler:categoryName: Lavatories
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Lavatories , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Lavatories – KOHLER
+      /bathroom-faucets:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 0abd2f6b-ce88-401b-b905-153ce6dbbb76
+        hippo:name: Bathroom Faucets
+        /bathroom-faucets[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3ad9fc74-84fd-4ab6-9e90-7e164aa19c38
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:47:06.145+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:35:24.098Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 683cec00-4753-415e-833f-8246400b6fee
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-faucets
+          kohler:categoryName: Bathroom Faucets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Faucets
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Faucets – KOHLER
+        /bathroom-faucets[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 9ef1cee6-2bc2-44f8-ab6f-16895cd249fa
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:47:06.145+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:35:24.638Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 683cec00-4753-415e-833f-8246400b6fee
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-faucets
+          kohler:categoryName: Bathroom Faucets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Faucets
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Faucets – KOHLER
+        /bathroom-faucets[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4fcef72a-d45b-4710-a344-debea029c410
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:47:06.145+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:35:24.638Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:35:24.885Z
+          hippotranslation:id: 683cec00-4753-415e-833f-8246400b6fee
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-faucets
+          kohler:categoryName: Bathroom Faucets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Faucets
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Faucets – KOHLER
+      /toilets:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: f327e374-ef2d-45ea-bab8-7b0fa11fc014
+        hippo:name: Toilets
+        /toilets[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5a941f22-f3a1-4161-94ab-404733c6eb20
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:47:43.028+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:32:11.936Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: d9e09a6e-99ad-4163-a336-4703147e9fb9
+          hippotranslation:locale: en
+          kohler:categoryKey: toilets
+          kohler:categoryName: Toilets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Toilets , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Toilets – KOHLER
+        /toilets[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: b94b48c4-3f74-4278-9eef-c2021ba58e37
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:47:43.028+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:32:12.246Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: d9e09a6e-99ad-4163-a336-4703147e9fb9
+          hippotranslation:locale: en
+          kohler:categoryKey: toilets
+          kohler:categoryName: Toilets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Toilets , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Toilets – KOHLER
+        /toilets[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8bc39e75-4c5e-47b4-88bd-34fa97735b70
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:47:43.028+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:32:12.246Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:32:12.449Z
+          hippotranslation:id: d9e09a6e-99ad-4163-a336-4703147e9fb9
+          hippotranslation:locale: en
+          kohler:categoryKey: toilets
+          kohler:categoryName: Toilets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Toilets , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Toilets – KOHLER
+      /toilet-seats:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 0f91db52-deb7-4f9b-9471-e5711214e9b3
+        hippo:name: Toilet Seats
+        /toilet-seats[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3b590b62-1071-470b-93dc-12447cf73a4e
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:13.575+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:50:47.289Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: c96cac42-5df3-429a-afe9-720588ba2943
+          hippotranslation:locale: en
+          kohler:categoryKey: toilet-seats
+          kohler:categoryName: Toilet Seats
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seotitle: Toilet Seats – KOHLER
+        /toilet-seats[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 33c8992a-ed01-4d81-82b3-91154682b27c
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:13.575+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:50:47.575Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: c96cac42-5df3-429a-afe9-720588ba2943
+          hippotranslation:locale: en
+          kohler:categoryKey: toilet-seats
+          kohler:categoryName: Toilet Seats
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seotitle: Toilet Seats – KOHLER
+        /toilet-seats[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1b2d25a4-d057-4359-8545-704169d36952
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:13.575+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:50:47.575Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:50:47.708Z
+          hippotranslation:id: c96cac42-5df3-429a-afe9-720588ba2943
+          hippotranslation:locale: en
+          kohler:categoryKey: toilet-seats
+          kohler:categoryName: Toilet Seats
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seotitle: Toilet Seats – KOHLER
+      /bathing:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ac8be750-bb25-4085-a0e1-8b6c595cc4a0
+        hippo:name: Bathing
+        /bathing[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7249d2e0-e4ee-43b0-8f00-77b86dbdc070
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:32.024+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:32:59.075Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 8b920607-59c1-4f14-ba12-b785c4c2f406
+          hippotranslation:locale: en
+          kohler:categoryKey: bathing
+          kohler:categoryName: Bathing
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathing , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Bathing – KOHLER
+        /bathing[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 26f32d28-4f38-4613-a508-20f792cd5b20
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:32.024+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:32:59.557Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 8b920607-59c1-4f14-ba12-b785c4c2f406
+          hippotranslation:locale: en
+          kohler:categoryKey: bathing
+          kohler:categoryName: Bathing
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathing , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Bathing – KOHLER
+        /bathing[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9cd46a66-2129-4093-9460-49dd7289b752
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:32.024+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:32:59.557Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:32:59.844Z
+          hippotranslation:id: 8b920607-59c1-4f14-ba12-b785c4c2f406
+          hippotranslation:locale: en
+          kohler:categoryKey: bathing
+          kohler:categoryName: Bathing
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathing , many
+              more designer kitchen and luxury bathroom accessories. Locate your nearest
+              KOHLER outlet.
+            seosupport:seotitle: Bathing – KOHLER
+      /commercial-bathroom:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 8a088e4b-8548-48cd-9d6b-969ebc4b08ae
+        hippo:name: Commercial Bathroom
+        /commercial-bathroom[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 29d3a931-e1f9-40d0-a485-89b120301f7c
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:50.093+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:38:34.387Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 9aab6422-af22-4b11-8634-039a637c8626
+          hippotranslation:locale: en
+          kohler:categoryKey: commercial-bathroom
+          kohler:categoryName: Commercial Bathroom
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: false
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Commercial Bathroom
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Commercial Bathroom – KOHLER
+        /commercial-bathroom[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: ed367c67-7eba-4a2b-a1af-e1f884028f20
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:50.093+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:38:34.957Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 9aab6422-af22-4b11-8634-039a637c8626
+          hippotranslation:locale: en
+          kohler:categoryKey: commercial-bathroom
+          kohler:categoryName: Commercial Bathroom
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: false
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Commercial Bathroom
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Commercial Bathroom – KOHLER
+        /commercial-bathroom[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 32d60d5c-4cf3-49be-92a7-135af4146ae6
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:48:50.093+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:38:34.957Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:38:35.361Z
+          hippotranslation:id: 9aab6422-af22-4b11-8634-039a637c8626
+          hippotranslation:locale: en
+          kohler:categoryKey: commercial-bathroom
+          kohler:categoryName: Commercial Bathroom
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: false
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Commercial Bathroom
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Commercial Bathroom – KOHLER
+      /shower-doors:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: fbbe1a4b-1d52-403a-b895-e95329f176f5
+        hippo:name: Shower Doors
+        /shower-doors[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: fa3e3b21-c3da-4870-9f27-d7f07c0c32ab
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:49:52.669+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:36:38.572Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 470e452b-a48b-43ed-9a87-7bec9c136747
+          hippotranslation:locale: en
+          kohler:categoryKey: shower-doors
+          kohler:categoryName: Shower Doors
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Shower Doors ,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Shower Doors – KOHLER
+        /shower-doors[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1d7e912f-13ee-4fc9-9663-d995d3a48c9a
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:49:52.669+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:36:38.950Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 470e452b-a48b-43ed-9a87-7bec9c136747
+          hippotranslation:locale: en
+          kohler:categoryKey: shower-doors
+          kohler:categoryName: Shower Doors
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Shower Doors ,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Shower Doors – KOHLER
+        /shower-doors[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ca931ef9-c351-496a-97fc-b40daf370844
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:49:52.669+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:36:38.950Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:36:39.216Z
+          hippotranslation:id: 470e452b-a48b-43ed-9a87-7bec9c136747
+          hippotranslation:locale: en
+          kohler:categoryKey: shower-doors
+          kohler:categoryName: Shower Doors
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Shower Doors ,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Shower Doors – KOHLER
+      /steam-generator:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 8ff6873b-148b-4445-bb6f-94cb070dfc34
+        hippo:name: Steam Generator
+        /steam-generator[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bb1dc558-b921-4839-9de5-7f432651b8c4
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:50:23.881+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:17:31.362Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 663664fc-651d-4ba1-8ce7-bda54f2333ac
+          hippotranslation:locale: en
+          kohler:categoryKey: steam-generator
+          kohler:categoryName: Steam Generator
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Steam Generator
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Steam Generator – KOHLER
+        /steam-generator[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1b539dee-affd-4009-bdb1-2386243c67b8
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:50:23.881+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:17:31.669Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 663664fc-651d-4ba1-8ce7-bda54f2333ac
+          hippotranslation:locale: en
+          kohler:categoryKey: steam-generator
+          kohler:categoryName: Steam Generator
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Steam Generator
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Steam Generator – KOHLER
+        /steam-generator[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7ef40160-8e27-4c42-88ad-331c3515347b
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:50:23.881+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:17:31.669Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:17:31.864Z
+          hippotranslation:id: 663664fc-651d-4ba1-8ce7-bda54f2333ac
+          hippotranslation:locale: en
+          kohler:categoryKey: steam-generator
+          kohler:categoryName: Steam Generator
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Steam Generator
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Steam Generator – KOHLER
+      /bathroom-furniture:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 69fbd0b4-5bff-4780-9766-0ee97674296a
+        hippo:name: Bathroom Furniture
+        /bathroom-furniture[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b55d3aaa-0f56-45bd-917a-f4f78f4cc10a
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:51:01.597+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:28:49.798Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 76134da0-12c3-44de-8236-a6079f665cbe
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-furniture
+          kohler:categoryName: Bathroom Furniture
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Furniture
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Furniture – KOHLER
+        /bathroom-furniture[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 00639afe-7d05-478e-bf21-e33cbc7e0303
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:51:01.597+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:28:50.146Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 76134da0-12c3-44de-8236-a6079f665cbe
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-furniture
+          kohler:categoryName: Bathroom Furniture
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Furniture
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Furniture – KOHLER
+        /bathroom-furniture[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7bf6cf9f-61d2-440a-8b5a-32b40bf73b65
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:51:01.597+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:28:50.146Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:28:50.361Z
+          hippotranslation:id: 76134da0-12c3-44de-8236-a6079f665cbe
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-furniture
+          kohler:categoryName: Bathroom Furniture
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Furniture
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Furniture – KOHLER
+      /mirrored-cabinet:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: e9ba3145-63e3-4dca-9144-3163a78221df
+        hippo:name: Mirrored Cabinet
+        /mirrored-cabinet[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 01c87ac9-6855-476d-8263-1ee60a3871c1
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:51:30.396+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T11:47:33.046+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 45e988ab-b792-428a-8ff0-f53b5d8326a1
+          hippotranslation:locale: en
+          kohler:categoryKey: mirrored-cabinet
+          kohler:categoryName: Mirrored Cabinet
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Mirrored Cabinet
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Mirrored Cabinet – KOHLER
+        /mirrored-cabinet[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: a1e844ac-3853-4090-b197-b99b0d2e8b10
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:51:30.396+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:23.676+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 45e988ab-b792-428a-8ff0-f53b5d8326a1
+          hippotranslation:locale: en
+          kohler:categoryKey: mirrored-cabinet
+          kohler:categoryName: Mirrored Cabinet
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Mirrored Cabinet
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Mirrored Cabinet – KOHLER
+        /mirrored-cabinet[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: cfec3865-1b3f-4557-948d-ae9b066aa243
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:51:30.396+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:23.676+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:23.740+05:30
+          hippotranslation:id: 45e988ab-b792-428a-8ff0-f53b5d8326a1
+          hippotranslation:locale: en
+          kohler:categoryKey: mirrored-cabinet
+          kohler:categoryName: Mirrored Cabinet
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Mirrored Cabinet
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Mirrored Cabinet – KOHLER
+      /mirror:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: f8886284-cbbe-495d-99f1-b82abeb42159
+        hippo:name: Mirror
+        /mirror[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1e73fab6-0773-4c60-981c-0bcd6df152f9
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:52:55.458+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T11:47:33.226+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: b38b84f0-ede4-435b-953c-fc368cb0f720
+          hippotranslation:locale: en
+          kohler:categoryKey: mirror
+          kohler:categoryName: Mirror
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Mirror Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Mirror – KOHLER
+        /mirror[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 249de380-0830-4948-946c-224896439879
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:52:55.458+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:23.906+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: b38b84f0-ede4-435b-953c-fc368cb0f720
+          hippotranslation:locale: en
+          kohler:categoryKey: mirror
+          kohler:categoryName: Mirror
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Mirror Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Mirror – KOHLER
+        /mirror[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: addced4b-0a3e-429d-b9c9-92b41543e94d
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:52:55.458+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:23.906+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:23.938+05:30
+          hippotranslation:id: b38b84f0-ede4-435b-953c-fc368cb0f720
+          hippotranslation:locale: en
+          kohler:categoryKey: mirror
+          kohler:categoryName: Mirror
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Mirror Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Mirror – KOHLER
+      /artist-editions:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: c43e438c-b432-4da3-a6ec-d44dd053c522
+        hippo:name: Artist Editions
+        /artist-editions[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 718cf345-190c-4b88-9f38-59e2825f25a9
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:13.687+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T11:47:33.388+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: da80e05f-1155-4ce1-a704-da2a153dca56
+          hippotranslation:locale: en
+          kohler:categoryKey: artist-editions
+          kohler:categoryName: Artist Editions
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Artist Editions
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Artist Editions – KOHLER
+        /artist-editions[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1ff662bc-0715-4c88-97b4-2b28969ff07f
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:13.687+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:24.033+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: da80e05f-1155-4ce1-a704-da2a153dca56
+          hippotranslation:locale: en
+          kohler:categoryKey: artist-editions
+          kohler:categoryName: Artist Editions
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Artist Editions
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Artist Editions – KOHLER
+        /artist-editions[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f75cabdf-7af4-4a76-99f0-9a5ac553a335
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:13.687+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:24.033+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:24.080+05:30
+          hippotranslation:id: da80e05f-1155-4ce1-a704-da2a153dca56
+          hippotranslation:locale: en
+          kohler:categoryKey: artist-editions
+          kohler:categoryName: Artist Editions
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Artist Editions
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Artist Editions – KOHLER
+      /bathroom-accessories:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: a8aad2f6-2d75-428e-b8fb-285f54ff704e
+        hippo:name: Bathroom Accessories
+        /bathroom-accessories[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ad5f76d1-ada8-453a-9fda-44c652db0841
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:39.081+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T11:47:33.629+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: a53a294d-57ab-492e-963e-04329f9986f8
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-accessories
+          kohler:categoryName: Bathroom Accessories
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Accessories
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Bathroom Accessories – KOHLER
+        /bathroom-accessories[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 5b945d9c-9def-4435-a391-3a24d92ec74b
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:39.081+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:24.309+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: a53a294d-57ab-492e-963e-04329f9986f8
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-accessories
+          kohler:categoryName: Bathroom Accessories
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Accessories
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Bathroom Accessories – KOHLER
+        /bathroom-accessories[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 458a1aca-30d6-4a12-8b6b-4c3a36eec098
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:39.081+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:24.309+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:24.338+05:30
+          hippotranslation:id: a53a294d-57ab-492e-963e-04329f9986f8
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-accessories
+          kohler:categoryName: Bathroom Accessories
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Accessories
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Bathroom Accessories – KOHLER
+      /bathroom-suites:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 6700dfa3-e0de-4baa-83b5-6530e7c36ec0
+        hippo:name: Bathroom Suites
+        /bathroom-suites[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f23aeedf-c8ee-477e-b975-623ffd8544b2
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:54.640+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:37:07.307Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: e410531a-b638-4d50-8b57-f7db6ccb84bd
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-suites
+          kohler:categoryName: Bathroom Suites
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Suites
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Suites – KOHLER
+        /bathroom-suites[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 3a1328d3-cb08-45dc-a04f-6b12dbf0c066
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:54.640+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:37:07.656Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: e410531a-b638-4d50-8b57-f7db6ccb84bd
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-suites
+          kohler:categoryName: Bathroom Suites
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Suites
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Suites – KOHLER
+        /bathroom-suites[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 30c78b46-7f95-42c8-a290-1a6058a03c8a
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:53:54.640+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:37:07.656Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:37:08.055Z
+          hippotranslation:id: e410531a-b638-4d50-8b57-f7db6ccb84bd
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-suites
+          kohler:categoryName: Bathroom Suites
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Bathroom Suites
+              , many more designer kitchen and luxury bathroom accessories. Locate
+              your nearest KOHLER outlet.
+            seosupport:seotitle: Bathroom Suites – KOHLER
+      /lavatory-faucets:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 10b5d49e-0ef9-453e-b4b1-c6d8d7c9cad6
+        hippo:name: Lavatory Faucets
+        /lavatory-faucets[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 75c9e46f-e42f-4e17-b83d-43ff554c5df2
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:14.733+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T11:47:33.921+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 5ebbd2e8-2ec4-49a8-b1cd-95789fd31260
+          hippotranslation:locale: en
+          kohler:categoryKey: lavatory-faucets
+          kohler:categoryName: Lavatory Faucets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Lavatory Faucets
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Lavatory Faucets – KOHLER
+        /lavatory-faucets[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 7595581d-1723-4b54-a3d0-3dbb168b7cf4
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:14.733+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:24.645+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 5ebbd2e8-2ec4-49a8-b1cd-95789fd31260
+          hippotranslation:locale: en
+          kohler:categoryKey: lavatory-faucets
+          kohler:categoryName: Lavatory Faucets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Lavatory Faucets
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Lavatory Faucets – KOHLER
+        /lavatory-faucets[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 337b06f1-ed1f-477b-a072-1a3be9590042
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:14.733+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:24.645+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:24.686+05:30
+          hippotranslation:id: 5ebbd2e8-2ec4-49a8-b1cd-95789fd31260
+          hippotranslation:locale: en
+          kohler:categoryKey: lavatory-faucets
+          kohler:categoryName: Lavatory Faucets
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Lavatory Faucets
+              Bathroom, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Lavatory Faucets – KOHLER
+      /fittings:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: d703546e-10f0-4def-a711-6c00a7e15d68
+        hippo:name: Fittings
+        /fittings[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0d45f81d-28c2-4d72-b323-1bbee125ad6e
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:40.087+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T11:47:34.151+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 8fc8cc37-006c-4faa-96da-909334a5b724
+          hippotranslation:locale: en
+          kohler:categoryKey: fittings
+          kohler:categoryName: Fittings
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Fittings Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Fittings – KOHLER
+        /fittings[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: bf1395c8-f65d-4d1a-98c4-8104949e2c6b
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:40.087+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:25.015+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 8fc8cc37-006c-4faa-96da-909334a5b724
+          hippotranslation:locale: en
+          kohler:categoryKey: fittings
+          kohler:categoryName: Fittings
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Fittings Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Fittings – KOHLER
+        /fittings[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ea966b8c-da49-45dc-9c43-1e79383c99db
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:40.087+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:25.015+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:25.074+05:30
+          hippotranslation:id: 8fc8cc37-006c-4faa-96da-909334a5b724
+          hippotranslation:locale: en
+          kohler:categoryKey: fittings
+          kohler:categoryName: Fittings
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Fittings Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Fittings – KOHLER
+      /hydrotherapy-baths:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 88b9e4be-90c8-4af6-beef-fbfda37b47b2
+        hippo:name: Hydrotherapy Baths
+        /hydrotherapy-baths[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c35cf01b-3548-438c-93b4-e2326688a172
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:57.984+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T15:00:27.554Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 75dce49a-78dc-4682-b8ea-5132b62a0c14
+          hippotranslation:locale: en
+          kohler:categoryKey: hydrotherapy-baths
+          kohler:categoryName: Hydrotherapy Baths
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Hydrotheraphy baths
+            seosupport:seotitle: Designer & Luxury Hydrotherapy Baths – KOHLER
+        /hydrotherapy-baths[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 978dc8fa-0521-4d64-a6af-b7f662c3e46d
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:57.984+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T15:00:29.044Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 75dce49a-78dc-4682-b8ea-5132b62a0c14
+          hippotranslation:locale: en
+          kohler:categoryKey: hydrotherapy-baths
+          kohler:categoryName: Hydrotherapy Baths
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Hydrotheraphy baths
+            seosupport:seotitle: Designer & Luxury Hydrotherapy Baths – KOHLER
+        /hydrotherapy-baths[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4e07f1e8-7f93-4d51-9484-f9853b16bc67
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:54:57.984+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T15:00:29.044Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T15:00:29.406Z
+          hippotranslation:id: 75dce49a-78dc-4682-b8ea-5132b62a0c14
+          hippotranslation:locale: en
+          kohler:categoryKey: hydrotherapy-baths
+          kohler:categoryName: Hydrotherapy Baths
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Hydrotheraphy baths
+            seosupport:seotitle: Designer & Luxury Hydrotherapy Baths – KOHLER
+      /handshowers:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 199fc9ed-dee3-420f-afa6-9b552848eea0
+        hippo:name: Handshowers
+        /handshowers[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 03106d2b-8eda-4e7f-988f-8734274b3044
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:55:21.394+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:40:19.915Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: e522fa11-2b4e-4137-8725-e3602fd00343
+          hippotranslation:locale: en
+          kohler:categoryKey: handshowers
+          kohler:categoryName: Handshowers
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seotitle: Designer & Luxury Handshowers – KOHLER
+        /handshowers[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 3292f416-8d01-4950-b67f-535de6a0e336
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:55:21.394+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:40:20.312Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: e522fa11-2b4e-4137-8725-e3602fd00343
+          hippotranslation:locale: en
+          kohler:categoryKey: handshowers
+          kohler:categoryName: Handshowers
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seotitle: Designer & Luxury Handshowers – KOHLER
+        /handshowers[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bcbcfe86-cd98-450c-b376-22f5ffd0ddfd
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:55:21.394+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:40:20.312Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:40:20.528Z
+          hippotranslation:id: e522fa11-2b4e-4137-8725-e3602fd00343
+          hippotranslation:locale: en
+          kohler:categoryKey: handshowers
+          kohler:categoryName: Handshowers
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seotitle: Designer & Luxury Handshowers – KOHLER
+      /bathroom-showering:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ab9b4e86-3f79-42c1-8454-f6f453bab773
+        hippo:name: Bathroom Showering
+        /bathroom-showering[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e5907ed8-206a-473c-821d-55e268e88028
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-29T13:43:08.486+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-09T16:22:27.118+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e87b20f4-0618-462b-8487-bed5b342939f
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-showering
+          kohler:categoryName: Showering
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Showering Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Showering title – KOHLER
+        /bathroom-showering[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 294c3c4c-9736-4f89-8a3d-a7d1909aac3c
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-29T13:43:08.486+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-09T16:22:27.193+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e87b20f4-0618-462b-8487-bed5b342939f
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-showering
+          kohler:categoryName: Showering
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Showering Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Showering title – KOHLER
+        /bathroom-showering[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e048f90f-348c-4cb9-a808-c0cd7847b652
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-29T13:43:08.486+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-09T16:22:27.193+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-09-09T16:22:27.251+05:30
+          hippotranslation:id: e87b20f4-0618-462b-8487-bed5b342939f
+          hippotranslation:locale: en
+          kohler:categoryKey: bathroom-showering
+          kohler:categoryName: Showering
+          kohler:categoryType: bathroom
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Showering Bathroom,
+              many more designer kitchen and luxury bathroom accessories. Locate your
+              nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Showering title – KOHLER
+    /kitchen:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 54c5c56d-80d6-4075-a1da-41551abbc2e3
+      hippo:name: Kitchen
+      hippostd:foldertype: [new-seoCategoryDocument]
+      hippotranslation:id: 9ec64adf-ed05-4fef-9319-296964839b96
+      hippotranslation:locale: en
+      /kitchen-sinks:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 323b0604-149b-4cad-bc7a-a559840e52fc
+        hippo:name: Kitchen Sinks
+        /kitchen-sinks[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 121a2954-c9e9-4685-b333-a0f20ae9c8fd
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-25T22:43:47.576+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T15:00:47.049Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 6581591f-bbe7-4cee-a277-ccfe58fc5580
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-sinks
+          kohler:categoryName: Kitchen Sinks
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Sinks
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Kitchen Sinks – KOHLER
+        /kitchen-sinks[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 00a4ab7a-46b2-4d7f-afba-f6246e853c4b
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-25T22:43:47.576+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:08:18.242Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 6581591f-bbe7-4cee-a277-ccfe58fc5580
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-sinks
+          kohler:categoryName: Kitchen Sinks
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Sinks
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Kitchen Sinks – KOHLER
+        /kitchen-sinks[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d3c8dcb9-6c16-41ab-b271-9f3382e604c7
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-25T22:43:47.576+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:08:18.242Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:08:18.422Z
+          hippotranslation:id: 6581591f-bbe7-4cee-a277-ccfe58fc5580
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-sinks
+          kohler:categoryName: Kitchen Sinks
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Sinks
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Kitchen Sinks – KOHLER
+      /kitchen-faucets:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 0fe980f7-60b0-4a5a-ab9c-ec0f999b6cf2
+        hippo:name: Kitchen Faucets
+        /kitchen-faucets[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9a7b8ab7-e172-43c2-b5af-12fe32632667
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:11.097+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-05T06:05:41.187Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 2e7b74c7-fc90-4cb4-8c0c-56fae4e85551
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-faucets
+          kohler:categoryName: Kitchen Faucets
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Faucets
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Faucets – KOHLER.
+        /kitchen-faucets[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 6ba9f963-21aa-4c79-a1ec-5b9335bf763e
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:11.097+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-05T06:05:41.491Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 2e7b74c7-fc90-4cb4-8c0c-56fae4e85551
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-faucets
+          kohler:categoryName: Kitchen Faucets
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Faucets
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Faucets – KOHLER.
+        /kitchen-faucets[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6718d35a-bc20-4230-9082-cfe94c597779
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:11.097+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-05T06:05:41.491Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-05T06:05:41.614Z
+          hippotranslation:id: 2e7b74c7-fc90-4cb4-8c0c-56fae4e85551
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-faucets
+          kohler:categoryName: Kitchen Faucets
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Faucets
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Faucets – KOHLER.
+      /kitchen-accessories:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 7987c1ec-587e-4163-bac4-2f57cbc6ae2d
+        hippo:name: Kitchen Accessories
+        /kitchen-accessories[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5ab41d64-bca6-4e1f-94d6-130e3ddf4e79
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:30.020+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:01:16.343Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 5995465a-0a71-432f-9569-8156697d7eb6
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-accessories
+          kohler:categoryName: Kitchen Accessories
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Accessories
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Accessories – KOHLER
+        /kitchen-accessories[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 5e316a0f-cd54-4720-beba-382271eb1477
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:30.020+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:01:16.610Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 5995465a-0a71-432f-9569-8156697d7eb6
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-accessories
+          kohler:categoryName: Kitchen Accessories
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Accessories
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Accessories – KOHLER
+        /kitchen-accessories[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e8ed26b8-3a71-49f0-b8ac-71d2de1213da
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:30.020+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:01:16.610Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:01:17.001Z
+          hippotranslation:id: 5995465a-0a71-432f-9569-8156697d7eb6
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-accessories
+          kohler:categoryName: Kitchen Accessories
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Accessories
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Accessories – KOHLER
+      /kitchen-artist-editions:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 99a88aef-9cf9-47c3-98bf-5e119c41dcbf
+        hippo:name: Kitchen Artist Editions
+        /kitchen-artist-editions[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: fd2556b2-c8bf-4c8d-a1ca-ea79bec4d312
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:50.078+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:06:00.085Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 8bdf3c1c-4971-4c4b-a759-cc070e8e1a66
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-artist-editions
+          kohler:categoryName: Kitchen Artist Editions
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Artist
+              Editions Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Artist Editions – KOHLER
+        /kitchen-artist-editions[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 0909e1da-9f27-4551-af8e-2992b4609f98
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:50.078+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:26.145+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 8bdf3c1c-4971-4c4b-a759-cc070e8e1a66
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-artist-editions
+          kohler:categoryName: Kitchen Artist Editions
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Artist
+              Editions Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Artist Editions – KOHLER
+        /kitchen-artist-editions[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3ee7c1e1-f539-43ef-805e-de2a384fa1fb
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:56:50.078+05:30
+          hippostdpubwf:lastModificationDate: 2019-08-29T12:32:26.145+05:30
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-08-29T12:32:26.184+05:30
+          hippotranslation:id: 8bdf3c1c-4971-4c4b-a759-cc070e8e1a66
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-artist-editions
+          kohler:categoryName: Kitchen Artist Editions
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:noFollow: false
+            seosupport:noIndex: false
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Artist
+              Editions Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Artist Editions – KOHLER
+      /kitchen-systems:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 3c79950e-943d-4494-b3f2-1dacf5853846
+        hippo:name: Kitchen Systems
+        /kitchen-systems[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 003f145a-324d-4072-8027-9ae5f6f26ce3
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:57:07.344+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:10:01.251Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: bcfb1799-8987-47bf-874e-044458e143af
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-systems
+          kohler:categoryName: Kitchen Systems
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Systems
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Systems – KOHLER
+        /kitchen-systems[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 049ef214-4ee9-4709-9dc6-6b802747e618
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:57:07.344+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:10:01.835Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: bcfb1799-8987-47bf-874e-044458e143af
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-systems
+          kohler:categoryName: Kitchen Systems
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Systems
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Systems – KOHLER
+        /kitchen-systems[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 55929cc6-ff20-4d72-8112-44dc539d7256
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T19:57:07.344+05:30
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:10:01.835Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:10:02.444Z
+          hippotranslation:id: bcfb1799-8987-47bf-874e-044458e143af
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-systems
+          kohler:categoryName: Kitchen Systems
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: true
+            seosupport:seodescription: Find more on KOHLER range of Kitchen Systems
+              Kitchen, many more designer kitchen and luxury bathroom accessories.
+              Locate your nearest KOHLER outlet.
+            seosupport:seotitle: Designer & Luxury Kitchen Systems – KOHLER
+      /kitchen-cabinet:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 137f7d8f-12ce-472c-8f4c-78c72ce50fff
+        hippo:name: kitchen cabinet
+        /kitchen-cabinet[1]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3670b80d-70e0-4f51-bbbf-c9759ed28177
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-04T13:39:46.427Z
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:44:19.805Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 1b80cd1a-a5ad-4ae8-bf46-e46fa6527800
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-cabinet
+          kohler:categoryName: Kitchen Cabinet
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Kitchen Cabinets
+            seosupport:seotitle: Kitchen Cabinets
+        /kitchen-cabinet[2]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 24f81a79-8e98-428d-9c69-238bf4e14e68
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-04T13:39:46.427Z
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:44:20.076Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippotranslation:id: 1b80cd1a-a5ad-4ae8-bf46-e46fa6527800
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-cabinet
+          kohler:categoryName: Kitchen Cabinet
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Kitchen Cabinets
+            seosupport:seotitle: Kitchen Cabinets
+        /kitchen-cabinet[3]:
+          jcr:primaryType: kohler:SeoCategory
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 32ed32df-29aa-4e0f-be03-5c58ce0b5ce8
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-04T13:39:46.427Z
+          hippostdpubwf:lastModificationDate: 2019-09-04T13:44:20.076Z
+          hippostdpubwf:lastModifiedBy: seoadmin
+          hippostdpubwf:publicationDate: 2019-09-04T13:44:20.212Z
+          hippotranslation:id: 1b80cd1a-a5ad-4ae8-bf46-e46fa6527800
+          hippotranslation:locale: en
+          kohler:categoryKey: kitchen-cabinet
+          kohler:categoryName: Kitchen Cabinet
+          kohler:categoryType: kitchen
+          /kohler:seo:
+            jcr:primaryType: seosupport:seo
+            seosupport:canonicalUrl: http://www.kohlerapac.acct.onehippo.com/
+            seosupport:noFollow: true
+            seosupport:noIndex: false
+            seosupport:seodescription: Kitchen Cabinets
+            seosupport:seotitle: Kitchen Cabinets

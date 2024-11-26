@@ -1,0 +1,312 @@
+/content/gallery/kohler/home:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 5d1ad697-13a1-4a17-8b5e-0079923d8a2a
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /documents:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 4cfb1ebe-495c-4807-b46a-a329f2da0420
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogallery:imageset']
+    /download1.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ac518abd-212a-4e71-bb03-8c8575b03b2d
+      /download1.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download1.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download1.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download1.jpg/download1_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.245+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download1.jpg/download1_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.245+05:30
+          jcr:mimeType: image/jpeg
+    /download6.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cccff752-5651-485f-845c-6a78920b4f36
+      /download6.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download6.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download6.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download6.jpg/download6_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.349+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download6.jpg/download6_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.349+05:30
+          jcr:mimeType: image/jpeg
+    /download2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ff065505-9ba5-4f63-a42c-e52995121a49
+      /download2.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download2.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download2.jpg/download2_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.581+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download2.jpg/download2_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.581+05:30
+          jcr:mimeType: image/jpeg
+    /download3.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 21b007cf-bb4f-4851-92b5-8f3ffd7132e2
+      /download3.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download3.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download3.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download3.jpg/download3_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.741+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download3.jpg/download3_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.741+05:30
+          jcr:mimeType: image/jpeg
+    /download5.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c57250cf-8ebc-4921-a333-cea02a7bc179
+      /download5.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download5.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download5.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download5.jpg/download5_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.887+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download5.jpg/download5_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:32.887+05:30
+          jcr:mimeType: image/jpeg
+    /download7.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+      /download7.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: download7.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: download7.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download7.jpg/download7_thumbnail.jpg
+          jcr:lastModified: 2017-04-20T17:18:33.049+05:30
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 232
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/download7.jpg/download7_original.jpg
+          jcr:lastModified: 2017-04-20T17:18:33.049+05:30
+          jcr:mimeType: image/jpeg
+    /kbda2017.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 3784a797-0364-48fc-9051-509c2e6c838d
+      hippo:name: KBDA2017.jpg
+      /kbda2017.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: KBDA2017.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: KBDA2017.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/kbda2017.jpg/KBDA2017_thumbnail.jpg
+          jcr:lastModified: 2017-09-26T15:50:22.846Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 353
+          hippogallery:width: 460
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/kbda2017.jpg/KBDA2017_original.jpg
+          jcr:lastModified: 2017-09-26T15:50:22.846Z
+          jcr:mimeType: image/jpeg
+    /boldart2017.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: fb335d48-3348-434b-a330-62eb7f250b66
+      hippo:name: BoldArt2017.jpg
+      /boldart2017.jpg:
+        jcr:primaryType: hippogallery:imageset
+        hippo:availability: [live, preview]
+        hippogallery:filename: BoldArt2017.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: BoldArt2017.jpg
+          hippogallery:height: 46
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/boldart2017.jpg/BoldArt2017_thumbnail.jpg
+          jcr:lastModified: 2017-09-26T15:50:23.520Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 353
+          hippogallery:width: 460
+          jcr:data:
+            type: binary
+            resource: /content/gallery/kohler/home/documents/boldart2017.jpg/BoldArt2017_original.jpg
+          jcr:lastModified: 2017-09-26T15:50:23.520Z
+          jcr:mimeType: image/jpeg
+  /boldlookblk.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 27bdb65a-821f-4fdd-8c52-05f5b95c87e1
+    hippo:name: BoldLookBlk.jpg
+    /boldlookblk.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: BoldLookBlk.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: BoldLookBlk.jpg
+        hippogallery:height: 34
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/home/boldlookblk.jpg/BoldLookBlk_thumbnail.jpg
+        jcr:lastModified: 2017-07-12T13:32:51.828+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 141
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/home/boldlookblk.jpg/BoldLookBlk_original.jpg
+        jcr:lastModified: 2017-07-12T13:32:51.828+05:30
+        jcr:mimeType: image/jpeg
+  /kohler-logo-261x146.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 5c74e19d-fce9-4ad5-8157-ca3392045e60
+    /kohler-logo-261x146.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: kohler-logo-261x146.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: kohler-logo-261x146.png
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/home/kohler-logo-261x146.png/kohler-logo-261x146_thumbnail.png
+        jcr:lastModified: 2017-08-21T17:18:04.062+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 261
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/home/kohler-logo-261x146.png/kohler-logo-261x146_original.png
+        jcr:lastModified: 2017-08-21T17:18:04.062+05:30
+        jcr:mimeType: image/png
+  /kohler-logo-white-261x146.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0de74b41-e1a6-4b55-b95d-3fcf4798bd29
+    /kohler-logo-white-261x146.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: kohler-logo-white-261x146.png.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: kohler-logo-white-261x146.png.png
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/home/kohler-logo-white-261x146.png/kohler-logo-white-261x146.png_thumbnail.png
+        jcr:lastModified: 2018-08-22T19:35:46.551+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 261
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/home/kohler-logo-white-261x146.png/kohler-logo-white-261x146.png_original.png
+        jcr:lastModified: 2018-08-22T19:35:46.551+05:30
+        jcr:mimeType: image/png

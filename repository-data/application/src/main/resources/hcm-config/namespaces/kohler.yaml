@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/kohler:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bde9ed46-3e07-4d82-91c0-ef2b0c9d9d7b

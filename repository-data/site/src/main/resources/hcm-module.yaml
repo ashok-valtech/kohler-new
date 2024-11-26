@@ -1,0 +1,6 @@
+group:
+  name: kohler
+  after: hippo-cms
+project: kohler
+module:
+  name: kohler-repository-data-site

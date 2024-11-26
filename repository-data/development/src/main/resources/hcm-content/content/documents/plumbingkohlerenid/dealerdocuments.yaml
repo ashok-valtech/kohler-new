@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerenid/dealerdocuments:
+  .meta:order-before: faq
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 70e547ad-bcaf-40db-92b9-70361988cff9
+  hippostd:foldertype: [new-dealer]
+  hippotranslation:id: cd958150-ce4d-4a74-8aa6-68b63332c840
+  hippotranslation:locale: sr

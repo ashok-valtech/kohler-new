@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerth:
+  .meta:order-before: plumbingkohlertw
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 9d674374-3372-4e28-b95a-6f79c53bffdb
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: b17942cc-1542-439a-94fe-4cf4412595cd
+  hippotranslation:locale: th_TH

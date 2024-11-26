@@ -1,0 +1,199 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/kohler:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        kohler:content: Inhalt
+        kohler:introduction: Einführung
+        kohler:publicationdate: Publikationsdatum
+        kohler:title: Titel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        kohler:content: Content
+        kohler:introduction: Introduction
+        kohler:publicationdate: Publication date
+        kohler:title: Title
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        kohler:content: Contenu
+        kohler:introduction: Introduction
+        kohler:publicationdate: Date de publication
+        kohler:title: Titre
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        kohler:content: Inhoud
+        kohler:introduction: Introductie
+        kohler:publicationdate: Publicatiedatum
+        kohler:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/kohler:faqlist:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: FAQ-Liste
+        kohler:description: Beschreibung
+        kohler:faqitem: FAQ-Items
+        kohler:title: Titel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: FAQ List
+        kohler:description: Description
+        kohler:faqitem: FAQ items
+        kohler:title: Title
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Liste de FAQ
+        kohler:description: Description
+        kohler:faqitem: Éléments de FAQ
+        kohler:title: Titre
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: FAQ Lijst
+        kohler:description: Beschrijving
+        kohler:faqitem: FAQ items
+        kohler:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/kohler:faqitem:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: FAQ-Item
+        kohler:answer: Antwort
+        kohler:question: Frage
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: FAQ Item
+        kohler:answer: Answer
+        kohler:question: Question
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Élément de FAQ
+        kohler:answer: Réponse
+        kohler:question: Question
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: FAQ Item
+        kohler:answer: Antwoord
+        kohler:question: Vraag
+    /hippo:configuration/hippo:translations/hippo:types/kohler:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        kohler:content: Inhalt
+        kohler:image: Abbildung
+        kohler:link: Link
+        kohler:title: Titel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        kohler:content: Content
+        kohler:image: Image
+        kohler:link: Link
+        kohler:title: Title
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        kohler:content: Contenu
+        kohler:image: Image
+        kohler:link: Lien
+        kohler:title: Titre
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        kohler:content: Inhoud
+        kohler:image: Afbeelding
+        kohler:link: Link
+        kohler:title: Titel
+    /hippo:configuration/hippo:translations/hippo:templates:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner-document: Neues Banner
+        new-banner-folder: Neuer Banner-Ordner
+        new-content-document: Neues Content-Document
+        new-content-folder: Neuer Content-Ordner
+        new-faq-item: Neues FAQ-Item
+        new-faq-item-folder: Neues FAQ-Item-Ordner
+        new-faq-list: Neue FAQ-Liste
+        new-faq-list-document-folder: Neuer FAQ-Listen-Ordner
+        new-resource-bundle: Neues Resource-Bundle
+        new-untranslated-folder: Neuer nicht übersetzter Ordner
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        new footer folder: new footer folder
+        new-Article: new article document
+        new-Article-folder: new Article folder
+        new-aboutus: new aboutus document
+        new-articleBannerDocument: new articleBannerDocument
+        new-banner-document: new banner document
+        new-banner-folder: new banner folder
+        new-bathroomideas: new bathroomideas document
+        new-careclean-listing: new careclean listing document
+        new-carouselOverlay: new carouselOverlay document
+        new-carouselOverlay-folder: new carouselOverlay folder
+        new-categorybanner-document: new categorybanner document
+        new-categorybanner-folder: new categorybanner folder
+        new-collectionsPromo-document: New CollectionsPromo Document
+        new-collectionsPromo-folder: New CollectionsPromo Folder
+        new-commoncontent: new commoncontent document
+        new-contact: new contact document
+        new-content-document: new content document
+        new-content-folder: new content folder
+        new-customBanner: new customBanner document
+        new-customBanner-folder: new customBanner folder
+        new-customersupport: new customersupport document
+        new-dealer: new dealer document
+        new-faq-item: new FAQ item
+        new-faq-item-folder: new FAQ item folder
+        new-faq-list: new FAQ list
+        new-faq-list-document-folder: new FAQ list folder
+        new-footer-folder: new footer folder
+        new-footer-simpledocument: new simple document
+        new-globalProject: new globalProject document
+        new-glossary: new glossary document
+        new-headerMenu: new menu document
+        new-homedocument: new home document
+        new-kitchenideas: new kitchenideas document
+        new-listingsubdocs: new listingsubdocs document
+        new-literature: new literature document
+        new-materialColorPalette: new materialColorPalette document
+        new-mediacontact: new mediaContact Document
+        new-menu: new menu document
+        new-menu-folder: new menu folder
+        new-pressreleases: new pressrelease document
+        new-promoBanner-document: new promoBanner document
+        new-promoBanner-folder: new promoBanner folder
+        new-protoolbox: new protoolbox document
+        new-resource-bundle: new resource bundle
+        new-resources: new resources document
+        new-thumbnailBanner-document: new thumbnailBanner document
+        new-thumbnailBanner-folder: new thumbnailBanner folder
+        new-untranslated-folder: new untranslated folder
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner-document: nouvelle bannière
+        new-banner-folder: nouveau dossier bannière
+        new-content-document: nouveau document contenu
+        new-content-folder: nouveau dossier contenu
+        new-faq-item: nouvel élément FAQ
+        new-faq-item-folder: nouveau dossier élément FAQ
+        new-faq-list: nouvelle liste FAQ
+        new-faq-list-document-folder: nouveau dossier liste FAQ
+        new-resource-bundle: nouveau resource bundle
+        new-untranslated-folder: nouveau dossier non traduit
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner-document: nieuwe banner
+        new-banner-folder: nieuwe banner map
+        new-content-document: nieuw content document
+        new-content-folder: nieuwe contentmap
+        new-faq-item: nieuw FAQ item
+        new-faq-item-folder: nieuwe FAQ item map
+        new-faq-list: nieuwe FAQ lijst
+        new-faq-list-document-folder: nieuwe FAQ lijst map
+        new-resource-bundle: nieuwe resource bundle
+        new-untranslated-folder: nieuwe onvertaalde map

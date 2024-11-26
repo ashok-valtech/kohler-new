@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerkr/collectons-promo:
+  .meta:order-before: common-content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f5a77c4e-cf69-4b5d-b5e4-8b53878a3e71
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 8292438d-2823-4523-a659-9b147785d33a
+  hippotranslation:locale: ko_KR

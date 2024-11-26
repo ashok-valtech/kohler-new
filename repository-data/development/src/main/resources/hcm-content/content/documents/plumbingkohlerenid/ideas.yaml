@@ -1,0 +1,550 @@
+/content/documents/plumbingkohlerenid/ideas:
+  .meta:order-before: menus
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 7f93a9d7-104c-4491-a153-bf9804339d5e
+  hippostd:foldertype: []
+  hippotranslation:id: d1f0a808-384d-4b63-b699-167deb72c523
+  hippotranslation:locale: en_ID
+  /literature:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 1cbfbd2a-c450-47d9-878b-9e0924a6f498
+    hippostd:foldertype: [new-literature]
+    hippotranslation:id: 10ca5b07-2ef5-4561-91a0-fdaeaf8cb028
+    hippotranslation:locale: en_ID
+    /suites-and-toilets:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 953e1fda-e863-4029-8238-4674a3503d5a
+      hippo:name: Suites and Toilets
+      /suites-and-toilets[1]:
+        jcr:primaryType: kohler:literature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2f677051-bdc3-4111-bf76-d776b9d89b77
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:50:28.916+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:50:29.318+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2ed7f6db-8844-4525-97f0-b2b6a2cb6d72
+        hippotranslation:locale: sr
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:introduction: The Suites and Toilets Section Of The 2017 Retail Collection
+        kohler:pdfUrl: ''
+        kohler:title: Suites and Toilets
+        /kohler:relatedFile:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /suites-and-toilets[2]:
+        jcr:primaryType: kohler:literature
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 0448671d-4393-4a00-b49d-37ae645dc38d
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:50:28.916+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:51:14.422+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 2ed7f6db-8844-4525-97f0-b2b6a2cb6d72
+        hippotranslation:locale: sr
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:introduction: The Suites and Toilets Section Of The 2017 Retail Collection
+        kohler:pdfUrl: ''
+        kohler:title: Suites and Toilets
+        /kohler:relatedFile:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /suites-and-toilets[3]:
+        jcr:primaryType: kohler:literature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6440e7ed-5874-4992-9828-105afa71f931
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:50:28.916+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:51:14.422+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T12:51:16.071+05:30
+        hippotranslation:id: 2ed7f6db-8844-4525-97f0-b2b6a2cb6d72
+        hippotranslation:locale: sr
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:introduction: The Suites and Toilets Section Of The 2017 Retail Collection
+        kohler:pdfUrl: ''
+        kohler:title: Suites and Toilets
+        /kohler:relatedFile:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /resources:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: eeaae2a1-62c8-4f8d-9d26-943087d9dd44
+    hippostd:foldertype: [new-resources]
+    hippotranslation:id: a9398bd9-78a7-44f6-b276-4481f5e4e4be
+    hippotranslation:locale: en_ID
+  /glossary:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 34f7eaf5-29fb-4843-ba98-bff131134809
+    hippostd:foldertype: [new-glossary]
+    hippotranslation:id: cb23fd3c-4053-45de-bbce-636b435238ec
+    hippotranslation:locale: en_ID
+  /careandclean:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 29cb461f-54c3-4072-8ec9-2bf78fb9f9e5
+    hippostd:foldertype: [new-footer-simpledocument]
+    hippotranslation:id: 1173359b-6b4d-4e0e-afb9-b35f4f05a0a1
+    hippotranslation:locale: en_ID
+    /listingsubdocs:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 3531d4f8-2548-40ae-88d1-4f7b29f194ca
+      hippostd:foldertype: [new-listingsubdocs]
+      hippotranslation:id: a0eaadbc-7663-4801-9eba-03abf7125519
+      hippotranslation:locale: en_ID
+      /kitchen-sinks:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+        hippo:name: Kitchen Sinks
+        /kitchen-sinks[1]:
+          jcr:primaryType: kohler:careAndCleanSubDoc
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7bf12888-c284-4fd2-baf4-df5c6d9dbe1d
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:13.084+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:12:13.278+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e3a4fbf4-f8aa-4bc0-ab8e-43b82efe5a87
+          hippotranslation:locale: en_ID
+          kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/zab86231_rgb?crop=(0,121,8280,5966)&$SectionHero$
+          kohler:title: Kitchen Sinks
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Rinse thoroughly and use a soft cloth to wipe the product dry after each use.</li>
+               <li>In the rare occurrence of stubborn stains, use abrasive cleaners sparingly.</li>
+               <li>Do not use steel wool, wire brushes or abrasive sponge pads.</li>
+               <li>Be careful not to leave dirty dishes, coffee grounds, tea bags or other staining materials in contact with the enamel surface for extended periods of time.</li>
+               <li>Consider kitchen sink accessories such as bottom basin racks and rinse baskets to help protect the surface from scratches.</li>
+               <li>Do not store open containers of cleaners or chemicals such as acids, bleach, sodium chloride, lye, toilet bowl cleaner, drain cleaner, or hard water stain removal products under your sink.<br />
+               <br />
+               Cleaning instructions listed pertain only to their corresponding material, and are not intended for faucet cleaning. Faucet cleaning instructions for&nbsp;<a href="#_Chrome_&amp;_Vibrant®">chrome</a>&nbsp;and&nbsp;<a href="#_Vitreous_China_Faucets">vitreous china</a>.&nbsp;<br />
+               Success with cleaners and procedures is dependent upon such factors as the hardness and temperature of the water, using exact measurements of ingredients, changes in cleaning formulas and the condition of the product being cleaned. Since there are variations within these factors, Kohler cannot guarantee the effectiveness of the formulas mentioned.</li>
+              </ul>
+
+              <p style="margin-left:144.0pt">&nbsp;</p>
+
+              <h3><strong>Products to consider</strong></h3>
+
+              <ul>
+               <li>KOHLER Cast Iron Cleaner</li>
+               <li>Fantastik Antibacterial Heavy Duty</li>
+               <li>Formula 409 Antibacterial All-Purpose</li>
+               <li>Green Works All-Purpose</li>
+               <li>Soft Scrub Gel with Bleach</li>
+              </ul>
+
+              <p><strong>For rust removal:</strong></p>
+
+              <ul>
+               <li>Bon Ami</li>
+               <li>Super Iron Out Rust Stain Remover</li>
+              </ul>
+        /kitchen-sinks[2]:
+          jcr:primaryType: kohler:careAndCleanSubDoc
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 54610f97-0bdc-48f4-aa70-a88f8c3d0bd4
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:13.084+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:13:22.665+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e3a4fbf4-f8aa-4bc0-ab8e-43b82efe5a87
+          hippotranslation:locale: en_ID
+          kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/zab86231_rgb?crop=(0,121,8280,5966)&$SectionHero$
+          kohler:title: Kitchen Sinks
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Rinse thoroughly and use a soft cloth to wipe the product dry after each use.</li>
+               <li>In the rare occurrence of stubborn stains, use abrasive cleaners sparingly.</li>
+               <li>Do not use steel wool, wire brushes or abrasive sponge pads.</li>
+               <li>Be careful not to leave dirty dishes, coffee grounds, tea bags or other staining materials in contact with the enamel surface for extended periods of time.</li>
+               <li>Consider kitchen sink accessories such as bottom basin racks and rinse baskets to help protect the surface from scratches.</li>
+               <li>Do not store open containers of cleaners or chemicals such as acids, bleach, sodium chloride, lye, toilet bowl cleaner, drain cleaner, or hard water stain removal products under your sink.<br />
+               <br />
+               Cleaning instructions listed pertain only to their corresponding material, and are not intended for faucet cleaning. Faucet cleaning instructions for&nbsp;<a href="#_Chrome_&amp;_Vibrant®">chrome</a>&nbsp;and&nbsp;<a href="#_Vitreous_China_Faucets">vitreous china</a>.&nbsp;<br />
+               Success with cleaners and procedures is dependent upon such factors as the hardness and temperature of the water, using exact measurements of ingredients, changes in cleaning formulas and the condition of the product being cleaned. Since there are variations within these factors, Kohler cannot guarantee the effectiveness of the formulas mentioned.</li>
+              </ul>
+
+              <p style="margin-left:144.0pt">&nbsp;</p>
+
+              <h3><strong>Products to consider</strong></h3>
+
+              <ul>
+               <li>KOHLER Cast Iron Cleaner</li>
+               <li>Fantastik Antibacterial Heavy Duty</li>
+               <li>Formula 409 Antibacterial All-Purpose</li>
+               <li>Green Works All-Purpose</li>
+               <li>Soft Scrub Gel with Bleach</li>
+              </ul>
+
+              <p><strong>For rust removal:</strong></p>
+
+              <ul>
+               <li>Bon Ami</li>
+               <li>Super Iron Out Rust Stain Remover</li>
+              </ul>
+        /kitchen-sinks[3]:
+          jcr:primaryType: kohler:careAndCleanSubDoc
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 422a648f-77a3-429e-b910-2ae56cbf5c09
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:13.084+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:13:22.665+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-10-26T14:13:24.118+05:30
+          hippotranslation:id: e3a4fbf4-f8aa-4bc0-ab8e-43b82efe5a87
+          hippotranslation:locale: en_ID
+          kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/zab86231_rgb?crop=(0,121,8280,5966)&$SectionHero$
+          kohler:title: Kitchen Sinks
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Rinse thoroughly and use a soft cloth to wipe the product dry after each use.</li>
+               <li>In the rare occurrence of stubborn stains, use abrasive cleaners sparingly.</li>
+               <li>Do not use steel wool, wire brushes or abrasive sponge pads.</li>
+               <li>Be careful not to leave dirty dishes, coffee grounds, tea bags or other staining materials in contact with the enamel surface for extended periods of time.</li>
+               <li>Consider kitchen sink accessories such as bottom basin racks and rinse baskets to help protect the surface from scratches.</li>
+               <li>Do not store open containers of cleaners or chemicals such as acids, bleach, sodium chloride, lye, toilet bowl cleaner, drain cleaner, or hard water stain removal products under your sink.<br />
+               <br />
+               Cleaning instructions listed pertain only to their corresponding material, and are not intended for faucet cleaning. Faucet cleaning instructions for&nbsp;<a href="#_Chrome_&amp;_Vibrant®">chrome</a>&nbsp;and&nbsp;<a href="#_Vitreous_China_Faucets">vitreous china</a>.&nbsp;<br />
+               Success with cleaners and procedures is dependent upon such factors as the hardness and temperature of the water, using exact measurements of ingredients, changes in cleaning formulas and the condition of the product being cleaned. Since there are variations within these factors, Kohler cannot guarantee the effectiveness of the formulas mentioned.</li>
+              </ul>
+
+              <p style="margin-left:144.0pt">&nbsp;</p>
+
+              <h3><strong>Products to consider</strong></h3>
+
+              <ul>
+               <li>KOHLER Cast Iron Cleaner</li>
+               <li>Fantastik Antibacterial Heavy Duty</li>
+               <li>Formula 409 Antibacterial All-Purpose</li>
+               <li>Green Works All-Purpose</li>
+               <li>Soft Scrub Gel with Bleach</li>
+              </ul>
+
+              <p><strong>For rust removal:</strong></p>
+
+              <ul>
+               <li>Bon Ami</li>
+               <li>Super Iron Out Rust Stain Remover</li>
+              </ul>
+    /listingdocs:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 20e3ae27-61b9-4207-871d-121e11c86b31
+      hippostd:foldertype: [new-careclean-listing]
+      hippotranslation:id: 83b1f2cf-be9d-4257-bff0-b071610c4a3c
+      hippotranslation:locale: en_ID
+      /enameled-cast-iron-kitchen-sinks:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 1a9d0297-05c5-4400-805c-f0b84b0b7bf1
+        hippo:name: Enameled Cast Iron Kitchen Sinks
+        /enameled-cast-iron-kitchen-sinks[1]:
+          jcr:primaryType: kohler:docLinks
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 577be6f1-eb23-4186-8ff7-994c721071c6
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:32.127+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:12:32.209+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 8d0a1bff-d713-4088-980b-b52df17bb772
+          hippotranslation:locale: en_ID
+          kohler:displayOrder: 0
+          kohler:title: Enameled Cast Iron Kitchen Sinks
+          /kohler:documentLink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+        /enameled-cast-iron-kitchen-sinks[2]:
+          jcr:primaryType: kohler:docLinks
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: be6d6914-3795-40ba-b537-8dda5c41ad0e
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:32.127+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:13:40.181+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 8d0a1bff-d713-4088-980b-b52df17bb772
+          hippotranslation:locale: en_ID
+          kohler:displayOrder: 0
+          kohler:title: Enameled Cast Iron Kitchen Sinks
+          /kohler:documentLink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+        /enameled-cast-iron-kitchen-sinks[3]:
+          jcr:primaryType: kohler:docLinks
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0198a32f-086d-4ae1-9081-524f7bdcdbbe
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:32.127+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:13:40.181+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-10-26T14:13:41.670+05:30
+          hippotranslation:id: 8d0a1bff-d713-4088-980b-b52df17bb772
+          hippotranslation:locale: en_ID
+          kohler:displayOrder: 0
+          kohler:title: Enameled Cast Iron Kitchen Sinks
+          /kohler:documentLink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+  /material-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: ecbf1e43-84e8-4898-899d-5c84de6a3752
+    hippo:name: material color palette
+    hippostd:foldertype: [new-materialColorPalette]
+    hippotranslation:id: a5e397e9-dcf7-4b6a-8016-eddf7d85e32b
+    hippotranslation:locale: en_ID
+    /bathroom-colors:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 669fa075-f554-4160-8491-b7c347d0cbf0
+      hippo:name: bathroom colors
+      /bathroom-colors[1]:
+        jcr:primaryType: kohler:materialColorPalette
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: fba9e0e9-245c-411c-a820-024c4da1eed4
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:54:12+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:54:12.154+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0f69e948-948f-4eff-85ce-506e4baa3476
+        hippotranslation:locale: sr
+        kohler:description: Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        kohler:displayOrder: 0
+        kohler:image: http://kohler.scene7.com/is/image/PAWEB/zab59846_rgb?crop=(0,1656,3065,2371)&$SectionHero$
+        kohler:title: bathroom-colors
+        kohler:type: Bathroom
+        /kohler:color:
+          jcr:primaryType: kohler:colorCoumpoundParent
+          kohler:searchURL: ''
+          kohler:string: COLORS
+          /kohler:kohler_colorcoumpound:
+            jcr:primaryType: kohler:colorCoumpound
+            kohler:colorCode: ''
+            kohler:description: ''
+            kohler:largeImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$ColorModal$
+            kohler:smallImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$Swatch184$
+            kohler:title: White Expressions - S33
+      /bathroom-colors[2]:
+        jcr:primaryType: kohler:materialColorPalette
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 8c923501-9a4f-4ea6-a3a1-69392bdd9bb3
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:54:12+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:56:15.070+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0f69e948-948f-4eff-85ce-506e4baa3476
+        hippotranslation:locale: sr
+        kohler:description: Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        kohler:displayOrder: 0
+        kohler:image: http://kohler.scene7.com/is/image/PAWEB/zab59846_rgb?crop=(0,1656,3065,2371)&$SectionHero$
+        kohler:title: bathroom-colors
+        kohler:type: Bathroom
+        /kohler:color:
+          jcr:primaryType: kohler:colorCoumpoundParent
+          kohler:searchURL: ''
+          kohler:string: COLORS
+          /kohler:kohler_colorcoumpound:
+            jcr:primaryType: kohler:colorCoumpound
+            kohler:colorCode: ''
+            kohler:description: ''
+            kohler:largeImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$ColorModal$
+            kohler:smallImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$Swatch184$
+            kohler:title: White Expressions - S33
+      /bathroom-colors[3]:
+        jcr:primaryType: kohler:materialColorPalette
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7852a00b-2a9b-4d41-b6b7-9f37d85a8606
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:54:12+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:56:15.070+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T12:56:16.435+05:30
+        hippotranslation:id: 0f69e948-948f-4eff-85ce-506e4baa3476
+        hippotranslation:locale: sr
+        kohler:description: Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        kohler:displayOrder: 0
+        kohler:image: http://kohler.scene7.com/is/image/PAWEB/zab59846_rgb?crop=(0,1656,3065,2371)&$SectionHero$
+        kohler:title: bathroom-colors
+        kohler:type: Bathroom
+        /kohler:color:
+          jcr:primaryType: kohler:colorCoumpoundParent
+          kohler:searchURL: ''
+          kohler:string: COLORS
+          /kohler:kohler_colorcoumpound:
+            jcr:primaryType: kohler:colorCoumpound
+            kohler:colorCode: ''
+            kohler:description: ''
+            kohler:largeImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$ColorModal$
+            kohler:smallImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$Swatch184$
+            kohler:title: White Expressions - S33
+  /bathroom-ideas:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 2558b19b-6787-41bb-8e03-2872b74babc3
+    hippo:name: bathroom ideas
+    hippostd:foldertype: [new-bathroomideas]
+    hippotranslation:id: 2e3b0a78-ff31-4fd0-81f9-d59154de81f8
+    hippotranslation:locale: en_ID
+    /bathroom-ideas1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3ab7dcfc-1b04-41c1-85df-268fcb148e03
+      /bathroom-ideas1[1]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3db441bd-1504-4ab2-a490-738ec1a26330
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:57:31.241+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:57:31.291+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0a1c6449-e086-4004-aae7-5fe16abb3466
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: bathroom-ideas1
+        kohler:url: ''
+      /bathroom-ideas1[2]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 366ef163-ff22-4923-89fb-88b49b8d216d
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:57:31.241+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:57:53.349+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0a1c6449-e086-4004-aae7-5fe16abb3466
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: bathroom-ideas1
+        kohler:url: ''
+      /bathroom-ideas1[3]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 74c5f846-854c-416e-b35a-0a17ecd053ae
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:57:31.241+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:57:53.349+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T12:57:54.715+05:30
+        hippotranslation:id: 0a1c6449-e086-4004-aae7-5fe16abb3466
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: bathroom-ideas1
+        kohler:url: ''
+  /kitchen-ideas:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 291ad1dd-324f-4d2d-9f28-fd9b1f9bb82f
+    hippo:name: kitchen ideas
+    hippostd:foldertype: [new-kitchenideas]
+    hippotranslation:id: 76d29451-820a-401f-addf-395f465b6ca9
+    hippotranslation:locale: en_ID
+    /kitchen-ideas:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: c19d94ce-619a-4d33-9a65-63e5f42ec050
+      hippo:name: kitchen ideas
+      /kitchen-ideas[1]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6ca9144e-08b7-4c7c-ad16-3070af2bee13
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:58:32.890+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:58:32.965+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: e120b842-2f0e-4a05-b3e1-6639eb843c0f
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: kitchen ideas
+        kohler:url: ''
+      /kitchen-ideas[2]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 831824aa-f32f-4757-a1ee-ac3b416e449b
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:58:32.890+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:58:47.053+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: e120b842-2f0e-4a05-b3e1-6639eb843c0f
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: kitchen ideas
+        kohler:url: ''
+      /kitchen-ideas[3]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5de9fb37-80c6-4fd3-8371-7a9102928282
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:58:32.890+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-16T12:58:47.053+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-16T12:58:48.598+05:30
+        hippotranslation:id: e120b842-2f0e-4a05-b3e1-6639eb843c0f
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: kitchen ideas
+        kohler:url: ''

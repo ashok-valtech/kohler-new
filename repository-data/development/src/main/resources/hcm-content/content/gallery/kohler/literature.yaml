@@ -1,0 +1,224 @@
+/content/gallery/kohler/literature:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 3b692e6f-56a7-4b1d-9240-6da2e40227e6
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /suites-and-toilets.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3dc58176-987f-4563-b7e5-54ed013596a1
+    /suites-and-toilets.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: suites-and-toilets.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: suites-and-toilets.jpg
+        hippogallery:height: 47
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/suites-and-toilets.jpg/suites-and-toilets_thumbnail.jpg
+        jcr:lastModified: 2017-05-03T15:24:45.633+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 665
+        hippogallery:width: 833
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/suites-and-toilets.jpg/suites-and-toilets_original.jpg
+        jcr:lastModified: 2017-05-03T15:24:45.633+05:30
+        jcr:mimeType: image/jpeg
+  /c3_small.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b4406fe1-4735-4496-b8c4-53cb1f617951
+    /c3_small.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: c3_small.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: c3_small.jpg
+        hippogallery:height: 46
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/c3_small.jpg/c3_small_thumbnail.jpg
+        jcr:lastModified: 2017-05-04T12:15:14.018+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/c3_small.jpg/c3_small_original.jpg
+        jcr:lastModified: 2017-05-04T12:15:14.018+05:30
+        jcr:mimeType: image/jpeg
+  /black-ensemble.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 40270fab-07ad-4856-84f1-1c11d6e07e92
+    /black-ensemble.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: black-ensemble.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: black-ensemble.jpg
+        hippogallery:height: 48
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/black-ensemble.jpg/black-ensemble_thumbnail.jpg
+        jcr:lastModified: 2017-05-04T19:37:32.932+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 696
+        hippogallery:width: 870
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/black-ensemble.jpg/black-ensemble_original.jpg
+        jcr:lastModified: 2017-05-04T19:37:32.932+05:30
+        jcr:mimeType: image/jpeg
+  /bathing-and-bath-spouts.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d89125ca-144f-4120-ac06-7c776b60ec67
+    /bathing-and-bath-spouts.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: bathing-and-bath-spouts.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: bathing-and-bath-spouts.jpg
+        hippogallery:height: 47
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/bathing-and-bath-spouts.jpg/bathing-and-bath-spouts_thumbnail.jpg
+        jcr:lastModified: 2017-05-05T15:44:31.683+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 665
+        hippogallery:width: 833
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/bathing-and-bath-spouts.jpg/bathing-and-bath-spouts_original.jpg
+        jcr:lastModified: 2017-05-05T15:44:31.683+05:30
+        jcr:mimeType: image/jpeg
+  /faucets-kitchen-faucets-and-bath-spouts.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6aaa4601-b3dc-4156-a1a5-6380950d8d5d
+    /faucets-kitchen-faucets-and-bath-spouts.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: faucets-kitchen-faucets-and-bath-spouts.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: faucets-kitchen-faucets-and-bath-spouts.jpg
+        hippogallery:height: 47
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/faucets-kitchen-faucets-and-bath-spouts.jpg/faucets-kitchen-faucets-and-bath-spouts_thumbnail.jpg
+        jcr:lastModified: 2017-05-05T15:44:32.560+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 665
+        hippogallery:width: 833
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/faucets-kitchen-faucets-and-bath-spouts.jpg/faucets-kitchen-faucets-and-bath-spouts_original.jpg
+        jcr:lastModified: 2017-05-05T15:44:32.560+05:30
+        jcr:mimeType: image/jpeg
+  /performance-showering-and-showering.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: c631274a-91f1-4c30-bd51-fc27934fb7a1
+    /performance-showering-and-showering.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: performance-showering-and-showering.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: performance-showering-and-showering.jpg
+        hippogallery:height: 47
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/performance-showering-and-showering.jpg/performance-showering-and-showering_thumbnail.jpg
+        jcr:lastModified: 2017-05-05T15:44:32.749+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 665
+        hippogallery:width: 833
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/performance-showering-and-showering.jpg/performance-showering-and-showering_original.jpg
+        jcr:lastModified: 2017-05-05T15:44:32.749+05:30
+        jcr:mimeType: image/jpeg
+  /basins-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3f0da9f1-84f3-40d9-bba2-d220e8977665
+    hippo:name: basins 2.jpg
+    /basins-2.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: basins 2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: basins 2.jpg
+        hippogallery:height: 47
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/basins-2.jpg/basins 2_thumbnail.jpg
+        jcr:lastModified: 2017-05-05T15:47:05.894+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 665
+        hippogallery:width: 833
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/basins-2.jpg/basins 2_original.jpg
+        jcr:lastModified: 2017-05-05T15:47:05.894+05:30
+        jcr:mimeType: image/jpeg
+  /literature-800x534-rose-gold.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3457b901-9c60-42c1-b03f-b94569d5d906
+    hippo:name: literature-800x534-Rose-Gold.png
+    /literature-800x534-rose-gold.png:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: literature-800x534-Rose-Gold.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: literature-800x534-Rose-Gold.png
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/literature-800x534-rose-gold.png/literature-800x534-Rose-Gold_thumbnail.png
+        jcr:lastModified: 2017-09-26T16:11:46.021Z
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 534
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/kohler/literature/literature-800x534-rose-gold.png/literature-800x534-Rose-Gold_original.png
+        jcr:lastModified: 2017-09-26T16:11:46.021Z
+        jcr:mimeType: image/png

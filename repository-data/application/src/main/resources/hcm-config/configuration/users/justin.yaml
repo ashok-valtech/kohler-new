@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/justin:
+      jcr:primaryType: hipposys:user
+      hipposys:active: true
+      hipposys:email: JUSTIN.LIM@kohler.com
+      hipposys:firstname: Justin
+      hipposys:lastname: Lim
+      hipposys:password:
+        .meta:category: system
+        value: $SHA-256$pMPjnZ+OTqI=$439+cvioCiEe8NRDF/wj8dK4UZ1nt93ucX3PE1MuXjQ=
+      hipposys:passwordlastmodified:
+        .meta:category: system
+      hipposys:securityprovider: internal

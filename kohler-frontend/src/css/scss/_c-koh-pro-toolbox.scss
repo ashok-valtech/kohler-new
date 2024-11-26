@@ -1,0 +1,113 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.c-koh-pro-toolbox {
+    background: $koh-color-white none repeat scroll 0 0;
+    color: $koh-color-pdk-grey;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 100%;
+    .koh-pro-toolbox-container {
+        padding: 0 10px;
+        .koh-pro-toolbox-banner {
+            img {
+                width: 100%;
+            }
+        }
+        header {
+            .koh-pro-toolbox-title {
+                font-family: HelveticaLight, Helvetica, sans-serif;
+                font-size: 1.5em;
+                font-weight: 400;
+                line-height: 1.2em;
+                margin: 30px 0 0;
+                text-transform: uppercase;
+            }
+            @media #{$koh-media-nav-breakpoint} {
+                .koh-pro-toolbox-title {
+                    font-size: 2.5em;
+                }
+            }
+        }
+        .koh-pro-toolbox-listing {
+            border-top: 1px solid #ccc;
+            list-style: outside none none;
+            margin: 30px 0 0;
+            padding: 40px 0 0;
+            .koh-pro-toolbox-section {
+                border-bottom: 1px solid #ccc;
+                margin: 0 0 40px;
+                padding: 0 0 40px;
+                img {
+                    float: left;
+                    margin: 0 25px 0 0;
+                    width: 25%;
+                }
+                &:nth-child(even) {
+                    img {
+                        float: right;
+                        margin: 0 0 0 25px;
+                    }
+                    @media #{$koh-media-screen-xxs-max} {
+                        img {
+                            float: none;
+                            margin: 0 0 10px;
+                        }
+                    }
+                }
+                @media #{$koh-media-screen-xs-max} {
+                    img {
+                        width: 40%;
+                    }
+                }
+                @media #{$koh-media-screen-xxs-max} {
+                    img {
+                        width: 100%;
+                        float: none;
+                        margin: 0 0 10px;
+                    }
+                }
+                .koh-pro-toolbox-text-title {
+                    margin: 0 0 10px;
+                    font-size: 1.3em;
+                }
+                @media #{$koh-media-nav-breakpoint} {
+                    .koh-pro-toolbox-text-title {
+                        font-size: 1.5em;
+                    }
+                }
+                .koh-pro-toolbox-text-link {
+                    background: #000 none repeat scroll 0 0;
+                    border: 0 none;
+                    border-radius: 4px;
+                    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+                    color: $koh-color-white;
+                    display: inline-block;
+                    font-family: HelveticaBold, Helvetica, sans-serif;
+                    font-size: 1em;
+                    margin: 10px 0 0;
+                    outline: 0 none;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    &:hover {
+                        background: #bebebe none repeat scroll 0 0;
+                        color: $koh-color-pdk-grey;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+    .c-koh-pro-toolbox {
+        padding-left: calc((100% - 980px) / 2);
+        padding-right: calc((100% - 980px) / 2);
+        width: 100%;
+    }
+}

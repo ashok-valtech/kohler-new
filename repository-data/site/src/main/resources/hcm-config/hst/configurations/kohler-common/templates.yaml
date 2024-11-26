@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kohler-common/hst:templates:
+      jcr:primaryType: hst:templates
+      /search-facetpage:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler-common/search/search-facetpage.ftl
+      /productdetails-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler-common/productdetails-main.ftl
+      /productfacetpage-navlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler-common/productfacetpage-navlist.ftl
+      /base-header-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kohler-common/base-header-menu.ftl

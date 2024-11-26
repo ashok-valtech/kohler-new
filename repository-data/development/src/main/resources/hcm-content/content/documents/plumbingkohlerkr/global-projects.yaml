@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerkr/global-projects:
+  .meta:order-before: home
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 4960980e-6612-430f-a707-c1a23ba25b4e
+  hippostd:foldertype: [new-globalProject]
+  hippotranslation:id: 4dcc6e95-18ec-4e1d-ae3a-d03bb1035cf4
+  hippotranslation:locale: ko_KR

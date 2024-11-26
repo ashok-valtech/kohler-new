@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlervn:
+  .meta:order-before: urlrewriter
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 5f3eedf8-854a-46f8-b661-b4b3c951234f
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 5afeb8a4-1e37-4a79-a91c-27cd04f02ccd
+  hippotranslation:locale: vi_VN

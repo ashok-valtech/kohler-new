@@ -1,0 +1,114 @@
+/content/documents/kohler/custombanner:
+  .meta:order-before: dealerdocuments
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 35add4f2-e480-4181-bc3b-f8f6d46be043
+  hippo:name: customBanner
+  hippostd:foldertype: [new-customBanner, new-customBanner-folder]
+  hippotranslation:id: b0eb48b4-abea-479f-9dd2-b64c2c96730e
+  hippotranslation:locale: en
+  /protoolboxbanner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f7210557-b504-46a5-847c-477a9bed2b61
+    hippo:name: ProToolBoxBanner
+    /protoolboxbanner[1]:
+      jcr:primaryType: kohler:customBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f6dd1ef7-c95a-4d43-863f-393fdc1adba5
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T12:55:21.910+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-10T12:56:58.432+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 73fe69b5-40ee-42f9-ba59-68dc027409ca
+      hippotranslation:locale: en
+      kohler:imagePath: http://www.kohler.co.in/binaries/content/gallery/plumbingkohlerenin/content-images/about-hero.jpg
+      kohler:tile: Image
+      kohler:title: ProToolBoxBanner
+      kohler:videoPath: ''
+    /protoolboxbanner[2]:
+      jcr:primaryType: kohler:customBanner
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 372360c9-45ec-4d72-a280-6adeba3675ae
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T12:55:21.910+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-10T12:57:49.733+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 73fe69b5-40ee-42f9-ba59-68dc027409ca
+      hippotranslation:locale: en
+      kohler:imagePath: http://www.kohler.co.in/binaries/content/gallery/plumbingkohlerenin/content-images/about-hero.jpg
+      kohler:tile: Image
+      kohler:title: ProToolBoxBanner
+      kohler:videoPath: ''
+    /protoolboxbanner[3]:
+      jcr:primaryType: kohler:customBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b3bf2200-6b49-4b9d-b25a-8a113f594d06
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-05T12:55:21.910+05:30
+      hippostdpubwf:lastModificationDate: 2017-07-10T12:57:49.733+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-07-10T12:57:51.471+05:30
+      hippotranslation:id: 73fe69b5-40ee-42f9-ba59-68dc027409ca
+      hippotranslation:locale: en
+      kohler:imagePath: http://www.kohler.co.in/binaries/content/gallery/plumbingkohlerenin/content-images/about-hero.jpg
+      kohler:tile: Image
+      kohler:title: ProToolBoxBanner
+      kohler:videoPath: ''
+  /aboutusbanner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a3953e9f-83a5-432a-b5e8-a088e36a9574
+    hippo:name: aboutUsBanner
+    /aboutusbanner[1]:
+      jcr:primaryType: kohler:customBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b63b6d5d-6d8d-4386-8dfa-d12046f172f3
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-10T12:56:55.495+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:56:19.103Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9e350977-89f9-495c-b923-6b2e232fc55e
+      hippotranslation:locale: en
+      kohler:imagePath: binaries/content/gallery/kohler/banners/about-kohler.jpg
+      kohler:title: AboutUsBanner
+      kohler:videoPath: ''
+    /aboutusbanner[2]:
+      jcr:primaryType: kohler:customBanner
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 7cd38e0c-b64a-4972-b7a5-07477670255b
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-10T12:56:55.495+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:56:11.630Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9e350977-89f9-495c-b923-6b2e232fc55e
+      hippotranslation:locale: en
+      kohler:imagePath: binaries/content/gallery/kohler/banners/about-kohler.jpg
+      kohler:title: AboutUsBanner
+      kohler:videoPath: ''
+    /aboutusbanner[3]:
+      jcr:primaryType: kohler:customBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7845470b-d326-478d-a293-332109dea03a
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-07-10T12:56:55.495+05:30
+      hippostdpubwf:lastModificationDate: 2017-11-24T12:56:11.630Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-11-24T12:56:52.819Z
+      hippotranslation:id: 9e350977-89f9-495c-b923-6b2e232fc55e
+      hippotranslation:locale: en
+      kohler:imagePath: binaries/content/gallery/kohler/banners/about-kohler.jpg
+      kohler:title: AboutUsBanner
+      kohler:videoPath: ''

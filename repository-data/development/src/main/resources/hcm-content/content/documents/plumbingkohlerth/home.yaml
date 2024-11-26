@@ -1,0 +1,497 @@
+/content/documents/plumbingkohlerth/home:
+  .meta:order-before: ideas
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b91042ff-ddd7-4f51-b264-dd40e1ab5155
+  hippostd:foldertype: [new-homedocument]
+  hippotranslation:id: ccfcf8cb-3571-4137-b2f2-54fb73803bce
+  hippotranslation:locale: th_TH
+  /cleansing-seats:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 2b79078d-024f-44e5-8a5e-e0b499df85d2
+    hippo:name: Cleansing seats
+    /cleansing-seats[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 16a26353-73bf-4f69-a67d-eb8c9a51e469
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:47:09.293+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3aca7f62-cc65-4206-b060-4dbaad9ec082
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: ทำให้คุณรู้สึกสะอาดแบบสิงคโปร์ที่สะอาด
+      kohler:title: ทำความสะอาดที่นั่งสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0851d706-05e6-4e89-8121-0e389e61ea28
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:46:52.303+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3aca7f62-cc65-4206-b060-4dbaad9ec082
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: ทำให้คุณรู้สึกสะอาดแบบสิงคโปร์ที่สะอาด
+      kohler:title: ทำความสะอาดที่นั่งสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /cleansing-seats[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e724f79e-4186-465a-9929-3b3957e4a6ac
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:21:33.234+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:47:09.293+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:47:10.545+05:30
+      hippotranslation:id: 3aca7f62-cc65-4206-b060-4dbaad9ec082
+      hippotranslation:locale: en
+      kohler:displayOrder: 1
+      kohler:externalUrl: http://www.kbda.asia/
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac08440_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: ทำให้คุณรู้สึกสะอาดแบบสิงคโปร์ที่สะอาด
+      kohler:title: ทำความสะอาดที่นั่งสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: c57250cf-8ebc-4921-a333-cea02a7bc179
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /artist-editions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5dae73ff-5c8f-43be-ab56-df2fd737d4b2
+    hippo:name: Artist Editions
+    /artist-editions[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a5107755-c3dd-45f2-8110-3dfb00db7e77
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:47:37.707+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b019b942-7a2c-41e7-a496-ed8ad4ed583b
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: ทุกงานศิลปะที่ยิ่งใหญ่เริ่มต้นด้วยแรงบันดาลใจ
+      kohler:title: ศิลปินฉบับสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a7a717cd-1bfc-4c27-aede-8f709084c159
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:47:11.620+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b019b942-7a2c-41e7-a496-ed8ad4ed583b
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: ทุกงานศิลปะที่ยิ่งใหญ่เริ่มต้นด้วยแรงบันดาลใจ
+      kohler:title: ศิลปินฉบับสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /artist-editions[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 659e85ae-ddb7-4477-8706-3d7e085e0f9e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T17:22:34.034+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:47:37.707+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:47:38.907+05:30
+      hippotranslation:id: b019b942-7a2c-41e7-a496-ed8ad4ed583b
+      hippotranslation:locale: en
+      kohler:displayOrder: 2
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac12164_rgb?crop=(0,2090,6208,4801)
+      kohler:internalUrl: ''
+      kohler:introduction: ทุกงานศิลปะที่ยิ่งใหญ่เริ่มต้นด้วยแรงบันดาลใจ
+      kohler:title: ศิลปินฉบับสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ac518abd-212a-4e71-bb03-8c8575b03b2d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /composed:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f7bb0726-eadb-4941-8abd-cb8308b0e56b
+    hippo:name: Composed
+    /composed[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: f98dbc0f-70ff-40fd-a210-1b383008ce91
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:48:13.873+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c16a4350-a999-4bba-8900-ffab9c05add3
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: คอลเลกชันก๊อกน้ำแบบผสมผสานโดยโคห์เลอร์คือการออกแบบที่ปราศจากสาระสำคัญ
+        สิงคโปร์
+      kohler:title: ประกอบด้วยสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 238e6381-c249-4f1e-99ef-7a22fe7a90e7
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:47:40.142+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c16a4350-a999-4bba-8900-ffab9c05add3
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: คอลเลกชันก๊อกน้ำแบบผสมผสานโดยโคห์เลอร์คือการออกแบบที่ปราศจากสาระสำคัญ
+        สิงคโปร์
+      kohler:title: ประกอบด้วยสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /composed[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 328f264b-00e5-4c5a-a77e-f1761ec1976a
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:39:31.228+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:48:13.873+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:48:15.297+05:30
+      hippotranslation:id: c16a4350-a999-4bba-8900-ffab9c05add3
+      hippotranslation:locale: en
+      kohler:displayOrder: 3
+      kohler:externalUrl: http://www.couture.kohler.co.in/composed-detail
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zac02352_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: คอลเลกชันก๊อกน้ำแบบผสมผสานโดยโคห์เลอร์คือการออกแบบที่ปราศจากสาระสำคัญ
+        สิงคโปร์
+      kohler:title: ประกอบด้วยสิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ff065505-9ba5-4f63-a42c-e52995121a49
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /bathroom-vanities:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: efdccccb-6005-477b-a782-ef446b1a59db
+    hippo:name: Bathroom Vanities
+    /bathroom-vanities[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: ce5b3e26-b5b8-4de5-bdf3-3c9a28e09855
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:48:36.831+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a24a7c66-6c41-4e7f-a90c-03720a22a260
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: คอลเลคชั่น Vanity Collection ของ KOHLER นำมาสู่มิติใหม่ในห้องน้ำ
+        แต่ละสไตล์ช่วยให้คุณสามารถตกแต่งห้องพักของคุณได้อย่างสมบูรณ์แบบในคุณภาพของ
+        Kohler สิงคโปร์
+      kohler:title: ห้องน้ำ Vanities สิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 92d24b85-e7e1-47d3-94c9-67f8cded18a7
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:48:16.605+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a24a7c66-6c41-4e7f-a90c-03720a22a260
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: คอลเลคชั่น Vanity Collection ของ KOHLER นำมาสู่มิติใหม่ในห้องน้ำ
+        แต่ละสไตล์ช่วยให้คุณสามารถตกแต่งห้องพักของคุณได้อย่างสมบูรณ์แบบในคุณภาพของ
+        Kohler สิงคโปร์
+      kohler:title: ห้องน้ำ Vanities สิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bathroom-vanities[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b63eb6dd-7a42-43ba-892d-b20ff7ac02b8
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-04-20T18:45:07.983+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:48:36.831+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:48:38.234+05:30
+      hippotranslation:id: a24a7c66-6c41-4e7f-a90c-03720a22a260
+      hippotranslation:locale: en
+      kohler:displayOrder: 4
+      kohler:externalUrl: ''
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab41444_rgb
+      kohler:internalUrl: ''
+      kohler:introduction: คอลเลคชั่น Vanity Collection ของ KOHLER นำมาสู่มิติใหม่ในห้องน้ำ
+        แต่ละสไตล์ช่วยให้คุณสามารถตกแต่งห้องพักของคุณได้อย่างสมบูรณ์แบบในคุณภาพของ
+        Kohler สิงคโปร์
+      kohler:title: ห้องน้ำ Vanities สิงคโปร์
+      /kohler:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: be5c2428-c1ae-4ca4-b879-e4b742bb867a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /kohler:assetUrl:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /dtv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 968b4a5f-db78-445e-90b5-2ce33fdb6413
+    hippo:name: DTV
+    /dtv[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: d8f9d0e2-65fb-4901-af53-5f815bab3cb7
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:49:19.371+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7522abc7-d98c-4418-b177-cc54fa94e81e
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: โคห์เลอร์นำน้ำเสียงไอน้ำและแสงเข้าด้วยกันเหมือนไม่มีใครใน
+        DTV + เป็นระบบการอาบน้ำที่ทันสมัยที่สุดของเราเลยทีเดียว สิงคโปร์
+      kohler:title: DTV + ™สิงคโปร์
+    /dtv[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fd6a6f10-c25f-4ace-a356-0d0ab4ed3ba5
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:48:39.555+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7522abc7-d98c-4418-b177-cc54fa94e81e
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: โคห์เลอร์นำน้ำเสียงไอน้ำและแสงเข้าด้วยกันเหมือนไม่มีใครใน
+        DTV + เป็นระบบการอาบน้ำที่ทันสมัยที่สุดของเราเลยทีเดียว สิงคโปร์
+      kohler:title: DTV + ™สิงคโปร์
+    /dtv[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 18e6d374-a7eb-4937-985e-a4a8a01caf77
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:49:19.371+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:49:20.837+05:30
+      hippotranslation:id: 7522abc7-d98c-4418-b177-cc54fa94e81e
+      hippotranslation:locale: en
+      kohler:displayOrder: 5
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab49013_1800x800
+      kohler:introduction: โคห์เลอร์นำน้ำเสียงไอน้ำและแสงเข้าด้วยกันเหมือนไม่มีใครใน
+        DTV + เป็นระบบการอาบน้ำที่ทันสมัยที่สุดของเราเลยทีเดียว สิงคโปร์
+      kohler:title: DTV + ™สิงคโปร์
+  /go-touchless:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b481cdd4-b9d3-4b62-a134-e658d4296ffd
+    hippo:name: Go Touchless
+    /go-touchless[1]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 19ca21d7-11e1-42c9-8a6f-3ab4e39a1106
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:49:41.321+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9f9eca94-a8b4-42d5-82b8-a1a30c42e8b9
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: การสัมผัสไม่ได้หมายถึงเชื้อโรคน้อยลงเพื่อรับหรือทิ้งไว้
+        สิงคโปร์
+      kohler:title: ไปสิงคโปร์สัมผัส
+    /go-touchless[2]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 987ca169-7013-46be-809e-9bf964385424
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:49:22.330+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9f9eca94-a8b4-42d5-82b8-a1a30c42e8b9
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: การสัมผัสไม่ได้หมายถึงเชื้อโรคน้อยลงเพื่อรับหรือทิ้งไว้
+        สิงคโปร์
+      kohler:title: ไปสิงคโปร์สัมผัส
+    /go-touchless[3]:
+      jcr:primaryType: kohler:homedocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c3341a58-4af8-4351-a8b9-eab4394b21a7
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-20T15:52:33.852+05:30
+      hippostdpubwf:lastModificationDate: 2017-10-26T19:49:41.321+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-10-26T19:49:42.620+05:30
+      hippotranslation:id: 9f9eca94-a8b4-42d5-82b8-a1a30c42e8b9
+      hippotranslation:locale: en
+      kohler:displayOrder: 6
+      kohler:hstUrl: ''
+      kohler:imagePath: https://kohler.scene7.com/is/image/PAWEB/zab54661_rgb
+      kohler:introduction: การสัมผัสไม่ได้หมายถึงเชื้อโรคน้อยลงเพื่อรับหรือทิ้งไว้
+        สิงคโปร์
+      kohler:title: ไปสิงคโปร์สัมผัส

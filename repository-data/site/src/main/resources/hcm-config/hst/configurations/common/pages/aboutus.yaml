@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/aboutus:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:parameternames: [path, sortField, sortOrder]
+        hst:parametervalues: [/menus/footer/aboutus, 'hippostdpubwf:publicationDate',
+          asc]
+        hst:template: aboutus
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: aboutus/main

@@ -1,0 +1,91 @@
+/content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: d372499a-facd-425c-9e20-2c95844eaaac
+  hippo:name: Bathroom Products Buying Guides Styling Spaces
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /zac08690_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a7816667-eef4-4f9d-8c01-527dbcf7da5c
+    hippo:name: Size & Installation.jpg
+    /zac08690_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac08690_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac08690_rgb.jpg
+        hippogallery:height: 18
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces/zac08690_rgb.jpg/zac08690_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-09-15T06:41:29.401Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 568
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces/zac08690_rgb.jpg/zac08690_rgb_original.jpg
+        jcr:lastModified: 2017-09-15T06:41:29.401Z
+        jcr:mimeType: image/jpeg
+  /zac08692_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: bb282deb-7328-4c40-98e5-a604678bd3ef
+    hippo:name: Mirror cabinets Design Shape.jpg
+    /zac08692_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac08692_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac08692_rgb.jpg
+        hippogallery:height: 20
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces/zac08692_rgb.jpg/zac08692_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-09-15T07:05:09.482Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces/zac08692_rgb.jpg/zac08692_rgb_original.jpg
+        jcr:lastModified: 2017-09-15T07:05:09.482Z
+        jcr:mimeType: image/jpeg
+  /zac08693_rgb.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3efd83a3-7680-4bee-86fa-adb5b9985c79
+    hippo:name: Mirrors Shape.jpg
+    /zac08693_rgb.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: zac08693_rgb.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: zac08693_rgb.jpg
+        hippogallery:height: 20
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces/zac08693_rgb.jpg/zac08693_rgb_thumbnail.jpg
+        jcr:lastModified: 2017-09-15T07:32:15.120Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 600
+        hippogallery:width: 1800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/plumbingkohlersg/bathroom-products-buying-guides-styling-spaces/zac08693_rgb.jpg/zac08693_rgb_original.jpg
+        jcr:lastModified: 2017-09-15T07:32:15.120Z
+        jcr:mimeType: image/jpeg

@@ -1,0 +1,27 @@
+/content/gallery/plumbingkohlerph/artisteditions_300x232-final.jpeg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 2eb843da-1dad-448d-a837-41b34632ad84
+  /artisteditions_300x232-final.jpeg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: artisteditions_300x232-final.jpeg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: artisteditions_300x232-final.jpeg
+      hippogallery:height: 46
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/plumbingkohlerph/artisteditions_300x232-final.jpeg/artisteditions_300x232-final_thumbnail.jpeg
+      jcr:lastModified: 2017-05-04T19:34:58.282+05:30
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 232
+      hippogallery:width: 300
+      jcr:data:
+        type: binary
+        resource: /content/gallery/plumbingkohlerph/artisteditions_300x232-final.jpeg/artisteditions_300x232-final_original.jpeg
+      jcr:lastModified: 2017-05-04T19:34:58.282+05:30
+      jcr:mimeType: image/jpeg

@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/biz-schema:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.BizSchemaComponent
+      hst:template: biz-schema.ftl

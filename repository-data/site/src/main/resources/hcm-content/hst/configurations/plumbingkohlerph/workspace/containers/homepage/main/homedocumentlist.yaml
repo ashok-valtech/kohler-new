@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers/homepage/main/homedocumentlist:
+  .meta:order-before: carouselOverlay
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+  hst:label: Home Document List
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [home, '', asc, 'kohler:displayOrder', '10', 'off', 'on']
+  hst:template: home-document-list
+  hst:xtype: hst.item

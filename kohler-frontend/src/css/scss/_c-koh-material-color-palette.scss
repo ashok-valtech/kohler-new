@@ -1,0 +1,202 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.c-koh-material-color-palette {
+    background: $koh-color-white none repeat scroll 0 0;
+    color: $koh-color-pdk-grey;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 100%;
+    @media #{$koh-media-nav-breakpoint} {
+        padding-left: calc((100% - 980px) / 2);
+        padding-right: calc((100% - 980px) / 2);
+        width: 100%;
+        &.c-koh-material-color-palette-inner {
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+            .koh-meterial-category {
+                padding-left: calc((100% - 980px) / 2);
+                padding-right: calc((100% - 980px) / 2);
+                width: 100%;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .koh-meterial-container {
+        padding: 0 10px;
+        header {
+            .koh-material-title {
+                font-family: HelveticaLight, Helvetica, sans-serif;
+                font-size: 1.5em;
+                font-weight: 400;
+                line-height: 1.2em;
+                margin: 0 0 20px;
+                text-transform: uppercase;
+                span {
+                    font-size: 12px;
+                    margin-left: 10px;
+                    vertical-align: middle;
+                }
+                @media #{$koh-media-nav-breakpoint} {
+                    font-size: 2.5em;
+                }
+            }
+        }
+    }
+    .koh-meterial-category {
+        /*margin-bottom: 50px;*/
+        .koh-meterial-container {
+            .koh-material-title {
+                font-family: HelveticaLight, Helvetica, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.2em;
+                margin: 0 0 20px;
+                text-transform: uppercase;
+                span {
+                    font-size: 12px;
+                    margin-left: 10px;
+                    vertical-align: 5px;
+                }
+                @media #{$koh-media-nav-breakpoint} {
+                    font-size: 2.5em;
+                }
+            }
+        }
+        .koh-meterial-category-items {
+            align-items: stretch;
+            background-image: linear-gradient(to right, $koh-color-white 0%, #f3f3f3 90%);
+            background-size: 100% auto;
+            border-bottom: 2px solid $koh-color-white;
+            border-right: 2px solid $koh-color-white;
+            margin: 0;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            text-align: center;
+            min-height: 330px;
+            &:hover {
+                background: #e8e8e8;
+            }
+            @media #{$koh-media-screen-sm-max} {
+                min-height: 368px;
+            }
+            .koh-meterial-category-items-inner {
+                color: #666;
+                font-family: "HelveticaLight", Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 200;
+                margin-bottom: 15px;
+                /*padding: 0 5px;*/
+                text-decoration: none;
+                h6 {
+                    color: #666;
+                    font-family: "HelveticaLight", Helvetica, sans-serif;
+                    font-style: normal;
+                    font-size: 20px;
+                    font-weight: 200;
+                    margin: 10px 0;
+                }
+                p {
+                    color: #666;
+                    font-family: "HelveticaLight", Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 200;
+                    margin-bottom: 15px;
+                    padding: 0 5px;
+                    font-size: 14px;
+                }
+            }
+        }
+        &:first-child {
+            header {
+                .koh-material-title {
+                    margin-top: 50px;
+                }
+            }
+        }
+        .koh-color-palette-product-panels {
+            .koh-color-palette-product-panel-wrapper {
+                overflow: hidden;
+                padding: 10px;
+                margin-top: -10px;
+                .koh-color-palette-panel {
+                    position: relative;
+                    min-height: 236px;
+                    margin-bottom: 10px;
+                }
+            }
+            .koh-color-palette-panel-inner {
+                border-bottom: 2px solid $koh-color-white;
+                border-right: 2px solid $koh-color-white;
+                overflow: visible;
+                padding-left: 0;
+                padding-right: 0;
+                position: relative;
+                &:hover {
+                    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.14);
+                    left: 0;
+                    position: relative;
+                    top: 0;
+                    z-index: 1;
+                    right: 0;
+                    cursor: pointer;
+                }
+                .koh-color-palette-panel-caption {
+                    /*padding-bottom: 20px;*/
+                    text-align: center;
+                    min-height: 70px;
+                    .koh-color-palette-panel-title {
+                        color: $koh-color-pdk-grey;
+                        font-size: 14px;
+                        padding: 5px 0 0;
+                    }
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            @media #{$koh-media-screen-xs-max} {
+                .koh-color-palette-product-panel-wrapper {
+                    .koh-color-palette-panel {
+                        min-height: 185px;
+                    }
+                }
+                .koh-color-palette-panel-inner {
+                    &:hover {
+                        box-shadow: none;
+                        left: 0;
+                        position: static;
+                        top: 0;
+                        z-index: 1;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .koh-color-palette-product-panels-more {
+        color: $koh-color-pdk-grey;
+        float: right;
+        font-family: "HelveticaLight", Helvetica, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 200;
+        text-decoration: none;
+        clear: both;
+        .icon {
+            font-size: 50%;
+            margin-left: 5px;
+        }
+    }
+    .gray-line {
+        clear: both;
+        color: #e8e8e8;
+        display: block;
+        margin: 20px 0 30px;
+    }
+}

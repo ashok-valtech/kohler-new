@@ -1,0 +1,201 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/plumbingkohlerid/hst:workspace:
+      jcr:primaryType: hst:workspace
+      /hst:sitemenus:
+        jcr:primaryType: hst:sitemenus
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu
+          hst:lastmodified: 2017-11-16T15:43:23.783+05:30
+      /hst:containers:
+        jcr:primaryType: hst:containercomponentfolder
+        /base:
+          jcr:primaryType: hst:containercomponentfolder
+        /homepage:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Home Page Main
+            hst:lastmodified: 2017-08-21T15:33:56.157+05:30
+            hst:xtype: hst.nomarkup
+        /pagenotfound:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Page-Not-Found Main
+            hst:xtype: hst.nomarkup
+        /productfacet:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Product Facets
+            hst:lastmodified: 2017-05-05T16:14:23.648+05:30
+            hst:xtype: hst.nomarkup
+        /literaturelist:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Literature List Main
+            hst:lastmodified: 2017-05-05T17:59:20.641+05:30
+            hst:xtype: hst.nomarkup
+        /resourceslist:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Resources List Main
+            hst:lastmodified: 2017-05-03T18:27:41.251+05:30
+            hst:xtype: hst.nomarkup
+        /faqlist:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Faq Main
+            hst:lastmodified: 2017-06-20T20:16:00.149+05:30
+            hst:xtype: hst.nomarkup
+        /glossarylist:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Glossary List Main
+            hst:lastmodified: 2017-05-12T21:17:21.127+05:30
+            hst:xtype: hst.nomarkup
+        /careandclean:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: care&clean main
+            hst:lastmodified: 2017-05-11T12:31:04.450+05:30
+            hst:xtype: hst.nomarkup
+        /contentlist:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Content List Main
+            hst:xtype: hst.nomarkup
+        /contentpage:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Content Page Main
+            hst:xtype: hst.nomarkup
+        /colorpalette:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Color Palette
+            hst:lastmodified: 2017-07-19T15:55:51.911+05:30
+            hst:xtype: hst.nomarkup
+        /warranty:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Warranty
+            hst:lastmodified: 2017-05-24T17:43:01.721+05:30
+            hst:xtype: hst.nomarkup
+        /legal:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Legal
+            hst:lastmodified: 2017-05-24T17:43:01.721+05:30
+            hst:xtype: hst.nomarkup
+        /privacy:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Privacy
+            hst:lastmodified: 2017-05-24T17:43:01.721+05:30
+            hst:xtype: hst.nomarkup
+        /pressreleases:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: pressreleases
+            hst:lastmodified: 2017-05-30T15:13:48.464+05:30
+            hst:xtype: hst.nomarkup
+        /protoolbox:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Pro Tool Box
+            hst:lastmodified: 2017-06-09T19:42:10.069+05:30
+            hst:xtype: hst.nomarkup
+        /contactus:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Customer Support
+            hst:lastmodified: 2017-06-02T19:41:57.450+05:30
+            hst:xtype: hst.nomarkup
+        /global-project-container:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: kohler global project
+            hst:lastmodified: 2017-06-14T16:36:45.023+05:30
+            hst:xtype: hst.nomarkup
+        /globalproject-banner:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: kohler global project
+            hst:lastmodified: 2017-07-19T19:58:34.984+05:30
+            hst:xtype: hst.nomarkup
+        /aboutus:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: About Us
+            hst:lastmodified: 2017-05-31T17:34:11.585+05:30
+            hst:xtype: hst.nomarkup
+        /search:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Search
+            hst:lastmodified: 2017-06-16T18:25:04.549+05:30
+            hst:xtype: hst.nomarkup
+        /ethics:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Legal
+            hst:lastmodified: 2017-05-24T17:43:01.721+05:30
+            hst:xtype: hst.nomarkup
+        /promo-collections:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Promo Collections
+            hst:lastmodified: 2017-08-21T15:33:56.157+05:30
+            hst:xtype: hst.nomarkup
+      /hst:sitemap:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:sitemap
+      /hst:pages:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:pages

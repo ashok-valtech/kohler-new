@@ -1,0 +1,187 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+.c-koh-where-to-buy {
+    background: $koh-color-white none repeat scroll 0 0;
+    color: $koh-color-pdk-grey;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 100%;
+    .koh-where-to-buy-container {
+        padding: 0 10px;
+        header {
+            .koh-where-to-buy-title {
+                font-family: HelveticaLight, Helvetica, sans-serif;
+                font-size: 1.5em;
+                font-weight: 400;
+                line-height: 1.2em;
+                margin: 0;
+                text-transform: uppercase;
+            }
+            @media #{$koh-media-nav-breakpoint} {
+                .koh-where-to-buy-title {
+                    font-size: 2.5em;
+                }
+            }
+        }
+        .koh-where-to-buy-section {
+            border-bottom: 1px solid #eee;
+            border-top: 1px solid #eee;
+            margin: 20px 0 30px;
+            padding: 30px 0;
+            .koh-showroom-image {
+                img {
+                    width: 100%;
+                }
+            }
+            .koh-showroom-info-text-inner {
+                padding-left: 30px;
+                h3 {
+                    font-size: 2em;
+                    font-weight: 700;
+                    margin: 0 0 10px;
+                    text-transform: uppercase;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .btn-call-us-now {
+                    background: #dbdbdb none repeat scroll 0 0;
+                    border: medium none;
+                    color: $koh-color-pdk-grey;
+                    font-weight: 700;
+                    padding: 10px 30px;
+                    text-transform: uppercase;
+                    transition: all 0.2s ease 0s;
+                }
+            }
+        }
+        .koh-where-to-buy-section-map {
+            margin: 0 0 30px;
+            .koh-address-list-info {
+                padding-right: 30px;
+                p {
+                    margin: 0 0 20px;
+                }
+                strong {
+                    display: block;
+                    text-transform: capitalize;
+                    font-family: HelveticaBold, Helvetica, sans-serif;
+                }
+            }
+            .koh-social-share {
+                list-style: outside none none;
+                margin: 0;
+                padding: 0;
+                li {
+                    float: left;
+                    margin-right: 10px;
+                    .koh-sfacebook-share,
+                    .koh-stwitter-share,
+                    .koh-sinstagram-share,
+                    .koh-slinelink {
+                        span {
+                            color: #242222;
+                            font-size: 32px;
+                            height: 32px;
+                            width: 32px;
+                        }
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .koh-address-map {
+                iframe {
+                    width: 100%;
+                }
+                table {
+                	width:100%;
+                	td {
+                		vertical-align: top;
+                	}
+                	.mapPanel {
+                		height: auto !important;
+	                	#myMap {
+			                /*position:static !important;*/
+			                width:100%;
+			                height:436px;
+			                z-index: 0;
+		                }
+                	}
+                }
+            }
+        }
+        .koh-where-to-buy-section-gallery {
+            margin-bottom: 50px;
+            .koh-section-gallery-image {
+                .koh-featured-box {
+                    margin-bottom: 2px;
+                    min-height: 1px;
+                    padding-left: 1px;
+                    padding-right: 1px;
+                    position: relative;
+                    .koh-featured-box-link {
+                        display: block;
+                        max-height: 210px;
+                        overflow: hidden;
+                    }
+                    .koh-featured-box-image {
+                        height: auto;
+                        width: 100%;
+                    }
+                    figcaption {
+                        display: table;
+                        min-height: 100px;
+                        width: 100%;
+                        background-image: linear-gradient(to right, $koh-color-white 0px, #eee 100%);
+                        background-repeat: repeat-x;
+                        padding: 30px 20px 20px;
+                        text-align: center;
+                        h3 {
+                            font-family: HelveticaLight, HelveticaRoman, Helvetica, sans-serif;
+                            font-size: 20px;
+                            font-weight: 100;
+                            margin: 0;
+                        }
+                        a {
+                            color: #000;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        @media #{$koh-media-screen-xs-max} {
+            .koh-where-to-buy-section {
+                .koh-showroom-image {
+                    img {
+                        width: auto;
+                    }
+                }
+                .koh-showroom-info-text-inner {
+                    padding-left: 20px;
+                    h3 {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+            .koh-where-to-buy-section-gallery {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media #{$koh-media-nav-breakpoint} {
+    .c-koh-where-to-buy {
+        padding-left: calc((100% - 980px) / 2);
+        padding-right: calc((100% - 980px) / 2);
+        width: 100%;
+    }
+}

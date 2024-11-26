@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/promotion-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.kohler.commons.components.StoreAndPackageComponent
+        hst:parameternames: [path, sortOrder, sortField]
+        hst:parametervalues: [hygiene-campaign/landing-page-store-component, asc,
+          'kohler:displayorder']
+        hst:template: landing-page-common-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: hygiene-campaign-container/main

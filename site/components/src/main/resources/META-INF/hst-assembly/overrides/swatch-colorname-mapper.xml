@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       					   http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+       					   http://www.springframework.org/schema/context
+    						http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+	
+	<bean id="SwatchColorNameFinderServiceenUS" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenUS"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="3"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/kohler/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/kohler/products')"/>
+			</bean>
+		 </property>
+	</bean>	 
+	<bean id="SwatchColorNameFinderServiceenSG" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenSG"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="6"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlersg/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlersg/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenMY" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenMY"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="9"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlermy/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlermy/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenPH" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenPH"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="12"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerph/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerph/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenID" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenID"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="15"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerenid/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerenid/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceinID" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceinID"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="18"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerid/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerid/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenVN" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenVN"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="21"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerenvn/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerenvn/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceviVN" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceviVN"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="24"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlervn/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlervn/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenKR" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenKR"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="27"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerenkr/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerenkr/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServicekoKR" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServicekoKR"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="30"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerkr/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerkr/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenHK" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenHK"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="33"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerenhk/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerenhk/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServicezhHK" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServicezhHK"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="36"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerhk/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerhk/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenTW" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenTW"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="39"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerentw/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerentw/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServicezhTW" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServicezhTW"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="42"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlertw/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlertw/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServiceenTH" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServiceenTH"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="45"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerenth/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerenth/products')"/>
+			</bean>
+		 </property>
+	</bean>
+	<bean id="SwatchColorNameFinderServicethTH" class="com.kohler.commons.service.SwatchColorNameFinderServiceImpl" depends-on="javax.jcr.Repository" init-method="getSwatchColorNameInit">
+		<property name="name" value="SwatchColorNameFinderServicethTH"/>
+		<property name="repository" ref="javax.jcr.Repository"/>
+	    <property name="credentials" ref="javax.jcr.Credentials.default"/>
+	    <property name="refreshIntervalShort" value="48"/>
+		<property name="fullIndexQuery">
+			<bean class="com.kohler.commons.components.search.SearchQuery">
+				<property name="location" value="/content/documents/plumbingkohlerth/products"/>
+				<property name="query" value="SELECT * FROM [kohler:cSKU] WHERE ISDESCENDANTNODE('/content/documents/plumbingkohlerth/products')"/>
+			</bean>
+		 </property>
+	</bean>
+</beans>    						

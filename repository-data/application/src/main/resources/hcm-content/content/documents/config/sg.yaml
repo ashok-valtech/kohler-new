@@ -1,0 +1,148 @@
+/content/documents/config/sg:
+  .meta:order-before: th
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 2bb52b3e-12c8-435a-af0e-10406822d528
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 6da52659-a29b-435d-8ebf-b2e970ac7bee
+  hippotranslation:locale: en
+  /robots:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ce675ef4-0e4b-429d-b943-d16d70cbdca3
+    /robots[1]:
+      jcr:primaryType: robotstxt:robotstxt
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 99d9904f-a6aa-48a0-af77-3731a1f50755
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-26T16:19:59.129Z
+      hippostdpubwf:lastModificationDate: 2018-04-20T14:04:02.573Z
+      hippostdpubwf:lastModifiedBy: admin
+      /robotstxt:section:
+        jcr:primaryType: robotstxt:section
+        robotstxt:disallow: [/results/]
+        robotstxt:useragent: '*'
+    /robots[2]:
+      jcr:primaryType: robotstxt:robotstxt
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 38607d53-fe0e-4411-8ca4-a4e212c8e9ec
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-26T16:19:59.129Z
+      hippostdpubwf:lastModificationDate: 2018-04-20T14:03:02.238Z
+      hippostdpubwf:lastModifiedBy: admin
+      /robotstxt:section:
+        jcr:primaryType: robotstxt:section
+        robotstxt:disallow: [/results/]
+        robotstxt:useragent: '*'
+    /robots[3]:
+      jcr:primaryType: robotstxt:robotstxt
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7a90d95d-1bda-4c7a-ac8c-789f5f7f5d67
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-26T16:19:59.129Z
+      hippostdpubwf:lastModificationDate: 2018-04-20T14:04:02.573Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-04-20T14:04:11.737Z
+      /robotstxt:section:
+        jcr:primaryType: robotstxt:section
+        robotstxt:disallow: [/results/]
+        robotstxt:useragent: '*'
+  /biz-schema-sg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 854daddb-312e-48a7-8554-99dcf20c92de
+    hippo:name: Biz Schema SG
+    /biz-schema-sg[1]:
+      jcr:primaryType: kohler:BizSchema
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e2d24b48-c009-4669-8ec6-7354036fcfb1
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-09T16:18:33.454+05:30
+      hippostdpubwf:lastModificationDate: 2019-10-09T18:02:51.246+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 660bd3f6-a9c7-493b-8726-8049da9f4fc9
+      hippotranslation:locale: en
+      kohler:script: "{\r\n  \"@context\": \"https://urldefense.com/v3/__https://schema.org__;!i50tjOIWtEo!G1_0dllu7-TkagcnFIEQv2bqos3Gqc0owwaMYL1QsIvHspFIGLsiebvfr23fkC8zn2oL5w$\
+        \ \",\r\n  \"@type\": \"LocalBusiness\",\r\n  \"name\": \"KOHLER Singapore\"\
+        ,\r\n  \"image\": \"https://www.kohler.com.sg/binaries/content/gallery/kohler/home/kohler-logo-261x146.png\"\
+        ,\r\n  \"@id\": \"\",\r\n  \"url\": \"https://www.kohler.com.sg/\",\r\n  \"\
+        telephone\": \"+65 62646400\",\r\n  \"address\": {\r\n    \"@type\": \"PostalAddress\"\
+        ,\r\n    \"streetAddress\": \"56A Peck Seah Street\",\r\n    \"addressLocality\"\
+        : \"Singapore\",\r\n    \"postalCode\": \"079321\",\r\n    \"addressCountry\"\
+        : \"SG\"\r\n  },\r\n  \"geo\": {\r\n    \"@type\": \"GeoCoordinates\",\r\n\
+        \    \"latitude\": 1.2777375,\r\n    \"longitude\": 103.8447817\r\n  },\r\n\
+        \  \"openingHoursSpecification\": [{\r\n    \"@type\": \"OpeningHoursSpecification\"\
+        ,\r\n    \"dayOfWeek\": [\r\n      \"Monday\",\r\n      \"Tuesday\",\r\n \
+        \     \"Wednesday\",\r\n      \"Thursday\",\r\n      \"Friday\"\r\n    ],\r\
+        \n    \"opens\": \"10:00\",\r\n    \"closes\": \"19:00\"\r\n  },{\r\n    \"\
+        @type\": \"OpeningHoursSpecification\",\r\n    \"dayOfWeek\": \"Saturday\"\
+        ,\r\n    \"opens\": \"10:00\",\r\n    \"closes\": \"18:00\"\r\n  }],\r\n \
+        \ \"sameAs\": \"https://urldefense.com/v3/__https://www.facebook.com/KohlerSingapore/__;!i50tjOIWtEo!G1_0dllu7-TkagcnFIEQv2bqos3Gqc0owwaMYL1QsIvHspFIGLsiebvfr23fkC_6feCD0Q$\
+        \ \"\r\n}"
+    /biz-schema-sg[2]:
+      jcr:primaryType: kohler:BizSchema
+      jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+      jcr:uuid: b4cf722e-e7f7-49bd-932d-97c23ac4744f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-09T16:18:33.454+05:30
+      hippostdpubwf:lastModificationDate: 2019-10-09T18:03:01.943+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 660bd3f6-a9c7-493b-8726-8049da9f4fc9
+      hippotranslation:locale: en
+      kohler:script: "{\r\n  \"@context\": \"https://urldefense.com/v3/__https://schema.org__;!i50tjOIWtEo!G1_0dllu7-TkagcnFIEQv2bqos3Gqc0owwaMYL1QsIvHspFIGLsiebvfr23fkC8zn2oL5w$\
+        \ \",\r\n  \"@type\": \"LocalBusiness\",\r\n  \"name\": \"KOHLER Singapore\"\
+        ,\r\n  \"image\": \"https://www.kohler.com.sg/binaries/content/gallery/kohler/home/kohler-logo-261x146.png\"\
+        ,\r\n  \"@id\": \"\",\r\n  \"url\": \"https://www.kohler.com.sg/\",\r\n  \"\
+        telephone\": \"+65 62646400\",\r\n  \"address\": {\r\n    \"@type\": \"PostalAddress\"\
+        ,\r\n    \"streetAddress\": \"56A Peck Seah Street\",\r\n    \"addressLocality\"\
+        : \"Singapore\",\r\n    \"postalCode\": \"079321\",\r\n    \"addressCountry\"\
+        : \"SG\"\r\n  },\r\n  \"geo\": {\r\n    \"@type\": \"GeoCoordinates\",\r\n\
+        \    \"latitude\": 1.2777375,\r\n    \"longitude\": 103.8447817\r\n  },\r\n\
+        \  \"openingHoursSpecification\": [{\r\n    \"@type\": \"OpeningHoursSpecification\"\
+        ,\r\n    \"dayOfWeek\": [\r\n      \"Monday\",\r\n      \"Tuesday\",\r\n \
+        \     \"Wednesday\",\r\n      \"Thursday\",\r\n      \"Friday\"\r\n    ],\r\
+        \n    \"opens\": \"10:00\",\r\n    \"closes\": \"19:00\"\r\n  },{\r\n    \"\
+        @type\": \"OpeningHoursSpecification\",\r\n    \"dayOfWeek\": \"Saturday\"\
+        ,\r\n    \"opens\": \"10:00\",\r\n    \"closes\": \"18:00\"\r\n  }],\r\n \
+        \ \"sameAs\": \"https://urldefense.com/v3/__https://www.facebook.com/KohlerSingapore/__;!i50tjOIWtEo!G1_0dllu7-TkagcnFIEQv2bqos3Gqc0owwaMYL1QsIvHspFIGLsiebvfr23fkC_6feCD0Q$\
+        \ \"\r\n}"
+    /biz-schema-sg[3]:
+      jcr:primaryType: kohler:BizSchema
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 346b8622-1ef1-4dec-85e7-418570a5af1b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-09T16:18:33.454+05:30
+      hippostdpubwf:lastModificationDate: 2019-10-09T18:03:01.943+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-09T18:03:04.149+05:30
+      hippotranslation:id: 660bd3f6-a9c7-493b-8726-8049da9f4fc9
+      hippotranslation:locale: en
+      kohler:script: "{\r\n  \"@context\": \"https://urldefense.com/v3/__https://schema.org__;!i50tjOIWtEo!G1_0dllu7-TkagcnFIEQv2bqos3Gqc0owwaMYL1QsIvHspFIGLsiebvfr23fkC8zn2oL5w$\
+        \ \",\r\n  \"@type\": \"LocalBusiness\",\r\n  \"name\": \"KOHLER Singapore\"\
+        ,\r\n  \"image\": \"https://www.kohler.com.sg/binaries/content/gallery/kohler/home/kohler-logo-261x146.png\"\
+        ,\r\n  \"@id\": \"\",\r\n  \"url\": \"https://www.kohler.com.sg/\",\r\n  \"\
+        telephone\": \"+65 62646400\",\r\n  \"address\": {\r\n    \"@type\": \"PostalAddress\"\
+        ,\r\n    \"streetAddress\": \"56A Peck Seah Street\",\r\n    \"addressLocality\"\
+        : \"Singapore\",\r\n    \"postalCode\": \"079321\",\r\n    \"addressCountry\"\
+        : \"SG\"\r\n  },\r\n  \"geo\": {\r\n    \"@type\": \"GeoCoordinates\",\r\n\
+        \    \"latitude\": 1.2777375,\r\n    \"longitude\": 103.8447817\r\n  },\r\n\
+        \  \"openingHoursSpecification\": [{\r\n    \"@type\": \"OpeningHoursSpecification\"\
+        ,\r\n    \"dayOfWeek\": [\r\n      \"Monday\",\r\n      \"Tuesday\",\r\n \
+        \     \"Wednesday\",\r\n      \"Thursday\",\r\n      \"Friday\"\r\n    ],\r\
+        \n    \"opens\": \"10:00\",\r\n    \"closes\": \"19:00\"\r\n  },{\r\n    \"\
+        @type\": \"OpeningHoursSpecification\",\r\n    \"dayOfWeek\": \"Saturday\"\
+        ,\r\n    \"opens\": \"10:00\",\r\n    \"closes\": \"18:00\"\r\n  }],\r\n \
+        \ \"sameAs\": \"https://urldefense.com/v3/__https://www.facebook.com/KohlerSingapore/__;!i50tjOIWtEo!G1_0dllu7-TkagcnFIEQv2bqos3Gqc0owwaMYL1QsIvHspFIGLsiebvfr23fkC_6feCD0Q$\
+        \ \"\r\n}"

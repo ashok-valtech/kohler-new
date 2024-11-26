@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components/pressReleasesLazyComponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.kohler.commons.components.PressReleaseAjaxComponent
+      hst:parameternames: [sortOrder, sortField, pageSize, path]
+      hst:parametervalues: [desc, 'kohler:date', '20', /menus/footer/press-releases]

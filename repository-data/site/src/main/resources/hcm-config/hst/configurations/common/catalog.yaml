@@ -1,0 +1,157 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /kohler-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /homedocumentlist:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/home_doc.png
+          hst:label: Home Document List
+          hst:template: home-document-list
+        /productfacet:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.ProductFacetsComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product_fecet.png
+          hst:label: Product Facet
+          hst:template: productfacetpage-navlist
+        /productlist:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.EssentialsProductListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product_list.png
+          hst:label: Product List
+          hst:template: productfacetpage-productlist
+        /literaturelist:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/literature_list.png
+          hst:label: literaturelist List
+          hst:template: literature-item-list-main
+        /resourceslist:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/resource_list.png
+          hst:label: Resources List
+          hst:template: resources-item-list-main
+        /glossarylist:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/glossary.png
+          hst:label: Glossary List
+          hst:template: glossary-item-main
+        /colorpalette:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/color_palette.png
+          hst:label: Color Palette
+          hst:template: colorpalete-list
+        /contactus:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/contact_us.png
+          hst:label: contact us
+          hst:template: contactus-main
+        /customBanner:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/custom_banner.png
+          hst:label: custom Banner
+          hst:template: customBanner
+        /commoncontent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Common Content
+          hst:template: common-contentpage-main
+        /customcarousel:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+          hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+          hst:label: Custom Carousel
+          hst:template: customcarousel
+        /searchfacet:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.SearchFacetsComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product_fecet.png
+          hst:label: Search Facet
+          hst:parameternames: [ignoreSpecialCharacters, pageSize]
+          hst:parametervalues: ['[<>''%;&/+;-]', '20']
+          hst:template: search-facetpage
+        /searchlist:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.EssentialsSearchListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product_list.png
+          hst:label: Search List
+          hst:parameternames: [ignoreSpecialCharacters]
+          hst:parametervalues: ['[<>''%;&/+;-]']
+          hst:template: search-listpage
+        /carouselOverlay:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.CarouselOverlayComponent
+          hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+          hst:label: Carousel Overlay
+          hst:parameternames: [path, sortOrder, sortField, documentTypes]
+          hst:parametervalues: [banners/carouseloverlay, asc, 'kohler:displayOrder',
+            'kohler:carouselOverlayDocument']
+          hst:template: carouseloverlay-document
+        /promo-collections:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/promo-collections.png
+          hst:label: Promo Collections Document
+          hst:template: promo-collections-document
+        /hrLine:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.HRLineComponent
+          hst:iconpath: images/essentials/catalog-component-icons/custom_banner.png
+          hst:label: HR Line
+          hst:template: hrLine
+        /imgTitDecLinkGridList:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/home_doc.png
+          hst:label: Image Title Desc Link
+          hst:template: imgTitDesLink-list
+        /keccommoncontent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: KEC Common Content
+          hst:template: kec-common-contentpage-main
+        /mapComponent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Map Component
+          hst:template: map-page-main
+        /thumbnail-carousel:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.ThumdnailCarousalComponent
+          hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+          hst:label: Thumbnail Carousel
+          hst:template: thumbnail-carousel
+        /walkIn-bath-description:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Walk In Bath Description
+          hst:template: walkIn-bath-description
+        /walkinbath-fb-details:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Walk In Bath Details
+          hst:template: walkinbath-fb-details
+        /walkinbath-fb-top-section:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.kohler.commons.components.WalkinBathTopSectionComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Walk In Bath Top Section
+          hst:template: walkinbath-fb-top-section
+        /walkIn-bath-video:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Walk In Bath Video
+          hst:template: walkIn-bath-video

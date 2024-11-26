@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:platform/hst:hosts/br-cloud-prod-green:
+      jcr:primaryType: hst:virtualhostgroup

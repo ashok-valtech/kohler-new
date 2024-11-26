@@ -1,0 +1,601 @@
+/content/documents/plumbingkohlerid/ideas:
+  .meta:order-before: menus
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 2aa0b49d-4135-4b36-bad4-867ea7fd5a4b
+  hippostd:foldertype: []
+  hippotranslation:id: 295cad33-bdba-4fcd-b5c6-9f27a7b0212f
+  hippotranslation:locale: in_ID
+  /literature:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: a2917b07-ee3a-4c54-88b2-0fb4d8831d6b
+    hippostd:foldertype: [new-literature]
+    hippotranslation:id: 054e0180-fc52-40fc-b47e-63cef87f1392
+    hippotranslation:locale: in_ID
+    /suites-and-toilets:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 562ddd56-5dfc-45d0-ad61-f8f5c2332eb7
+      hippo:name: Suites and Toilets
+      /suites-and-toilets[1]:
+        jcr:primaryType: kohler:literature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 34212d40-c0b1-4c9f-b192-995ace484a53
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:50:28.916+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:51:53.365+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 1f58841f-445e-4d17-98a9-51f7aeeabad0
+        hippotranslation:locale: sr
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:introduction: Bagian Kamar Tidur dan Toilet Koleksi Eceran 2017
+        kohler:pdfUrl: ''
+        kohler:title: Suite dan toilet
+        /kohler:relatedFile:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /suites-and-toilets[2]:
+        jcr:primaryType: kohler:literature
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: a508b4d8-817f-4917-8110-035e4d0206fd
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:50:28.916+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:52:15.325+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 1f58841f-445e-4d17-98a9-51f7aeeabad0
+        hippotranslation:locale: sr
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:introduction: Bagian Kamar Tidur dan Toilet Koleksi Eceran 2017
+        kohler:pdfUrl: ''
+        kohler:title: Suite dan toilet
+        /kohler:relatedFile:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /suites-and-toilets[3]:
+        jcr:primaryType: kohler:literature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b67776e8-0722-427c-8d95-20d45b1ef15a
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:50:28.916+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:52:15.325+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:52:16.696+05:30
+        hippotranslation:id: 1f58841f-445e-4d17-98a9-51f7aeeabad0
+        hippotranslation:locale: sr
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:introduction: Bagian Kamar Tidur dan Toilet Koleksi Eceran 2017
+        kohler:pdfUrl: ''
+        kohler:title: Suite dan toilet
+        /kohler:relatedFile:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /resources:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 7322b391-51cb-4b9b-a115-63203d3cf67d
+    hippostd:foldertype: [new-resources]
+    hippotranslation:id: c3b1b9b9-8d3c-4a9f-a1a0-a949f63cd3e6
+    hippotranslation:locale: in_ID
+  /glossary:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 8c4a752d-d1b6-4e62-97e2-84c2ef270c4e
+    hippostd:foldertype: [new-glossary]
+    hippotranslation:id: 30e94d56-9bbd-49ad-b93b-e20089fa75b5
+    hippotranslation:locale: in_ID
+  /careandclean:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 1eacda6a-e98e-4ce1-a643-3a990ed4b9e7
+    hippostd:foldertype: [new-footer-simpledocument]
+    hippotranslation:id: 22de0c2c-b70a-4afd-88c5-f5207c3a0b1b
+    hippotranslation:locale: in_ID
+    /listingsubdocs:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: eebd57e0-7312-4ad9-b15a-10130026f8b8
+      hippostd:foldertype: [new-listingsubdocs]
+      hippotranslation:id: e0484c3a-425b-486b-8c4c-f53c050d4e5b
+      hippotranslation:locale: in_ID
+      /kitchen-sinks:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 1ac2abf7-959c-4d7d-a0d6-52e3cc873bae
+        hippo:name: Kitchen Sinks
+        /kitchen-sinks[1]:
+          jcr:primaryType: kohler:careAndCleanSubDoc
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 68c688bd-e556-446e-be0e-b5c545bb6e0f
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:13.084+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:52:27.631+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 959e5e5d-0e71-40f4-b6a6-a93634ed1491
+          hippotranslation:locale: en_ID
+          kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/zab86231_rgb?crop=(0,121,8280,5966)&$SectionHero$
+          kohler:title: Kitchen Sinks
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p><a href="https://translate.google.co.in/" id="gt-appname">Translate</a><a href="https://translate.google.co.in/?hl=en&amp;eotf=0&amp;sl=en&amp;tl=id" id="gt-otf-switch">Turn off instant translation</a></p>
+
+              <p>English</p>
+
+              <p>Korean</p>
+
+              <p>Spanish</p>
+
+              <p>Detect language</p>
+
+              <p>Indonesian</p>
+
+              <p>Vietnamese</p>
+
+              <p>Korean</p>
+
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p>1442/5000</p>
+
+              <p>Bilas secara menyeluruh dan gunakan kain lembut untuk menghapus produk kering setelah setiap kali digunakan.<br />
+              Pada kejadian bekas noda membandel, gunakan pembersih abrasif dengan hemat.<br />
+              Jangan gunakan wol baja, sikat kawat atau bantalan spons abrasif.<br />
+              Berhati-hatilah untuk tidak meninggalkan piring kotor, bubuk kopi, kantong teh atau bahan pewarnaan lainnya yang kontak dengan permukaan email untuk waktu yang lama.<br />
+              Pertimbangkan aksesoris wastafel dapur seperti rak baskom bawah dan keranjang bilas untuk membantu melindungi permukaan dari goresan.<br />
+              Jangan menyimpan wadah pembersih atau bahan kimia yang terbuka seperti asam, pemutih, natrium klorida, alkali, pembersih mangkuk toilet, pembersih saluran pembuangan, atau produk penghapusan noda keras di bawah wastafel Anda.<br />
+              <br />
+              Petunjuk pembersihan yang tercantum hanya berkaitan dengan bahan yang sesuai, dan tidak dimaksudkan untuk pembersihan keran.&nbsp;Petunjuk pembersihan kran untuk porselen krom dan vitreous.<br />
+              Kesuksesan dengan pembersih dan prosedur tergantung pada faktor-faktor seperti kekerasan dan suhu air, dengan menggunakan pengukuran bahan yang tepat, perubahan dalam formula pembersih dan kondisi produk yang sedang dibersihkan.Karena ada variasi dalam faktor-faktor ini, Kohler tidak dapat menjamin keefektifan formula yang disebutkan.<br />
+              <br />
+              Produk yang perlu dipertimbangkan<br />
+              KOHLER Cast Iron Cleaner<br />
+              Fantastik Antibacterial Heavy Duty<br />
+              Formula 409 Antibakteri Semua-Tujuan<br />
+              Green Works All-Purpose<br />
+              Gel Scrub Lembut dengan Bleach<br />
+              Untuk menghilangkan karat:<br />
+              Bon Ami<br />
+              Super Iron Out Rust Stain Remover</p>
+
+              <p>Suggest an edit</p>
+
+              <p>Google Translate for Business:<a href="http://www.google.co.in/url?rs=rsmf&amp;q=http://translate.google.com/toolkit%3Fhl%3Den">Translator Toolkit</a><a href="http://www.google.co.in/url?rs=rsmf&amp;q=http://translate.google.com/manager/website/%3Fhl%3Den">Website Translator</a></p>
+
+              <p><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://translate.google.co.in/about/intl/en_ALL/">About Google Translate</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=//translate.google.com/community">Community</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://www.google.com/mobile/translate/">Mobile</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=//www.google.com/about">About Google</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://www.google.co.in/intl/en/policies/">Privacy &amp; Terms</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=https://www.google.com/support/translate/%3Fhl%3Den">Help</a><a href="" id="gt-feedback">Send feedback</a></p>
+        /kitchen-sinks[2]:
+          jcr:primaryType: kohler:careAndCleanSubDoc
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 8a72f2b3-ab9b-4ef5-b717-d74d4d499eaa
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:13.084+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:52:50.296+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 959e5e5d-0e71-40f4-b6a6-a93634ed1491
+          hippotranslation:locale: en_ID
+          kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/zab86231_rgb?crop=(0,121,8280,5966)&$SectionHero$
+          kohler:title: Kitchen Sinks
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p><a href="https://translate.google.co.in/" id="gt-appname">Translate</a><a href="https://translate.google.co.in/?hl=en&amp;eotf=0&amp;sl=en&amp;tl=id" id="gt-otf-switch">Turn off instant translation</a></p>
+
+              <p>English</p>
+
+              <p>Korean</p>
+
+              <p>Spanish</p>
+
+              <p>Detect language</p>
+
+              <p>Indonesian</p>
+
+              <p>Vietnamese</p>
+
+              <p>Korean</p>
+
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p>1442/5000</p>
+
+              <p>Bilas secara menyeluruh dan gunakan kain lembut untuk menghapus produk kering setelah setiap kali digunakan.<br />
+              Pada kejadian bekas noda membandel, gunakan pembersih abrasif dengan hemat.<br />
+              Jangan gunakan wol baja, sikat kawat atau bantalan spons abrasif.<br />
+              Berhati-hatilah untuk tidak meninggalkan piring kotor, bubuk kopi, kantong teh atau bahan pewarnaan lainnya yang kontak dengan permukaan email untuk waktu yang lama.<br />
+              Pertimbangkan aksesoris wastafel dapur seperti rak baskom bawah dan keranjang bilas untuk membantu melindungi permukaan dari goresan.<br />
+              Jangan menyimpan wadah pembersih atau bahan kimia yang terbuka seperti asam, pemutih, natrium klorida, alkali, pembersih mangkuk toilet, pembersih saluran pembuangan, atau produk penghapusan noda keras di bawah wastafel Anda.<br />
+              <br />
+              Petunjuk pembersihan yang tercantum hanya berkaitan dengan bahan yang sesuai, dan tidak dimaksudkan untuk pembersihan keran.&nbsp;Petunjuk pembersihan kran untuk porselen krom dan vitreous.<br />
+              Kesuksesan dengan pembersih dan prosedur tergantung pada faktor-faktor seperti kekerasan dan suhu air, dengan menggunakan pengukuran bahan yang tepat, perubahan dalam formula pembersih dan kondisi produk yang sedang dibersihkan.Karena ada variasi dalam faktor-faktor ini, Kohler tidak dapat menjamin keefektifan formula yang disebutkan.<br />
+              <br />
+              Produk yang perlu dipertimbangkan<br />
+              KOHLER Cast Iron Cleaner<br />
+              Fantastik Antibacterial Heavy Duty<br />
+              Formula 409 Antibakteri Semua-Tujuan<br />
+              Green Works All-Purpose<br />
+              Gel Scrub Lembut dengan Bleach<br />
+              Untuk menghilangkan karat:<br />
+              Bon Ami<br />
+              Super Iron Out Rust Stain Remover</p>
+
+              <p>Suggest an edit</p>
+
+              <p>Google Translate for Business:<a href="http://www.google.co.in/url?rs=rsmf&amp;q=http://translate.google.com/toolkit%3Fhl%3Den">Translator Toolkit</a><a href="http://www.google.co.in/url?rs=rsmf&amp;q=http://translate.google.com/manager/website/%3Fhl%3Den">Website Translator</a></p>
+
+              <p><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://translate.google.co.in/about/intl/en_ALL/">About Google Translate</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=//translate.google.com/community">Community</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://www.google.com/mobile/translate/">Mobile</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=//www.google.com/about">About Google</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://www.google.co.in/intl/en/policies/">Privacy &amp; Terms</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=https://www.google.com/support/translate/%3Fhl%3Den">Help</a><a href="" id="gt-feedback">Send feedback</a></p>
+        /kitchen-sinks[3]:
+          jcr:primaryType: kohler:careAndCleanSubDoc
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f9c06522-1463-48ec-99e7-f2be3284e317
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:13.084+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:52:50.296+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-10-26T14:52:51.918+05:30
+          hippotranslation:id: 959e5e5d-0e71-40f4-b6a6-a93634ed1491
+          hippotranslation:locale: en_ID
+          kohler:imageUrl: https://kohler.scene7.com/is/image/PAWEB/zab86231_rgb?crop=(0,121,8280,5966)&$SectionHero$
+          kohler:title: Kitchen Sinks
+          /kohler:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p><a href="https://translate.google.co.in/" id="gt-appname">Translate</a><a href="https://translate.google.co.in/?hl=en&amp;eotf=0&amp;sl=en&amp;tl=id" id="gt-otf-switch">Turn off instant translation</a></p>
+
+              <p>English</p>
+
+              <p>Korean</p>
+
+              <p>Spanish</p>
+
+              <p>Detect language</p>
+
+              <p>Indonesian</p>
+
+              <p>Vietnamese</p>
+
+              <p>Korean</p>
+
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p>1442/5000</p>
+
+              <p>Bilas secara menyeluruh dan gunakan kain lembut untuk menghapus produk kering setelah setiap kali digunakan.<br />
+              Pada kejadian bekas noda membandel, gunakan pembersih abrasif dengan hemat.<br />
+              Jangan gunakan wol baja, sikat kawat atau bantalan spons abrasif.<br />
+              Berhati-hatilah untuk tidak meninggalkan piring kotor, bubuk kopi, kantong teh atau bahan pewarnaan lainnya yang kontak dengan permukaan email untuk waktu yang lama.<br />
+              Pertimbangkan aksesoris wastafel dapur seperti rak baskom bawah dan keranjang bilas untuk membantu melindungi permukaan dari goresan.<br />
+              Jangan menyimpan wadah pembersih atau bahan kimia yang terbuka seperti asam, pemutih, natrium klorida, alkali, pembersih mangkuk toilet, pembersih saluran pembuangan, atau produk penghapusan noda keras di bawah wastafel Anda.<br />
+              <br />
+              Petunjuk pembersihan yang tercantum hanya berkaitan dengan bahan yang sesuai, dan tidak dimaksudkan untuk pembersihan keran.&nbsp;Petunjuk pembersihan kran untuk porselen krom dan vitreous.<br />
+              Kesuksesan dengan pembersih dan prosedur tergantung pada faktor-faktor seperti kekerasan dan suhu air, dengan menggunakan pengukuran bahan yang tepat, perubahan dalam formula pembersih dan kondisi produk yang sedang dibersihkan.Karena ada variasi dalam faktor-faktor ini, Kohler tidak dapat menjamin keefektifan formula yang disebutkan.<br />
+              <br />
+              Produk yang perlu dipertimbangkan<br />
+              KOHLER Cast Iron Cleaner<br />
+              Fantastik Antibacterial Heavy Duty<br />
+              Formula 409 Antibakteri Semua-Tujuan<br />
+              Green Works All-Purpose<br />
+              Gel Scrub Lembut dengan Bleach<br />
+              Untuk menghilangkan karat:<br />
+              Bon Ami<br />
+              Super Iron Out Rust Stain Remover</p>
+
+              <p>Suggest an edit</p>
+
+              <p>Google Translate for Business:<a href="http://www.google.co.in/url?rs=rsmf&amp;q=http://translate.google.com/toolkit%3Fhl%3Den">Translator Toolkit</a><a href="http://www.google.co.in/url?rs=rsmf&amp;q=http://translate.google.com/manager/website/%3Fhl%3Den">Website Translator</a></p>
+
+              <p><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://translate.google.co.in/about/intl/en_ALL/">About Google Translate</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=//translate.google.com/community">Community</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://www.google.com/mobile/translate/">Mobile</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=//www.google.com/about">About Google</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=http://www.google.co.in/intl/en/policies/">Privacy &amp; Terms</a><a href="http://www.google.co.in/url?rs=rssf&amp;q=https://www.google.com/support/translate/%3Fhl%3Den">Help</a><a href="" id="gt-feedback">Send feedback</a></p>
+    /listingdocs:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: ddd6b205-6a5f-4c38-8f0d-19c1e0ceab04
+      hippostd:foldertype: [new-careclean-listing]
+      hippotranslation:id: 8e612fae-9eb1-41d9-a604-eb1d9fb2f7a7
+      hippotranslation:locale: in_ID
+      /enameled-cast-iron-kitchen-sinks:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 15f0cd74-a905-42d0-96af-7ca6bd74e648
+        hippo:name: Enameled Cast Iron Kitchen Sinks
+        /enameled-cast-iron-kitchen-sinks[1]:
+          jcr:primaryType: kohler:docLinks
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e2a10b02-e4d1-4d49-8085-b47901cae497
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:32.127+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:52:56.786+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0c79f695-b32f-499a-b311-7cf26e5292b7
+          hippotranslation:locale: en_ID
+          kohler:displayOrder: 0
+          kohler:title: Berenamel Cast Iron Kitchen Sinks
+          /kohler:documentLink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+        /enameled-cast-iron-kitchen-sinks[2]:
+          jcr:primaryType: kohler:docLinks
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 18624ebb-e3a2-41da-8e9a-f407345fd0c7
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:32.127+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:53:09.054+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0c79f695-b32f-499a-b311-7cf26e5292b7
+          hippotranslation:locale: en_ID
+          kohler:displayOrder: 0
+          kohler:title: Berenamel Cast Iron Kitchen Sinks
+          /kohler:documentLink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+        /enameled-cast-iron-kitchen-sinks[3]:
+          jcr:primaryType: kohler:docLinks
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 11c78c0a-85cd-4977-bd54-262b49880def
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-10-26T14:12:32.127+05:30
+          hippostdpubwf:lastModificationDate: 2017-10-26T14:53:09.054+05:30
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2017-10-26T14:53:10.811+05:30
+          hippotranslation:id: 0c79f695-b32f-499a-b311-7cf26e5292b7
+          hippotranslation:locale: en_ID
+          kohler:displayOrder: 0
+          kohler:title: Berenamel Cast Iron Kitchen Sinks
+          /kohler:documentLink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ade43d9d-4ef9-48d5-b18b-7f53566534a5
+  /material-color-palette:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: bf168e80-f79f-4d50-bc47-100b9d055fce
+    hippo:name: material color palette
+    hippostd:foldertype: [new-materialColorPalette]
+    hippotranslation:id: 32ce7e7b-c9fb-4c22-ad23-3a0084a99480
+    hippotranslation:locale: in_ID
+    /bathroom-colors:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 1703fcde-b03e-4722-8941-5102ec590260
+      hippo:name: bathroom colors
+      /bathroom-colors[1]:
+        jcr:primaryType: kohler:materialColorPalette
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3dac6f9b-dea8-4fb0-90ca-cdcb115978b7
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:54:12+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:53:16.653+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 1fc3c876-a207-443f-8b6b-a49e43584557
+        hippotranslation:locale: sr
+        kohler:description: Lorem Ipsum adalah teks dummy dari industri percetakan
+          dan typesetting.
+        kohler:displayOrder: 0
+        kohler:image: http://kohler.scene7.com/is/image/PAWEB/zab59846_rgb?crop=(0,1656,3065,2371)&$SectionHero$
+        kohler:title: kamar mandi-warna
+        kohler:type: Bathroom
+        /kohler:color:
+          jcr:primaryType: kohler:colorCoumpoundParent
+          kohler:searchURL: ''
+          kohler:string: COLORSWARNA
+          /kohler:kohler_colorcoumpound:
+            jcr:primaryType: kohler:colorCoumpound
+            kohler:colorCode: ''
+            kohler:description: ''
+            kohler:largeImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$ColorModal$
+            kohler:smallImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$Swatch184$
+            kohler:title: Ekspresi Putih - S33
+      /bathroom-colors[2]:
+        jcr:primaryType: kohler:materialColorPalette
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: c0817ad1-e392-4108-9526-db1b3053a11c
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:54:12+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:53:54.775+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 1fc3c876-a207-443f-8b6b-a49e43584557
+        hippotranslation:locale: sr
+        kohler:description: Lorem Ipsum adalah teks dummy dari industri percetakan
+          dan typesetting.
+        kohler:displayOrder: 0
+        kohler:image: http://kohler.scene7.com/is/image/PAWEB/zab59846_rgb?crop=(0,1656,3065,2371)&$SectionHero$
+        kohler:title: kamar mandi-warna
+        kohler:type: Bathroom
+        /kohler:color:
+          jcr:primaryType: kohler:colorCoumpoundParent
+          kohler:searchURL: ''
+          kohler:string: COLORSWARNA
+          /kohler:kohler_colorcoumpound:
+            jcr:primaryType: kohler:colorCoumpound
+            kohler:colorCode: ''
+            kohler:description: ''
+            kohler:largeImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$ColorModal$
+            kohler:smallImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$Swatch184$
+            kohler:title: Ekspresi Putih - S33
+      /bathroom-colors[3]:
+        jcr:primaryType: kohler:materialColorPalette
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: da71d62d-ae10-406a-90b7-f029c4d806b9
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:54:12+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:53:54.775+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:53:56.195+05:30
+        hippotranslation:id: 1fc3c876-a207-443f-8b6b-a49e43584557
+        hippotranslation:locale: sr
+        kohler:description: Lorem Ipsum adalah teks dummy dari industri percetakan
+          dan typesetting.
+        kohler:displayOrder: 0
+        kohler:image: http://kohler.scene7.com/is/image/PAWEB/zab59846_rgb?crop=(0,1656,3065,2371)&$SectionHero$
+        kohler:title: kamar mandi-warna
+        kohler:type: Bathroom
+        /kohler:color:
+          jcr:primaryType: kohler:colorCoumpoundParent
+          kohler:searchURL: ''
+          kohler:string: COLORSWARNA
+          /kohler:kohler_colorcoumpound:
+            jcr:primaryType: kohler:colorCoumpound
+            kohler:colorCode: ''
+            kohler:description: ''
+            kohler:largeImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$ColorModal$
+            kohler:smallImage: http://kohler.scene7.com/is/image/PAWEB/swatch_HV?$Swatch184$
+            kohler:title: Ekspresi Putih - S33
+  /bathroom-ideas:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 0372226c-35b0-4841-b844-947962cc521f
+    hippo:name: bathroom ideas
+    hippostd:foldertype: [new-bathroomideas]
+    hippotranslation:id: b1695047-97ea-4bde-921e-93d5ea0c6b35
+    hippotranslation:locale: in_ID
+    /bathroom-ideas1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 28bb79f3-3ab1-4240-95a3-a5dc1cef0aed
+      /bathroom-ideas1[1]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: fb7321d2-6abc-4c3c-a771-d457a72f1ca7
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:57:31.241+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:54:00.963+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f2253f56-51a2-473d-91d0-d58597e2b3ce
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: ide kamar mandi
+        kohler:url: ''
+      /bathroom-ideas1[2]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 98d1e8e5-95f1-4b99-bf44-451f5573ad88
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:57:31.241+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:54:10.152+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f2253f56-51a2-473d-91d0-d58597e2b3ce
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: ide kamar mandi
+        kohler:url: ''
+      /bathroom-ideas1[3]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0a97984b-69f6-484a-88fe-d7102adacd2b
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:57:31.241+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:54:10.152+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:54:11.594+05:30
+        hippotranslation:id: f2253f56-51a2-473d-91d0-d58597e2b3ce
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: ide kamar mandi
+        kohler:url: ''
+  /kitchen-ideas:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 4d04357e-9757-4202-a1c9-d75e2e598c42
+    hippo:name: kitchen ideas
+    hippostd:foldertype: [new-kitchenideas]
+    hippotranslation:id: 21383395-3a5c-4d7e-9e45-3322be701c04
+    hippotranslation:locale: in_ID
+    /kitchen-ideas:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5e4280eb-47e4-40e9-add7-82f75eb3d6f1
+      hippo:name: kitchen ideas
+      /kitchen-ideas[1]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d29775d0-0405-4781-8a4c-47d069f6a5d3
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:58:32.890+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:54:15.019+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 25603062-003b-4663-ad04-25cbac77fe8b
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: ide dapur
+        kohler:url: ''
+      /kitchen-ideas[2]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: fe58bef0-5913-4a9a-ac62-91111b411660
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:58:32.890+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:54:24.807+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 25603062-003b-4663-ad04-25cbac77fe8b
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: ide dapur
+        kohler:url: ''
+      /kitchen-ideas[3]:
+        jcr:primaryType: kohler:resources
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e16cae83-6b25-4da8-9f8f-c361e8470fba
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2017-10-16T12:58:32.890+05:30
+        hippostdpubwf:lastModificationDate: 2017-10-26T14:54:24.807+05:30
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-10-26T14:54:26.690+05:30
+        hippotranslation:id: 25603062-003b-4663-ad04-25cbac77fe8b
+        hippotranslation:locale: sr
+        kohler:description: ''
+        kohler:displayOrder: 0
+        kohler:imageUrl: http://dondecomprarlatinamerica.kohler.com/wp-content/themes/showroom-microsites/assets/images/featured-showroom/04.jpg
+        kohler:title: ide dapur
+        kohler:url: ''

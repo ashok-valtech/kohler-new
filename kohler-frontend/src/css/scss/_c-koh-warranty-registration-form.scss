@@ -1,0 +1,726 @@
+/*
+ * Copyright © 2000-2017 Kohler Company. All Rights Reserved.
+ */
+
+ .c-koh-warranty-registration-form {
+  padding: 20px 8px;
+  background: $koh-color-white;
+  @media #{$koh-media-screen-md-max} {
+    padding-bottom: 0;
+  }
+
+  .koh-contact-container {
+    @include koh-page-gutters();
+    overflow: hidden;
+    padding-bottom: 40px;
+    @media #{$koh-media-screen-md-max} {
+      padding-bottom: 0;
+    }
+    .ramadan-promo-underline {
+      margin-top: 0 !important;
+      opacity: 0.2;
+      box-sizing: content-box;
+      height: 0;
+      background-color: #e6e6e6;
+      border-color: #e6e6e6;
+      border-top: 1px solid;
+      margin-bottom: 20px;
+    }
+    .koh-contact-header {
+      margin: 0 12px 10px 12px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid $koh-color-pmd-grey;
+      @media #{$koh-media-screen-md} {
+        margin: 0 0 10px 0;
+      }
+      .koh-contact-title {
+        display: block;
+        font-size: 30px;
+        font-family: $koh-font-sans-serif-light;
+        text-align: center;
+        @media #{$koh-media-screen-md} {
+          font-size: 40px;
+        }
+      }
+      .koh-contact-require {
+        display: block;
+        font-size: 15px;
+        font-family: $koh-font-sans-serif-light;
+        text-align: left;
+        margin-bottom: 5px;
+        color: red;
+        position: relative;
+        left: 40px;
+        @media #{$koh-media-screen-md} {
+          font-size: 15px;
+        }
+      }
+    }
+
+    #successMessage,
+    #failureMessage {
+      font-size: 1.6em;
+      color: #84a648;
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+      margin-top: 10px;
+    }
+    #failureMessage {
+      color: #e50000;
+    }
+    .koh-contact-form-wrapper {
+      padding-top: 20px;
+      @media #{$koh-media-screen-md-max} {
+        padding: 5px 15px 0px;
+      }
+      form.form-horizontal {
+        .koh-sfmc-tc-checkbox {
+          margin-bottom: 0;
+          @media #{$koh-media-screen-sm} {
+            margin-bottom: 0;
+            padding-left: 410px;
+          }
+          @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            padding-left: 41.5%;
+          }
+        }
+        .koh-sfmc-ci-checkbox {
+          padding-top: 20px;
+          @media #{$koh-media-screen-sm} {
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-left: 410px;
+          }
+          @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            padding-left: 41.5%;
+          }
+        }
+        .form-group {
+          input[type="text"],
+          select {
+            width: 100%;
+            padding: 10px 18px;
+            margin: 0;
+            border: 1px solid #dbdbdb;
+            font-family: HelveticaRoman, Helvetica, sans-serif;
+            font-size: 1.4em;
+            line-height: 20px;
+            border-radius: 3px;
+            overflow: hidden;
+            outline: 0;
+            height: 40px;
+            box-shadow: none;
+          }
+          textarea,
+          textarea:focus {
+            box-shadow: none;
+          }
+          textarea {
+            resize: vertical;
+          }
+          input:hover input:focus input:active {
+            box-shadow: 0 0 0 30px white inset;
+          }
+          input:-webkit-autofill,
+          input:-webkit-autofill:hover,
+          input:-webkit-autofill:focus,
+          input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px white inset;
+          }
+          label.control-label {
+            padding-right: 30px;
+            font-size: 1.4em;
+            padding-top: 0px;
+            &.koh-upload-label {
+              padding-top: 0;
+            }
+            span {
+              display: block;
+              font-size: 0.85em;
+            }
+          }
+          .koh-required:after {
+            content: " * ";
+            color: red;
+          }
+          .koh-upload-wrapper {
+            position: relative;
+            overflow: hidden;
+            background-color: #dbdbdb;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            text-transform: uppercase;
+            input {
+              position: absolute;
+              font-size: 50px;
+              opacity: 0;
+              right: 0;
+              top: 0;
+              cursor: pointer;
+            }
+          }
+          .koh-contact-upload-note {
+            clear: both;
+            display: block;
+            font-size: 1.3em;
+            color: #9e9e9e;
+          }
+		  .koh-wheretobuy-note {
+            clear: both;
+            display: block;
+            font-size: 1.3em;
+            color: #9e9e9e;
+          }
+          .checkbox-about-kohler {
+            display: block;
+            padding-left: 20px;
+            text-indent: -15px;
+            font-size: 11px;
+            .about-kohler {
+              width: 13px;
+              height: 13px;
+              margin-right: 5px;
+              vertical-align: bottom;
+              position: relative;
+              top: -1px;
+              *overflow: hidden;
+            }
+          }
+          .koh-privacy-policy-link-cf {
+            font-size: 1.4em;
+            display: inline-block;
+            line-height: 1.5em;
+            margin-bottom: 15px;
+            cursor: pointer;
+            &:active,
+            &:focus,
+            &:visited {
+              text-decoration: none;
+            }
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          .koh-content-promo {
+            font-size: 1.4em;
+            margin-bottom: 0px;
+            font-family: HelveticaRoman, Helvetica, sans-serif;
+            font-weight: inherit;
+            @media #{$koh-media-screen-sm} {
+              padding-left: calc((184% - 980px) / 2);
+              font-size: 1.4em;
+              margin-bottom: 0px;
+              font-family: HelveticaRoman, Helvetica, sans-serif;
+              font-weight: inherit;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+              padding-left: 41.5%;
+            }
+          }
+          .koh-privacy-sfmc-checkbox {
+            width: auto;
+            .koh-privacy-sfmc-promo {
+              padding-left: 20px;
+              font-size: 1.4em;
+              font-family: HelveticaBold, Helvetica, sans-serif;
+              font-weight: inherit;
+              margin-bottom: -40px;
+              a.koh-privacy-policy-link-sfmc-cf {
+                cursor: pointer;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+              @media #{$koh-media-screen-sm} {
+                margin-bottom: -20px;
+              }
+              @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                margin-bottom: -40px;
+              }
+              @media only screen and (min-width: 820px) and (max-width: 1180px) {
+                margin-bottom: -20px;
+              }
+            }
+          }
+          .koh-privacy-sfmc-ci-checkbox {
+            width: auto;
+            .koh-privacy-sfmc-ci-promo {
+              padding-left: 20px;
+              font-size: 1.4em;
+              font-family: HelveticaBold, Helvetica, sans-serif;
+              font-weight: inherit;
+              margin-top: -20px;
+              @media #{$koh-media-screen-sm} {
+                margin-top: -20px;
+              }
+            }
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+              padding-top: 20px;
+            }
+          }
+          #koh-contact-upload-file-name {
+            width: 100%;
+            padding: 12px 18px;
+            margin: 0;
+            border: 1px solid #dbdbdb;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: 1.4em;
+            line-height: 20px;
+            border-radius: 3px;
+            overflow: hidden;
+            outline: 0;
+            min-height: 40px;
+            height: auto;
+            box-shadow: none;
+            display: none;
+          }
+          button[type="button"], button[type="submit"] {
+            width: 100%;
+            background: #364573;
+            padding: 14px 20px 13px;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: 1.3em;
+            line-height: 1em;
+            font-weight: 400;
+            color: #fff;
+            text-transform: uppercase;
+            border: none;
+            &:focus {
+              outline: 0;
+            }
+            &.koh-form-btn-loader {
+              font-size: 0px;
+              height: 40px;
+              background: url(../images/prettyPhoto/light_rounded/loader.gif)
+                center center no-repeat #e5e5e5;
+            }
+          }
+          .hidden-input {
+            visibility: hidden;
+          }
+          .gender-radio {
+            margin: 0.5rem;
+          }
+        }
+      }
+    }
+    .heading-wrapper {
+      padding-top: 0 !important;
+    }
+  }
+
+  .koh-mu-contact-container {
+    @include koh-page-gutters();
+    overflow: hidden;
+    padding-bottom: 20px;
+    @media #{$koh-media-screen-md-max} {
+      padding-bottom: 0;
+    }
+    .ramadan-promo-underline {
+      margin-top: 0 !important;
+      opacity: 0.2;
+      box-sizing: content-box;
+      height: 0;
+      background-color: #e6e6e6;
+      border-color: #e6e6e6;
+      border-top: 1px solid;
+      margin-bottom: 20px;
+    }
+    .koh-contact-header {
+      margin: 0 12px 10px 12px;
+      margin-bottom: 10px;
+      @media #{$koh-media-screen-md} {
+        margin: 0 0 10px 0;
+      }
+      .koh-contact-title {
+        display: block;
+        padding: 0 0 20px 0;
+        font-size: 36px;
+        font-family: $koh-font-sans-serif-light;
+        text-align: center;
+        @media #{$koh-media-screen-md} {
+          padding: 40px 0 20px;
+          font-size: 60px;
+        }
+      }
+      .koh-mu-contact-title {
+        display: block;
+        font-size: 36px;
+        font-family: $koh-font-sans-serif-light;
+        text-align: center;
+        @media #{$koh-media-screen-md} {
+          font-size: 60px;
+        }
+      }
+    }
+
+    #successMessage,
+    #failureMessage {
+      font-size: 1.6em;
+      color: #84a648;
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+      margin-top: 10px;
+    }
+    #failureMessage {
+      color: #e50000;
+    }
+    .koh-contact-form-wrapper {
+      padding-top: 20px;
+      @media #{$koh-media-screen-md-max} {
+        padding: 5px 15px 0px;
+      }
+      form.form-horizontal {
+        .form-group {
+          input[type="text"],
+          select {
+            width: 100%;
+            padding: 10px 18px;
+            margin: 0;
+            border: 1px solid #dbdbdb;
+            font-family: HelveticaRoman, Helvetica, sans-serif;
+            font-size: 1.4em;
+            line-height: 20px;
+            border-radius: 3px;
+            overflow: hidden;
+            outline: 0;
+            height: 40px;
+            box-shadow: none;
+          }
+          textarea,
+          textarea:focus {
+            box-shadow: none;
+          }
+          textarea {
+            resize: vertical;
+          }
+          input:hover input:focus input:active {
+            box-shadow: 0 0 0 30px white inset;
+          }
+          input:-webkit-autofill,
+          input:-webkit-autofill:hover,
+          input:-webkit-autofill:focus,
+          input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px white inset;
+          }
+          label.control-label {
+            padding-right: 30px;
+            font-size: 1.4em;
+            padding-top: 0px;
+            &.koh-upload-label {
+              padding-top: 0;
+            }
+            span {
+              display: block;
+              font-size: 0.85em;
+            }
+          }
+          .koh-upload-wrapper {
+            position: relative;
+            overflow: hidden;
+            background-color: #dbdbdb;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            text-transform: uppercase;
+            input {
+              position: absolute;
+              font-size: 50px;
+              opacity: 0;
+              right: 0;
+              top: 0;
+              cursor: pointer;
+            }
+          }
+          .koh-contact-upload-note {
+            clear: both;
+            display: block;
+            font-size: 1.3em;
+            color: #9e9e9e;
+          }
+
+          .checkbox-about-kohler {
+            display: block;
+            padding-left: 20px;
+            text-indent: -15px;
+            font-size: 11px;
+            .about-kohler {
+              width: 13px;
+              height: 13px;
+              margin-right: 5px;
+              vertical-align: bottom;
+              position: relative;
+              top: -1px;
+              *overflow: hidden;
+            }
+          }
+          .koh-privacy-policy-link-cf {
+            font-size: 1.4em;
+            display: inline-block;
+            line-height: 1.5em;
+            margin-bottom: 15px;
+            cursor: pointer;
+            &:active,
+            &:focus,
+            &:visited {
+              text-decoration: none;
+            }
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          #koh-contact-upload-file-name {
+            width: 100%;
+            padding: 12px 18px;
+            margin: 0;
+            border: 1px solid #dbdbdb;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: 1.4em;
+            line-height: 20px;
+            border-radius: 3px;
+            overflow: hidden;
+            outline: 0;
+            min-height: 40px;
+            height: auto;
+            box-shadow: none;
+            display: none;
+          }
+          button[type="submit"] {
+            width: 100%;
+            background: #364573;
+            padding: 14px 20px 13px;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+            font-family: HelveticaBold, Helvetica, sans-serif;
+            font-size: 1.3em;
+            line-height: 1em;
+            font-weight: 400;
+            color: #fff;
+            text-transform: uppercase;
+            border: none;
+            &:focus {
+              outline: 0;
+            }
+            &.koh-form-btn-loader {
+              font-size: 0px;
+              height: 40px;
+              background: url(../images/prettyPhoto/light_rounded/loader.gif)
+                center center no-repeat #e5e5e5;
+            }
+          }
+          .gender-radio {
+            margin: 0.5rem;
+          }
+        }
+      }
+    }
+    .heading-wrapper {
+      padding-top: 0 !important;
+    }
+  }
+
+  .remodal,
+  [data-remodal-id] {
+      display: inline-block;
+  }
+
+  .koh-warranty-form-details {
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-top: 25px;
+    .table-header {
+      background: #000 !important;
+      color: #fff !important;
+      width: 100%;
+      display: inline-block;
+      padding: 5px;
+      font-size: 16px;  
+      padding-left: 8px;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    .user-details-section {
+      margin-top: 10px;
+      .user-profile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        @media screen and (max-width: 768px) {
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        ul {
+          list-style: none;
+          font-size: 14px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          padding-left: 10px;
+          @media screen and (max-width: 768px) {
+            margin-bottom: 0px;
+          }
+          li {
+            max-width: 300px;
+            .label {
+              font-weight: bold;
+              border: none;
+            }
+
+            .address {
+              display: block;
+              margin-bottom: 8px;
+            }
+
+            .value {
+              display: inline-block;
+              max-width: 270px;
+              word-wrap: break-word;
+            }
+          }
+        }
+      }
+    }
+    .product-warranty-details {
+      margin-top: 15px;
+      .warranty-heading {
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 10px;
+      }
+      ul {
+        list-style: none;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        margin-top: 10px;
+
+        @media screen and (max-width: 768px) {
+          grid-template-columns: repeat(1, 1fr);
+          gap: 10px;
+        }
+        li {
+          display: flex;
+          flex-direction: column;
+          .label {
+            font-weight: bold;
+            border: none;
+          }
+
+          .value {
+            max-width: 270px;
+            word-wrap: break-word;
+          }
+
+          &:last-child() {
+            text-align: right;
+            align-items: end;
+            @media screen and (max-width: 768px) {
+              text-align: left;
+              align-items: start;
+            }
+            .label, .value {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .warranty-print-section {
+      display: flex;
+      justify-content: end;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      > button {
+        display: inline-block;
+        @include koh-button($padding: 0);
+        @include koh-slide-banner-overlay-icon-font();
+        width: 40px;
+        height: 40px;
+        margin: 0 5px 0 0;
+        box-shadow: none;
+        &:hover {
+          color: $koh-color-white;
+          background: $koh-color-md-blue;
+        }
+        .label {
+          display: none;
+        }
+      }
+    }
+    hr {
+      border: 1px solid #868686;
+      margin: 5px 0 5px 0;
+    }
+  }
+}
+
+.remodal-wrapper {
+  .koh-preview-from-remodal {
+    .modal-title {
+      font-size: 22px;
+    }
+    .preview-details {
+      list-style: none;
+      padding: 0;
+      li {
+        line-height: 25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+        margin-top: 5px;
+        word-wrap: break-word;
+      }
+      .preview-label {
+        font-size: 14px;
+        font-weight: bold;
+        display: inline-block;
+        text-align: right;
+        margin-right: 5px;
+      }
+
+      .preview-data {
+        font-size: 14px;
+        display: inline-block;
+        text-align: left;
+      }
+    }
+    .koh-primary-btn {
+      padding: 14px 20px 13px;
+      border-radius: 4px;
+      text-decoration: none;
+      text-align: center;
+      font-family: HelveticaBold, Helvetica, sans-serif;
+      font-size: 1.3em;
+      line-height: 1em;
+      font-weight: 400;
+      color: #000;
+      background: #e5e5e5;
+      text-transform: uppercase;
+      border: none;
+      &:focus {
+        outline: 0;
+      }
+      &.koh-form-btn-loader {
+        font-size: 0px;
+        height: 40px;
+        background: url(../images/prettyPhoto/light_rounded/loader.gif)
+          center center no-repeat #e5e5e5;
+      }
+      &[type="submit"], [type="button"] {
+        background: #364573;
+        color: #fff;
+        margin-left: 15px;
+        @media screen and (max-width: 768px) {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

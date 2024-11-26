@@ -1,0 +1,7 @@
+/content/documents/config:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: df4d1861-9267-477d-b7da-1562d5dce5e5
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: d9f655a8-244c-4b9d-b74a-cdf8576ace7e
+  hippotranslation:locale: en

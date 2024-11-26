@@ -1,0 +1,27 @@
+/content/gallery/plumbingkohlerph/spiff-kohlervideo-on.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 87882dac-1afb-4c96-b611-22bc088e6777
+  /spiff-kohlervideo-on.jpg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: spiff-kohlervideo-on.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: spiff-kohlervideo-on.jpg
+      hippogallery:height: 46
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/plumbingkohlerph/spiff-kohlervideo-on.jpg/spiff-kohlervideo-on_thumbnail.jpg
+      jcr:lastModified: 2017-05-09T11:47:38.771+05:30
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 232
+      hippogallery:width: 300
+      jcr:data:
+        type: binary
+        resource: /content/gallery/plumbingkohlerph/spiff-kohlervideo-on.jpg/spiff-kohlervideo-on_original.jpg
+      jcr:lastModified: 2017-05-09T11:47:38.771+05:30
+      jcr:mimeType: image/jpeg

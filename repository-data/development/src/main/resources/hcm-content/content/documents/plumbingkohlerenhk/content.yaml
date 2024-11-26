@@ -1,0 +1,8 @@
+/content/documents/plumbingkohlerenhk/content:
+  .meta:order-before: custombanner
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1eaecb02-a255-4eea-8ec3-304b0aaa4284
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 1516bcfb-4825-4c61-90dc-d4cbf021ca70
+  hippotranslation:locale: en_HK

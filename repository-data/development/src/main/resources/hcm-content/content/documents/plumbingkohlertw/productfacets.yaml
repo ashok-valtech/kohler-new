@@ -1,0 +1,21 @@
+/content/documents/plumbingkohlertw/productfacets:
+  .meta:order-before: products
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:count: 6
+  hippo:docbase: 46c8387a-e34f-4483-85ca-918aafce88ff
+  hippofacnav:facetnodenames: [Categories, IsNew, 'PriceRange${sortby:''facetvalue'',
+      sortorder:''ascending''}', Color, Country, ProductType, InstallationType, Style,
+    Material, 'OverallWidth${sortby:''facetvalue'', sortorder:''ascending''}', 'OverallLength${sortby:''facetvalue'',
+      sortorder:''ascending''}', 'OverallHeight${sortby:''facetvalue'', sortorder:''ascending''}',
+    LengthRange, GlassThickness, LightingType, MirrorDeFogger, ToiletType, BowlStyle,
+    LitersperFlush, FlushingSystem, TrapwayType, RoughIn, 'ProductFamily${sortby:''facetvalue'',
+      sortorder:''ascending''}', HandleType, NumberOfHandles, WaterSaving, BowlShape]
+  hippofacnav:facets: ['hippotaxonomy:keys', 'kohler:isNew', 'kohler:priceRange',
+    'kohler:color', 'kohler:country', 'kohler:ProductType', 'kohler:installationType',
+    'kohler:style', 'kohler:material', 'kohler:overallWidth', 'kohler:overallLength',
+    'kohler:overallHeight', 'kohler:lengthRange', 'kohler:glassThicknessmm', 'kohler:lightingType',
+    'kohler:mirrorDefogger', 'kohler:toiletType', 'kohler:bowlStyle', 'kohler:Liters_Per_Flush',
+    'kohler:flushingTechnology', 'kohler:Trapway_Type', 'kohler:minimumRoughIn', 'kohler:productFamily',
+    'kohler:handleType', 'kohler:numberOfHandles', 'kohler:waterSaving', 'kohler:bowlShape']
+  hippofacnav:filters: ['jcr:primaryType=kohler:Product']
+  hippofacnav:limit: 3000

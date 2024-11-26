@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/promo-collections:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: promo-collections-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: promo-collections/main
