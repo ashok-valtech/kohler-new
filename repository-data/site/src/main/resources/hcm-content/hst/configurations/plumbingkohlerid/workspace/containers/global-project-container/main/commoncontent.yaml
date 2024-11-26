@@ -1,0 +1,9 @@
+/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers/global-project-container/main/commoncontent:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+  hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+  hst:label: Common Content
+  hst:parameternames: [document]
+  hst:parametervalues: [common-content/kohler-global-projectlist]
+  hst:template: common-contentpage-main
+  hst:xtype: hst.item

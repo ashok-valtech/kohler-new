@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers/literaturelist/main/literaturelist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/kitchen-list.png
+  hst:label: literaturelist List
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [ideas/literature, '', asc, 'kohler:displayOrder', '6', 'on',
+    'on']
+  hst:template: literature-item-list-main
+  hst:xtype: hst.item

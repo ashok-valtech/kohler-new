@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers/promo-collections/main/promo-collections:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:iconpath: images/essentials/catalog-component-icons/promo-collections.png
+  hst:label: Promo Collections Document
+  hst:parameternames: [path, documentTypes, sortOrder, sortField, pageSize, showPagination,
+    includeSubtypes]
+  hst:parametervalues: [collectons-promo, 'kohler:CollectionsPromo', asc, 'kohler:displayOrder',
+    '20', 'off', 'on']
+  hst:template: promo-collections-document
+  hst:xtype: hst.item

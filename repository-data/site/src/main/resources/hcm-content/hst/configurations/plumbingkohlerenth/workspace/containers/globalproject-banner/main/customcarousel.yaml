@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers/globalproject-banner/main/customcarousel:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+  hst:label: Custom Carousel
+  hst:parameternames: [document4, document3, document6, document5, document2, document1,
+    cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor, showNavigation,
+    interval]
+  hst:parametervalues: ['', '', '', '', banners/globalproject-banner/the-westin-peachtree-plaza,
+    banners/globalproject-banner/secrets-resorts, 'on', 'on', '700', '250', '#FFFFFF',
+    'on', '3000']
+  hst:template: customcarousel
+  hst:xtype: hst.item
