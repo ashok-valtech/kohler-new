@@ -62,6 +62,7 @@
 		<xalan.version>2.7.1</xalan.version>
 		<junit.version>4.10</junit.version>
 		<easymock.version>3.1</easymock.version>
+		<h2.database.version>1.4.199</h2.database.version>
 
 		<development-module-deploy-dir>shared/lib</development-module-deploy-dir>
 
@@ -167,6 +168,14 @@
 				<artifactId>javax.json</artifactId>
 				<version>1.1.4</version>
 			</dependency>
+
+			<dependency>
+               <groupId>com.h2database</groupId>
+               <artifactId>h2</artifactId>
+               <version>${h2.database.version}</version>
+               <scope>runtime</scope>
+            </dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
