@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 import javax.jcr.Node;
@@ -16,6 +17,7 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.Value;
 import javax.jcr.ValueFactory;
+import org.apache.commons.lang.LocaleUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.jackrabbit.commons.JcrUtils;
 import org.hippoecm.hst.configuration.hosting.Mount;
@@ -281,8 +283,9 @@ public class SeoService {
 					List<? extends Category> childrens = category.getChildren();
 					for (Category childrenCategory : childrens) {
 						String categoryKey = childrenCategory.getKey();
+						Locale locale =  LocaleUtils.toLocale(Constants.LOCALE_EN + "_" + Constants.COUNTRY_CODE_APAC);
 						String categoryName = childrenCategory
-								.getInfo(Constants.LOCALE_EN + "_" + Constants.COUNTRY_CODE_APAC).getName();
+								.getInfo(locale).getName();
 						Map<String, String> seoPageValuesMap = getSeoPageNameForProducts(siteContentBasePath,
 								categoryName, mount, session, bundle);
 						returnValue.put(categoryKey, seoPageValuesMap);

@@ -8,8 +8,10 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.Locale;
 import java.util.Map;
 
+import org.apache.commons.lang.LocaleUtils;
 import org.hippoecm.hst.content.beans.standard.HippoFolderBean;
 import org.hippoecm.hst.site.HstServices;
 import org.onehippo.taxonomy.api.Category;
@@ -78,7 +80,8 @@ public class TaxonomyService {
 				if (!categoryKey.isEmpty ())
 					return categoryKey;
 			}
-			CategoryInfo info = category.getInfo (language);
+			Locale locale =  LocaleUtils.toLocale(language);
+			CategoryInfo info = category.getInfo (locale);
 			if (Arrays.asList (info.getSynonyms ()).contains (synonymValue)) {
 				return category.getKey ();
 			}
@@ -127,7 +130,8 @@ public class TaxonomyService {
 	 *         method returns Category Synonym
 	 */
 	private String getCategorySynonym(Category category, String language) {
-		CategoryInfo info = category.getInfo (language);
+		Locale locale =  LocaleUtils.toLocale(language);
+		CategoryInfo info = category.getInfo (locale);
 		if (info.getSynonyms ().length > 0)
 			return Arrays.asList (info.getSynonyms ()).get (0);
 		else
@@ -151,11 +155,12 @@ public class TaxonomyService {
 	}
 
 
-	public Map<String, String> getGlobalProjectFirstLevelCategory(String locale) {
+	public Map<String, String> getGlobalProjectFirstLevelCategory(String language) {
 		Taxonomy rootTaxonomy = getTaxonomyByname("apac-countries");
 		Map<String, String> firstLvlCatMap = new LinkedHashMap<String, String> ();
 		List<? extends Category> lst = rootTaxonomy.getCategories ();
 		for (Category category : lst) {
+			Locale locale =  LocaleUtils.toLocale(language);
 			CategoryInfo categoryInfo = category.getInfo(locale);
 			firstLvlCatMap.put (category.getKey (), categoryInfo.getName ());
 		}
@@ -188,7 +193,8 @@ public class TaxonomyService {
 	 * @param category
 	 * @return translated name of category as per locale
 	 */
-	public String getCategorytranslatedName(Category category, String locale) {
+	public String getCategorytranslatedName(Category category, String language) {
+		Locale locale =  LocaleUtils.toLocale(language);
 		CategoryInfo catinfo = category.getInfo(locale);
 		return catinfo.getName();
 	}

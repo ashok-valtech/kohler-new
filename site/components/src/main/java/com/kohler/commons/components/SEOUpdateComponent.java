@@ -297,7 +297,8 @@ public class SEOUpdateComponent extends BaseHstComponent {
 					});
 			
 			GlobalProject globalProject = (GlobalProject) wpm.getObject(documentPath);
-			if (globalProject.getProperty(HIPPOSTD_HOLDER) == null) {
+			Map globalProperties = globalProject.getProperty();
+			if (globalProperties.get(HIPPOSTD_HOLDER) == null) {
 				SeoSupport seoSupport = new SeoSupport(seoTitle, seoDescription, canonicalUrl, noIndex, noFollow);
 				globalProject.setSeo(seoSupport);
 				wpm.update(globalProject);
@@ -342,7 +343,9 @@ public class SEOUpdateComponent extends BaseHstComponent {
 						}
 					});
 			ArticleBannerDocument articleBannerDocument = (ArticleBannerDocument) wpm.getObject(documentPath);
-			if (articleBannerDocument.getProperty(HIPPOSTD_HOLDER) == null) {
+			Map articleProperties = articleBannerDocument.getProperties();
+				LOGGER.info("articleProperties-->" +articleProperties);
+			if (articleProperties.get(HIPPOSTD_HOLDER) == null) {
 				articleBannerDocument.setSeoTitle(seoTitle);
 				articleBannerDocument.setMetaDescription(seoDescription);
 				articleBannerDocument.setNoIndex(noIndex);
@@ -391,7 +394,8 @@ public class SEOUpdateComponent extends BaseHstComponent {
 						}
 					});
 			MaterialColorPalette materialColorPalette = (MaterialColorPalette) wpm.getObject(documentPath);
-			if (materialColorPalette.getProperty(HIPPOSTD_HOLDER) == null) {
+			Map MaterialProperties = materialColorPalette.getProperties();
+			if (MaterialProperties.get(HIPPOSTD_HOLDER) == null) {
 				SeoSupport seoSupport = new SeoSupport(seoTitle, seoDescription, canonicalUrl, noIndex, noFollow);
 				materialColorPalette.setSeo(seoSupport);
 				wpm.update(materialColorPalette);
@@ -436,7 +440,8 @@ public class SEOUpdateComponent extends BaseHstComponent {
 						}
 					});
 			Pressreleases pressreleases = (Pressreleases) wpm.getObject(documentPath);
-			if (pressreleases.getProperty(HIPPOSTD_HOLDER) == null) {
+			Map pressreleasesProperties = pressreleases.getProperties();
+			if (pressreleasesProperties.get(HIPPOSTD_HOLDER) == null) {
 				SeoSupport seoSupport = new SeoSupport(seoTitle, seoDescription, canonicalUrl, noIndex, noFollow);
 				pressreleases.setSeo(seoSupport);
 				wpm.update(pressreleases);
@@ -492,7 +497,8 @@ public class SEOUpdateComponent extends BaseHstComponent {
 						}
 					});
 			Product product = (Product) wpm.getObject(documentPath.toString());
-			if (product.getProperty(HIPPOSTD_HOLDER) == null) {
+			Map productProperties = product.getProperties();
+			if (productProperties.get(HIPPOSTD_HOLDER) == null) {
 				SeoSupport seoSupport = new SeoSupport(seoTitle, seoDescription, canonicalUrl, noIndex, noFollow);
 				product.setSeo(seoSupport);
 				wpm.update(product);
@@ -540,7 +546,8 @@ public class SEOUpdateComponent extends BaseHstComponent {
 						}
 					});
 			DocLinks docLinks = (DocLinks) wpm.getObject(documentPath);
-			if (docLinks.getProperty(HIPPOSTD_HOLDER) == null) {
+			Map docLinksProperties = docLinks.getProperties();
+			if (docLinksProperties.get(HIPPOSTD_HOLDER) == null) {
 				SeoSupport seoSupport = new SeoSupport(seoTitle, seoDescription, canonicalUrl, noIndex, noFollow);
 				docLinks.setSeo(seoSupport);
 				wpm.update(docLinks);;
@@ -589,7 +596,8 @@ public class SEOUpdateComponent extends BaseHstComponent {
                                 }
                            });
                SeoCategory seoCategory = (SeoCategory) wpm.getObject(documentPath);
-                if (seoCategory.getProperty(HIPPOSTD_HOLDER) == null) {
+			   Map seoCategoryProperties = seoCategory.getProperties();
+			   if (seoCategoryProperties.get(HIPPOSTD_HOLDER) == null) {
                      SeoSupport seoSupport = new SeoSupport(seoTitle, seoDescription, canonicalUrl, noIndex, noFollow);
                      seoCategory.setSeo(seoSupport);
                      wpm.update(seoCategory);

@@ -27,8 +27,9 @@
 <#assign productMultiplication = productMultiplicationValue?number/>
 
 
-<#assign locale = hstRequest.getLocale().getLanguage() />
-<#assign locale = locale + "_"+ hstRequest.getLocale().getCountry() />
+<#-- <#assign locale = hstRequest.getLocale().getLanguage() />
+<#assign locale = locale + "_"+ hstRequest.getLocale().getCountry() /> -->
+
 
 <#--  <#assign res900 = "&wid=163&hei=122"/>
 <#assign res1000 = "&wid=196&hei=147" />  -->
@@ -37,7 +38,10 @@
    <header>
       <h1 class="koh-search-title">
       	<#if currentCategory??> 
-        	<#assign currentCatName = currentCategory.getInfo(locale).getName() />${currentCatName}
+        	<#assign currentCatName = currentCategory.getName()/>
+    		<#if currentCatName??>
+    			${currentCatName}
+    		</#if>
         </#if>
       </h1>
       <input type="hidden" class="koh-data-attributes" data-koh-section="<#if currentCategory??>${currentCategory.name}</#if>" data-koh-url-root="${categoriesRootUrl}"">
@@ -73,8 +77,10 @@
          <h2 class="koh-result-set-title">
             <a href="${link}">
             <span class="label">
-              <#assign categoryName = categories[key].getInfo(locale).getName() />
-              ${categoryName}
+              <#assign categoryName = categories[key].getName() />
+              <#if categoryName??>
+              	${categoryName}
+              </#if>
             </span>
             <span class="icon" data-icon="&#xe612"></span>
             </a>
