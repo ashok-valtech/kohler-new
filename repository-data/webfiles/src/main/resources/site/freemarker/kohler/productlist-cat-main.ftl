@@ -58,8 +58,10 @@
                   <@hst.link var="link" hippobean=value />
                   <a href="${link}" data-facet-name="category" data-facet-value="${categoriesRootUrl}/${key}" data-facet-count="${value.count}">
                   <span class="name">
-                     <#assign categoryName = categories[key].getInfo(locale).getName() />
-                     ${categoryName}
+                     <#assign categoryName = categories[key].getName() />
+                       <#if categoryName??>
+              	         ${categoryName}
+                       </#if>
                   </span>
                   <span class="count">(${value.count})</span>
                   </a>
