@@ -83,7 +83,7 @@
 		<#if totalResults??><div class="koh-search-results-count">${totalResults}&nbsp${products}</div></#if>
 	<#elseif currentCategory??>
 		<h1 class="koh-search-title">
-			<#assign currentCatName = currentCategory.getInfo(locale).getName() />${currentCatName}
+			<#assign currentCatName = currentCategory.getName() />${currentCatName}
 		</h1>
 		<#if leafNode??>
 			<div class="koh-search-results-count">${leafNode.count}&nbsp${products}</div>
@@ -123,7 +123,7 @@
 								<span class="remove">${removeFilter}</span>
 								<span class="name">
 									<#if currentCategory??>
-										<#assign categoryName = currentCategory.getInfo(locale).getName() />${categoryName}
+										<#assign categoryName = currentCategory.getName() />${categoryName}
 									</#if>
 								</span>
 								<span class="count">(${leafNode.count})</span>

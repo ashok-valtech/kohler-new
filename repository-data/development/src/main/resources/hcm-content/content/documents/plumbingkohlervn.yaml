@@ -1,5 +1,5 @@
 /content/documents/plumbingkohlervn:
-  .meta:order-before: urlrewriter
+  .meta:order-before: kohler
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 5f3eedf8-854a-46f8-b661-b4b3c951234f

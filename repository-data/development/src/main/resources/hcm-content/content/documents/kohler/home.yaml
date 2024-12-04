@@ -1,5 +1,4 @@
 /content/documents/kohler/home:
-  .meta:order-before: ideas
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: f7ced923-b786-4933-84e2-415116ecf208

@@ -1,0 +1,1285 @@
+/content/documents/administration/labels/hygiene-promoton-bundle:
+  .meta:order-before: apac-product-urls
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 94476242-27a9-4a32-9fa7-4d393b242d06
+  hippo:name: hygiene-promoton-bundle
+  /hygiene-promoton-bundle[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a1be3326-163f-429e-b29c-42471a0209e9
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-09-10T06:32:59.562Z
+    hippostdpubwf:lastModificationDate: 2022-08-24T10:27:55.211Z
+    hippostdpubwf:lastModifiedBy: pooja
+    hippotranslation:id: a0d2b8d1-1e62-45d1-a1b4-0bbffd22d70d
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', Please enter
+        a valid mobile number, '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', Unsubscribe, Thank you, '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '']
+    resourcebundle:id: hygiene-promotion-bundle
+    resourcebundle:keys: [hygiene-form-selectstoreName, hygiene-form-store-drop-down-values,
+      hygiene-contact-form-email, hygiene-contact-form-email-error-message, hygiene-contact-form-email-error-message2,
+      hygiene-contact-form-email-subject, hygene-contact-form-first-name-error-message,
+      hygiene-contact-form-header, hygene-contact-form-collection-error-message, hygene-contact-form-collection-title,
+      hygiene-contact-form-mobile-error-message, hygene-contact-form-mobileno, hygene-contact-form-name,
+      hygene-contact-form-store-error-message, hygiene-user-email-template-banner,
+      hygene-user-email-template-description1, hygene-user-email-template-description2,
+      hygene-farwardPage, hygiene-promotion-user-email-template, hygene-userTemplateDear,
+      hygene-userTemplateFacebookImageURL, hygene-userTemplateFacebookURL, hygene-userTemplateDownloadText,
+      hygene-userTemplatePdfUrl, hygene-userTemplateRegards, hygene-userTemplateRegardsName,
+      hygene-userTemplateSubject, hygene-userTemplateSubscribe, hygene-userTemplateThankyou,
+      hygiene-userTemplateUnsubscribeEmail, hygene-promo-home-address-tiltle, hygiene-form-privacyPolicyLink,
+      hygiene-form-privacyPolicyTitle, hygiene-form-submit, hygiene-form-homeAddress-error-message,
+      hygiene-contact-form-select, hygiene-form-collection-dropdown-value, hygiene-form-sender-emaild,
+      hygiene-promotion-kohler-temp, kohlertemplatelogo, kohlerTemplateTitle, kohlerTempDetailsTitle,
+      kohlerTempFeedBackTitle, kohlerTemplateFeedBackURL, kohlerTempKohlercoTitle,
+      kohlerTempalteSenderEmialid, kohlerTemplateReceiverEmail, kohlerTemplateSubject]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', Please enter
+        a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_ID: [Select Promotion, VEIL Intelligent Toilet&INNATE
+        Intelligent Toilet&EIR Intelligent Toilet&SAN SOUCI Revolution 360 Toilet,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Ashta Promotion - Enquiry, Please enter your first name, Contact Form, Please
+        select the value, 'Have you purchased KOHLER product before?', Please enter
+        a valid mobile number, Mobile Number, Full Name, Please Select Promotion,
+      'https://s7d4.scene7.com/is/image/kohlerchina/ASHTA-Mall-Hero-Banner_1Aug?scl=1',
+      Thank you for choosing KOHLER and for sharing your information with us., We
+        will get in touch shortly., '/en/ashta-promotion-thankyou?name=', '<table
+        width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/kohlerind/', '', '', 'Best Regards,', Kohler Indonesia,
+      Thank you for choosing KOHLER, Unsubscribe, Thank you, 'mailto:kohlerid@kohler.com?subject=Unsubscribe',
+      Home Address, 'https://www.kohlercompany.com/privacy/', Kohler Privacy Policy,
+      Submit, Please enter a valid home address, Select, 'Yes,No', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Contact Form, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerindonesia@kohler.com, Ashta Promotion
+        - Enquiry]
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', Best Regards, '', '', Unsubscribe, Thank you, '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_PH: [Select Distributor, Allhome&Dexterton&Sanitec&Wilcon,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Hygiene Promotion – Enquiry, Please enter your first name, Contact Form, Please
+        select Hygiene Collection/ Item, Select Collection / Item, Please enter a
+        valid mobile number, Mobile Number, Full Name, Please select a store, 'https://s7d4.scene7.com/is/image/kohlerchina/Thank%20you%20banner?scl=1',
+      Thank you for your enquiry!, We will get back to you soon., '/intelligent-toilet-promotion-thankyou?name=',
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/KohlerPhilippines/', Download Brochure, 'http://resources.kohler.com/plumbing/kohlerapac/pdf/Veil_Brochure.pdf',
+      Best Regards, Kohler Philippines, Thank you for choosing KOHLER, Unsubscribe,
+      Thank you, 'mailto:kohlerph@kohler.com?subject=Unsubscribe', Home Address, 'https://www.kohlercompany.com/privacy/',
+      Kohler Privacy Policy, Submit, Please enter a valid home address, Select, 'Eir
+        Intelligent Toilet,Veil Intelligent Toilet,Innate Intelligent Toilet', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Contact Form, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerphilippines@kohler.com, Intelligent Toilet
+        - Enquiry]
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_in_ID: [Select Promotion, VEIL Intelligent Toilet&INNATE
+        Intelligent Toilet&EIR Intelligent Toilet&SAN SOUCI Revolution 360 Toilet,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Ashta Promotion - Enquiry, Please enter your first name, Contact Form, Please
+        select the value, 'Have you purchased KOHLER product before?', Please enter
+        a valid mobile number, Mobile Number, Full Name, Please Select Promotion,
+      'https://s7d4.scene7.com/is/image/kohlerchina/ASHTA-Mall-Hero-Banner_1Aug?scl=1',
+      Thank you for choosing KOHLER and for sharing your information with us., We
+        will get in touch shortly., '/ashta-promotion-thankyou?name=', '<table width="100%"
+        border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Yang terhormat, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/kohlerind/', Download Brochure, '', 'Salam Hormat,',
+      Kohler Indonesia, Thank you for choosing KOHLER, Unsubscribe, Thank you, 'mailto:kohlerid@kohler.com?subject=Unsubscribe',
+      Home Address, 'https://www.kohlercompany.com/privacy/', Kohler Privacy Policy,
+      Submit, Please enter a valid home address, Select, 'Yes,No', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Formulir Kontak, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerindonesia@kohler.com, Ashta Promotion
+        - Enquiry]
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', 안녕하세요., 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 감사합니다, '', '', Unsubscribe, Thank you, '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Trân trọng,', '', '', Unsubscribe, Thank you, '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', 親愛的, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', '', '', '', Unsubscribe, 謝謝！, '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  /hygiene-promoton-bundle[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: ea022515-7550-41be-8aa8-25dfb94fca47
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-09-10T06:32:59.562Z
+    hippostdpubwf:lastModificationDate: 2022-08-24T10:29:10.975Z
+    hippostdpubwf:lastModifiedBy: pooja
+    hippotranslation:id: a0d2b8d1-1e62-45d1-a1b4-0bbffd22d70d
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', Please enter
+        a valid mobile number, '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', Unsubscribe, Thank you, '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '']
+    resourcebundle:id: hygiene-promotion-bundle
+    resourcebundle:keys: [hygiene-form-selectstoreName, hygiene-form-store-drop-down-values,
+      hygiene-contact-form-email, hygiene-contact-form-email-error-message, hygiene-contact-form-email-error-message2,
+      hygiene-contact-form-email-subject, hygene-contact-form-first-name-error-message,
+      hygiene-contact-form-header, hygene-contact-form-collection-error-message, hygene-contact-form-collection-title,
+      hygiene-contact-form-mobile-error-message, hygene-contact-form-mobileno, hygene-contact-form-name,
+      hygene-contact-form-store-error-message, hygiene-user-email-template-banner,
+      hygene-user-email-template-description1, hygene-user-email-template-description2,
+      hygene-farwardPage, hygiene-promotion-user-email-template, hygene-userTemplateDear,
+      hygene-userTemplateFacebookImageURL, hygene-userTemplateFacebookURL, hygene-userTemplateDownloadText,
+      hygene-userTemplatePdfUrl, hygene-userTemplateRegards, hygene-userTemplateRegardsName,
+      hygene-userTemplateSubject, hygene-userTemplateSubscribe, hygene-userTemplateThankyou,
+      hygiene-userTemplateUnsubscribeEmail, hygene-promo-home-address-tiltle, hygiene-form-privacyPolicyLink,
+      hygiene-form-privacyPolicyTitle, hygiene-form-submit, hygiene-form-homeAddress-error-message,
+      hygiene-contact-form-select, hygiene-form-collection-dropdown-value, hygiene-form-sender-emaild,
+      hygiene-promotion-kohler-temp, kohlertemplatelogo, kohlerTemplateTitle, kohlerTempDetailsTitle,
+      kohlerTempFeedBackTitle, kohlerTemplateFeedBackURL, kohlerTempKohlercoTitle,
+      kohlerTempalteSenderEmialid, kohlerTemplateReceiverEmail, kohlerTemplateSubject]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', Please enter
+        a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_ID: [Select Promotion, VEIL Intelligent Toilet&INNATE
+        Intelligent Toilet&EIR Intelligent Toilet&SAN SOUCI Revolution 360 Toilet,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Ashta Promotion - Enquiry, Please enter your first name, Contact Form, Please
+        select the value, 'Have you purchased KOHLER product before?', Please enter
+        a valid mobile number, Mobile Number, Full Name, Please Select Promotion,
+      'https://s7d4.scene7.com/is/image/kohlerchina/ASHTA-Mall-Hero-Banner_1Aug?scl=1',
+      Thank you for choosing KOHLER and for sharing your information with us., We
+        will get in touch shortly., '/en/ashta-promotion-thankyou?name=', '<table
+        width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/kohlerind/', '', '', 'Best Regards,', Kohler Indonesia,
+      Thank you for choosing KOHLER, Unsubscribe, Thank you, 'mailto:kohlerid@kohler.com?subject=Unsubscribe',
+      Home Address, 'https://www.kohlercompany.com/privacy/', Kohler Privacy Policy,
+      Submit, Please enter a valid home address, Select, 'Yes,No', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Contact Form, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerindonesia@kohler.com, Ashta Promotion
+        - Enquiry]
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', Best Regards, '', '', Unsubscribe, Thank you, '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_PH: [Select Distributor, Allhome&Dexterton&Sanitec&Wilcon,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Hygiene Promotion – Enquiry, Please enter your first name, Contact Form, Please
+        select Hygiene Collection/ Item, Select Collection / Item, Please enter a
+        valid mobile number, Mobile Number, Full Name, Please select a store, 'https://s7d4.scene7.com/is/image/kohlerchina/Thank%20you%20banner?scl=1',
+      Thank you for your enquiry!, We will get back to you soon., '/intelligent-toilet-promotion-thankyou?name=',
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/KohlerPhilippines/', Download Brochure, 'http://resources.kohler.com/plumbing/kohlerapac/pdf/Veil_Brochure.pdf',
+      Best Regards, Kohler Philippines, Thank you for choosing KOHLER, Unsubscribe,
+      Thank you, 'mailto:kohlerph@kohler.com?subject=Unsubscribe', Home Address, 'https://www.kohlercompany.com/privacy/',
+      Kohler Privacy Policy, Submit, Please enter a valid home address, Select, 'Eir
+        Intelligent Toilet,Veil Intelligent Toilet,Innate Intelligent Toilet', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Contact Form, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerphilippines@kohler.com, Intelligent Toilet
+        - Enquiry]
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_in_ID: [Select Promotion, VEIL Intelligent Toilet&INNATE
+        Intelligent Toilet&EIR Intelligent Toilet&SAN SOUCI Revolution 360 Toilet,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Ashta Promotion - Enquiry, Please enter your first name, Contact Form, Please
+        select the value, 'Have you purchased KOHLER product before?', Please enter
+        a valid mobile number, Mobile Number, Full Name, Please Select Promotion,
+      'https://s7d4.scene7.com/is/image/kohlerchina/ASHTA-Mall-Hero-Banner_1Aug?scl=1',
+      Thank you for choosing KOHLER and for sharing your information with us., We
+        will get in touch shortly., '/ashta-promotion-thankyou?name=', '<table width="100%"
+        border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Yang terhormat, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/kohlerind/', Download Brochure, '', 'Salam Hormat,',
+      Kohler Indonesia, Thank you for choosing KOHLER, Unsubscribe, Thank you, 'mailto:kohlerid@kohler.com?subject=Unsubscribe',
+      Home Address, 'https://www.kohlercompany.com/privacy/', Kohler Privacy Policy,
+      Submit, Please enter a valid home address, Select, 'Yes,No', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Formulir Kontak, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerindonesia@kohler.com, Ashta Promotion
+        - Enquiry]
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', 안녕하세요., 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 감사합니다, '', '', Unsubscribe, Thank you, '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Trân trọng,', '', '', Unsubscribe, Thank you, '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', 親愛的, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', '', '', '', Unsubscribe, 謝謝！, '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  /hygiene-promoton-bundle[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 71a49076-4a7e-40c8-b305-50fd9da57769
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-09-10T06:32:59.562Z
+    hippostdpubwf:lastModificationDate: 2022-08-24T10:29:10.975Z
+    hippostdpubwf:lastModifiedBy: pooja
+    hippostdpubwf:publicationDate: 2022-08-24T10:29:14.294Z
+    hippotranslation:id: a0d2b8d1-1e62-45d1-a1b4-0bbffd22d70d
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', Please enter
+        a valid mobile number, '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', Unsubscribe, Thank you, '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '']
+    resourcebundle:id: hygiene-promotion-bundle
+    resourcebundle:keys: [hygiene-form-selectstoreName, hygiene-form-store-drop-down-values,
+      hygiene-contact-form-email, hygiene-contact-form-email-error-message, hygiene-contact-form-email-error-message2,
+      hygiene-contact-form-email-subject, hygene-contact-form-first-name-error-message,
+      hygiene-contact-form-header, hygene-contact-form-collection-error-message, hygene-contact-form-collection-title,
+      hygiene-contact-form-mobile-error-message, hygene-contact-form-mobileno, hygene-contact-form-name,
+      hygene-contact-form-store-error-message, hygiene-user-email-template-banner,
+      hygene-user-email-template-description1, hygene-user-email-template-description2,
+      hygene-farwardPage, hygiene-promotion-user-email-template, hygene-userTemplateDear,
+      hygene-userTemplateFacebookImageURL, hygene-userTemplateFacebookURL, hygene-userTemplateDownloadText,
+      hygene-userTemplatePdfUrl, hygene-userTemplateRegards, hygene-userTemplateRegardsName,
+      hygene-userTemplateSubject, hygene-userTemplateSubscribe, hygene-userTemplateThankyou,
+      hygiene-userTemplateUnsubscribeEmail, hygene-promo-home-address-tiltle, hygiene-form-privacyPolicyLink,
+      hygiene-form-privacyPolicyTitle, hygiene-form-submit, hygiene-form-homeAddress-error-message,
+      hygiene-contact-form-select, hygiene-form-collection-dropdown-value, hygiene-form-sender-emaild,
+      hygiene-promotion-kohler-temp, kohlertemplatelogo, kohlerTemplateTitle, kohlerTempDetailsTitle,
+      kohlerTempFeedBackTitle, kohlerTemplateFeedBackURL, kohlerTempKohlercoTitle,
+      kohlerTempalteSenderEmialid, kohlerTemplateReceiverEmail, kohlerTemplateSubject]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', Please enter
+        a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_ID: [Select Promotion, VEIL Intelligent Toilet&INNATE
+        Intelligent Toilet&EIR Intelligent Toilet&SAN SOUCI Revolution 360 Toilet,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Ashta Promotion - Enquiry, Please enter your first name, Contact Form, Please
+        select the value, 'Have you purchased KOHLER product before?', Please enter
+        a valid mobile number, Mobile Number, Full Name, Please Select Promotion,
+      'https://s7d4.scene7.com/is/image/kohlerchina/ASHTA-Mall-Hero-Banner_1Aug?scl=1',
+      Thank you for choosing KOHLER and for sharing your information with us., We
+        will get in touch shortly., '/en/ashta-promotion-thankyou?name=', '<table
+        width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/kohlerind/', '', '', 'Best Regards,', Kohler Indonesia,
+      Thank you for choosing KOHLER, Unsubscribe, Thank you, 'mailto:kohlerid@kohler.com?subject=Unsubscribe',
+      Home Address, 'https://www.kohlercompany.com/privacy/', Kohler Privacy Policy,
+      Submit, Please enter a valid home address, Select, 'Yes,No', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Contact Form, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerindonesia@kohler.com, Ashta Promotion
+        - Enquiry]
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', Best Regards, '', '', Unsubscribe, Thank you, '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_PH: [Select Distributor, Allhome&Dexterton&Sanitec&Wilcon,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Hygiene Promotion – Enquiry, Please enter your first name, Contact Form, Please
+        select Hygiene Collection/ Item, Select Collection / Item, Please enter a
+        valid mobile number, Mobile Number, Full Name, Please select a store, 'https://s7d4.scene7.com/is/image/kohlerchina/Thank%20you%20banner?scl=1',
+      Thank you for your enquiry!, We will get back to you soon., '/intelligent-toilet-promotion-thankyou?name=',
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/KohlerPhilippines/', Download Brochure, 'http://resources.kohler.com/plumbing/kohlerapac/pdf/Veil_Brochure.pdf',
+      Best Regards, Kohler Philippines, Thank you for choosing KOHLER, Unsubscribe,
+      Thank you, 'mailto:kohlerph@kohler.com?subject=Unsubscribe', Home Address, 'https://www.kohlercompany.com/privacy/',
+      Kohler Privacy Policy, Submit, Please enter a valid home address, Select, 'Eir
+        Intelligent Toilet,Veil Intelligent Toilet,Innate Intelligent Toilet', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Contact Form, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerphilippines@kohler.com, Intelligent Toilet
+        - Enquiry]
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_in_ID: [Select Promotion, VEIL Intelligent Toilet&INNATE
+        Intelligent Toilet&EIR Intelligent Toilet&SAN SOUCI Revolution 360 Toilet,
+      Email Address, Please enter your email address, Please enter a valid email address,
+      Ashta Promotion - Enquiry, Please enter your first name, Contact Form, Please
+        select the value, 'Have you purchased KOHLER product before?', Please enter
+        a valid mobile number, Mobile Number, Full Name, Please Select Promotion,
+      'https://s7d4.scene7.com/is/image/kohlerchina/ASHTA-Mall-Hero-Banner_1Aug?scl=1',
+      Thank you for choosing KOHLER and for sharing your information with us., We
+        will get in touch shortly., '/ashta-promotion-thankyou?name=', '<table width="100%"
+        border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <td height="91"
+        colspan="3" align="middle" valign="middle">                      <table width="700"
+        border="0" cellspacing="0" cellpadding="0">                         <tbody>                            <td
+        width="160" height="91" rowspan="2" align="left" valign="middle"><img src="${bannerImage}"
+        width="700" style="height:auto;"></td>                         </tbody>                      </table>                   </td>                   <tr>                      <td
+        colspan="3" align="middle" valign="middle">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" align="middle" valign="middle">                            <tbody>                               <tr
+        style=" text-align: center; font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-top:10px;">                                  <td
+        width="700" colspan="2" align="middle" valign="middle" style="padding-top:10px;"><b>${thankYou}</b></td>                               </tr>                               <tr>                                  <td>                                     <hr
+        align="middle" valign="middle" width=90% style="margin-top:10px;">                                  </td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" colspan="2" width="700" style=" font-size:13px;padding-left:50px;padding-right:50px;text-align:justify;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Dear} ${userName},</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description1}</td>                               </tr>                               <tr>                                  <td
+        align="middle" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${Description2}</td>                               </tr>                               <tr>                                  <td
+        width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        padding-top:10px;font-family:Arial,Helvetica,sans-serif;">${regards},</td>                               </tr>                               <tr>                                  <td
+        align="left" valign="middle" width="700" style=" font-size:13px; text-align:justify;padding-left:50px;padding-right:50px;
+        font-family:Arial,Helvetica,sans-serif;padding-bottom: 10px;">${teamKohler}</td>                               </tr>                               <tr>                                  <td
+        width="" colspan="2" align="middle" valign="middle" style="padding-bottom:20px;padding-top:10px;">
+        <a href="${PDFUrl}" target="_blank" style="font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:13px;
+        background: #000 none repeat scroll 0 0;border-radius: 4px; box-shadow: 0
+        2px 2px 0 rgba(0, 0, 0, 0.2);text-decoration: none;color:white;line-height:
+        2;padding:10px">${dowmloadText}</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3" style="" align="middle" valign="middle" width="700">                         <table
+        border="0" cellpadding="0" cellspacing="0" style="background-color:black;
+        font-size:13px; width:100%; font-family:Arial,Helvetica,sans-serif;text-align:center;
+        align-content: center; padding-top:10px; height:110px;">                            <tbody
+        style="padding-top:-50px;">                               <tr>                                  <td>
+        <a href="${facebookUrl}" target="_blank" style="color:transparent;"> <img
+        src="${facebookImageUrl}"> </a> </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-top:0px;font-size:10px;font-family:Arial,Helvetica,sans-serif;"><a
+        href="${UnsubscribeEmail}" style="color:white;text-decoration:none;">${unSubscribe}</a>
+        </td>                               </tr>                               <tr>                                  <td
+        style=" color:white; text-align: center; padding-bottom:6px;font-size:10px;font-family:Arial,Helvetica,sans-serif;">&copy;${currentYear}
+        Kohler.Co</a> </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', Yang terhormat, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      'https://www.facebook.com/kohlerind/', Download Brochure, '', 'Salam Hormat,',
+      Kohler Indonesia, Thank you for choosing KOHLER, Unsubscribe, Thank you, 'mailto:kohlerid@kohler.com?subject=Unsubscribe',
+      Home Address, 'https://www.kohlercompany.com/privacy/', Kohler Privacy Policy,
+      Submit, Please enter a valid home address, Select, 'Yes,No', noreply@kohler.com,
+      '<table width="100%" border="0" cellpadding="0" cellspacing="0">    <tbody>       <tr>          <td
+        align="center" valign="top">             <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                <tbody>                   <tr>                      <td
+        height="91" colspan="3">                         <table width="700" border="0"
+        cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                                  <td
+        width="160" height="91" rowspan="2" align="left" valign="middle">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="159" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="504" height="74" align="right" valign="bottom" style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px">${contactForm}</td>                                  <td
+        width="18" height="91" rowspan="2">&nbsp;</td>                               </tr>                               <tr>                                  <td
+        width="519" height="17">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        colspan="3">                         <table width="700" border="0" cellspacing="0"
+        cellpadding="0">                            <tbody>                               <tr>                                  <td
+        width="700" align="left" valign="top">                                     <table
+        width="700" border="0" cellspacing="0" cellpadding="0">                                        <tbody>                                           <tr
+        style="                                              ">                                              <td
+        height="30" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:
+        10px;">&nbsp;                                              </td>                                           </tr>                                           <tr
+        style="                                              ">                                              <td
+        height="35" width="" colspan="2" align="left" valign="middle" style="font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:
+        #eee;padding-left: 10px;">                                                 <strong>${contactFormDetails}</strong>                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${firstName}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${firstNameValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${mobileNumber}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;">${mobileNumberValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${homeAddressTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px">${homeAddressValue}</td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${emailAddress}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;"><a href="${emailAddressValue}">${emailAddressValue}</a></td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:
+        10px;">${selectStoreTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-top:
+        8px;padding-bottom: 8px;">${selectStoreValue}                                              </td>                                           </tr>                                           <tr>                                              <td
+        width="35%" height="35" align="left" valign="middle" style="font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:
+        #eeeeee;padding-left: 10px;">${collectionTitle}</td>                                              <td
+        width="65%" height="35" align="left" valign="middle" style="font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;background:
+        #eeeeee;border-bottom-width:1px">${collectionTitleValue}</td>                                           </tr>                                        </tbody>                                     </table>                                  </td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                   <tr>                      <td
+        height="77" colspan="3" style="                         ">                         <table
+        width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#222222">                            <tbody>                               <tr>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                                  <td
+        width="489" height="77" align="left" valign="middle" bgcolor="#222222">                                     <div
+        style="font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px">                                        <a
+        href="${feedbackURL}" style="color:#ffffff"                                           target="_blank">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;                                        <a
+        href="${privacyPolicyURL}" style="color:#ffffff" target="_blank">${privacyPolicy}</a>                                     </div>                                     <div
+        style="margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left">                                        &copy;
+        ${currentYear} ${kohlerCo}                                     </div>                                  </td>                                  <td
+        width="175" height="77" align="right" valign="middle" bgcolor="#222222">                                     <img
+        src="${kohlerLogo}"                                        alt="THE BOLD LOOK
+        OF KOHLER" width="120" style="display:block"                                        border="0">                                  </td>                                  <td
+        width="18" height="77" bgcolor="#222222">&nbsp;</td>                               </tr>                            </tbody>                         </table>                      </td>                   </tr>                </tbody>             </table>          </td>       </tr>    </tbody>
+        </table>', 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/download.png',
+      Formulir Kontak, Contact form details, Feedback, 'mailto:kohler.plumbing@kohler.com?subject=Feedback',
+      Kohler Co., noreply@kohler.com, kohlerindonesia@kohler.com, Ashta Promotion
+        - Enquiry]
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', 안녕하세요., 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 감사합니다, '', '', Unsubscribe, Thank you, '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Trân trọng,', '', '', Unsubscribe, Thank you, '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', 親愛的, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', '', '', '', Unsubscribe, 謝謝！, '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', Please
+        enter a valid mobile number, '', '', '', '', '', '', '', '', Dear, 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/facebook.png',
+      '', '', '', 'Best Regards,', '', '', Unsubscribe, Thank you, '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']

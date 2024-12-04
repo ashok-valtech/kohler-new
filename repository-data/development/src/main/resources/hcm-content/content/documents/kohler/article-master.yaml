@@ -1,7 +1,6 @@
 /content/documents/kohler/article-master:
-  .meta:order-before: banners
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 6cac857e-3239-4b49-8203-28ae16e89e65
   hippo:name: article-master
   hippostd:foldertype: [new-Article-folder]
@@ -528,7 +527,7 @@
       hippotranslation:locale: en
     /composed-bathroom-faucet-collection:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
       jcr:uuid: f7ecfbaa-9aab-4b28-8f84-caa5742bec5a
       hippo:name: Composed Bathroom Faucet Collection
       hippostd:foldertype: [new-Article-folder, new-Article]
@@ -1108,7 +1107,7 @@
           kohler:imageURL: https://kohler.scene7.com/is/image/PAWEB/zab64194_rgb?extend=0,0,-250,0&$SectionHero$
       /composed[2]:
         jcr:primaryType: kohler:articleCarouselDocument
-        jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+        jcr:mixinTypes: ['mix:versionable']
         jcr:uuid: 8c666efa-84c5-4f77-b6de-759f2ab0d1f8
         hippo:availability: [preview]
         hippostd:state: unpublished

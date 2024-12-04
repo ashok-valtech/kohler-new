@@ -1,0 +1,1390 @@
+/content/documents/administration/labels/pricerangelabels:
+  .meta:order-before: contact-form-landing-page
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 993c0254-f64f-4356-a947-ae1ab797157e
+  hippo:name: pricerangelabels
+  /pricerangelabels[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 26193894-6fa3-4325-b36d-5cea5d181767
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-07-04T15:46:58.276+05:30
+    hippostdpubwf:lastModificationDate: 2020-03-24T18:11:37.257Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: b8d257a9-03e6-49de-a144-21bb35f6596f
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:id: pricerange.labels
+    resourcebundle:keys: [countries, categories, premium, basic, luxury, toilets-Intelligent
+        Toilets-30, toilets, toilets-Intelligent Toilets-20, toilets-Intelligent Toilets-10,
+      toilets-1PC-10, toilets-1PC-20, toilets-1PC-30, toilets-One-piece-10, toilets-One-piece-20,
+      toilets-One-piece-30, toilet-seats, toilet-seats-Manual Bidet Seats-10, toilet-seats-Manual
+        Bidet Seats-20, toilet-seats-Manual Bidet Seats-30, toilet-seats-Bidet Seats-10,
+      toilet-seats-Bidet Seats-20, toilet-seats-Bidet Seats-30, lavatories, lavatories-Self-rimming-10,
+      lavatories-Vessel-10, lavatories-Under-counter-10, lavatories-Semi-recessed-10,
+      lavatories-Self-rimming-20, lavatories-Vessel-20, lavatories-Vanity-20, lavatories-Wall-hung-20,
+      lavatories-Pedestal-20, lavatories-Under-counter-20, lavatories-Semi-recessed-20,
+      lavatories-Self-rimming-30, lavatories-Vessel-30, lavatories-Vanity-30, lavatories-Wall-hung-30,
+      lavatories-Pedestal-30, lavatories-Under-counter-30, lavatories-Semi-recessed-30,
+      bathing-Cast Iron-10, bathing-Acrylic-10, bathing-Lithocast-10, bathing-Cast
+        Iron-20, bathing-Acrylic-20, bathing-Cast Iron-30, bathing-Acrylic-30, bathing-Besi
+        Tuang-10, bathing-Akrilik-10, bathing-Besi Tuang-20, bathing-Akrilik-20, bathing-Besi
+        Tuang-30, bathing-Akrilik-30, hydrotherapy-baths-BubbleMassage-10, hydrotherapy-baths-Whirlpools-10,
+      hydrotherapy-baths-BubbleMassage-20, hydrotherapy-baths-Whirlpools-20, hydrotherapy-baths-Whirlpools-30,
+      commercial-bathroom-Sensor Faucets-10, commercial-bathroom-In-wall Tanks-10,
+      commercial-bathroom-In-wall Tank Faceplates-10, commercial-bathroom-Keran Sensor-10,
+      commercial-bathroom-Faceplate untuk In-wall tank-10, commercial-bathroom-Sensor
+        Faucets-20, commercial-bathroom-In-wall Tanks-20, commercial-bathroom-In-wall
+        Tank Faceplates-20, commercial-bathroom-Keran Sensor-20, commercial-bathroom-Faceplate
+        untuk In-wall tank-20, commercial-bathroom-Sensor Faucets-30, commercial-bathroom-In-wall
+        Tanks-30, commercial-bathroom-In-wall Tank Faceplates-30, commercial-bathroom-Keran
+        Sensor-30, commercial-bathroom-Faceplate untuk In-wall tank-30, bathroom-showering-Shower
+        Columns and Panels-10, bathroom-showering-Rainheads-10, bathroom-showering-Handshowers-10,
+      bathroom-showering-Valves and Trims-10, bathroom-showering-Bodysprays-10, bathroom-showering-Panel
+        dan Shower Column-10, bathroom-showering-Rainhead-10, bathroom-showering-Handshower-10,
+      bathroom-showering-Valve dan Trim-10, bathroom-showering-Body Spray-10, bathroom-showering-Shower
+        Columns and Panels-20, bathroom-showering-Rainheads-20, bathroom-showering-Handshowers-20,
+      bathroom-showering-Valves and Trims-20, bathroom-showering-Bodysprays-20, bathroom-showering-Panel
+        dan Shower Column-20, bathroom-showering-Rainhead-20, bathroom-showering-Handshower-20,
+      bathroom-showering-Valve dan Trim-20, bathroom-showering-Body Spray-20, bathroom-showering-Shower
+        Columns and Panels-30, bathroom-showering-Rainheads-30, bathroom-showering-Handshowers-30,
+      bathroom-showering-Valves and Trims-30, bathroom-showering-Bodysprays-30, bathroom-showering-Panel
+        dan Shower Column-30, bathroom-showering-Rainhead-30, bathroom-showering-Handshower-30,
+      bathroom-showering-Valve dan Trim-30, bathroom-showering-Body Spray-30, kitchen-sinks-Under-mount-10,
+      kitchen-sinks-Self-rimming-10, kitchen-sinks-Under-mount_x002f_Self-rimming-10,
+      kitchen-sinks-Under-mount-20, kitchen-sinks-Self-rimming-20, kitchen-sinks-Under-mount_x002f_Self-rimming-20,
+      kitchen-sinks-Under-mount-30, kitchen-sinks-Self-rimming-30, kitchen-sinks-Under-mount_x002f_Self-rimming-30,
+      kitchen-faucets-Others-10, kitchen-faucets-Lainnya-10, kitchen-faucets-Others-20,
+      kitchen-faucets-Lainnya-20, kitchen-faucets-Others-30, kitchen-faucets-Lainnya-30,
+      bathroom-accessories-Mirror-10, bathroom-accessories-Mirror-20, bathroom-accessories-Mirror-30,
+      bathroom-accessories-Others-10, bathroom-accessories-Others-20, bathroom-accessories-Others-30,
+      kitchen-faucets-Touchless-10, kitchen-faucets-Touchless-20, bathroom-accessories-Robe
+        hook-10, bathroom-accessories-Robe hook-20, bathroom-accessories-Robe hook-30,
+      bathroom-accessories-Toilet paper holder-10, bathroom-accessories-Toilet paper
+        holder-20, bathroom-accessories-Toilet paper holder-30, toilets-Two-piece-10,
+      toilets-Two-piece-20, toilets-Two-piece-30, toilets-Wall-hung-10, toilets-Wall-hung-20,
+      toilets-Wall-hung-30, bathroom-showering-Shower Faucet-10, bathroom-showering-Shower
+        Faucet-20, bathroom-showering-Shower Faucet-30, bathroom-showering-Exposed
+        Bath Shower Faucet-10, bathroom-showering-Exposed Bath Shower Faucet-20, bathroom-showering-Exposed
+        Bath Shower Faucet-30, kitchen-faucets-Off-set bowls-10, kitchen-faucets-Off-set
+        bowls-20, kitchen-faucets-Off-set bowls-30, toilets-2PC-10, toilets-2PC-20,
+      toilets-2PC-30, commercial-bathroom-Keran+Sensor-10, commercial-bathroom-Keran+Sensor-20,
+      commercial-bathroom-Keran+Sensor-30, commercial-bathroom, bathroom-accessories,
+      bathing, hydrotherapy-baths, kitchen-sinks, kitchen-faucets, bathroom-showering,
+      toilets-Gantung-10, toilets-Gantung-20, toilets-Gantung-30, lavatories-Gantung-20,
+      lavatories-Gantung-30, lavatories-Vesel-10, lavatories-Vesel-20, lavatories-Vesel-30,
+      bathroom-Perlengkapan Shower-20, bathroom-showering-Kran Shower-30, bathroom-showering-Keran
+        Bak Exposed untuk Shower-10, bathroom-showering-Keran Bak Exposed untuk Shower-20,
+      bathroom-showering-Keran Bak Exposed untuk Shower-30, bathroom-accessories-Cermin-10,
+      bathroom-accessories-Cermin-20, bathroom-accessories-Cermin-30, kitchen-faucets-Tanpa
+        sentuh-10, kitchen-faucets-Tanpa sentuh-20, toilets-Wall-faced-10, toilets-Wall-faced-20,
+      toilets-Wall-faced-30, toilets-Wall Hung-10, toilets-Wall Hung-20, toilets-Wall
+        Hung-30, kitchen-sinks-Under-mount/Self-rimming-10, kitchen-sinks-Under-mount/Self-rimming-20,
+      kitchen-sinks-Under-mount/Self-rimming-30, kitchen-faucets-Pull-Down-10, kitchen-faucets-Pull-Down-20,
+      kitchen-faucets-Pull-Down-30, kitchen-faucets-Pull-Out-10, kitchen-faucets-Pull-Out-20,
+      kitchen-faucets-Pull-Out-30, kitchen-sinks-Large/medium bowls-10, kitchen-sinks-Large/medium
+        bowls-20, kitchen-sinks-Large/medium bowls-30, commercial-bathroom-Urinals-10,
+      commercial-bathroom-Urinals-20, commercial-bathroom-Urinals-30, commercial-bathroom-Urinoir-10,
+      commercial-bathroom-Urinoir-20, commercial-bathroom-Urinoir-30, commercial-bathroom-Faceplates-10,
+      commercial-bathroom-Faceplates-20, commercial-bathroom-Faceplates-30, bathroom-faucets-Exposed
+        Bath Shower Faucet-10, bathroom-faucets-Exposed Bath Shower Faucet-20, bathroom-faucets-Exposed
+        Bath Shower Faucet-30, bathroom-faucets-Keran Bak Exposed untuk Shower-10,
+      bathroom-faucets-Keran Bak Exposed untuk Shower-20, bathroom-faucets-Keran Bak
+        Exposed untuk Shower-30, bathroom-faucets, bathroom-showering-Shower Kits-10,
+      bathroom-showering-Shower Kits-20, bathroom-showering-Shower Kits-30, bathroom-showering-Perlengkapan
+        Shower-10, bathroom-showering-Perlengkapan Shower-20, bathroom-showering-Perlengkapan
+        Shower-30, toilets-Intelligent Toilet-10, toilets-Intelligent Toilet-20, toilets-Intelligent
+        Toilet-30, toilet-seats-Nắp rửa cơ-10, toilet-seats-Nắp rửa cơ-20, toilet-seats-Nắp
+        rửa cơ-30, lavatories-Wall Hung-20, lavatories-Wall Hung-30, toilets-Wall
+        Faced-10, toilets-Wall Faced-20, toilets-Wall Faced-30, bathroom-accessories-Towel
+        Bar & Ring-10, bathroom-accessories-Towel Bar & Ring-20, bathroom-accessories-Towel
+        Bar & Ring-30, bathroom-accessories-Towel bar & ring-10, bathroom-accessories-Towel
+        bar & ring-20, bathroom-accessories-Towel bar & ring-30, bathroom-accessories-Toilet
+        Paper Holder-10, bathroom-accessories-Toilet Paper Holder-20, bathroom-accessories-Toilet
+        Paper Holder-30, bathroom-accessories-Robe Hook-10, bathroom-accessories-Robe
+        Hook-20, bathroom-accessories-Robe Hook-30]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '']
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_ID: [en_ID, 'toilets,toilet-seats,lavatories,bathroom-showering,commercial-bathroom,bathroom-accessories,bathing,hydrotherapy-baths,kitchen-sinks,kitchen-faucets,bathroom-faucets',
+      '20', '30', '10', '- 400,00,000-500,00,000 IDR', 'Intelligent Toilets,One-piece,Two-piece,Wall-hung,Wall
+        Faced,Wall-faced,Wall Hung', '- 510,00,000-1000,00,000 IDR', '- 1000,00,000-2000,00,000
+        IDR', '', '', '', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000 IDR',
+      '- 80,00,000-98,00,000 IDR', 'Manual Bidet Seats,Bidet Seats', '- 23,00,000-30,00,000
+        IDR', '- 16,00,000-22,00,000 IDR', '- 10,00,000-15,00,000 IDR', '- 130,00,000-150,00,000
+        IDR', '- 80,00,000-120,00,000 IDR', '- 50,00,000-80,00,000 IDR', 'Self-rimming,Vessel,Vanity,Wall-hung,Pedestal,Under-counter,Semi-recessed,Wall
+        Hung', '- 2,500,000-3,500,000 IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,550,000
+        IDR', '- 4,000,000-5,000,000 IDR', '- 2,000,000-2,500,000 IDR', '- 2,500,000-3,500,000
+        IDR', '- 8,000,000-16,000,000 IDR', '- 2,600,000-4,500,000 IDR', '- 4,000,000-6,500,000
+        IDR', '- 1,800,000-2,500,000 IDR', '- 3,500,000-4,000,000 IDR', '- 1,000,000-2,000,000
+        IDR', '- 1,500,000-2,500,000 IDR', '- 3,000,000-8,000,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 2,700,000-4,000,000 IDR', '- 1,000,000-1,800,000 IDR', '- 2,000,000-3,500,000
+        IDR', '- 67,500,000-80,000,000 IDR', '43,000,000-57,541,000 IDR', '- 104,618,000,145,000,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '', '- 43,000,000-57,541,000 IDR', '',
+      '- 15,000,000-43,000,000 IDR', '', '- 5,785,000-15,000,000 IDR', '- 95,000,000-102,000,000
+        IDR', '- 113,344,000-320,673,000 IDR', '- 48,000,000-95,000,000 IDR', '- 38,000,000-113,344,000
+        IDR', '- 34,000,000-38,000,000 IDR', '- 7863000-∞ IDR', '- 7,000,000-28,000,000
+        IDR', '- 850,000-9,000,000 IDR', '- 7863000-∞ IDR', '- 850,000-9,000,000 IDR',
+      '- 6634000-7863000 IDR', '- 5,000,000-7,000,000 IDR', '- 800,000-850,000 IDR',
+      '- 6634000-7863000 IDR', '- 800,000-850,000 IDR', '- 0-6634000 IDR', '- 4,000,000-5,000,000
+        IDR', '- 500,000-800,000 IDR', '- 0-6634000 IDR', '- 500,000-800,000 IDR',
+      '- 22351000-∞ IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞ IDR',
+      '- 9515000-∞ IDR', '', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '', '- 9515000-∞
+        IDR', '- 9020000-22351000 IDR', '- 2500000-13458000 IDR', '- 880000-1569000
+        IDR', '- 5083000-7800000 IDR', '- 4663000-9515000 IDR', '', '- 2500000-13458000
+        IDR', '- 880000-1569000 IDR', '', '- 4663000-9515000 IDR', '- 0-9020000 IDR',
+      '- 0-2500000 IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000 IDR', '',
+      '- 0-2500000 IDR', '- 0-880000 IDR', '', '- 0-4663000 IDR', '- 7,000,001- 21,000,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000
+        IDR', '- 1,500,001-7,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 0-1,500,000 IDR', '- 0-1,500,000 IDR', '- 5,000,001- 20,000,000 IDR',
+      '', '- 3,000,001-5,000,000 IDR', '', '- 0-3,000,000 IDR', '', '- 37,12,000-∞
+        IDR', '-  13,34,000-37,12,000  IDR', '- 0-13,34,000  IDR', '- 14,50,000-∞
+        IDR', '- 725,000  - 1,450,000   IDR', '- 0-7,25,000  IDR', '- 105,00,000-225,00,000
+        IDR', '- 60,00,000-105,00,000 IDR', '-  8,55,500  -∞ IDR', '- 2,75,500 - 8,55,500  IDR',
+      '- 0-2,75,500  IDR', '- 14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500
+        IDR', '- 89,00,000-122,00,000 IDR', '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '', '', '', '', '', '', 'Sensor Faucets,In-wall Tanks,In-Wall faceplate,Urinals,Faceplates',
+      'Mirror,Others,Robe hook,Toilet paper holder,Towel bar & ring,Towel Bar & Ring,Toilet
+        Paper Holder,Robe Hook', 'Acrylic,Akrilik,Cast Iron', 'BubbleMassage,Whirlpools',
+      'Self-rimming,Under-mount,Under-mount_x002f_Self-rimming,Under-mount/Self-rimming,Large/medium
+        bowls', 'Off-set bowls,Others,Pull-Down,Pull-Out,Touchless', 'Shower Columns
+        and Panels,Rainheads,Handshowers,Valves and Trims,DTV,Shower Kits,Bodysprays,Shower
+        Fittings,Exposed Bath Shower Faucet,Shower+fittings', '', '', '', '- 2,600,000-4,500,000
+        IDR', '- 1,500,000-2,600,000 IDR', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        ID', '5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '- 21,00,000-250,00,000 IDR', '- 120,00,000-21,00,000 IDR', '- 90,00,000-120,00,000
+        IDR', '', '', '', '- 850,000-9,000,000 IDR', '- 800,000-850,000 IDR', '- 500,000-800,000
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '', '', '', Exposed Bath Shower Faucet, '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-44,51,500 IDR', '', '', '', '- 1000,00,000-2000,00,000 IDR', '- 510,00,000-1000,00,000
+        IDR', '- 400,00,000-500,00,000 IDR', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000
+        IDR', '- 10,00,000-15,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR',
+      '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR', '-
+        14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR']
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_in_ID: [in_ID, 'toilets,toilet-seats,lavatories,bathroom-showering,commercial-bathroom,bathroom-accessories,bathing,hydrotherapy-baths,kitchen-sinks,kitchen-faucets,bathroom-faucets',
+      '20', '30', '10', '- 400,00,000-500,00,000 IDR', 'Intelligent Toilets,One-piece,Two-Piece,1PC,2PC,Gantung,Wall
+        Faced,Wall-faced,Wall Hung,Wall-hung,Intelligent Toilet', '- 510,00,000-1000,00,000
+        IDR', '- 1000,00,000-2000,00,000 IDR', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000
+        IDR', '- 80,00,000-98,00,000 IDR', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000
+        IDR', '- 80,00,000-98,00,000 IDR', 'Manual Bidet Seats,Bidet Seats,Nắp rửa
+        cơ', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000 IDR', '- 10,00,000-15,00,000
+        IDR', '- 130,00,000-150,00,000 IDR', '- 80,00,000-120,00,000 IDR', '- 50,00,000-80,00,000
+        IDR', 'Self-rimming,Vesel,Vanity,Gantung,Pedestal,Under-counter,Semi-recessed',
+      '- 2,500,000-3,500,000 IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,550,000
+        IDR', '- 4,000,000-5,000,000 IDR', '- 2,000,000-2,500,000 IDR', '- 2,500,000-3,500,000
+        IDR', '- 8,000,000-16,000,000 IDR', '- 2,600,000-4,500,000 IDR', '- 4,000,000-6,500,000
+        IDR', '- 1,800,000-2,500,000 IDR', '- 3,500,000-4,000,000 IDR', '- 1,000,000-2,000,000
+        IDR', '- 1,500,000-2,500,000 IDR', '- 3,000,000-8,000,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 2,700,000-4,000,000 IDR', '- 1,000,000-1,800,000 IDR', '- 2,000,000-3,500,000
+        IDR', '- 67,500,000-80,000,000 IDR', '43,000,000-57,541,000 IDR', '- 104,618,000,145,000,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '- 67,500,000-80,000,000 IDR', '- 43,000,000-57,541,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '- 95,000,000-102,000,000 IDR', '- 113,344,000-320,673,000
+        IDR', '- 48,000,000-95,000,000 IDR', '- 38,000,000-113,344,000 IDR', '- 34,000,000-38,000,000
+        IDR', '- 7863000-∞ IDR', '- 7,000,000-28,000,000 IDR', '- 850,000-9,000,000
+        IDR', '- 7863000-∞ IDR', '- 850,000-9,000,000 IDR', '- 6634000-7863000 IDR',
+      '- 5,000,000-7,000,000 IDR', '- 800,000-850,000 IDR', '- 6634000-7863000 IDR',
+      '- 800,000-850,000 IDR', '- 0-6634000 IDR', '- 4,000,000-5,000,000 IDR', '-
+        500,000-800,000 IDR', '- 0-6634000 IDR', '- 500,000-800,000 IDR', '- 22351000-∞
+        IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞ IDR', '- 9515000-∞
+        IDR', '- 22351000-∞ IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞
+        IDR', '- 9515000-∞ IDR', '- 9020000-22351000 IDR', '- 2500000-13458000 IDR',
+      '- 880000-1569000 IDR', '- 5083000-7800000 IDR', '- 4663000-9515000 IDR', '-
+        9020000-22351000 IDR', '- 2500000-13458000 IDR', '- 880000-1569000 IDR', '-
+        5083000-7800000 IDR', '- 4663000-9515000 IDR', '- 0-9020000 IDR', '- 0-2500000
+        IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000 IDR', '- 0-9020000
+        IDR', '- 0-2500000 IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001-
+        21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 1,500,001-7,000,000 IDR',
+      '- 1,500,001-7,000,000 IDR', '- 0-1,500,000 IDR', '- 0-1,500,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000
+        IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000 IDR', '- 0-3,000,000 IDR',
+      '- 37,12,000-∞ IDR', '-  13,34,000-37,12,000  IDR', '- 0-13,34,000  IDR', '-
+        14,50,000-∞ IDR', '- 725,000  - 1,450,000   IDR', '- 0-7,25,000  IDR', '-
+        105,00,000-225,00,000 IDR', '- 60,00,000-105,00,000 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR', '- 14,50,000-∞ IDR',
+      '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '- 89,00,000-122,00,000 IDR',
+      '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000 IDR', '- 80,00,000-110,00,000
+        IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500 IDR', '- 105,00,000-225,00,000
+        IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000 IDR', '-  89,00,000-122,00,000  IDR',
+      '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000 IDR', '- 7863000-∞ IDR',
+      '- 6634000-7863000 IDR', 0- 6634000 IDR, 'Keran Sensor,In-wall Tanks,In-Wall
+        faceplate,Urinoir,Faceplate untuk In-wall tank', 'Cermin,Others,Robe hook,Toilet
+        paper holder,Towel bar & ring,Towel Bar & Ring,Toilet Paper Holder,Robe Hook',
+      'Besi Tuang,Lithocast,Akrilik', 'BubbleMassage,Whirlpools', 'Self-rimming,Under-mount,Under-mount_x002f_Self-rimming,2-Bak
+        Ukuran Besar/Sedang,Under-mount/Self-rimming', 'Off-set bowls,Lainnya,Pull-Down,Pull-Out,Tanpa
+        sentuh,2-Bak Ukuran Besar_x002f_Sedang', 'Panel dan Shower Column,Rainhead,Handshower,Valve
+        dan Trim,DTV,Perlengkapan Shower,Body Spray,Kran Shower,Keran Bak Exposed
+        untuk Shower', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR',
+      '- 50,00,000-65,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,500,000 IDR', '- 1,500,000-2,500,000
+        IDR', '- 0-∞ IDR', '- 0-∞ IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-44,51,500 IDR', '- 37,12,000-∞ IDR', '-  13,34,000-37,12,000  IDR', '-
+        13,34,000-13,34,000  IDR', '- 105,00,000-225,00,000 IDR', '- 60,00,000-105,00,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        ID', '5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '', '', '', '- 21,00,000-250,00,000 IDR', '- 120,00,000-21,00,000 IDR',
+      '- 90,00,000-120,00,000 IDR', '', '', '', '', '', '- 0-44,51,500 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '-  44,51,500-105,85,000  IDR', Keran
+        Bak Exposed untuk Shower, '', '', '', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-9020000 IDR', '- 1000,00,000-2000,00,000 IDR', '- 510,00,000-1000,00,000
+        IDR', '- 400,00,000-500,00,000 IDR', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000
+        IDR', '- 10,00,000-15,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR',
+      '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR', '-
+        14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR']
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+  /pricerangelabels[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0e230f24-5110-4bbb-bc55-dadc2196a87d
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-07-04T15:46:58.276+05:30
+    hippostdpubwf:lastModificationDate: 2020-03-24T18:11:10.644Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: b8d257a9-03e6-49de-a144-21bb35f6596f
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:id: pricerange.labels
+    resourcebundle:keys: [countries, categories, premium, basic, luxury, toilets-Intelligent
+        Toilets-30, toilets, toilets-Intelligent Toilets-20, toilets-Intelligent Toilets-10,
+      toilets-1PC-10, toilets-1PC-20, toilets-1PC-30, toilets-One-piece-10, toilets-One-piece-20,
+      toilets-One-piece-30, toilet-seats, toilet-seats-Manual Bidet Seats-10, toilet-seats-Manual
+        Bidet Seats-20, toilet-seats-Manual Bidet Seats-30, toilet-seats-Bidet Seats-10,
+      toilet-seats-Bidet Seats-20, toilet-seats-Bidet Seats-30, lavatories, lavatories-Self-rimming-10,
+      lavatories-Vessel-10, lavatories-Under-counter-10, lavatories-Semi-recessed-10,
+      lavatories-Self-rimming-20, lavatories-Vessel-20, lavatories-Vanity-20, lavatories-Wall-hung-20,
+      lavatories-Pedestal-20, lavatories-Under-counter-20, lavatories-Semi-recessed-20,
+      lavatories-Self-rimming-30, lavatories-Vessel-30, lavatories-Vanity-30, lavatories-Wall-hung-30,
+      lavatories-Pedestal-30, lavatories-Under-counter-30, lavatories-Semi-recessed-30,
+      bathing-Cast Iron-10, bathing-Acrylic-10, bathing-Lithocast-10, bathing-Cast
+        Iron-20, bathing-Acrylic-20, bathing-Cast Iron-30, bathing-Acrylic-30, bathing-Besi
+        Tuang-10, bathing-Akrilik-10, bathing-Besi Tuang-20, bathing-Akrilik-20, bathing-Besi
+        Tuang-30, bathing-Akrilik-30, hydrotherapy-baths-BubbleMassage-10, hydrotherapy-baths-Whirlpools-10,
+      hydrotherapy-baths-BubbleMassage-20, hydrotherapy-baths-Whirlpools-20, hydrotherapy-baths-Whirlpools-30,
+      commercial-bathroom-Sensor Faucets-10, commercial-bathroom-In-wall Tanks-10,
+      commercial-bathroom-In-wall Tank Faceplates-10, commercial-bathroom-Keran Sensor-10,
+      commercial-bathroom-Faceplate untuk In-wall tank-10, commercial-bathroom-Sensor
+        Faucets-20, commercial-bathroom-In-wall Tanks-20, commercial-bathroom-In-wall
+        Tank Faceplates-20, commercial-bathroom-Keran Sensor-20, commercial-bathroom-Faceplate
+        untuk In-wall tank-20, commercial-bathroom-Sensor Faucets-30, commercial-bathroom-In-wall
+        Tanks-30, commercial-bathroom-In-wall Tank Faceplates-30, commercial-bathroom-Keran
+        Sensor-30, commercial-bathroom-Faceplate untuk In-wall tank-30, bathroom-showering-Shower
+        Columns and Panels-10, bathroom-showering-Rainheads-10, bathroom-showering-Handshowers-10,
+      bathroom-showering-Valves and Trims-10, bathroom-showering-Bodysprays-10, bathroom-showering-Panel
+        dan Shower Column-10, bathroom-showering-Rainhead-10, bathroom-showering-Handshower-10,
+      bathroom-showering-Valve dan Trim-10, bathroom-showering-Body Spray-10, bathroom-showering-Shower
+        Columns and Panels-20, bathroom-showering-Rainheads-20, bathroom-showering-Handshowers-20,
+      bathroom-showering-Valves and Trims-20, bathroom-showering-Bodysprays-20, bathroom-showering-Panel
+        dan Shower Column-20, bathroom-showering-Rainhead-20, bathroom-showering-Handshower-20,
+      bathroom-showering-Valve dan Trim-20, bathroom-showering-Body Spray-20, bathroom-showering-Shower
+        Columns and Panels-30, bathroom-showering-Rainheads-30, bathroom-showering-Handshowers-30,
+      bathroom-showering-Valves and Trims-30, bathroom-showering-Bodysprays-30, bathroom-showering-Panel
+        dan Shower Column-30, bathroom-showering-Rainhead-30, bathroom-showering-Handshower-30,
+      bathroom-showering-Valve dan Trim-30, bathroom-showering-Body Spray-30, kitchen-sinks-Under-mount-10,
+      kitchen-sinks-Self-rimming-10, kitchen-sinks-Under-mount_x002f_Self-rimming-10,
+      kitchen-sinks-Under-mount-20, kitchen-sinks-Self-rimming-20, kitchen-sinks-Under-mount_x002f_Self-rimming-20,
+      kitchen-sinks-Under-mount-30, kitchen-sinks-Self-rimming-30, kitchen-sinks-Under-mount_x002f_Self-rimming-30,
+      kitchen-faucets-Others-10, kitchen-faucets-Lainnya-10, kitchen-faucets-Others-20,
+      kitchen-faucets-Lainnya-20, kitchen-faucets-Others-30, kitchen-faucets-Lainnya-30,
+      bathroom-accessories-Mirror-10, bathroom-accessories-Mirror-20, bathroom-accessories-Mirror-30,
+      bathroom-accessories-Others-10, bathroom-accessories-Others-20, bathroom-accessories-Others-30,
+      kitchen-faucets-Touchless-10, kitchen-faucets-Touchless-20, bathroom-accessories-Robe
+        hook-10, bathroom-accessories-Robe hook-20, bathroom-accessories-Robe hook-30,
+      bathroom-accessories-Toilet paper holder-10, bathroom-accessories-Toilet paper
+        holder-20, bathroom-accessories-Toilet paper holder-30, toilets-Two-piece-10,
+      toilets-Two-piece-20, toilets-Two-piece-30, toilets-Wall-hung-10, toilets-Wall-hung-20,
+      toilets-Wall-hung-30, bathroom-showering-Shower Faucet-10, bathroom-showering-Shower
+        Faucet-20, bathroom-showering-Shower Faucet-30, bathroom-showering-Exposed
+        Bath Shower Faucet-10, bathroom-showering-Exposed Bath Shower Faucet-20, bathroom-showering-Exposed
+        Bath Shower Faucet-30, kitchen-faucets-Off-set bowls-10, kitchen-faucets-Off-set
+        bowls-20, kitchen-faucets-Off-set bowls-30, toilets-2PC-10, toilets-2PC-20,
+      toilets-2PC-30, commercial-bathroom-Keran+Sensor-10, commercial-bathroom-Keran+Sensor-20,
+      commercial-bathroom-Keran+Sensor-30, commercial-bathroom, bathroom-accessories,
+      bathing, hydrotherapy-baths, kitchen-sinks, kitchen-faucets, bathroom-showering,
+      toilets-Gantung-10, toilets-Gantung-20, toilets-Gantung-30, lavatories-Gantung-20,
+      lavatories-Gantung-30, lavatories-Vesel-10, lavatories-Vesel-20, lavatories-Vesel-30,
+      bathroom-Perlengkapan Shower-20, bathroom-showering-Kran Shower-30, bathroom-showering-Keran
+        Bak Exposed untuk Shower-10, bathroom-showering-Keran Bak Exposed untuk Shower-20,
+      bathroom-showering-Keran Bak Exposed untuk Shower-30, bathroom-accessories-Cermin-10,
+      bathroom-accessories-Cermin-20, bathroom-accessories-Cermin-30, kitchen-faucets-Tanpa
+        sentuh-10, kitchen-faucets-Tanpa sentuh-20, toilets-Wall-faced-10, toilets-Wall-faced-20,
+      toilets-Wall-faced-30, toilets-Wall Hung-10, toilets-Wall Hung-20, toilets-Wall
+        Hung-30, kitchen-sinks-Under-mount/Self-rimming-10, kitchen-sinks-Under-mount/Self-rimming-20,
+      kitchen-sinks-Under-mount/Self-rimming-30, kitchen-faucets-Pull-Down-10, kitchen-faucets-Pull-Down-20,
+      kitchen-faucets-Pull-Down-30, kitchen-faucets-Pull-Out-10, kitchen-faucets-Pull-Out-20,
+      kitchen-faucets-Pull-Out-30, kitchen-sinks-Large/medium bowls-10, kitchen-sinks-Large/medium
+        bowls-20, kitchen-sinks-Large/medium bowls-30, commercial-bathroom-Urinals-10,
+      commercial-bathroom-Urinals-20, commercial-bathroom-Urinals-30, commercial-bathroom-Urinoir-10,
+      commercial-bathroom-Urinoir-20, commercial-bathroom-Urinoir-30, commercial-bathroom-Faceplates-10,
+      commercial-bathroom-Faceplates-20, commercial-bathroom-Faceplates-30, bathroom-faucets-Exposed
+        Bath Shower Faucet-10, bathroom-faucets-Exposed Bath Shower Faucet-20, bathroom-faucets-Exposed
+        Bath Shower Faucet-30, bathroom-faucets-Keran Bak Exposed untuk Shower-10,
+      bathroom-faucets-Keran Bak Exposed untuk Shower-20, bathroom-faucets-Keran Bak
+        Exposed untuk Shower-30, bathroom-faucets, bathroom-showering-Shower Kits-10,
+      bathroom-showering-Shower Kits-20, bathroom-showering-Shower Kits-30, bathroom-showering-Perlengkapan
+        Shower-10, bathroom-showering-Perlengkapan Shower-20, bathroom-showering-Perlengkapan
+        Shower-30, toilets-Intelligent Toilet-10, toilets-Intelligent Toilet-20, toilets-Intelligent
+        Toilet-30, toilet-seats-Nắp rửa cơ-10, toilet-seats-Nắp rửa cơ-20, toilet-seats-Nắp
+        rửa cơ-30, lavatories-Wall Hung-20, lavatories-Wall Hung-30, toilets-Wall
+        Faced-10, toilets-Wall Faced-20, toilets-Wall Faced-30, bathroom-accessories-Towel
+        Bar & Ring-10, bathroom-accessories-Towel Bar & Ring-20, bathroom-accessories-Towel
+        Bar & Ring-30, bathroom-accessories-Towel bar & ring-10, bathroom-accessories-Towel
+        bar & ring-20, bathroom-accessories-Towel bar & ring-30, bathroom-accessories-Toilet
+        Paper Holder-10, bathroom-accessories-Toilet Paper Holder-20, bathroom-accessories-Toilet
+        Paper Holder-30, bathroom-accessories-Robe Hook-10, bathroom-accessories-Robe
+        Hook-20, bathroom-accessories-Robe Hook-30]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '']
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_ID: [en_ID, 'toilets,toilet-seats,lavatories,bathroom-showering,commercial-bathroom,bathroom-accessories,bathing,hydrotherapy-baths,kitchen-sinks,kitchen-faucets,bathroom-faucets',
+      '20', '30', '10', '- 400,00,000-500,00,000 IDR', 'Intelligent Toilets,One-piece,Two-piece,Wall-hung,Wall
+        Faced,Wall-faced,Wall Hung', '- 510,00,000-1000,00,000 IDR', '- 1000,00,000-2000,00,000
+        IDR', '', '', '', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000 IDR',
+      '- 80,00,000-98,00,000 IDR', 'Manual Bidet Seats,Bidet Seats', '- 23,00,000-30,00,000
+        IDR', '- 16,00,000-22,00,000 IDR', '- 10,00,000-15,00,000 IDR', '- 130,00,000-150,00,000
+        IDR', '- 80,00,000-120,00,000 IDR', '- 50,00,000-80,00,000 IDR', 'Self-rimming,Vessel,Vanity,Wall-hung,Pedestal,Under-counter,Semi-recessed,Wall
+        Hung', '- 2,500,000-3,500,000 IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,550,000
+        IDR', '- 4,000,000-5,000,000 IDR', '- 2,000,000-2,500,000 IDR', '- 2,500,000-3,500,000
+        IDR', '- 8,000,000-16,000,000 IDR', '- 2,600,000-4,500,000 IDR', '- 4,000,000-6,500,000
+        IDR', '- 1,800,000-2,500,000 IDR', '- 3,500,000-4,000,000 IDR', '- 1,000,000-2,000,000
+        IDR', '- 1,500,000-2,500,000 IDR', '- 3,000,000-8,000,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 2,700,000-4,000,000 IDR', '- 1,000,000-1,800,000 IDR', '- 2,000,000-3,500,000
+        IDR', '- 67,500,000-80,000,000 IDR', '43,000,000-57,541,000 IDR', '- 104,618,000,145,000,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '', '- 43,000,000-57,541,000 IDR', '',
+      '- 15,000,000-43,000,000 IDR', '', '- 5,785,000-15,000,000 IDR', '- 95,000,000-102,000,000
+        IDR', '- 113,344,000-320,673,000 IDR', '- 48,000,000-95,000,000 IDR', '- 38,000,000-113,344,000
+        IDR', '- 34,000,000-38,000,000 IDR', '- 7863000-∞ IDR', '- 7,000,000-28,000,000
+        IDR', '- 850,000-9,000,000 IDR', '- 7863000-∞ IDR', '- 850,000-9,000,000 IDR',
+      '- 6634000-7863000 IDR', '- 5,000,000-7,000,000 IDR', '- 800,000-850,000 IDR',
+      '- 6634000-7863000 IDR', '- 800,000-850,000 IDR', '- 0-6634000 IDR', '- 4,000,000-5,000,000
+        IDR', '- 500,000-800,000 IDR', '- 0-6634000 IDR', '- 500,000-800,000 IDR',
+      '- 22351000-∞ IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞ IDR',
+      '- 9515000-∞ IDR', '', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '', '- 9515000-∞
+        IDR', '- 9020000-22351000 IDR', '- 2500000-13458000 IDR', '- 880000-1569000
+        IDR', '- 5083000-7800000 IDR', '- 4663000-9515000 IDR', '', '- 2500000-13458000
+        IDR', '- 880000-1569000 IDR', '', '- 4663000-9515000 IDR', '- 0-9020000 IDR',
+      '- 0-2500000 IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000 IDR', '',
+      '- 0-2500000 IDR', '- 0-880000 IDR', '', '- 0-4663000 IDR', '- 7,000,001- 21,000,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000
+        IDR', '- 1,500,001-7,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 0-1,500,000 IDR', '- 0-1,500,000 IDR', '- 5,000,001- 20,000,000 IDR',
+      '', '- 3,000,001-5,000,000 IDR', '', '- 0-3,000,000 IDR', '', '- 37,12,000-∞
+        IDR', '-  13,34,000-37,12,000  IDR', '- 0-13,34,000  IDR', '- 14,50,000-∞
+        IDR', '- 725,000  - 1,450,000   IDR', '- 0-7,25,000  IDR', '- 105,00,000-225,00,000
+        IDR', '- 60,00,000-105,00,000 IDR', '-  8,55,500  -∞ IDR', '- 2,75,500 - 8,55,500  IDR',
+      '- 0-2,75,500  IDR', '- 14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500
+        IDR', '- 89,00,000-122,00,000 IDR', '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '', '', '', '', '', '', 'Sensor Faucets,In-wall Tanks,In-Wall faceplate,Urinals,Faceplates',
+      'Mirror,Others,Robe hook,Toilet paper holder,Towel bar & ring,Towel Bar & Ring,Toilet
+        Paper Holder,Robe Hook', 'Acrylic,Akrilik,Cast Iron', 'BubbleMassage,Whirlpools',
+      'Self-rimming,Under-mount,Under-mount_x002f_Self-rimming,Under-mount/Self-rimming,Large/medium
+        bowls', 'Off-set bowls,Others,Pull-Down,Pull-Out,Touchless', 'Shower Columns
+        and Panels,Rainheads,Handshowers,Valves and Trims,DTV,Shower Kits,Bodysprays,Shower
+        Fittings,Exposed Bath Shower Faucet,Shower+fittings', '', '', '', '- 2,600,000-4,500,000
+        IDR', '- 1,500,000-2,600,000 IDR', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        ID', '5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '- 21,00,000-250,00,000 IDR', '- 120,00,000-21,00,000 IDR', '- 90,00,000-120,00,000
+        IDR', '', '', '', '- 850,000-9,000,000 IDR', '- 800,000-850,000 IDR', '- 500,000-800,000
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '', '', '', Exposed Bath Shower Faucet, '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-44,51,500 IDR', '', '', '', '- 1000,00,000-2000,00,000 IDR', '- 510,00,000-1000,00,000
+        IDR', '- 400,00,000-500,00,000 IDR', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000
+        IDR', '- 10,00,000-15,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR',
+      '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR', '-
+        14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR']
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_in_ID: [in_ID, 'toilets,toilet-seats,lavatories,bathroom-showering,commercial-bathroom,bathroom-accessories,bathing,hydrotherapy-baths,kitchen-sinks,kitchen-faucets,bathroom-faucets',
+      '20', '30', '10', '- 400,00,000-500,00,000 IDR', 'Intelligent Toilets,One-piece,Two-Piece,1PC,2PC,Gantung,Wall
+        Faced,Wall-faced,Wall Hung,Wall-hung,Intelligent Toilet', '- 510,00,000-1000,00,000
+        IDR', '- 1000,00,000-2000,00,000 IDR', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000
+        IDR', '- 80,00,000-98,00,000 IDR', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000
+        IDR', '- 80,00,000-98,00,000 IDR', 'Manual Bidet Seats,Bidet Seats,Nắp rửa
+        cơ', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000 IDR', '- 10,00,000-15,00,000
+        IDR', '- 130,00,000-150,00,000 IDR', '- 80,00,000-120,00,000 IDR', '- 50,00,000-80,00,000
+        IDR', 'Self-rimming,Vesel,Vanity,Gantung,Pedestal,Under-counter,Semi-recessed',
+      '- 2,500,000-3,500,000 IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,550,000
+        IDR', '- 4,000,000-5,000,000 IDR', '- 2,000,000-2,500,000 IDR', '- 2,500,000-3,500,000
+        IDR', '- 8,000,000-16,000,000 IDR', '- 2,600,000-4,500,000 IDR', '- 4,000,000-6,500,000
+        IDR', '- 1,800,000-2,500,000 IDR', '- 3,500,000-4,000,000 IDR', '- 1,000,000-2,000,000
+        IDR', '- 1,500,000-2,500,000 IDR', '- 3,000,000-8,000,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 2,700,000-4,000,000 IDR', '- 1,000,000-1,800,000 IDR', '- 2,000,000-3,500,000
+        IDR', '- 67,500,000-80,000,000 IDR', '43,000,000-57,541,000 IDR', '- 104,618,000,145,000,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '- 67,500,000-80,000,000 IDR', '- 43,000,000-57,541,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '- 95,000,000-102,000,000 IDR', '- 113,344,000-320,673,000
+        IDR', '- 48,000,000-95,000,000 IDR', '- 38,000,000-113,344,000 IDR', '- 34,000,000-38,000,000
+        IDR', '- 7863000-∞ IDR', '- 7,000,000-28,000,000 IDR', '- 850,000-9,000,000
+        IDR', '- 7863000-∞ IDR', '- 850,000-9,000,000 IDR', '- 6634000-7863000 IDR',
+      '- 5,000,000-7,000,000 IDR', '- 800,000-850,000 IDR', '- 6634000-7863000 IDR',
+      '- 800,000-850,000 IDR', '- 0-6634000 IDR', '- 4,000,000-5,000,000 IDR', '-
+        500,000-800,000 IDR', '- 0-6634000 IDR', '- 500,000-800,000 IDR', '- 22351000-∞
+        IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞ IDR', '- 9515000-∞
+        IDR', '- 22351000-∞ IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞
+        IDR', '- 9515000-∞ IDR', '- 9020000-22351000 IDR', '- 2500000-13458000 IDR',
+      '- 880000-1569000 IDR', '- 5083000-7800000 IDR', '- 4663000-9515000 IDR', '-
+        9020000-22351000 IDR', '- 2500000-13458000 IDR', '- 880000-1569000 IDR', '-
+        5083000-7800000 IDR', '- 4663000-9515000 IDR', '- 0-9020000 IDR', '- 0-2500000
+        IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000 IDR', '- 0-9020000
+        IDR', '- 0-2500000 IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001-
+        21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 1,500,001-7,000,000 IDR',
+      '- 1,500,001-7,000,000 IDR', '- 0-1,500,000 IDR', '- 0-1,500,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000
+        IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000 IDR', '- 0-3,000,000 IDR',
+      '- 37,12,000-∞ IDR', '-  13,34,000-37,12,000  IDR', '- 0-13,34,000  IDR', '-
+        14,50,000-∞ IDR', '- 725,000  - 1,450,000   IDR', '- 0-7,25,000  IDR', '-
+        105,00,000-225,00,000 IDR', '- 60,00,000-105,00,000 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR', '- 14,50,000-∞ IDR',
+      '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '- 89,00,000-122,00,000 IDR',
+      '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000 IDR', '- 80,00,000-110,00,000
+        IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500 IDR', '- 105,00,000-225,00,000
+        IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000 IDR', '-  89,00,000-122,00,000  IDR',
+      '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000 IDR', '- 7863000-∞ IDR',
+      '- 6634000-7863000 IDR', 0- 6634000 IDR, 'Keran Sensor,In-wall Tanks,In-Wall
+        faceplate,Urinoir,Faceplate untuk In-wall tank', 'Cermin,Others,Robe hook,Toilet
+        paper holder,Towel bar & ring,Towel Bar & Ring,Toilet Paper Holder,Robe Hook',
+      'Besi Tuang,Lithocast,Akrilik', 'BubbleMassage,Whirlpools', 'Self-rimming,Under-mount,Under-mount_x002f_Self-rimming,2-Bak
+        Ukuran Besar/Sedang,Under-mount/Self-rimming', 'Off-set bowls,Lainnya,Pull-Down,Pull-Out,Tanpa
+        sentuh,2-Bak Ukuran Besar_x002f_Sedang', 'Panel dan Shower Column,Rainhead,Handshower,Valve
+        dan Trim,DTV,Perlengkapan Shower,Body Spray,Kran Shower,Keran Bak Exposed
+        untuk Shower', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR',
+      '- 50,00,000-65,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,500,000 IDR', '- 1,500,000-2,500,000
+        IDR', '- 0-∞ IDR', '- 0-∞ IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-44,51,500 IDR', '- 37,12,000-∞ IDR', '-  13,34,000-37,12,000  IDR', '-
+        13,34,000-13,34,000  IDR', '- 105,00,000-225,00,000 IDR', '- 60,00,000-105,00,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        ID', '5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '', '', '', '- 21,00,000-250,00,000 IDR', '- 120,00,000-21,00,000 IDR',
+      '- 90,00,000-120,00,000 IDR', '', '', '', '', '', '- 0-44,51,500 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '-  44,51,500-105,85,000  IDR', Keran
+        Bak Exposed untuk Shower, '', '', '', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-9020000 IDR', '- 1000,00,000-2000,00,000 IDR', '- 510,00,000-1000,00,000
+        IDR', '- 400,00,000-500,00,000 IDR', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000
+        IDR', '- 10,00,000-15,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR',
+      '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR', '-
+        14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR']
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+  /pricerangelabels[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: c6c401ff-a709-48e7-90e8-9d7226b6691e
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-07-04T15:46:58.276+05:30
+    hippostdpubwf:lastModificationDate: 2020-03-24T18:11:37.257Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2020-03-24T18:11:40.644Z
+    hippotranslation:id: b8d257a9-03e6-49de-a144-21bb35f6596f
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:id: pricerange.labels
+    resourcebundle:keys: [countries, categories, premium, basic, luxury, toilets-Intelligent
+        Toilets-30, toilets, toilets-Intelligent Toilets-20, toilets-Intelligent Toilets-10,
+      toilets-1PC-10, toilets-1PC-20, toilets-1PC-30, toilets-One-piece-10, toilets-One-piece-20,
+      toilets-One-piece-30, toilet-seats, toilet-seats-Manual Bidet Seats-10, toilet-seats-Manual
+        Bidet Seats-20, toilet-seats-Manual Bidet Seats-30, toilet-seats-Bidet Seats-10,
+      toilet-seats-Bidet Seats-20, toilet-seats-Bidet Seats-30, lavatories, lavatories-Self-rimming-10,
+      lavatories-Vessel-10, lavatories-Under-counter-10, lavatories-Semi-recessed-10,
+      lavatories-Self-rimming-20, lavatories-Vessel-20, lavatories-Vanity-20, lavatories-Wall-hung-20,
+      lavatories-Pedestal-20, lavatories-Under-counter-20, lavatories-Semi-recessed-20,
+      lavatories-Self-rimming-30, lavatories-Vessel-30, lavatories-Vanity-30, lavatories-Wall-hung-30,
+      lavatories-Pedestal-30, lavatories-Under-counter-30, lavatories-Semi-recessed-30,
+      bathing-Cast Iron-10, bathing-Acrylic-10, bathing-Lithocast-10, bathing-Cast
+        Iron-20, bathing-Acrylic-20, bathing-Cast Iron-30, bathing-Acrylic-30, bathing-Besi
+        Tuang-10, bathing-Akrilik-10, bathing-Besi Tuang-20, bathing-Akrilik-20, bathing-Besi
+        Tuang-30, bathing-Akrilik-30, hydrotherapy-baths-BubbleMassage-10, hydrotherapy-baths-Whirlpools-10,
+      hydrotherapy-baths-BubbleMassage-20, hydrotherapy-baths-Whirlpools-20, hydrotherapy-baths-Whirlpools-30,
+      commercial-bathroom-Sensor Faucets-10, commercial-bathroom-In-wall Tanks-10,
+      commercial-bathroom-In-wall Tank Faceplates-10, commercial-bathroom-Keran Sensor-10,
+      commercial-bathroom-Faceplate untuk In-wall tank-10, commercial-bathroom-Sensor
+        Faucets-20, commercial-bathroom-In-wall Tanks-20, commercial-bathroom-In-wall
+        Tank Faceplates-20, commercial-bathroom-Keran Sensor-20, commercial-bathroom-Faceplate
+        untuk In-wall tank-20, commercial-bathroom-Sensor Faucets-30, commercial-bathroom-In-wall
+        Tanks-30, commercial-bathroom-In-wall Tank Faceplates-30, commercial-bathroom-Keran
+        Sensor-30, commercial-bathroom-Faceplate untuk In-wall tank-30, bathroom-showering-Shower
+        Columns and Panels-10, bathroom-showering-Rainheads-10, bathroom-showering-Handshowers-10,
+      bathroom-showering-Valves and Trims-10, bathroom-showering-Bodysprays-10, bathroom-showering-Panel
+        dan Shower Column-10, bathroom-showering-Rainhead-10, bathroom-showering-Handshower-10,
+      bathroom-showering-Valve dan Trim-10, bathroom-showering-Body Spray-10, bathroom-showering-Shower
+        Columns and Panels-20, bathroom-showering-Rainheads-20, bathroom-showering-Handshowers-20,
+      bathroom-showering-Valves and Trims-20, bathroom-showering-Bodysprays-20, bathroom-showering-Panel
+        dan Shower Column-20, bathroom-showering-Rainhead-20, bathroom-showering-Handshower-20,
+      bathroom-showering-Valve dan Trim-20, bathroom-showering-Body Spray-20, bathroom-showering-Shower
+        Columns and Panels-30, bathroom-showering-Rainheads-30, bathroom-showering-Handshowers-30,
+      bathroom-showering-Valves and Trims-30, bathroom-showering-Bodysprays-30, bathroom-showering-Panel
+        dan Shower Column-30, bathroom-showering-Rainhead-30, bathroom-showering-Handshower-30,
+      bathroom-showering-Valve dan Trim-30, bathroom-showering-Body Spray-30, kitchen-sinks-Under-mount-10,
+      kitchen-sinks-Self-rimming-10, kitchen-sinks-Under-mount_x002f_Self-rimming-10,
+      kitchen-sinks-Under-mount-20, kitchen-sinks-Self-rimming-20, kitchen-sinks-Under-mount_x002f_Self-rimming-20,
+      kitchen-sinks-Under-mount-30, kitchen-sinks-Self-rimming-30, kitchen-sinks-Under-mount_x002f_Self-rimming-30,
+      kitchen-faucets-Others-10, kitchen-faucets-Lainnya-10, kitchen-faucets-Others-20,
+      kitchen-faucets-Lainnya-20, kitchen-faucets-Others-30, kitchen-faucets-Lainnya-30,
+      bathroom-accessories-Mirror-10, bathroom-accessories-Mirror-20, bathroom-accessories-Mirror-30,
+      bathroom-accessories-Others-10, bathroom-accessories-Others-20, bathroom-accessories-Others-30,
+      kitchen-faucets-Touchless-10, kitchen-faucets-Touchless-20, bathroom-accessories-Robe
+        hook-10, bathroom-accessories-Robe hook-20, bathroom-accessories-Robe hook-30,
+      bathroom-accessories-Toilet paper holder-10, bathroom-accessories-Toilet paper
+        holder-20, bathroom-accessories-Toilet paper holder-30, toilets-Two-piece-10,
+      toilets-Two-piece-20, toilets-Two-piece-30, toilets-Wall-hung-10, toilets-Wall-hung-20,
+      toilets-Wall-hung-30, bathroom-showering-Shower Faucet-10, bathroom-showering-Shower
+        Faucet-20, bathroom-showering-Shower Faucet-30, bathroom-showering-Exposed
+        Bath Shower Faucet-10, bathroom-showering-Exposed Bath Shower Faucet-20, bathroom-showering-Exposed
+        Bath Shower Faucet-30, kitchen-faucets-Off-set bowls-10, kitchen-faucets-Off-set
+        bowls-20, kitchen-faucets-Off-set bowls-30, toilets-2PC-10, toilets-2PC-20,
+      toilets-2PC-30, commercial-bathroom-Keran+Sensor-10, commercial-bathroom-Keran+Sensor-20,
+      commercial-bathroom-Keran+Sensor-30, commercial-bathroom, bathroom-accessories,
+      bathing, hydrotherapy-baths, kitchen-sinks, kitchen-faucets, bathroom-showering,
+      toilets-Gantung-10, toilets-Gantung-20, toilets-Gantung-30, lavatories-Gantung-20,
+      lavatories-Gantung-30, lavatories-Vesel-10, lavatories-Vesel-20, lavatories-Vesel-30,
+      bathroom-Perlengkapan Shower-20, bathroom-showering-Kran Shower-30, bathroom-showering-Keran
+        Bak Exposed untuk Shower-10, bathroom-showering-Keran Bak Exposed untuk Shower-20,
+      bathroom-showering-Keran Bak Exposed untuk Shower-30, bathroom-accessories-Cermin-10,
+      bathroom-accessories-Cermin-20, bathroom-accessories-Cermin-30, kitchen-faucets-Tanpa
+        sentuh-10, kitchen-faucets-Tanpa sentuh-20, toilets-Wall-faced-10, toilets-Wall-faced-20,
+      toilets-Wall-faced-30, toilets-Wall Hung-10, toilets-Wall Hung-20, toilets-Wall
+        Hung-30, kitchen-sinks-Under-mount/Self-rimming-10, kitchen-sinks-Under-mount/Self-rimming-20,
+      kitchen-sinks-Under-mount/Self-rimming-30, kitchen-faucets-Pull-Down-10, kitchen-faucets-Pull-Down-20,
+      kitchen-faucets-Pull-Down-30, kitchen-faucets-Pull-Out-10, kitchen-faucets-Pull-Out-20,
+      kitchen-faucets-Pull-Out-30, kitchen-sinks-Large/medium bowls-10, kitchen-sinks-Large/medium
+        bowls-20, kitchen-sinks-Large/medium bowls-30, commercial-bathroom-Urinals-10,
+      commercial-bathroom-Urinals-20, commercial-bathroom-Urinals-30, commercial-bathroom-Urinoir-10,
+      commercial-bathroom-Urinoir-20, commercial-bathroom-Urinoir-30, commercial-bathroom-Faceplates-10,
+      commercial-bathroom-Faceplates-20, commercial-bathroom-Faceplates-30, bathroom-faucets-Exposed
+        Bath Shower Faucet-10, bathroom-faucets-Exposed Bath Shower Faucet-20, bathroom-faucets-Exposed
+        Bath Shower Faucet-30, bathroom-faucets-Keran Bak Exposed untuk Shower-10,
+      bathroom-faucets-Keran Bak Exposed untuk Shower-20, bathroom-faucets-Keran Bak
+        Exposed untuk Shower-30, bathroom-faucets, bathroom-showering-Shower Kits-10,
+      bathroom-showering-Shower Kits-20, bathroom-showering-Shower Kits-30, bathroom-showering-Perlengkapan
+        Shower-10, bathroom-showering-Perlengkapan Shower-20, bathroom-showering-Perlengkapan
+        Shower-30, toilets-Intelligent Toilet-10, toilets-Intelligent Toilet-20, toilets-Intelligent
+        Toilet-30, toilet-seats-Nắp rửa cơ-10, toilet-seats-Nắp rửa cơ-20, toilet-seats-Nắp
+        rửa cơ-30, lavatories-Wall Hung-20, lavatories-Wall Hung-30, toilets-Wall
+        Faced-10, toilets-Wall Faced-20, toilets-Wall Faced-30, bathroom-accessories-Towel
+        Bar & Ring-10, bathroom-accessories-Towel Bar & Ring-20, bathroom-accessories-Towel
+        Bar & Ring-30, bathroom-accessories-Towel bar & ring-10, bathroom-accessories-Towel
+        bar & ring-20, bathroom-accessories-Towel bar & ring-30, bathroom-accessories-Toilet
+        Paper Holder-10, bathroom-accessories-Toilet Paper Holder-20, bathroom-accessories-Toilet
+        Paper Holder-30, bathroom-accessories-Robe Hook-10, bathroom-accessories-Robe
+        Hook-20, bathroom-accessories-Robe Hook-30]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '']
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_ID: [en_ID, 'toilets,toilet-seats,lavatories,bathroom-showering,commercial-bathroom,bathroom-accessories,bathing,hydrotherapy-baths,kitchen-sinks,kitchen-faucets,bathroom-faucets',
+      '20', '30', '10', '- 400,00,000-500,00,000 IDR', 'Intelligent Toilets,One-piece,Two-piece,Wall-hung,Wall
+        Faced,Wall-faced,Wall Hung', '- 510,00,000-1000,00,000 IDR', '- 1000,00,000-2000,00,000
+        IDR', '', '', '', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000 IDR',
+      '- 80,00,000-98,00,000 IDR', 'Manual Bidet Seats,Bidet Seats', '- 23,00,000-30,00,000
+        IDR', '- 16,00,000-22,00,000 IDR', '- 10,00,000-15,00,000 IDR', '- 130,00,000-150,00,000
+        IDR', '- 80,00,000-120,00,000 IDR', '- 50,00,000-80,00,000 IDR', 'Self-rimming,Vessel,Vanity,Wall-hung,Pedestal,Under-counter,Semi-recessed,Wall
+        Hung', '- 2,500,000-3,500,000 IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,550,000
+        IDR', '- 4,000,000-5,000,000 IDR', '- 2,000,000-2,500,000 IDR', '- 2,500,000-3,500,000
+        IDR', '- 8,000,000-16,000,000 IDR', '- 2,600,000-4,500,000 IDR', '- 4,000,000-6,500,000
+        IDR', '- 1,800,000-2,500,000 IDR', '- 3,500,000-4,000,000 IDR', '- 1,000,000-2,000,000
+        IDR', '- 1,500,000-2,500,000 IDR', '- 3,000,000-8,000,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 2,700,000-4,000,000 IDR', '- 1,000,000-1,800,000 IDR', '- 2,000,000-3,500,000
+        IDR', '- 67,500,000-80,000,000 IDR', '43,000,000-57,541,000 IDR', '- 104,618,000,145,000,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '', '- 43,000,000-57,541,000 IDR', '',
+      '- 15,000,000-43,000,000 IDR', '', '- 5,785,000-15,000,000 IDR', '- 95,000,000-102,000,000
+        IDR', '- 113,344,000-320,673,000 IDR', '- 48,000,000-95,000,000 IDR', '- 38,000,000-113,344,000
+        IDR', '- 34,000,000-38,000,000 IDR', '- 7863000-∞ IDR', '- 7,000,000-28,000,000
+        IDR', '- 850,000-9,000,000 IDR', '- 7863000-∞ IDR', '- 850,000-9,000,000 IDR',
+      '- 6634000-7863000 IDR', '- 5,000,000-7,000,000 IDR', '- 800,000-850,000 IDR',
+      '- 6634000-7863000 IDR', '- 800,000-850,000 IDR', '- 0-6634000 IDR', '- 4,000,000-5,000,000
+        IDR', '- 500,000-800,000 IDR', '- 0-6634000 IDR', '- 500,000-800,000 IDR',
+      '- 22351000-∞ IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞ IDR',
+      '- 9515000-∞ IDR', '', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '', '- 9515000-∞
+        IDR', '- 9020000-22351000 IDR', '- 2500000-13458000 IDR', '- 880000-1569000
+        IDR', '- 5083000-7800000 IDR', '- 4663000-9515000 IDR', '', '- 2500000-13458000
+        IDR', '- 880000-1569000 IDR', '', '- 4663000-9515000 IDR', '- 0-9020000 IDR',
+      '- 0-2500000 IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000 IDR', '',
+      '- 0-2500000 IDR', '- 0-880000 IDR', '', '- 0-4663000 IDR', '- 7,000,001- 21,000,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000
+        IDR', '- 1,500,001-7,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 0-1,500,000 IDR', '- 0-1,500,000 IDR', '- 5,000,001- 20,000,000 IDR',
+      '', '- 3,000,001-5,000,000 IDR', '', '- 0-3,000,000 IDR', '', '- 37,12,000-∞
+        IDR', '-  13,34,000-37,12,000  IDR', '- 0-13,34,000  IDR', '- 14,50,000-∞
+        IDR', '- 725,000  - 1,450,000   IDR', '- 0-7,25,000  IDR', '- 105,00,000-225,00,000
+        IDR', '- 60,00,000-105,00,000 IDR', '-  8,55,500  -∞ IDR', '- 2,75,500 - 8,55,500  IDR',
+      '- 0-2,75,500  IDR', '- 14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500
+        IDR', '- 89,00,000-122,00,000 IDR', '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '', '', '', '', '', '', 'Sensor Faucets,In-wall Tanks,In-Wall faceplate,Urinals,Faceplates',
+      'Mirror,Others,Robe hook,Toilet paper holder,Towel bar & ring,Towel Bar & Ring,Toilet
+        Paper Holder,Robe Hook', 'Acrylic,Akrilik,Cast Iron', 'BubbleMassage,Whirlpools',
+      'Self-rimming,Under-mount,Under-mount_x002f_Self-rimming,Under-mount/Self-rimming,Large/medium
+        bowls', 'Off-set bowls,Others,Pull-Down,Pull-Out,Touchless', 'Shower Columns
+        and Panels,Rainheads,Handshowers,Valves and Trims,DTV,Shower Kits,Bodysprays,Shower
+        Fittings,Exposed Bath Shower Faucet,Shower+fittings', '', '', '', '- 2,600,000-4,500,000
+        IDR', '- 1,500,000-2,600,000 IDR', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        ID', '5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '- 21,00,000-250,00,000 IDR', '- 120,00,000-21,00,000 IDR', '- 90,00,000-120,00,000
+        IDR', '', '', '', '- 850,000-9,000,000 IDR', '- 800,000-850,000 IDR', '- 500,000-800,000
+        IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500
+        IDR', '', '', '', Exposed Bath Shower Faucet, '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-44,51,500 IDR', '', '', '', '- 1000,00,000-2000,00,000 IDR', '- 510,00,000-1000,00,000
+        IDR', '- 400,00,000-500,00,000 IDR', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000
+        IDR', '- 10,00,000-15,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR',
+      '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR', '-
+        14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR']
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_in_ID: [in_ID, 'toilets,toilet-seats,lavatories,bathroom-showering,commercial-bathroom,bathroom-accessories,bathing,hydrotherapy-baths,kitchen-sinks,kitchen-faucets,bathroom-faucets',
+      '20', '30', '10', '- 400,00,000-500,00,000 IDR', 'Intelligent Toilets,One-piece,Two-Piece,1PC,2PC,Gantung,Wall
+        Faced,Wall-faced,Wall Hung,Wall-hung,Intelligent Toilet', '- 510,00,000-1000,00,000
+        IDR', '- 1000,00,000-2000,00,000 IDR', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000
+        IDR', '- 80,00,000-98,00,000 IDR', '- 122,00,000-150,00,000 IDR', '- 98,00,000-122,00,000
+        IDR', '- 80,00,000-98,00,000 IDR', 'Manual Bidet Seats,Bidet Seats,Nắp rửa
+        cơ', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000 IDR', '- 10,00,000-15,00,000
+        IDR', '- 130,00,000-150,00,000 IDR', '- 80,00,000-120,00,000 IDR', '- 50,00,000-80,00,000
+        IDR', 'Self-rimming,Vesel,Vanity,Gantung,Pedestal,Under-counter,Semi-recessed',
+      '- 2,500,000-3,500,000 IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,550,000
+        IDR', '- 4,000,000-5,000,000 IDR', '- 2,000,000-2,500,000 IDR', '- 2,500,000-3,500,000
+        IDR', '- 8,000,000-16,000,000 IDR', '- 2,600,000-4,500,000 IDR', '- 4,000,000-6,500,000
+        IDR', '- 1,800,000-2,500,000 IDR', '- 3,500,000-4,000,000 IDR', '- 1,000,000-2,000,000
+        IDR', '- 1,500,000-2,500,000 IDR', '- 3,000,000-8,000,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 2,700,000-4,000,000 IDR', '- 1,000,000-1,800,000 IDR', '- 2,000,000-3,500,000
+        IDR', '- 67,500,000-80,000,000 IDR', '43,000,000-57,541,000 IDR', '- 104,618,000,145,000,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '- 67,500,000-80,000,000 IDR', '- 43,000,000-57,541,000
+        IDR', '- 27,500,000-67,500,000 IDR', '- 15,000,000-43,000,000 IDR', '- 19,293,000-27,500,000
+        IDR', '- 5,785,000-15,000,000 IDR', '- 95,000,000-102,000,000 IDR', '- 113,344,000-320,673,000
+        IDR', '- 48,000,000-95,000,000 IDR', '- 38,000,000-113,344,000 IDR', '- 34,000,000-38,000,000
+        IDR', '- 7863000-∞ IDR', '- 7,000,000-28,000,000 IDR', '- 850,000-9,000,000
+        IDR', '- 7863000-∞ IDR', '- 850,000-9,000,000 IDR', '- 6634000-7863000 IDR',
+      '- 5,000,000-7,000,000 IDR', '- 800,000-850,000 IDR', '- 6634000-7863000 IDR',
+      '- 800,000-850,000 IDR', '- 0-6634000 IDR', '- 4,000,000-5,000,000 IDR', '-
+        500,000-800,000 IDR', '- 0-6634000 IDR', '- 500,000-800,000 IDR', '- 22351000-∞
+        IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞ IDR', '- 9515000-∞
+        IDR', '- 22351000-∞ IDR', '- 13458000-∞ IDR', '- 1569000-∞ IDR', '- 7800000-∞
+        IDR', '- 9515000-∞ IDR', '- 9020000-22351000 IDR', '- 2500000-13458000 IDR',
+      '- 880000-1569000 IDR', '- 5083000-7800000 IDR', '- 4663000-9515000 IDR', '-
+        9020000-22351000 IDR', '- 2500000-13458000 IDR', '- 880000-1569000 IDR', '-
+        5083000-7800000 IDR', '- 4663000-9515000 IDR', '- 0-9020000 IDR', '- 0-2500000
+        IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000 IDR', '- 0-9020000
+        IDR', '- 0-2500000 IDR', '- 0-880000 IDR', '- 0-5083000 IDR', '- 0-4663000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001- 21,000,000 IDR', '- 7,000,001-
+        21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 1,500,001-7,000,000 IDR',
+      '- 1,500,001-7,000,000 IDR', '- 0-1,500,000 IDR', '- 0-1,500,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000
+        IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000 IDR', '- 0-3,000,000 IDR',
+      '- 37,12,000-∞ IDR', '-  13,34,000-37,12,000  IDR', '- 0-13,34,000  IDR', '-
+        14,50,000-∞ IDR', '- 725,000  - 1,450,000   IDR', '- 0-7,25,000  IDR', '-
+        105,00,000-225,00,000 IDR', '- 60,00,000-105,00,000 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR', '- 14,50,000-∞ IDR',
+      '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '- 89,00,000-122,00,000 IDR',
+      '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000 IDR', '- 80,00,000-110,00,000
+        IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '- 0-44,51,500 IDR', '- 105,00,000-225,00,000
+        IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000 IDR', '-  89,00,000-122,00,000  IDR',
+      '- 69,00,000-89,00,000 IDR', '- 45,00,000-69,00,000 IDR', '- 7863000-∞ IDR',
+      '- 6634000-7863000 IDR', 0- 6634000 IDR, 'Keran Sensor,In-wall Tanks,In-Wall
+        faceplate,Urinoir,Faceplate untuk In-wall tank', 'Cermin,Others,Robe hook,Toilet
+        paper holder,Towel bar & ring,Towel Bar & Ring,Toilet Paper Holder,Robe Hook',
+      'Besi Tuang,Lithocast,Akrilik', 'BubbleMassage,Whirlpools', 'Self-rimming,Under-mount,Under-mount_x002f_Self-rimming,2-Bak
+        Ukuran Besar/Sedang,Under-mount/Self-rimming', 'Off-set bowls,Lainnya,Pull-Down,Pull-Out,Tanpa
+        sentuh,2-Bak Ukuran Besar_x002f_Sedang', 'Panel dan Shower Column,Rainhead,Handshower,Valve
+        dan Trim,DTV,Perlengkapan Shower,Body Spray,Kran Shower,Keran Bak Exposed
+        untuk Shower', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR',
+      '- 50,00,000-65,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 3,500,000-8,000,000 IDR', '- 2,500,000-3,500,000 IDR', '- 1,500,000-2,500,000
+        IDR', '- 0-∞ IDR', '- 0-∞ IDR', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-44,51,500 IDR', '- 37,12,000-∞ IDR', '-  13,34,000-37,12,000  IDR', '-
+        13,34,000-13,34,000  IDR', '- 105,00,000-225,00,000 IDR', '- 60,00,000-105,00,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 80,00,000-110,00,000 IDR', '- 65,00,000-80,00,000 IDR', '- 50,00,000-65,00,000
+        IDR', '- 7,000,001- 21,000,000 IDR', '- 1,500,001-7,000,000 IDR', '- 0-1,500,000
+        IDR', '- 5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        ID', '5,000,001- 20,000,000 IDR', '- 3,000,001-5,000,000 IDR', '- 0-3,000,000
+        IDR', '- 105,00,000-225,00,000 IDR', '- 37,50,000-105,00,000 IDR', '- 15,00,000-37,50,000
+        IDR', '', '', '', '- 21,00,000-250,00,000 IDR', '- 120,00,000-21,00,000 IDR',
+      '- 90,00,000-120,00,000 IDR', '', '', '', '', '', '- 0-44,51,500 IDR', '- 105,85,000-∞
+        IDR', '-  44,51,500-105,85,000  IDR', '-  44,51,500-105,85,000  IDR', Keran
+        Bak Exposed untuk Shower, '', '', '', '- 105,85,000-∞ IDR', '-  44,51,500-105,85,000  IDR',
+      '- 0-9020000 IDR', '- 1000,00,000-2000,00,000 IDR', '- 510,00,000-1000,00,000
+        IDR', '- 400,00,000-500,00,000 IDR', '- 23,00,000-30,00,000 IDR', '- 16,00,000-22,00,000
+        IDR', '- 10,00,000-15,00,000 IDR', '- 2,600,000-4,500,000 IDR', '- 1,500,000-2,600,000
+        IDR', '- 95,00,000-120,00,000 IDR', '- 80,00,000-95,00,000 IDR', '- 60,00,000-80,00,000
+        IDR', '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR',
+      '- 19,57,500-∞ IDR', '-  3,33,500 - 19,57,500  IDR', '- 0-3,33,500 IDR', '-
+        14,50,000-∞ IDR', '- 4,78,500- 14,50,000  IDR', '- 0-4,78,500 IDR', '-  8,55,500  -∞
+        IDR', '- 2,75,500 - 8,55,500  IDR', '- 0-2,75,500  IDR']
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '']

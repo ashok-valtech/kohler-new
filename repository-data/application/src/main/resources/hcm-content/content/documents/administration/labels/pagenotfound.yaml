@@ -1,0 +1,70 @@
+/content/documents/administration/labels/pagenotfound:
+  .meta:order-before: commonlabels
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: e7582d5d-8d78-45ab-a1d4-5180b575463e
+  hippo:name: Page not found
+  /pagenotfound[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 47e1d14a-f522-45ec-a7ec-1e089582a738
+    hippo:availability: [live, preview]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+    hippostdpubwf:lastModificationDate: 2017-07-27T17:19:12.029+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2017-07-27T17:19:13.825+05:30
+    resourcebundle:descriptions: [Title displayed when page is not found., Text displayed
+        when page is not found.]
+    resourcebundle:id: essentials.pagenotfound
+    resourcebundle:keys: [pagenotfound.title, pagenotfound.text]
+    resourcebundle:messages: [Oops! We couldn't find this page for you., '<h4 style="text-align:
+        left;border-bottom: solid 0px;"> Possible reasons for this error:</h4><ul><li>A
+        mistyped URL. (check the URL to see it is correct)</li><li>A broken link from
+        another site (if you clicked on a broken link from another site, please click
+        <a href="{0}" title="Kohler Home">Home </a> link)</li><li>A broken link from
+        this site (please <a href="{1}" title="Help Us Improve This Site">Contact
+        </a>us)</li></ul>']
+  /pagenotfound[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 7de34ee9-7026-4f29-8deb-332f64352a3b
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+    hippostdpubwf:lastModificationDate: 2017-07-27T17:19:12.029+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [Title displayed when page is not found., Text displayed
+        when page is not found.]
+    resourcebundle:id: essentials.pagenotfound
+    resourcebundle:keys: [pagenotfound.title, pagenotfound.text]
+    resourcebundle:messages: [Oops! We couldn't find this page for you., '<h4 style="text-align:
+        left;border-bottom: solid 0px;"> Possible reasons for this error:</h4><ul><li>A
+        mistyped URL. (check the URL to see it is correct)</li><li>A broken link from
+        another site (if you clicked on a broken link from another site, please click
+        <a href="{0}" title="Kohler Home">Home </a> link)</li><li>A broken link from
+        this site (please <a href="{1}" title="Help Us Improve This Site">Contact
+        </a>us)</li></ul>']
+  /pagenotfound[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a81863ac-08f1-40c8-90eb-5d6ae2ae9877
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+    hippostdpubwf:lastModificationDate: 2017-07-27T17:17:56.107+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [Title displayed when page is not found., Text displayed
+        when page is not found.]
+    resourcebundle:id: essentials.pagenotfound
+    resourcebundle:keys: [pagenotfound.title, pagenotfound.text]
+    resourcebundle:messages: [Oops! We couldn't find this page for you., '<h4 style="text-align:
+        left;border-bottom: solid 0px;"> Possible reasons for this error:</h4><ul><li>A
+        mistyped URL. (check the URL to see it is correct)</li><li>A broken link from
+        another site (if you clicked on a broken link from another site, please click
+        <a href="{0}" title="Kohler Home">Home </a> link)</li><li>A broken link from
+        this site (please <a href="{1}" title="Help Us Improve This Site">Contact
+        </a>us)</li></ul>']

@@ -1,5 +1,4 @@
 /content/documents/kohler/faq:
-  .meta:order-before: global-projects
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 372d7a62-aaaf-44a5-96d3-63d5221ce052

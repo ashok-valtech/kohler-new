@@ -1,7 +1,5 @@
 /content/documents/kohler/productfacets:
-  .meta:order-before: products
   jcr:primaryType: hippofacnav:facetnavigation
-  hippo:count: 21
   hippo:docbase: e9255b95-bd61-4099-99be-89bd7ec90ce4
   hippofacnav:facetnodenames: [Categories, IsNew, 'PriceRange${sortby:''facetvalue'',
       sortorder:''ascending''}', Color, Country, ProductType, InstallationType, Style,

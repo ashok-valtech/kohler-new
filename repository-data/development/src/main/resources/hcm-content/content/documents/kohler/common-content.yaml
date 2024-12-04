@@ -1,5 +1,4 @@
 /content/documents/kohler/common-content:
-  .meta:order-before: content
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 8406a392-a224-48c4-947b-a19ac61565b2

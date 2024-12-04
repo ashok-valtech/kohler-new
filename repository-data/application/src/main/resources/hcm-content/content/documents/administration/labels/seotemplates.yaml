@@ -1,0 +1,564 @@
+/content/documents/administration/labels/seotemplates:
+  .meta:order-before: loginpage
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: bf008487-b884-405f-afb6-e821696312e9
+  /seotemplates[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d1decd3b-2ff1-4f8c-9363-2fa4886911c6
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-07-04T15:46:58.276+05:30
+    hippostdpubwf:lastModificationDate: 2020-03-17T12:35:44.572Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: d2c29dd2-6101-42f8-9eb8-f4ecd65fa754
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', Category container names, Category
+        SEO documents base folder, SiteMap items of Category Pages, '', '', '', '']
+    resourcebundle:id: seo.labels
+    resourcebundle:keys: [hstcontainerpath, seoPath, seo-update-page-title, seo-form-header-name,
+      seo-form-title-label, seo-form-description-label, seo-form-no-index-label, seo-form-no-follow-label,
+      seo-form-canonical-url-label, seo-form-seo-page-label, seo-form-page-document-label,
+      seo-form-submit-button-label, ignoreList, seo-form-siteMap-label, seo-title-Error-message,
+      seo-title-Error-message2, seo-desc-Error-message, seo-canonicalURL-Error-message,
+      seo-title-max-Character-value, seo-desc-max-Character-value, seo-canonicalURL-max-Character-value,
+      seo-visit-link, error-msg-document-in-use, category-templatenames, categoryRelativeBasePath,
+      categorySiteMapItems, product-page-size, seo-alert-message, seo-pagination,
+      seo-no-products]
+    resourcebundle:messages: ['/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      Site Map Item, Title Tag should not be empty, 'Title Tag should not be more
+        than {0} characters', 'Meta Description should not be more than {0} characters',
+      'canonical URL should not be more than {0} characters', '100', '200', '100',
+      Click Here to Visit Page, Document in use please try again after some time.,
+      'kitchen-category,bathroom-category', category-seo, 'browse/bathroom,browse/kitchen',
+      '10', Special Characters and Empty Field are not allowed to search, 'Pages :',
+      No Products]
+    resourcebundle:messages_en_HK: ['/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_ID: ['/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_KR: ['/hst:hst/hst:configurations/plumbingkohlerenkr/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenkr/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_MY: ['/hst:hst/hst:configurations/plumbingkohlermy/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlermy/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_PH: ['/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_SG: ['/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_TH: ['/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_TW: ['/hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_VN: ['/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_in_ID: ['/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_ko_KR: ['/hst:hst/hst:configurations/plumbingkohlerkr/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerkr/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_th_TH: ['/hst:hst/hst:configurations/plumbingkohlerth/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerth/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_vi_VN: ['/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_zh_HK: ['/hst:hst/hst:configurations/plumbingkohlerhk/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerhk/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_zh_TW: ['/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+  /seotemplates[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: d4d1091a-eef8-4d51-8149-a4ea02b4856a
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-07-04T15:46:58.276+05:30
+    hippostdpubwf:lastModificationDate: 2020-03-17T12:35:53.853Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: d2c29dd2-6101-42f8-9eb8-f4ecd65fa754
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', Category container names, Category
+        SEO documents base folder, SiteMap items of Category Pages, '', '', '', '']
+    resourcebundle:id: seo.labels
+    resourcebundle:keys: [hstcontainerpath, seoPath, seo-update-page-title, seo-form-header-name,
+      seo-form-title-label, seo-form-description-label, seo-form-no-index-label, seo-form-no-follow-label,
+      seo-form-canonical-url-label, seo-form-seo-page-label, seo-form-page-document-label,
+      seo-form-submit-button-label, ignoreList, seo-form-siteMap-label, seo-title-Error-message,
+      seo-title-Error-message2, seo-desc-Error-message, seo-canonicalURL-Error-message,
+      seo-title-max-Character-value, seo-desc-max-Character-value, seo-canonicalURL-max-Character-value,
+      seo-visit-link, error-msg-document-in-use, category-templatenames, categoryRelativeBasePath,
+      categorySiteMapItems, product-page-size, seo-alert-message, seo-pagination,
+      seo-no-products]
+    resourcebundle:messages: ['/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      Site Map Item, Title Tag should not be empty, 'Title Tag should not be more
+        than {0} characters', 'Meta Description should not be more than {0} characters',
+      'canonical URL should not be more than {0} characters', '100', '200', '100',
+      Click Here to Visit Page, Document in use please try again after some time.,
+      'kitchen-category,bathroom-category', category-seo, 'browse/bathroom,browse/kitchen',
+      '10', Special Characters and Empty Field are not allowed to search, 'Pages :',
+      No Products]
+    resourcebundle:messages_en_HK: ['/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_ID: ['/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_KR: ['/hst:hst/hst:configurations/plumbingkohlerenkr/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenkr/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_MY: ['/hst:hst/hst:configurations/plumbingkohlermy/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlermy/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_PH: ['/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_SG: ['/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_TH: ['/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_TW: ['/hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_VN: ['/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_in_ID: ['/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_ko_KR: ['/hst:hst/hst:configurations/plumbingkohlerkr/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerkr/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_th_TH: ['/hst:hst/hst:configurations/plumbingkohlerth/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerth/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_vi_VN: ['/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_zh_HK: ['/hst:hst/hst:configurations/plumbingkohlerhk/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerhk/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_zh_TW: ['/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+  /seotemplates[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 238d2515-c3a4-4ae4-a81a-fd50673b7a92
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-07-04T15:46:58.276+05:30
+    hippostdpubwf:lastModificationDate: 2020-03-17T12:35:53.853Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2020-03-17T12:35:56.896Z
+    hippotranslation:id: d2c29dd2-6101-42f8-9eb8-f4ecd65fa754
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', Category container names, Category
+        SEO documents base folder, SiteMap items of Category Pages, '', '', '', '']
+    resourcebundle:id: seo.labels
+    resourcebundle:keys: [hstcontainerpath, seoPath, seo-update-page-title, seo-form-header-name,
+      seo-form-title-label, seo-form-description-label, seo-form-no-index-label, seo-form-no-follow-label,
+      seo-form-canonical-url-label, seo-form-seo-page-label, seo-form-page-document-label,
+      seo-form-submit-button-label, ignoreList, seo-form-siteMap-label, seo-title-Error-message,
+      seo-title-Error-message2, seo-desc-Error-message, seo-canonicalURL-Error-message,
+      seo-title-max-Character-value, seo-desc-max-Character-value, seo-canonicalURL-max-Character-value,
+      seo-visit-link, error-msg-document-in-use, category-templatenames, categoryRelativeBasePath,
+      categorySiteMapItems, product-page-size, seo-alert-message, seo-pagination,
+      seo-no-products]
+    resourcebundle:messages: ['/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/kohler/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      Site Map Item, Title Tag should not be empty, 'Title Tag should not be more
+        than {0} characters', 'Meta Description should not be more than {0} characters',
+      'canonical URL should not be more than {0} characters', '100', '200', '100',
+      Click Here to Visit Page, Document in use please try again after some time.,
+      'kitchen-category,bathroom-category', category-seo, 'browse/bathroom,browse/kitchen',
+      '10', Special Characters and Empty Field are not allowed to search, 'Pages :',
+      No Products]
+    resourcebundle:messages_en_HK: ['/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenhk/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_ID: ['/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenid/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_KR: ['/hst:hst/hst:configurations/plumbingkohlerenkr/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenkr/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_MY: ['/hst:hst/hst:configurations/plumbingkohlermy/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlermy/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_PH: ['/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerph/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_SG: ['/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlersg/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_TH: ['/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenth/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_TW: ['/hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerentw/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_en_VN: ['/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerenvn/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_in_ID: ['/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerid/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_ko_KR: ['/hst:hst/hst:configurations/plumbingkohlerkr/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerkr/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_th_TH: ['/hst:hst/hst:configurations/plumbingkohlerth/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerth/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_vi_VN: ['/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlervn/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_zh_HK: ['/hst:hst/hst:configurations/plumbingkohlerhk/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlerhk/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]
+    resourcebundle:messages_zh_TW: ['/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers',
+      '/hst:hst/hst:configurations/plumbingkohlertw/hst:workspace/hst:containers/{0}/main/seo',
+      Seo Update Page, SEO FORM, Title Tag, Meta Description, No Index, No Follow,
+      Canonical URL, Seo Page, Page Document, Submit, 'base,pagenotfound,productfacet,resourceslist,faqlist,glossarylist,contentlist,contentpage,legal,privacy,protoolbox,aboutus,search,ethics,productcompare-page,sitemap,seo,productDetails',
+      '', Title Tag should not be empty, 'Title Tag should not be more than {0} characters',
+      'Meta Description should not be more than {0} characters', 'canonical URL should
+        not be more than {0} characters', '100', '200', '100', Click Here to Visit
+        Page, Document in use please try again after some time., 'kitchen-category,bathroom-category',
+      category-seo, 'browse/bathroom,browse/kitchen', '10', Special Characters and
+        Empty Field are not allowed to search, 'Pages :', No Products]

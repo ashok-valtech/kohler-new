@@ -1,5 +1,4 @@
 /content/documents/kohler/custombanner:
-  .meta:order-before: dealerdocuments
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 35add4f2-e480-4181-bc3b-f8f6d46be043

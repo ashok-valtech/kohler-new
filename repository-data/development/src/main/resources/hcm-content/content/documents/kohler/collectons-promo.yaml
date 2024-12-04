@@ -1,5 +1,4 @@
 /content/documents/kohler/collectons-promo:
-  .meta:order-before: common-content
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 074f60da-c63f-434f-b1f4-191c65932a9c

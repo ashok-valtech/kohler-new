@@ -1,4 +1,5 @@
 /content/documents/administration/robots:
+  .meta:order-before: labels
   jcr:primaryType: hippo:handle
   jcr:mixinTypes: ['mix:referenceable']
   jcr:uuid: 027b3baa-8c8a-4c70-b4bf-a6e64161b83d
@@ -19,7 +20,7 @@
       robotstxt:useragent: '*'
   /robots[2]:
     jcr:primaryType: robotstxt:robotstxt
-    jcr:mixinTypes: ['mix:versionable', 'mix:referenceable']
+    jcr:mixinTypes: ['mix:versionable']
     jcr:uuid: fabecb12-8086-44ce-9dbc-88b101249cc4
     hippo:availability: [preview]
     hippostd:state: unpublished

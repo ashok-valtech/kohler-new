@@ -1,5 +1,5 @@
 /content/documents/plumbingkohlerenhk:
-  .meta:order-before: plumbingkohlerenid
+  .meta:order-before: kohler
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 029882cb-aac7-466c-ab3e-88a8ce61324c

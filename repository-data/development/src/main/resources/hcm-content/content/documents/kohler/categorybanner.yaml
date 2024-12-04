@@ -1,5 +1,4 @@
 /content/documents/kohler/categorybanner:
-  .meta:order-before: collectons-promo
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 3656de47-53cf-466d-8519-99a6d80ac5aa

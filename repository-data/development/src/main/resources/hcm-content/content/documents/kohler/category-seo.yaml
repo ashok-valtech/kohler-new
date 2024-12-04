@@ -1,5 +1,4 @@
 /content/documents/kohler/category-seo:
-  .meta:order-before: categorybanner
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 0c27d571-0b00-4412-9622-efb00054679f

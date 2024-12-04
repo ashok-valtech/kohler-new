@@ -1,0 +1,187 @@
+/content/documents/administration/labels/loginpage:
+  .meta:order-before: contact-form-landing-page
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 06257df6-8408-40c2-b136-1f0a32ecd257
+  hippo:name: Loginpage
+  /loginpage[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 635daf64-5c42-44c8-b2c0-bb51a4560084
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-08T11:38:06.347+05:30
+    hippostdpubwf:lastModificationDate: 2019-08-19T12:08:33.529Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: dc928457-a99b-4b0d-9148-7d50af533d7a
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: [KOHLER APAC Seo Update page title., '', H1 Header
+        for Login page, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '']
+    resourcebundle:id: Loginpage
+    resourcebundle:keys: [login.page.title, login.page.failure.title, login.page.header,
+      message.auth.failed, message.try.again, label.username, label.password, label.login,
+      label.cancel, label.authen.required, label.access.forbidden, message.page.auto.redirect,
+      message.page.auto.redirect.in.seconds, message.authen.required, message.access.forbidden,
+      captcha_client_secret_Key, copy-right, erro.403.page.title, error.captcha, error.captcha.hide.in,
+      destinationPage]
+    resourcebundle:messages: [KOHLER APAC Seo Update, KOHLER APAC Seo Update Login
+        failure, KOHLER, 'Authentication failed with user,', Try again., User name,
+      Password, Login, Cancel, Authentication Required, Forbidden, Page will be automatically
+        redirected to the login page., 'Page will be automatically redirected to the
+        login page in {0} second(s).', 'Authentication Required: You need to sign
+        in to access on this server.', 'Forbidden: You do not have permission to access
+        on this server.', 6LdW73oUAAAAAPvY-Jd8v8MTccYyVz870dVT-fkp, '&copy; {0} Kohler
+        Co.', Kohler | error 403, Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_in_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+  /loginpage[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: ce567784-0ed7-4548-998a-87f21b3dff24
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-08T11:38:06.347+05:30
+    hippostdpubwf:lastModificationDate: 2019-08-19T12:09:03.202Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: dc928457-a99b-4b0d-9148-7d50af533d7a
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: [KOHLER APAC Seo Update page title., '', H1 Header
+        for Login page, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '']
+    resourcebundle:id: Loginpage
+    resourcebundle:keys: [login.page.title, login.page.failure.title, login.page.header,
+      message.auth.failed, message.try.again, label.username, label.password, label.login,
+      label.cancel, label.authen.required, label.access.forbidden, message.page.auto.redirect,
+      message.page.auto.redirect.in.seconds, message.authen.required, message.access.forbidden,
+      captcha_client_secret_Key, copy-right, erro.403.page.title, error.captcha, error.captcha.hide.in,
+      destinationPage]
+    resourcebundle:messages: [KOHLER APAC Seo Update, KOHLER APAC Seo Update Login
+        failure, KOHLER, 'Authentication failed with user,', Try again., User name,
+      Password, Login, Cancel, Authentication Required, Forbidden, Page will be automatically
+        redirected to the login page., 'Page will be automatically redirected to the
+        login page in {0} second(s).', 'Authentication Required: You need to sign
+        in to access on this server.', 'Forbidden: You do not have permission to access
+        on this server.', 6LdW73oUAAAAAPvY-Jd8v8MTccYyVz870dVT-fkp, '&copy; {0} Kohler
+        Co.', Kohler | error 403, Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_in_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+  /loginpage[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: db62628a-9b57-4693-b9e4-ad9614fe526e
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-08T11:38:06.347+05:30
+    hippostdpubwf:lastModificationDate: 2019-08-19T12:09:03.202Z
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-08-19T12:09:07.393Z
+    hippotranslation:id: dc928457-a99b-4b0d-9148-7d50af533d7a
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: [KOHLER APAC Seo Update page title., '', H1 Header
+        for Login page, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '']
+    resourcebundle:id: Loginpage
+    resourcebundle:keys: [login.page.title, login.page.failure.title, login.page.header,
+      message.auth.failed, message.try.again, label.username, label.password, label.login,
+      label.cancel, label.authen.required, label.access.forbidden, message.page.auto.redirect,
+      message.page.auto.redirect.in.seconds, message.authen.required, message.access.forbidden,
+      captcha_client_secret_Key, copy-right, erro.403.page.title, error.captcha, error.captcha.hide.in,
+      destinationPage]
+    resourcebundle:messages: [KOHLER APAC Seo Update, KOHLER APAC Seo Update Login
+        failure, KOHLER, 'Authentication failed with user,', Try again., User name,
+      Password, Login, Cancel, Authentication Required, Forbidden, Page will be automatically
+        redirected to the login page., 'Page will be automatically redirected to the
+        login page in {0} second(s).', 'Authentication Required: You need to sign
+        in to access on this server.', 'Forbidden: You do not have permission to access
+        on this server.', 6LdW73oUAAAAAPvY-Jd8v8MTccYyVz870dVT-fkp, '&copy; {0} Kohler
+        Co.', Kohler | error 403, Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_in_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_zh_HK: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', Invalid captcha, '3000', /seo]

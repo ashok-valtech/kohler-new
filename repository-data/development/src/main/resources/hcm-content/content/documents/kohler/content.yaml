@@ -1,5 +1,4 @@
 /content/documents/kohler/content:
-  .meta:order-before: custombanner
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 116aecf4-fd01-4d2b-bd32-f3a1dd94cb25

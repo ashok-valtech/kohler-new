@@ -1,0 +1,1006 @@
+/content/documents/administration/labels/sfmc-campaign:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 87e9d506-3105-47f6-94ae-1dedd6922754
+  hippo:name: SFMC-Campaign
+  hippo:versionHistory: 8cd4e6ef-b343-4356-bf70-214fffd6d130
+  /sfmc-campaign[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: eaa0a50f-2931-460c-b3f8-afeae92abb38
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-08T11:38:06.347+05:30
+    hippostdpubwf:lastModificationDate: 2024-07-22T12:40:35.544+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 556fdf25-23bc-444d-bfa0-2b03a00ad302
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:id: sfmc-campaign-bundle
+    resourcebundle:keys: [sfmc-campaign-sender-email-id, sfmc-campaign-api-user-error-message,
+      sfmc-campaign-api-email-error-subject, sfmc-campaign-error-receiver-email-id,
+      sfmc-campaign-error-email-body-part1, sfmc-campaign-error-email-body-part2,
+      sfmc-campaign-error-email-name-label, sfmc-campaign-error-email-label, sfmc-campaign-error-email-phone-label,
+      sfmc-campaign-token-api-error-message, sfmc-campaign-form-data-api-error-message,
+      sfmc-campaign-result-api-error-message, sfmc-campaign-kohler-template, sfmc-campaign-email-template-logo,
+      sfmc-campaign-privacy-policy, sfmc-campaign-feedback-url, sfmc-campaign-kohler-co-label,
+      sfmc-campaign-email-template-title, sfmc-campaign-email-template-form-detail-label,
+      sfmc-campaign-email-template-name-label, sfmc-campaign-email-label, sfmc-campaign-email-template-mobile-label,
+      sfmc-campaign-feedback-label, sfmc-campaign-privacy-url, sfmc-campaign-email-template-subject,
+      sfmc-campaign-template-receiver-email-id, sfmc-campaign-client-id, sfmc-campaign-client-secret-id,
+      smfc-campaign-token-end-point, sfmc-campaign-data-extension-key, sfmc-campaign-form-data-end-point,
+      sfmc-campaign-result-end-point, sfmc-campaign-form-template-name, sfmc-campaign-form-template-email,
+      sfmc-campaign-form-template-mobile, sfmc-digital-form-name-error-message, sfmc-campaign-form-heading,
+      sfmc-campaign-thankyou-Message, sfmc-campaign-thankyou-header, sfmc-campaing-bathroom-fixture-label,
+      sfmc-campaing-bathroom-fixture-options, sfmc-campaing-interested-product-label,
+      sfmc-campaign-interested-product-dropdown-options, sfmc-campaign-bathroom-fixture-error-message,
+      sfmc-campaign-interested-product-error-message]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_HK: [kohlerhongkong@kohler.com, 'Something went wrong,
+        please try after sometime', HK Digital Showroom SFMC Api Error, 'VICKY.CHAN@kohler.com,ROSE.LI@kohler.com.cn,SARAH.NG@kohler.com.cn',
+      'Hi Team,<br/> We found the customer is unable to register the product due to
+        &nbsp;', <br />Please find the customer details below<br />, 'Name:-', '<br/>Email
+        Id:-', '<br/>Contact No:-', SFMC Campaign Token API Down.</br>, SFMC Campaign
+        Form Data API down.<br/>, SFMC Campaign Result API down.<br/>, "<table width=\"\
+        100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">     <tbody>     \
+        \    <tr>             <td align=\"center\" valign=\"top\">               \
+        \  <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\
+        \                     <tbody>                         <tr>               \
+        \              <td height=\"91\" colspan=\"3\">                          \
+        \       <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" bgcolor=\"#222222\">                                     <tbody>     \
+        \                                    <tr>                                \
+        \             <td width=\"18\" height=\"91\" rowspan=\"2\">&nbsp;</td>   \
+        \                                          <td width=\"160\" height=\"91\"\
+        \ rowspan=\"2\" align=\"left\" valign=\"middle\">                        \
+        \                         <a href=\"#\" title=\"THE BOLD LOOK OF KOHLER\"\
+        \ style=\"display:block;color:#ffffff\" target=\"_blank\"> <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"159\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"504\" height=\"74\" align=\"right\"\
+        \ valign=\"bottom\" style=\"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px\"\
+        >${contactForm}</td>                                             <td width=\"\
+        18\" height=\"91\" rowspan=\"2\">&nbsp;</td>                             \
+        \            </tr>                                         <tr>          \
+        \                                   <td width=\"519\" height=\"17\">&nbsp;</td>\
+        \                                         </tr>                          \
+        \           </tbody>                                 </table>            \
+        \                 </td>                         </tr>                    \
+        \     <tr>                             <td colspan=\"3\">                \
+        \                 <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                     <tbody>                         \
+        \                <tr>                                             <td width=\"\
+        700\" align=\"left\" valign=\"top\">                                     \
+        \            <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                                     <tbody>         \
+        \                                                <tr style=\" \">        \
+        \                                                     <td height=\"30\" width=\"\
+        \" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:\
+        \ 10px;\">&nbsp; </td>                                                   \
+        \      </tr>                                                         <tr style=\"\
+        \ \">                                                             <td height=\"\
+        35\" width=\"\" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:\
+        \ #eee;padding-left: 10px;\"> <strong>${contactFormDetails}</strong> </td>\
+        \                                                         </tr> \t\t\t\t\t\
+        \t\t\t\t\t\t\t\t\t<tr>                                                   \
+        \          <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${bathroomFixturesLabel}</td>                                  \
+        \                           <td width=\"65%\" height=\"35\" align=\"left\"\
+        \ valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${bathroomFixtures}</td>                                                \
+        \         </tr> \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>                         \
+        \                                    <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;background: #eeeeee;\">${kohlerProductsLabel}</td>                \
+        \                                             <td width=\"65%\" height=\"\
+        35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\">${kohlerProducts}</td>                                      \
+        \                   </tr>                                                \
+        \         <tr>                                                           \
+        \  <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"\
+        font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${firstName}</td>                                              \
+        \               <td width=\"65%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${firstNameValue}</td>                                                  \
+        \       </tr>                                                         <tr>\
+        \                                                             <td width=\"\
+        35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;padding-left: 10px;\">${emailAddress}</td>                     \
+        \                                        <td width=\"65%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\"><a href=\"${emailAddressValue}\">${emailAddressValue}</a></td>\
+        \                                                         </tr>          \
+        \                                               <tr>                     \
+        \                                        <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${mobileNumber}</td>                                           \
+        \                  <td width=\"65%\" height=\"35\" align=\"left\" valign=\"\
+        middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px\"\
+        >${mobileNumberValue}</td>                                               \
+        \          </tr>                                                     </tbody>\
+        \                                                 </table>               \
+        \                              </td>                                     \
+        \    </tr>                                     </tbody>                  \
+        \               </table>                             </td>               \
+        \          </tr>                         <tr>                            \
+        \ <td height=\"77\" colspan=\"3\" style=\"                             \"\
+        >                                 <table width=\"700\" border=\"0\" cellspacing=\"\
+        0\" cellpadding=\"0\" bgcolor=\"#222222\">                               \
+        \      <tbody>                                         <tr>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                             <td width=\"\
+        489\" height=\"77\" align=\"left\" valign=\"middle\" bgcolor=\"#222222\">\
+        \                                                 <div style=\"font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px\"\
+        > <a href=\"${feedbackURL}\" style=\"color:#ffffff\" target=\"_blank\">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;\
+        \ <a href=\"${privacyPolicyURL}\" style=\"color:#ffffff\" target=\"_blank\"\
+        >${privacyPolicy}</a> </div>                                             \
+        \    <div                                                 style=\"margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left\"\
+        > &copy; ${currentYear} ${kohlerCo} </div>                               \
+        \              </td>                                             <td width=\"\
+        175\" height=\"77\" align=\"right\" valign=\"middle\" bgcolor=\"#222222\"\
+        >                                                 <a href=\"#\" title=\"THE\
+        \ BOLD LOOK OF KOHLER\" style=\"display:block\" target=\"_blank\" data-saferedirecturl=\"\
+        https://www.google.com/url?q=http://www.us.kohler.com/us/&amp;source=gmail&amp;ust=1534830844275000&amp;usg=AFQjCNHhFlvs5CJ9jVPVwaOysBG86UAl6w\"\
+        >                                                 <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"120\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                         </tr>      \
+        \                               </tbody>                                 </table>\
+        \                             </td>                         </tr>        \
+        \             </tbody>                 </table>             </td>        \
+        \ </tr>     </tbody> </table>", 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/home/download.png',
+      Privacy Policy, 'mailto:kohler.plumbing@kohler.com?subject=Feedback', Kohler
+        Co., Digital Showering Campaign, Form Details, Name, Email, Mobile, Feedback,
+      'https://www.corporate.kohler.com/privacy-statement', Digital Showering Campaign
+        Enquiry, 'vicky.chan@kohler.com.cn,cynthia.yuen@kohler.com.cn', ahrtp8qnaz0btjugcibb65ac,
+      zS51Dqo6FyT2YRmgA2epGPJE, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.auth.marketingcloudapis.com/v2/token',
+      2C464AD3-3825-4D31-8A22-2165EB4792AB, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/dataextensions/key:{0}/rows',
+      'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/{0}/results',
+      Name, Email, Mobile, Please enter your name, Make an appointment for one-on-one
+        consultation, We will contact you soon., Thank you for your enquiry!, 'What
+        is your plan for bathroom fixtures?', 'Replace existing shower products,Entire
+        bathroom renovation', 'Why are you interested in Kohler products?', 'Advanced
+        electronic smart shower function,Featured spray mode,Appearance design', Please
+        select your plan for bathroom fixtures, Please select product you are interested
+        in]
+    resourcebundle:messages_en_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_in_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_HK: [kohlerhongkong@kohler.com, 'Something went wrong,
+        please try after sometime', HK Digital Showroom SFMC Api Error, 'VICKY.CHAN@kohler.com,ROSE.LI@kohler.com.cn,SARAH.NG@kohler.com.cn',
+      'Hi Team,<br/> We found the customer is unable to register the product due to
+        &nbsp;', <br />Please find the customer details below<br />, 'Name:-', '<br/>Email
+        Id:-', '<br/>Contact No:-', SFMC Campaign Token API Down.</br>, SFMC Campaign
+        Form Data API down.<br/>, SFMC Campaign Result API down.<br/>, "<table width=\"\
+        100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">     <tbody>     \
+        \    <tr>             <td align=\"center\" valign=\"top\">               \
+        \  <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\
+        \                     <tbody>                         <tr>               \
+        \              <td height=\"91\" colspan=\"3\">                          \
+        \       <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" bgcolor=\"#222222\">                                     <tbody>     \
+        \                                    <tr>                                \
+        \             <td width=\"18\" height=\"91\" rowspan=\"2\">&nbsp;</td>   \
+        \                                          <td width=\"160\" height=\"91\"\
+        \ rowspan=\"2\" align=\"left\" valign=\"middle\">                        \
+        \                         <a href=\"#\" title=\"THE BOLD LOOK OF KOHLER\"\
+        \ style=\"display:block;color:#ffffff\" target=\"_blank\"> <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"159\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"504\" height=\"74\" align=\"right\"\
+        \ valign=\"bottom\" style=\"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px\"\
+        >${contactForm}</td>                                             <td width=\"\
+        18\" height=\"91\" rowspan=\"2\">&nbsp;</td>                             \
+        \            </tr>                                         <tr>          \
+        \                                   <td width=\"519\" height=\"17\">&nbsp;</td>\
+        \                                         </tr>                          \
+        \           </tbody>                                 </table>            \
+        \                 </td>                         </tr>                    \
+        \     <tr>                             <td colspan=\"3\">                \
+        \                 <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                     <tbody>                         \
+        \                <tr>                                             <td width=\"\
+        700\" align=\"left\" valign=\"top\">                                     \
+        \            <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                                     <tbody>         \
+        \                                                <tr style=\" \">        \
+        \                                                     <td height=\"30\" width=\"\
+        \" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:\
+        \ 10px;\">&nbsp; </td>                                                   \
+        \      </tr>                                                         <tr style=\"\
+        \ \">                                                             <td height=\"\
+        35\" width=\"\" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:\
+        \ #eee;padding-left: 10px;\"> <strong>${contactFormDetails}</strong> </td>\
+        \                                                         </tr> \t\t\t\t\t\
+        \t\t\t\t\t\t\t\t\t<tr>                                                   \
+        \          <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${bathroomFixturesLabel}</td>                                  \
+        \                           <td width=\"65%\" height=\"35\" align=\"left\"\
+        \ valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${bathroomFixtures}</td>                                                \
+        \         </tr> \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>                         \
+        \                                    <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;background: #eeeeee;\">${kohlerProductsLabel}</td>                \
+        \                                             <td width=\"65%\" height=\"\
+        35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\">${kohlerProducts}</td>                                      \
+        \                   </tr>                                                \
+        \         <tr>                                                           \
+        \  <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"\
+        font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${firstName}</td>                                              \
+        \               <td width=\"65%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${firstNameValue}</td>                                                  \
+        \       </tr>                                                         <tr>\
+        \                                                             <td width=\"\
+        35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;padding-left: 10px;\">${emailAddress}</td>                     \
+        \                                        <td width=\"65%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\"><a href=\"${emailAddressValue}\">${emailAddressValue}</a></td>\
+        \                                                         </tr>          \
+        \                                               <tr>                     \
+        \                                        <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${mobileNumber}</td>                                           \
+        \                  <td width=\"65%\" height=\"35\" align=\"left\" valign=\"\
+        middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px\"\
+        >${mobileNumberValue}</td>                                               \
+        \          </tr>                                                     </tbody>\
+        \                                                 </table>               \
+        \                              </td>                                     \
+        \    </tr>                                     </tbody>                  \
+        \               </table>                             </td>               \
+        \          </tr>                         <tr>                            \
+        \ <td height=\"77\" colspan=\"3\" style=\"                             \"\
+        >                                 <table width=\"700\" border=\"0\" cellspacing=\"\
+        0\" cellpadding=\"0\" bgcolor=\"#222222\">                               \
+        \      <tbody>                                         <tr>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                             <td width=\"\
+        489\" height=\"77\" align=\"left\" valign=\"middle\" bgcolor=\"#222222\">\
+        \                                                 <div style=\"font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px\"\
+        > <a href=\"${feedbackURL}\" style=\"color:#ffffff\" target=\"_blank\">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;\
+        \ <a href=\"${privacyPolicyURL}\" style=\"color:#ffffff\" target=\"_blank\"\
+        >${privacyPolicy}</a> </div>                                             \
+        \    <div                                                 style=\"margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left\"\
+        > &copy; ${currentYear} ${kohlerCo} </div>                               \
+        \              </td>                                             <td width=\"\
+        175\" height=\"77\" align=\"right\" valign=\"middle\" bgcolor=\"#222222\"\
+        >                                                 <a href=\"#\" title=\"THE\
+        \ BOLD LOOK OF KOHLER\" style=\"display:block\" target=\"_blank\" data-saferedirecturl=\"\
+        https://www.google.com/url?q=http://www.us.kohler.com/us/&amp;source=gmail&amp;ust=1534830844275000&amp;usg=AFQjCNHhFlvs5CJ9jVPVwaOysBG86UAl6w\"\
+        >                                                 <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"120\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                         </tr>      \
+        \                               </tbody>                                 </table>\
+        \                             </td>                         </tr>        \
+        \             </tbody>                 </table>             </td>        \
+        \ </tr>     </tbody> </table>", 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/home/download.png',
+      Privacy Policy, 'mailto:kohler.plumbing@kohler.com?subject=Feedback', Kohler
+        Co., Digital Showering Campaign, Form Details, Name, Email, Mobile, Feedback,
+      'https://www.corporate.kohler.com/privacy-statement', Digital Showering Campaign
+        Enquiry, 'vicky.chan@kohler.com.cn,cynthia.yuen@kohler.com.cn', ahrtp8qnaz0btjugcibb65ac,
+      zS51Dqo6FyT2YRmgA2epGPJE, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.auth.marketingcloudapis.com/v2/token',
+      2C464AD3-3825-4D31-8A22-2165EB4792AB, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/dataextensions/key:{0}/rows',
+      'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/{0}/results',
+      姓名​, 電郵, 手提電話​, Please enter your name, 預約專人一對一諮詢, 我們將盡快與您聯繫。, 感謝您的查詢!, 閣下對於浴裝置有什麼計劃/打算？,
+      '更換現有的淋浴產品,整個浴室裝修', '你對kohler產品有興趣的原因?', '先進電子智能淋浴功能,特色噴灑模式,外觀設計', Please select
+        your plan for bathroom fixtures, Please select product you are interested
+        in]
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  /sfmc-campaign[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 975166f7-f5ae-495f-9bae-de30387d0b4b
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-08T11:38:06.347+05:30
+    hippostdpubwf:lastModificationDate: 2024-07-22T12:40:24.524+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 556fdf25-23bc-444d-bfa0-2b03a00ad302
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:id: sfmc-campaign-bundle
+    resourcebundle:keys: [sfmc-campaign-sender-email-id, sfmc-campaign-api-user-error-message,
+      sfmc-campaign-api-email-error-subject, sfmc-campaign-error-receiver-email-id,
+      sfmc-campaign-error-email-body-part1, sfmc-campaign-error-email-body-part2,
+      sfmc-campaign-error-email-name-label, sfmc-campaign-error-email-label, sfmc-campaign-error-email-phone-label,
+      sfmc-campaign-token-api-error-message, sfmc-campaign-form-data-api-error-message,
+      sfmc-campaign-result-api-error-message, sfmc-campaign-kohler-template, sfmc-campaign-email-template-logo,
+      sfmc-campaign-privacy-policy, sfmc-campaign-feedback-url, sfmc-campaign-kohler-co-label,
+      sfmc-campaign-email-template-title, sfmc-campaign-email-template-form-detail-label,
+      sfmc-campaign-email-template-name-label, sfmc-campaign-email-label, sfmc-campaign-email-template-mobile-label,
+      sfmc-campaign-feedback-label, sfmc-campaign-privacy-url, sfmc-campaign-email-template-subject,
+      sfmc-campaign-template-receiver-email-id, sfmc-campaign-client-id, sfmc-campaign-client-secret-id,
+      smfc-campaign-token-end-point, sfmc-campaign-data-extension-key, sfmc-campaign-form-data-end-point,
+      sfmc-campaign-result-end-point, sfmc-campaign-form-template-name, sfmc-campaign-form-template-email,
+      sfmc-campaign-form-template-mobile, sfmc-digital-form-name-error-message, sfmc-campaign-form-heading,
+      sfmc-campaign-thankyou-Message, sfmc-campaign-thankyou-header, sfmc-campaing-bathroom-fixture-label,
+      sfmc-campaing-bathroom-fixture-options, sfmc-campaing-interested-product-label,
+      sfmc-campaign-interested-product-dropdown-options, sfmc-campaign-bathroom-fixture-error-message,
+      sfmc-campaign-interested-product-error-message]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_HK: [kohlerhongkong@kohler.com, 'Something went wrong,
+        please try after sometime', HK Digital Showroom SFMC Api Error, 'VICKY.CHAN@kohler.com,ROSE.LI@kohler.com.cn,SARAH.NG@kohler.com.cn',
+      'Hi Team,<br/> We found the customer is unable to register the product due to
+        &nbsp;', <br />Please find the customer details below<br />, 'Name:-', '<br/>Email
+        Id:-', '<br/>Contact No:-', SFMC Campaign Token API Down.</br>, SFMC Campaign
+        Form Data API down.<br/>, SFMC Campaign Result API down.<br/>, "<table width=\"\
+        100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">     <tbody>     \
+        \    <tr>             <td align=\"center\" valign=\"top\">               \
+        \  <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\
+        \                     <tbody>                         <tr>               \
+        \              <td height=\"91\" colspan=\"3\">                          \
+        \       <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" bgcolor=\"#222222\">                                     <tbody>     \
+        \                                    <tr>                                \
+        \             <td width=\"18\" height=\"91\" rowspan=\"2\">&nbsp;</td>   \
+        \                                          <td width=\"160\" height=\"91\"\
+        \ rowspan=\"2\" align=\"left\" valign=\"middle\">                        \
+        \                         <a href=\"#\" title=\"THE BOLD LOOK OF KOHLER\"\
+        \ style=\"display:block;color:#ffffff\" target=\"_blank\"> <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"159\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"504\" height=\"74\" align=\"right\"\
+        \ valign=\"bottom\" style=\"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px\"\
+        >${contactForm}</td>                                             <td width=\"\
+        18\" height=\"91\" rowspan=\"2\">&nbsp;</td>                             \
+        \            </tr>                                         <tr>          \
+        \                                   <td width=\"519\" height=\"17\">&nbsp;</td>\
+        \                                         </tr>                          \
+        \           </tbody>                                 </table>            \
+        \                 </td>                         </tr>                    \
+        \     <tr>                             <td colspan=\"3\">                \
+        \                 <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                     <tbody>                         \
+        \                <tr>                                             <td width=\"\
+        700\" align=\"left\" valign=\"top\">                                     \
+        \            <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                                     <tbody>         \
+        \                                                <tr style=\" \">        \
+        \                                                     <td height=\"30\" width=\"\
+        \" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:\
+        \ 10px;\">&nbsp; </td>                                                   \
+        \      </tr>                                                         <tr style=\"\
+        \ \">                                                             <td height=\"\
+        35\" width=\"\" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:\
+        \ #eee;padding-left: 10px;\"> <strong>${contactFormDetails}</strong> </td>\
+        \                                                         </tr> \t\t\t\t\t\
+        \t\t\t\t\t\t\t\t\t<tr>                                                   \
+        \          <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${bathroomFixturesLabel}</td>                                  \
+        \                           <td width=\"65%\" height=\"35\" align=\"left\"\
+        \ valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${bathroomFixtures}</td>                                                \
+        \         </tr> \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>                         \
+        \                                    <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;background: #eeeeee;\">${kohlerProductsLabel}</td>                \
+        \                                             <td width=\"65%\" height=\"\
+        35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\">${kohlerProducts}</td>                                      \
+        \                   </tr>                                                \
+        \         <tr>                                                           \
+        \  <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"\
+        font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${firstName}</td>                                              \
+        \               <td width=\"65%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${firstNameValue}</td>                                                  \
+        \       </tr>                                                         <tr>\
+        \                                                             <td width=\"\
+        35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;padding-left: 10px;\">${emailAddress}</td>                     \
+        \                                        <td width=\"65%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\"><a href=\"${emailAddressValue}\">${emailAddressValue}</a></td>\
+        \                                                         </tr>          \
+        \                                               <tr>                     \
+        \                                        <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${mobileNumber}</td>                                           \
+        \                  <td width=\"65%\" height=\"35\" align=\"left\" valign=\"\
+        middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px\"\
+        >${mobileNumberValue}</td>                                               \
+        \          </tr>                                                     </tbody>\
+        \                                                 </table>               \
+        \                              </td>                                     \
+        \    </tr>                                     </tbody>                  \
+        \               </table>                             </td>               \
+        \          </tr>                         <tr>                            \
+        \ <td height=\"77\" colspan=\"3\" style=\"                             \"\
+        >                                 <table width=\"700\" border=\"0\" cellspacing=\"\
+        0\" cellpadding=\"0\" bgcolor=\"#222222\">                               \
+        \      <tbody>                                         <tr>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                             <td width=\"\
+        489\" height=\"77\" align=\"left\" valign=\"middle\" bgcolor=\"#222222\">\
+        \                                                 <div style=\"font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px\"\
+        > <a href=\"${feedbackURL}\" style=\"color:#ffffff\" target=\"_blank\">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;\
+        \ <a href=\"${privacyPolicyURL}\" style=\"color:#ffffff\" target=\"_blank\"\
+        >${privacyPolicy}</a> </div>                                             \
+        \    <div                                                 style=\"margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left\"\
+        > &copy; ${currentYear} ${kohlerCo} </div>                               \
+        \              </td>                                             <td width=\"\
+        175\" height=\"77\" align=\"right\" valign=\"middle\" bgcolor=\"#222222\"\
+        >                                                 <a href=\"#\" title=\"THE\
+        \ BOLD LOOK OF KOHLER\" style=\"display:block\" target=\"_blank\" data-saferedirecturl=\"\
+        https://www.google.com/url?q=http://www.us.kohler.com/us/&amp;source=gmail&amp;ust=1534830844275000&amp;usg=AFQjCNHhFlvs5CJ9jVPVwaOysBG86UAl6w\"\
+        >                                                 <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"120\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                         </tr>      \
+        \                               </tbody>                                 </table>\
+        \                             </td>                         </tr>        \
+        \             </tbody>                 </table>             </td>        \
+        \ </tr>     </tbody> </table>", 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/home/download.png',
+      Privacy Policy, 'mailto:kohler.plumbing@kohler.com?subject=Feedback', Kohler
+        Co., Digital Showering Campaign, Form Details, Name, Email, Mobile, Feedback,
+      'https://www.corporate.kohler.com/privacy-statement', Digital Showering Campaign
+        Enquiry, 'vicky.chan@kohler.com.cn,cynthia.yuen@kohler.com.cn', ahrtp8qnaz0btjugcibb65ac,
+      zS51Dqo6FyT2YRmgA2epGPJE, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.auth.marketingcloudapis.com/v2/token',
+      2C464AD3-3825-4D31-8A22-2165EB4792AB, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/dataextensions/key:{0}/rows',
+      'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/{0}/results',
+      Name, Email, Mobile, Please enter your name, Make an appointment for one-on-one
+        consultation, We will contact you soon., Thank you for your enquiry!, 'What
+        is your plan for bathroom fixtures?', 'Replace existing shower products,Entire
+        bathroom renovation', 'Why are you interested in Kohler products?', 'Advanced
+        electronic smart shower function,Featured spray mode,Appearance design', Please
+        select your plan for bathroom fixtures, Please select product you are interested
+        in]
+    resourcebundle:messages_en_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_in_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_HK: [kohlerhongkong@kohler.com, 'Something went wrong,
+        please try after sometime', HK Digital Showroom SFMC Api Error, 'VICKY.CHAN@kohler.com,ROSE.LI@kohler.com.cn,SARAH.NG@kohler.com.cn',
+      'Hi Team,<br/> We found the customer is unable to register the product due to
+        &nbsp;', <br />Please find the customer details below<br />, 'Name:-', '<br/>Email
+        Id:-', '<br/>Contact No:-', SFMC Campaign Token API Down.</br>, SFMC Campaign
+        Form Data API down.<br/>, SFMC Campaign Result API down.<br/>, "<table width=\"\
+        100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">     <tbody>     \
+        \    <tr>             <td align=\"center\" valign=\"top\">               \
+        \  <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\
+        \                     <tbody>                         <tr>               \
+        \              <td height=\"91\" colspan=\"3\">                          \
+        \       <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" bgcolor=\"#222222\">                                     <tbody>     \
+        \                                    <tr>                                \
+        \             <td width=\"18\" height=\"91\" rowspan=\"2\">&nbsp;</td>   \
+        \                                          <td width=\"160\" height=\"91\"\
+        \ rowspan=\"2\" align=\"left\" valign=\"middle\">                        \
+        \                         <a href=\"#\" title=\"THE BOLD LOOK OF KOHLER\"\
+        \ style=\"display:block;color:#ffffff\" target=\"_blank\"> <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"159\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"504\" height=\"74\" align=\"right\"\
+        \ valign=\"bottom\" style=\"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px\"\
+        >${contactForm}</td>                                             <td width=\"\
+        18\" height=\"91\" rowspan=\"2\">&nbsp;</td>                             \
+        \            </tr>                                         <tr>          \
+        \                                   <td width=\"519\" height=\"17\">&nbsp;</td>\
+        \                                         </tr>                          \
+        \           </tbody>                                 </table>            \
+        \                 </td>                         </tr>                    \
+        \     <tr>                             <td colspan=\"3\">                \
+        \                 <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                     <tbody>                         \
+        \                <tr>                                             <td width=\"\
+        700\" align=\"left\" valign=\"top\">                                     \
+        \            <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                                     <tbody>         \
+        \                                                <tr style=\" \">        \
+        \                                                     <td height=\"30\" width=\"\
+        \" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:\
+        \ 10px;\">&nbsp; </td>                                                   \
+        \      </tr>                                                         <tr style=\"\
+        \ \">                                                             <td height=\"\
+        35\" width=\"\" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:\
+        \ #eee;padding-left: 10px;\"> <strong>${contactFormDetails}</strong> </td>\
+        \                                                         </tr> \t\t\t\t\t\
+        \t\t\t\t\t\t\t\t\t<tr>                                                   \
+        \          <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${bathroomFixturesLabel}</td>                                  \
+        \                           <td width=\"65%\" height=\"35\" align=\"left\"\
+        \ valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${bathroomFixtures}</td>                                                \
+        \         </tr> \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>                         \
+        \                                    <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;background: #eeeeee;\">${kohlerProductsLabel}</td>                \
+        \                                             <td width=\"65%\" height=\"\
+        35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\">${kohlerProducts}</td>                                      \
+        \                   </tr>                                                \
+        \         <tr>                                                           \
+        \  <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"\
+        font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${firstName}</td>                                              \
+        \               <td width=\"65%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${firstNameValue}</td>                                                  \
+        \       </tr>                                                         <tr>\
+        \                                                             <td width=\"\
+        35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;padding-left: 10px;\">${emailAddress}</td>                     \
+        \                                        <td width=\"65%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\"><a href=\"${emailAddressValue}\">${emailAddressValue}</a></td>\
+        \                                                         </tr>          \
+        \                                               <tr>                     \
+        \                                        <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${mobileNumber}</td>                                           \
+        \                  <td width=\"65%\" height=\"35\" align=\"left\" valign=\"\
+        middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px\"\
+        >${mobileNumberValue}</td>                                               \
+        \          </tr>                                                     </tbody>\
+        \                                                 </table>               \
+        \                              </td>                                     \
+        \    </tr>                                     </tbody>                  \
+        \               </table>                             </td>               \
+        \          </tr>                         <tr>                            \
+        \ <td height=\"77\" colspan=\"3\" style=\"                             \"\
+        >                                 <table width=\"700\" border=\"0\" cellspacing=\"\
+        0\" cellpadding=\"0\" bgcolor=\"#222222\">                               \
+        \      <tbody>                                         <tr>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                             <td width=\"\
+        489\" height=\"77\" align=\"left\" valign=\"middle\" bgcolor=\"#222222\">\
+        \                                                 <div style=\"font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px\"\
+        > <a href=\"${feedbackURL}\" style=\"color:#ffffff\" target=\"_blank\">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;\
+        \ <a href=\"${privacyPolicyURL}\" style=\"color:#ffffff\" target=\"_blank\"\
+        >${privacyPolicy}</a> </div>                                             \
+        \    <div                                                 style=\"margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left\"\
+        > &copy; ${currentYear} ${kohlerCo} </div>                               \
+        \              </td>                                             <td width=\"\
+        175\" height=\"77\" align=\"right\" valign=\"middle\" bgcolor=\"#222222\"\
+        >                                                 <a href=\"#\" title=\"THE\
+        \ BOLD LOOK OF KOHLER\" style=\"display:block\" target=\"_blank\" data-saferedirecturl=\"\
+        https://www.google.com/url?q=http://www.us.kohler.com/us/&amp;source=gmail&amp;ust=1534830844275000&amp;usg=AFQjCNHhFlvs5CJ9jVPVwaOysBG86UAl6w\"\
+        >                                                 <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"120\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                         </tr>      \
+        \                               </tbody>                                 </table>\
+        \                             </td>                         </tr>        \
+        \             </tbody>                 </table>             </td>        \
+        \ </tr>     </tbody> </table>", 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/home/download.png',
+      Privacy Policy, 'mailto:kohler.plumbing@kohler.com?subject=Feedback', Kohler
+        Co., Digital Showering Campaign, Form Details, Name, Email, Mobile, Feedback,
+      'https://www.corporate.kohler.com/privacy-statement', Digital Showering Campaign
+        Enquiry, 'vicky.chan@kohler.com.cn,cynthia.yuen@kohler.com.cn', ahrtp8qnaz0btjugcibb65ac,
+      zS51Dqo6FyT2YRmgA2epGPJE, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.auth.marketingcloudapis.com/v2/token',
+      2C464AD3-3825-4D31-8A22-2165EB4792AB, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/dataextensions/key:{0}/rows',
+      'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/{0}/results',
+      姓名​, 電郵, 手提電話​, Please enter your name, 預約專人一對一諮詢, 我們將盡快與您聯繫。, 感謝您的查詢!, 閣下對於浴裝置有什麼計劃/打算？,
+      '更換現有的淋浴產品,整個浴室裝修', '你對kohler產品有興趣的原因?', '先進電子智能淋浴功能,特色噴灑模式,外觀設計', Please select
+        your plan for bathroom fixtures, Please select product you are interested
+        in]
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  /sfmc-campaign[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0a3317b9-067a-44f5-a77e-8ffdf22a727d
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-08T11:38:06.347+05:30
+    hippostdpubwf:lastModificationDate: 2024-07-22T12:40:35.544+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2024-07-22T12:40:37.050+02:00
+    hippotranslation:id: 556fdf25-23bc-444d-bfa0-2b03a00ad302
+    hippotranslation:locale: document-type-locale
+    resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:id: sfmc-campaign-bundle
+    resourcebundle:keys: [sfmc-campaign-sender-email-id, sfmc-campaign-api-user-error-message,
+      sfmc-campaign-api-email-error-subject, sfmc-campaign-error-receiver-email-id,
+      sfmc-campaign-error-email-body-part1, sfmc-campaign-error-email-body-part2,
+      sfmc-campaign-error-email-name-label, sfmc-campaign-error-email-label, sfmc-campaign-error-email-phone-label,
+      sfmc-campaign-token-api-error-message, sfmc-campaign-form-data-api-error-message,
+      sfmc-campaign-result-api-error-message, sfmc-campaign-kohler-template, sfmc-campaign-email-template-logo,
+      sfmc-campaign-privacy-policy, sfmc-campaign-feedback-url, sfmc-campaign-kohler-co-label,
+      sfmc-campaign-email-template-title, sfmc-campaign-email-template-form-detail-label,
+      sfmc-campaign-email-template-name-label, sfmc-campaign-email-label, sfmc-campaign-email-template-mobile-label,
+      sfmc-campaign-feedback-label, sfmc-campaign-privacy-url, sfmc-campaign-email-template-subject,
+      sfmc-campaign-template-receiver-email-id, sfmc-campaign-client-id, sfmc-campaign-client-secret-id,
+      smfc-campaign-token-end-point, sfmc-campaign-data-extension-key, sfmc-campaign-form-data-end-point,
+      sfmc-campaign-result-end-point, sfmc-campaign-form-template-name, sfmc-campaign-form-template-email,
+      sfmc-campaign-form-template-mobile, sfmc-digital-form-name-error-message, sfmc-campaign-form-heading,
+      sfmc-campaign-thankyou-Message, sfmc-campaign-thankyou-header, sfmc-campaing-bathroom-fixture-label,
+      sfmc-campaing-bathroom-fixture-options, sfmc-campaing-interested-product-label,
+      sfmc-campaign-interested-product-dropdown-options, sfmc-campaign-bathroom-fixture-error-message,
+      sfmc-campaign-interested-product-error-message]
+    resourcebundle:messages: ['', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_HK: [kohlerhongkong@kohler.com, 'Something went wrong,
+        please try after sometime', HK Digital Showroom SFMC Api Error, 'VICKY.CHAN@kohler.com,ROSE.LI@kohler.com.cn,SARAH.NG@kohler.com.cn',
+      'Hi Team,<br/> We found the customer is unable to register the product due to
+        &nbsp;', <br />Please find the customer details below<br />, 'Name:-', '<br/>Email
+        Id:-', '<br/>Contact No:-', SFMC Campaign Token API Down.</br>, SFMC Campaign
+        Form Data API down.<br/>, SFMC Campaign Result API down.<br/>, "<table width=\"\
+        100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">     <tbody>     \
+        \    <tr>             <td align=\"center\" valign=\"top\">               \
+        \  <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\
+        \                     <tbody>                         <tr>               \
+        \              <td height=\"91\" colspan=\"3\">                          \
+        \       <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" bgcolor=\"#222222\">                                     <tbody>     \
+        \                                    <tr>                                \
+        \             <td width=\"18\" height=\"91\" rowspan=\"2\">&nbsp;</td>   \
+        \                                          <td width=\"160\" height=\"91\"\
+        \ rowspan=\"2\" align=\"left\" valign=\"middle\">                        \
+        \                         <a href=\"#\" title=\"THE BOLD LOOK OF KOHLER\"\
+        \ style=\"display:block;color:#ffffff\" target=\"_blank\"> <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"159\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"504\" height=\"74\" align=\"right\"\
+        \ valign=\"bottom\" style=\"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px\"\
+        >${contactForm}</td>                                             <td width=\"\
+        18\" height=\"91\" rowspan=\"2\">&nbsp;</td>                             \
+        \            </tr>                                         <tr>          \
+        \                                   <td width=\"519\" height=\"17\">&nbsp;</td>\
+        \                                         </tr>                          \
+        \           </tbody>                                 </table>            \
+        \                 </td>                         </tr>                    \
+        \     <tr>                             <td colspan=\"3\">                \
+        \                 <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                     <tbody>                         \
+        \                <tr>                                             <td width=\"\
+        700\" align=\"left\" valign=\"top\">                                     \
+        \            <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                                     <tbody>         \
+        \                                                <tr style=\" \">        \
+        \                                                     <td height=\"30\" width=\"\
+        \" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:\
+        \ 10px;\">&nbsp; </td>                                                   \
+        \      </tr>                                                         <tr style=\"\
+        \ \">                                                             <td height=\"\
+        35\" width=\"\" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:\
+        \ #eee;padding-left: 10px;\"> <strong>${contactFormDetails}</strong> </td>\
+        \                                                         </tr> \t\t\t\t\t\
+        \t\t\t\t\t\t\t\t\t<tr>                                                   \
+        \          <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${bathroomFixturesLabel}</td>                                  \
+        \                           <td width=\"65%\" height=\"35\" align=\"left\"\
+        \ valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${bathroomFixtures}</td>                                                \
+        \         </tr> \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>                         \
+        \                                    <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;background: #eeeeee;\">${kohlerProductsLabel}</td>                \
+        \                                             <td width=\"65%\" height=\"\
+        35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\">${kohlerProducts}</td>                                      \
+        \                   </tr>                                                \
+        \         <tr>                                                           \
+        \  <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"\
+        font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${firstName}</td>                                              \
+        \               <td width=\"65%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${firstNameValue}</td>                                                  \
+        \       </tr>                                                         <tr>\
+        \                                                             <td width=\"\
+        35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;padding-left: 10px;\">${emailAddress}</td>                     \
+        \                                        <td width=\"65%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\"><a href=\"${emailAddressValue}\">${emailAddressValue}</a></td>\
+        \                                                         </tr>          \
+        \                                               <tr>                     \
+        \                                        <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${mobileNumber}</td>                                           \
+        \                  <td width=\"65%\" height=\"35\" align=\"left\" valign=\"\
+        middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px\"\
+        >${mobileNumberValue}</td>                                               \
+        \          </tr>                                                     </tbody>\
+        \                                                 </table>               \
+        \                              </td>                                     \
+        \    </tr>                                     </tbody>                  \
+        \               </table>                             </td>               \
+        \          </tr>                         <tr>                            \
+        \ <td height=\"77\" colspan=\"3\" style=\"                             \"\
+        >                                 <table width=\"700\" border=\"0\" cellspacing=\"\
+        0\" cellpadding=\"0\" bgcolor=\"#222222\">                               \
+        \      <tbody>                                         <tr>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                             <td width=\"\
+        489\" height=\"77\" align=\"left\" valign=\"middle\" bgcolor=\"#222222\">\
+        \                                                 <div style=\"font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px\"\
+        > <a href=\"${feedbackURL}\" style=\"color:#ffffff\" target=\"_blank\">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;\
+        \ <a href=\"${privacyPolicyURL}\" style=\"color:#ffffff\" target=\"_blank\"\
+        >${privacyPolicy}</a> </div>                                             \
+        \    <div                                                 style=\"margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left\"\
+        > &copy; ${currentYear} ${kohlerCo} </div>                               \
+        \              </td>                                             <td width=\"\
+        175\" height=\"77\" align=\"right\" valign=\"middle\" bgcolor=\"#222222\"\
+        >                                                 <a href=\"#\" title=\"THE\
+        \ BOLD LOOK OF KOHLER\" style=\"display:block\" target=\"_blank\" data-saferedirecturl=\"\
+        https://www.google.com/url?q=http://www.us.kohler.com/us/&amp;source=gmail&amp;ust=1534830844275000&amp;usg=AFQjCNHhFlvs5CJ9jVPVwaOysBG86UAl6w\"\
+        >                                                 <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"120\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                         </tr>      \
+        \                               </tbody>                                 </table>\
+        \                             </td>                         </tr>        \
+        \             </tbody>                 </table>             </td>        \
+        \ </tr>     </tbody> </table>", 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/home/download.png',
+      Privacy Policy, 'mailto:kohler.plumbing@kohler.com?subject=Feedback', Kohler
+        Co., Digital Showering Campaign, Form Details, Name, Email, Mobile, Feedback,
+      'https://www.corporate.kohler.com/privacy-statement', Digital Showering Campaign
+        Enquiry, 'vicky.chan@kohler.com.cn,cynthia.yuen@kohler.com.cn', ahrtp8qnaz0btjugcibb65ac,
+      zS51Dqo6FyT2YRmgA2epGPJE, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.auth.marketingcloudapis.com/v2/token',
+      2C464AD3-3825-4D31-8A22-2165EB4792AB, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/dataextensions/key:{0}/rows',
+      'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/{0}/results',
+      Name, Email, Mobile, Please enter your name, Make an appointment for one-on-one
+        consultation, We will contact you soon., Thank you for your enquiry!, 'What
+        is your plan for bathroom fixtures?', 'Replace existing shower products,Entire
+        bathroom renovation', 'Why are you interested in Kohler products?', 'Advanced
+        electronic smart shower function,Featured spray mode,Appearance design', Please
+        select your plan for bathroom fixtures, Please select product you are interested
+        in]
+    resourcebundle:messages_en_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_MY: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_PH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_SG: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_en_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_in_ID: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_ko_KR: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_th_TH: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_vi_VN: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    resourcebundle:messages_zh_HK: [kohlerhongkong@kohler.com, 'Something went wrong,
+        please try after sometime', HK Digital Showroom SFMC Api Error, 'VICKY.CHAN@kohler.com,ROSE.LI@kohler.com.cn,SARAH.NG@kohler.com.cn',
+      'Hi Team,<br/> We found the customer is unable to register the product due to
+        &nbsp;', <br />Please find the customer details below<br />, 'Name:-', '<br/>Email
+        Id:-', '<br/>Contact No:-', SFMC Campaign Token API Down.</br>, SFMC Campaign
+        Form Data API down.<br/>, SFMC Campaign Result API down.<br/>, "<table width=\"\
+        100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">     <tbody>     \
+        \    <tr>             <td align=\"center\" valign=\"top\">               \
+        \  <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\
+        \                     <tbody>                         <tr>               \
+        \              <td height=\"91\" colspan=\"3\">                          \
+        \       <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" bgcolor=\"#222222\">                                     <tbody>     \
+        \                                    <tr>                                \
+        \             <td width=\"18\" height=\"91\" rowspan=\"2\">&nbsp;</td>   \
+        \                                          <td width=\"160\" height=\"91\"\
+        \ rowspan=\"2\" align=\"left\" valign=\"middle\">                        \
+        \                         <a href=\"#\" title=\"THE BOLD LOOK OF KOHLER\"\
+        \ style=\"display:block;color:#ffffff\" target=\"_blank\"> <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"159\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"504\" height=\"74\" align=\"right\"\
+        \ valign=\"bottom\" style=\"color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:20px\"\
+        >${contactForm}</td>                                             <td width=\"\
+        18\" height=\"91\" rowspan=\"2\">&nbsp;</td>                             \
+        \            </tr>                                         <tr>          \
+        \                                   <td width=\"519\" height=\"17\">&nbsp;</td>\
+        \                                         </tr>                          \
+        \           </tbody>                                 </table>            \
+        \                 </td>                         </tr>                    \
+        \     <tr>                             <td colspan=\"3\">                \
+        \                 <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                     <tbody>                         \
+        \                <tr>                                             <td width=\"\
+        700\" align=\"left\" valign=\"top\">                                     \
+        \            <table width=\"700\" border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\">                                                     <tbody>         \
+        \                                                <tr style=\" \">        \
+        \                                                     <td height=\"30\" width=\"\
+        \" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;padding-left:\
+        \ 10px;\">&nbsp; </td>                                                   \
+        \      </tr>                                                         <tr style=\"\
+        \ \">                                                             <td height=\"\
+        35\" width=\"\" colspan=\"2\" align=\"left\" valign=\"middle\" style=\"font-size:14px;color:#222222;font-family:Arial,Helvetica,sans-serif;background:\
+        \ #eee;padding-left: 10px;\"> <strong>${contactFormDetails}</strong> </td>\
+        \                                                         </tr> \t\t\t\t\t\
+        \t\t\t\t\t\t\t\t\t<tr>                                                   \
+        \          <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${bathroomFixturesLabel}</td>                                  \
+        \                           <td width=\"65%\" height=\"35\" align=\"left\"\
+        \ valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${bathroomFixtures}</td>                                                \
+        \         </tr> \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>                         \
+        \                                    <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;background: #eeeeee;\">${kohlerProductsLabel}</td>                \
+        \                                             <td width=\"65%\" height=\"\
+        35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\">${kohlerProducts}</td>                                      \
+        \                   </tr>                                                \
+        \         <tr>                                                           \
+        \  <td width=\"35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"\
+        font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${firstName}</td>                                              \
+        \               <td width=\"65%\" height=\"35\" align=\"left\" valign=\"middle\"\
+        \ style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;\"\
+        >${firstNameValue}</td>                                                  \
+        \       </tr>                                                         <tr>\
+        \                                                             <td width=\"\
+        35%\" height=\"35\" align=\"left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;padding-left: 10px;\">${emailAddress}</td>                     \
+        \                                        <td width=\"65%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;background:\
+        \ #eeeeee;\"><a href=\"${emailAddressValue}\">${emailAddressValue}</a></td>\
+        \                                                         </tr>          \
+        \                                               <tr>                     \
+        \                                        <td width=\"35%\" height=\"35\" align=\"\
+        left\" valign=\"middle\" style=\"font-size:13px;color:#222222;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px;padding-left:\
+        \ 10px;\">${mobileNumber}</td>                                           \
+        \                  <td width=\"65%\" height=\"35\" align=\"left\" valign=\"\
+        middle\" style=\"font-size:13px;color:#6f6f6f;font-family:Arial,Helvetica,sans-serif;border-bottom-color:#8099ba;border-bottom-width:1px\"\
+        >${mobileNumberValue}</td>                                               \
+        \          </tr>                                                     </tbody>\
+        \                                                 </table>               \
+        \                              </td>                                     \
+        \    </tr>                                     </tbody>                  \
+        \               </table>                             </td>               \
+        \          </tr>                         <tr>                            \
+        \ <td height=\"77\" colspan=\"3\" style=\"                             \"\
+        >                                 <table width=\"700\" border=\"0\" cellspacing=\"\
+        0\" cellpadding=\"0\" bgcolor=\"#222222\">                               \
+        \      <tbody>                                         <tr>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                             <td width=\"\
+        489\" height=\"77\" align=\"left\" valign=\"middle\" bgcolor=\"#222222\">\
+        \                                                 <div style=\"font-family:Arial,Helvetica,sans-serif;line-height:18px;color:#ffffff;text-align:left;margin:0px;padding:0px;font-size:10px\"\
+        > <a href=\"${feedbackURL}\" style=\"color:#ffffff\" target=\"_blank\">${feedback}</a>&nbsp;&nbsp;/&nbsp;&nbsp;\
+        \ <a href=\"${privacyPolicyURL}\" style=\"color:#ffffff\" target=\"_blank\"\
+        >${privacyPolicy}</a> </div>                                             \
+        \    <div                                                 style=\"margin:0px;font-family:Arial,Helvetica,sans-serif;margin:0px;padding:0px;color:#ffffff;font-size:10px;line-height:15px;text-align:left\"\
+        > &copy; ${currentYear} ${kohlerCo} </div>                               \
+        \              </td>                                             <td width=\"\
+        175\" height=\"77\" align=\"right\" valign=\"middle\" bgcolor=\"#222222\"\
+        >                                                 <a href=\"#\" title=\"THE\
+        \ BOLD LOOK OF KOHLER\" style=\"display:block\" target=\"_blank\" data-saferedirecturl=\"\
+        https://www.google.com/url?q=http://www.us.kohler.com/us/&amp;source=gmail&amp;ust=1534830844275000&amp;usg=AFQjCNHhFlvs5CJ9jVPVwaOysBG86UAl6w\"\
+        >                                                 <img src=\"${kohlerLogo}\"\
+        \ alt=\"THE BOLD LOOK OF KOHLER\" width=\"120\" style=\"display:block\" border=\"\
+        0\"> </a>                                             </td>              \
+        \                               <td width=\"18\" height=\"77\" bgcolor=\"\
+        #222222\">&nbsp;</td>                                         </tr>      \
+        \                               </tbody>                                 </table>\
+        \                             </td>                         </tr>        \
+        \             </tbody>                 </table>             </td>        \
+        \ </tr>     </tbody> </table>", 'https://www.kohlerasiapacific.com/binaries/content/gallery/kohler/home/download.png',
+      Privacy Policy, 'mailto:kohler.plumbing@kohler.com?subject=Feedback', Kohler
+        Co., Digital Showering Campaign, Form Details, Name, Email, Mobile, Feedback,
+      'https://www.corporate.kohler.com/privacy-statement', Digital Showering Campaign
+        Enquiry, 'vicky.chan@kohler.com.cn,cynthia.yuen@kohler.com.cn', ahrtp8qnaz0btjugcibb65ac,
+      zS51Dqo6FyT2YRmgA2epGPJE, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.auth.marketingcloudapis.com/v2/token',
+      2C464AD3-3825-4D31-8A22-2165EB4792AB, 'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/dataextensions/key:{0}/rows',
+      'https://mc8jvpx45nhdkj6mwjgwr7qw4ybm.rest.marketingcloudapis.com/data/v1/async/{0}/results',
+      姓名​, 電郵, 手提電話​, Please enter your name, 預約專人一對一諮詢, 我們將盡快與您聯繫。, 感謝您的查詢!, 閣下對於浴裝置有什麼計劃/打算？,
+      '更換現有的淋浴產品,整個浴室裝修', '你對kohler產品有興趣的原因?', '先進電子智能淋浴功能,特色噴灑模式,外觀設計', Please select
+        your plan for bathroom fixtures, Please select product you are interested
+        in]
+    resourcebundle:messages_zh_TW: ['', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '', '', '', '', '', '', '']

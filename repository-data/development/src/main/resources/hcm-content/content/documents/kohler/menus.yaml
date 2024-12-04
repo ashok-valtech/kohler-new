@@ -1,5 +1,4 @@
 /content/documents/kohler/menus:
-  .meta:order-before: productfacets
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: e2ad7991-7526-4d36-9e00-7c87e6364e8c

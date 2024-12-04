@@ -1,5 +1,4 @@
 /content/documents/kohler/global-projects:
-  .meta:order-before: home
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: b9f85ddb-7015-47e5-af2a-a5a747abdc8d
@@ -2510,7 +2509,6 @@
         hippo:docbase: cc59c8ad-1289-4579-95c4-f4b34eedd9c5
   /global-project-facets:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 40
     hippo:docbase: b9f85ddb-7015-47e5-af2a-a5a747abdc8d
     hippofacnav:facetnodenames: ['Country${sortby:''facetvalue'', sortorder:''ascending''}',
       Filters]

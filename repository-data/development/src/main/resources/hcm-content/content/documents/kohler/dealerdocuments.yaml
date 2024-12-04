@@ -1,5 +1,4 @@
 /content/documents/kohler/dealerdocuments:
-  .meta:order-before: faq
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: d82d3dcb-4257-4ce6-8da6-b83d74d519b8
